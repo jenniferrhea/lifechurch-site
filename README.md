@@ -1,4 +1,4 @@
-# Gear website
+# LifeChurch.tv Website
 
 ## Requirements
 
