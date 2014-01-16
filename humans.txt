@@ -1,0 +1,22 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+  Adam Fairhead
+    LifeChurch.tv
+    adam.fairhead@lifechurch.tv
+    http://adamfairhead.com
+    @adamfairhead
+
+  Scott Lesser
+    LifeChurch.tv
+    scott.lesser@lifechurch.tv
+    http://scottlesser.com
+    @okcscott
+
+
+/* SITE */
+
+  Standards: HTML5, CSS3
+  Components: Foundation, Jekyll, jQuery, Reveal
+  Software: Sublime Text, Git
