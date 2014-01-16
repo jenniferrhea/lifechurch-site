@@ -1,0 +1,17 @@
+---
+layout: default
+section: watch
+title: Watch
+---
+
+Watch page
+
+{% for post in site.posts %}
+  <div class="post item">
+    <a href="{{ post.url }}"><div class="">
+      
+      <h4>{{ post.title }}</h4>
+      
+    </div></a>
+  </div>
+{% endfor %}

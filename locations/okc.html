@@ -1,0 +1,16 @@
+---
+layout: default
+section: locations
+title: Oklahoma City Campus
+---
+
+{% for location in site.data.locations %}
+{% if location.id == 'okc' %}
+
+
+<h1>{{ location.title }}</h1>
+<p class="lead">{{ location.description }}</p>
+
+
+{% endif %}
+{% endfor %}

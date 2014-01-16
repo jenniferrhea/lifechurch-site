@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.url != '/' %}{{ page.title }} | {% endif %}LifeChurch.tv</title>
+    <link rel="stylesheet" href="/stylesheets/app.css" />
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="large-4 columns">
+        <a href="/">LifeChurch.tv</a>
+      </div>
+      <div class="large-8 columns">
+        <ul class="inline-list">
+          <li><a href="/watch/">Watch</a></li>
+          <li><a href="/locations/">Locations</a></li>
+          <li><a href="/giving/">Giving</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        {{ content }}
+      </div>
+    </div>
+
+    <script src="/bower_components/jquery/jquery.js"></script>
+    <script src="/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
