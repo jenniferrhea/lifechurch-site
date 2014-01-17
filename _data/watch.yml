@@ -1,4 +1,5 @@
-- title: Small Things Big Difference
+- id: small-things-big-difference
+  title: Small Things Big Difference
   open: http://www.apple.com/
   messages:
     - title: Week 1
@@ -11,7 +12,8 @@
       description: Description goes here (3)
       url: http://www.microsoft.com/
 
-- title: Stuff
+- id: stuff
+  title: Stuff
   open: http://www.apple.com/
   messages:
     - title: Week 1

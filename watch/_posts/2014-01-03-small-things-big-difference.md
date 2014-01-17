@@ -1,6 +1,9 @@
 ---
 published: true
 layout: watch
+assets: /watch/assets/2014-stdb/
+stylesheet: true
+javascript: true
 ---
 
 {% for series in site.data.watch %}
