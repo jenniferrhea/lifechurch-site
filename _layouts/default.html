@@ -36,6 +36,7 @@
       </div>
     </header>
 
+    <!-- Tertiary content (Breadcrumb, Resource links, etc.) -->
     <div class="page-tertiary">
       <div class="row">
         <div class="large-8 columns">
@@ -46,7 +47,8 @@
             <a class="current" href="#">{{ page.title }}</a>
           </nav>
         </div>
-        <div class="large-4 columns text-right">
+        <div class="large-4 columns tertiary-resources">
+          <!-- Resources -->
           {% if page.section == "watch" %}{% include watch-resources.html %}{% endif %}
         </div>
       </div>
