@@ -4,14 +4,39 @@ section: watch
 title: Watch
 ---
 
-Watch page
+    <!-- Breadcrumb -->
+    <nav class="breadcrumbs">
+      <a class="current" href="/watch/">Watch</a>
+    </nav>
+  </div>
+</div>
+
+<!-- Featured Slider -->
+<ul class="watch-featured" data-orbit data-options="slide_number:false">
+  <li>
+    <img src="http://placekitten.com/1000/400" alt="Featured image" />
+  </li>
+  <li>
+    <img src="http://placekitten.com/1000/400" alt="Featured image" />
+  </li>
+</ul>
+
+<div class="row">
+  <div class="large-12 columns">
+
+  <div class="row">
+    <div class="large-6 columns">
+      <h3>Archives</h3>
+    </div>
+    <div class="large-6 columns text-right">
+      View All
+    </div>
+  </div>
 
 {% for post in site.posts %}
   <div class="post item">
-    <a href="{{ post.url }}"><div class="">
-      
+    <a href="{{ post.url }}">
       <h4>{{ post.title }}</h4>
-      
-    </div></a>
+    </a>
   </div>
 {% endfor %}

@@ -14,25 +14,46 @@
   </head>
   
   <body>
-    <div class="row">
-      <div class="large-4 columns">
-        <a href="/">LifeChurch.tv</a>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="row">
+        <div class="large-4 columns">
+          <!-- Site Title -->
+          <a href="/">LifeChurch.tv</a>
+        </div>
+        <div class="large-8 columns">
+          <!-- Primary Links -->
+          <nav class="primary-links">
+            <ul class="inline-list">
+              <li><a href="/watch/">Watch</a></li>
+              <li><a href="/locations/">Locations</a></li>
+              <li><a href="/giving/">Giving</a></li>
+              <li><a href="#">More</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="large-8 columns">
-        <ul class="inline-list">
-          <li><a href="/watch/">Watch</a></li>
-          <li><a href="/locations/">Locations</a></li>
-          <li><a href="/giving/">Giving</a></li>
-          <li><a href="#">More</a></li>
-        </ul>
+    </header>
+
+    <!-- Page Main -->
+    <div class="page-main">
+      <div class="row">
+        <div class="large-12 columns">
+          {{ content }}
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-12 columns">
-        {{ content }}
+    <!-- Page Footer -->
+    <footer class="page-footer">
+      <div class="row">
+        <div class="large-12 columns">
+          <hr />
+          Footer content
+        </div>
       </div>
-    </div>
+    </footer>
 
     <script src="/bower_components/jquery/jquery.js"></script>
     <script src="/bower_components/foundation/js/foundation.min.js"></script>
