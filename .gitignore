@@ -15,6 +15,9 @@
 .sass-cache
 .sass-cache/*
 
+Files to ignore
+.Gemfile.lock
+
 # OS or Editor folders
 .DS_Store
 Thumbs.db
