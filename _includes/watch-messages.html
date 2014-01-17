@@ -1,0 +1,8 @@
+<!-- Get the messages out of the series and list them out -->
+{% for message in series.messages %}
+
+<h4>{{ message.title }}</h4>
+<p>{{ message.description }}</p>
+<a href="{{ message.url }}">Play</a>
+
+{% endfor %}

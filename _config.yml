@@ -1,3 +1,4 @@
 baseurl: /
 permalink: /:categories/:title/
 markdown: rdiscount
+excerpt_separator: ""

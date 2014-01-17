@@ -1,8 +1,14 @@
 ---
 published: true
-category: test
 layout: watch
-title: Small Things Big Difference
 ---
 
-<h1>{{ page.title }}</h1>
+{% for series in site.data.watch %}
+{% if series.title == 'Small Things Big Difference' %}
+
+{% include watch-header.html %}
+
+{% include watch-messages.html %}
+
+{% endif %}
+{% endfor %}

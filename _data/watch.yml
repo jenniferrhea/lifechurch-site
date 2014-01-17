@@ -1,0 +1,25 @@
+- title: Small Things Big Difference
+  open: http://www.apple.com/
+  messages:
+    - title: Week 1
+      description: Description goes here
+      url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      url: http://www.google.com/
+    - title: Week 3
+      description: Description goes here (3)
+      url: http://www.microsoft.com/
+
+- title: Stuff
+  open: http://www.apple.com/
+  messages:
+    - title: Week 1
+      description: Description goes here
+      url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      url: http://www.google.com/
+    - title: Week 3
+      description: Description goes here (3)
+      url: http://www.microsoft.com/
