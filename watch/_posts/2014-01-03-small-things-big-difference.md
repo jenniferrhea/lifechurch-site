@@ -1,7 +1,6 @@
 ---
-layout: default
-section: watch
-permalink: /watch/small-things-big-difference/
+published: true
+layout: watch
 ---
 
 {% for series in site.data.watch %}
