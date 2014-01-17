@@ -36,6 +36,28 @@
       </div>
     </header>
 
+    <div class="page-tertiary">
+      <div class="row">
+        <div class="large-8 columns">
+          <!-- Breadcrumb -->
+          <nav class="breadcrumbs">
+            {% if page.section == "locations" %}<a href="/locations/">Locations</a>{% endif %}
+            {% if page.section == "watch" %}<a href="/watch/">Watch</a>{% endif %}
+            <a class="current" href="#">{{ page.title }}</a>
+          </nav>
+        </div>
+        <div class="large-4 columns text-right">
+          {% if page.section == "watch" %}{% include watch-resources.html %}{% endif %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <hr />
+        </div>
+      </div>
+    </div>
+
     <!-- Page Main -->
     <div class="page-main">
       <div class="row">
