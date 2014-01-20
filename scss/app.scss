@@ -73,12 +73,19 @@ $black: #1E1E1E;
     position: relative;
     z-index: 11;
     text-transform: uppercase;
+    
     a {
       color: $black;
       font-weight: bold;
       font-size: rem-calc(14);
       margin-left: 15px;
     }
+  }
+
+  .section-watch .nav-watch a,
+  .section-locations .nav-locations a,
+  .section-giving .nav-giving a {
+    color: $primary-color;
   }
 
 
@@ -100,7 +107,7 @@ $black: #1E1E1E;
   margin-top: -8px;
   width: 66px;
   height: 44px;
-  @include svg-image('/images/branding/logomark-black');
+  @include svg-image('/images/branding/logomark-red');
   background-repeat: no-repeat;
   display: block;
   text-indent: -999em;

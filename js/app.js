@@ -5,7 +5,6 @@ $(document).foundation();
 $(function() {
 
   // "More" panel open/close
-
     
     // Open the more panel
     $( ".primary-links" ).delegate( ".nav-more", "click", function() {
@@ -32,6 +31,22 @@ $(function() {
       $(this).removeClass("nav-close-more").addClass("nav-more");
       $(".nav-more").text("More")
     });
+
+
+  if ($('.section-locator:contains("Locations")').length > 0) {
+    $('.section-locator').remove();
+    $('body').addClass('section-locations');
+  };
+
+  if ($('.section-locator:contains("Watch")').length > 0) {
+    $('.section-locator').remove();
+    $('body').addClass('section-watch');
+  };
+
+  if ($('.section-locator:contains("Giving")').length > 0) {
+    $('.section-locator').remove();
+    $('body').addClass('section-giving');
+  };
 
 
 });
