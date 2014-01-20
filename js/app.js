@@ -33,20 +33,24 @@ $(function() {
     });
 
 
-  if ($('.section-locator:contains("Locations")').length > 0) {
-    $('.section-locator').remove();
-    $('body').addClass('section-locations');
-  };
+  // Add 'section-*' classes on <body>
 
-  if ($('.section-locator:contains("Watch")').length > 0) {
-    $('.section-locator').remove();
-    $('body').addClass('section-watch');
-  };
+    // For Locations
+    if ($('.section-locator:contains("Locations")').length > 0) {
+      $('.section-locator').remove();
+      $('body').addClass('section-locations');
+    };
 
-  if ($('.section-locator:contains("Giving")').length > 0) {
-    $('.section-locator').remove();
-    $('body').addClass('section-giving');
-  };
+    // For Watch
+    if ($('.section-locator:contains("Watch")').length > 0) {
+      $('.section-locator').remove();
+      $('body').addClass('section-watch');
+    };
 
+    // For Giving
+    if ($('.section-locator:contains("Giving")').length > 0) {
+      $('.section-locator').remove();
+      $('body').addClass('section-giving');
+    };
 
 });

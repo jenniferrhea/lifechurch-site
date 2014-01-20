@@ -1,0 +1,93 @@
+// Logo
+.logo {
+  margin-top: -8px;
+  width: 66px;
+  height: 44px;
+  @include svg-image('/images/branding/logomark-red');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -999em;
+  position: relative;
+  z-index: 11;
+  @include transition-property(opacity);
+  @include transition-duration(.25s);
+  &:hover { opacity: .7; }
+}
+
+// Header Section
+.page-header {
+  height: 80px;
+  padding-top: 29px;
+}
+
+// Primary Links
+.primary-links {
+  position: relative;
+  z-index: 11;
+  text-transform: uppercase;
+  a {
+    color: $black;
+    @include transition-property(color);
+    @include transition-duration(.25s);
+    font-weight: bold;
+    font-size: rem-calc(14);
+    margin-left: 15px;
+    &:hover { color: darken($primary-color, 10%); }
+    &:hover .more-line-1,
+    &:hover .more-line-2,
+    &:hover .more-line-3 { background: darken($primary-color, 10%) !important; }
+  }
+}
+
+// "More" link
+.nav-more,
+.nav-close-more {
+  padding-right: 20px;
+}
+
+// "More" hamburger icon
+  .more-line-1,
+  .more-line-2,
+  .more-line-3 {
+    @include transition-property(background);
+    @include transition-property(opacity);
+    @include transition-property(transform);
+    @include transition-duration(.25s);
+    height: 2px;
+    width: 15px;
+    background: $black;
+    display: block;
+    position: absolute;
+    right: 0;
+    opacity: 1;
+  }
+
+  .more-line-1 { top: 6px; }
+  .more-line-2 { top: 10px; }
+  .more-line-3 { top: 14px; }
+
+// "More" close icon formatting
+  .nav-close-more .more-line-1 {
+    opacity: 0;
+    top: 10px;
+  }
+
+  .nav-close-more .more-line-2 {
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg); /* Safari and Chrome */
+  }
+
+  .nav-close-more .more-line-3 {
+    transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg); /* IE 9 */
+    -webkit-transform:rotate(-45deg); /* Safari and Chrome */
+    top: 10px;
+  }
+
+// Set active color on nav items if in the right sections
+.section-watch .nav-watch a,
+.section-locations .nav-locations a,
+.section-giving .nav-giving a {
+  color: $primary-color;
+}

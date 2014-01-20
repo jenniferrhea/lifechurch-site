@@ -1,0 +1,11 @@
+// Watch Feature Slider
+.watch-featured {
+  max-height: 400px !important;
+  overflow: hidden;
+  img { width: 100%; }
+}
+
+// Remove Orbit timers
+.orbit-timer {
+  display: none !important;
+}

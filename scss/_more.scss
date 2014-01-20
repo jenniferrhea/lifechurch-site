@@ -1,0 +1,33 @@
+// "More" navigation
+  .page-more {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 10;
+
+    @media #{$medium-up} {
+      .row {
+        padding: 5px 0;
+      }
+      p {
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  h5 {
+    font-style: italic;
+    color: #929292;
+  }
+
+  .page-more-inner {
+    position: relative;
+    top: 0;
+    top: -5%;
+  }
