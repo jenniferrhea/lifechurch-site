@@ -3,4 +3,8 @@ layout: default
 section: watch
 ---
 
+{% assign series = site.data.watch | find_first : "id", page.series-id %}
+
 {{ content }}
+
+{% include watch-messages.html %}
