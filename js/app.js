@@ -16,7 +16,7 @@ $(function() {
       });
       
       $(this).removeClass("nav-more").addClass("nav-close-more");
-      $(".nav-close-more").text("Close")
+      //$(".nav-close-more").text("Close")
     });
 
     // Close the more panel
@@ -29,7 +29,7 @@ $(function() {
       });
 
       $(this).removeClass("nav-close-more").addClass("nav-more");
-      $(".nav-more").text("More")
+      //$(".nav-more").text("More")
     });
 
 
