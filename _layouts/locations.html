@@ -3,7 +3,7 @@ layout: default
 section: locations
 ---
 
-{% assign location = site.data.watch | find_first : "id", page.location-id %}
+{% assign location = site.data.locations | find_first : "id", page.location-id %}
 
 <!-- Page Main -->
 <div class="page-main">
