@@ -14,21 +14,18 @@ title: Watch
 </ul>
 
 <div class="row">
-  <div class="large-12 columns">
-
-  <div class="row">
-    <div class="large-6 columns">
-      <h3>Archives</h3>
-    </div>
-    <div class="large-6 columns text-right">
-      View All
-    </div>
+  <div class="large-6 columns">
+    <h3>Archives</h3>
   </div>
+  <div class="large-6 columns text-right">
+    View All
+  </div>
+</div>
 
 {% for post in site.categories.watch limit:12 %}
-  <div class="post item">
-    <a href="{{ post.url }}">
-      <h4>{{ post.title }}</h4>
-    </a>
-  </div>
+<div class="post item">
+  <a href="{{ post.url }}">
+    <h4>{{ post.title }}</h4>
+  </a>
+</div>
 {% endfor %}
