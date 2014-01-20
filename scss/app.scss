@@ -1,6 +1,10 @@
 @import "settings";
 @import "foundation";
 
+@import "svgpng";
+
+$black: #1E1E1E;
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
@@ -59,10 +63,22 @@
   }
 
 
+.page-header {
+  height: 80px;
+  padding-top: 29px;
+}
+
 // Primary Links
   .primary-links {
     position: relative;
     z-index: 11;
+    text-transform: uppercase;
+    a {
+      color: $black;
+      font-weight: bold;
+      font-size: rem-calc(14);
+      margin-left: 15px;
+    }
   }
 
 
@@ -76,4 +92,18 @@
 // Remove Orbit timers
 .orbit-timer {
   display: none !important;
+}
+
+
+// Logo
+.logo {
+  margin-top: -8px;
+  width: 66px;
+  height: 44px;
+  @include svg-image('/images/branding/logomark-black');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -999em;
+  position: relative;
+  z-index: 11;
 }

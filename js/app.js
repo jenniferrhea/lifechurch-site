@@ -11,7 +11,7 @@ $(function() {
     $( ".primary-links" ).delegate( ".nav-more", "click", function() {
       $(".page-more").fadeIn();
       $(".page-more-inner").animate({
-        top: '50px'
+        top: '90px'
       }, 500, function() {
         // Animation complete.
       });
