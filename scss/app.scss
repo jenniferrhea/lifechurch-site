@@ -3,6 +3,8 @@
 
 @import "svgpng";
 
+@import "compass/css3/transition";
+
 $black: #1E1E1E;
 
 // Or selectively include components
@@ -54,6 +56,21 @@ $black: #1E1E1E;
     height: 100%;
     background: #fff;
     z-index: 10;
+
+    @media #{$medium-up} {
+      .row {
+        padding: 5px 0;
+      }
+      p {
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  h5 {
+    font-style: italic;
+    color: #929292;
   }
 
   .page-more-inner {
@@ -76,9 +93,12 @@ $black: #1E1E1E;
     
     a {
       color: $black;
+      @include transition-property(color);
+      @include transition-duration(.25s);
       font-weight: bold;
       font-size: rem-calc(14);
       margin-left: 15px;
+      &:hover { color: darken($primary-color, 10%); }
     }
   }
 
@@ -113,4 +133,7 @@ $black: #1E1E1E;
   text-indent: -999em;
   position: relative;
   z-index: 11;
+  @include transition-property(opacity);
+  @include transition-duration(.25s);
+  &:hover { opacity: .7; }
 }
