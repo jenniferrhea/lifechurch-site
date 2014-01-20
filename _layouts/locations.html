@@ -1,0 +1,33 @@
+---
+layout: default
+section: locations
+---
+
+{% assign location = site.data.watch | find_first : "id", page.location-id %}
+
+<!-- Page Main -->
+<div class="page-main">
+  <div class="row">
+    <div class="large-8 large-centered columns">
+      <h1>{{ location.title }}</h1>
+      <p class="lead">{{ location.description }}</p>
+    </div>
+  </div>
+
+  <section class="tiles">
+    <div class="row">
+      <div class="large-12 columns">
+        {{ content }}
+      </div>
+    </div>
+  </section>
+
+  <section class="updates">
+    <div class="row">
+      <div class="large-12 columns">
+        {% include tertiary.html %}
+      </div>
+    </div>
+  </section>
+
+</div>

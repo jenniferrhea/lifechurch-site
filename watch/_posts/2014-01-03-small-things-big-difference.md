@@ -2,6 +2,7 @@
 published: true
 layout: watch
 section: watch
+categories: watch
 assets: /watch/assets/2014-stdb/
 stylesheet: true
 javascript: true

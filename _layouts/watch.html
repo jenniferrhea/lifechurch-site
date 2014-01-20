@@ -4,7 +4,18 @@ section: watch
 ---
 
 {% assign series = site.data.watch | find_first : "id", page.series-id %}
+{% include tertiary.html %}
 
-{{ content }}
+<!-- Page Main -->
+<div class="page-main">
+  {{ content }}
 
-{% include watch-messages.html %}
+  <section class="watch-messages">
+    <div class="row">
+      <div class="large-12 columns">
+        {% include watch-messages.html %}
+      </div>
+    </div>
+  </section>
+
+</div>

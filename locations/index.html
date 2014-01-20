@@ -3,7 +3,12 @@ layout: default
 title: Locations
 ---
 
-Locations<br />
+<h1>Locations</h1>
 
-<a href="/locations/okc/">OKC</a><br />
-<a href="/locations/edmond/">Edmond</a>
+{% for location in site.categories.locations %}
+  <div class="location item">
+    <a href="{{ location.url }}">
+      <h4>{{ location.title }}</h4>
+    </a>
+  </div>
+{% endfor %}
