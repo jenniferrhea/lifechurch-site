@@ -5,14 +5,11 @@ title: Watch
 
 <!-- Featured Slider -->
 <ul class="watch-featured" data-orbit data-options="slide_number:false">
-  <li>
-    <img src="http://placekitten.com/1000/400" alt="Featured image" />
-  </li>
-  <li>
-    <img src="http://placekitten.com/1000/400" alt="Featured image" />
-  </li>
+  <li><img src="http://placekitten.com/1000/400" alt="Featured image" /></li>
+  <li><img src="http://placekitten.com/1000/400" alt="Featured image" /></li>
 </ul>
 
+<!-- Archive Header -->
 <div class="row">
   <div class="large-6 columns">
     <h3>Archives</h3>
@@ -22,10 +19,18 @@ title: Watch
   </div>
 </div>
 
-{% for post in site.categories.watch limit:12 %}
-<div class="post item">
-  <a href="{{ post.url }}">
-    <h4>{{ post.title }}</h4>
-  </a>
+<!-- Archive Grid -->
+<div class="row">
+  <div class="large-12 columns">
+    <ul class="small-block-grid-2 large-block-grid-4">
+      {% for post in site.categories.watch limit:12 %}
+      <!-- Archive Item -->
+      <li class="watch-item">
+        <a href="{{ post.url }}">
+          <h5>{{ post.title }}</h5>
+        </a>
+      </div>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
-{% endfor %}
