@@ -1,0 +1,15 @@
+// Type colors
+.text-primary { color: $primary-color; }
+.text-secondary { color: $secondary-color; }
+.text-red { color: $red; }
+.text-gray { color: $gray; }
+
+h5 {
+  font-style: italic;
+  color: $gray;
+}
+
+.lead {
+  font-weight: 300;
+  font-size: 1.5em !important;
+}
