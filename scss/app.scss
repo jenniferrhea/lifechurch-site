@@ -78,14 +78,19 @@ h5 {
 
 .action {
   margin-right: 1em;
-  font-size: rem-calc(24);
   font-weight: 200;
   background-repeat: no-repeat;
   background-position: right center;
   background-size: auto 90%;
-  padding-right: 32px;
+  padding-right: 22px;
   padding-bottom: 1px;
   line-height: 1.2em;
+  font-size: rem-calc(16);
+
+  @media #{$medium-up} {
+    font-size: rem-calc(24);
+    padding-right: 32px;
+  }
 
   &.small {
     font-size: rem-calc(16);
@@ -93,9 +98,14 @@ h5 {
   }
 
   &.large {
-    font-size: rem-calc(32);
-    padding-right: 45px;
+    font-size: rem-calc(16);
+    padding-right: 22px;
     padding-bottom: 3px;
+
+    @media #{$medium-up} {
+      font-size: rem-calc(32);
+      padding-right: 45px;
+    }
   }
 
   // Arrow 1
