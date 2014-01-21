@@ -29,6 +29,7 @@ $red: #B9252D;
   position: absolute;
   top: 0;
   overflow: hidden;
+  background: #a4ddf4;
 }
 
 @media #{$medium-up} {
@@ -55,6 +56,20 @@ $red: #B9252D;
     background-size: auto 2400px;
     background-position: center -1350px;
   }
+
+  .no-backgroundsize .map {
+    background: url('/locations/images/map-1.jpg') center top no-repeat !important;
+  }
+
+  .no-backgroundsize .map-ok {
+    background: url('/locations/images/map-2.jpg') center top no-repeat !important;
+  }
+
+  .no-backgroundsize .map-tx {
+    background: url('/locations/images/map-3.jpg') center top no-repeat !important;
+  }
+
+
 
   .map-back {
     position: relative;
