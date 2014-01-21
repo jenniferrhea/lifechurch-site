@@ -49,9 +49,7 @@
   .more-line-1,
   .more-line-2,
   .more-line-3 {
-    @include transition-property(background);
-    @include transition-property(opacity);
-    @include transition-property(transform);
+    @include transition-property(all);
     @include transition-duration(.25s);
     height: 2px;
     width: 15px;
