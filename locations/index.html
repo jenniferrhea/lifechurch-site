@@ -3,22 +3,60 @@ layout: default
 title: Locations
 ---
 
-<div class="row">
-  <div class="large-6 columns">
+<div class="map-wrapper">
+  <section class="map"></section>
 
-    <p><a href="#" class="action arrow-2-black large" href="#">Clever text introducing &amp; linking to Church Online</a></p>
-    <p><a href="#">Also, network churches.</a></p>
-
-    <hr />
-
-    {% for location in site.categories.locations %}
-      <div class="location item">
-        <a href="{{ location.url }}">
-          <h4>{{ location.title }}</h4>
-        </a>
-      </div>
-    {% endfor %}
+  <div class="row">
+  <div class="large-12 columns">
+  <a class="map-back action arrow-2-black" href="#" style="display: none;">Back to full map</a>
   </div>
+  </div>
+
+  <a class="pin pin-state pin-ok" href="#">Oklahoma&nbsp;(13)</a>
+  <a class="pin pin-state pin-tx" href="#">Texas&nbsp;(2)</a>
+  <a class="pin pin-state pin-tn" href="#">Hendersonville,&nbsp;TN</a>
+  <a class="pin pin-state pin-fl" href="#">Wellington,&nbsp;FL</a>
+  <a class="pin pin-state pin-ny" href="#">Albany,&nbsp;NY</a>
+
+  <div class="pin pin-campus-ok pin-okc" href="#" style="display: none;"></div>
+  <div class="pin pin-campus-ok pin-tulsa" href="#" style="display: none;"></div>
+  <div class="pin pin-campus-ok pin-stillwater" href="#" style="display: none;"></div>
+
+  <a class="pin pin-campus-tx pin-kellar" href="#" style="display: none;" href="#">Kellar,&nbsp;TX</a>
+  <a class="pin pin-campus-tx pin-fortworth" href="#" style="display: none;" href="#">Fort&nbsp;Worth,&nbsp;TX</a>
+
+  <ul class="map-list map-list-ok map-list-okc" style="display: none;">
+    <li><a href="#">Edmond</a></li>
+    <li><a href="#">Midwest City</a></li>
+    <li><a href="#">Moore</a></li>
+    <li><a href="#">NW Oklahoma City</a></li>
+    <li><a href="#">Oklahoma City</a></li>
+    <li><a href="#">South Oklahoma City</a></li>
+    <li><a href="#">Yukon</a></li>
+  </ul>
+
+  <ul class="map-list map-list-ok map-list-tulsa" style="display: none;">
+    <li><a href="#">Broken Arrow</a></li>
+    <li><a href="#">Jenks</a></li>
+    <li><a href="#">Owasso</a></li>
+    <li><a href="#">Tulsa</a></li>
+    <li><a href="#">South Tulsa</a></li>
+  </ul>
+
+  <ul class="map-list map-list-ok map-list-stillwater" style="display: none;">
+    <li><a href="#">Stillwater</a></li>
+  </ul>
 </div>
 
-<div class="section-locator">Locations</div>
+<section class="page-main">
+  <div class="row">
+    <div class="large-6 columns">
+      <p><a href="#" class="action arrow-2-black large" href="#">Clever text introducing &amp;<br /> linking to Church Online</a></p>
+      <p><a href="#" class="action arrow-1-black small">Also, link goes here about Network Churches.</a></p>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="section-locator page-locator">Locations</div>
