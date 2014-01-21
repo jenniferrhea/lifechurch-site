@@ -1,0 +1,198 @@
+// Wrapper around all the large screen location content
+.map-wrapper {
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  background: #a4ddf4;
+}
+
+// Forcing the map content styles to only render on large screens
+@media #{$medium-up} {
+  // The map itself
+  .map {
+    @include svg-image('/locations/assets/map');
+    background-color: #a2ddf5;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    background-size: auto 620px;
+    @include transition-property(all);
+    @include transition-duration(.5s);
+  }
+
+  // Map when zoomed into Oklahoma
+  .map-ok {
+    background-size: auto 2400px;
+    background-position: center -1050px;
+  }
+
+  // Map when zoomed into Texas
+  .map-tx {
+    background-size: auto 2400px;
+    background-position: center -1350px;
+  }
+
+  // US Map fallback for CSS3-less users
+  .no-backgroundsize .map {
+    background: url('/locations/assets/map-1.jpg') center top no-repeat !important;
+  }
+
+  // Oklahoma Map fallback for CSS3-less users
+  .no-backgroundsize .map-ok {
+    background: url('/locations/assets/map-2.jpg') center top no-repeat !important;
+  }
+
+  // Texas Map fallback for CSS3-less users
+  .no-backgroundsize .map-tx {
+    background: url('/locations/assets/map-3.jpg') center top no-repeat !important;
+  }
+
+  // Back button when zoomed in on the map
+  .map-back {
+    position: relative;
+    z-index: 6;
+    top: 80px;
+  }
+
+  // List box styles
+  .map-list {
+    background: #fff;
+    position: absolute;
+    z-index: 6;
+    list-style: none;
+    padding: 5px 10px;
+    @include box-shadow(rgba(0,0,0,.1) 0 2px 0);
+  }
+
+  // List box styles for OKC
+  .map-list-okc {
+    left: 50%;
+    top: 140px;
+    margin-left: -250px;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50px;
+      right: -10px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid #fff;
+    }
+  }
+
+  // List box styles for Tulsa
+  .map-list-tulsa {
+    left: 50%;
+    top: 140px;
+    margin-left: 80px;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: -10px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid #fff;
+    }
+  }
+
+  // List box styles for Stillwater
+  .map-list-stillwater {
+    left: 50%;
+    top: 230px;
+    margin-left: -40px;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -20px;
+      left: 30px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-bottom: 10px solid #fff;
+    }
+  }
+
+  // Map pin
+  .pin {
+    @include svg-image('/locations/assets/pin');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 34px;
+    left: 50%;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+    @include transition-property(background-position);
+    @include transition-duration(.2s);
+    text-align: center;
+    font-size: 9px;
+    text-transform: uppercase;
+    padding-top: 35px;
+    color: #ada5a5;
+    text-indent: 6px;
+  }
+
+  // Recolor pin text for Wellington, since it's on the water
+  .pin-fl {
+    color: #4ea6c9;
+  }
+
+  // Pin-push animation where pins are clickable
+  .pin-state:hover,
+  .pin-kellar:hover,
+  .pin-fortworth:hover {
+    background-position: center 5px;
+  }
+
+  // Pin positioning
+  .pin-ok { margin-left: -30px; top: 300px; }
+  .pin-tx { margin-left: -50px; top: 360px; }
+  .pin-tn { margin-left: 160px; top: 285px; }
+  .pin-fl { margin-left: 245px; top: 465px; }
+  .pin-ny { margin-left: 345px; top: 160px; }
+
+  .pin-okc { margin-left: -60px; top: 190px; }
+  .pin-tulsa { margin-left: 45px; top: 160px; }
+  .pin-stillwater { margin-left: -10px; top: 180px; }
+
+  .pin-kellar { margin-left: -60px; top: 140px; }
+  .pin-fortworth { margin-left: -40px; top: 100px; }
+
+  // Location page general styles
+  .page-locations {
+
+    // Position the content on top of the map
+    .page-main {
+      height: 150px;
+      margin-top: 240px;
+      position: relative;
+      z-index: 2;
+    }
+
+    // Position footer flush to map
+    .page-footer {
+      background: #fff;
+      position: relative;
+      border-top: 1px solid rgba(0,0,0,.10);
+      .medium-6 {
+        margin-top: 0;
+        border: none;
+      }
+    }
+  }
+}
