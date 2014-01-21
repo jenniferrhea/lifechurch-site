@@ -9,9 +9,10 @@
   p { margin-bottom: 8px; }
 
   // Styling for top of footer (line, spacing, etc.)
-  .large-6 {
+  .medium-6 {
     border-top: 1px solid rgba(0,0,0,.10);
-    padding: 2em 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
     margin-top: 2em;
   }
 }

@@ -59,6 +59,10 @@ $(function() {
 
   // Locations Map
 
+  if ($(window).width() < 960) {
+  }
+  // If the screen is wide:
+  else {
     // General pin zoom
     $( ".map-wrapper" ).delegate( ".pin-ok, .pin-tx", "click", function() {
       $(".pin-state").fadeOut(200);
@@ -85,6 +89,6 @@ $(function() {
       $(".map-back").fadeOut(500);
       $(".pin-state").delay(300).fadeIn(300);
     });
-
+  }
 
 });
