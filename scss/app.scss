@@ -74,7 +74,7 @@ $red: #B9252D;
   .map-list-okc {
     left: 50%;
     top: 140px;
-    margin-left: -260px;
+    margin-left: -250px;
     &:after {
       content: "";
       display: block;
@@ -92,7 +92,7 @@ $red: #B9252D;
   .map-list-tulsa {
     left: 50%;
     top: 140px;
-    margin-left: 100px;
+    margin-left: 80px;
     &:after {
       content: "";
       display: block;
@@ -109,14 +109,14 @@ $red: #B9252D;
 
   .map-list-stillwater {
     left: 50%;
-    top: 240px;
-    margin-left: -15px;
+    top: 230px;
+    margin-left: -40px;
     &:after {
       content: "";
       display: block;
       position: absolute;
       top: -20px;
-      left: 5px;
+      left: 30px;
       width: 0;
       height: 0;
       border-top: 10px solid transparent;
