@@ -47,6 +47,19 @@
     }
   }
 
+  // Change footer navigation coloring to white if last section is white
+  .footer-light {
+    .page-footer {
+      background: $black;
+      .columns {
+        border-color: rgba(255,255,255,.4) !important;
+        margin-top: 0;
+      }
+      p { color: #fff !important; }
+      a { color: lighten($primary-color, 30%); }
+    }
+  }
+
 
 // Giving page section styles
 
@@ -68,4 +81,37 @@
 
   .section-giving-digital-missions {
     background: #eee;
+  }
+
+
+// LifeGroups page section list-style-position: 
+
+  .section-lifegroups-top-buttons {
+    margin-top: 150px;
+  }
+
+  .section-lifegroups-find {
+    background: $black;
+  }
+
+  .lifegroups-hero-1 {
+    left: 0;
+    background: url("http://placekitten.com/1000/701") no-repeat;
+    border-right: 1px solid #fff;
+  }
+
+  .lifegroups-hero-2 {
+    right: 0;
+    background: url("http://placekitten.com/1000/700") no-repeat;
+  }
+
+  .lifegroups-hero-1,
+  .lifegroups-hero-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 556px;
+    background-size: cover;
+    background-position: center;
   }

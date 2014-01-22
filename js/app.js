@@ -106,5 +106,10 @@ $(function() {
     $('body').addClass('header-light');
   };
 
+  // If the last section on a page is "light", make the footer "light" too
+  if ($('.section-last.section-light').length > 0) {
+    $('body').addClass('footer-light');
+  };
+
 
 });
