@@ -60,3 +60,36 @@ $red: #B9252D;
     margin-right: 0;
   }
 }
+
+@media #{$medium-up} {
+  .orbit-next,
+  .orbit-prev {
+    width: 96px !important;
+    height: 160px !important;
+    top: 33% !important;
+    //background-color:rgba(0,0,0,0.2);
+  }
+
+  .orbit-next span,
+  .orbit-prev span {
+    border: none !important;
+    width: 40px !important;
+    height: 80px !important;
+    margin-top: -40px !important;
+  }
+
+  .orbit-next span {
+    margin-left: -16px !important;
+    @include svg-image('/images/icons/orbit-next');
+  }
+
+  .orbit-prev span {
+    margin-left: 16px !important;
+    @include svg-image('/images/icons/orbit-prev');
+  }
+
+  .orbit-bullets li {
+    cursor: pointer;
+    &.active { cursor: default; }
+  }
+}
