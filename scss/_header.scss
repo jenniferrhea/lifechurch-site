@@ -26,6 +26,7 @@
   z-index: 11;
   text-transform: uppercase;
   a {
+    font-family: "Helvetica Neue", sans-serif;
     color: $black;
     @include transition-property(color);
     @include transition-duration(.25s);

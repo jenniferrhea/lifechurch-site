@@ -45,14 +45,18 @@ $red: #B9252D;
   margin-bottom: 15px;
   a {
     color: $black;
-    font-size: rem-calc(18);
+    font-size: rem-calc(20);
     font-weight: 300;
   }
   a:before {
     content: " / ";
-    color: $gray;
+    margin-left: 9px;
+    margin-right: 6px;
+    color: rgba(0,0,0,.2);
   }
   a:first-child:before {
     content: "";
+    margin-left: 0;
+    margin-right: 0;
   }
 }
