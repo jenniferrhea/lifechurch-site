@@ -1,0 +1,35 @@
+---
+layout: default
+title: Archive
+section: watch
+layout: watch
+permalink: /watch/archive/
+---
+
+
+
+
+<div class='listing col6 pad4h margin3'>
+  {% for post in site.categories.watch limit:1000 %}
+    {% capture date %}{{ post.date | date: '%B %Y' }}{% endcapture %}
+    {% capture ndate %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
+
+    {% if date != ndate %}
+    <div class="row">
+      <div class="medium-12 columns">
+        <h5 class='month subheader'>{{post.date | date: '%B %Y'}}</h5>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="row">
+      <div class="medium-1 columns">
+        <span class='date subheader'>{{post.date | date:"%b %d"}}</span>
+      </div>
+      <div class="medium-11 columns">
+        <h6><a class='item' href='{{post.url}}'>{{post.title}}</a></h6>
+      </div>
+    </div>
+     
+  {% endfor %}
+</div>
