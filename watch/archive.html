@@ -17,17 +17,18 @@ permalink: /watch/archive/
     {% if date != ndate %}
     <div class="row">
       <div class="medium-12 columns">
-        <h5 class='month subheader'>{{post.date | date: '%B %Y'}}</h5>
+        <br />
+        <h5 class="month">{{post.date | date: '%B %Y'}}</h5>
       </div>
     </div>
     {% endif %}
 
     <div class="row">
       <div class="medium-1 columns">
-        <span class='date subheader'>{{post.date | date:"%b %d"}}</span>
+        <h6 class="date">{{post.date | date:"%b %d"}}</h6>
       </div>
       <div class="medium-11 columns">
-        <h6><a class='item' href='{{post.url}}'>{{post.title}}</a></h6>
+        <h6><a class="item" href='{{post.url}}'>{{post.title}}</a></h6>
       </div>
     </div>
      

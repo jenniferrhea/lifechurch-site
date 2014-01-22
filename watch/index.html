@@ -26,11 +26,11 @@ title: Watch
       {% for post in site.categories.watch limit:12 %}
       <!-- Archive Item -->
       <li class="watch-item">
-        <a class="th" href="{{ post.url }}">
+        <a href="{{ post.url }}">
           <img src="{{ post.preview-image }}" alt="{{ post.title }}" />
-          <h5>{{ post.title }}</h5>
+          <span>{{ post.title }}</span>
         </a>
-      </div>
+      </li>
       {% endfor %}
     </ul>
   </div>
