@@ -23,7 +23,7 @@ $(function() {
     $( ".primary-links" ).delegate( ".nav-close-more", "click", function() {
       $(".page-more").fadeOut();
       $(".page-more-inner").animate({
-        top: '-5%'
+        top: '0'
       }, 500, function() {
         // Animation complete.
       });
