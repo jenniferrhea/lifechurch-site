@@ -45,6 +45,9 @@ $(function() {
     };
 
     // For Watch
+    if ($('.page-locator:contains("Watch")').length > 0) {
+      $('body').addClass('page-watch');
+    };
     if ($('.section-locator:contains("Watch")').length > 0) {
       $('.section-locator').remove();
       $('body').addClass('section-watch');
