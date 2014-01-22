@@ -1,9 +1,11 @@
 <!-- Tertiary content (Breadcrumb, Resource links, etc.) -->
+<div class="row">
+<div class="large-12 columns">
 <div class="page-tertiary">
   <div class="row">
     <div class="large-8 columns">
       <!-- Breadcrumb -->
-      <nav class="breadcrumbs">
+      <nav class="tertiary-nav">
         {% if page.section == "locations" %}<a href="/locations/">Locations</a>{% endif %}
         {% if page.section == "watch" %}<a href="/watch/">Watch</a>{% endif %}
         {% if page.section == "about" %}<a href="/who-we-are/">About</a>{% endif %}
@@ -18,10 +20,6 @@
       {% if page.section == "giving" %}<a class="button radius tiny" href="#">Button</a> or <a class="button radius tiny" href="#">Button</a>{% endif %}
     </div>
   </div>
-
-  <div class="row">
-    <div class="large-12 columns">
-      <hr />
-    </div>
-  </div>
+</div>
+</div>
 </div>
