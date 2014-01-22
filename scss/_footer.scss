@@ -9,10 +9,26 @@
   p { margin-bottom: 8px; }
 
   // Styling for top of footer (line, spacing, etc.)
-  .medium-6 {
+  @media #{$small-only} {
+    border-top: 1px solid rgba(0,0,0,.10);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+  }
+
+  @media #{$medium-only} {
     border-top: 1px solid rgba(0,0,0,.10);
     padding-top: 2em;
     padding-bottom: 2em;
     margin-top: 2em;
+  }
+
+  @media #{$large-up} {
+    .columns {
+      border-top: 1px solid rgba(0,0,0,.10);
+      padding-top: 2em;
+      padding-bottom: 2em;
+      margin-top: 2em;
+    }
   }
 }
