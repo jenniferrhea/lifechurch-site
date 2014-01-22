@@ -16,125 +16,12 @@ $gray: #929292;
 $red: #B9252D;
 
 // Design
+@import "foundation-overrides";
 @import "type";
 @import "more";
 @import "header";
 @import "watch";
 @import "footer";
 @import "buttons";
-
+@import "sections";
 @import "locations";
-
-.padded {
-  padding-top: 3em;
-}
-
-.page-tertiary {
-  margin-bottom: 2em;
-  border-bottom: 1px solid rgba(0,0,0,.10);
-  .button { margin-bottom: 0; }
-}
-
-.page-watch .page-tertiary {
-  border-bottom: 0;
-  margin-bottom: 0;
-}
-
-.tertiary-nav {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  a {
-    color: $black;
-    font-size: rem-calc(20);
-    font-weight: 300;
-  }
-  a:before {
-    content: " / ";
-    margin-left: 9px;
-    margin-right: 6px;
-    color: rgba(0,0,0,.2);
-  }
-  a:first-child:before {
-    content: "";
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-@media #{$medium-up} {
-  .orbit-next,
-  .orbit-prev {
-    width: 96px !important;
-    height: 160px !important;
-    top: 33% !important;
-    //background-color:rgba(0,0,0,0.2);
-  }
-
-  .orbit-next span,
-  .orbit-prev span {
-    border: none !important;
-    width: 40px !important;
-    height: 80px !important;
-    margin-top: -40px !important;
-  }
-
-  .orbit-next span {
-    margin-left: -16px !important;
-    @include svg-image('/images/icons/orbit-next');
-  }
-
-  .orbit-prev span {
-    margin-left: 16px !important;
-    @include svg-image('/images/icons/orbit-prev');
-  }
-
-  .orbit-bullets li {
-    cursor: pointer;
-    &.active { cursor: default; }
-  }
-}
-
-
-.section-giving-tithe {
-  background: url("http://placekitten.com/1000/700") no-repeat;
-  background-size: cover;
-}
-
-.section-first {
-  margin-top: -165px;
-  padding-top: 165px;
-}
-
-.page-section {
-  padding-bottom: 3em;
-}
-
-.section-light {
-  h1,h2,h3,h4,h5,h6,p,a,.button {
-    color: #fff !important;
-    border-color: #fff !important;
-  }
-}
-
-.header-light {
-  .nav-more span {
-    background: #fff !important;
-  }
-  .nav-more:hover span {
-    background: #ccc !important;
-  }
-  .logo {
-    @include svg-image('/images/branding/logomark-white');
-  }
-  .primary-links a {
-    color: #fff;
-    &:hover { color: #ccc; }
-  }
-  .page-tertiary {
-    border-color: rgba(255,255,255,.4);
-  }
-
-  .tertiary-nav a {
-    color: #fff !important;
-  }
-}

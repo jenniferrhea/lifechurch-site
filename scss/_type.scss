@@ -3,19 +3,21 @@
 .text-secondary { color: $secondary-color; }
 .text-red { color: $red; }
 .text-gray { color: $gray; }
-
-h1,h2,h3 {
-  letter-spacing: -1px;
-}
+h1 { color: #333; }
+h2 { color: #444; }
+h3 { color: #555; }
 
 h1 {
   font-weight: 600;
   margin-top: 25px;
 }
 
-h4,h5 {
-  font-weight: 300;
+@media #{$medium-up} {
+  h1,h2,h3 { letter-spacing: -1px; }
 }
+
+h2 { padding-bottom: .3em; }
+h4,h5 { font-weight: 300; }
 
 h5 {
   font-style: italic;

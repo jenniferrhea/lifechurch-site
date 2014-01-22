@@ -1,0 +1,69 @@
+// Page Section styles
+
+  .padded {
+    padding-top: 3em;
+  }
+
+  .page-section {
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+  }
+
+  // First section (pull it over the navigation)
+  .section-first {
+    margin-top: -165px;
+    padding-top: 165px;
+  }
+
+  // Change section coloring to white
+  .section-light {
+    h1,h2,h3,h4,h5,h6,p,a,.button {
+      color: #fff !important;
+      border-color: #fff !important;
+    }
+  }
+
+  // Change navigation coloring to white if first section is white
+  .header-light {
+    .nav-more span {
+      background: #fff !important;
+    }
+    .nav-more:hover span {
+      background: #ccc !important;
+    }
+    .logo {
+      @include svg-image('/images/branding/logomark-white');
+    }
+    .primary-links a {
+      color: #fff;
+      &:hover { color: #ccc; }
+    }
+    .page-tertiary {
+      border-color: rgba(255,255,255,.4);
+    }
+
+    .tertiary-nav a {
+      color: #fff !important;
+    }
+  }
+
+
+// Giving page section styles
+
+  .section-giving-tithe {
+    background: url("http://placekitten.com/1000/700") no-repeat;
+    background-size: cover;
+  }
+
+  .section-giving-spaces-places {
+    background: #eee;
+  }
+
+  .section-giving-relief-restoration {
+    background: url("http://placekitten.com/1000/699") no-repeat;
+    background-size: cover;
+  }
+
+  .section-giving-digital-missions {
+    background: #eee;
+  }

@@ -9,3 +9,9 @@
 .orbit-timer {
   display: none !important;
 }
+
+// Squeeze tertiary closer to content on watch page
+.page-watch .page-tertiary {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
