@@ -16,7 +16,10 @@ $(function() {
       });
       
       $(this).removeClass("nav-more").addClass("nav-close-more");
-      //$(".nav-close-more").text("Close")
+
+      if ($('.header-light').length > 0) {
+        $('body').removeClass('header-light').addClass('header-light-paused');
+      };
     });
 
     // Close the more panel
@@ -29,7 +32,10 @@ $(function() {
       });
 
       $(this).removeClass("nav-close-more").addClass("nav-more");
-      //$(".nav-more").text("More")
+
+      if ($('.header-light-paused').length > 0) {
+        $('body').removeClass('header-light-paused').addClass('header-light');
+      };
     });
 
 
@@ -93,5 +99,12 @@ $(function() {
       $(".pin-state").delay(300).fadeIn(300);
     });
   }
+
+
+  // If the first section on a page is "light", make the nav "light" too
+  if ($('.section-first.section-light').length > 0) {
+    $('body').addClass('header-light');
+  };
+
 
 });

@@ -26,11 +26,11 @@ $red: #B9252D;
 @import "locations";
 
 .padded {
-  padding-bottom: 2em;
+  padding-top: 3em;
 }
 
 .page-tertiary {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   border-bottom: 1px solid rgba(0,0,0,.10);
   .button { margin-bottom: 0; }
 }
@@ -91,5 +91,50 @@ $red: #B9252D;
   .orbit-bullets li {
     cursor: pointer;
     &.active { cursor: default; }
+  }
+}
+
+
+.section-giving-tithe {
+  background: url("http://placekitten.com/1000/700") no-repeat;
+  background-size: cover;
+}
+
+.section-first {
+  margin-top: -165px;
+  padding-top: 165px;
+}
+
+.page-section {
+  padding-bottom: 3em;
+}
+
+.section-light {
+  h1,h2,h3,h4,h5,h6,p,a,.button {
+    color: #fff !important;
+    border-color: #fff !important;
+  }
+}
+
+.header-light {
+  .nav-more span {
+    background: #fff !important;
+  }
+  .nav-more:hover span {
+    background: #ccc !important;
+  }
+  .logo {
+    @include svg-image('/images/branding/logomark-white');
+  }
+  .primary-links a {
+    color: #fff;
+    &:hover { color: #ccc; }
+  }
+  .page-tertiary {
+    border-color: rgba(255,255,255,.4);
+  }
+
+  .tertiary-nav a {
+    color: #fff !important;
   }
 }
