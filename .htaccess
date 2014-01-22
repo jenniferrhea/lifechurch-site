@@ -1,0 +1,22 @@
+// Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^lifechurch.tv[nc]
+RewriteRule ^(.*)$ http://www.lifechurch.tv/$1 [r=301,nc]
+
+// Custom 404 errors
+ErrorDocument 404 /404/
+
+// 301 Redirect Old Site URLs
+Redirect 301 /who-we-are/about /who-we-are/
+Redirect 301 /who-we-are/what-to-expect /what-to-expect/
+Redirect 301 /who-we-are/lifegroups /lifegroups/
+Redirect 301 /who-we-are/beliefs /beliefs/
+Redirect 301 /giving/give /giving/
+Redirect 301 /giving/causes /lifemissions/
+Redirect 301 /giving/ways /giving/
+Redirect 301 /giving/challenge /challenge/
+Redirect 301 /giving/faqs /giving/
+Redirect 301 /resources /tools/
+Redirect 301 /resources/personal /tools/
+Redirect 301 /resources/church /tools/
