@@ -10,9 +10,10 @@ section: watch
 <div class="page-main">
   {{ content }}
 
-  <section class="watch-messages">
+  <section class="watch-messages page-section section-last section-light" id="messages">
     <div class="row">
-      <div class="large-12 columns">
+      <div class="large-6 columns">
+        <h2 class="underlined">In this series</h2>
         {% include watch-messages.html %}
       </div>
     </div>
@@ -21,3 +22,4 @@ section: watch
 </div>
 
 <div class="section-locator">Watch</div>
+<div class="series-locator">series-{{ series.id }}</div>

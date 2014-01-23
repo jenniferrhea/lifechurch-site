@@ -15,6 +15,11 @@
     padding-top: 165px;
   }
 
+  // Last section (darken to match default footer color when "light")
+  .section-last.section-light {
+    background: $black;
+  }
+
   // Change section coloring to white
   .section-light {
     h1,h2,h3,h4,h5,h6,p,a,.button {
@@ -90,10 +95,6 @@
 
   .section-lifegroups-top-buttons {
     margin-top: 150px;
-  }
-
-  .section-lifegroups-find {
-    background: $black;
   }
 
   .lifegroups-hero-1 {

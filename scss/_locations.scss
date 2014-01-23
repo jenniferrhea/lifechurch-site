@@ -67,6 +67,7 @@
     list-style: none;
     padding: 5px 10px;
     @include box-shadow(rgba(0,0,0,.1) 0 2px 0);
+    @include border-radius(3px);
   }
 
   // List box styles for OKC

@@ -9,3 +9,12 @@ stylesheet: true
 javascript: true
 series-id: small-things-big-difference
 ---
+
+<section class="page-section section-first">
+  <div class="row">
+    <div class="medium-6 columns">
+      <h1>Nice title goes here about Small Things Big Difference.</h1>
+      <a href="#messages" class="action arrow-2-black">Watch series</a>
+    </div>
+  </div>
+</section>

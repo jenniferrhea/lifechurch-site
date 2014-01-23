@@ -65,6 +65,12 @@ $(function() {
       $('body').addClass('section-giving');
     };
 
+    // For Series
+    if ($('.series-locator').length > 0) {
+      $('body').addClass($('.series-locator').text());
+      $('.series-locator').remove();
+    };
+
 
   // Locations Map
 

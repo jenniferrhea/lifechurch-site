@@ -28,3 +28,13 @@ h5 {
   font-weight: 300;
   font-size: 1.5em !important;
 }
+
+.underlined {
+  padding-bottom: 10px;
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(0,0,0,.10) !important;
+}
+
+.section-light .underlined {
+  border-bottom: 1px solid rgba(225,225,225,.4) !important;
+}

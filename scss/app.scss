@@ -25,3 +25,17 @@ $red: #B9252D;
 @import "buttons";
 @import "sections";
 @import "locations";
+
+@media #{$large-up} {
+  .large-right { float: right; }
+  .large-left { float: left; }
+  .large-text-right { text-align: right; }
+  .large-text-left { text-align: left; }
+}
+
+@media #{$medium-up} {
+  .medium-right { float: right; }
+  .medium-left { float: left; }
+  .medium-text-right { text-align: right; }
+  .medium-text-left { text-align: left; }
+}
