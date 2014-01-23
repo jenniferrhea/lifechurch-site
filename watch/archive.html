@@ -1,12 +1,9 @@
 ---
 layout: default
 title: Archive
-section: watch
+section: watch archive
 permalink: /watch/archive/
 ---
-
-{% include tertiary.html %}
-
 
   {% for post in site.categories.watch limit:1000 %}
     {% capture date %}{{ post.date | date: '%B %Y' }}{% endcapture %}

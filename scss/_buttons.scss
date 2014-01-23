@@ -1,6 +1,9 @@
 // Button
 .button {
 
+  text-transform: uppercase;
+  font-weight: bold !important;
+
   // Button Radius
   &.radius {
     @include border-radius(100px);

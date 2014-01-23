@@ -8,6 +8,7 @@
       <nav class="tertiary-nav">
         {% if page.section == "locations" %}<a href="/locations/">Locations</a>{% endif %}
         {% if page.section == "watch" %}<a href="/watch/">Watch</a>{% endif %}
+        {% if page.section == "watch archive" %}<a href="/watch/">Watch</a>{% endif %}
         {% if page.section == "about" %}<a href="/who-we-are/">About</a>{% endif %}
         {% if page.section == "giving" %}<a href="/giving/">Giving</a>{% endif %}
         {% if page.section == "lifemissions" %}<a href="/lifemissions/">LifeMissions</a>{% endif %}
@@ -16,7 +17,11 @@
     </div>
     <div class="large-4 columns tertiary-resources text-right">
       <!-- Resources -->
-      {% if page.section == "watch" %}{% include watch-resources.html %}{% endif %}
+      {% if page.section == "watch" %}
+      {% if page.section != "archives" %}
+      {% include watch-resources.html %}
+      {% endif %}
+      {% endif %}
       {% if page.section == "locations" %}<a class="button radius tiny" href="#">Subscribe thing</a>{% endif %}
       {% if page.section == "giving" %}<a class="button radius tiny" href="#">Button</a> or <a class="button radius tiny" href="#">Button</a>{% endif %}
     </div>
