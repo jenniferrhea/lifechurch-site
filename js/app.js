@@ -71,6 +71,12 @@ $(function() {
       $('.series-locator').remove();
     };
 
+    // For Red Headers
+    if ($('.header-locator:contains("Red")').length > 0) {
+      $('.header-locator').remove();
+      $('body').addClass('header-red');
+    };
+
 
   // Locations Map
 

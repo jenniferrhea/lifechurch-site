@@ -122,6 +122,7 @@
     }
   }
 
-
-  
-
+// Make descriptions in "more" smaller than normal paragraphs
+.page-more-inner p {
+  font-size: 1em;
+}

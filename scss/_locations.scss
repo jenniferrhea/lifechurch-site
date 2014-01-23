@@ -179,10 +179,11 @@
 
     // Position the content on top of the map
     .page-main {
-      height: 150px;
-      margin-top: 240px;
+      height: 170px;
+      margin-top: 220px;
       position: relative;
       z-index: 2;
+      overflow: hidden;
     }
 
     // Position footer flush to map

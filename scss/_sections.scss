@@ -14,7 +14,7 @@
     margin-top: -165px;
     padding-top: 165px;
   }
-
+  
   // Last section (darken to match default footer color when "light")
   .section-last.section-light {
     background: $black;
@@ -51,6 +51,10 @@
       color: #fff !important;
     }
   }
+
+  // Red logo & red titles when "header-red" gets applied
+  .header-red .logo { @include svg-image('/images/branding/logomark-red'); }
+  .header-red h1, .header-red h2 { color: $red; }
 
   // Change footer navigation coloring to white if last section is white
   .footer-light {
@@ -94,7 +98,11 @@
 // LifeGroups page section list-style-position: 
 
   .section-lifegroups-top-buttons {
-    margin-top: 150px;
+    margin-top: 100px;
+  }
+
+  .section-lifegroups-top {
+    padding-bottom: 11px;
   }
 
   .lifegroups-hero-1 {

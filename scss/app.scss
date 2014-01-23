@@ -39,3 +39,11 @@ $red: #B9252D;
   .medium-text-right { text-align: right; }
   .medium-text-left { text-align: left; }
 }
+
+.header-red .logo {
+  @include svg-image('/images/branding/logomark-red');
+}
+
+.header-red h1, .header-red h2 {
+  color: $red;
+}

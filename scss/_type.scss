@@ -10,13 +10,15 @@ h3 { color: #555; }
 h1 {
   font-weight: 600;
   margin-top: 25px;
+  margin-bottom: 30px;
 }
 
-@media #{$medium-up} {
-  h1,h2,h3 { letter-spacing: -1px; }
+h2 {
+  font-size:2.3rem !important;
+  margin-top: 40px !important;
+  padding-bottom: .3em;
 }
 
-h2 { padding-bottom: .3em; }
 h4,h5 { font-weight: 300; }
 
 h5 {
@@ -24,17 +26,50 @@ h5 {
   color: $gray;
 }
 
-.lead {
-  font-weight: 300;
-  font-size: 1.5em !important;
+@media #{$medium-up} {
+  h1,h2,h3 { letter-spacing: -1px; }
 }
 
+// Lead text
+.lead {
+  font-weight: 300;
+  font-size: 1.7em !important;
+}
+
+// Underline titles
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0,0,0,.10) !important;
 }
 
+// Lighten the underline on light
 .section-light .underlined {
   border-bottom: 1px solid rgba(225,225,225,.4) !important;
+}
+
+// Paragraphs larger and serif type
+p {
+  font-family: "ff-meta-serif-web-pro";
+  font-size: rem-calc(20);
+  line-height: 1.7;
+}
+
+// Tertiary links serif type
+.tertiary-nav a {
+  font-family: "ff-meta-serif-web-pro";
+  font-weight: 300;
+}
+
+// Make regular action type & message descriptions serif type
+.action,
+.message h6 {
+  font-family: "ff-meta-serif-web-pro";
+  font-weight: 300;
+}
+
+// Make footer and large action messages default type
+.page-footer p,
+.action.large {
+  font-family: $body-font-family;
 }
