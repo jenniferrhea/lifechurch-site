@@ -105,6 +105,14 @@
   &.play-2-white:hover,
   &.play-2-gray { @include svg-image('/images/icons/action-play-2-gray'); color: $gray; }
   &.play-2-white { @include svg-image('/images/icons/action-play-2-white'); color: #fff; }
+
+  // Down 2
+  &.down-2-gray:hover,
+  &.down-2-black { @include svg-image('/images/icons/action-down-2-black'); color: $black; }
+  &.down-2-black:hover,
+  &.down-2-white:hover,
+  &.down-2-gray { @include svg-image('/images/icons/action-down-2-gray'); color: $gray; }
+  &.down-2-white { @include svg-image('/images/icons/action-down-2-white'); color: #fff; }
 }
 
 // Remove icons if "background size" isn't available on the browser

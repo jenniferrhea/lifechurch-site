@@ -14,7 +14,7 @@ series-id: small-things-big-difference
   <div class="row">
     <div class="medium-6 columns">
       <h1>Nice title goes here about Small Things Big Difference.</h1>
-      <a href="#messages" class="action arrow-2-black">Watch series</a>
+      <a href="#messages" class="action down-2-black">Watch series</a>
     </div>
   </div>
 </section>
