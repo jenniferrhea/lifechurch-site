@@ -5,8 +5,8 @@
   }
 
   .page-section {
-    padding-top: 3.5em;
-    padding-bottom: 3.5em;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
   }
 
   // First section (pull it over the navigation)
@@ -51,6 +51,8 @@
   .footer-light {
     .page-footer {
       background: $black;
+      margin-top: 0;
+      border-color: rgba(255,255,255,.4) !important;
       .columns {
         border-color: rgba(255,255,255,.4) !important;
         margin-top: 0;
@@ -111,7 +113,7 @@
     top: 0;
     bottom: 0;
     width: 50%;
-    height: 556px;
+    height: 572px;
     background-size: cover;
     background-position: center;
   }
