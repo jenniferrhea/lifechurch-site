@@ -1,0 +1,37 @@
+---
+- id: 2
+  title: Bless This Home
+  description: We want our family to enjoy peace, happiness, and contentment, but
+    so often we stumble through our most important relationships. Let's discover four
+    family-altering qualities as we ask God to Bless This Home.
+  hashtag: lcblessthishome
+  slug: bless-this-home
+  parts: 2
+  promo: http://www.youtube.com/watch?v=sq70SsF-Xo4
+  viewable: false
+  start_date: '2013-05-02'
+  end_date: '2013-05-09'
+  type: Sermon
+  images:
+  - name: 50x50
+    url: http://s3.amazonaws.com/lcapi.development/series/bless-this-home/50x50.jpg?1367522184
+  - name: 129x93
+    url: http://s3.amazonaws.com/lcapi.development/series/bless-this-home/129x93.jpg?1367522200
+- id: 1
+  title: I Is Jesus
+  description: To the dead man, Jesus was life. To the prostitute, He was a second
+    chance. To the searching, He was the long-awaited answer. Who is Jesus to you?
+    Discover what it means when He says, "I Am Jesus."
+  hashtag: ''
+  slug: i-am-jesus
+  parts: 4
+  promo: ''
+  viewable: true
+  start_date: '2013-04-29'
+  end_date: '2013-04-30'
+  type: LifeGroups
+  images:
+  - name: 50x50
+    url: http://s3.amazonaws.com/lcapi.development/series/i-am-jesus/50x50.jpg?1367523173
+  - name: 129x93
+    url: http://s3.amazonaws.com/lcapi.development/series/i-am-jesus/129x93.jpg?1367523187
