@@ -15,24 +15,13 @@ $black: #1e1e1e;
 $gray: #929292;
 $red: #B9252D;
 
-// Design
-@import "foundation-overrides";
-@import "type";
-@import "more";
-@import "header";
-@import "watch";
-@import "footer";
-@import "buttons";
-@import "sections";
-@import "locations";
-
+// Quick classes
 @media #{$large-up} {
   .large-right { float: right; }
   .large-left { float: left; }
   .large-text-right { text-align: right; }
   .large-text-left { text-align: left; }
 }
-
 @media #{$medium-up} {
   .medium-right { float: right; }
   .medium-left { float: left; }
@@ -40,6 +29,14 @@ $red: #B9252D;
   .medium-text-left { text-align: left; }
 }
 
-.home {
-  
-}
+// Design
+@import "foundation-overrides";
+@import "type";
+@import "more";
+@import "header";
+@import "footer";
+@import "buttons";
+@import "sections";
+@import "home";
+@import "watch";
+@import "locations";
