@@ -17,7 +17,11 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   
+  {% if page.class %}
+  <body class="{{ page.class }}">
+  {% else %}
   <body>
+  {% endif %}
 
     <!-- Page Header -->
     <header class="page-header">

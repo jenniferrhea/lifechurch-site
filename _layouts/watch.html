@@ -1,6 +1,7 @@
 ---
 layout: default
 section: watch
+class: section-watch
 ---
 
 {% assign series = site.data.watch | find_first : "id", page.series-id %}
@@ -21,5 +22,4 @@ section: watch
 
 </div>
 
-<div class="section-locator">Watch</div>
 <div class="series-locator">series-{{ series.id }}</div>

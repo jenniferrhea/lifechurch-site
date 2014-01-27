@@ -39,31 +39,7 @@ $(function() {
     });
 
 
-  // Add 'section-*' classes on <body>
-
-    // For Locations
-    if ($('.page-locator:contains("Locations")').length > 0) {
-      $('body').addClass('page-locations');
-    };
-    if ($('.section-locator:contains("Locations")').length > 0) {
-      $('.section-locator').remove();
-      $('body').addClass('section-locations');
-    };
-
-    // For Watch
-    if ($('.page-locator:contains("Watch")').length > 0) {
-      $('body').addClass('page-watch');
-    };
-    if ($('.section-locator:contains("Watch")').length > 0) {
-      $('.section-locator').remove();
-      $('body').addClass('section-watch');
-    };
-
-    // For Giving
-    if ($('.section-locator:contains("Giving")').length > 0) {
-      $('.section-locator').remove();
-      $('body').addClass('section-giving');
-    };
+  // Add classes on <body>
 
     // For Series
     if ($('.series-locator').length > 0) {
