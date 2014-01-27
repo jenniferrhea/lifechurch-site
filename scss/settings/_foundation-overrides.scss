@@ -1,10 +1,12 @@
+// These settings override Foundation defaults, so that we can style certain
+// elements ourselves. Orbit's slider arrow images, for example.
+
 @media #{$medium-up} {
   .orbit-next,
   .orbit-prev {
     width: 96px !important;
     height: 160px !important;
     top: 33% !important;
-    //background-color:rgba(0,0,0,0.2);
   }
 
   .orbit-next span,

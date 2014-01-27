@@ -1,3 +1,5 @@
+// https://github.com/adamfairhead/scss-retina-backgrounds
+
 // Requires Modernizr
 @mixin svg-image($img-name) {
   .svg & { background-image: image-url("#{$img-name}.svg"); }
