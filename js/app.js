@@ -39,19 +39,12 @@ $(function() {
     });
 
 
-  // Add classes on <body>
+  // Add classes on <body> for Series
 
-    // For Series
-    if ($('.series-locator').length > 0) {
-      $('body').addClass($('.series-locator').text());
-      $('.series-locator').remove();
-    };
-
-    // For Red Headers
-    if ($('.header-locator:contains("Red")').length > 0) {
-      $('.header-locator').remove();
-      $('body').addClass('header-red');
-    };
+  if ($('.series-locator').length > 0) {
+    $('body').addClass($('.series-locator').text());
+    $('.series-locator').remove();
+  };
 
 
   // Locations Map
