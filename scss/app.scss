@@ -1,5 +1,5 @@
 // Foundation
-@import "settings";
+@import "settings/settings";
 @import "foundation";
 
 // Compass mixins
@@ -8,7 +8,10 @@
 @import "compass/css3/box-shadow";
 
 // Custom mixins
-@import "svgpng";
+@import "settings/svgpng";
+
+// Custom Settings
+@import "settings/foundation-overrides";
 
 // Variables
 $black: #1e1e1e;
@@ -30,13 +33,16 @@ $red: #B9252D;
 }
 
 // Design
-@import "foundation-overrides";
-@import "type";
-@import "more";
-@import "header";
-@import "footer";
-@import "buttons";
-@import "sections";
-@import "home";
-@import "watch";
-@import "locations";
+@import "design/type";
+@import "design/more";
+@import "design/header";
+@import "design/footer";
+@import "design/buttons";
+@import "design/sections";
+
+// Pages
+@import "pages/home";
+@import "pages/watch";
+@import "pages/locations";
+@import "pages/giving";
+@import "pages/lifegroups";
