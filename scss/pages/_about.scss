@@ -1,0 +1,121 @@
+.who-we-are {
+
+  // Position the headline to accomodate those feature images
+  h1 {
+    padding-top: 70px;
+    @media #{$medium-up} {
+      padding-top: 100px;
+    }
+  }
+
+  // Hold those absolutely positioned images in place
+  .row { position: relative; }
+
+  .about-bike {
+    background: url('/images/about/about-bike.png') no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -20px;
+
+    @media #{$small-only} {
+      background-size: 200px auto;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+
+    @media #{$medium-up} {
+      width: 496px;
+      height: 236px;
+      top: -120px;
+      right: 0;
+    }
+
+    @media #{$large-up} {
+      right: -100px;
+    }
+  }
+}
+
+
+.beliefs {
+
+  // Position the headline to accomodate those feature images
+  h1 {
+    padding-top: 10px;
+    @media #{$medium-up} {
+      padding-top: 30px;
+    }
+  }
+
+  // Hold those absolutely positioned images in place
+  .row { position: relative; }
+
+  .about-bible {
+    background: url('/images/about/about-bible.png') no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -20px;
+
+    @media #{$small-only} {
+      background-size: 200px auto;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+
+    @media #{$medium-up} {
+      width: 528px;
+      height: 119px;
+      top: -100px;
+      right: 0;
+    }
+
+    @media #{$large-up} {
+      right: -150px;
+    }
+  }
+}
+
+
+.what-to-expect {
+
+  // Position the headline to accomodate those feature images
+  h1 {
+    padding-top: 110px;
+    @media #{$medium-up} {
+      padding-top: 40px;
+    }
+  }
+
+  // Hold those absolutely positioned images in place
+  .row { position: relative; }
+
+  .about-coffee {
+    background: url('/images/about/about-coffee.png') no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -20px;
+
+    @media #{$small-only} {
+      background-size: 200px auto;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+
+    @media #{$medium-up} {
+      width: 229px;
+      height: 169px;
+      top: -100px;
+      right: 0;
+    }
+
+    @media #{$large-up} {
+      right: -120px;
+    }
+  }
+}

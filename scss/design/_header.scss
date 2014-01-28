@@ -101,6 +101,8 @@
   .tertiary-nav {
     margin-top: 10px;
     margin-bottom: 15px;
+    z-index: 1;
+    position: relative;
     a {
       color: $black;
       font-size: rem-calc(20);
