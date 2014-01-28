@@ -55,6 +55,11 @@ p {
   line-height: 1.7;
 }
 
+// Smaller paragraph
+.detail {
+  font-size: rem-calc(15);
+}
+
 // Tertiary links serif type
 .tertiary-nav a {
   font-family: "ff-meta-serif-web-pro";

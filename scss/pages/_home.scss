@@ -1,5 +1,6 @@
 .home {
-  background: #1e1e1e;
+  background: #1e1e1e url('/images/home/series-bg.jpg') center top no-repeat;
+  background-size: 950px auto;
 
   h1 {
     @media #{$medium-up} {

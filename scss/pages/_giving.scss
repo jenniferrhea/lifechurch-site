@@ -7,15 +7,17 @@
   }
 
   .section-giving-spaces-places {
-    background: #eee;
+    background: url("/images/giving/spaces-places-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .section-giving-relief-restoration {
-    background: url("http://placekitten.com/1000/699") no-repeat;
+    background: url("/images/giving/relief-restoration-bg.jpg") no-repeat;
     background-size: cover;
     background-position: center;
   }
 
   .section-giving-digital-missions {
-    background: #eee;
+    padding-bottom: 30px;
   }
