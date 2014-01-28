@@ -8,6 +8,11 @@
   background: #a4ddf4;
 }
 
+.page-locations .page-tertiary {
+  z-index: 3;
+  position: relative
+}
+
 // Forcing the map content styles to only render on large screens
 @media #{$medium-up} {
   // The map itself
@@ -34,7 +39,7 @@
   // Map when zoomed into Texas
   .map-tx {
     background-size: auto 2400px;
-    background-position: center -1350px;
+    background-position: center -1250px;
   }
 
   // US Map fallback for CSS3-less users
@@ -56,7 +61,7 @@
   .map-back {
     position: relative;
     z-index: 6;
-    top: 80px;
+    top: 145px;
   }
 
   // List box styles
@@ -171,8 +176,8 @@
   .pin-tulsa { margin-left: 45px; top: 160px; }
   .pin-stillwater { margin-left: -10px; top: 180px; }
 
-  .pin-kellar { margin-left: -60px; top: 140px; }
-  .pin-fortworth { margin-left: -40px; top: 100px; }
+  .pin-kellar { margin-left: -60px; top: 240px; }
+  .pin-fortworth { margin-left: -40px; top: 200px; }
 
   // Location page general styles
   .page-locations {
