@@ -9,8 +9,7 @@
 }
 
 .page-locations .page-tertiary {
-  z-index: 3;
-  position: relative
+  visibility: hidden;
 }
 
 // Forcing the map content styles to only render on large screens
@@ -61,7 +60,7 @@
   .map-back {
     position: relative;
     z-index: 6;
-    top: 145px;
+    top: 80px;
   }
 
   // List box styles
