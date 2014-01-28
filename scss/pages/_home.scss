@@ -1,0 +1,27 @@
+.home {
+  background: #1e1e1e;
+
+  h1 {
+    @media #{$medium-up} {
+      margin-bottom: 15px;
+    }
+  }
+
+  .section-first {
+    padding-bottom: 50px;
+  }
+
+  .series-art {
+    @include svg-image('/images/home/series-logo');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    @media #{$medium-up} {
+      width: 227px;
+      height: 282px;
+      margin: 20px auto 40px;
+    }
+  }
+}
