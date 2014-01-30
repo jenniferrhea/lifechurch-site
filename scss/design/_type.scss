@@ -26,8 +26,22 @@ h5 {
   color: $gray;
 }
 
+h6 { margin-top: 10px; }
+
 @media #{$medium-up} {
   h1,h2,h3 { letter-spacing: -1px; }
+}
+
+
+// Paragraphs within a hyperlink (rather the other way around) don't get active color
+a p {
+  color: $body-font-color;
+}
+
+// "Expand" images go full-width
+img.expand {
+  width: 100%;
+  height: auto;
 }
 
 // Lead text
