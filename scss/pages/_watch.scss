@@ -10,6 +10,12 @@
   display: none !important;
 }
 
+.orbit-next,
+.orbit-prev {
+  @include transition-property(background);
+  @include transition-duration(.5s);
+}
+
 // Squeeze tertiary closer to content on watch page
 .page-watch .page-tertiary {
   border-bottom: 0;
