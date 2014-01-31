@@ -63,7 +63,9 @@ $(function() {
     $( ".map-wrapper" ).delegate( ".pin-ok", "click", function() {
       $(".map").addClass("map-ok");
       $(".pin-campus-ok").delay(300).fadeIn(300);
-      $(".map-list-ok").delay(400).fadeIn(300);
+      $(".map-list-okc").delay(400).fadeIn(300);
+      $(".map-list-stillwater").delay(440).fadeIn(300);
+      $(".map-list-tulsa").delay(480).fadeIn(300);
     });
 
     // TX pin zoom

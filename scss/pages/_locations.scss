@@ -72,13 +72,15 @@
     padding: 5px 10px;
     @include box-shadow(rgba(0,0,0,.1) 0 2px 0);
     @include border-radius(3px);
+    @include transition-property(margin-left);
+    @include transition-duration(1s);
   }
 
   // List box styles for OKC
   .map-list-okc {
     left: 50%;
     top: 140px;
-    margin-left: -250px;
+    margin-left: -240px;
     &:after {
       content: "";
       display: block;
