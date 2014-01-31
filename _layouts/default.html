@@ -47,7 +47,9 @@
     <!-- Include tertiary here unless watch/locations -->
     {% unless page.section == 'home' %}
     {% unless page.section == 'watch' %}
+    {% unless page.section == 'locations' %}
     {% include tertiary.html %}
+    {% endunless %}
     {% endunless %}
     {% endunless %}
 

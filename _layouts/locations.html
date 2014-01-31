@@ -8,19 +8,18 @@ class: section-locations
 
 <!-- Page Main -->
 <div class="page-main">
-  <div class="row">
-    <div class="large-8 large-centered columns text-center">
-      <h1>{{ location.title }}</h1>
-      <p class="lead">{{ location.description }}</p>
-    </div>
-  </div>
 
-  <section class="tiles">
+  <section class="locations-hero page-section section-first section-light">
     <div class="row">
-      <div class="large-12 columns">
-        {{ content }}
+      <div class="large-8 large-centered columns text-center">
+        <h1>{{ location.title }}</h1>
+        <p class="lead">{{ location.description }}</p>
       </div>
     </div>
+  </section>
+
+  <section class="tiles">
+    {{ content }}
   </section>
 
   <section class="updates">

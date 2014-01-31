@@ -84,6 +84,34 @@ $(function() {
   }
 
 
+  // Locations Page
+
+  $('.location-content.content-2, .location-content.content-3').hide();
+
+  $( ".tiles" ).delegate( ".location-tile.tile-1", "click", function() {
+    $(".location-content.content-1").fadeIn(250).addClass('content-active');
+    $(".location-content.content-2, .location-content.content-3").delay(250).fadeOut(250).removeClass('content-active');
+    $(".tile-1").addClass('tile-active');
+    $(".tile-2, .tile-3").removeClass('tile-active');
+    return false;
+  });
+  $( ".tiles" ).delegate( ".location-tile.tile-2", "click", function() {
+    $(".location-content.content-2").fadeIn(250).addClass('content-active');
+    $(".location-content.content-1, .location-content.content-3").delay(250).fadeOut(250).removeClass('content-active');
+    $(".tile-2").addClass('tile-active');
+    $(".tile-1, .tile-3").removeClass('tile-active');
+    return false;
+  });
+  $( ".tiles" ).delegate( ".location-tile.tile-3", "click", function() {
+    $(".location-content.content-3").fadeIn(250).addClass('content-active');
+    $(".location-content.content-1, .location-content.content-2").delay(250).fadeOut(250).removeClass('content-active');
+    $(".tile-3").addClass('tile-active');
+    $(".tile-1, .tile-2").removeClass('tile-active');
+    return false;
+  });
+
+
+
   // If the first section on a page is "light", make the nav "light" too
   if ($('.section-first.section-light').length > 0) {
     $('body').addClass('header-light');
