@@ -263,10 +263,11 @@
 .location-content {
   float: left;
   color: #fff;
-  width: 100%;
+  width: 99.8%;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
   height: 400px;
   position: absolute;
-  
 }
 
 .content-active {
@@ -286,7 +287,6 @@
   background: #999;
 }
 
-
 .locations-hero {
   background: url("http://placekitten.com/1000/620");
   background-size: cover;
@@ -296,6 +296,9 @@
 
 .tiles {
   margin-top: -240px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-locations .page-tertiary {
@@ -304,4 +307,28 @@
 
 .section-locations .tertiary-nav a {
   color: $body-font-color !important;
+}
+
+
+// OKC Campus
+
+.location-okc {
+
+  .tile-1 {
+    @include background-image-2x-jpg('/locations/assets/campus/okc-icon-2');
+    background-size: 586px 200px;
+    &:hover, &.tile-active {
+      @include background-image-2x-jpg('/locations/assets/campus/okc-icon');
+    }
+  }
+
+  .content-1 {
+    @include background-image-2x-jpg('/locations/assets/campus/okc-map');
+    background-size: 1259px 398px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: #f9f5ed;
+  }
+
+
 }
