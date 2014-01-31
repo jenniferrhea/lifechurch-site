@@ -4,6 +4,9 @@ $(document).foundation();
 
 $(function() {
 
+  $("body").fadeIn();
+
+
   // "More" panel open/close
     
     // Open the more panel

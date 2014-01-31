@@ -333,6 +333,14 @@
     background-repeat: no-repeat;
     background-color: #f9f5ed;
   }
+  
+  // Anti-FOUC
+  .preload {
+    display: none;
+    @include background-image-2x-jpg('/locations/assets/campus/okc-icon-2');
+    @include background-image-2x-jpg('/locations/assets/campus/okc-icon');
+    @include background-image-2x-jpg('/locations/assets/campus/okc-map');
+  }
 
 
 }
