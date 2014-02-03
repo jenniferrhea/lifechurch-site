@@ -393,9 +393,9 @@
       padding: 14px 0;
       margin: 0;
       text-align: center;
-      &.hour-1 { width: 99.9%; margin: 0 1px; }
-      &.hour-2 { width: 99.9%; margin: 0 1px; }
-      &.hour-3 { width: 99.9%; margin: 0 1px; }
+      &.hour-1 { width: 99.9%; margin: 0 1px 1px; }
+      &.hour-2 { width: 99.9%; margin: 0 1px 1px; }
+      &.hour-3 { width: 99.9%; margin: 0 1px 1px; }
     }
     &.entry-lctv span {
       background: $primary-color;
