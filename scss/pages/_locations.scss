@@ -227,7 +227,19 @@
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+  span {
+    position: relative;
+    z-index: 2;
+  }
   &:hover { color: #fff; }
+  .action {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+  }
 }
 
 .tile-1 {
@@ -276,7 +288,6 @@
 
 .content-1 {
   background: #333;
-  
 }
 
 .content-2 {
@@ -318,12 +329,29 @@
 
 .location-okc {
 
-  .tile-1 {
-    @include background-image-2x-jpg('/locations/assets/campus/okc-icon-2');
+  .tile-1, .tile-1.tile-active:hover {
+    @include background-image-2x-jpg('/locations/assets/campus/okc-icon');
     background-size: 586px 200px;
-    &:hover, &.tile-active {
-      @include background-image-2x-jpg('/locations/assets/campus/okc-icon');
-    }
+  }
+
+  .tile-1:after {
+    content: "";
+    @include background-image(linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.2) 60%));
+    display: block;
+    height: 70px;
+    width: 200px;
+    top: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    @include transition-property(all);
+    @include transition-duration(.3s);
+  }
+
+  .tile-1.tile-active:after,
+  .tile-1:hover:after {
+    height: 200px;
+    opacity: 1;
   }
 
   .content-1 {
@@ -333,14 +361,5 @@
     background-repeat: no-repeat;
     background-color: #f9f5ed;
   }
-  
-  // Anti-FOUC
-  .preload {
-    display: none;
-    @include background-image-2x-jpg('/locations/assets/campus/okc-icon-2');
-    @include background-image-2x-jpg('/locations/assets/campus/okc-icon');
-    @include background-image-2x-jpg('/locations/assets/campus/okc-map');
-  }
-
 
 }

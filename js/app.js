@@ -87,12 +87,17 @@ $(function() {
   // Locations Page
 
   $('.location-content.content-2, .location-content.content-3').hide();
+  $(".tile-1").append('<span class="action down-1-white" style="top: 10px;"></span>');
+  $(".tile-2, .tile-3").append('<span class="action down-1-white" style="opacity: 0;"></span>');
 
   $( ".tiles" ).delegate( ".location-tile.tile-1", "click", function() {
     $(".location-content.content-1").fadeIn(250).addClass('content-active');
     $(".location-content.content-2, .location-content.content-3").delay(250).fadeOut(250).removeClass('content-active');
     $(".tile-1").addClass('tile-active');
     $(".tile-2, .tile-3").removeClass('tile-active');
+    $(".tile-2 .action, .tile-3 .action").animate({ top: '20', opacity: 0 }, 250);
+    $(".tile-2 .action, .tile-3 .action").animate({ top: '0' }, 250);
+    $(".tile-1 .action").delay(100).animate({ top: '10', opacity: 1 }, 250);
     return false;
   });
   $( ".tiles" ).delegate( ".location-tile.tile-2", "click", function() {
@@ -100,6 +105,9 @@ $(function() {
     $(".location-content.content-1, .location-content.content-3").delay(250).fadeOut(250).removeClass('content-active');
     $(".tile-2").addClass('tile-active');
     $(".tile-1, .tile-3").removeClass('tile-active');
+    $(".tile-1 .action, .tile-3 .action").animate({ top: '20', opacity: 0 }, 250);
+    $(".tile-1 .action, .tile-3 .action").animate({ top: '0' }, 250);
+    $(".tile-2 .action").delay(100).animate({ top: '10', opacity: 1 }, 250);
     return false;
   });
   $( ".tiles" ).delegate( ".location-tile.tile-3", "click", function() {
@@ -107,6 +115,9 @@ $(function() {
     $(".location-content.content-1, .location-content.content-2").delay(250).fadeOut(250).removeClass('content-active');
     $(".tile-3").addClass('tile-active');
     $(".tile-1, .tile-2").removeClass('tile-active');
+    $(".tile-1 .action, .tile-2 .action").animate({ top: '20', opacity: 0 }, 250);
+    $(".tile-1 .action, .tile-2 .action").animate({ top: '0' }, 250);
+    $(".tile-3 .action").delay(100).animate({ top: '10', opacity: 1 }, 250);
     return false;
   });
 
