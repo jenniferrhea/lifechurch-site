@@ -1,194 +1,48 @@
 // Contents
-// ~1 Locations Overview Page
-// ~2 Location Page
+// ~1 General Locations Styles
+// ~2 Locations Overview Page
+// ~3 Location Page
+// ~4 Specific Campus Pages
 
 
-// ~1 Locations Overview Page ***************************************
+// ~1 General Locations Styles ***************************************
 
-// Wrapper around all the large screen location content
-.map-wrapper {
-  width: 100%;
-  height: 550px;
-  position: absolute;
-  top: 0;
-  overflow: hidden;
-  background: #a4ddf4;
+// Map pin
+.pin {
+  @include svg-image('/locations/assets/pin');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 34px;
+  text-align: center;
+  font-size: 9px;
+  text-transform: uppercase;
+  padding-top: 35px;
+  color: #ada5a5;
+  text-indent: 6px;
 }
 
-.page-locations .page-tertiary {
-  visibility: hidden;
-}
 
-// Forcing the map content styles to only render on large screens
-@media #{$medium-up} {
-  // The map itself
-  .map {
-    @include svg-image('/locations/assets/map');
-    background-color: #a2ddf5;
-    background-repeat: no-repeat;
-    background-position: center top;
+// ~2 Locations Overview Page ***************************************
+
+.page-locations {
+
+  // Wrapper around all the large screen location content
+  .map-wrapper {
     width: 100%;
     height: 550px;
     position: absolute;
     top: 0;
-    background-size: auto 620px;
-    @include transition-property(all);
-    @include transition-duration(.5s);
+    overflow: hidden;
+    background: #a4ddf4;
   }
 
-  // Map when zoomed into Oklahoma
-  .map-ok {
-    background-size: auto 2400px;
-    background-position: center -1050px;
+  // Hide tertiary links from locations page
+  .page-tertiary {
+    visibility: hidden;
   }
 
-  // Map when zoomed into Texas
-  .map-tx {
-    background-size: auto 2400px;
-    background-position: center -1250px;
-  }
-
-  // US Map fallback for CSS3-less users
-  .no-backgroundsize .map {
-    background: url('/locations/assets/map-1.jpg') center top no-repeat !important;
-  }
-
-  // Oklahoma Map fallback for CSS3-less users
-  .no-backgroundsize .map-ok {
-    background: url('/locations/assets/map-2.jpg') center top no-repeat !important;
-  }
-
-  // Texas Map fallback for CSS3-less users
-  .no-backgroundsize .map-tx {
-    background: url('/locations/assets/map-3.jpg') center top no-repeat !important;
-  }
-
-  // Back button when zoomed in on the map
-  .map-back {
-    position: relative;
-    z-index: 6;
-    top: 80px;
-  }
-
-  // List box styles
-  .map-list {
-    background: #fff;
-    position: absolute;
-    z-index: 6;
-    list-style: none;
-    padding: 5px 10px;
-    @include box-shadow(rgba(0,0,0,.1) 0 2px 0);
-    @include border-radius(3px);
-    @include transition-property(margin-left);
-    @include transition-duration(1s);
-  }
-
-  // List box styles for OKC
-  .map-list-okc {
-    left: 50%;
-    top: 140px;
-    margin-left: -240px;
-    &:after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 50px;
-      right: -10px;
-      width: 0;
-      height: 0;
-      border-top: 10px solid transparent;
-      border-bottom: 10px solid transparent;
-      border-left: 10px solid #fff;
-    }
-  }
-
-  // List box styles for Tulsa
-  .map-list-tulsa {
-    left: 50%;
-    top: 140px;
-    margin-left: 80px;
-    &:after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 20px;
-      left: -10px;
-      width: 0;
-      height: 0;
-      border-top: 10px solid transparent;
-      border-bottom: 10px solid transparent;
-      border-right: 10px solid #fff;
-    }
-  }
-
-  // List box styles for Stillwater
-  .map-list-stillwater {
-    left: 50%;
-    top: 230px;
-    margin-left: -40px;
-    &:after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: -20px;
-      left: 30px;
-      width: 0;
-      height: 0;
-      border-top: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-left: 10px solid transparent;
-      border-bottom: 10px solid #fff;
-    }
-  }
-
-  // Map pin
-  .pin {
-    @include svg-image('/locations/assets/pin');
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 34px;
-    left: 50%;
-    right: 0;
-    position: absolute;
-    z-index: 3;
-    @include transition-property(background-position);
-    @include transition-duration(.2s);
-    text-align: center;
-    font-size: 9px;
-    text-transform: uppercase;
-    padding-top: 35px;
-    color: #ada5a5;
-    text-indent: 6px;
-  }
-
-  // Recolor pin text for Wellington, since it's on the water
-  .pin-fl {
-    color: #4ea6c9;
-  }
-
-  // Pin-push animation where pins are clickable
-  .pin-state:hover,
-  .pin-kellar:hover,
-  .pin-fortworth:hover {
-    background-position: center 5px;
-  }
-
-  // Pin positioning
-  .pin-ok { margin-left: -30px; top: 300px; }
-  .pin-tx { margin-left: -50px; top: 360px; }
-  .pin-tn { margin-left: 160px; top: 285px; }
-  .pin-fl { margin-left: 245px; top: 465px; }
-  .pin-ny { margin-left: 345px; top: 160px; }
-
-  .pin-okc { margin-left: -60px; top: 190px; }
-  .pin-tulsa { margin-left: 45px; top: 160px; }
-  .pin-stillwater { margin-left: -10px; top: 180px; }
-
-  .pin-kellar { margin-left: -60px; top: 240px; }
-  .pin-fortworth { margin-left: -40px; top: 200px; }
-
-  // Location page general styles
-  .page-locations {
+  // Forcing the map content styles to only render on large screens
+  @media #{$medium-up} {
 
     // Position the content on top of the map
     .page-main {
@@ -209,11 +63,198 @@
         border: none;
       }
     }
+
+    // The map itself
+    .map {
+      @include svg-image('/locations/assets/map');
+      background-color: #a2ddf5;
+      background-repeat: no-repeat;
+      background-position: center top;
+      width: 100%;
+      height: 550px;
+      position: absolute;
+      top: 0;
+      background-size: auto 620px;
+      @include transition-property(all);
+      @include transition-duration(.5s);
+    }
+
+    // Map when zoomed into Oklahoma
+    .map-ok {
+      background-size: auto 2400px;
+      background-position: center -1050px;
+    }
+
+    // Map when zoomed into Texas
+    .map-tx {
+      background-size: auto 2400px;
+      background-position: center -1250px;
+    }
+
+    // US Map fallback for CSS3-less users
+    .no-backgroundsize .map {
+      background: url('/locations/assets/map-1.jpg') center top no-repeat !important;
+    }
+
+    // Oklahoma Map fallback for CSS3-less users
+    .no-backgroundsize .map-ok {
+      background: url('/locations/assets/map-2.jpg') center top no-repeat !important;
+    }
+
+    // Texas Map fallback for CSS3-less users
+    .no-backgroundsize .map-tx {
+      background: url('/locations/assets/map-3.jpg') center top no-repeat !important;
+    }
+
+    // Back button when zoomed in on the map
+    .map-back {
+      position: relative;
+      z-index: 6;
+      top: 80px;
+    }
+
+    // List box styles
+    .map-list {
+      background: #fff;
+      position: absolute;
+      z-index: 6;
+      list-style: none;
+      padding: 5px 10px;
+      @include box-shadow(rgba(0,0,0,.1) 0 2px 0);
+      @include border-radius(3px);
+      @include transition-property(margin-left);
+      @include transition-duration(1s);
+    }
+
+    // List box styles for OKC
+    .map-list-okc {
+      left: 50%;
+      top: 140px;
+      margin-left: -240px;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: -10px;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid #fff;
+      }
+    }
+
+    // List box styles for Tulsa
+    .map-list-tulsa {
+      left: 50%;
+      top: 140px;
+      margin-left: 80px;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: -10px;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid #fff;
+      }
+    }
+
+    // List box styles for Stillwater
+    .map-list-stillwater {
+      left: 50%;
+      top: 230px;
+      margin-left: -40px;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -20px;
+        left: 30px;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+      }
+    }
+
+    // Page-specific pin styles
+    .pin {
+      left: 50%;
+      right: 0;
+      position: absolute;
+      z-index: 3;
+      @include transition-property(background-position);
+      @include transition-duration(.2s);
+    }
+
+    // Recolor pin text for Wellington, since it's on the water
+    .pin-fl {
+      color: #4ea6c9;
+    }
+
+    // Pin-push animation where pins are clickable
+    .pin-state:hover,
+    .pin-kellar:hover,
+    .pin-fortworth:hover {
+      background-position: center 5px;
+    }
+
+    // Pin positioning
+    .pin-ok { margin-left: -30px; top: 300px; }
+    .pin-tx { margin-left: -50px; top: 360px; }
+    .pin-tn { margin-left: 160px; top: 285px; }
+    .pin-fl { margin-left: 245px; top: 465px; }
+    .pin-ny { margin-left: 345px; top: 160px; }
+
+    .pin-okc { margin-left: -60px; top: 190px; }
+    .pin-tulsa { margin-left: 45px; top: 160px; }
+    .pin-stillwater { margin-left: -10px; top: 180px; }
+
+    .pin-kellar { margin-left: -60px; top: 240px; }
+    .pin-fortworth { margin-left: -40px; top: 200px; }
   }
 }
 
-// ~2 Location Page ***************************************
 
+// ~3 Location Page ***************************************
+
+// Page hero section
+.locations-hero {
+  background: url("http://placekitten.com/1000/620");
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 200px;
+}
+
+// Page content wrapper
+.tiles {
+  margin-top: -103px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Page tertiary section
+.section-locations .page-tertiary {
+  border-bottom: 1px solid rgba(0,0,0,.10);
+
+  // Link style
+  a { color: $body-font-color !important; }
+}
+
+// Adjust all content to match right side
+.location-tile-wrapper, .location-content-wrapper {
+  margin-left: 1px;
+}
+
+// Page tile
 .location-tile {
   text-align: center;
   padding: 35px 0;
@@ -230,55 +271,52 @@
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+  // Type in the tile
   span {
     position: relative;
     z-index: 2;
   }
+  // Hover state
   &:hover { color: #fff; }
-  .action {
+  // Gradient over the tile
+  &:after {
+    content: "";
+    @include background-image(linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,.2) 60%));
     display: block;
-    height: 40px;
-    width: 40px;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
+    height: 100px;
+    width: 70px;
+    top: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    @include transition-property(all);
+    @include transition-duration(.3s);
+  }
+  // Gradient fade-in effect
+  &.tile-active:after,
+  &:hover:after {
+    opacity: 1;
   }
 }
 
-.location-tile:after {
-  content: "";
-  @include background-image(linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,.2) 60%));
-  display: block;
-  height: 100px;
-  width: 70px;
-  top: 0;
-  opacity: 0;
-  position: absolute;
-  width: 100%;
-  @include transition-property(all);
-  @include transition-duration(.3s);
-}
-
-.location-tile.tile-active:after,
-.location-tile:hover:after {
-  height: 100px;
-  opacity: 1;
-}
-
+// Map tile
 .tile-1 {
   border-left: 1px solid #fff;
   border-top: 1px solid #fff;
 }
 
+// Calendar tile
 .tile-2 {
   border-top: 1px solid #fff;
 }
 
+// Contact tile
 .tile-3 {
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
 }
 
+// Active tile state
 .tile-active {
   border-bottom: 0;
   background: #fff !important;
@@ -288,6 +326,7 @@
   &:hover { color: $body-font-color; }
 }
 
+// Wrapper around the tile's revealed content
 .location-content-wrapper {
   position: relative;
   height: 450px;
@@ -295,6 +334,7 @@
   width: 100%;
 }
 
+// Page content section
 .location-content {
   float: left;
   width: 99.8%;
@@ -304,57 +344,28 @@
   position: absolute;
 }
 
+// Lift active content over the content fading out
 .content-active {
   z-index: 1;
 }
 
+// Map content area
+.content-1 {
+  background-color: #fff;
+  background-size: 1196px 398px;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+// Calendar content area
 .content-2 {
   background: #fff;
 }
 
+// Contact us area
 .content-3 {
   background: #fff;
 }
-
-.locations-hero {
-  background: url("http://placekitten.com/1000/620");
-  background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 200px;
-}
-
-.tiles {
-  margin-top: -103px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-locations .page-tertiary {
-  border-bottom: 1px solid rgba(0,0,0,.10);
-}
-
-.section-locations .tertiary-nav a {
-  color: $body-font-color !important;
-}
-
-.location-tile-wrapper, .location-content-wrapper {
-  margin-left: 1px;
-}
-
-
-// OKC Campus
-
-.location-okc {
-  .content-1 {
-    @include background-image-2x-jpg('/locations/assets/campus/okc-map');
-    background-size: 1196px 398px;
-    background-position: left top;
-    background-repeat: no-repeat;
-  }
-}
-
-
 
 // Experience Calendar
   
@@ -383,7 +394,7 @@
   // Calendar entries
   .entry {
     padding-right: 1px;
-    
+
     span {
       @include border-radius(3px);
       display: block;
@@ -436,5 +447,34 @@
   &.key-konnect figure {
     background: $secondary-color;
       border: 1px solid darken($secondary-color, 10%);
+  }
+}
+
+
+// ~4 Specific Campus Pages ***************************************
+
+// OKC Campus
+.location-okc {
+  .content-1 {
+    @include background-image-2x-jpg('/locations/assets/campus/okc-map');
+
+    .pin {
+      top: 180px;
+      left: 20px;
+      position: absolute;
+    }
+  }
+}
+
+// Edmond Campus
+.location-edm {
+  .content-1 {
+    @include background-image-2x-jpg('/locations/assets/campus/edm-map');
+
+    .pin {
+      top: 190px;
+      left: 80px;
+      position: absolute;
+    }
   }
 }
