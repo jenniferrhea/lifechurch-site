@@ -216,14 +216,17 @@
 
 .location-tile {
   text-align: center;
-  padding: 75px 0;
+  padding: 35px 0;
   display: block;
   color: #fff;
   width: 33.3%;
   float: left;
-  height: 200px;
+  height: 100px;
   border-right: 1px solid #fff;
-  @extend h2;
+  background: rgba(0,0,0,.5);
+  @include transition-property(all);
+  @include transition-duration(.3s);
+  @extend h4;
   margin-bottom: 0;
   position: relative;
   z-index: 2;
@@ -244,10 +247,10 @@
 
 .location-tile:after {
   content: "";
-  @include background-image(linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.2) 60%));
+  @include background-image(linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,.2) 60%));
   display: block;
-  height: 70px;
-  width: 200px;
+  height: 100px;
+  width: 70px;
   top: 0;
   opacity: 0;
   position: absolute;
@@ -258,7 +261,7 @@
 
 .location-tile.tile-active:after,
 .location-tile:hover:after {
-  height: 200px;
+  height: 100px;
   opacity: 1;
 }
 
@@ -268,20 +271,21 @@
 }
 
 .tile-2 {
-  background: rgba(0,0,0,.5);
   border-top: 1px solid #fff;
 }
 
 .tile-3 {
-  background: rgba(0,0,0,.2);
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
 }
 
 .tile-active {
   border-bottom: 0;
-  height: 201px;
+  background: #fff !important;
+  height: 100px;
   opacity: 1;
+  color: $body-font-color;
+  &:hover { color: $body-font-color; }
 }
 
 .location-content-wrapper {
@@ -293,7 +297,6 @@
 
 .location-content {
   float: left;
-  color: #fff;
   width: 99.8%;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
@@ -317,11 +320,11 @@
   background: url("http://placekitten.com/1000/620");
   background-size: cover;
   padding-top: 230px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .tiles {
-  margin-top: -240px;
+  margin-top: -103px;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -343,20 +346,12 @@
 // OKC Campus
 
 .location-okc {
-
-  .tile-1, .tile-1.tile-active:hover {
-    @include background-image-2x-jpg('/locations/assets/campus/okc-icon');
-    background-size: 586px 200px;
-  }
-
   .content-1 {
     @include background-image-2x-jpg('/locations/assets/campus/okc-map');
-    background-size: 1259px 398px;
+    background-size: 1196px 398px;
     background-position: left top;
     background-repeat: no-repeat;
-    background-color: #f9f5ed;
   }
-
 }
 
 
@@ -387,24 +382,59 @@
 
   // Calendar entries
   .entry {
+    padding-right: 1px;
+    
     span {
       @include border-radius(3px);
       display: block;
       padding: 14px 0;
-      margin: 0;
       text-align: center;
       &.hour-1 { width: 99.9%; margin: 0 1px 1px; }
       &.hour-2 { width: 99.9%; margin: 0 1px 1px; }
       &.hour-3 { width: 99.9%; margin: 0 1px 1px; }
     }
     &.entry-lctv span {
-      background: $primary-color;
-      border: 1px solid darken($primary-color, 10%);
-      color: #fff;
+      background: lighten($red, 30%);
+      border: 1px solid lighten($red, 20%);
+      color: $red;
     }
     &.entry-switch span {
+      background: $primary-color;
+      border: 1px solid darken($primary-color, 10%);
+      color: darken($primary-color, 20%);
+    }
+    &.entry-konnect span {
       background: $secondary-color;
       border: 1px solid darken($secondary-color, 10%);
+      color: darken($secondary-color, 40%);
     }
+  }
+}
+
+// Calendar Key
+.calendar-key {
+  margin-top: 55px;
+
+  figure {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 2px 7px 0 0;
+    @include border-radius(3px);
+  }
+
+  &.key-lctv figure {
+    background: lighten($red, 30%);
+    border: 1px solid lighten($red, 20%);
+  }
+
+  &.key-switch figure {
+    background: $primary-color;
+    border: 1px solid darken($primary-color, 10%);
+  }
+
+  &.key-konnect figure {
+    background: $secondary-color;
+      border: 1px solid darken($secondary-color, 10%);
   }
 }
