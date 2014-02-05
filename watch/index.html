@@ -29,7 +29,7 @@ class: section-watch page-watch
       <li class="watch-item">
         <a href="{{ post.url }}">
           <img src="{{ post.preview-image }}" alt="{{ post.title }}" />
-          <span>{{ post.title }}</span>
+          <h6>{{ post.title }}</h6>
         </a>
       </li>
       {% endfor %}
@@ -38,8 +38,10 @@ class: section-watch page-watch
 </div>
 
 <!-- Archive list link -->
+<section class="page-section section-last">
 <div class="row">
   <div class="large-12 large-centered columns text-center">
     <a class="action arrow-1-black large expand" href="/watch/archive/">View more archives</a>
   </div>
 </div>
+</section>
