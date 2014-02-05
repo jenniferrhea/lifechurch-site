@@ -5,8 +5,16 @@
   }
 
   .page-section {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    @media only screen and (min-height: 620px) {
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+    @media #{$small-only} {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
   }
 
   // First section (pull it over the navigation)
@@ -87,8 +95,14 @@
 .hphoto-top {
   margin-top: -165px;
   padding-top: 165px;
-  height: 300px;
+  height: 200px;
+  @media only screen and (min-height: 620px) { height: 300px; }
+  @media #{$small-only} { height: 200px; }
 }
+
+
+
+
 
 .hphoto-large  { height: 400px; }
 .hphoto-xlarge { height: 600px; }

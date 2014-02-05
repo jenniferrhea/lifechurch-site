@@ -157,15 +157,14 @@ $(function() {
     $('img[src*="svg"]').attr('src', function () {
       return $(this).attr('src').replace('.svg', '.png');
     });
-  }
+  };
 
 
-
-
-  $(window).stellar( {
-    horizontalScrolling: false,
-    verticalScrolling: true,
-  });
-
+  if ( $("html").hasClass("no-touch")) {
+    $(window).stellar( {
+      horizontalScrolling: false,
+      verticalScrolling: true,
+    });
+  };
 
 });

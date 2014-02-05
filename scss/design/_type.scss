@@ -18,9 +18,13 @@ h2,h3,h4,h6 {
 }
 
 h2 {
-  font-size:2.3rem !important;
-  margin-top: 40px !important;
-  padding-bottom: .3em;
+  font-size:1.6rem;
+  margin-top: 20px !important;
+  @media #{$medium-up} {
+    font-size:2.3rem;
+    margin-top: 40px !important;
+    padding-bottom: .3em;
+  }
 }
 
 h5 { font-weight: 300; }
@@ -35,9 +39,8 @@ h6 {
   font-weight: 600;
 }
 
-@media #{$medium-up} {
-  h1,h2,h3 { letter-spacing: -1px; }
-}
+h1,h2,h3 { letter-spacing: -1px; }
+
 
 
 // Paragraphs within a hyperlink (rather the other way around) don't get active color
@@ -54,8 +57,11 @@ img.expand {
 // Lead text
 .lead {
   font-weight: 300;
-  font-size: 1.7em !important;
+  font-size: 1.2em !important;
   margin-bottom: 30px;
+  @media #{$medium-up} {
+    font-size: 1.7em !important;
+  }
 }
 
 // Underline titles
@@ -74,8 +80,11 @@ img.expand {
 p {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
-  font-size: rem-calc(20);
+  font-size: rem-calc(15);
   line-height: 1.7;
+  @media #{$medium-up} {
+    font-size: rem-calc(20);
+  }
 }
 
 // Smaller paragraph
