@@ -30,7 +30,10 @@ h5 {
   color: $gray;
 }
 
-h6 { margin-top: 10px; }
+h6 {
+  margin-top: 10px;
+  font-weight: 600;
+}
 
 @media #{$medium-up} {
   h1,h2,h3 { letter-spacing: -1px; }
@@ -52,6 +55,7 @@ img.expand {
 .lead {
   font-weight: 300;
   font-size: 1.7em !important;
+  margin-bottom: 30px;
 }
 
 // Underline titles
