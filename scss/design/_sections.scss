@@ -73,3 +73,21 @@
       a { color: lighten($primary-color, 30%); }
     }
   }
+
+
+// Hero Photos
+
+.hphoto {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+}
+
+.hphoto-top {
+  margin-top: -165px;
+  padding-top: 165px;
+  height: 300px;
+}
+
+.hphoto-large  { height: 400px; }
+.hphoto-xlarge { height: 600px; }

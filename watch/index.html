@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Watch
-class: section-watch page-watch
+class: header-red section-watch page-watch
 ---
 
 <!-- Featured Slider -->
@@ -12,19 +12,20 @@ class: section-watch page-watch
 
 <!-- Archive Header -->
 <div class="row">
-  <div class="large-6 columns">
-    <h3>Archives</h3>
-  </div>
-  <div class="large-6 columns text-right">
-    <a href="/watch/archive/">View All</a>
+  <div class="medium-12 columns">
+    <div class="page-tertiary padded text-left">
+      <nav class="tertiary-nav">
+        <a class="current" href="#">Social Networks</a>
+      </nav>
+    </div>
   </div>
 </div>
 
 <!-- Archive Grid -->
 <div class="row">
   <div class="large-12 columns">
-    <ul class="small-block-grid-2 large-block-grid-4">
-      {% for post in site.categories.watch limit:12 %}
+    <ul class="small-block-grid-2 large-block-grid-3">
+      {% for post in site.categories.watch limit:9 %}
       <!-- Archive Item -->
       <li class="watch-item">
         <a href="{{ post.url }}">
@@ -41,7 +42,7 @@ class: section-watch page-watch
 <section class="page-section section-last">
 <div class="row">
   <div class="large-12 large-centered columns text-center">
-    <a class="action arrow-1-black large expand" href="/watch/archive/">View more archives</a>
+    <a class="action arrow-2-blue large expand" href="/watch/archive/">View more archives</a>
   </div>
 </div>
 </section>

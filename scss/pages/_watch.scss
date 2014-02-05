@@ -16,10 +16,9 @@
   @include transition-duration(.5s);
 }
 
-// Squeeze tertiary closer to content on watch page
-.page-watch .page-tertiary {
-  border-bottom: 0;
-  margin-bottom: 0;
+.page-watch .orbit-container {
+  top: -33px !important;
+  margin-bottom: -60px;
 }
 
 .play-message { margin-top: 3px; }
