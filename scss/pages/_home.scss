@@ -1,6 +1,9 @@
 .home {
   background: #1e1e1e url('/images/home/series-bg.jpg') center top no-repeat;
-  background-size: 950px auto;
+  background-size: 480px auto;
+  @media #{$medium-up} {
+    background-size: 950px auto;
+  }
 
   h1 {
     @media #{$medium-up} {
@@ -16,7 +19,7 @@
     @include svg-image('/images/home/series-logo');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 150px;
+    width: 121px;
     height: 150px;
     margin: 0 auto 20px;
     @media #{$medium-up} {
