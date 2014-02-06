@@ -37,8 +37,10 @@
   }
 
   // Hide tertiary links from locations page
-  .page-tertiary {
-    visibility: hidden;
+  @media #{$medium-up} {
+    .page-tertiary {
+      visibility: hidden;
+    }
   }
 
   // Forcing the map content styles to only render on large screens
