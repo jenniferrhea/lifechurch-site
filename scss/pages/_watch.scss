@@ -1,12 +1,12 @@
 // Watch Feature Slider
-.watch-featured {
+/*.watch-featured {
   max-height: 400px !important;
   overflow: hidden;
   img { width: 100%; }
-}
+}*/
 
 // Remove Orbit timers
-.orbit-timer {
+/*.orbit-timer {
   display: none !important;
 }
 
@@ -14,11 +14,12 @@
 .orbit-prev {
   @include transition-property(background);
   @include transition-duration(.5s);
-}
+}*/
 
-.page-watch .orbit-container {
+.page-watch .section-watch-live {
   top: -33px !important;
-  margin-bottom: -60px;
+  padding-top: 35px;
+  margin-bottom: -40px;
 }
 
 .play-message { margin-top: 3px; }
@@ -26,7 +27,4 @@
 .message h4 { margin-top: -5px; }
 .message h6 { margin-top: 2px; }
 .message { padding-bottom: 12px; }
-
-.watch-item h6 {
-  margin-top: 5px;
-}
+.watch-item h6 { margin-top: 5px; }
