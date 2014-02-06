@@ -1,9 +1,5 @@
 // LifeGroups page section
 
-  .section-lifegroups-top-buttons {
-    margin-top: 100px;
-  }
-
   .section-lifegroups-top {
     padding-bottom: 8px;
     height: 650px;
@@ -11,28 +7,6 @@
 
   .lifegroups .page-tertiary {
     visibility: hidden;
-  }
-
-  .lifegroups-hero-1 {
-    left: 0;
-    background: url("http://placekitten.com/1000/701") no-repeat;
-    border-right: 1px solid #fff;
-  }
-
-  .lifegroups-hero-2 {
-    right: 0;
-    background: url("http://placekitten.com/1000/700") no-repeat;
-  }
-
-  .lifegroups-hero-1,
-  .lifegroups-hero-2 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50%;
-    height: 572px;
-    background-size: cover;
-    background-position: center;
   }
 
   .section-lifegroups-find {
