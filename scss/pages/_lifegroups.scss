@@ -6,6 +6,7 @@
 
   .section-lifegroups-top {
     padding-bottom: 8px;
+    height: 650px;
   }
 
   .lifegroups .page-tertiary {
@@ -32,4 +33,66 @@
     height: 572px;
     background-size: cover;
     background-position: center;
+  }
+
+  .section-lifegroups-find {
+    padding: 4em 0 5em;
+    clear: both;
+  }
+
+  .section-lifegroups-tiles {
+    height: 200px;
+    background: #000;
+  }
+
+  .lifegroups-tile {
+    height: 200px;
+    background: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 90px;
+    position: relative;
+    &:after {
+      content: "";
+      @include background-image(linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,.2) 60%));
+      display: block;
+      height: 200px;
+      width: 100%;
+      top: 0;
+      opacity: .5;
+      position: absolute;
+      width: 100%;
+      @include transition-property(all);
+      @include transition-duration(.3s);
+    }
+    &:hover:after {
+      opacity: 1;
+    }
+
+    span {
+      color: #fff;
+      @extend h4;
+      display: block;
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .lifegroups-tile-last {
+    width: 34%;
+  }
+
+  .lifegroups-tile-2 {
+    background-image: url("http://placekitten.com/400/400");
+  }
+
+  .lifegroups-tile-3 {
+    background-image: url("http://placekitten.com/400/400");
+  }
+
+  .lifegroups-tile-4 {
+    background-image: url("http://placekitten.com/400/400");
   }
