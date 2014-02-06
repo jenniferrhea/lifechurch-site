@@ -55,6 +55,14 @@
   line-height: 1.2em;
   font-size: rem-calc(16);
 
+  @media #{$small-only} {
+    display: block;
+    padding-bottom: 15px;
+    text-align: left;
+    background-size: 18px 18px;
+    background-position: right 3px;
+  }
+
   @media #{$medium-up} {
     font-size: rem-calc(24);
     padding-right: 36px;
