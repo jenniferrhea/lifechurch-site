@@ -233,6 +233,10 @@
   background-size: cover;
   padding-top: 230px;
   padding-bottom: 200px;
+  @media #{$small-only} and (orientation: landscape) {
+    padding-top: 130px;
+    padding-bottom: 100px;
+  }
 }
 
 // Page content wrapper
@@ -246,6 +250,9 @@
 // Page tertiary section
 .section-locations .page-tertiary {
   border-bottom: 1px solid rgba(0,0,0,.10);
+  @media #{$small-only} and (orientation: landscape) {
+    border-bottom: none;
+  }
 
   // Link style
   a { color: $body-font-color !important; }
@@ -416,6 +423,36 @@
   }
 
   // Calendar entries
+
+  @media #{$small-only} {
+    td .inner,
+    .day {
+      /* Safari */
+      -webkit-transform: rotate(90deg);
+      /* Firefox */
+      -moz-transform: rotate(90deg);
+      /* IE */
+      -ms-transform: rotate(90deg);
+      /* Opera */
+      -o-transform: rotate(90deg);
+      /* Internet Explorer */
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
+      border: none !important;
+      background: none !important;
+      padding: 10px 0 0 !important;
+      top: -28px !important;
+      position: relative;
+    }
+
+    .day {
+      top: -2px !important;
+      padding: 6px 0 0 !important;
+    }
+  }
+
+  
+
   .entry {
     padding-right: 1px;
 
@@ -448,7 +485,9 @@
 
 // Calendar Key
 .calendar-key {
-  margin-top: 55px;
+  @media #{$medium-up} {
+    margin-top: 55px;
+  }
 
   figure {
     width: 20px;

@@ -159,12 +159,27 @@ $(function() {
     });
   };
 
-
+  // Parallax scrolling
   if ( $("html").hasClass("no-touch")) {
     $(window).stellar( {
       horizontalScrolling: false,
       verticalScrolling: true,
     });
   };
+
+  // Adjust calendar formatting for smaller devices
+  if ($(window).width() < 700) {
+    $(".experience-calendar span").each(function() {
+      $(this).text( $(this).text().replace('AM', '') );
+      $(this).text( $(this).text().replace('PM', '') );
+      $(this).text( $(this).text().replace('NOON', '12') );
+      $(this).wrapInner("<span class='inner'></span>");
+    });
+
+    $('.section-locations .tile-2').text( $('.section-locations .tile-2').text().replace('Dates /', '') );
+    $('.section-locations .tile-3').text( $('.section-locations .tile-3').text().replace(' Us', '') );
+
+  };
+
 
 });

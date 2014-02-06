@@ -11,6 +11,10 @@ h1 {
   font-weight: 600;
   margin-top: 25px;
   margin-bottom: 30px;
+  // Decrease spacing on landscape mobiles
+  @media #{$small-only} and (orientation: landscape) {
+    margin-bottom: 10px;
+  }
 }
 
 h2,h3,h4,h6 {
