@@ -119,3 +119,25 @@
     }
   }
 }
+
+
+.jobs {
+
+  .section-jobs-top {
+    background: url('/images/about/about-jobs.jpg') bottom center no-repeat; // Cut a smaller one
+    background-size: 500px auto;
+    height: 320px;
+    h1 { margin-top: 10px; }
+
+    @media #{$medium-up} {
+      background: url('/images/about/about-jobs.jpg') bottom center no-repeat;
+      background-size: 1095px auto;
+      height: 570px;
+      h1 { margin-top: 160px; }
+    }
+    
+  }
+
+  
+
+}
