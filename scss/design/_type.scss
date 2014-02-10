@@ -52,6 +52,11 @@ a p {
   color: $body-font-color;
 }
 
+ul.no-disc {
+  list-style: none;
+  margin-left: 0;
+}
+
 // "Expand" images go full-width
 img.expand {
   width: 100%;
