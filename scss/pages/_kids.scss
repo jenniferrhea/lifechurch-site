@@ -13,14 +13,32 @@
   }
 
   .panel {
-    background: none;
+    background: #fff;
     margin: 0 1px 1px 0 !important;
   }
+
+  .panel h4 {
+    width: 70px;
+    height: 34px;
+    text-indent: -999em;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .kids-lifekids h4 { @include svg-image('/images/kids/kids-lifekids'); }
+  .kids-konnect h4 { @include svg-image('/images/kids/kids-konnect'); }
+  .kids-roots h4 { @include svg-image('/images/kids/kids-roots'); }
+  .kids-loop h4 { @include svg-image('/images/kids/kids-loop'); }
+  .kids-switch h4 { @include svg-image('/images/kids/kids-switch'); }
 
   @media #{$medium-up} {
     .panel,
     .grade-list span {
       margin-bottom: 0;
+    }
+
+    .panel h4 {
+      margin-left: -10px
     }
 
     .kids-lifekids {
@@ -33,14 +51,28 @@
 
     .kids-roots {
       height: 100px;
+      h4 { margin-top: -10px; }
     }
 
     .kids-loop {
       height: 200px;
+      h4 { margin-top: -10px; }
     }
 
     .kids-switch {
       height: 600px;
+    }
+
+    .grade-list strong {
+      position: absolute;
+      top: -25px;
+      color: #777;
+      width: 70px;
+      text-transform: uppercase;
+    }
+
+    .kids-grid {
+      padding-top: 30px;
     }
 
     .grade-list span {
@@ -59,6 +91,11 @@
   }
 
   @media #{$large-up} {
+    .panel h4 {
+      width: 110px;
+      height: 53px;
+    }
+
     .kids-lifekids {
       height: 300px;
     }
@@ -77,6 +114,17 @@
 
     .kids-switch {
       height: 450px;
+    }
+
+    .grade-list strong {
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      left: -55px;
+      text-align: right;
+      top: 27px;
     }
 
     .grade-list span {
