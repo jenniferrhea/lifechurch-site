@@ -1,0 +1,23 @@
+- id: mission-1
+  title: Mission 1
+  location: Oklahoma City
+  description: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  image: http://placekitten.com/500/400
+  email: email@ddress.com
+  website: http://google.com
+
+- id: mission-2
+  title: Mission 2
+  location: Oklahoma City
+  description: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  image: http://placekitten.com/500/400
+  email: email@ddress.com
+  website: http://google.com
+
+- id: mission-3
+  title: Mission 3
+  location: Tulsa
+  description: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  image: http://placekitten.com/500/400
+  email: email@ddress.com
+  website: http://google.com

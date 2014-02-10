@@ -1,0 +1,23 @@
+.lifemissions {
+
+  .cta {
+    position: relative;
+    height: 70px;
+    @include transition-property(height);
+    @include transition-duration(.5s);
+    @media #{$medium-up} { height: 30px; }  
+  }
+
+  .cta.open {
+    height: 190px;
+    @media #{$medium-up} { height: 190px; }
+    @media #{$large-up} { height: 90px; }
+  }
+
+  form {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+}

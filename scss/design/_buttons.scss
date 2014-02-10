@@ -131,6 +131,9 @@
   &.down-2-white:hover,
   &.down-2-gray { @include svg-image('/images/icons/action-down-2-gray'); color: $gray; }
   &.down-2-white { @include svg-image('/images/icons/action-down-2-white'); color: #fff; }
+
+  // External
+  &.external-blue { @include svg-image('/images/icons/action-external-blue'); color: $primary-color; }
 }
 
 // Remove icons if "background size" isn't available on the browser

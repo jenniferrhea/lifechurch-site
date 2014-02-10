@@ -159,6 +159,7 @@ $(function() {
     });
   };
 
+
   // Parallax scrolling
   if ( $("html").hasClass("no-touch")) {
     $(window).stellar( {
@@ -167,7 +168,8 @@ $(function() {
     });
   };
 
-  // Adjust calendar formatting for smaller devices
+
+  // Adjust Campus calendar formatting for smaller devices
   if ($(window).width() < 700) {
     $(".experience-calendar span").each(function() {
       $(this).text( $(this).text().replace('AM', '') );
@@ -181,5 +183,66 @@ $(function() {
 
   };
 
+
+  // LifeMissions Page
+  if ($('.lifemissions').length > 0) {
+
+    // Hide forms by default
+    $('.lifemissions form').hide();
+
+    // Change which cluster list appears on the page
+    $('.missions-tulsa, .missions-wellington').hide();
+    $(".mission-filter select").change(function() {
+      if($(this).val() === 'okc') {
+        $('.missions-list').fadeOut();
+        $('.missions-okc').delay(500).fadeIn();
+        return false;
+      }
+      if($(this).val() === 'tulsa') {
+        $('.missions-list').fadeOut();
+        $('.missions-tulsa').delay(500).fadeIn();
+        return false;
+      }
+      if($(this).val() === 'stillwater') {
+        $('.missions-list').fadeOut();
+        $('.missions-stillwater').delay(500).fadeIn();
+        return false;
+      }
+      if($(this).val() === 'dallasfw') {
+        $('.missions-list').fadeOut();
+        $('.missions-dallasfw').delay(500).fadeIn();
+        return false;
+      }
+      if($(this).val() === 'wellington') {
+        $('.missions-list').fadeOut();
+        $('.missions-wellington').delay(500).fadeIn();
+        return false;
+      }
+      if($(this).val() === 'albany') {
+        $('.missions-list').fadeOut();
+        $('.missions-albany').delay(500).fadeIn();
+        return false;
+      }
+    });
+
+
+    // Make the form appear if "Get Involved" gets clicked
+    $( ".lifemissions" ).delegate( ".get-involved", "click", function() {
+      $(this).parent().parent().addClass('open');
+      $(this).parent().siblings('form').fadeIn();
+      $(this).prev('a').fadeOut();
+      $(this).fadeOut();
+      return false;
+    });
+
+    // Change the email recipient with the Select box
+    $(".missions-item form select").change(function() {
+      $(this).parent().parent().parent().find('input[name="recipient"]').attr('value', $(this).val());
+      if($(this).val() === 'Select Campus') {
+        $(this).parent().parent().parent().find('input[name="recipient"]').attr('value', 'someonebrave@lifechurch.tv');
+      }
+    });
+
+  };
 
 });

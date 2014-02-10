@@ -2,7 +2,7 @@
 layout: default
 title: LifeMissions
 permalink: /lifemissions/
-class: header-light
+class: lifemissions header-light
 ---
 
 <figure class="hphoto hphoto-top hphoto-giving-tithe" data-stellar-background-ratio="0.9"></figure>
@@ -30,11 +30,12 @@ class: header-light
         </div>
         <div class="medium-3 columns">
           <select>
-            <option>Test</option>
-            <option>Test</option>
-            <option>Test</option>
-            <option>Test</option>
-            <option>Test</option>
+            <option value="okc">Oklahoma City</option>
+            <option value="tulsa">Tulsa</option>
+            <option value="stilwater">Stillwater</option>
+            <option value="dallasfw">Dallas / Fort Worth</option>
+            <option value="wellington">Wellington</option>
+            <option value="albany">Albany</option>
           </select>
         </div>
         <div class="medium-3 columns">
@@ -43,53 +44,34 @@ class: header-light
     </div>
   </div>
 
-
   <div class="row padded">
     <div class="medium-8 medium-centered columns">
 
-      <div class="row">
-        <div class="medium-3 columns">
-          Global
-        </div>
-        <div class="medium-9 columns">
-          <h3>Title Goes Here</h3>
-          <p>Description of this particular ministry goes here. There's room to say what one needs to say.<br />
-          <a class="action small arrow-2-blue" href="#">Learn more</a> &nbsp; <a class="action small arrow-2-blue" href="#">Give now</a></p>
-        </div>
+      <div class="missions-list missions-okc">
+        {% for mission in site.data.missions %}
+        {% if mission.location == "Oklahoma City" %}
+        {% include lifemissions-item.html %}
+        {% endif %}
+        {% endfor %}
       </div>
 
-      <hr />
-
-      <div class="row">
-        <div class="medium-3 columns">
-          Global
-        </div>
-        <div class="medium-9 columns">
-          <h3>Title Goes Here</h3>
-          <p>Description of this particular ministry goes here. There's room to say what one needs to say.<br />
-          <a class="action small arrow-2-blue" href="#">Learn more</a> &nbsp; <a class="action small arrow-2-blue" href="#">Give now</a></p>
-        </div>
+      <div class="missions-list missions-tulsa">
+        {% for mission in site.data.missions %}
+        {% if mission.location == "Tulsa" %}
+        {% include lifemissions-item.html %}
+        {% endif %}
+        {% endfor %}
       </div>
 
-      <hr />
-
-      <div class="row">
-        <div class="medium-3 columns">
-          Global
-        </div>
-        <div class="medium-9 columns">
-          <h3>Title Goes Here</h3>
-          <p>Description of this particular ministry goes here. There's room to say what one needs to say.<br />
-          <a class="action small arrow-2-blue" href="#">Learn more</a> &nbsp; <a class="action small arrow-2-blue" href="#">Give now</a></p>
-        </div>
-      </div>
+      <div class="missions-list missions-wellington">
+        {% for mission in site.data.missions %}
+        {% if mission.location == "Wellington" %}
+        {% include lifemissions-item.html %}
+        {% endif %}
+        {% endfor %}
+      </div> 
 
     </div>
   </div>
-
-  
-
-
-
 
 </section>
