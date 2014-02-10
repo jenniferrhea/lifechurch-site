@@ -30,6 +30,7 @@ class: lifemissions header-light
         </div>
         <div class="medium-3 columns">
           <select>
+            <option value="global">Global</option>
             <option value="okc">Oklahoma City</option>
             <option value="tulsa">Tulsa</option>
             <option value="stilwater">Stillwater</option>
@@ -46,6 +47,46 @@ class: lifemissions header-light
 
   <div class="row padded">
     <div class="medium-8 medium-centered columns">
+
+      <div class="missions-list missions-global">
+        {% for mission in site.data.missions %}
+        {% if mission.location == "Global" %}
+        
+        <hr />
+
+        <article id="{{ mission.id }}" class="missions-item">
+          <div class="row">
+            <div class="medium-3 columns">
+              {{ mission.location }}
+            </div>
+            <div class="medium-9 columns">
+              <h3>{{ mission.title }}</h3>
+              <p>{{ mission.longDescription }}</p>
+              <div class="cta">
+                <p>{% if mission.website %}<a class="action small external-blue" href="{{ mission.website }}">Visit Site</a> {% endif %}{% if mission.video %}<a class="action small play-2-blue" href="#">Watch Video</a> {% endif %}<a class="action small arrow-2-blue get-involved" href="#">Get Involved</a></p>
+                
+                <form>
+                  <input name="recipient" type="hidden" value="global@lifechurch.tv">
+                  <input name="subject" type="hidden" value="{{ mission.title }}">
+                  <h4>Get Involved</h4>
+                  <div class="row">
+                    <div class="large-8 columns">
+                      <input type="text" placeholder="Email or Phone number" />
+                    </div>
+                    <div class="large-4 columns">
+                      <input type="button" class="button tiny radius expand" value="Send" />
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </article>
+
+        {% endif %}
+        {% endfor %}
+      </div>
 
       <div class="missions-list missions-okc">
         {% for mission in site.data.missions %}

@@ -191,8 +191,15 @@ $(function() {
     $('.lifemissions form').hide();
 
     // Change which cluster list appears on the page
-    $('.missions-tulsa, .missions-wellington').hide();
+    $('.missions-list').hide();
+    $('.missions-global').show();
+    
     $(".mission-filter select").change(function() {
+      if($(this).val() === 'global') {
+        $('.missions-list').fadeOut();
+        $('.missions-global').delay(500).fadeIn();
+        return false;
+      }
       if($(this).val() === 'okc') {
         $('.missions-list').fadeOut();
         $('.missions-okc').delay(500).fadeIn();
@@ -230,7 +237,7 @@ $(function() {
     $( ".lifemissions" ).delegate( ".get-involved", "click", function() {
       $(this).parent().parent().addClass('open');
       $(this).parent().siblings('form').fadeIn();
-      $(this).prev('a').fadeOut();
+      $(this).siblings('a').fadeOut();
       $(this).fadeOut();
       return false;
     });

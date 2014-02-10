@@ -1,27 +1,71 @@
 - id: mission-1
   title: Mission 1
+  logo: http://placekitten.com/250/90
+  logo2x: http://placekitten.com/500/180
   location: Oklahoma City
-  description: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  image: http://placekitten.com/500/400
+  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
   website: http://google.com
+  image: http://placekitten.com/300/300
+  image2x: http://placekitten.com/600/600
+  video: http://apple.com
 
 - id: mission-2
   title: Mission 2
+  logo: http://placekitten.com/250/90
+  logo2x: http://placekitten.com/500/180
   location: Oklahoma City
-  description: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  image: http://placekitten.com/500/400
+  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
   website: http://google.com
+  image: http://placekitten.com/300/300
+  image2x: http://placekitten.com/600/600
+  video: http://apple.com
 
 - id: mission-3
   title: Mission 3
+  logo: http://placekitten.com/250/90
+  logo2x: http://placekitten.com/500/180
   location: Tulsa
-  description: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  image: http://placekitten.com/500/400
+  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
   website: http://google.com
+  image: http://placekitten.com/300/300
+  image2x: http://placekitten.com/600/600
+  video: http://apple.com
 
 - id: mission-4
   title: Mission 4
+  logo: http://placekitten.com/250/90
+  logo2x: http://placekitten.com/500/180
   location: Dallas Fort Worth
-  description: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  image: http://placekitten.com/500/400
+  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
   website: http://google.com
+  image: http://placekitten.com/300/300
+  image2x: http://placekitten.com/600/600
+  video: http://apple.com
+
+- id: mission-5
+  title: Mission 5
+  logo: http://placekitten.com/250/90
+  logo2x: http://placekitten.com/500/180
+  location: Global
+  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  website: http://google.com
+  image: http://placekitten.com/300/300
+  image2x: http://placekitten.com/600/600
+  video: http://apple.com
+
+- id: mission-6
+  title: Mission 6
+  logo: http://placekitten.com/250/90
+  logo2x: http://placekitten.com/500/180
+  location: Global
+  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  website: http://google.com
+  image: http://placekitten.com/300/300
+  image2x: http://placekitten.com/600/600
+  video: http://apple.com
