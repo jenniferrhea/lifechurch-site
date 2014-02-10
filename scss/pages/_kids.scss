@@ -12,4 +12,76 @@
     }
   }
 
+  .panel {
+    background: none;
+    margin: 0 1px 1px 0 !important;
+  }
+
+  @media #{$medium-up} {
+    .panel,
+    .grade-list span {
+      margin-bottom: 0;
+    }
+
+    .kids-lifekids {
+      height: 400px;
+    }
+
+    .kids-konnect {
+      height: 400px;
+    }
+
+    .kids-roots {
+      height: 100px;
+    }
+
+    .kids-loop {
+      height: 200px;
+    }
+
+    .kids-switch {
+      height: 600px;
+    }
+
+    .grade-list span {
+      height: 75px;
+      display: block;
+      border-top: 1px solid #bbb;
+      color: #777;
+      font-size: 14px;
+    }
+
+    .kids-call {
+      margin: 170px 0 0 30px;
+      display: block;
+      padding-right: 100px;
+    }
+  }
+
+  @media #{$large-up} {
+    .kids-lifekids {
+      height: 300px;
+    }
+
+    .kids-konnect {
+      height: 300px;
+    }
+
+    .kids-roots {
+      height: 75px;
+    }
+
+    .kids-loop {
+      height: 150px;
+    }
+
+    .kids-switch {
+      height: 450px;
+    }
+
+    .grade-list span {
+      height: 75px;
+    }
+  }
+
 }

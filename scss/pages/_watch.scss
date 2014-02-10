@@ -28,3 +28,26 @@
 .message h6 { margin-top: 2px; }
 .message { padding-bottom: 12px; }
 .watch-item h6 { margin-top: 5px; }
+
+.watch-podcast,
+.watch-talkitover,
+.watch-open {
+  padding-top: 10px !important;
+  padding-bottom: 12px !important;
+}
+
+.watch-podcast:before,
+.watch-talkitover:before,
+.watch-open:before {
+  content: "";
+  display: block;
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: -3px
+}
+
+.watch-podcast:before { @include svg-image('/images/watch/watch-podcast'); }
+.watch-talkitover:before { @include svg-image('/images/watch/watch-talkitover'); }
+.watch-open:before { @include svg-image('/images/watch/watch-open'); }
