@@ -16,14 +16,25 @@
       </nav>
     </div>
     <div class="large-4 columns tertiary-resources text-right">
-      <!-- Resources -->
       {% if page.section == "watch" %}
-      {% if page.section != "archives" %}
-      {% include watch-resources.html %}
+      <!-- Watch Options -->
+      <a href="#" data-dropdown="drop" class="button radius tiny dropdown">Get Resources</a><br>
+      <ul id="drop" data-dropdown-content class="f-dropdown text-left">
+        <li><a href="#"><img src="http://placekitten.com/25/25" alt="" /> Download Videos</a></li>
+        <li><a href="#"><img src="http://placekitten.com/25/25" alt="" /> Get Talk Notes</a></li>  
+        <li><a href="{{series.open}}"><img src="http://placekitten.com/25/25" alt="" /> For Other Churches</a></li>
+      </ul>
       {% endif %}
+
+      {% if page.section == "locations" %}
+      <!-- Locations Options -->
+      <a class="button radius tiny" href="#">Subscribe thing</a>
       {% endif %}
-      {% if page.section == "locations" %}<a class="button radius tiny" href="#">Subscribe thing</a>{% endif %}
-      {% if page.section == "giving" %}<a class="button radius tiny" href="#">Button</a> or <a class="button radius tiny" href="#">Button</a>{% endif %}
+
+      {% if page.section == "giving" %}
+      <!-- Giving Options -->
+      <a class="button radius tiny" href="#">Button</a> or <a class="button radius tiny" href="#">Button</a>
+      {% endif %}
     </div>
   </div>
 </div>

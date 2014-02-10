@@ -101,8 +101,18 @@
 }
 
 
+.f-dropdown:before { left: 15px; }
+.f-dropdown:after { left: 14px; }
 
+.dropdown.button::before,
+button.dropdown::before {
+  left: 1rem;
+}
 
+.button.dropdown {
+  padding-left: 2.5rem;
+  padding-right: 2em !important;
+}
 
 .hphoto-large  { height: 400px; }
 .hphoto-xlarge { height: 600px; }
