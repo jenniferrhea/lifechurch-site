@@ -44,6 +44,15 @@ $(function() {
   };
 
 
+  // Series Page Mobile
+  if ($('.section-series').length > 0) {
+    if ($(window).width() < 960) {
+      $('.tertiary-nav .current').text('Series');
+    }
+  }
+  
+
+
   // Locations Map
 
   if ($(window).width() < 960) {

@@ -104,12 +104,17 @@
   @media #{$small-only} and (orientation: landscape) {
     .tertiary-header {
       width: 200px;
-      top: -60px;
-      left: 80px;
+      top: -58px;
+      left: 75px;
       margin-bottom: -10px;
       border: none;
       a {
         font-size: 1em !important;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue", sans-serif;
+        color: $black;
+        font-weight: bold !important;
+        font-size: rem-calc(14) !important;
       }
     }
   }

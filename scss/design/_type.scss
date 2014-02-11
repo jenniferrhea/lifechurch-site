@@ -7,6 +7,10 @@ h1 { color: #333; }
 h2 { color: #444; }
 h3 { color: #555; }
 
+body {
+  -webkit-text-size-adjust: none;
+}
+
 h1 {
   font-weight: 600;
   margin-top: 25px;
