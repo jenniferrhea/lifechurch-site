@@ -22,6 +22,7 @@ $(function() {
       };
     });
 
+
     // Close the more panel
     $( ".primary-links" ).delegate( ".nav-close-more", "click", function() {
       $(".page-more").fadeOut();

@@ -45,6 +45,43 @@ h6 {
 
 h1,h2,h3 { letter-spacing: -1px; }
 
+hr.thin {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+blockquote {
+  padding-left: 0;
+  border: none;
+  text-align: center;
+  p {
+    font-size: 1.2rem;
+    @media #{$medium-up} { font-size: 2rem; }
+    line-height: 1.3em;
+    color: #333;
+  }
+  cite {
+    font-size: 1rem;
+    @media #{$medium-up} { font-size: 1.3rem; }
+    color: $red;
+  }
+
+  &.quote-large {
+    text-align: left;
+    p {
+      font-size: 1.2rem;
+      @media #{$medium-up} { font-size: 3rem; }
+      line-height: 1.3em;
+      font-family: $body-font-family;
+      font-weight: 300;
+    }
+    cite {
+      font-size: 1rem;
+      @media #{$medium-up} { font-size: 1.5rem; }
+      color: $red;
+    }
+  }
+}
 
 
 // Paragraphs within a hyperlink (rather the other way around) don't get active color

@@ -1,31 +1,37 @@
 ---
 layout: default
 title: Archive
-section: archive
+section: watch archive
 permalink: /watch/archive/
 ---
 
-  {% for post in site.categories.watch limit:1000 %}
-    {% capture date %}{{ post.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
+<div class="row">
+  <div class="large-12 columns">
+    <ul class="small-block-grid-2 large-block-grid-3">
+    {% for post in site.categories.watch limit:1000 %}
+      {% capture date %}{{ post.date | date: '%B %Y' }}{% endcapture %}
+      {% capture ndate %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
 
-    {% if date != ndate %}
-    <div class="row">
-      <div class="medium-12 columns">
-        <br />
-        <h4 class="month">{{post.date | date: '%B %Y'}}</h4>
-        <br />
+      {% if date != ndate %}
+      </ul>
+      <div class="row">
+        <div class="medium-12 columns">
+          <br />
+          <h4 class="month">{{post.date | date: '%B %Y'}}</h4>
+          <br />
+        </div>
       </div>
-    </div>
-    {% endif %}
-
-    <div class="row">
-      <div class="medium-1 columns">
-        <h5 class="date">{{post.date | date:"%b %d"}}</h5>
-      </div>
-      <div class="medium-11 columns">
-        <p><a class="item" href='{{post.url}}'>{{post.title}}</a></p>
-      </div>
-    </div>
-     
-  {% endfor %}
+      <ul class="small-block-grid-2 large-block-grid-3">
+      {% endif %}
+   
+      <!-- Archive Item -->
+      <li class="watch-item">
+        <a href="{{ post.url }}">
+          <img src="{{ post.preview-image }}" alt="{{ post.title }}" />
+          <h6>{{ post.title }}</h6>
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>

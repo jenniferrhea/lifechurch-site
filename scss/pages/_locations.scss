@@ -43,6 +43,16 @@
     }
   }
 
+  @media #{$small-only} {
+    .hphoto-small-locations {
+      @include svg-image('/locations/assets/map');
+      background-color: #a2ddf5;
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: auto 100%;
+    }
+  }
+
   // Forcing the map content styles to only render on large screens
   @media #{$medium-up} {
 

@@ -55,6 +55,11 @@ $gray: #929292;
 $red: #B9252D;
 
 // Quick classes
+
+@media #{$small-only} {
+  .small-text-center { text-align: center; }
+}
+
 @media #{$large-up} {
   .large-right { float: right; }
   .large-left { float: left; }

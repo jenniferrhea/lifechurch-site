@@ -4,6 +4,14 @@
     padding-top: 3em;
   }
 
+  .large-padded {
+    @media #{$medium-up} { padding-top: 3em; }
+  }
+
+  img.padded {
+    @media #{$small-only} { padding-top: 0; }
+  }
+
   .page-section {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -88,8 +96,9 @@
 .hphoto {
   margin: 0;
   padding: 0;
-  height: 350px;
+  height: 200px;
   position: relative;
+  @media #{$medium-up} { height: 350px; }
 }
 
 .hphoto-top {
@@ -114,5 +123,12 @@ button.dropdown::before {
   padding-right: 2em !important;
 }
 
-.hphoto-large  { height: 400px; }
-.hphoto-xlarge { height: 600px; }
+.hphoto-large  {
+  height: 200px;
+  @media #{$medium-up} { height: 500px; }
+}
+
+.hphoto-xlarge {
+  height: 200px;
+  @media #{$medium-up} { height: 700px; }
+}
