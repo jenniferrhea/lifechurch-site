@@ -1,4 +1,5 @@
-.missions-list {
+.missions-list,
+.serving-list {
 
   .cta {
     position: relative;
@@ -20,4 +21,14 @@
     width: 100%;
   }
 
+}
+
+.serving-list .cta {
+  height: 80px;
+}
+
+.serving-list .cta.open {
+  height: 300px;
+  @media #{$medium-up} { height: 280px; }
+  @media #{$large-up} { height: 240px; }
 }
