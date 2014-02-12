@@ -47,6 +47,14 @@ h6 {
   font-weight: 600;
 }
 
+label {
+  @extend h6;
+}
+
+textarea {
+  min-height: 200px;
+}
+
 h1,h2,h3 { letter-spacing: -1px; }
 
 hr.thin {
