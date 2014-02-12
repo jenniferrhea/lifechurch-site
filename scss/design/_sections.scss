@@ -51,10 +51,10 @@
 
   // Change navigation coloring to white if first section is white
   .header-light {
-    .nav-more span {
+    .nav-more .more-line {
       background: #fff !important;
     }
-    .nav-more:hover span {
+    .nav-more:hover .more-line {
       background: #ccc !important;
     }
     .logo {

@@ -47,6 +47,15 @@
 }
 
 // "More" hamburger icon
+  @media #{$small-only} {
+    .nav-more,
+    .nav-close-more {
+      display: block;
+      height: 40px !important;
+      margin-bottom: -10px;
+    }
+  }
+
   .more-line-1,
   .more-line-2,
   .more-line-3 {

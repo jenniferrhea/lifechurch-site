@@ -3,7 +3,7 @@
 <div class="medium-12 columns">
 <div class="page-tertiary tertiary-header">
   <div class="row">
-    <div class="medium-8 columns">
+    <div class="medium-6 columns">
       <!-- Breadcrumb -->
       <nav class="tertiary-nav">
         {% if page.section == "locations" %}<a href="/locations/">Locations</a>{% endif %}
@@ -15,15 +15,11 @@
         <a class="current" href="#">{{ page.title }}</a>
       </nav>
     </div>
-    <div class="medium-4 columns tertiary-resources text-right">
+    <div class="medium-6 columns tertiary-resources text-right">
       {% if page.section == "watch" %}
       <!-- Watch Options -->
-      <a href="#" data-dropdown="drop" class="button radius tiny dropdown">Get Resources</a><br>
-      <ul id="drop" data-dropdown-content class="f-dropdown text-left">
-        <li><a href="#" class="watch-podcast">Get the Podcast</a></li>
-        <li><a href="#" class="watch-talkitover">Get Talk Notes</a></li>  
-        <li><a href="{{series.open}}" class="watch-open">For Other Churches</a></li>
-      </ul>
+      <div class="hide-for-small"><a href="#" data-dropdown="drop" class="button radius inverse tiny dropdown">Get Resources</a><br></div>
+      {% include watch-resources.html %}
       {% endif %}
 
       {% if page.section == "locations" %}
@@ -33,7 +29,7 @@
 
       {% if page.title == "Giving" %}
       <!-- Giving Options -->
-      <div class="hide-for-small"><a class="button radius tiny" href="#">Button</a> or <a class="button radius tiny" href="#">Button</a></div>
+      <div class="hide-for-small"><a class="button radius inverse white tiny" href="#">Sign up for Giving</a> <a class="button radius inverse white tiny" href="#">Log in to Give</a></div>
       {% endif %}
     </div>
   </div>

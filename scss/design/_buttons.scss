@@ -15,6 +15,10 @@
       }
     }
 
+    &.white {
+      color: #fff;
+    }
+
     // Button Radius Inverse
     &.inverse {
       background: none;
@@ -22,9 +26,16 @@
       color: $primary-color;
       @include transition-property(all);
       @include transition-duration(.15s);
+      &:before { border-color: $primary-color transparent transparent transparent }
       &:hover {
         border-color: darken($primary-color, 10%);
         color: darken($primary-color, 10%);
+      }
+      &.white {
+        border-color: rgba(255,255,255,.5);
+        color: #fff;
+        &:hover { opacity: .7; }
+        &:before { border-color: #fff transparent transparent transparent }
       }
 
       // Button Radius Inverse Red

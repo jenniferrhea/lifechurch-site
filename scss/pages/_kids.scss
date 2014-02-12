@@ -31,6 +31,10 @@
   .kids-loop h4 { @include svg-image('/images/kids/kids-loop'); }
   .kids-switch h4 { @include svg-image('/images/kids/kids-switch'); }
 
+  .kids-call {
+    margin: 30px 0 0px;
+  }
+
   @media #{$medium-up} {
     .panel,
     .grade-list span {
