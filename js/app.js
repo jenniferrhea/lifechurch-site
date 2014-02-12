@@ -195,13 +195,13 @@ $(function() {
 
 
   // LifeMissions Page
-  if ($('.lifemissions').length > 0) {
+  if ($('.missions-list').length > 0) {
 
     // Hide forms by default
-    $('.lifemissions form').hide();
+    $('.missions-list form').hide();
 
     // Change which cluster list appears on the page
-    $('.missions-list').hide();
+    /*$('.missions-list').hide();
     $('.missions-global').show();
     
     $(".mission-filter select").change(function() {
@@ -240,11 +240,11 @@ $(function() {
         $('.missions-albany').delay(500).fadeIn();
         return false;
       }
-    });
+    });*/
 
 
     // Make the form appear if "Get Involved" gets clicked
-    $( ".lifemissions" ).delegate( ".get-involved", "click", function() {
+    $( ".missions-list" ).delegate( ".get-involved", "click", function() {
       $(this).parent().parent().addClass('open');
       $(this).parent().siblings('form').fadeIn();
       $(this).siblings('a').fadeOut();

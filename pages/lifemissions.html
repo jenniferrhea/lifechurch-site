@@ -26,16 +26,18 @@ class: lifemissions header-light
 
       <p>Hulk hogan frontiersman knavish rogue imperial omar sharif.</p>
 
-      <p>Omar sharif wario fox hunting erudite headmaster, nefarious gunslinger leslie phillips wario what a bounder erudite headmaster casual style fox hunting omar sharif funny walk.</p>
+      <p>Omar sharif wario fox hunting erudite headmaster, nefarious gunslinger leslie phillips wario what a bounder erudite headmaster casual style fox.</p>
+      <p><a href="#" class="action arrow-2-blue small">Give to Relief &amp; Restoration</a><br />
+      <a href="#" class="action play-2-blue small">Watch Video</a></p>
     </div>
-    <div class="medium-8 columns">
-      <img class="padded" src="http://placekitten.com/800/600" alt="" />
+    <div class="medium-7 columns">
+      <img class="padded" src="http://placekitten.com/800/800" alt="" />
     </div>
   </div>
 
   <div class="row padded">
     <div class="medium-12 columns">
-      <blockquote class="quote-large">
+      <blockquote>
         <p>“Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.”</p>
         <cite>Some citation goes here</cite>
       </blockquote>
@@ -49,10 +51,12 @@ class: lifemissions header-light
 
       <p>Hulk hogan frontiersman knavish rogue imperial omar sharif.</p>
 
-      <p>Omar sharif wario fox hunting erudite headmaster, nefarious gunslinger leslie phillips wario what a bounder erudite headmaster casual style fox hunting omar sharif funny walk.</p>
+      <p>Omar sharif wario fox hunting erudite headmaster, nefarious gunslinger leslie phillips wario what a bounder erudite headmaster casual style fox.</p>
+      <p><a href="#" class="action arrow-2-blue small">Give to Relief &amp; Restoration</a><br />
+      <a href="#" class="action play-2-blue small">Watch Video</a></p>
     </div>
-    <div class="medium-8 pull-4 columns">
-      <img class="padded" src="http://placekitten.com/800/600" alt="" />
+    <div class="medium-7 pull-5 columns">
+      <img class="padded" src="http://placekitten.com/800/800" alt="" />
     </div>
   </div>
 
@@ -69,10 +73,12 @@ class: lifemissions header-light
 
       <p>Hulk hogan frontiersman knavish rogue imperial omar sharif.</p>
 
-      <p>Omar sharif wario fox hunting erudite headmaster, nefarious gunslinger leslie phillips wario what a bounder erudite headmaster casual style fox hunting omar sharif funny walk.</p>
+      <p>Omar sharif wario fox hunting erudite headmaster, nefarious gunslinger leslie phillips wario what a bounder erudite headmaster casual style fox.</p>
+      <p><a href="#" class="action arrow-2-blue small">Give to Relief &amp; Restoration</a><br />
+      <a href="#" class="action play-2-blue small">Watch Video</a></p>
     </div>
-    <div class="medium-8 columns">
-      <img class="padded" src="http://placekitten.com/800/600" alt="" />
+    <div class="medium-7 columns">
+      <img class="padded" src="http://placekitten.com/800/800" alt="" />
     </div>
   </div>
 
@@ -92,110 +98,19 @@ class: lifemissions header-light
 
       <p>Hulk hogan frontiersman knavish rogue imperial omar sharif.</p>
 
-      <p>Omar sharif wario fox hunting erudite headmaster, nefarious gunslinger leslie phillips wario what a bounder erudite headmaster casual style fox hunting omar sharif funny walk.</p>
+      <p>Omar sharif wario fox hunting erudite headmaster, nefarious gunslinger leslie phillips wario what a bounder erudite headmaster casual style fox.</p>
+      <p><a href="#" class="action arrow-2-blue small">Give to Relief &amp; Restoration</a><br />
+      <a href="#" class="action play-2-blue small">Watch Video</a></p>
     </div>
-    <div class="medium-8 pull-4 columns">
-      <img class="padded" src="http://placekitten.com/800/600" alt="" />
-    </div>
-  </div>
-
-</section>
-
-<hr />
-
-<section class="page-section mission-filter">
-  <div class="row">
-    <div class="medium-12 columns text-center">
-      <h2>Locally we invest people. Globally we invest dollars.</h2>
-      
-      <div class="row">
-        <div class="medium-6 columns medium-text-right">
-          <p class="lead">I want to invest:</p>
-        </div>
-        <div class="medium-3 columns">
-          <select>
-            <option value="global">Global</option>
-            <option value="okc">Oklahoma City</option>
-            <option value="tulsa">Tulsa</option>
-            <option value="stilwater">Stillwater</option>
-            <option value="dallasfw">Dallas / Fort Worth</option>
-            <option value="wellington">Wellington</option>
-            <option value="albany">Albany</option>
-          </select>
-        </div>
-        <div class="medium-3 columns">
-        </div>
-      </div>
+    <div class="medium-7 pull-5 columns">
+      <img class="padded" src="http://placekitten.com/800/800" alt="" />
     </div>
   </div>
 
   <div class="row padded">
-    <div class="medium-8 medium-centered columns">
-
-      <div class="missions-list missions-global">
-        {% for mission in site.data.missions %}
-        {% if mission.location == "Global" %}
-        
-        <hr />
-
-        <article id="{{ mission.id }}" class="missions-item">
-          <div class="row">
-            <div class="medium-3 columns">
-              {{ mission.location }}
-            </div>
-            <div class="medium-9 columns">
-              <h3>{{ mission.title }}</h3>
-              <p>{{ mission.longDescription }}</p>
-              <div class="cta">
-                <p>{% if mission.website %}<a class="action small external-blue" href="{{ mission.website }}">Visit Site</a> {% endif %}{% if mission.video %}<a class="action small play-2-blue" href="#">Watch Video</a> {% endif %}<a class="action small arrow-2-blue get-involved" href="#">Get Involved</a></p>
-                
-                <form>
-                  <input name="recipient" type="hidden" value="global@lifechurch.tv">
-                  <input name="subject" type="hidden" value="{{ mission.title }}">
-                  <h4>Get Involved</h4>
-                  <div class="row">
-                    <div class="large-8 columns">
-                      <input type="text" placeholder="Email or Phone number" />
-                    </div>
-                    <div class="large-4 columns">
-                      <input type="button" class="button tiny radius expand" value="Send" />
-                    </div>
-                  </div>
-                </form>
-
-              </div>
-            </div>
-          </div>
-        </article>
-
-        {% endif %}
-        {% endfor %}
-      </div>
-
-      <div class="missions-list missions-okc">
-        {% for mission in site.data.missions %}
-        {% if mission.location == "Oklahoma City" %}
-        {% include lifemissions-item.html %}
-        {% endif %}
-        {% endfor %}
-      </div>
-
-      <div class="missions-list missions-tulsa">
-        {% for mission in site.data.missions %}
-        {% if mission.location == "Tulsa" %}
-        {% include lifemissions-item.html %}
-        {% endif %}
-        {% endfor %}
-      </div>
-
-      <div class="missions-list missions-wellington">
-        {% for mission in site.data.missions %}
-        {% if mission.location == "Wellington" %}
-        {% include lifemissions-item.html %}
-        {% endif %}
-        {% endfor %}
-      </div> 
-
+    <div class="medium-12 columns text-center">
+      <hr />
+      <p class="padded"><a href="/locations/" class="action arrow-2-black large">View local missions</a> <a href="/lifemissions/restore/" class="action arrow-2-black large">Learn more about Restore</a></p>
     </div>
   </div>
 

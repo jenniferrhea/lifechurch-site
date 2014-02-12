@@ -3,7 +3,7 @@
 <article id="{{ mission.id }}" class="missions-item">
   <div class="row">
     <div class="medium-3 columns">
-      {{ mission.location }}
+      <img src="{{ mission.image }}" alt="" />
     </div>
     <div class="medium-9 columns">
       <h3>{{ mission.title }}</h3>
@@ -14,9 +14,9 @@
         <form>
           <input name="recipient" type="hidden" value="someonebrave@lifechurch.tv">
           <input name="subject" type="hidden" value="{{ mission.title }}">
-          <h4>Get Involved</h4>
+          <h6>Get Involved</h6>
           <div class="row">
-            <div class="large-5 columns">
+            <!--<div class="large-5 columns">
               <select>
               {% if mission.location == 'Oklahoma City' %}
                 <option>Select Campus</option>
@@ -48,13 +48,14 @@
                 <option value="albany@lifechurch.tv">Albany Campus</option>
               {% endif %}
               </select>
-            </div>
-            <div class="large-5 columns">
+            </div>-->
+            <div class="medium-4 columns">
               <input type="text" placeholder="Email or Phone number" />
             </div>
-            <div class="large-2 columns">
-              <input type="button" class="button tiny radius expand" value="Send" />
+            <div class="medium-4 columns">
+              <input type="button" class="button tiny radius" value="Send" />
             </div>
+            <div class="medium-4 columns"></div>
           </div>
         </form>
 

@@ -348,7 +348,6 @@
 // Wrapper around the tile's revealed content
 .location-content-wrapper {
   position: relative;
-  height: 450px;
   float: left;
   width: 100%;
 }
@@ -359,13 +358,14 @@
   width: 99.8%;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
-  height: 400px;
   position: absolute;
+  margin-bottom: 40px;
 }
 
 // Lift active content over the content fading out
 .content-active {
   z-index: 1;
+  position: relative;
 }
 
 // Calendar content area
@@ -385,6 +385,7 @@
   background-size: 1196px 398px;
   background-position: left top;
   background-repeat: no-repeat;
+  height: 400px;
 
   .address {
     background: rgba(0,0,0,.8);
@@ -498,6 +499,9 @@
   @media #{$medium-up} {
     margin-top: 55px;
   }
+
+  // Keep the links in the key on the same line as the colors
+  a { float: left; }
 
   figure {
     width: 20px;
