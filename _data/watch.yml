@@ -1,60 +1,89 @@
 - id: small-things-big-difference
   title: Small Things Big Difference
   open: http://www.apple.com/
+  url: http://www.apple.com/
   messages:
     - title: Week 1
       description: Description goes here
-      url: http://www.apple.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
     - title: Week 2
       description: Description goes here (2)
-      url: http://www.google.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
     - title: Week 3
       description: Description goes here (3)
-      url: http://www.microsoft.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
 
 - id: maker-of-miracles
   title: Maker of Miracles
   open: http://www.apple.com/
+  url: http://www.apple.com/
   messages:
     - title: Week 1
       description: Description goes here
-      url: http://www.apple.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 3
+      description: Description goes here (3)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
 
 - id: fear-not
   title: Fear Not
   open: http://www.apple.com/
+  url: http://www.apple.com/
   messages:
     - title: Week 1
       description: Description goes here
-      url: http://www.apple.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
     - title: Week 2
       description: Description goes here (2)
-      url: http://www.google.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
     - title: Week 3
       description: Description goes here (3)
-      url: http://www.microsoft.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
 
 - id: interview-kevin-durant-carl-lentz
   title: Interview with Kevin Durant and Carl Lentz
   open: http://www.apple.com/
+  url: http://www.apple.com/
   messages:
     - title: Week 1
       description: Description goes here
-      url: http://www.apple.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 3
+      description: Description goes here (3)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
 
 - id: Necessary Sins
   title: Necessary Sins
   open: http://www.apple.com/
+  url: http://www.apple.com/
   messages:
     - title: Week 1
       description: Description goes here
-      url: http://www.apple.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
     - title: Week 2
       description: Description goes here (2)
-      url: http://www.google.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
     - title: Week 3
       description: Description goes here (3)
-      url: http://www.microsoft.com/
-    - title: Week 4
-      description: Description goes here (4)
-      url: http://www.microsoft.com/
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
