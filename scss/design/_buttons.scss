@@ -65,6 +65,10 @@
   @media #{$small-only} {
     display: block;
     text-align: left;
+
+    i {
+      float: right;
+    }
   }
 
   @media #{$medium-up} {

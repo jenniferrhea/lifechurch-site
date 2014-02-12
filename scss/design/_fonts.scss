@@ -49,13 +49,15 @@
   content: "\31";
 }
 
-.small .icon:before {
-  bottom: -3px;
-}
-.icon:before {
-  bottom: -4px;
-  position: relative;
-}
-.large .icon:before {
-  bottom: -6px;
+@media #{$medium-up} {
+  .small .icon:before {
+    bottom: -3px;
+  }
+  .icon:before {
+    bottom: -4px;
+    position: relative;
+  }
+  .large .icon:before {
+    bottom: -6px;
+  }
 }
