@@ -90,7 +90,7 @@ $(function() {
   }
 
 
-  // Locations Page
+  // Locations Page Tiles
 
   $('.location-content.content-2, .location-content.content-3').hide();
 
@@ -195,10 +195,11 @@ $(function() {
 
 
   // LifeMissions Page
-  if ($('.missions-list').length > 0) {
+  if ($('.missions-list, .location-contact').length > 0) {
 
     // Hide forms by default
     $('.missions-list form').hide();
+    $('.location-contact form').hide();
 
     // Change which cluster list appears on the page
     /*$('.missions-list').hide();
@@ -247,18 +248,18 @@ $(function() {
     $( ".missions-list" ).delegate( ".get-involved", "click", function() {
       $(this).parent().parent().addClass('open');
       $(this).parent().siblings('form').fadeIn();
-      $(this).siblings('a').fadeOut();
+      $(this).parent().fadeOut();
       $(this).fadeOut();
       return false;
     });
 
     // Change the email recipient with the Select box
-    $(".missions-item form select").change(function() {
+    /*$(".missions-item form select").change(function() {
       $(this).parent().parent().parent().find('input[name="recipient"]').attr('value', $(this).val());
       if($(this).val() === 'Select Campus') {
         $(this).parent().parent().parent().find('input[name="recipient"]').attr('value', 'someonebrave@lifechurch.tv');
       }
-    });
+    });*/
 
   };
 
