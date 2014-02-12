@@ -9,14 +9,14 @@
   }
 
   .cta.open {
-    height: 190px;
-    @media #{$medium-up} { height: 190px; }
-    @media #{$large-up} { height: 90px; }
+    height: 200px;
+    @media #{$medium-up} { height: 170px; }
+    @media #{$large-up} { height: 130px; }
   }
 
   form {
     position: absolute;
-    top: 0;
+    top: -15px;
     width: 100%;
   }
 
