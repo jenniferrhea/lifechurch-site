@@ -1,8 +1,12 @@
 // Type colors
-.text-primary { color: $primary-color; }
-.text-secondary { color: $secondary-color; }
+.text-primary { color: $primary-color !important; }
+.text-lprimary { color: #86def7 !important; }
+.text-secondary { color: $secondary-color !important; }
 .text-red { color: $red; }
 .text-gray { color: $gray; }
+.text-white { color: #fff !important; }
+.text-black { color: $body-font-color; }
+
 h1 { color: #333; }
 h2 { color: #444; }
 h3 { color: #555; }

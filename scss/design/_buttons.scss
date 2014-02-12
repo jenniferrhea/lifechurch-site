@@ -58,44 +58,32 @@
 .action {
   margin-right: 1em;
   font-weight: 200;
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: auto 90%;
-  padding-right: 24px;
   padding-bottom: 0;
   line-height: 1.2em;
   font-size: rem-calc(16);
 
   @media #{$small-only} {
     display: block;
-    padding-bottom: 15px;
     text-align: left;
-    background-size: 18px 18px;
-    background-position: right 3px;
   }
 
   @media #{$medium-up} {
     font-size: rem-calc(24);
-    padding-right: 36px;
   }
 
   &.small {
     font-size: rem-calc(16);
-    padding-right: 25px;
   }
 
   &.large {
     font-size: rem-calc(16);
-    padding-right: 27px;
     padding-bottom: 3px;
 
     @media #{$medium-up} {
       font-size: rem-calc(32);
-      padding-right: 49px;
     }
   }
 
-  &:hover { opacity: .75; }
 
   // Arrow 1
   &.arrow-1-gray:hover,
