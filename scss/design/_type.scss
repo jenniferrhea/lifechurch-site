@@ -8,7 +8,7 @@
 .text-black { color: $body-font-color; }
 
 a.text-primary:hover { color: darken($primary-color, 20%) !important; }
-a.text-lprimary:hover { color: darken(#86def7, 20%) !important; }
+a.text-lprimary:hover, .footer-light .page-footer a:hover { color: darken(#86def7, 20%) !important; }
 a.text-secondary:hover { color: darken($secondary-color, 15%) !important; }
 a.text-red:hover { color: darken($red, 15%); }
 a.text-gray:hover { color: darken($gray, 15%); }

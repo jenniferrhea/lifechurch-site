@@ -4944,7 +4944,7 @@ a.text-primary:hover {
 }
 
 /* line 11, ../scss/design/_type.scss */
-a.text-lprimary:hover {
+a.text-lprimary:hover, .footer-light .page-footer a:hover {
   color: #26c4f1 !important;
 }
 
@@ -5645,6 +5645,7 @@ p {
 }
 /* line 73, ../scss/design/_buttons.scss */
 .action.large {
+  margin-bottom: 1em;
   font-weight: 200;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
@@ -5654,7 +5655,7 @@ p {
     display: block;
     text-align: left;
   }
-  /* line 82, ../scss/design/_buttons.scss */
+  /* line 83, ../scss/design/_buttons.scss */
   .action i {
     float: right;
   }
