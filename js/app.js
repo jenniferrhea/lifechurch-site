@@ -11,7 +11,7 @@ $(function() {
       $(".page-more").fadeIn();
       $(".page-more-inner").animate({
         top: '90px'
-      }, 500, function() {
+      }, 400, function() {
         // Animation complete.
       });
       
@@ -26,7 +26,7 @@ $(function() {
     // Close the more panel
     $( ".primary-links" ).delegate( ".nav-close-more", "click", function() {
       $(".page-more").fadeOut();
-      $(".page-more-inner").animate({ top: '0' }, 500, function() {});
+      $(".page-more-inner").animate({ top: '0' }, 400, function() {});
 
       $(this).removeClass("nav-close-more").addClass("nav-more");
 
