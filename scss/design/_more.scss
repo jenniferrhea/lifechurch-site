@@ -9,6 +9,7 @@
     height: 100%;
     background: #fff;
     z-index: 10;
+    -webkit-tap-highlight-color: transparent;
 
     @media #{$medium-up} {
       .row {
@@ -26,3 +27,29 @@
     top: 0;
     background: #fff;
   }
+
+  .page-more a {
+    display: block;
+    margin: 0 -10px;
+    padding: 0 10px;
+    @include border-radius(4px);
+    @media #{$small-only} {
+      padding: 10px;
+      p { margin: 0; }
+    }
+  }
+
+  .page-more a:hover {
+    background: #e7faff;
+  }
+
+  
+
+// Make descriptions in "more" smaller than normal paragraphs
+.page-more-inner p {
+  font-size: 1em;
+}
+
+.page-more-inner h4 {
+  margin: 7px 0 8px;
+}

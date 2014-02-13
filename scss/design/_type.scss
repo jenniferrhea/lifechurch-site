@@ -15,6 +15,17 @@ a.text-gray:hover { color: darken($gray, 15%); }
 a.text-white:hover, .section-light a:hover { color: darken(#fff, 15%); }
 a.text-black:hover { color: lighten($body-font-color, 25%); }
 
+a {
+  h1,h2,h3,h4,h5,h6 {
+    color: $primary-color;
+  }
+  :hover {
+    h1,h2,h3,h4,h5,h6 {
+      color: darken($primary-color, 15%);
+    } 
+  }
+}
+
 h1 { color: #333; }
 h2 { color: #444; }
 h3 { color: #555; }
