@@ -4,50 +4,75 @@
   .button {
     font-family: "ff-meta-serif-web-pro";
     font-weight: 300;
+    border: darken($primary-color, 10%) 1px solid;
+    @include border-radius(3px);
 
     // Button Radius
     &.radius {
       @include border-radius(100px);
-        
-      // Button Radius Red
-      &.red {
-        background-color: $red;
+    }
+
+    // Button small
+    &.small {
+      padding-top: .6rem;
+      padding-right: 1rem;
+      padding-bottom: 0.6em;
+      padding-left: 1rem;
+    }
+
+    // Button Radius Inverse
+    &.inverse {
+      background: none;
+      border: $primary-color 1px solid;
+      color: $primary-color;
+      @include transition-property(all);
+      @include transition-duration(.15s);
+
+      &:before {
+        border-color: $primary-color transparent transparent transparent !important;
+      }
+
+      &:hover {
+        border-color: darken($primary-color, 10%);
+        color: darken($primary-color, 10%);
+      }
+
+      &.white {
+        border-color: rgba(255,255,255,.5);
+        color: #fff;
+
         &:hover {
-          background: darken($red, 10%);
+          opacity: .7;
+        }
+
+        &:before {
+          border-color: #fff transparent transparent transparent;
         }
       }
 
-      // Button Radius Inverse
-      &.inverse {
-        background: none;
-        border: $primary-color 1px solid;
-        color: $primary-color;
-        @include transition-property(all);
-        @include transition-duration(.15s);
-        &:before { border-color: $primary-color transparent transparent transparent }
-        &:hover {
-          border-color: darken($primary-color, 10%);
-          color: darken($primary-color, 10%);
-        }
-        &.white {
-          border-color: rgba(255,255,255,.5);
-          color: #fff;
-          &:hover { opacity: .7; }
-          &:before { border-color: #fff transparent transparent transparent }
-        }
+      // Button Inverse Red
+      &.red {
+        border-color: $red;
+        color: $red;
 
-        // Button Radius Inverse Red
-        &.red {
-          border-color: $red;
-          color: $red;
-          &:hover {
-            border-color: darken($red, 10%);
-            color: darken($red, 10%);
-            background: none;
-          }
+        &:hover {
+          border-color: darken($red, 10%);
+          color: darken($red, 10%);
+          background: none;
         }
       }
     }
+
+    // Button Red
+    &.red {
+      background-color: $red;
+
+      &:hover {
+        background: darken($red, 10%);
+      }
+    }
+
+  
   }
 
 
