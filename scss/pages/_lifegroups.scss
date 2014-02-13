@@ -17,6 +17,7 @@
 .section-lifegroups-tiles {
   height: 450px;
   background: #000;
+
   @media #{$medium-up} {
     height: 200px;
   }
@@ -38,25 +39,11 @@
     width: 33%;
     float: left;
     padding-top: 90px;
-    &.lifegroups-tile-last { width: 34%; }
-  }
 
-  /*&:after {
-    content: "";
-    @include background-image(linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,.2) 60%));
-    display: block;
-    height: 200px;
-    width: 100%;
-    top: 0;
-    opacity: .5;
-    position: absolute;
-    width: 100%;
-    @include transition-property(all);
-    @include transition-duration(.3s);
+    &.lifegroups-tile-last {
+      width: 34%;
+    }
   }
-  &:hover:after {
-    opacity: 1;
-  }*/
 
   span {
     color: #fff;

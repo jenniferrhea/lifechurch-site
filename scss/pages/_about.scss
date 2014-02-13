@@ -11,6 +11,7 @@
   // Hold those absolutely positioned images in place
   .row { position: relative; }
 
+  // Feature image
   .about-bike {
     background: url('/images/about/about-bike.png') no-repeat;
     width: 200px;
@@ -52,6 +53,7 @@
   // Hold those absolutely positioned images in place
   .row { position: relative; }
 
+  // Feature image
   .about-bible {
     background: url('/images/about/about-bible.png') no-repeat;
     width: 200px;
@@ -93,6 +95,7 @@
   // Hold those absolutely positioned images in place
   .row { position: relative; }
 
+  // Feature image
   .about-coffee {
     background: url('/images/about/about-coffee.png') no-repeat;
     width: 200px;
@@ -123,6 +126,7 @@
 
 .jobs {
 
+  // Feature image
   .section-jobs-top {
     h1 { margin-top: 10px; }
 
@@ -133,46 +137,5 @@
       h1 { margin-top: 160px; }
     }
     
-  }
-
-
-}
-
-
-.pattern {
-
-  h1.first {
-    padding-top: 10px;
-    @media #{$medium-up} {
-      padding-top: 30px;
-    }
-  }
-
-  .row { position: relative; }
-
-  .pattern-aside {
-    background: url('/images/about/about-bible.png') no-repeat;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: -20px;
-
-    @media #{$small-only} {
-      background-size: 200px auto;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-    }
-
-    @media #{$medium-up} {
-      width: 528px;
-      height: 119px;
-      top: -100px;
-      right: 0;
-    }
-
-    @media #{$large-up} {
-      right: -150px;
-    }
   }
 }

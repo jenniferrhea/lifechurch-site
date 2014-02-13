@@ -29,6 +29,9 @@
 
   .orbit-bullets li {
     cursor: pointer;
-    &.active { cursor: default; }
+    
+    &.active {
+      cursor: default;
+    }
   }
 }

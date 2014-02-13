@@ -1,34 +1,32 @@
-// Watch Feature Slider
-/*.watch-featured {
-  max-height: 400px !important;
-  overflow: hidden;
-  img { width: 100%; }
-}*/
-
-// Remove Orbit timers
-/*.orbit-timer {
-  display: none !important;
-}
-
-.orbit-next,
-.orbit-prev {
-  @include transition-property(background);
-  @include transition-duration(.5s);
-}*/
-
 .page-watch .section-watch-live {
   top: -33px !important;
   padding-top: 35px;
   margin-bottom: -40px;
-  @media #{$small-only} { height: 300px; }
+
+  @media #{$small-only} {
+    height: 300px;
+  }
 }
 
-.play-message { margin-top: 3px; }
+.play-message {
+  margin-top: 3px;
+}
 
-.message h4 { margin-top: -5px; }
-.message h6 { margin-top: 2px; }
-.message { padding-bottom: 12px; }
-.watch-item h6 { margin-top: 5px; }
+.message h4 {
+  margin-top: -5px;
+}
+
+.message h6 {
+  margin-top: 2px;
+}
+
+.message {
+  padding-bottom: 12px;
+}
+
+.watch-item h6 {
+  margin-top: 5px;
+}
 
 .watch-podcast,
 .watch-talkitover,
@@ -49,6 +47,14 @@
   margin-top: -3px
 }
 
-.watch-podcast:before { @include svg-image('/images/watch/watch-podcast'); }
-.watch-talkitover:before { @include svg-image('/images/watch/watch-talkitover'); }
-.watch-open:before { @include svg-image('/images/watch/watch-open'); }
+.watch-podcast:before {
+  @include svg-image('/images/watch/watch-podcast');
+}
+
+.watch-talkitover:before {
+  @include svg-image('/images/watch/watch-talkitover');
+}
+
+.watch-open:before {
+  @include svg-image('/images/watch/watch-open');
+}

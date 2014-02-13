@@ -1,6 +1,7 @@
 .home {
   background: #1e1e1e url('/images/home/series-bg.jpg') center top no-repeat;
   background-size: 480px auto;
+
   @media #{$medium-up} {
     background-size: 950px auto;
   }
@@ -22,6 +23,7 @@
     width: 121px;
     height: 150px;
     margin: 0 auto 20px;
+    
     @media #{$medium-up} {
       width: 227px;
       height: 282px;

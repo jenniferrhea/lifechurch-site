@@ -1,56 +1,83 @@
 // Logo
-.logo {
-  margin-top: -8px;
-  width: 66px;
-  height: 44px;
-  display: block;
-  position: relative;
-  z-index: 11;
-}
+  
+  // Logo general
+  .logo {
+    margin-top: -8px;
+    width: 66px;
+    height: 44px;
+    display: block;
+    position: relative;
+    z-index: 11;
+  }
 
-.logo:after {
-  @include transition-property(all);
-  @include transition-duration(.25s);
-}
+  // Logo font icon transitioning
+  .logo:after {
+    @include transition-property(all);
+    @include transition-duration(.25s);
+  }
 
-.logo span {
-  display: none;
-}
-.logo:after {
-  content: "\31";
-  text-indent: 0;
-  font-family: 'lctv';
-  font-size: 36px;
-  color: $body-font-color;
-}
-.logo:hover:after {
-  color: #555;
-}
+  // Hide logo title text
+  .logo span {
+    display: none;
+  }
 
-.header-light .logo:after {
-  color: #fff;
-  opacity: .75
-}
-.header-light .logo:hover:after {
-  opacity: 1;
-}
+  // Logo font icon
+  .logo:after {
+    content: "\31";
+    text-indent: 0;
+    font-family: 'lctv';
+    font-size: 36px;
+    color: $body-font-color;
+  }
 
-// Red logo & red titles when "header-red" gets applied
-.header-red .logo:after {
-  color: $red;
-}
-.header-red .logo:hover:after {
-  color: darken($red, 10%);
-}
+  // Logo font icon hover
+  .logo:hover:after {
+    color: #555;
+  }
 
-.lt-ie9 .logo {
-  &:after { display: none; }
-  span { display: block; }
-  @include svg-image('/images/branding/logomark-black');
-  background-repeat: no-repeat;
-  text-indent: -999em;
-  &:hover { opacity: .7; }
-}
+
+// Logo Variations
+  
+  // Light logo
+  .header-light .logo:after {
+    color: #fff;
+    opacity: .75
+  }
+
+  // Light logo hover
+  .header-light .logo:hover:after {
+    opacity: 1;
+  }
+
+  // Red logo
+  .header-red .logo:after {
+    color: $red;
+  }
+
+  // Red logo hover
+  .header-red .logo:hover:after {
+    color: darken($red, 10%);
+  }
+
+  // Logo fallback 
+  .lt-ie9 .logo {
+    @include svg-image('/images/branding/logomark-black');
+    background-repeat: no-repeat;
+    text-indent: -999em;
+
+    &:after {
+      display: none;
+    }
+    
+    &:hover {
+      opacity: .7;
+    }
+
+    span {
+      display: block;
+    }
+  }
+
 
 // Header Section
 .page-header {
@@ -63,6 +90,7 @@
   position: relative;
   z-index: 11;
   text-transform: uppercase;
+
   a {
     font-family: "Helvetica Neue", sans-serif;
     color: $black;
@@ -71,10 +99,16 @@
     font-weight: bold;
     font-size: rem-calc(14);
     margin-left: 15px;
-    &:hover { color: darken($primary-color, 10%); }
+
+    &:hover {
+      color: darken($primary-color, 10%);
+    }
+
     &:hover .more-line-1,
     &:hover .more-line-2,
-    &:hover .more-line-3 { background: darken($primary-color, 10%) !important; }
+    &:hover .more-line-3 {
+      background: darken($primary-color, 10%) !important;
+    }
   }
 }
 
@@ -85,6 +119,8 @@
 }
 
 // "More" hamburger icon
+  
+  // Top menu icon
   @media #{$small-only} {
     .nav-more,
     .nav-close-more {
@@ -94,6 +130,7 @@
     }
   }
 
+  // Hamburger lines
   .more-line-1,
   .more-line-2,
   .more-line-3 {
@@ -108,28 +145,32 @@
     opacity: 1;
   }
 
+  // Hamburger line uniques
   .more-line-1 { top: 6px; }
   .more-line-2 { top: 10px; }
   .more-line-3 { top: 14px; }
 
-// "More" close icon formatting
+  // Hamburger line 1 alt state
   .nav-close-more .more-line-1 {
     opacity: 0;
     top: 10px;
   }
 
+  // Hamburger line 2 alt state
   .nav-close-more .more-line-2 {
     transform:rotate(45deg);
-    -ms-transform:rotate(45deg); /* IE 9 */
-    -webkit-transform:rotate(45deg); /* Safari and Chrome */
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
   }
 
+  // Hamburger line 3 alt state
   .nav-close-more .more-line-3 {
     transform:rotate(-45deg);
-    -ms-transform:rotate(-45deg); /* IE 9 */
-    -webkit-transform:rotate(-45deg); /* Safari and Chrome */
+    -ms-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
     top: 10px;
   }
+
 
 // Set active color on nav items if in the right sections
 .section-watch .nav-watch a,
@@ -138,13 +179,20 @@
   color: $primary-color;
 }
 
+
 // Tertiary navigation
+  
+  // Section
   .page-tertiary {
     margin-bottom: 2em;
     border-bottom: 1px solid rgba(0,0,0,.10);
     z-index: 5;
     position: relative;
-    .button { margin-bottom: 0; }
+
+    // Prevent buttons from changing the alignment / size
+    .button {
+      margin-bottom: 0;
+    }
   }
 
   // Save space on landscape mobiles
@@ -155,6 +203,7 @@
       left: 75px;
       margin-bottom: -10px;
       border: none;
+
       a {
         font-size: 1em !important;
         text-transform: uppercase;
@@ -166,27 +215,32 @@
     }
   }
 
+  // The navigation itself
   .tertiary-nav {
     margin-top: 10px;
     margin-bottom: 15px;
     z-index: 1;
     position: relative;
+
     a {
       color: #444;
       font-size: rem-calc(20);
       font-weight: 300;
     }
+
     a:before {
       content: " / ";
       margin-left: 9px;
       margin-right: 6px;
       color: rgba(0,0,0,.2);
     }
+
     a:first-child:before {
       content: "";
       margin-left: 0;
       margin-right: 0;
     }
+
     a:not([href~="#"]):hover {
       color: $primary-color;
     }

@@ -1,4 +1,4 @@
-// Page Section styles
+// Push element down
 
   .padded {
     padding-top: 3em;
@@ -12,18 +12,24 @@
     @media #{$small-only} { padding-top: 0; }
   }
 
+
+// The sections themselves
+
   .page-section {
     padding-top: 1em;
     padding-bottom: 1em;
+
     @media only screen and (min-height: 620px) {
       padding-top: 3em;
       padding-bottom: 3em;
     }
+
     @media #{$small-only} {
       padding-top: 1em;
       padding-bottom: 1em;
     }
   }
+
 
   // First section (pull it over the navigation)
   .section-first {
@@ -43,6 +49,7 @@
 
   // Change section coloring to white
   .section-light {
+
     h1,h2,h3,h4,h5,h6,p,a,.button {
       color: #fff;
       border-color: #fff;
@@ -54,13 +61,19 @@
     .nav-more .more-line {
       background: #fff !important;
     }
+
     .nav-more:hover .more-line {
       background: #ccc !important;
     }
+
     .primary-links a {
       color: #fff;
-      &:hover { color: #ccc; }
+
+      &:hover {
+        color: #ccc;
+      }
     }
+
     .page-tertiary {
       border-color: rgba(255,255,255,.4);
     }
@@ -75,53 +88,86 @@
     .page-footer {
       background: $black;
       border-color: rgba(255,255,255,.4) !important;
+
       .columns {
         border-color: rgba(255,255,255,.4) !important;
       }
-      p { color: #fff !important; }
-      a { color: lighten($primary-color, 30%); }
+
+      p {
+        color: #fff !important;
+      }
+
+      a {
+        color: lighten($primary-color, 30%);
+      }
     }
   }
 
 
 // Hero Photos
+  
+  // General
+  .hphoto {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    position: relative;
 
-.hphoto {
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  position: relative;
-  @media #{$medium-up} { height: 350px; }
-}
+    @media #{$medium-up} {
+      height: 350px;
+    }
+  }
 
-.hphoto-top {
-  margin-top: -165px;
-  padding-top: 165px;
-  height: 200px;
-  @media only screen and (min-height: 620px) { height: 300px; }
-  @media #{$small-only} { height: 200px; }
-}
+  // If the top of the page has one
+  .hphoto-top {
+    margin-top: -165px;
+    padding-top: 165px;
+    height: 200px;
+
+    @media only screen and (min-height: 620px) {
+      height: 300px;
+    }
+
+    @media #{$small-only} {
+      height: 200px;
+    }
+  }
+
+  // Large
+  .hphoto-large  {
+    height: 200px;
+
+    @media #{$medium-up} {
+      height: 500px;
+    }
+  }
+
+  // Extra large
+  .hphoto-xlarge {
+    height: 200px;
+
+    @media #{$medium-up} {
+      height: 700px;
+    }
+  }
 
 
-.f-dropdown:before { left: 15px; }
-.f-dropdown:after { left: 14px; }
+// Modifications to button dropdowns
 
-.dropdown.button::before,
-button.dropdown::before {
-  left: 1rem;
-}
+  .f-dropdown:before {
+    left: 15px;
+  }
 
-.button.dropdown {
-  padding-left: 2.5rem;
-  padding-right: 2em !important;
-}
+  .f-dropdown:after {
+    left: 14px;
+  }
 
-.hphoto-large  {
-  height: 200px;
-  @media #{$medium-up} { height: 500px; }
-}
+  .dropdown.button::before,
+  button.dropdown::before {
+    left: 1rem;
+  }
 
-.hphoto-xlarge {
-  height: 200px;
-  @media #{$medium-up} { height: 700px; }
-}
+  .button.dropdown {
+    padding-left: 2.5rem;
+    padding-right: 2em !important;
+  }

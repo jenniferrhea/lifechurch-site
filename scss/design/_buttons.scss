@@ -1,89 +1,93 @@
 // Button
-.button {
-  font-family: "ff-meta-serif-web-pro";
-  font-weight: 300;
+  
+  // Font type / size
+  .button {
+    font-family: "ff-meta-serif-web-pro";
+    font-weight: 300;
 
-  // Button Radius
-  &.radius {
-    @include border-radius(100px);
-      
-    // Button Radius Red
-    &.red {
-      background-color: $red;
-      &:hover {
-        background: darken($red, 10%);
-      }
-    }
-
-    &.white {
-      color: #fff;
-    }
-
-    // Button Radius Inverse
-    &.inverse {
-      background: none;
-      border: $primary-color 1px solid;
-      color: $primary-color;
-      @include transition-property(all);
-      @include transition-duration(.15s);
-      &:before { border-color: $primary-color transparent transparent transparent }
-      &:hover {
-        border-color: darken($primary-color, 10%);
-        color: darken($primary-color, 10%);
-      }
-      &.white {
-        border-color: rgba(255,255,255,.5);
-        color: #fff;
-        &:hover { opacity: .7; }
-        &:before { border-color: #fff transparent transparent transparent }
-      }
-
-      // Button Radius Inverse Red
+    // Button Radius
+    &.radius {
+      @include border-radius(100px);
+        
+      // Button Radius Red
       &.red {
-        border-color: $red;
-        color: $red;
+        background-color: $red;
         &:hover {
-          border-color: darken($red, 10%);
-          color: darken($red, 10%);
-          background: none;
+          background: darken($red, 10%);
+        }
+      }
+
+      // Button Radius Inverse
+      &.inverse {
+        background: none;
+        border: $primary-color 1px solid;
+        color: $primary-color;
+        @include transition-property(all);
+        @include transition-duration(.15s);
+        &:before { border-color: $primary-color transparent transparent transparent }
+        &:hover {
+          border-color: darken($primary-color, 10%);
+          color: darken($primary-color, 10%);
+        }
+        &.white {
+          border-color: rgba(255,255,255,.5);
+          color: #fff;
+          &:hover { opacity: .7; }
+          &:before { border-color: #fff transparent transparent transparent }
+        }
+
+        // Button Radius Inverse Red
+        &.red {
+          border-color: $red;
+          color: $red;
+          &:hover {
+            border-color: darken($red, 10%);
+            color: darken($red, 10%);
+            background: none;
+          }
         }
       }
     }
   }
-}
 
 
-// Action
+  // Action
 
-.action {
-  margin-right: 1em;
-  line-height: 1em;
-  margin-bottom: 1em;
+  // Positioning
+  .action {
+    margin-right: 1em;
+    line-height: 1em;
+    margin-bottom: 1em;
 
-  @media #{$medium-up} {
-    &.stack {
-      margin-bottom: .1em;
+    // Vertically stacked actions
+    @media #{$medium-up} {
+      &.stack {
+        margin-bottom: .1em;
+      }
+    }
+
+    // Small action
+    &.small {
+      font-size: rem-calc(16);
+    }
+
+    // Large action
+    &.large {
+      @extend .lead;
+      margin-bottom: 1em;
+      font-weight: 200;
+      font-family: $body-font-family;
+    }
+
+    // Align icon right on small
+    @media #{$small-only} {
+      display: block;
+      text-align: left;
+      i { float: right; }
+    }
+
+    // Align actions on larger screens
+    @media #{$medium-up} {
+      display: inline-block;
     }
   }
-
-  &.small {
-    font-size: rem-calc(16);
-  }
-
-  &.large {
-    @extend .lead;
-    margin-bottom: 1em;
-    font-weight: 200;
-    font-family: $body-font-family;
-  }
-
-  @media #{$small-only} {
-    display: block;
-    text-align: left;
-    i { float: right; }
-  }
-
-  @media #{$medium-up} {
-    display: inline-block;
-  }
-}

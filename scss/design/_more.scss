@@ -1,4 +1,5 @@
 // "More" navigation
+
   .page-more {
     position: absolute;
     left: 0;
@@ -15,6 +16,7 @@
       .row {
         padding: 5px 0;
       }
+
       p {
         margin-top: 10px;
         margin-bottom: 0;
@@ -33,9 +35,13 @@
     margin: 0 -10px;
     padding: 0 10px;
     @include border-radius(4px);
+
     @media #{$small-only} {
       padding: 10px;
-      p { margin: 0; }
+      
+      p {
+        margin: 0;
+      }
     }
   }
 
@@ -43,13 +49,13 @@
     background: #e7faff;
   }
 
-  
 
 // Make descriptions in "more" smaller than normal paragraphs
 .page-more-inner p {
   font-size: 1em;
 }
 
+// More header positioning
 .page-more-inner h4 {
   margin: 7px 0 8px;
 }

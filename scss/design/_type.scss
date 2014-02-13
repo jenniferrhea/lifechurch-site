@@ -1,56 +1,118 @@
 // Type colors
-.text-primary { color: $primary-color !important; }
-.text-lprimary { color: #86def7 !important; }
-.text-secondary { color: $secondary-color !important; }
-.text-red { color: $red; }
-.text-gray { color: $gray; }
-.text-white { color: #fff !important; }
-.text-black { color: $body-font-color; }
-
-a.text-primary:hover { color: darken($primary-color, 20%) !important; }
-a.text-lprimary:hover, .footer-light .page-footer a:hover { color: darken(#86def7, 20%) !important; }
-a.text-secondary:hover { color: darken($secondary-color, 15%) !important; }
-a.text-red:hover { color: darken($red, 15%); }
-a.text-gray:hover { color: darken($gray, 15%); }
-a.text-white:hover, .section-light a:hover { color: darken(#fff, 15%); }
-a.text-black:hover { color: lighten($body-font-color, 25%); }
-
-a {
-  h1,h2,h3,h4,h5,h6 {
-    color: $primary-color;
+  .text-primary {
+    color: $primary-color !important;
   }
-  :hover {
+
+  .text-lprimary {
+    color: #86def7 !important;
+  }
+
+  .text-secondary {
+    color: $secondary-color !important;
+  }
+
+  .text-red {
+    color: $red;
+  }
+
+  .text-gray {
+    color: $gray;
+  }
+
+  .text-white {
+    color: #fff !important;
+  }
+
+  .text-black {
+    color: $body-font-color;
+  }
+
+
+// Hover type colors
+  
+  a.text-primary:hover {
+    color: darken($primary-color, 20%) !important;
+  }
+
+  a.text-lprimary:hover,
+  .footer-light .page-footer a:hover {
+    color: darken(#86def7, 20%) !important;
+  }
+
+  a.text-secondary:hover {
+    color: darken($secondary-color, 15%) !important;
+  }
+
+  a.text-red:hover {
+    color: darken($red, 15%);
+  }
+
+  a.text-gray:hover {
+    color: darken($gray, 15%);
+  }
+
+  a.text-white:hover,
+  .section-light a:hover {
+    color: darken(#fff, 15%);
+  }
+
+  a.text-black:hover {
+    color: lighten($body-font-color, 25%);
+  }
+
+
+// Type color within links
+
+  a {
     h1,h2,h3,h4,h5,h6 {
-      color: darken($primary-color, 15%);
-    } 
+      color: $primary-color;
+    }
+
+    :hover {
+      h1,h2,h3,h4,h5,h6 {
+        color: darken($primary-color, 15%);
+      }
+    }
   }
-}
 
-h1 { color: #333; }
-h2 { color: #444; }
-h3 { color: #555; }
 
+// Header colors
+
+  h1 {
+    color: #333;
+  }
+
+  h2,h3,h4,h6 {
+    color: #444;
+  }
+
+  h1,h2,h3 {
+    letter-spacing: -1px;
+  }
+
+
+// Remove iOS size adjusting
 body {
   -webkit-text-size-adjust: none;
 }
 
+// Header 1
 h1 {
   font-weight: 600;
   margin-top: 25px;
   margin-bottom: 30px;
-  // Decrease spacing on landscape mobiles
+
   @media #{$small-only} and (orientation: landscape) {
+    // Decrease spacing on landscape mobiles
     margin-bottom: 10px;
   }
 }
 
-h2,h3,h4,h6 {
-  color: #444;
-}
-
+// Header 2
 h2 {
   font-size:1.6rem;
   margin-top: 20px !important;
+
   @media #{$medium-up} {
     font-size:2.3rem;
     margin-top: 40px !important;
@@ -58,79 +120,104 @@ h2 {
   }
 }
 
+// Header 4
 h4 {
   margin-top: .5em;
 }
 
-h5 { font-weight: 300; }
-
+// Header 5
 h5 {
+  font-weight: 300;
   font-style: italic;
   color: $gray;
 }
 
-hr {
-  margin-left: 15px;
-  margin-right: 15px;
-  max-width: 970px;
-  @media #{$large-up} {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
+// Header 6
 h6 {
   margin-top: 10px;
   font-weight: 600;
 }
 
-label {
-  @extend h6;
-}
+// Rules
 
-textarea {
-  min-height: 200px;
-}
+  hr {
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 970px;
 
-h1,h2,h3 { letter-spacing: -1px; }
-
-hr.thin {
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-blockquote {
-  padding-left: 0;
-  border: none;
-  text-align: center;
-  p {
-    font-size: 1.2rem;
-    @media #{$medium-up} { font-size: 2rem; }
-    line-height: 1.2em;
-    color: #333;
-  }
-  cite {
-    font-size: 1rem;
-    @media #{$medium-up} { font-size: 1.3rem; }
-    color: $red;
+    @media #{$large-up} {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
-  &.quote-large {
-    text-align: left;
+  hr.thin {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+
+// Form elements
+
+  label {
+    @extend h6;
+  }
+
+  textarea {
+    min-height: 200px;
+  }
+
+
+// Quotes
+
+  blockquote {
+    padding-left: 0;
+    border: none;
+    text-align: center;
+
     p {
       font-size: 1.2rem;
-      @media #{$medium-up} { font-size: 3rem; }
-      line-height: 1.3em;
-      font-family: $body-font-family;
-      font-weight: 300;
+      line-height: 1.2em;
+      color: #333;
+
+      @media #{$medium-up} {
+        font-size: 2rem;
+      }
     }
+
     cite {
       font-size: 1rem;
-      @media #{$medium-up} { font-size: 1.5rem; }
       color: $red;
+
+      @media #{$medium-up} {
+        font-size: 1.3rem;
+      }
+    }
+
+    &.quote-large {
+      text-align: left;
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.3em;
+        font-family: $body-font-family;
+        font-weight: 300;
+
+        @media #{$medium-up} {
+          font-size: 3rem;
+        }
+      }
+
+      cite {
+        font-size: 1rem;
+        color: $red;
+
+        @media #{$medium-up} {
+          font-size: 1.5rem;
+        }
+      }
     }
   }
-}
 
 
 // Paragraphs within a hyperlink (rather the other way around) don't get active color
@@ -138,6 +225,7 @@ a p {
   color: $body-font-color;
 }
 
+// Disc removal on lists
 ul.no-disc {
   list-style: none;
   margin-left: 0;
@@ -177,6 +265,7 @@ p {
   color: #444;
   font-size: rem-calc(15);
   line-height: 1.7;
+
   @media #{$medium-up} {
     font-size: rem-calc(20);
   }
@@ -205,4 +294,8 @@ p {
   font-family: $body-font-family;
 }
 
-.header-red h1, .header-red h2 { color: $red; }
+// Make main titles red if logo is also red
+.header-red h1,
+.header-red h2 {
+  color: $red;
+}

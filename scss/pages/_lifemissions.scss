@@ -6,13 +6,22 @@
     height: 70px;
     @include transition-property(height);
     @include transition-duration(.5s);
-    @media #{$medium-up} { height: 30px; }  
+
+    @media #{$medium-up} {
+      height: 30px;
+    }
   }
 
   .cta.open {
     height: 200px;
-    @media #{$medium-up} { height: 170px; }
-    @media #{$large-up} { height: 130px; }
+    
+    @media #{$medium-up} {
+      height: 170px;
+    }
+
+    @media #{$large-up} {
+      height: 130px;
+    }
   }
 
   form {
@@ -29,6 +38,12 @@
 
 .serving-list .cta.open {
   height: 300px;
-  @media #{$medium-up} { height: 280px; }
-  @media #{$large-up} { height: 240px; }
+
+  @media #{$medium-up} {
+    height: 280px;
+  }
+
+  @media #{$large-up} {
+    height: 240px;
+  }
 }

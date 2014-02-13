@@ -6,10 +6,12 @@
     padding-bottom: 140px;
     border-bottom: 1px solid #eee;
     margin-bottom: 25px;
+
     @media #{$medium-up} {
       background-size: 1000px auto;
       padding-bottom: 280px;
     }
+
     @media #{$small-only} {
       h1 { margin-top: 0; }
     }
@@ -28,11 +30,25 @@
     background-repeat: no-repeat;
   }
 
-  .kids-lifekids h4 { @include svg-image('/images/kids/kids-lifekids'); }
-  .kids-konnect h4 { @include svg-image('/images/kids/kids-konnect'); }
-  .kids-roots h4 { @include svg-image('/images/kids/kids-roots'); }
-  .kids-loop h4 { @include svg-image('/images/kids/kids-loop'); }
-  .kids-switch h4 { @include svg-image('/images/kids/kids-switch'); }
+  .kids-lifekids h4 {
+    @include svg-image('/images/kids/kids-lifekids');
+  }
+
+  .kids-konnect h4 {
+    @include svg-image('/images/kids/kids-konnect');
+  }
+
+  .kids-roots h4 {
+    @include svg-image('/images/kids/kids-roots');
+  }
+
+  .kids-loop h4 {
+    @include svg-image('/images/kids/kids-loop');
+  }
+
+  .kids-switch h4 {
+    @include svg-image('/images/kids/kids-switch');
+  }
 
   .kids-call {
     margin: 30px 0 0px;
@@ -58,12 +74,18 @@
 
     .kids-roots {
       height: 100px;
-      h4 { margin-top: -10px; }
+
+      h4 {
+        margin-top: -10px;
+      }
     }
 
     .kids-loop {
       height: 200px;
-      h4 { margin-top: -10px; }
+
+      h4 {
+        margin-top: -10px;
+      }
     }
 
     .kids-switch {
@@ -138,5 +160,4 @@
       height: 75px;
     }
   }
-
 }
