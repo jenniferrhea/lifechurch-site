@@ -5059,66 +5059,67 @@ hr {
 @media only screen and (min-width: 64.063em) {
   /* line 72, ../scss/design/_type.scss */
   hr {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-/* line 81, ../scss/design/_type.scss */
+/* line 82, ../scss/design/_type.scss */
 h6, label {
   margin-top: 10px;
   font-weight: 600;
 }
 
-/* line 90, ../scss/design/_type.scss */
+/* line 91, ../scss/design/_type.scss */
 textarea {
   min-height: 200px;
 }
 
-/* line 94, ../scss/design/_type.scss */
+/* line 95, ../scss/design/_type.scss */
 h1, h2, h3 {
   letter-spacing: -1px;
 }
 
-/* line 96, ../scss/design/_type.scss */
+/* line 97, ../scss/design/_type.scss */
 hr.thin {
   margin-left: 30%;
   margin-right: 30%;
 }
 
-/* line 101, ../scss/design/_type.scss */
+/* line 102, ../scss/design/_type.scss */
 blockquote {
   padding-left: 0;
   border: none;
   text-align: center;
 }
-/* line 105, ../scss/design/_type.scss */
+/* line 106, ../scss/design/_type.scss */
 blockquote p {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 105, ../scss/design/_type.scss */
+  /* line 106, ../scss/design/_type.scss */
   blockquote p {
     font-size: 2rem;
   }
 }
-/* line 111, ../scss/design/_type.scss */
+/* line 112, ../scss/design/_type.scss */
 blockquote cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 111, ../scss/design/_type.scss */
+  /* line 112, ../scss/design/_type.scss */
   blockquote cite {
     font-size: 1.3rem;
   }
 }
-/* line 117, ../scss/design/_type.scss */
+/* line 118, ../scss/design/_type.scss */
 blockquote.quote-large {
   text-align: left;
 }
-/* line 119, ../scss/design/_type.scss */
+/* line 120, ../scss/design/_type.scss */
 blockquote.quote-large p {
   font-size: 1.2rem;
   line-height: 1.3em;
@@ -5126,66 +5127,66 @@ blockquote.quote-large p {
   font-weight: 300;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 119, ../scss/design/_type.scss */
+  /* line 120, ../scss/design/_type.scss */
   blockquote.quote-large p {
     font-size: 3rem;
   }
 }
-/* line 126, ../scss/design/_type.scss */
+/* line 127, ../scss/design/_type.scss */
 blockquote.quote-large cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 126, ../scss/design/_type.scss */
+  /* line 127, ../scss/design/_type.scss */
   blockquote.quote-large cite {
     font-size: 1.5rem;
   }
 }
 
-/* line 136, ../scss/design/_type.scss */
+/* line 137, ../scss/design/_type.scss */
 a p {
   color: #333333;
 }
 
-/* line 140, ../scss/design/_type.scss */
+/* line 141, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 146, ../scss/design/_type.scss */
+/* line 147, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 152, ../scss/design/_type.scss */
+/* line 153, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 152, ../scss/design/_type.scss */
+  /* line 153, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 162, ../scss/design/_type.scss */
+/* line 163, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 169, ../scss/design/_type.scss */
+/* line 170, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 174, ../scss/design/_type.scss */
+/* line 175, ../scss/design/_type.scss */
 p {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5193,24 +5194,24 @@ p {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 174, ../scss/design/_type.scss */
+  /* line 175, ../scss/design/_type.scss */
   p {
     font-size: 1.25rem;
   }
 }
 
-/* line 185, ../scss/design/_type.scss */
+/* line 186, ../scss/design/_type.scss */
 .detail {
   font-size: 0.9375rem;
 }
 
-/* line 190, ../scss/design/_type.scss */
+/* line 191, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "ff-meta-serif-web-pro";
   font-weight: 300;
 }
 
-/* line 197, ../scss/design/_type.scss */
+/* line 198, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message label {
@@ -5218,12 +5219,12 @@ p {
   font-weight: 300;
 }
 
-/* line 203, ../scss/design/_type.scss */
+/* line 204, ../scss/design/_type.scss */
 .page-footer p {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 207, ../scss/design/_type.scss */
+/* line 208, ../scss/design/_type.scss */
 .header-red h1, .header-red h2 {
   color: #b9252d;
 }
