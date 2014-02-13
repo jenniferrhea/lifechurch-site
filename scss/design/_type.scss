@@ -69,6 +69,15 @@ h5 {
   color: $gray;
 }
 
+hr {
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 970px;
+  @media #{$large-up} {
+    margin: 0 auto;
+  }
+}
+
 h6 {
   margin-top: 10px;
   font-weight: 600;

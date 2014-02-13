@@ -10,6 +10,9 @@
       background-size: 1000px auto;
       padding-bottom: 280px;
     }
+    @media #{$small-only} {
+      h1 { margin-top: 0; }
+    }
   }
 
   .panel {

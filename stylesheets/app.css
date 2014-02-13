@@ -5051,61 +5051,74 @@ h5 {
 }
 
 /* line 72, ../scss/design/_type.scss */
+hr {
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 970px;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 72, ../scss/design/_type.scss */
+  hr {
+    margin: 0 auto;
+  }
+}
+
+/* line 81, ../scss/design/_type.scss */
 h6, label {
   margin-top: 10px;
   font-weight: 600;
 }
 
-/* line 81, ../scss/design/_type.scss */
+/* line 90, ../scss/design/_type.scss */
 textarea {
   min-height: 200px;
 }
 
-/* line 85, ../scss/design/_type.scss */
+/* line 94, ../scss/design/_type.scss */
 h1, h2, h3 {
   letter-spacing: -1px;
 }
 
-/* line 87, ../scss/design/_type.scss */
+/* line 96, ../scss/design/_type.scss */
 hr.thin {
   margin-left: 30%;
   margin-right: 30%;
 }
 
-/* line 92, ../scss/design/_type.scss */
+/* line 101, ../scss/design/_type.scss */
 blockquote {
   padding-left: 0;
   border: none;
   text-align: center;
 }
-/* line 96, ../scss/design/_type.scss */
+/* line 105, ../scss/design/_type.scss */
 blockquote p {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 96, ../scss/design/_type.scss */
+  /* line 105, ../scss/design/_type.scss */
   blockquote p {
     font-size: 2rem;
   }
 }
-/* line 102, ../scss/design/_type.scss */
+/* line 111, ../scss/design/_type.scss */
 blockquote cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 102, ../scss/design/_type.scss */
+  /* line 111, ../scss/design/_type.scss */
   blockquote cite {
     font-size: 1.3rem;
   }
 }
-/* line 108, ../scss/design/_type.scss */
+/* line 117, ../scss/design/_type.scss */
 blockquote.quote-large {
   text-align: left;
 }
-/* line 110, ../scss/design/_type.scss */
+/* line 119, ../scss/design/_type.scss */
 blockquote.quote-large p {
   font-size: 1.2rem;
   line-height: 1.3em;
@@ -5113,66 +5126,66 @@ blockquote.quote-large p {
   font-weight: 300;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 110, ../scss/design/_type.scss */
+  /* line 119, ../scss/design/_type.scss */
   blockquote.quote-large p {
     font-size: 3rem;
   }
 }
-/* line 117, ../scss/design/_type.scss */
+/* line 126, ../scss/design/_type.scss */
 blockquote.quote-large cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 117, ../scss/design/_type.scss */
+  /* line 126, ../scss/design/_type.scss */
   blockquote.quote-large cite {
     font-size: 1.5rem;
   }
 }
 
-/* line 127, ../scss/design/_type.scss */
+/* line 136, ../scss/design/_type.scss */
 a p {
   color: #333333;
 }
 
-/* line 131, ../scss/design/_type.scss */
+/* line 140, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 137, ../scss/design/_type.scss */
+/* line 146, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 143, ../scss/design/_type.scss */
+/* line 152, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 143, ../scss/design/_type.scss */
+  /* line 152, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 153, ../scss/design/_type.scss */
+/* line 162, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 160, ../scss/design/_type.scss */
+/* line 169, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 165, ../scss/design/_type.scss */
+/* line 174, ../scss/design/_type.scss */
 p {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5180,24 +5193,24 @@ p {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 165, ../scss/design/_type.scss */
+  /* line 174, ../scss/design/_type.scss */
   p {
     font-size: 1.25rem;
   }
 }
 
-/* line 176, ../scss/design/_type.scss */
+/* line 185, ../scss/design/_type.scss */
 .detail {
   font-size: 0.9375rem;
 }
 
-/* line 181, ../scss/design/_type.scss */
+/* line 190, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "ff-meta-serif-web-pro";
   font-weight: 300;
 }
 
-/* line 188, ../scss/design/_type.scss */
+/* line 197, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message label {
@@ -5205,12 +5218,12 @@ p {
   font-weight: 300;
 }
 
-/* line 194, ../scss/design/_type.scss */
+/* line 203, ../scss/design/_type.scss */
 .page-footer p {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 198, ../scss/design/_type.scss */
+/* line 207, ../scss/design/_type.scss */
 .header-red h1, .header-red h2 {
   color: #b9252d;
 }
@@ -6908,12 +6921,18 @@ button.dropdown::before {
     padding-bottom: 280px;
   }
 }
-/* line 15, ../scss/pages/_kids.scss */
+@media only screen and (max-width: 40em) {
+  /* line 14, ../scss/pages/_kids.scss */
+  .kids .kids-bg h1 {
+    margin-top: 0;
+  }
+}
+/* line 18, ../scss/pages/_kids.scss */
 .kids .panel {
   background: #fff;
   margin: 0 1px 1px 0 !important;
 }
-/* line 20, ../scss/pages/_kids.scss */
+/* line 23, ../scss/pages/_kids.scss */
 .kids .panel h4, .kids .panel .location-tile, .kids .panel .lifegroups-tile span, .lifegroups-tile .kids .panel span {
   width: 70px;
   height: 34px;
@@ -6961,49 +6980,49 @@ button.dropdown::before {
 .no-svg .kids .kids-switch h4, .no-svg .kids .kids-switch .location-tile, .no-svg .kids .kids-switch .lifegroups-tile span, .lifegroups-tile .no-svg .kids .kids-switch span {
   background-image: url('/images/kids/kids-switch.png?1392049250');
 }
-/* line 34, ../scss/pages/_kids.scss */
+/* line 37, ../scss/pages/_kids.scss */
 .kids .kids-call {
   margin: 30px 0 0px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 40, ../scss/pages/_kids.scss */
+  /* line 43, ../scss/pages/_kids.scss */
   .kids .panel,
   .kids .grade-list span {
     margin-bottom: 0;
   }
-  /* line 44, ../scss/pages/_kids.scss */
+  /* line 47, ../scss/pages/_kids.scss */
   .kids .panel h4, .kids .panel .location-tile, .kids .panel .lifegroups-tile span, .lifegroups-tile .kids .panel span {
     margin-left: -10px;
   }
-  /* line 48, ../scss/pages/_kids.scss */
+  /* line 51, ../scss/pages/_kids.scss */
   .kids .kids-lifekids {
     height: 400px;
   }
-  /* line 52, ../scss/pages/_kids.scss */
+  /* line 55, ../scss/pages/_kids.scss */
   .kids .kids-konnect {
     height: 400px;
   }
-  /* line 56, ../scss/pages/_kids.scss */
+  /* line 59, ../scss/pages/_kids.scss */
   .kids .kids-roots {
     height: 100px;
   }
-  /* line 58, ../scss/pages/_kids.scss */
+  /* line 61, ../scss/pages/_kids.scss */
   .kids .kids-roots h4, .kids .kids-roots .location-tile, .kids .kids-roots .lifegroups-tile span, .lifegroups-tile .kids .kids-roots span {
     margin-top: -10px;
   }
-  /* line 61, ../scss/pages/_kids.scss */
+  /* line 64, ../scss/pages/_kids.scss */
   .kids .kids-loop {
     height: 200px;
   }
-  /* line 63, ../scss/pages/_kids.scss */
+  /* line 66, ../scss/pages/_kids.scss */
   .kids .kids-loop h4, .kids .kids-loop .location-tile, .kids .kids-loop .lifegroups-tile span, .lifegroups-tile .kids .kids-loop span {
     margin-top: -10px;
   }
-  /* line 66, ../scss/pages/_kids.scss */
+  /* line 69, ../scss/pages/_kids.scss */
   .kids .kids-switch {
     height: 600px;
   }
-  /* line 70, ../scss/pages/_kids.scss */
+  /* line 73, ../scss/pages/_kids.scss */
   .kids .grade-list strong {
     position: absolute;
     top: -25px;
@@ -7011,11 +7030,11 @@ button.dropdown::before {
     width: 70px;
     text-transform: uppercase;
   }
-  /* line 78, ../scss/pages/_kids.scss */
+  /* line 81, ../scss/pages/_kids.scss */
   .kids .kids-grid {
     padding-top: 30px;
   }
-  /* line 82, ../scss/pages/_kids.scss */
+  /* line 85, ../scss/pages/_kids.scss */
   .kids .grade-list span {
     height: 75px;
     display: block;
@@ -7023,7 +7042,7 @@ button.dropdown::before {
     color: #777;
     font-size: 14px;
   }
-  /* line 90, ../scss/pages/_kids.scss */
+  /* line 93, ../scss/pages/_kids.scss */
   .kids .kids-call {
     margin: 150px 0 0 30px;
     display: block;
@@ -7031,32 +7050,32 @@ button.dropdown::before {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 98, ../scss/pages/_kids.scss */
+  /* line 101, ../scss/pages/_kids.scss */
   .kids .panel h4, .kids .panel .location-tile, .kids .panel .lifegroups-tile span, .lifegroups-tile .kids .panel span {
     width: 110px;
     height: 53px;
   }
-  /* line 103, ../scss/pages/_kids.scss */
+  /* line 106, ../scss/pages/_kids.scss */
   .kids .kids-lifekids {
     height: 300px;
   }
-  /* line 107, ../scss/pages/_kids.scss */
+  /* line 110, ../scss/pages/_kids.scss */
   .kids .kids-konnect {
     height: 300px;
   }
-  /* line 111, ../scss/pages/_kids.scss */
+  /* line 114, ../scss/pages/_kids.scss */
   .kids .kids-roots {
     height: 75px;
   }
-  /* line 115, ../scss/pages/_kids.scss */
+  /* line 118, ../scss/pages/_kids.scss */
   .kids .kids-loop {
     height: 150px;
   }
-  /* line 119, ../scss/pages/_kids.scss */
+  /* line 122, ../scss/pages/_kids.scss */
   .kids .kids-switch {
     height: 450px;
   }
-  /* line 123, ../scss/pages/_kids.scss */
+  /* line 126, ../scss/pages/_kids.scss */
   .kids .grade-list strong {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -7067,7 +7086,7 @@ button.dropdown::before {
     text-align: right;
     top: 27px;
   }
-  /* line 134, ../scss/pages/_kids.scss */
+  /* line 137, ../scss/pages/_kids.scss */
   .kids .grade-list span {
     height: 75px;
   }
