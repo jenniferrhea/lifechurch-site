@@ -96,12 +96,16 @@ $(function() {
 
   $( ".tiles" ).delegate( ".location-tile.tile-1", "click", function() {
     if (!$('.tile-1').hasClass('tile-active')) {
-      // Animate the pin & address in
-      $(".content-1 .pin").animate({ opacity: 0, top: '-=30' }, 0);
-      $(".content-1 .address").animate({ opacity: 0, left: '-=10' }, 0);
-      $(".content-1 .pin").delay(150).animate({ opacity: 1, top: '+=30' }, 250);
-      $(".content-1 .address").delay(400).animate({ opacity: 1, left: '+=10' }, 200);
-      
+      if ($(window).width() > 960) {
+        // Animate the pin & address in
+        $(".content-1 .pin").animate({ opacity: 0, top: '-=30' }, 0);
+        $(".content-1 .address").animate({ opacity: 0, left: '-=10' }, 0);
+        $(".content-1 .pin").delay(150).animate({ opacity: 1, top: '+=30' }, 250);
+        $(".content-1 .address").delay(400).animate({ opacity: 1, left: '+=10' }, 200);
+      } else {
+        $(".content-1 .address").animate({ opacity: 1 }, 0);
+      }
+
       // Fade the correct content in, and the rest out
       $(".location-content.content-1").fadeIn(250).addClass('content-active');
       $(".location-content.content-2, .location-content.content-3").delay(250).fadeOut(250).removeClass('content-active');
