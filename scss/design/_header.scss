@@ -3,14 +3,52 @@
   margin-top: -8px;
   width: 66px;
   height: 44px;
-  @include svg-image('/images/branding/logomark-black');
-  background-repeat: no-repeat;
   display: block;
-  text-indent: -999em;
   position: relative;
   z-index: 11;
-  @include transition-property(opacity);
+}
+
+.logo:after {
+  @include transition-property(all);
   @include transition-duration(.25s);
+}
+
+.logo span {
+  display: none;
+}
+.logo:after {
+  content: "\31";
+  text-indent: 0;
+  font-family: 'lctv';
+  font-size: 36px;
+  color: $body-font-color;
+}
+.logo:hover:after {
+  color: #555;
+}
+
+.header-light .logo:after {
+  color: #fff;
+  opacity: .75
+}
+.header-light .logo:hover:after {
+  opacity: 1;
+}
+
+// Red logo & red titles when "header-red" gets applied
+.header-red .logo:after {
+  color: $red;
+}
+.header-red .logo:hover:after {
+  color: darken($red, 10%);
+}
+
+.lt-ie9 .logo {
+  &:after { display: none; }
+  span { display: block; }
+  @include svg-image('/images/branding/logomark-black');
+  background-repeat: no-repeat;
+  text-indent: -999em;
   &:hover { opacity: .7; }
 }
 

@@ -57,9 +57,6 @@
     .nav-more:hover .more-line {
       background: #ccc !important;
     }
-    .logo {
-      @include svg-image('/images/branding/logomark-white');
-    }
     .primary-links a {
       color: #fff;
       &:hover { color: #ccc; }
@@ -72,10 +69,6 @@
       color: #fff !important;
     }
   }
-
-  // Red logo & red titles when "header-red" gets applied
-  .header-red .logo { @include svg-image('/images/branding/logomark-red'); }
-  .header-red h1, .header-red h2 { color: $red; }
 
   // Change footer navigation coloring to white if last section is white
   .footer-light {
