@@ -6872,13 +6872,13 @@ button.dropdown::before {
 @media only screen and (min-width: 40.063em) {
   /* line 39, ../scss/pages/_lifemissions.scss */
   .serving-list .cta.open {
-    height: 280px;
+    height: 310px;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 39, ../scss/pages/_lifemissions.scss */
   .serving-list .cta.open {
-    height: 240px;
+    height: 260px;
   }
 }
 
