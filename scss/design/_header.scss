@@ -38,6 +38,24 @@
 
 // Logo Variations
   
+  // Logo fallback 
+  .lt-ie9 .logo {
+    background: url('/images/branding/logomark-black.png') no-repeat;
+
+    &:after {
+      display: none;
+    }
+    
+    &:hover {
+      opacity: .7;
+    }
+
+    span {
+      display: block;
+    }
+  }
+  
+
   // Light logo
 
     .header-light .logo:after {
@@ -71,24 +89,6 @@
     .lt-ie9 .header-red .logo {
       background: url('/images/branding/logomark-red.png') no-repeat;
     }
-
-
-  // Logo fallback 
-  .lt-ie9 .logo {
-    background: url('/images/branding/logomark-black.png') no-repeat;
-
-    &:after {
-      display: none;
-    }
-    
-    &:hover {
-      opacity: .7;
-    }
-
-    span {
-      display: block;
-    }
-  }
 
 
 // Header Section
