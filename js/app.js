@@ -8,7 +8,6 @@ $(function() {
     
   if ($('html.js').length > 0) {
 
-    $('.page-more').hide();
     $('.nav-more').attr('href','#');
 
     // Open the more panel

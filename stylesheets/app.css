@@ -4752,6 +4752,10 @@ th.hide-for-touch {
   .no-svg .orbit-next span {
     background-image: url('/images/icons/orbit-next.png?1390420875');
   }
+  /* line 7, ../scss/settings/_svgpng.scss */
+  .no-js .orbit-next span {
+    background-image: url('/images/icons/orbit-next.png?1390420875');
+  }
 
   /* line 25, ../scss/settings/_foundation-overrides.scss */
   .orbit-prev span {
@@ -4763,6 +4767,10 @@ th.hide-for-touch {
   }
   /* line 6, ../scss/settings/_svgpng.scss */
   .no-svg .orbit-prev span {
+    background-image: url('/images/icons/orbit-prev.png?1390420886');
+  }
+  /* line 7, ../scss/settings/_svgpng.scss */
+  .no-js .orbit-prev span {
     background-image: url('/images/icons/orbit-prev.png?1390420886');
   }
 
@@ -5239,10 +5247,12 @@ p {
 /* line 20, ../scss/design/_more.scss */
 .no-js .page-more {
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-/* line 24, ../scss/design/_more.scss */
+/* line 25, ../scss/design/_more.scss */
 .js .page-more {
+  display: none;
   position: absolute;
   left: 0;
   right: 0;
@@ -5252,14 +5262,14 @@ p {
   height: 100%;
 }
 
-/* line 34, ../scss/design/_more.scss */
+/* line 36, ../scss/design/_more.scss */
 .page-more-inner {
   position: relative;
   top: 0;
   background: #fff;
 }
 
-/* line 40, ../scss/design/_more.scss */
+/* line 42, ../scss/design/_more.scss */
 .page-more a {
   display: block;
   margin: 0 -10px;
@@ -5271,27 +5281,27 @@ p {
   border-radius: 4px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 40, ../scss/design/_more.scss */
+  /* line 42, ../scss/design/_more.scss */
   .page-more a {
     padding: 10px;
   }
-  /* line 49, ../scss/design/_more.scss */
+  /* line 51, ../scss/design/_more.scss */
   .page-more a p {
     margin: 0;
   }
 }
 
-/* line 55, ../scss/design/_more.scss */
+/* line 57, ../scss/design/_more.scss */
 .page-more a:hover {
   background: #e7faff;
 }
 
-/* line 61, ../scss/design/_more.scss */
+/* line 63, ../scss/design/_more.scss */
 .page-more-inner p {
   font-size: 1em;
 }
 
-/* line 66, ../scss/design/_more.scss */
+/* line 68, ../scss/design/_more.scss */
 .page-more-inner h4, .page-more-inner .location-tile, .page-more-inner .lifegroups-tile span, .lifegroups-tile .page-more-inner span {
   margin: 7px 0 8px;
 }
@@ -5369,6 +5379,10 @@ p {
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .lt-ie9 .logo {
+  background-image: url('/images/branding/logomark-black.png?1390252318');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .lt-ie9 .logo {
   background-image: url('/images/branding/logomark-black.png?1390252318');
 }
 /* line 68, ../scss/design/_header.scss */
@@ -5939,6 +5953,10 @@ button.dropdown::before {
 .no-svg .home .series-art {
   background-image: url('/images/home/series-logo.png?1390927430');
 }
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .home .series-art {
+  background-image: url('/images/home/series-logo.png?1390927430');
+}
 @media only screen and (min-width: 40.063em) {
   /* line 19, ../scss/pages/_home.scss */
   .home .series-art {
@@ -6015,6 +6033,10 @@ button.dropdown::before {
 .no-svg .watch-podcast:before {
   background-image: url('/images/watch/watch-podcast.png?1392045146');
 }
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .watch-podcast:before {
+  background-image: url('/images/watch/watch-podcast.png?1392045146');
+}
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .watch-talkitover:before {
@@ -6024,6 +6046,10 @@ button.dropdown::before {
 .no-svg .watch-talkitover:before {
   background-image: url('/images/watch/watch-talkitover.png?1392045163');
 }
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .watch-talkitover:before {
+  background-image: url('/images/watch/watch-talkitover.png?1392045163');
+}
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .watch-open:before {
@@ -6031,6 +6057,10 @@ button.dropdown::before {
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .watch-open:before {
+  background-image: url('/images/watch/watch-open.png?1392045171');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .watch-open:before {
   background-image: url('/images/watch/watch-open.png?1392045171');
 }
 
@@ -6053,6 +6083,10 @@ button.dropdown::before {
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .pin {
+  background-image: url(/locations/assets/pin.png);
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .pin {
   background-image: url(/locations/assets/pin.png);
 }
 
@@ -6085,6 +6119,10 @@ button.dropdown::before {
   }
   /* line 6, ../scss/settings/_svgpng.scss */
   .no-svg .page-locations .hphoto-small-locations {
+    background-image: url(/locations/assets/map.png);
+  }
+  /* line 7, ../scss/settings/_svgpng.scss */
+  .no-js .page-locations .hphoto-small-locations {
     background-image: url(/locations/assets/map.png);
   }
 }
@@ -6133,6 +6171,10 @@ button.dropdown::before {
   }
   /* line 6, ../scss/settings/_svgpng.scss */
   .no-svg .page-locations .map {
+    background-image: url(/locations/assets/map.png);
+  }
+  /* line 7, ../scss/settings/_svgpng.scss */
+  .no-js .page-locations .map {
     background-image: url(/locations/assets/map.png);
   }
   /* line 97, ../scss/pages/_locations.scss */
@@ -6933,12 +6975,20 @@ button.dropdown::before {
 .no-svg .kids .kids-lifekids h4, .no-svg .kids .kids-lifekids .location-tile, .no-svg .kids .kids-lifekids .lifegroups-tile span, .lifegroups-tile .no-svg .kids .kids-lifekids span {
   background-image: url('/images/kids/kids-lifekids.png?1392049184');
 }
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .kids .kids-lifekids h4, .no-js .kids .kids-lifekids .location-tile, .no-js .kids .kids-lifekids .lifegroups-tile span, .lifegroups-tile .no-js .kids .kids-lifekids span {
+  background-image: url('/images/kids/kids-lifekids.png?1392049184');
+}
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .kids .kids-konnect h4, .svg .kids .kids-konnect .location-tile, .svg .kids .kids-konnect .lifegroups-tile span, .lifegroups-tile .svg .kids .kids-konnect span {
   background-image: url('/images/kids/kids-konnect.svg?1392049206');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .kids .kids-konnect h4, .no-svg .kids .kids-konnect .location-tile, .no-svg .kids .kids-konnect .lifegroups-tile span, .lifegroups-tile .no-svg .kids .kids-konnect span {
+  background-image: url('/images/kids/kids-konnect.png?1392049208');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .kids .kids-konnect h4, .no-js .kids .kids-konnect .location-tile, .no-js .kids .kids-konnect .lifegroups-tile span, .lifegroups-tile .no-js .kids .kids-konnect span {
   background-image: url('/images/kids/kids-konnect.png?1392049208');
 }
 /* line 5, ../scss/settings/_svgpng.scss */
@@ -6949,6 +6999,10 @@ button.dropdown::before {
 .no-svg .kids .kids-roots h4, .no-svg .kids .kids-roots .location-tile, .no-svg .kids .kids-roots .lifegroups-tile span, .lifegroups-tile .no-svg .kids .kids-roots span {
   background-image: url('/images/kids/kids-roots.png?1392049262');
 }
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .kids .kids-roots h4, .no-js .kids .kids-roots .location-tile, .no-js .kids .kids-roots .lifegroups-tile span, .lifegroups-tile .no-js .kids .kids-roots span {
+  background-image: url('/images/kids/kids-roots.png?1392049262');
+}
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .kids .kids-loop h4, .svg .kids .kids-loop .location-tile, .svg .kids .kids-loop .lifegroups-tile span, .lifegroups-tile .svg .kids .kids-loop span {
   background-image: url('/images/kids/kids-loop.svg?1392049806');
@@ -6957,12 +7011,20 @@ button.dropdown::before {
 .no-svg .kids .kids-loop h4, .no-svg .kids .kids-loop .location-tile, .no-svg .kids .kids-loop .lifegroups-tile span, .lifegroups-tile .no-svg .kids .kids-loop span {
   background-image: url('/images/kids/kids-loop.png?1392049807');
 }
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .kids .kids-loop h4, .no-js .kids .kids-loop .location-tile, .no-js .kids .kids-loop .lifegroups-tile span, .lifegroups-tile .no-js .kids .kids-loop span {
+  background-image: url('/images/kids/kids-loop.png?1392049807');
+}
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .kids .kids-switch h4, .svg .kids .kids-switch .location-tile, .svg .kids .kids-switch .lifegroups-tile span, .lifegroups-tile .svg .kids .kids-switch span {
   background-image: url('/images/kids/kids-switch.svg?1392049249');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .kids .kids-switch h4, .no-svg .kids .kids-switch .location-tile, .no-svg .kids .kids-switch .lifegroups-tile span, .lifegroups-tile .no-svg .kids .kids-switch span {
+  background-image: url('/images/kids/kids-switch.png?1392049250');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .kids .kids-switch h4, .no-js .kids .kids-switch .location-tile, .no-js .kids .kids-switch .lifegroups-tile span, .lifegroups-tile .no-js .kids .kids-switch span {
   background-image: url('/images/kids/kids-switch.png?1392049250');
 }
 /* line 53, ../scss/pages/_kids.scss */
