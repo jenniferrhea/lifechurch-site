@@ -39,31 +39,43 @@
 // Logo Variations
   
   // Light logo
-  .header-light .logo:after {
-    color: #fff;
-    opacity: .75
-  }
 
-  // Light logo hover
-  .header-light .logo:hover:after {
-    opacity: 1;
-  }
+    .header-light .logo:after {
+      color: #fff;
+      opacity: .75
+    }
+
+    // Light logo hover
+    .header-light .logo:hover:after {
+      opacity: 1;
+    }
+
+    // Legacy fallback
+    .lt-ie9 .header-light .logo {
+      background: url('/images/branding/logomark-white.png') no-repeat;
+    }
+
 
   // Red logo
-  .header-red .logo:after {
-    color: $red;
-  }
 
-  // Red logo hover
-  .header-red .logo:hover:after {
-    color: darken($red, 10%);
-  }
+    .header-red .logo:after {
+      color: $red;
+    }
+
+    // Red logo hover
+    .header-red .logo:hover:after {
+      color: darken($red, 10%);
+    }
+
+    // Legacy fallback
+    .lt-ie9 .header-red .logo {
+      background: url('/images/branding/logomark-red.png') no-repeat;
+    }
+
 
   // Logo fallback 
   .lt-ie9 .logo {
-    @include svg-image('/images/branding/logomark-black');
-    background-repeat: no-repeat;
-    text-indent: -999em;
+    background: url('/images/branding/logomark-black.png') no-repeat;
 
     &:after {
       display: none;
