@@ -1,12 +1,12 @@
 - id: mission-1
   title: Mission 1
   location: Oklahoma City
-  description_short: Some text goes here that describes what this mission is all about.
+  description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  description_long: |
+  description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     
@@ -23,12 +23,12 @@
 - id: mission-2
   title: Mission 2
   location: Oklahoma City
-  description_short: Some text goes here that describes what this mission is all about.
+  description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  description_long: |
+  description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     
@@ -45,12 +45,12 @@
 - id: mission-3
   title: Mission 3
   location: Tulsa
-  description_short: Some text goes here that describes what this mission is all about.
+  description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  description_long: |
+  description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     
@@ -67,12 +67,12 @@
 - id: mission-4
   title: Mission 4
   location: Dallas Fort Worth
-  description_short: Some text goes here that describes what this mission is all about.
+  description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  description_long: |
+  description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     
@@ -89,12 +89,12 @@
 - id: mission-5
   title: Mission 5
   location: Global
-  description_short: Some text goes here that describes what this mission is all about.
+  description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  description_long: |
+  description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     
@@ -111,12 +111,12 @@
 - id: mission-6
   title: Mission 6
   location: Global
-  description_short: Some text goes here that describes what this mission is all about.
+  description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  description_long: |
+  description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     

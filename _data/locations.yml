@@ -1,9 +1,9 @@
 - id: okc
   title: Oklahoma City OK Campus
-  description_short: Description about this campus goes right here.
+  description_small: Description about this campus goes right here.
   location: "LifeChurch.tv Oklahoma City Campus, etc. etc. etc"
 
 - id: edm
   title: Edmond OK Campus
-  description_short: Description about this campus goes right here.
+  description_small: Description about this campus goes right here.
   location: "LifeChurch.tv Edmond Campus, etc. etc. etc"
