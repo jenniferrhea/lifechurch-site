@@ -3,11 +3,12 @@
 <article id="{{ mission.id }}" class="missions-item">
   <div class="row">
     <div class="medium-3 columns">
-      <img src="{{ mission.image }}" alt="" />
+      <img data-interchange="[{{ mission.image_small }}, (default)], [{{ mission.image_medium }}, (medium)]" alt="{{ mission.title }}" />
+      <noscript><img src="{{ mission.image_small }}" alt="{{ mission.title }}" /></noscript>
     </div>
     <div class="medium-9 columns">
       <h3>{{ mission.title }}</h3>
-      <p>{{ mission.shortDescription }}</p>
+      <p>{{ mission.description_medium | newline_to_br }}</p>
       <div class="cta">
         <p>{% if mission.website %}<a class="action" href="{{ mission.website }}">Visit Site <i class="icon icon-arrow-2"></i></a> {% endif %}<a class="action get-involved" href="#">Get Involved <i class="icon icon-arrow-2"></i></a></p>
         

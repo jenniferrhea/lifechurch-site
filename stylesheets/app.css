@@ -5347,52 +5347,52 @@ p {
   color: #555;
 }
 
-/* line 43, ../scss/design/_header.scss */
+/* line 42, ../scss/design/_header.scss */
+.lt-ie9 .logo {
+  background: url("/images/branding/logomark-black.png") no-repeat;
+}
+/* line 45, ../scss/design/_header.scss */
+.lt-ie9 .logo:after {
+  display: none;
+}
+/* line 49, ../scss/design/_header.scss */
+.lt-ie9 .logo:hover {
+  opacity: .7;
+}
+/* line 53, ../scss/design/_header.scss */
+.lt-ie9 .logo span {
+  display: block;
+}
+
+/* line 61, ../scss/design/_header.scss */
 .header-light .logo:after {
   color: #fff;
   opacity: 0.75;
 }
 
-/* line 49, ../scss/design/_header.scss */
+/* line 67, ../scss/design/_header.scss */
 .header-light .logo:hover:after {
   opacity: 1;
 }
 
-/* line 54, ../scss/design/_header.scss */
+/* line 72, ../scss/design/_header.scss */
 .lt-ie9 .header-light .logo {
   background: url("/images/branding/logomark-white.png") no-repeat;
 }
 
-/* line 61, ../scss/design/_header.scss */
+/* line 79, ../scss/design/_header.scss */
 .header-red .logo:after {
   color: #b9252d;
 }
 
-/* line 66, ../scss/design/_header.scss */
+/* line 84, ../scss/design/_header.scss */
 .header-red .logo:hover:after {
   color: #8f1d23;
 }
 
-/* line 71, ../scss/design/_header.scss */
+/* line 89, ../scss/design/_header.scss */
 .lt-ie9 .header-red .logo {
   background: url("/images/branding/logomark-red.png") no-repeat;
-}
-
-/* line 77, ../scss/design/_header.scss */
-.lt-ie9 .logo {
-  background: url("/images/branding/logomark-black.png") no-repeat;
-}
-/* line 80, ../scss/design/_header.scss */
-.lt-ie9 .logo:after {
-  display: none;
-}
-/* line 84, ../scss/design/_header.scss */
-.lt-ie9 .logo:hover {
-  opacity: .7;
-}
-/* line 88, ../scss/design/_header.scss */
-.lt-ie9 .logo span {
-  display: block;
 }
 
 /* line 95, ../scss/design/_header.scss */

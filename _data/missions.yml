@@ -1,71 +1,131 @@
 - id: mission-1
   title: Mission 1
-  logo: http://placekitten.com/250/90
-  logo2x: http://placekitten.com/500/180
   location: Oklahoma City
-  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  description_short: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_long: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
-  image: http://placekitten.com/300/300
-  image2x: http://placekitten.com/600/600
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   video: http://apple.com
 
 - id: mission-2
   title: Mission 2
-  logo: http://placekitten.com/250/90
-  logo2x: http://placekitten.com/500/180
   location: Oklahoma City
-  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  description_short: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_long: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
-  image: http://placekitten.com/300/300
-  image2x: http://placekitten.com/600/600
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   video: http://apple.com
 
 - id: mission-3
   title: Mission 3
-  logo: http://placekitten.com/250/90
-  logo2x: http://placekitten.com/500/180
   location: Tulsa
-  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  description_short: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_long: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
-  image: http://placekitten.com/300/300
-  image2x: http://placekitten.com/600/600
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   video: http://apple.com
 
 - id: mission-4
   title: Mission 4
-  logo: http://placekitten.com/250/90
-  logo2x: http://placekitten.com/500/180
   location: Dallas Fort Worth
-  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  description_short: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_long: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
-  image: http://placekitten.com/300/300
-  image2x: http://placekitten.com/600/600
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   video: http://apple.com
 
 - id: mission-5
   title: Mission 5
-  logo: http://placekitten.com/250/90
-  logo2x: http://placekitten.com/500/180
   location: Global
-  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  description_short: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_long: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
-  image: http://placekitten.com/300/300
-  image2x: http://placekitten.com/600/600
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   video: http://apple.com
 
 - id: mission-6
   title: Mission 6
-  logo: http://placekitten.com/250/90
-  logo2x: http://placekitten.com/500/180
   location: Global
-  shortDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
-  longDescription: Some text goes here that describes what this mission is all about. It's some pretty sweet text actually. Some text goes here that describes what this mission is all about. It's some pretty sweet text actually.
+  description_short: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_long: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
-  image: http://placekitten.com/300/300
-  image2x: http://placekitten.com/600/600
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   video: http://apple.com
