@@ -6,6 +6,11 @@ $(function() {
 
   // "More" panel open/close
     
+  if ($('html.js').length > 0) {
+
+    $('.page-more').hide();
+    $('.nav-more').attr('href','#');
+
     // Open the more panel
     $( ".primary-links" ).delegate( ".nav-more", "click", function() {
       $(".page-more").fadeIn();
@@ -34,6 +39,7 @@ $(function() {
         $('body').removeClass('header-light-paused').addClass('header-light');
       };
     });
+  }
 
 
   // Add classes on <body> for Series

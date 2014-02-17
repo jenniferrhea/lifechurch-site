@@ -1,20 +1,37 @@
 ---
 published: true
 layout: watch
-section: watch
 categories: watch
-assets: /watch/assets/2014-stdb/
-preview-image: http://placekitten.com/300/200
-stylesheet: true
-javascript: true
 series-id: small-things-big-difference-2
+
+assets: /watch/assets/2014-stdb/
+stylesheet: false
+javascript: false
 ---
 
-<section class="page-section section-first">
+{% assign series = site.data.watch | find_first : "id", page.series-id %}
+
+<div class="page-section section-first">
   <div class="row">
-    <div class="medium-6 columns">
-      <h1>Nice title goes here about Small Things Big Difference.</h1>
-      <a href="#messages" class="action text-black">Watch series <i class="icon icon-arrow-down-2"></i></a>
+    <div class="medium-6 large-4 columns">
+      <h1 class="text-red">Title goes here about this series.</h1>
+      <p>{{ series.description_short | newline_to_br }}</p>
+      <p><a href="#messages" class="action">Watch series <i class="icon icon-arrow-down-2"></i></a></p>
+    </div>
+    <div class="medium-6 large-4 columns">
+      <img class="padded" data-interchange="[{{ series.image_medium }}, (default)], [{{ series.image_large }}, (medium)]" alt="{{ series.title }}" />
+        <noscript><img class="padded" src="{{ series.image_small }}" alt="{{ series.title }}"></noscript>
     </div>
   </div>
-</section>
+
+  {{ if series.quote }}
+    <div class="row padded">
+      <div class="medium-12 columns">
+        <blockquote class="quote-large">
+          <p>“{{ series.quote }}”</p>
+          <cite>{{ series.quote_cite }}</cite>
+        </blockquote>
+      </div>
+    </div>
+    {{ endif }}
+</div>

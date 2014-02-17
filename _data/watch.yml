@@ -1,7 +1,47 @@
 - id: small-things-big-difference
   title: Small Things Big Difference
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
   open: http://www.apple.com/
   url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
+  messages:
+    - title: Week 1
+      description: Description goes here
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 3
+      description: Description goes here (3)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+
+- id: small-things-big-difference-2
+  title: Small Things Big Difference 2
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
+  open: http://www.apple.com/
+  url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
     - title: Week 1
       description: Description goes here
@@ -18,8 +58,48 @@
 
 - id: maker-of-miracles
   title: Maker of Miracles
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
   open: http://www.apple.com/
   url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
+  messages:
+    - title: Week 1
+      description: Description goes here
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 3
+      description: Description goes here (3)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+
+- id: maker-of-miracles-2
+  title: Maker of Miracles 2
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
+  open: http://www.apple.com/
+  url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
     - title: Week 1
       description: Description goes here
@@ -36,8 +116,48 @@
 
 - id: fear-not
   title: Fear Not
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
   open: http://www.apple.com/
   url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
+  messages:
+    - title: Week 1
+      description: Description goes here
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 3
+      description: Description goes here (3)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+
+- id: fear-not-2
+  title: Fear Not 2
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
+  open: http://www.apple.com/
+  url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
     - title: Week 1
       description: Description goes here
@@ -54,8 +174,19 @@
 
 - id: interview-kevin-durant-carl-lentz
   title: Interview with Kevin Durant and Carl Lentz
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
   open: http://www.apple.com/
   url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
     - title: Week 1
       description: Description goes here
@@ -70,10 +201,79 @@
       video_url: http://www.apple.com/
       youtube_url: http://www.apple.com/
 
-- id: Necessary Sins
-  title: Necessary Sins
+- id: interview-kevin-durant-carl-lentz-2
+  title: Interview with Kevin Durant and Carl Lentz 2
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
   open: http://www.apple.com/
   url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
+  messages:
+    - title: Week 1
+      description: Description goes here
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 3
+      description: Description goes here (3)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+
+- id: necessary-sins
+  title: Necessary Sins
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
+  open: http://www.apple.com/
+  url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
+  messages:
+    - title: Week 1
+      description: Description goes here
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 2
+      description: Description goes here (2)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+    - title: Week 3
+      description: Description goes here (3)
+      video_url: http://www.apple.com/
+      youtube_url: http://www.apple.com/
+
+- id: necessary-sins-2
+  title: Necessary Sins 2
+  headline: Title goes here about this series.
+  description_short: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  quote: Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.
+  quote_cite: Some citation goes here
+  open: http://www.apple.com/
+  url: http://www.apple.com/
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
     - title: Week 1
       description: Description goes here

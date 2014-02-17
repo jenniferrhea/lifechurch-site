@@ -5220,6 +5220,29 @@ p {
 
 /* line 3, ../scss/design/_more.scss */
 .page-more {
+  background: #fff;
+  z-index: 10;
+  -webkit-tap-highlight-color: transparent;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 9, ../scss/design/_more.scss */
+  .page-more .row {
+    padding: 5px 0;
+  }
+  /* line 13, ../scss/design/_more.scss */
+  .page-more p {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+/* line 20, ../scss/design/_more.scss */
+.no-js .page-more {
+  padding-top: 40px;
+}
+
+/* line 24, ../scss/design/_more.scss */
+.js .page-more {
   position: absolute;
   left: 0;
   right: 0;
@@ -5227,30 +5250,16 @@ p {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
-  z-index: 10;
-  -webkit-tap-highlight-color: transparent;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 16, ../scss/design/_more.scss */
-  .page-more .row {
-    padding: 5px 0;
-  }
-  /* line 20, ../scss/design/_more.scss */
-  .page-more p {
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
 }
 
-/* line 27, ../scss/design/_more.scss */
+/* line 34, ../scss/design/_more.scss */
 .page-more-inner {
   position: relative;
   top: 0;
   background: #fff;
 }
 
-/* line 33, ../scss/design/_more.scss */
+/* line 40, ../scss/design/_more.scss */
 .page-more a {
   display: block;
   margin: 0 -10px;
@@ -5262,27 +5271,27 @@ p {
   border-radius: 4px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 33, ../scss/design/_more.scss */
+  /* line 40, ../scss/design/_more.scss */
   .page-more a {
     padding: 10px;
   }
-  /* line 42, ../scss/design/_more.scss */
+  /* line 49, ../scss/design/_more.scss */
   .page-more a p {
     margin: 0;
   }
 }
 
-/* line 48, ../scss/design/_more.scss */
+/* line 55, ../scss/design/_more.scss */
 .page-more a:hover {
   background: #e7faff;
 }
 
-/* line 54, ../scss/design/_more.scss */
+/* line 61, ../scss/design/_more.scss */
 .page-more-inner p {
   font-size: 1em;
 }
 
-/* line 59, ../scss/design/_more.scss */
+/* line 66, ../scss/design/_more.scss */
 .page-more-inner h4, .page-more-inner .location-tile, .page-more-inner .lifegroups-tile span, .lifegroups-tile .page-more-inner span {
   margin: 7px 0 8px;
 }
@@ -5650,7 +5659,7 @@ p {
 }
 /* line 48, ../scss/design/_buttons.scss */
 .button.inverse.white:before {
-  border-color: #fff transparent transparent transparent;
+  border-color: #fff transparent transparent transparent !important;
 }
 /* line 54, ../scss/design/_buttons.scss */
 .button.inverse.red {
