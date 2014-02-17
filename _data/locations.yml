@@ -1,9 +1,10 @@
 - id: okc
   title: Oklahoma City OK Campus
   description_small: Description about this campus goes right here.
-  location: "LifeChurch.tv Oklahoma City Campus, etc. etc. etc"
+  address: '2001 NW 178th St, Edmond, OK 73012'
+  google_maps: 'https://www.google.com/maps?daddr=2001+NW+178th+St,+Edmond,+OK+73012&hl=en-US&view=map&geocode=CcnLgB-AH237FUcJIAIdjIcv-iEGjWeKHKsmTw&t=h&z=16'
 
 - id: edm
   title: Edmond OK Campus
-  description_small: Description about this campus goes right here.
-  location: "LifeChurch.tv Edmond Campus, etc. etc. etc"
+  address: '2001 NW 178th St, Edmond, OK 73012'
+  google_maps: 'https://www.google.com/maps?daddr=2001+NW+178th+St,+Edmond,+OK+73012&hl=en-US&view=map&geocode=CcnLgB-AH237FUcJIAIdjIcv-iEGjWeKHKsmTw&t=h&z=16'
