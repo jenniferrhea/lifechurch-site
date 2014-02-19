@@ -35,6 +35,17 @@
     margin: 0 1px 1px 0 !important;
   }
 
+  a:hover .panel {
+    border-color: $primary-color;
+  }
+
+  a .panel {
+    h1,h2,h3,h4,h5,h6 {
+      margin-top: 15px !important;
+      margin-bottom: 0 !important;
+    }
+  }
+
 
   // First section (pull it over the navigation)
   .section-first {
