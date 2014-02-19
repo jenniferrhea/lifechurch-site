@@ -337,7 +337,7 @@
 // Adjust all content to match right side
 .location-tile-wrapper,
 .location-content-wrapper {
-  margin-left: 1px;
+  
 }
 
 // Page tile
@@ -386,10 +386,6 @@
   &.tile-active:after,
   &:hover:after {
     opacity: 1;
-  }
-
-  &.tile-1.tile-active {
-    background: #fff !important;
   }
 }
 

@@ -6419,12 +6419,6 @@ button.dropdown::before {
   color: #fff !important;
 }
 
-/* line 339, ../scss/pages/_locations.scss */
-.location-tile-wrapper,
-.location-content-wrapper {
-  margin-left: 1px;
-}
-
 /* line 344, ../scss/pages/_locations.scss */
 .location-tile {
   text-align: center;
@@ -6485,29 +6479,25 @@ button.dropdown::before {
 .location-tile.tile-active:after, .location-tile:hover:after {
   opacity: 1;
 }
-/* line 391, ../scss/pages/_locations.scss */
-.location-tile.tile-1.tile-active {
-  background: #fff !important;
-}
 
-/* line 397, ../scss/pages/_locations.scss */
+/* line 393, ../scss/pages/_locations.scss */
 .tile-1 {
   border-left: 1px solid #fff;
   border-top: 1px solid #fff;
 }
 
-/* line 403, ../scss/pages/_locations.scss */
+/* line 399, ../scss/pages/_locations.scss */
 .tile-2 {
   border-top: 1px solid #fff;
 }
 
-/* line 408, ../scss/pages/_locations.scss */
+/* line 404, ../scss/pages/_locations.scss */
 .tile-3 {
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
 }
 
-/* line 414, ../scss/pages/_locations.scss */
+/* line 410, ../scss/pages/_locations.scss */
 .tile-active {
   border-bottom: 0;
   background: #fdfdfd !important;
@@ -6515,19 +6505,19 @@ button.dropdown::before {
   opacity: 1;
   color: #333333;
 }
-/* line 421, ../scss/pages/_locations.scss */
+/* line 417, ../scss/pages/_locations.scss */
 .tile-active:hover {
   color: #333333;
 }
 
-/* line 427, ../scss/pages/_locations.scss */
+/* line 423, ../scss/pages/_locations.scss */
 .location-content-wrapper {
   position: relative;
   float: left;
   width: 100%;
 }
 
-/* line 434, ../scss/pages/_locations.scss */
+/* line 430, ../scss/pages/_locations.scss */
 .location-content {
   float: left;
   width: 99.8%;
@@ -6537,23 +6527,23 @@ button.dropdown::before {
   margin-bottom: 40px;
 }
 
-/* line 444, ../scss/pages/_locations.scss */
+/* line 440, ../scss/pages/_locations.scss */
 .content-active {
   z-index: 1;
   position: relative;
 }
 
-/* line 450, ../scss/pages/_locations.scss */
+/* line 446, ../scss/pages/_locations.scss */
 .content-2 {
   background: #fdfdfd;
 }
 
-/* line 455, ../scss/pages/_locations.scss */
+/* line 451, ../scss/pages/_locations.scss */
 .content-3 {
   background: #fdfdfd;
 }
 
-/* line 461, ../scss/pages/_locations.scss */
+/* line 457, ../scss/pages/_locations.scss */
 .content-1 {
   background-color: #fff;
   background-size: 1196px 398px;
@@ -6563,12 +6553,12 @@ button.dropdown::before {
   border: 1px solid #ddd;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 461, ../scss/pages/_locations.scss */
+  /* line 457, ../scss/pages/_locations.scss */
   .content-1 {
     height: 400px;
   }
 }
-/* line 473, ../scss/pages/_locations.scss */
+/* line 469, ../scss/pages/_locations.scss */
 .content-1 .address {
   background: #333333;
   color: #fff;
@@ -6578,7 +6568,7 @@ button.dropdown::before {
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 473, ../scss/pages/_locations.scss */
+  /* line 469, ../scss/pages/_locations.scss */
   .content-1 .address {
     width: 250px;
     background: rgba(0, 0, 0, 0.8);
@@ -6588,7 +6578,7 @@ button.dropdown::before {
     -o-border-radius: 6px;
     border-radius: 6px;
   }
-  /* line 486, ../scss/pages/_locations.scss */
+  /* line 482, ../scss/pages/_locations.scss */
   .content-1 .address:after {
     content: "";
     display: block;
@@ -6603,23 +6593,23 @@ button.dropdown::before {
   }
 }
 
-/* line 507, ../scss/pages/_locations.scss */
+/* line 503, ../scss/pages/_locations.scss */
 .experience-calendar {
   border-collapse: collapse;
   table-layout: fixed;
   width: 100%;
 }
-/* line 513, ../scss/pages/_locations.scss */
+/* line 509, ../scss/pages/_locations.scss */
 .experience-calendar .hour {
   border-left: 1px solid #ccc;
 }
-/* line 518, ../scss/pages/_locations.scss */
+/* line 514, ../scss/pages/_locations.scss */
 .experience-calendar td {
   width: 6.6%;
   height: 50px;
   padding: 0;
 }
-/* line 524, ../scss/pages/_locations.scss */
+/* line 520, ../scss/pages/_locations.scss */
 .experience-calendar td span {
   width: 6.6%;
   height: 50px;
@@ -6627,7 +6617,7 @@ button.dropdown::before {
   font-size: 13px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 536, ../scss/pages/_locations.scss */
+  /* line 532, ../scss/pages/_locations.scss */
   .experience-calendar td .inner,
   .experience-calendar .day {
     -webkit-transform: rotate(90deg);
@@ -6641,17 +6631,17 @@ button.dropdown::before {
     top: -28px !important;
     position: relative;
   }
-  /* line 549, ../scss/pages/_locations.scss */
+  /* line 545, ../scss/pages/_locations.scss */
   .experience-calendar .day {
     top: -2px !important;
     padding: 6px 0 0 !important;
   }
 }
-/* line 555, ../scss/pages/_locations.scss */
+/* line 551, ../scss/pages/_locations.scss */
 .experience-calendar .entry {
   padding-right: 1px;
 }
-/* line 558, ../scss/pages/_locations.scss */
+/* line 554, ../scss/pages/_locations.scss */
 .experience-calendar .entry span {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -6662,34 +6652,34 @@ button.dropdown::before {
   padding: 14px 0;
   text-align: center;
 }
-/* line 564, ../scss/pages/_locations.scss */
+/* line 560, ../scss/pages/_locations.scss */
 .experience-calendar .entry span.hour-1 {
   width: 99.9%;
   margin: 0 1px 1px;
 }
-/* line 569, ../scss/pages/_locations.scss */
+/* line 565, ../scss/pages/_locations.scss */
 .experience-calendar .entry span.hour-2 {
   width: 99.9%;
   margin: 0 1px 1px;
 }
-/* line 574, ../scss/pages/_locations.scss */
+/* line 570, ../scss/pages/_locations.scss */
 .experience-calendar .entry span.hour-3 {
   width: 99.9%;
   margin: 0 1px 1px;
 }
-/* line 580, ../scss/pages/_locations.scss */
+/* line 576, ../scss/pages/_locations.scss */
 .experience-calendar .entry.entry-lctv span {
   background: #e98f93;
   border: 1px solid #e0646b;
   color: #b9252d;
 }
-/* line 586, ../scss/pages/_locations.scss */
+/* line 582, ../scss/pages/_locations.scss */
 .experience-calendar .entry.entry-switch span {
   background: #0ea9d6;
   border: 1px solid #0b83a6;
   color: #085d76;
 }
-/* line 592, ../scss/pages/_locations.scss */
+/* line 588, ../scss/pages/_locations.scss */
 .experience-calendar .entry.entry-konnect span {
   background: #e7e7e7;
   border: 1px solid #cecece;
@@ -6697,16 +6687,16 @@ button.dropdown::before {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 602, ../scss/pages/_locations.scss */
+  /* line 598, ../scss/pages/_locations.scss */
   .calendar-key {
     margin-top: 55px;
   }
 }
-/* line 609, ../scss/pages/_locations.scss */
+/* line 605, ../scss/pages/_locations.scss */
 .calendar-key a {
   float: left;
 }
-/* line 613, ../scss/pages/_locations.scss */
+/* line 609, ../scss/pages/_locations.scss */
 .calendar-key figure {
   width: 20px;
   height: 20px;
@@ -6718,60 +6708,60 @@ button.dropdown::before {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 621, ../scss/pages/_locations.scss */
+/* line 617, ../scss/pages/_locations.scss */
 .calendar-key.key-lctv figure {
   background: #e98f93;
   border: 1px solid #e0646b;
 }
-/* line 626, ../scss/pages/_locations.scss */
+/* line 622, ../scss/pages/_locations.scss */
 .calendar-key.key-switch figure {
   background: #0ea9d6;
   border: 1px solid #0b83a6;
 }
-/* line 631, ../scss/pages/_locations.scss */
+/* line 627, ../scss/pages/_locations.scss */
 .calendar-key.key-konnect figure {
   background: #e7e7e7;
   border: 1px solid #cecece;
 }
 
-/* line 643, ../scss/pages/_locations.scss */
+/* line 639, ../scss/pages/_locations.scss */
 .location-okc .content-1 {
   background-image: url("/locations/assets/campus/okc-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 643, ../scss/pages/_locations.scss */
+  /* line 639, ../scss/pages/_locations.scss */
   .location-okc .content-1 {
     background-image: url("/locations/assets/campus/okc-map@2x.jpg");
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 643, ../scss/pages/_locations.scss */
+  /* line 639, ../scss/pages/_locations.scss */
   .location-okc .content-1 {
     background-size: 800px auto;
     background-position: 0 -40px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 643, ../scss/pages/_locations.scss */
+  /* line 639, ../scss/pages/_locations.scss */
   .location-okc .content-1 {
     margin-top: 40px;
   }
 }
-/* line 655, ../scss/pages/_locations.scss */
+/* line 651, ../scss/pages/_locations.scss */
 .location-okc .content-1 .pin {
   top: 70px;
   left: 70px;
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 655, ../scss/pages/_locations.scss */
+  /* line 651, ../scss/pages/_locations.scss */
   .location-okc .content-1 .pin {
     top: 180px;
     left: 110px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 666, ../scss/pages/_locations.scss */
+  /* line 662, ../scss/pages/_locations.scss */
   .location-okc .content-1 .address {
     top: 165px;
     left: 160px;
