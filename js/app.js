@@ -204,11 +204,10 @@ $(function() {
 
 
   // LifeMissions Page
-  if ($('.missions-list, .serving-list').length > 0) {
+  if ($('.involved-list').length > 0) {
 
     // Hide forms by default
-    $('.missions-list form').hide();
-    $('.serving-list form').hide();
+    $('.involved-list form').hide();
 
     // Change which cluster list appears on the page
     /*$('.missions-list').hide();
@@ -254,7 +253,7 @@ $(function() {
 
 
     // Make the form appear if "Get Involved" gets clicked
-    $( ".missions-list, .serving-list" ).delegate( ".get-involved", "click", function() {
+    $( ".involved-list" ).delegate( ".get-involved", "click", function() {
       $(this).parent().parent().addClass('open');
       $(this).parent().siblings('form').fadeIn();
       $(this).parent().fadeOut();

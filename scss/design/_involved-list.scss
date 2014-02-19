@@ -1,0 +1,32 @@
+.involved-list {
+
+  .cta {
+    position: relative;
+    height: 80px;
+    @include transition-property(height);
+    @include transition-duration(.5s);
+
+    @media #{$medium-up} {
+      height: 80px;
+    }
+  }
+
+  .cta.open {
+    height: 300px;
+    
+    @media #{$medium-up} {
+      height: 310px;
+    }
+
+    @media #{$large-up} {
+      height: 260px;
+    }
+  }
+
+  form {
+    position: absolute;
+    top: -15px;
+    width: 100%;
+  }
+
+}

@@ -5919,6 +5919,48 @@ button.dropdown::before {
   padding-right: 2em !important;
 }
 
+/* line 3, ../scss/design/_involved-list.scss */
+.involved-list .cta {
+  position: relative;
+  height: 80px;
+  -webkit-transition-property: height;
+  -moz-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 3, ../scss/design/_involved-list.scss */
+  .involved-list .cta {
+    height: 80px;
+  }
+}
+/* line 14, ../scss/design/_involved-list.scss */
+.involved-list .cta.open {
+  height: 300px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 14, ../scss/design/_involved-list.scss */
+  .involved-list .cta.open {
+    height: 310px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 14, ../scss/design/_involved-list.scss */
+  .involved-list .cta.open {
+    height: 260px;
+  }
+}
+/* line 26, ../scss/design/_involved-list.scss */
+.involved-list form {
+  position: absolute;
+  top: -15px;
+  width: 100%;
+}
+
 /* line 1, ../scss/pages/_home.scss */
 .home {
   background: #1e1e1e url("/images/home/series-bg.jpg") center top no-repeat;
@@ -6865,90 +6907,6 @@ button.dropdown::before {
 /* line 65, ../scss/pages/_lifegroups.scss */
 .lifegroups-tile-4 {
   background-image: url("http://placekitten.com/500/400");
-}
-
-/* line 4, ../scss/pages/_lifemissions.scss */
-.missions-list .missions-item,
-.serving-list .missions-item {
-  border-top: 1px solid #ddd;
-  padding-top: 30px;
-  margin-top: 30px;
-}
-/* line 10, ../scss/pages/_lifemissions.scss */
-.missions-list .missions-item:first-child,
-.serving-list .missions-item:first-child {
-  border-top: none;
-  padding-top: 0;
-  margin-top: 0;
-}
-/* line 16, ../scss/pages/_lifemissions.scss */
-.missions-list .cta,
-.serving-list .cta {
-  position: relative;
-  height: 70px;
-  -webkit-transition-property: height;
-  -moz-transition-property: height;
-  -o-transition-property: height;
-  transition-property: height;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 16, ../scss/pages/_lifemissions.scss */
-  .missions-list .cta,
-  .serving-list .cta {
-    height: 30px;
-  }
-}
-/* line 27, ../scss/pages/_lifemissions.scss */
-.missions-list .cta.open,
-.serving-list .cta.open {
-  height: 230px;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 27, ../scss/pages/_lifemissions.scss */
-  .missions-list .cta.open,
-  .serving-list .cta.open {
-    height: 170px;
-  }
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 27, ../scss/pages/_lifemissions.scss */
-  .missions-list .cta.open,
-  .serving-list .cta.open {
-    height: 130px;
-  }
-}
-/* line 39, ../scss/pages/_lifemissions.scss */
-.missions-list form,
-.serving-list form {
-  position: absolute;
-  top: -15px;
-  width: 100%;
-}
-
-/* line 47, ../scss/pages/_lifemissions.scss */
-.serving-list .cta {
-  height: 80px;
-}
-
-/* line 51, ../scss/pages/_lifemissions.scss */
-.serving-list .cta.open {
-  height: 300px;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 51, ../scss/pages/_lifemissions.scss */
-  .serving-list .cta.open {
-    height: 310px;
-  }
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 51, ../scss/pages/_lifemissions.scss */
-  .serving-list .cta.open {
-    height: 260px;
-  }
 }
 
 /* line 3, ../scss/pages/_kids.scss */

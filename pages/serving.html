@@ -29,7 +29,7 @@ class: kids serving header-red
   <div class="row padded">
     <div class="large-12 columns">
 
-      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 serving-list">
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
         {% for item in site.data.serving %}
         {% if item.location == "Online" %}
         {% include involved-item.html %}
@@ -54,7 +54,7 @@ class: kids serving header-red
   <div class="row padded">
     <div class="large-12 columns">
       
-      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 serving-list">
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
         {% for item in site.data.serving %}
         {% if item.location == "Central" %}
         {% include involved-item.html %}
