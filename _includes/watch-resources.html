@@ -1,5 +1,23 @@
 <ul id="drop" data-dropdown-content class="f-dropdown text-left watch-resources">
-  <li><a href="#" class="watch-podcast">Get the Podcast</a></li>
-  <li><a href="#" class="watch-talkitover">Get Talk Notes</a></li>  
-  <li><a href="{{series.open}}" class="watch-open">For Other Churches</a></li>
+  <li>
+    <a href="#" 
+       class="watch-podcast"
+       onclick="_gaq.push(['_trackEvent', 'Series', 'Click', 'Resource Podcast']);">
+       Get the Podcast
+    </a>
+  </li>
+  <li>
+    <a href="#" 
+       class="watch-talkitover"
+       onclick="_gaq.push(['_trackEvent', 'Series', 'Click', 'Resource Talk Notes']);">
+       Get Talk Notes
+    </a>
+  </li>  
+  <li>
+    <a href="{{series.open}}" 
+       class="watch-open"
+       onclick="_gaq.push(['_trackEvent', 'Series', 'Click', 'Resource OPEN']);">
+       For Other Churches
+    </a>
+  </li>
 </ul>

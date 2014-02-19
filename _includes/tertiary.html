@@ -18,7 +18,15 @@
     <div class="medium-6 columns tertiary-resources text-right">
       {% if page.section == "watch" %}
       <!-- Watch Options -->
-      <div class="hide-for-small"><a href="#" data-dropdown="drop" class="button tiny dropdown">Get Resources</a><br></div>
+      <div class="hide-for-small">
+        <a href="#" 
+           data-dropdown="drop" 
+           class="button tiny dropdown"
+           onclick="_gaq.push(['_trackEvent', 'Series', 'Click', 'Resource']);">
+           Get Resources
+        </a>
+        <br />
+      </div>
       {% include watch-resources.html %}
       {% endif %}
 
@@ -29,7 +37,18 @@
 
       {% if page.title == "Giving" %}
       <!-- Giving Options -->
-      <div class="hide-for-small"><a class="button inverse white small" href="#">Sign up for Giving</a> <a class="button small" href="#">Log in to Give</a></div>
+      <div class="hide-for-small">
+        <a href="#"
+           class="button inverse white small"
+           onclick="_gaq.push(['_trackEvent', 'Giving', 'Click', 'Give New']);">
+           Sign up for Giving
+        </a> 
+        <a href="#" 
+           class="button small" 
+           onclick="_gaq.push(['_trackEvent', 'Giving', 'Click', 'Give Existing']);">
+           Log in to Give
+        </a>
+      </div>
       {% endif %}
     </div>
   </div>

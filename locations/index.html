@@ -9,12 +9,25 @@ class: page-locations section-locations
 
   <div class="row">
     <div class="large-12 columns">
-      <a class="map-back button tiny small" href="#" style="display: none;">&larr; Back to full map</a>
+      <a href="#"
+         class="map-back button tiny small" 
+         style="display: none;"
+         onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Zoom Out']);">
+         &larr; Back to full map
+      </a>
     </div>
   </div>
 
-  <a class="pin pin-state pin-ok" href="#">Oklahoma&nbsp;(13)</a>
-  <a class="pin pin-state pin-tx" href="#">Texas&nbsp;(2)</a>
+  <a href="#" 
+     class="pin pin-state pin-ok"
+     onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Zoom OK']);">
+     Oklahoma&nbsp;(13)
+  </a>
+  <a href="#" 
+     class="pin pin-state pin-tx"
+     onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Zoom TX']);">
+     Texas&nbsp;(2)
+  </a>
   <a class="pin pin-state pin-tn" href="/locations/hendersonville/">Hendersonville,&nbsp;TN</a>
   <a class="pin pin-state pin-fl" href="/locations/wellington/">Wellington,&nbsp;FL</a>
   <a class="pin pin-state pin-ny" href="/locations/albany/">Albany,&nbsp;NY</a>
@@ -52,8 +65,19 @@ class: page-locations section-locations
 <section class="page-main hide-for-small">
   <div class="row">
     <div class="large-6 columns">
-      <p><a href="http://live.lifechurch.tv" class="action text-black large" href="#">Clever text introducing map,<br />and also Church Online <i class="icon icon-arrow-2"></i></a><br />
-      <a href="http://www.networkchurches.tv" class="action small text-black">Also, link goes here about Network Churches. <i class="icon icon-arrow-1"></i></a></p>
+      <p>
+        <a href="http://live.lifechurch.tv" 
+           class="action text-black large" 
+          onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Church Online']);">
+           Clever text introducing map,<br />and also Church Online <i class="icon icon-arrow-2"></i>
+        </a>
+        <br />
+        <a href="http://www.networkchurches.tv" 
+           class="action small text-black"
+           onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Network Churches']);">
+           Also, link goes here about Network Churches. <i class="icon icon-arrow-1"></i>
+        </a>
+      </p>
     </div>
   </div>
 </section>

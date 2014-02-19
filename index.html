@@ -11,9 +11,18 @@ class: home header-light footer-light
 
       <h1 class="hide">Small things can make a big difference.</h1>
 
-      <a href="/watch/small-things-big-difference/" class="action text-lprimary large">Watch Series <i class="icon icon-play-2"></i></a> <a href="#" class="action text-lprimary large">New Here? <i class="icon icon-play-2"></i></a>
-        
-      </div>
+      <a href="/watch/small-things-big-difference/"
+         class="action text-lprimary large"
+         onclick="_gaq.push(['_trackEvent', 'Home', 'Play', 'Watch']);">
+         Watch Series <i class="icon icon-play-2"></i>
+      </a>
+
+      <a href="#"
+         class="action text-lprimary large"
+         onclick="_gaq.push(['_trackEvent', 'Home', 'Play', 'New']);">
+         New Here? <i class="icon icon-play-2"></i>
+      </a>
+
     </div>
   </div>
 </section>

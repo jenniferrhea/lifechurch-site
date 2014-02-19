@@ -20,7 +20,13 @@
 
       {% endfor %}
 
-      <a href="#" data-dropdown="drop" class="action dropdown white show-for-small">Get Resources<i class="icon icon-arrow-down-2"></i></a><br>
+      <a href="#" 
+         data-dropdown="drop" 
+         class="action dropdown white show-for-small"
+         onclick="_gaq.push(['_trackEvent', 'Series', 'Click', 'Resource']);">
+         Get Resources <i class="icon icon-arrow-down-2"></i>
+      </a>
+      <br />
       {% include watch-resources.html %}
       
     </div>

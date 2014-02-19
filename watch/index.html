@@ -10,7 +10,13 @@ class: header-red section-watch page-watch
     <div class="medium-6 columns">
       <h2 class="text-white">Lorem ipsum dolor sit amet consectetur.</h2>
       <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lipwig nigel mansell devilish cad.</p>
-      <p><a href="http://live.lifechurch.tv" class="action">Watch Live in 14min 28sec <i class="icon icon-play-2"></i></a></p>
+      <p>
+        <a href="http://live.lifechurch.tv" 
+           class="action"
+           onclick="_gaq.push(['_trackEvent', 'Watch', 'Click', 'Live']);">
+           Watch Live in 14min 28sec <i class="icon icon-play-2"></i>
+         </a>
+      </p>
     </div>
   </div>
 </section>
@@ -51,7 +57,11 @@ class: header-red section-watch page-watch
 <section class="page-section section-last">
 <div class="row">
   <div class="large-12 large-centered columns text-center">
-    <a class="action large text-black" href="/watch/archive/">View more archives <i class="icon icon-play-2"></i></a>
+    <a href="/watch/archive/"
+       class="action large text-black"
+       onclick="_gaq.push(['_trackEvent', 'Watch', 'Click', 'View Archives']);">
+       View more archives <i class="icon icon-play-2"></i>
+    </a>
   </div>
 </div>
 </section>
