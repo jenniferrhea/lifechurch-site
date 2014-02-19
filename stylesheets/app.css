@@ -5782,78 +5782,82 @@ a:hover .panel {
   border-color: #0ea9d6;
 }
 
-/* line 43, ../scss/design/_sections.scss */
+/* line 42, ../scss/design/_sections.scss */
+a .panel {
+  border-color: #d8d8d8;
+}
+/* line 45, ../scss/design/_sections.scss */
 a .panel h1, a .panel h2, a .panel h3, a .panel h4, a .panel .location-tile, a .panel .lifegroups-tile span, .lifegroups-tile a .panel span, a .panel h5, a .panel h6, a .panel label {
   margin-top: 15px !important;
   margin-bottom: 0 !important;
 }
 
-/* line 51, ../scss/design/_sections.scss */
+/* line 53, ../scss/design/_sections.scss */
 .section-first {
   margin-top: -165px;
   padding-top: 165px;
 }
 
-/* line 57, ../scss/design/_sections.scss */
+/* line 59, ../scss/design/_sections.scss */
 .section-last {
   margin-bottom: -40px;
 }
 
-/* line 62, ../scss/design/_sections.scss */
+/* line 64, ../scss/design/_sections.scss */
 .section-last.section-light {
   background: #1e1e1e;
 }
 
-/* line 69, ../scss/design/_sections.scss */
+/* line 71, ../scss/design/_sections.scss */
 .section-light h1, .section-light h2, .section-light h3, .section-light h4, .section-light .location-tile, .section-light .lifegroups-tile span, .lifegroups-tile .section-light span, .section-light h5, .section-light h6, .section-light label, .section-light p, .section-light a, .section-light .button {
   color: #fff;
   border-color: #fff;
 }
 
-/* line 77, ../scss/design/_sections.scss */
+/* line 79, ../scss/design/_sections.scss */
 .header-light .nav-more .more-line {
   background: #fff !important;
 }
-/* line 81, ../scss/design/_sections.scss */
+/* line 83, ../scss/design/_sections.scss */
 .header-light .nav-more:hover .more-line {
   background: #ccc !important;
 }
-/* line 85, ../scss/design/_sections.scss */
+/* line 87, ../scss/design/_sections.scss */
 .header-light .primary-links a {
   color: #fff;
 }
-/* line 88, ../scss/design/_sections.scss */
+/* line 90, ../scss/design/_sections.scss */
 .header-light .primary-links a:hover {
   color: #ccc;
 }
-/* line 93, ../scss/design/_sections.scss */
+/* line 95, ../scss/design/_sections.scss */
 .header-light .page-tertiary {
   border-color: rgba(255, 255, 255, 0.4);
 }
-/* line 97, ../scss/design/_sections.scss */
+/* line 99, ../scss/design/_sections.scss */
 .header-light .tertiary-nav a {
   color: #fff !important;
 }
 
-/* line 104, ../scss/design/_sections.scss */
+/* line 106, ../scss/design/_sections.scss */
 .footer-light .page-footer {
   background: #1e1e1e;
   border-color: rgba(255, 255, 255, 0.4) !important;
 }
-/* line 108, ../scss/design/_sections.scss */
+/* line 110, ../scss/design/_sections.scss */
 .footer-light .page-footer .columns {
   border-color: rgba(255, 255, 255, 0.4) !important;
 }
-/* line 112, ../scss/design/_sections.scss */
+/* line 114, ../scss/design/_sections.scss */
 .footer-light .page-footer p {
   color: #fff !important;
 }
-/* line 116, ../scss/design/_sections.scss */
+/* line 118, ../scss/design/_sections.scss */
 .footer-light .page-footer a {
   color: #86def7;
 }
 
-/* line 126, ../scss/design/_sections.scss */
+/* line 128, ../scss/design/_sections.scss */
 .hphoto {
   margin: 0;
   padding: 0;
@@ -5861,70 +5865,70 @@ a .panel h1, a .panel h2, a .panel h3, a .panel h4, a .panel .location-tile, a .
   position: relative;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 126, ../scss/design/_sections.scss */
+  /* line 128, ../scss/design/_sections.scss */
   .hphoto {
     height: 350px;
   }
 }
 
-/* line 138, ../scss/design/_sections.scss */
+/* line 140, ../scss/design/_sections.scss */
 .hphoto-top {
   margin-top: -165px;
   padding-top: 165px;
   height: 200px;
 }
 @media only screen and (min-height: 620px) {
-  /* line 138, ../scss/design/_sections.scss */
+  /* line 140, ../scss/design/_sections.scss */
   .hphoto-top {
     height: 300px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 138, ../scss/design/_sections.scss */
+  /* line 140, ../scss/design/_sections.scss */
   .hphoto-top {
     height: 200px;
   }
 }
 
-/* line 153, ../scss/design/_sections.scss */
+/* line 155, ../scss/design/_sections.scss */
 .hphoto-large {
   height: 200px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 153, ../scss/design/_sections.scss */
+  /* line 155, ../scss/design/_sections.scss */
   .hphoto-large {
     height: 500px;
   }
 }
 
-/* line 162, ../scss/design/_sections.scss */
+/* line 164, ../scss/design/_sections.scss */
 .hphoto-xlarge {
   height: 200px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 162, ../scss/design/_sections.scss */
+  /* line 164, ../scss/design/_sections.scss */
   .hphoto-xlarge {
     height: 700px;
   }
 }
 
-/* line 173, ../scss/design/_sections.scss */
+/* line 175, ../scss/design/_sections.scss */
 .f-dropdown:before {
   left: 15px;
 }
 
-/* line 177, ../scss/design/_sections.scss */
+/* line 179, ../scss/design/_sections.scss */
 .f-dropdown:after {
   left: 14px;
 }
 
-/* line 182, ../scss/design/_sections.scss */
+/* line 184, ../scss/design/_sections.scss */
 .dropdown.button::before,
 button.dropdown::before {
   left: 1rem;
 }
 
-/* line 186, ../scss/design/_sections.scss */
+/* line 188, ../scss/design/_sections.scss */
 .button.dropdown {
   padding-left: 2.5rem;
   padding-right: 2em !important;
