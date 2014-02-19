@@ -1,6 +1,8 @@
 - id: mission-1
   title: Mission 1
   location: Oklahoma City
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -23,6 +25,8 @@
 - id: mission-2
   title: Mission 2
   location: Oklahoma City
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -45,6 +49,8 @@
 - id: mission-3
   title: Mission 3
   location: Tulsa
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -67,6 +73,8 @@
 - id: mission-4
   title: Mission 4
   location: Dallas Fort Worth
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -89,6 +97,8 @@
 - id: mission-5
   title: Mission 5
   location: Global
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -111,6 +121,8 @@
 - id: mission-6
   title: Mission 6
   location: Global
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.

@@ -1,0 +1,321 @@
+- id: serving-1
+  title: Host Team
+  location: Campus
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-2
+  title: LifeGroups
+  location: Campus
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-3
+  title: LifeKids.tv
+  location: Campus
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-4
+  title: Switch
+  location: Campus
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-5
+  title: Campus Administration
+  location: Campus
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-6
+  title: Experience Team
+  location: Online
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-7
+  title: Response Team
+  location: Online
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-8
+  title: Finance
+  location: Central
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-9
+  title: Central Administration
+  location: Central
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-10
+  title: IT (Information Technology)
+  location: Central
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-12
+  title: Digital Missions
+  location: Central
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-13
+  title: Cast and Crew
+  location: Central
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-14
+  title: OPEN
+  location: Central
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/
+
+- id: serving-15
+  title: Bible.com
+  location: Central
+  recipient: someone.brave@lifechurch.tv
+  url: http://apple.com
+  description_small: Some text goes here that describes what this mission is all about.
+  description_medium: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  description_large: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  website: http://google.com
+  image_small: http://placekitten.com/300/200/
+  image_medium: http://placekitten.com/600/400/
+  image_large: http://placekitten.com/1200/800/

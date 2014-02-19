@@ -1,6 +1,18 @@
 .missions-list,
 .serving-list {
 
+  .missions-item {
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+
+  .missions-item:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
   .cta {
     position: relative;
     height: 70px;

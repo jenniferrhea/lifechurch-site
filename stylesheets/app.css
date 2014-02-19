@@ -5771,72 +5771,78 @@ p {
   }
 }
 
-/* line 35, ../scss/design/_sections.scss */
+/* line 33, ../scss/design/_sections.scss */
+.panel {
+  background: #fff;
+  margin: 0 1px 1px 0 !important;
+}
+
+/* line 40, ../scss/design/_sections.scss */
 .section-first {
   margin-top: -165px;
   padding-top: 165px;
 }
 
-/* line 41, ../scss/design/_sections.scss */
+/* line 46, ../scss/design/_sections.scss */
 .section-last {
   margin-bottom: -40px;
 }
 
-/* line 46, ../scss/design/_sections.scss */
+/* line 51, ../scss/design/_sections.scss */
 .section-last.section-light {
   background: #1e1e1e;
 }
 
-/* line 53, ../scss/design/_sections.scss */
+/* line 58, ../scss/design/_sections.scss */
 .section-light h1, .section-light h2, .section-light h3, .section-light h4, .section-light .location-tile, .section-light .lifegroups-tile span, .lifegroups-tile .section-light span, .section-light h5, .section-light h6, .section-light label, .section-light p, .section-light a, .section-light .button {
   color: #fff;
   border-color: #fff;
 }
 
-/* line 61, ../scss/design/_sections.scss */
+/* line 66, ../scss/design/_sections.scss */
 .header-light .nav-more .more-line {
   background: #fff !important;
 }
-/* line 65, ../scss/design/_sections.scss */
+/* line 70, ../scss/design/_sections.scss */
 .header-light .nav-more:hover .more-line {
   background: #ccc !important;
 }
-/* line 69, ../scss/design/_sections.scss */
+/* line 74, ../scss/design/_sections.scss */
 .header-light .primary-links a {
   color: #fff;
 }
-/* line 72, ../scss/design/_sections.scss */
+/* line 77, ../scss/design/_sections.scss */
 .header-light .primary-links a:hover {
   color: #ccc;
 }
-/* line 77, ../scss/design/_sections.scss */
+/* line 82, ../scss/design/_sections.scss */
 .header-light .page-tertiary {
   border-color: rgba(255, 255, 255, 0.4);
 }
-/* line 81, ../scss/design/_sections.scss */
+/* line 86, ../scss/design/_sections.scss */
 .header-light .tertiary-nav a {
   color: #fff !important;
 }
 
-/* line 88, ../scss/design/_sections.scss */
+/* line 93, ../scss/design/_sections.scss */
 .footer-light .page-footer {
   background: #1e1e1e;
   border-color: rgba(255, 255, 255, 0.4) !important;
 }
-/* line 92, ../scss/design/_sections.scss */
+/* line 97, ../scss/design/_sections.scss */
 .footer-light .page-footer .columns {
   border-color: rgba(255, 255, 255, 0.4) !important;
 }
-/* line 96, ../scss/design/_sections.scss */
+/* line 101, ../scss/design/_sections.scss */
 .footer-light .page-footer p {
   color: #fff !important;
 }
-/* line 100, ../scss/design/_sections.scss */
+/* line 105, ../scss/design/_sections.scss */
 .footer-light .page-footer a {
   color: #86def7;
 }
 
-/* line 110, ../scss/design/_sections.scss */
+/* line 115, ../scss/design/_sections.scss */
 .hphoto {
   margin: 0;
   padding: 0;
@@ -5844,70 +5850,70 @@ p {
   position: relative;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 110, ../scss/design/_sections.scss */
+  /* line 115, ../scss/design/_sections.scss */
   .hphoto {
     height: 350px;
   }
 }
 
-/* line 122, ../scss/design/_sections.scss */
+/* line 127, ../scss/design/_sections.scss */
 .hphoto-top {
   margin-top: -165px;
   padding-top: 165px;
   height: 200px;
 }
 @media only screen and (min-height: 620px) {
-  /* line 122, ../scss/design/_sections.scss */
+  /* line 127, ../scss/design/_sections.scss */
   .hphoto-top {
     height: 300px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 122, ../scss/design/_sections.scss */
+  /* line 127, ../scss/design/_sections.scss */
   .hphoto-top {
     height: 200px;
   }
 }
 
-/* line 137, ../scss/design/_sections.scss */
+/* line 142, ../scss/design/_sections.scss */
 .hphoto-large {
   height: 200px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 137, ../scss/design/_sections.scss */
+  /* line 142, ../scss/design/_sections.scss */
   .hphoto-large {
     height: 500px;
   }
 }
 
-/* line 146, ../scss/design/_sections.scss */
+/* line 151, ../scss/design/_sections.scss */
 .hphoto-xlarge {
   height: 200px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 146, ../scss/design/_sections.scss */
+  /* line 151, ../scss/design/_sections.scss */
   .hphoto-xlarge {
     height: 700px;
   }
 }
 
-/* line 157, ../scss/design/_sections.scss */
+/* line 162, ../scss/design/_sections.scss */
 .f-dropdown:before {
   left: 15px;
 }
 
-/* line 161, ../scss/design/_sections.scss */
+/* line 166, ../scss/design/_sections.scss */
 .f-dropdown:after {
   left: 14px;
 }
 
-/* line 166, ../scss/design/_sections.scss */
+/* line 171, ../scss/design/_sections.scss */
 .dropdown.button::before,
 button.dropdown::before {
   left: 1rem;
 }
 
-/* line 170, ../scss/design/_sections.scss */
+/* line 175, ../scss/design/_sections.scss */
 .button.dropdown {
   padding-left: 2.5rem;
   padding-right: 2em !important;
@@ -6862,6 +6868,20 @@ button.dropdown::before {
 }
 
 /* line 4, ../scss/pages/_lifemissions.scss */
+.missions-list .missions-item,
+.serving-list .missions-item {
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+/* line 10, ../scss/pages/_lifemissions.scss */
+.missions-list .missions-item:first-child,
+.serving-list .missions-item:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+/* line 16, ../scss/pages/_lifemissions.scss */
 .missions-list .cta,
 .serving-list .cta {
   position: relative;
@@ -6876,32 +6896,32 @@ button.dropdown::before {
   transition-duration: 0.5s;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 4, ../scss/pages/_lifemissions.scss */
+  /* line 16, ../scss/pages/_lifemissions.scss */
   .missions-list .cta,
   .serving-list .cta {
     height: 30px;
   }
 }
-/* line 15, ../scss/pages/_lifemissions.scss */
+/* line 27, ../scss/pages/_lifemissions.scss */
 .missions-list .cta.open,
 .serving-list .cta.open {
   height: 230px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 15, ../scss/pages/_lifemissions.scss */
+  /* line 27, ../scss/pages/_lifemissions.scss */
   .missions-list .cta.open,
   .serving-list .cta.open {
     height: 170px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 15, ../scss/pages/_lifemissions.scss */
+  /* line 27, ../scss/pages/_lifemissions.scss */
   .missions-list .cta.open,
   .serving-list .cta.open {
     height: 130px;
   }
 }
-/* line 27, ../scss/pages/_lifemissions.scss */
+/* line 39, ../scss/pages/_lifemissions.scss */
 .missions-list form,
 .serving-list form {
   position: absolute;
@@ -6909,23 +6929,23 @@ button.dropdown::before {
   width: 100%;
 }
 
-/* line 35, ../scss/pages/_lifemissions.scss */
+/* line 47, ../scss/pages/_lifemissions.scss */
 .serving-list .cta {
   height: 80px;
 }
 
-/* line 39, ../scss/pages/_lifemissions.scss */
+/* line 51, ../scss/pages/_lifemissions.scss */
 .serving-list .cta.open {
   height: 300px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 39, ../scss/pages/_lifemissions.scss */
+  /* line 51, ../scss/pages/_lifemissions.scss */
   .serving-list .cta.open {
     height: 310px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 39, ../scss/pages/_lifemissions.scss */
+  /* line 51, ../scss/pages/_lifemissions.scss */
   .serving-list .cta.open {
     height: 260px;
   }
@@ -6953,11 +6973,6 @@ button.dropdown::before {
   }
 }
 /* line 20, ../scss/pages/_kids.scss */
-.kids .panel {
-  background: #fff;
-  margin: 0 1px 1px 0 !important;
-}
-/* line 25, ../scss/pages/_kids.scss */
 .kids .panel h4, .kids .panel .location-tile, .kids .panel .lifegroups-tile span, .lifegroups-tile .kids .panel span {
   width: 70px;
   height: 34px;
@@ -7025,49 +7040,49 @@ button.dropdown::before {
 .no-js .kids .kids-switch h4, .no-js .kids .kids-switch .location-tile, .no-js .kids .kids-switch .lifegroups-tile span, .lifegroups-tile .no-js .kids .kids-switch span {
   background-image: url('/images/kids/kids-switch.png?1392049250');
 }
-/* line 53, ../scss/pages/_kids.scss */
+/* line 48, ../scss/pages/_kids.scss */
 .kids .kids-call {
   margin: 30px 0 0px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 59, ../scss/pages/_kids.scss */
+  /* line 54, ../scss/pages/_kids.scss */
   .kids .panel,
   .kids .grade-list span {
     margin-bottom: 0;
   }
-  /* line 63, ../scss/pages/_kids.scss */
+  /* line 58, ../scss/pages/_kids.scss */
   .kids .panel h4, .kids .panel .location-tile, .kids .panel .lifegroups-tile span, .lifegroups-tile .kids .panel span {
     margin-left: -10px;
   }
-  /* line 67, ../scss/pages/_kids.scss */
+  /* line 62, ../scss/pages/_kids.scss */
   .kids .kids-lifekids {
     height: 400px;
   }
-  /* line 71, ../scss/pages/_kids.scss */
+  /* line 66, ../scss/pages/_kids.scss */
   .kids .kids-konnect {
     height: 400px;
   }
-  /* line 75, ../scss/pages/_kids.scss */
+  /* line 70, ../scss/pages/_kids.scss */
   .kids .kids-roots {
     height: 100px;
   }
-  /* line 78, ../scss/pages/_kids.scss */
+  /* line 73, ../scss/pages/_kids.scss */
   .kids .kids-roots h4, .kids .kids-roots .location-tile, .kids .kids-roots .lifegroups-tile span, .lifegroups-tile .kids .kids-roots span {
     margin-top: -10px;
   }
-  /* line 83, ../scss/pages/_kids.scss */
+  /* line 78, ../scss/pages/_kids.scss */
   .kids .kids-loop {
     height: 200px;
   }
-  /* line 86, ../scss/pages/_kids.scss */
+  /* line 81, ../scss/pages/_kids.scss */
   .kids .kids-loop h4, .kids .kids-loop .location-tile, .kids .kids-loop .lifegroups-tile span, .lifegroups-tile .kids .kids-loop span {
     margin-top: -10px;
   }
-  /* line 91, ../scss/pages/_kids.scss */
+  /* line 86, ../scss/pages/_kids.scss */
   .kids .kids-switch {
     height: 600px;
   }
-  /* line 95, ../scss/pages/_kids.scss */
+  /* line 90, ../scss/pages/_kids.scss */
   .kids .grade-list strong {
     position: absolute;
     top: -25px;
@@ -7075,11 +7090,11 @@ button.dropdown::before {
     width: 70px;
     text-transform: uppercase;
   }
-  /* line 103, ../scss/pages/_kids.scss */
+  /* line 98, ../scss/pages/_kids.scss */
   .kids .kids-grid {
     padding-top: 30px;
   }
-  /* line 107, ../scss/pages/_kids.scss */
+  /* line 102, ../scss/pages/_kids.scss */
   .kids .grade-list span {
     height: 75px;
     display: block;
@@ -7087,7 +7102,7 @@ button.dropdown::before {
     color: #777;
     font-size: 14px;
   }
-  /* line 115, ../scss/pages/_kids.scss */
+  /* line 110, ../scss/pages/_kids.scss */
   .kids .kids-call {
     margin: 150px 0 0 30px;
     display: block;
@@ -7095,32 +7110,32 @@ button.dropdown::before {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 123, ../scss/pages/_kids.scss */
+  /* line 118, ../scss/pages/_kids.scss */
   .kids .panel h4, .kids .panel .location-tile, .kids .panel .lifegroups-tile span, .lifegroups-tile .kids .panel span {
     width: 110px;
     height: 53px;
   }
-  /* line 128, ../scss/pages/_kids.scss */
+  /* line 123, ../scss/pages/_kids.scss */
   .kids .kids-lifekids {
     height: 300px;
   }
-  /* line 132, ../scss/pages/_kids.scss */
+  /* line 127, ../scss/pages/_kids.scss */
   .kids .kids-konnect {
     height: 300px;
   }
-  /* line 136, ../scss/pages/_kids.scss */
+  /* line 131, ../scss/pages/_kids.scss */
   .kids .kids-roots {
     height: 75px;
   }
-  /* line 140, ../scss/pages/_kids.scss */
+  /* line 135, ../scss/pages/_kids.scss */
   .kids .kids-loop {
     height: 150px;
   }
-  /* line 144, ../scss/pages/_kids.scss */
+  /* line 139, ../scss/pages/_kids.scss */
   .kids .kids-switch {
     height: 450px;
   }
-  /* line 148, ../scss/pages/_kids.scss */
+  /* line 143, ../scss/pages/_kids.scss */
   .kids .grade-list strong {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -7131,7 +7146,7 @@ button.dropdown::before {
     text-align: right;
     top: 27px;
   }
-  /* line 159, ../scss/pages/_kids.scss */
+  /* line 154, ../scss/pages/_kids.scss */
   .kids .grade-list span {
     height: 75px;
   }

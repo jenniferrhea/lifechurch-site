@@ -1,0 +1,34 @@
+<li id="{{ item.id }}" class="item">
+  <div class="panel">
+    <img data-interchange="[{{ item.image_small }}, (default)], [{{ item.image_medium }}, (medium)]" alt="{{ item.title }}" />
+    <noscript><img src="{{ item.image_small }}" alt="{{ item.title }}" /></noscript>
+    <h6>{{ item.title }}</h6>
+    <p class="detail">{{ item.description_medium | newline_to_br }}</p>
+
+    <div class="cta">
+      <p>
+        <a href="#" class="action small">Watch Video <i class="icon icon-play-2"></i></a>
+        <br class="hide-for-small" />
+        <a href="#"
+           class="action small get-involved"
+           onclick="_gaq.push(['_trackEvent', 'Involved', 'Click', '{{ item.title }} Expand']);">
+           Get Involved <i class="icon icon-arrow-2"></i>
+        </a>
+      </p>
+      
+      <form>
+        <input name="recipient" type="hidden" value="{{ item.recipient }}">
+        <input name="subject" type="hidden" value="{{ item.title }}">
+        <hr />
+        <h6>Get Connected</h6>
+        <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
+        <input type="text" placeholder="Email or Phone number" />
+        <input type="button"
+               class="button small"
+               value="Send to LifeChurch.tv"
+               onclick="_gaq.push(['_trackEvent', 'Involved', 'Click', '{{ item.title }} Submit']);" />
+      </form>
+    </div>
+
+  </div>
+</li>
