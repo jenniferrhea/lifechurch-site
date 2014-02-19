@@ -44,6 +44,7 @@
     }
   }
 
+  // Locations image on top of small screen
   @media #{$small-only} {
     .hphoto-small-locations {
       @include svg-image('/locations/assets/map');
@@ -51,6 +52,14 @@
       background-repeat: no-repeat;
       background-position: center top;
       background-size: auto 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  // Make locations top section even shorter on small landscape screens
+  @media #{$small-only} and (orientation: landscape) {
+    .hphoto-small-locations {
+      height: 70px;
     }
   }
 
@@ -287,6 +296,11 @@
   background-size: cover;
   padding-top: 230px;
   padding-bottom: 200px;
+
+  @media #{$small-only} {
+    padding-top: 180px;
+    padding-bottom: 130px;
+  }
 
   @media #{$small-only} and (orientation: landscape) {
     padding-top: 130px;

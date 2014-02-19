@@ -5930,11 +5930,13 @@ button.dropdown::before {
     margin-bottom: 15px;
   }
 }
-/* line 15, ../scss/pages/_home.scss */
-.home .section-first {
-  padding-bottom: 50px;
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/pages/_home.scss */
+  .home .section-first {
+    padding-bottom: 50px;
+  }
 }
-/* line 19, ../scss/pages/_home.scss */
+/* line 21, ../scss/pages/_home.scss */
 .home .series-art {
   background-size: contain;
   background-repeat: no-repeat;
@@ -5955,7 +5957,7 @@ button.dropdown::before {
   background-image: url('/images/home/series-logo.png?1390927430');
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 19, ../scss/pages/_home.scss */
+  /* line 21, ../scss/pages/_home.scss */
   .home .series-art {
     width: 227px;
     height: 282px;
@@ -6103,12 +6105,13 @@ button.dropdown::before {
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 48, ../scss/pages/_locations.scss */
+  /* line 49, ../scss/pages/_locations.scss */
   .page-locations .hphoto-small-locations {
     background-color: #a2ddf5;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: auto 100%;
+    margin-bottom: 10px;
   }
   /* line 5, ../scss/settings/_svgpng.scss */
   .svg .page-locations .hphoto-small-locations {
@@ -6123,8 +6126,14 @@ button.dropdown::before {
     background-image: url(/locations/assets/map.png);
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (max-width: 40em) and (orientation: landscape) {
   /* line 61, ../scss/pages/_locations.scss */
+  .page-locations .hphoto-small-locations {
+    height: 70px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 70, ../scss/pages/_locations.scss */
   .page-locations .page-main {
     height: 170px;
     margin-top: 220px;
@@ -6132,18 +6141,18 @@ button.dropdown::before {
     z-index: 2;
     overflow: hidden;
   }
-  /* line 70, ../scss/pages/_locations.scss */
+  /* line 79, ../scss/pages/_locations.scss */
   .page-locations .page-footer {
     background: #fff;
     position: relative;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
-  /* line 75, ../scss/pages/_locations.scss */
+  /* line 84, ../scss/pages/_locations.scss */
   .page-locations .page-footer .columns {
     margin-top: 0;
     border: none;
   }
-  /* line 82, ../scss/pages/_locations.scss */
+  /* line 91, ../scss/pages/_locations.scss */
   .page-locations .map {
     background-color: #a2ddf5;
     background-repeat: no-repeat;
@@ -6174,35 +6183,35 @@ button.dropdown::before {
   .no-js .page-locations .map {
     background-image: url(/locations/assets/map.png);
   }
-  /* line 97, ../scss/pages/_locations.scss */
+  /* line 106, ../scss/pages/_locations.scss */
   .page-locations .map-ok {
     background-size: auto 2400px;
     background-position: center -1050px;
   }
-  /* line 103, ../scss/pages/_locations.scss */
+  /* line 112, ../scss/pages/_locations.scss */
   .page-locations .map-tx {
     background-size: auto 2400px;
     background-position: center -1250px;
   }
-  /* line 109, ../scss/pages/_locations.scss */
+  /* line 118, ../scss/pages/_locations.scss */
   .page-locations .no-backgroundsize .map {
     background: url("/locations/assets/map-1.jpg") center top no-repeat !important;
   }
-  /* line 114, ../scss/pages/_locations.scss */
+  /* line 123, ../scss/pages/_locations.scss */
   .page-locations .no-backgroundsize .map-ok {
     background: url("/locations/assets/map-2.jpg") center top no-repeat !important;
   }
-  /* line 119, ../scss/pages/_locations.scss */
+  /* line 128, ../scss/pages/_locations.scss */
   .page-locations .no-backgroundsize .map-tx {
     background: url("/locations/assets/map-3.jpg") center top no-repeat !important;
   }
-  /* line 124, ../scss/pages/_locations.scss */
+  /* line 133, ../scss/pages/_locations.scss */
   .page-locations .map-back {
     position: relative;
     z-index: 6;
     top: 80px;
   }
-  /* line 131, ../scss/pages/_locations.scss */
+  /* line 140, ../scss/pages/_locations.scss */
   .page-locations .map-list {
     background: #fff;
     position: absolute;
@@ -6226,13 +6235,13 @@ button.dropdown::before {
     -o-transition-duration: 1s;
     transition-duration: 1s;
   }
-  /* line 144, ../scss/pages/_locations.scss */
+  /* line 153, ../scss/pages/_locations.scss */
   .page-locations .map-list-okc {
     left: 50%;
     top: 140px;
     margin-left: -240px;
   }
-  /* line 149, ../scss/pages/_locations.scss */
+  /* line 158, ../scss/pages/_locations.scss */
   .page-locations .map-list-okc:after {
     content: "";
     display: block;
@@ -6245,13 +6254,13 @@ button.dropdown::before {
     border-bottom: 10px solid transparent;
     border-left: 10px solid #fff;
   }
-  /* line 164, ../scss/pages/_locations.scss */
+  /* line 173, ../scss/pages/_locations.scss */
   .page-locations .map-list-tulsa {
     left: 50%;
     top: 140px;
     margin-left: 80px;
   }
-  /* line 169, ../scss/pages/_locations.scss */
+  /* line 178, ../scss/pages/_locations.scss */
   .page-locations .map-list-tulsa:after {
     content: "";
     display: block;
@@ -6264,13 +6273,13 @@ button.dropdown::before {
     border-bottom: 10px solid transparent;
     border-right: 10px solid #fff;
   }
-  /* line 184, ../scss/pages/_locations.scss */
+  /* line 193, ../scss/pages/_locations.scss */
   .page-locations .map-list-stillwater {
     left: 50%;
     top: 230px;
     margin-left: -40px;
   }
-  /* line 189, ../scss/pages/_locations.scss */
+  /* line 198, ../scss/pages/_locations.scss */
   .page-locations .map-list-stillwater:after {
     content: "";
     display: block;
@@ -6284,7 +6293,7 @@ button.dropdown::before {
     border-left: 10px solid transparent;
     border-bottom: 10px solid #fff;
   }
-  /* line 205, ../scss/pages/_locations.scss */
+  /* line 214, ../scss/pages/_locations.scss */
   .page-locations .pin {
     left: 50%;
     right: 0;
@@ -6299,84 +6308,91 @@ button.dropdown::before {
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s;
   }
-  /* line 215, ../scss/pages/_locations.scss */
+  /* line 224, ../scss/pages/_locations.scss */
   .page-locations .pin-fl {
     color: #4ea6c9;
   }
-  /* line 222, ../scss/pages/_locations.scss */
+  /* line 231, ../scss/pages/_locations.scss */
   .page-locations .pin-state:hover,
   .page-locations .pin-kellar:hover,
   .page-locations .pin-fortworth:hover {
     background-position: center 5px;
   }
-  /* line 228, ../scss/pages/_locations.scss */
+  /* line 237, ../scss/pages/_locations.scss */
   .page-locations .pin-ok {
     margin-left: -40px;
     top: 300px;
   }
-  /* line 233, ../scss/pages/_locations.scss */
+  /* line 242, ../scss/pages/_locations.scss */
   .page-locations .pin-tx {
     margin-left: -60px;
     top: 360px;
   }
-  /* line 238, ../scss/pages/_locations.scss */
+  /* line 247, ../scss/pages/_locations.scss */
   .page-locations .pin-tn {
     margin-left: 150px;
     top: 285px;
   }
-  /* line 243, ../scss/pages/_locations.scss */
+  /* line 252, ../scss/pages/_locations.scss */
   .page-locations .pin-fl {
     margin-left: 235px;
     top: 465px;
   }
-  /* line 248, ../scss/pages/_locations.scss */
+  /* line 257, ../scss/pages/_locations.scss */
   .page-locations .pin-ny {
     margin-left: 335px;
     top: 160px;
   }
-  /* line 253, ../scss/pages/_locations.scss */
+  /* line 262, ../scss/pages/_locations.scss */
   .page-locations .pin-okc {
     margin-left: -75px;
     top: 190px;
   }
-  /* line 258, ../scss/pages/_locations.scss */
+  /* line 267, ../scss/pages/_locations.scss */
   .page-locations .pin-tulsa {
     margin-left: 35px;
     top: 160px;
   }
-  /* line 263, ../scss/pages/_locations.scss */
+  /* line 272, ../scss/pages/_locations.scss */
   .page-locations .pin-stillwater {
     margin-left: -22px;
     top: 180px;
   }
-  /* line 268, ../scss/pages/_locations.scss */
+  /* line 277, ../scss/pages/_locations.scss */
   .page-locations .pin-kellar {
     margin-left: -70px;
     top: 240px;
   }
-  /* line 273, ../scss/pages/_locations.scss */
+  /* line 282, ../scss/pages/_locations.scss */
   .page-locations .pin-fortworth {
     margin-left: -40px;
     top: 200px;
   }
 }
 
-/* line 285, ../scss/pages/_locations.scss */
+/* line 294, ../scss/pages/_locations.scss */
 .locations-hero {
   background: url("http://placekitten.com/1000/620");
   background-size: cover;
   padding-top: 230px;
   padding-bottom: 200px;
 }
+@media only screen and (max-width: 40em) {
+  /* line 294, ../scss/pages/_locations.scss */
+  .locations-hero {
+    padding-top: 180px;
+    padding-bottom: 130px;
+  }
+}
 @media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 285, ../scss/pages/_locations.scss */
+  /* line 294, ../scss/pages/_locations.scss */
   .locations-hero {
     padding-top: 130px;
     padding-bottom: 100px;
   }
 }
 
-/* line 298, ../scss/pages/_locations.scss */
+/* line 312, ../scss/pages/_locations.scss */
 .tiles {
   margin-top: -111px;
   max-width: 1200px;
@@ -6384,32 +6400,32 @@ button.dropdown::before {
   margin-right: auto;
 }
 
-/* line 306, ../scss/pages/_locations.scss */
+/* line 320, ../scss/pages/_locations.scss */
 .section-locations .page-tertiary {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 @media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 306, ../scss/pages/_locations.scss */
+  /* line 320, ../scss/pages/_locations.scss */
   .section-locations .page-tertiary {
     border-bottom: none;
   }
 }
-/* line 314, ../scss/pages/_locations.scss */
+/* line 328, ../scss/pages/_locations.scss */
 .section-locations .page-tertiary a {
   color: #333333 !important;
 }
-/* line 318, ../scss/pages/_locations.scss */
+/* line 332, ../scss/pages/_locations.scss */
 .section-locations .page-tertiary .button {
   color: #fff !important;
 }
 
-/* line 325, ../scss/pages/_locations.scss */
+/* line 339, ../scss/pages/_locations.scss */
 .location-tile-wrapper,
 .location-content-wrapper {
   margin-left: 1px;
 }
 
-/* line 330, ../scss/pages/_locations.scss */
+/* line 344, ../scss/pages/_locations.scss */
 .location-tile {
   text-align: center;
   padding: 35px 0;
@@ -6432,16 +6448,16 @@ button.dropdown::before {
   position: relative;
   z-index: 2;
 }
-/* line 348, ../scss/pages/_locations.scss */
+/* line 362, ../scss/pages/_locations.scss */
 .location-tile span {
   position: relative;
   z-index: 2;
 }
-/* line 354, ../scss/pages/_locations.scss */
+/* line 368, ../scss/pages/_locations.scss */
 .location-tile:hover {
   color: #fff;
 }
-/* line 357, ../scss/pages/_locations.scss */
+/* line 371, ../scss/pages/_locations.scss */
 .location-tile:after {
   content: "";
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(60%, rgba(255, 255, 255, 0.2)));
@@ -6465,33 +6481,33 @@ button.dropdown::before {
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 373, ../scss/pages/_locations.scss */
+/* line 387, ../scss/pages/_locations.scss */
 .location-tile.tile-active:after, .location-tile:hover:after {
   opacity: 1;
 }
-/* line 377, ../scss/pages/_locations.scss */
+/* line 391, ../scss/pages/_locations.scss */
 .location-tile.tile-1.tile-active {
   background: #fff !important;
 }
 
-/* line 383, ../scss/pages/_locations.scss */
+/* line 397, ../scss/pages/_locations.scss */
 .tile-1 {
   border-left: 1px solid #fff;
   border-top: 1px solid #fff;
 }
 
-/* line 389, ../scss/pages/_locations.scss */
+/* line 403, ../scss/pages/_locations.scss */
 .tile-2 {
   border-top: 1px solid #fff;
 }
 
-/* line 394, ../scss/pages/_locations.scss */
+/* line 408, ../scss/pages/_locations.scss */
 .tile-3 {
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
 }
 
-/* line 400, ../scss/pages/_locations.scss */
+/* line 414, ../scss/pages/_locations.scss */
 .tile-active {
   border-bottom: 0;
   background: #fdfdfd !important;
@@ -6499,19 +6515,19 @@ button.dropdown::before {
   opacity: 1;
   color: #333333;
 }
-/* line 407, ../scss/pages/_locations.scss */
+/* line 421, ../scss/pages/_locations.scss */
 .tile-active:hover {
   color: #333333;
 }
 
-/* line 413, ../scss/pages/_locations.scss */
+/* line 427, ../scss/pages/_locations.scss */
 .location-content-wrapper {
   position: relative;
   float: left;
   width: 100%;
 }
 
-/* line 420, ../scss/pages/_locations.scss */
+/* line 434, ../scss/pages/_locations.scss */
 .location-content {
   float: left;
   width: 99.8%;
@@ -6521,23 +6537,23 @@ button.dropdown::before {
   margin-bottom: 40px;
 }
 
-/* line 430, ../scss/pages/_locations.scss */
+/* line 444, ../scss/pages/_locations.scss */
 .content-active {
   z-index: 1;
   position: relative;
 }
 
-/* line 436, ../scss/pages/_locations.scss */
+/* line 450, ../scss/pages/_locations.scss */
 .content-2 {
   background: #fdfdfd;
 }
 
-/* line 441, ../scss/pages/_locations.scss */
+/* line 455, ../scss/pages/_locations.scss */
 .content-3 {
   background: #fdfdfd;
 }
 
-/* line 447, ../scss/pages/_locations.scss */
+/* line 461, ../scss/pages/_locations.scss */
 .content-1 {
   background-color: #fff;
   background-size: 1196px 398px;
@@ -6547,12 +6563,12 @@ button.dropdown::before {
   border: 1px solid #ddd;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 447, ../scss/pages/_locations.scss */
+  /* line 461, ../scss/pages/_locations.scss */
   .content-1 {
     height: 400px;
   }
 }
-/* line 459, ../scss/pages/_locations.scss */
+/* line 473, ../scss/pages/_locations.scss */
 .content-1 .address {
   background: #333333;
   color: #fff;
@@ -6562,7 +6578,7 @@ button.dropdown::before {
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 459, ../scss/pages/_locations.scss */
+  /* line 473, ../scss/pages/_locations.scss */
   .content-1 .address {
     width: 250px;
     background: rgba(0, 0, 0, 0.8);
@@ -6572,7 +6588,7 @@ button.dropdown::before {
     -o-border-radius: 6px;
     border-radius: 6px;
   }
-  /* line 472, ../scss/pages/_locations.scss */
+  /* line 486, ../scss/pages/_locations.scss */
   .content-1 .address:after {
     content: "";
     display: block;
@@ -6587,23 +6603,23 @@ button.dropdown::before {
   }
 }
 
-/* line 493, ../scss/pages/_locations.scss */
+/* line 507, ../scss/pages/_locations.scss */
 .experience-calendar {
   border-collapse: collapse;
   table-layout: fixed;
   width: 100%;
 }
-/* line 499, ../scss/pages/_locations.scss */
+/* line 513, ../scss/pages/_locations.scss */
 .experience-calendar .hour {
   border-left: 1px solid #ccc;
 }
-/* line 504, ../scss/pages/_locations.scss */
+/* line 518, ../scss/pages/_locations.scss */
 .experience-calendar td {
   width: 6.6%;
   height: 50px;
   padding: 0;
 }
-/* line 510, ../scss/pages/_locations.scss */
+/* line 524, ../scss/pages/_locations.scss */
 .experience-calendar td span {
   width: 6.6%;
   height: 50px;
@@ -6611,7 +6627,7 @@ button.dropdown::before {
   font-size: 13px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 522, ../scss/pages/_locations.scss */
+  /* line 536, ../scss/pages/_locations.scss */
   .experience-calendar td .inner,
   .experience-calendar .day {
     -webkit-transform: rotate(90deg);
@@ -6625,17 +6641,17 @@ button.dropdown::before {
     top: -28px !important;
     position: relative;
   }
-  /* line 535, ../scss/pages/_locations.scss */
+  /* line 549, ../scss/pages/_locations.scss */
   .experience-calendar .day {
     top: -2px !important;
     padding: 6px 0 0 !important;
   }
 }
-/* line 541, ../scss/pages/_locations.scss */
+/* line 555, ../scss/pages/_locations.scss */
 .experience-calendar .entry {
   padding-right: 1px;
 }
-/* line 544, ../scss/pages/_locations.scss */
+/* line 558, ../scss/pages/_locations.scss */
 .experience-calendar .entry span {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -6646,34 +6662,34 @@ button.dropdown::before {
   padding: 14px 0;
   text-align: center;
 }
-/* line 550, ../scss/pages/_locations.scss */
+/* line 564, ../scss/pages/_locations.scss */
 .experience-calendar .entry span.hour-1 {
   width: 99.9%;
   margin: 0 1px 1px;
 }
-/* line 555, ../scss/pages/_locations.scss */
+/* line 569, ../scss/pages/_locations.scss */
 .experience-calendar .entry span.hour-2 {
   width: 99.9%;
   margin: 0 1px 1px;
 }
-/* line 560, ../scss/pages/_locations.scss */
+/* line 574, ../scss/pages/_locations.scss */
 .experience-calendar .entry span.hour-3 {
   width: 99.9%;
   margin: 0 1px 1px;
 }
-/* line 566, ../scss/pages/_locations.scss */
+/* line 580, ../scss/pages/_locations.scss */
 .experience-calendar .entry.entry-lctv span {
   background: #e98f93;
   border: 1px solid #e0646b;
   color: #b9252d;
 }
-/* line 572, ../scss/pages/_locations.scss */
+/* line 586, ../scss/pages/_locations.scss */
 .experience-calendar .entry.entry-switch span {
   background: #0ea9d6;
   border: 1px solid #0b83a6;
   color: #085d76;
 }
-/* line 578, ../scss/pages/_locations.scss */
+/* line 592, ../scss/pages/_locations.scss */
 .experience-calendar .entry.entry-konnect span {
   background: #e7e7e7;
   border: 1px solid #cecece;
@@ -6681,16 +6697,16 @@ button.dropdown::before {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 588, ../scss/pages/_locations.scss */
+  /* line 602, ../scss/pages/_locations.scss */
   .calendar-key {
     margin-top: 55px;
   }
 }
-/* line 595, ../scss/pages/_locations.scss */
+/* line 609, ../scss/pages/_locations.scss */
 .calendar-key a {
   float: left;
 }
-/* line 599, ../scss/pages/_locations.scss */
+/* line 613, ../scss/pages/_locations.scss */
 .calendar-key figure {
   width: 20px;
   height: 20px;
@@ -6702,60 +6718,60 @@ button.dropdown::before {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 607, ../scss/pages/_locations.scss */
+/* line 621, ../scss/pages/_locations.scss */
 .calendar-key.key-lctv figure {
   background: #e98f93;
   border: 1px solid #e0646b;
 }
-/* line 612, ../scss/pages/_locations.scss */
+/* line 626, ../scss/pages/_locations.scss */
 .calendar-key.key-switch figure {
   background: #0ea9d6;
   border: 1px solid #0b83a6;
 }
-/* line 617, ../scss/pages/_locations.scss */
+/* line 631, ../scss/pages/_locations.scss */
 .calendar-key.key-konnect figure {
   background: #e7e7e7;
   border: 1px solid #cecece;
 }
 
-/* line 629, ../scss/pages/_locations.scss */
+/* line 643, ../scss/pages/_locations.scss */
 .location-okc .content-1 {
   background-image: url("/locations/assets/campus/okc-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 629, ../scss/pages/_locations.scss */
+  /* line 643, ../scss/pages/_locations.scss */
   .location-okc .content-1 {
     background-image: url("/locations/assets/campus/okc-map@2x.jpg");
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 629, ../scss/pages/_locations.scss */
+  /* line 643, ../scss/pages/_locations.scss */
   .location-okc .content-1 {
     background-size: 800px auto;
     background-position: 0 -40px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 629, ../scss/pages/_locations.scss */
+  /* line 643, ../scss/pages/_locations.scss */
   .location-okc .content-1 {
     margin-top: 40px;
   }
 }
-/* line 641, ../scss/pages/_locations.scss */
+/* line 655, ../scss/pages/_locations.scss */
 .location-okc .content-1 .pin {
   top: 70px;
   left: 70px;
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 641, ../scss/pages/_locations.scss */
+  /* line 655, ../scss/pages/_locations.scss */
   .location-okc .content-1 .pin {
     top: 180px;
     left: 110px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 652, ../scss/pages/_locations.scss */
+  /* line 666, ../scss/pages/_locations.scss */
   .location-okc .content-1 .address {
     top: 165px;
     left: 160px;
@@ -6884,7 +6900,7 @@ button.dropdown::before {
 /* line 15, ../scss/pages/_lifemissions.scss */
 .missions-list .cta.open,
 .serving-list .cta.open {
-  height: 200px;
+  height: 230px;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/pages/_lifemissions.scss */

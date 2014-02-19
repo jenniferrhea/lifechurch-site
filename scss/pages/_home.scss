@@ -13,7 +13,9 @@
   }
 
   .section-first {
-    padding-bottom: 50px;
+    @media #{$medium-up} {
+      padding-bottom: 50px;
+    }
   }
 
   .series-art {
