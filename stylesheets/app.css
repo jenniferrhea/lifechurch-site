@@ -7294,3 +7294,8 @@ button.dropdown::before {
     margin-top: 160px;
   }
 }
+
+/* line 146, ../scss/pages/_about.scss */
+.page-404 .page-tertiary {
+  display: none;
+}
