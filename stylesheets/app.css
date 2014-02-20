@@ -5937,7 +5937,7 @@ button.dropdown::before {
 /* line 3, ../scss/design/_involved-list.scss */
 .involved-list .cta {
   position: relative;
-  height: 80px;
+  height: 40px;
   -webkit-transition-property: height;
   -moz-transition-property: height;
   -o-transition-property: height;
@@ -5947,29 +5947,23 @@ button.dropdown::before {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-@media only screen and (min-width: 40.063em) {
-  /* line 3, ../scss/design/_involved-list.scss */
-  .involved-list .cta {
-    height: 80px;
-  }
-}
-/* line 14, ../scss/design/_involved-list.scss */
+/* line 10, ../scss/design/_involved-list.scss */
 .involved-list .cta.open {
   height: 300px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 14, ../scss/design/_involved-list.scss */
+  /* line 10, ../scss/design/_involved-list.scss */
   .involved-list .cta.open {
     height: 310px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 14, ../scss/design/_involved-list.scss */
+  /* line 10, ../scss/design/_involved-list.scss */
   .involved-list .cta.open {
     height: 260px;
   }
 }
-/* line 26, ../scss/design/_involved-list.scss */
+/* line 22, ../scss/design/_involved-list.scss */
 .involved-list form {
   position: absolute;
   top: -15px;

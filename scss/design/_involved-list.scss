@@ -2,13 +2,9 @@
 
   .cta {
     position: relative;
-    height: 80px;
+    height: 40px;
     @include transition-property(height);
     @include transition-duration(.5s);
-
-    @media #{$medium-up} {
-      height: 80px;
-    }
   }
 
   .cta.open {

@@ -7,11 +7,9 @@
 
     <div class="cta">
       <p>
-        <a href="#" class="action small">Watch Video <i class="icon icon-play-2"></i></a>
-        <br class="hide-for-small" />
         <a href="#"
            class="action small get-involved"
-           onclick="_gaq.push(['_trackEvent', 'Involved', 'Click', 'Expand {{ item.title }}']);">
+           onclick="_gaq.push(['_trackEvent', '{{ type }}', 'Click', 'Expand {{ item.title }}']);">
            Get Involved <i class="icon icon-arrow-2"></i>
         </a>
       </p>
@@ -26,7 +24,7 @@
         <input type="button"
                class="button small"
                value="Send to LifeChurch.tv"
-               onclick="_gaq.push(['_trackEvent', 'Involved', 'Click', 'New {{ item.title }}']);" />
+               onclick="_gaq.push(['_trackEvent', '{{ type }}', 'Click', 'New {{ item.title }}']);" />
       </form>
     </div>
 
