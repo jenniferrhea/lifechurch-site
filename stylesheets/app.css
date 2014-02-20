@@ -5227,30 +5227,47 @@ p {
 }
 
 /* line 3, ../scss/design/_more.scss */
+html {
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+/* line 8, ../scss/design/_more.scss */
+.html-more {
+  background-color: #fff;
+}
+
+/* line 12, ../scss/design/_more.scss */
 .page-more {
   background: #fff;
   z-index: 10;
   -webkit-tap-highlight-color: transparent;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 9, ../scss/design/_more.scss */
+  /* line 18, ../scss/design/_more.scss */
   .page-more .row {
     padding: 5px 0;
   }
-  /* line 13, ../scss/design/_more.scss */
+  /* line 22, ../scss/design/_more.scss */
   .page-more p {
     margin-top: 10px;
     margin-bottom: 0;
   }
 }
 
-/* line 20, ../scss/design/_more.scss */
+/* line 29, ../scss/design/_more.scss */
 .no-js .page-more {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 25, ../scss/design/_more.scss */
+/* line 34, ../scss/design/_more.scss */
 .js .page-more {
   display: none;
   position: absolute;
@@ -5262,14 +5279,14 @@ p {
   height: 100%;
 }
 
-/* line 36, ../scss/design/_more.scss */
+/* line 45, ../scss/design/_more.scss */
 .page-more-inner {
   position: relative;
   top: 0;
   background: #fff;
 }
 
-/* line 42, ../scss/design/_more.scss */
+/* line 51, ../scss/design/_more.scss */
 .page-more a {
   display: block;
   margin: 0 -10px;
@@ -5281,27 +5298,27 @@ p {
   border-radius: 4px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 42, ../scss/design/_more.scss */
+  /* line 51, ../scss/design/_more.scss */
   .page-more a {
     padding: 10px;
   }
-  /* line 51, ../scss/design/_more.scss */
+  /* line 60, ../scss/design/_more.scss */
   .page-more a p {
     margin: 0;
   }
 }
 
-/* line 57, ../scss/design/_more.scss */
+/* line 66, ../scss/design/_more.scss */
 .page-more a:hover {
   background: #e7faff;
 }
 
-/* line 63, ../scss/design/_more.scss */
+/* line 72, ../scss/design/_more.scss */
 .page-more-inner p {
   font-size: 1em;
 }
 
-/* line 68, ../scss/design/_more.scss */
+/* line 77, ../scss/design/_more.scss */
 .page-more-inner h4, .page-more-inner .location-tile, .page-more-inner .lifegroups-tile span, .lifegroups-tile .page-more-inner span {
   margin: 7px 0 8px;
 }

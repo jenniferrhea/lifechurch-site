@@ -13,6 +13,7 @@ $(function() {
     // Open the more panel
     $( ".primary-links" ).delegate( ".nav-more", "click", function() {
       $(".page-more").fadeIn();
+      $("html").addClass("html-more");
       $(".page-more-inner").animate({
         top: '90px'
       }, 400, function() {
@@ -30,6 +31,7 @@ $(function() {
     // Close the more panel
     $( ".primary-links" ).delegate( ".nav-close-more", "click", function() {
       $(".page-more").fadeOut();
+      $("html").removeClass("html-more");
       $(".page-more-inner").animate({ top: '0' }, 400, function() {});
 
       $(this).removeClass("nav-close-more").addClass("nav-more");

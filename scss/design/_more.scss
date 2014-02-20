@@ -1,5 +1,14 @@
 // "More" navigation
 
+  html {
+    @include transition-property(background-color);
+    @include transition-duration(.25s);
+  }
+
+  .html-more {
+    background-color: #fff;
+  }
+
   .page-more {
     background: #fff;
     z-index: 10;
