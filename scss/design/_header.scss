@@ -121,6 +121,22 @@
     &:hover .more-line-3 {
       background: darken($primary-color, 10%) !important;
     }
+
+    .copy {
+      display: none;
+
+      @media only screen and (min-width: 880px) {
+        display: inline !important;
+      }
+    }
+
+    .live {
+      position: absolute;
+      top: -7px;
+      margin-left: -10px;
+      font-size: 9px;
+      color: #ff7777
+    }
   }
 }
 

@@ -5448,15 +5448,33 @@ html {
 .primary-links a:hover .more-line-1, .primary-links a:hover .more-line-2, .primary-links a:hover .more-line-3 {
   background: #0b83a6 !important;
 }
+/* line 125, ../scss/design/_header.scss */
+.primary-links a .copy {
+  display: none;
+}
+@media only screen and (min-width: 880px) {
+  /* line 125, ../scss/design/_header.scss */
+  .primary-links a .copy {
+    display: inline !important;
+  }
+}
+/* line 133, ../scss/design/_header.scss */
+.primary-links a .live {
+  position: absolute;
+  top: -7px;
+  margin-left: -10px;
+  font-size: 9px;
+  color: #ff7777;
+}
 
-/* line 129, ../scss/design/_header.scss */
+/* line 145, ../scss/design/_header.scss */
 .nav-more,
 .nav-close-more {
   padding-right: 20px;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 138, ../scss/design/_header.scss */
+  /* line 154, ../scss/design/_header.scss */
   .nav-more,
   .nav-close-more {
     display: block;
@@ -5464,7 +5482,7 @@ html {
     margin-bottom: -10px;
   }
 }
-/* line 148, ../scss/design/_header.scss */
+/* line 164, ../scss/design/_header.scss */
 .more-line-1,
 .more-line-2,
 .more-line-3 {
@@ -5485,35 +5503,35 @@ html {
   opacity: 1;
 }
 
-/* line 161, ../scss/design/_header.scss */
+/* line 177, ../scss/design/_header.scss */
 .more-line-1 {
   top: 6px;
 }
 
-/* line 162, ../scss/design/_header.scss */
+/* line 178, ../scss/design/_header.scss */
 .more-line-2 {
   top: 10px;
 }
 
-/* line 163, ../scss/design/_header.scss */
+/* line 179, ../scss/design/_header.scss */
 .more-line-3 {
   top: 14px;
 }
 
-/* line 166, ../scss/design/_header.scss */
+/* line 182, ../scss/design/_header.scss */
 .nav-close-more .more-line-1 {
   opacity: 0;
   top: 10px;
 }
 
-/* line 172, ../scss/design/_header.scss */
+/* line 188, ../scss/design/_header.scss */
 .nav-close-more .more-line-2 {
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-/* line 179, ../scss/design/_header.scss */
+/* line 195, ../scss/design/_header.scss */
 .nav-close-more .more-line-3 {
   transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
@@ -5521,27 +5539,27 @@ html {
   top: 10px;
 }
 
-/* line 190, ../scss/design/_header.scss */
+/* line 206, ../scss/design/_header.scss */
 .section-watch .nav-watch a,
 .section-locations .nav-locations a,
 .section-giving .nav-giving a {
   color: #0ea9d6;
 }
 
-/* line 198, ../scss/design/_header.scss */
+/* line 214, ../scss/design/_header.scss */
 .page-tertiary {
   margin-bottom: 2em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 5;
   position: relative;
 }
-/* line 205, ../scss/design/_header.scss */
+/* line 221, ../scss/design/_header.scss */
 .page-tertiary .button {
   margin-bottom: 0;
 }
 
 @media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 212, ../scss/design/_header.scss */
+  /* line 228, ../scss/design/_header.scss */
   .tertiary-header {
     width: 200px;
     top: -58px;
@@ -5549,7 +5567,7 @@ html {
     margin-bottom: -10px;
     border: none;
   }
-  /* line 219, ../scss/design/_header.scss */
+  /* line 235, ../scss/design/_header.scss */
   .tertiary-header a {
     font-size: 1em !important;
     text-transform: uppercase;
@@ -5559,33 +5577,33 @@ html {
     font-size: 0.875rem !important;
   }
 }
-/* line 231, ../scss/design/_header.scss */
+/* line 247, ../scss/design/_header.scss */
 .tertiary-nav {
   margin-top: 10px;
   margin-bottom: 15px;
   z-index: 1;
   position: relative;
 }
-/* line 237, ../scss/design/_header.scss */
+/* line 253, ../scss/design/_header.scss */
 .tertiary-nav a {
   color: #444;
   font-size: 1.25rem;
   font-weight: 300;
 }
-/* line 243, ../scss/design/_header.scss */
+/* line 259, ../scss/design/_header.scss */
 .tertiary-nav a:before {
   content: " / ";
   margin-left: 9px;
   margin-right: 6px;
   color: rgba(0, 0, 0, 0.2);
 }
-/* line 250, ../scss/design/_header.scss */
+/* line 266, ../scss/design/_header.scss */
 .tertiary-nav a:first-child:before {
   content: "";
   margin-left: 0;
   margin-right: 0;
 }
-/* line 256, ../scss/design/_header.scss */
+/* line 272, ../scss/design/_header.scss */
 .tertiary-nav a:not([href~="#"]):hover {
   color: #0ea9d6;
 }

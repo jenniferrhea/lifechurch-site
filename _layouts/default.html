@@ -38,17 +38,17 @@
     <!-- Page Header -->
     <header class="page-header">
       <div class="row">
-        <div class="small-4 medium-4 large-4 columns">
+        <div class="small-4 medium-3 large-3 columns">
           <!-- Site Title -->
           <a class="logo" href="/"><span>LifeChurch.tv</span></a>
         </div>
-        <div class="small-8 medium-8 large-8 columns">
+        <div class="small-8 medium-9 large-9 columns">
           <!-- Primary Links -->
           <nav class="primary-links">
             <ul class="inline-list right">
-              <li class="nav-watch hide-for-small"><a href="/watch/">Watch</a></li>
+              <li class="nav-watch hide-for-small"><a href="/watch/">Watch<span class="copy"> a message</span><span class="live"> Live</span></a></li>
               <li class="nav-locations hide-for-small"><a href="/locations/">Locations</a></li>
-              <li class="nav-giving hide-for-small"><a href="/giving/">Giving</a></li>
+              <li class="nav-giving hide-for-small"><a href="/giving/">Giving<span class="copy"> opportunities</span></a></li>
               <li><a class="nav-more" href="#more"><span class="more-text hide-for-small">More</span><span class="more-text show-for-small">Menu</span><span class="more-line more-line-1"></span><span class="more-line more-line-2"></span><span class="more-line more-line-3"></span></a></li>
             </ul>
           </nav>
@@ -86,11 +86,11 @@
 
         <div class="small-12 large-6 large-pull-6 columns large-left">
           <p>Join us at <a href="http://live.lifechurch.tv">Church Online</a>, at one of our <a href="/locations/">physical campuses</a> or at a <a href="http://www.networkchurches.tv">network church</a>.</p>
-          <p>&copy; 2014 LifeChurch.tv. All rights reserved.</p>
+          <p>&copy; {{ site.time | date: '%Y' }} LifeChurch.tv. All rights reserved.</p>
         </div>
       </div>
     </footer>
-
+    
     <script src="/bower_components/jquery/jquery.min.js"></script>
     <script src="/bower_components/foundation/js/vendor/fastclick.js"></script>
     <script src="/bower_components/foundation/js/foundation/foundation.js"></script>
