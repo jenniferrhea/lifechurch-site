@@ -6879,33 +6879,45 @@ button.dropdown::before {
 /* line 3, ../scss/pages/_lifegroups.scss */
 .section-lifegroups-top {
   padding-bottom: 8px;
-  height: 650px;
+  height: 480px;
+}
+@media only screen and (min-height: 620px) {
+  /* line 3, ../scss/pages/_lifegroups.scss */
+  .section-lifegroups-top {
+    height: 540px;
+  }
+}
+@media only screen and (min-height: 700px) {
+  /* line 3, ../scss/pages/_lifegroups.scss */
+  .section-lifegroups-top {
+    height: 650px;
+  }
 }
 
-/* line 8, ../scss/pages/_lifegroups.scss */
+/* line 16, ../scss/pages/_lifegroups.scss */
 .lifegroups .page-tertiary {
   display: none;
 }
 
-/* line 12, ../scss/pages/_lifegroups.scss */
+/* line 20, ../scss/pages/_lifegroups.scss */
 .section-lifegroups-find {
   padding: 4em 0 5em;
   clear: both;
 }
 
-/* line 17, ../scss/pages/_lifegroups.scss */
+/* line 25, ../scss/pages/_lifegroups.scss */
 .section-lifegroups-tiles {
   height: 450px;
   background: #000;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 17, ../scss/pages/_lifegroups.scss */
+  /* line 25, ../scss/pages/_lifegroups.scss */
   .section-lifegroups-tiles {
     height: 200px;
   }
 }
 
-/* line 26, ../scss/pages/_lifegroups.scss */
+/* line 34, ../scss/pages/_lifegroups.scss */
 .lifegroups-tile {
   height: 150px;
   width: 100%;
@@ -6918,19 +6930,19 @@ button.dropdown::before {
   display: block;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 26, ../scss/pages/_lifegroups.scss */
+  /* line 34, ../scss/pages/_lifegroups.scss */
   .lifegroups-tile {
     height: 200px;
     width: 33%;
     float: left;
     padding-top: 90px;
   }
-  /* line 43, ../scss/pages/_lifegroups.scss */
+  /* line 51, ../scss/pages/_lifegroups.scss */
   .lifegroups-tile.lifegroups-tile-last {
     width: 34%;
   }
 }
-/* line 48, ../scss/pages/_lifegroups.scss */
+/* line 56, ../scss/pages/_lifegroups.scss */
 .lifegroups-tile span {
   color: #fff;
   display: block;
@@ -6938,17 +6950,17 @@ button.dropdown::before {
   z-index: 2;
 }
 
-/* line 57, ../scss/pages/_lifegroups.scss */
+/* line 65, ../scss/pages/_lifegroups.scss */
 .lifegroups-tile-2 {
   background-image: url("http://placekitten.com/500/400");
 }
 
-/* line 61, ../scss/pages/_lifegroups.scss */
+/* line 69, ../scss/pages/_lifegroups.scss */
 .lifegroups-tile-3 {
   background-image: url("http://placekitten.com/500/400");
 }
 
-/* line 65, ../scss/pages/_lifegroups.scss */
+/* line 73, ../scss/pages/_lifegroups.scss */
 .lifegroups-tile-4 {
   background-image: url("http://placekitten.com/500/400");
 }

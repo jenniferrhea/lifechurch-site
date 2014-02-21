@@ -2,7 +2,15 @@
 
 .section-lifegroups-top {
   padding-bottom: 8px;
-  height: 650px;
+  height: 480px;
+
+  @media only screen and (min-height: 620px) {
+    height: 540px;
+  }
+
+  @media only screen and (min-height: 700px) {
+    height: 650px;
+  }
 }
 
 .lifegroups .page-tertiary {
