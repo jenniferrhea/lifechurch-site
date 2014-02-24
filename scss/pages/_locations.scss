@@ -462,8 +462,25 @@
   height: 278px;
   border: 1px solid #ddd;
   
+  @media #{$small-only} {
+    background-size: 800px auto;
+    background-position: 0 -40px;
+  }
+
   @media #{$medium-up} {
     height: 400px;
+    margin-top: 40px;
+  }
+
+  .pin {
+    top: 70px;
+    left: 70px;
+    position: absolute;
+
+    @media #{$medium-up} {
+      top: 180px;
+      left: 110px;
+    }
   }
 
   .address {
@@ -476,6 +493,8 @@
 
     @media #{$medium-up} {
       width: 250px;
+      top: 165px;
+      left: 160px;
       background: rgba(0,0,0,.8);
       @include border-radius(6px);
 
@@ -633,40 +652,22 @@
 
 // ~4 Specific Campus Pages ***************************************
 
-// OKC Campus
-
-  .location-okc {
-    .content-1 {
-      @include background-image-2x-jpg('/locations/assets/campus/okc-map');
-      
-      @media #{$small-only} {
-        background-size: 800px auto;
-        background-position: 0 -40px;
-      }
-
-      @media #{$medium-up} {
-        margin-top: 40px;
-      }
-
-      .pin {
-        top: 70px;
-        left: 70px;
-        position: absolute;
-
-        @media #{$medium-up} {
-          top: 180px;
-          left: 110px;
-        }
-      }
-
-      .address {
-        
-
-        @media #{$medium-up} {
-          top: 165px;
-          left: 160px;
-        }
-      }
-    }
-  }
+  .location-alb .content-1 { @include background-image-2x-png('/locations/assets/campus/alb-map'); }
+  .location-bao .content-1 { @include background-image-2x-png('/locations/assets/campus/bao-map'); }
+  .location-edm .content-1 { @include background-image-2x-png('/locations/assets/campus/edm-map'); }
+  .location-ftw .content-1 { @include background-image-2x-png('/locations/assets/campus/ftw-map'); }
+  .location-hnv .content-1 { @include background-image-2x-png('/locations/assets/campus/hnv-map'); }
+  .location-jnk .content-1 { @include background-image-2x-png('/locations/assets/campus/jnk-map'); }
+  .location-klr .content-1 { @include background-image-2x-png('/locations/assets/campus/klr-map'); }
+  .location-mor .content-1 { @include background-image-2x-png('/locations/assets/campus/mor-map'); }
+  .location-mwc .content-1 { @include background-image-2x-png('/locations/assets/campus/mwc-map'); }
+  .location-noc .content-1 { @include background-image-2x-png('/locations/assets/campus/noc-map'); }
+  .location-okc .content-1 { @include background-image-2x-png('/locations/assets/campus/okc-map'); }
+  .location-ows .content-1 { @include background-image-2x-png('/locations/assets/campus/ows-map'); }
+  .location-soc .content-1 { @include background-image-2x-png('/locations/assets/campus/soc-map'); }
+  .location-stu .content-1 { @include background-image-2x-png('/locations/assets/campus/stu-map'); }
+  .location-stw .content-1 { @include background-image-2x-png('/locations/assets/campus/stw-map'); }
+  .location-tul .content-1 { @include background-image-2x-png('/locations/assets/campus/tul-map'); }
+  .location-wel .content-1 { @include background-image-2x-png('/locations/assets/campus/wel-map'); }
+  .location-ykn .content-1 { @include background-image-2x-png('/locations/assets/campus/ykn-map'); }
   
