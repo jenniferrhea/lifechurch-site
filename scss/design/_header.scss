@@ -140,6 +140,19 @@
   }
 }
 
+// Set "Live" status on thin watch links
+.page-more .live {
+  color: #ff7777;
+
+  &:before {
+    content: "(";
+  }
+
+  &:after {
+    content: ")";
+  }
+}
+
 // "More" link
 .nav-more,
 .nav-close-more {
