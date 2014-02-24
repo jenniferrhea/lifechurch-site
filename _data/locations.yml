@@ -28,7 +28,6 @@
   address: '120 Indian Lake Blvd Hendersonville, TN 37075'
   google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=120+indian+lake+blvd,+hendersonville+tn+37075&sll=36.309432,-86.604578&sspn=50.644639,82.265625&layer=&safe=vss&ie=UTF8&z=15&om=1&iwloc=near'
 
-
 - id: jnk
   title: Jenks OK Campus
   description_small: Description about this campus goes right here.
