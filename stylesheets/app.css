@@ -5452,7 +5452,7 @@ html {
 .primary-links a .copy {
   display: none;
 }
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 810px) {
   /* line 125, ../scss/design/_header.scss */
   .primary-links a .copy {
     display: inline !important;
