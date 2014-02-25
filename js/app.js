@@ -57,7 +57,51 @@ $(function() {
       $('.tertiary-nav .current').text('Series');
     }
   }
+
   
+  // If the first section on a page is "light", make the nav "light" too
+  if ($('.section-first.section-light').length > 0) {
+    $('body').addClass('header-light');
+  };
+
+  // If the last section on a page is "light", make the footer "light" too
+  if ($('.section-last.section-light').length > 0) {
+    $('body').addClass('footer-light');
+  };
+
+
+  // Smooth scrolling for hash links
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+
+
+  // SVG / PNG
+  if(!Modernizr.svg) {
+    $('img[src*="svg"]').attr('src', function () {
+      return $(this).attr('src').replace('.svg', '.png');
+    });
+  };
+
+
+  // Parallax scrolling
+  if ( $("html").hasClass("no-touch")) {
+    $(window).stellar( {
+      horizontalScrolling: false,
+      verticalScrolling: true,
+    });
+  };
 
 
   // Locations Map
@@ -124,8 +168,8 @@ $(function() {
   $( ".tiles" ).delegate( ".location-tile.tile-2", "click", function() {
     if (!$('.tile-2').hasClass('tile-active')) {
       // Animate the calendar entries in
-      $(".content-2 .entry span").animate({ opacity: 0 }, 0);
-      $(".content-2 .entry span").delay(150).animate({ opacity: 1 }, 250);
+      //$(".content-2 .entry span").animate({ opacity: 0 }, 0);
+      //$(".content-2 .entry span").delay(150).animate({ opacity: 1 }, 250);
 
       // Fade the correct content in, and the rest out
       $(".location-content.content-2").fadeIn(250).addClass('content-active');
@@ -145,64 +189,24 @@ $(function() {
     return false;
   });
 
+  // Campus calendar 5pm overlaps
+  $('.time-17-00').siblings('.time-17-30').addClass('overlap').parent().parent().addClass('rows-2');
+  $('.time-17-00.duration-120').siblings('.time-17-30, .time-18-00, .time-18-30').addClass('overlap').parent().parent().addClass('rows-2');
+    
+  // Campus calendar 6pm overlaps
+  $('.time-18-00').siblings('.time-18-30').addClass('overlap').parent().parent().addClass('rows-2');
+  $('.time-18-00.duration-120').siblings('.time-18-30, .time-19-00, .time-19-30').addClass('overlap').parent().parent().addClass('rows-2');
 
-  // If the first section on a page is "light", make the nav "light" too
-  if ($('.section-first.section-light').length > 0) {
-    $('body').addClass('header-light');
-  };
+  // Campus calendar 7pm overlaps
+  $('.time-19-00').siblings('.time-19-30').addClass('overlap').parent().parent().addClass('rows-2');
+  $('.time-19-00.duration-120').siblings('.time-19-30, .time-21-00, .time-21-30').addClass('overlap').parent().parent().addClass('rows-2');
 
-  // If the last section on a page is "light", make the footer "light" too
-  if ($('.section-last.section-light').length > 0) {
-    $('body').addClass('footer-light');
-  };
+  // Campus calendar 8pm overlaps
+  $('.time-20-00').siblings('.time-20-30').addClass('overlap').parent().parent().addClass('rows-2');
+  $('.time-20-00.duration-120').siblings('.time-20-30, .time-21-00, .time-21-30').addClass('overlap').parent().parent().addClass('rows-2');
 
-  // Smooth scrolling for hash links
-  $(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
-
-
-  // SVG / PNG
-  if(!Modernizr.svg) {
-    $('img[src*="svg"]').attr('src', function () {
-      return $(this).attr('src').replace('.svg', '.png');
-    });
-  };
-
-
-  // Parallax scrolling
-  if ( $("html").hasClass("no-touch")) {
-    $(window).stellar( {
-      horizontalScrolling: false,
-      verticalScrolling: true,
-    });
-  };
-
-
-  // Adjust Campus calendar formatting for smaller devices
-  if ($(window).width() < 700) {
-    $(".experience-calendar span").each(function() {
-      $(this).text( $(this).text().replace('AM', '') );
-      $(this).text( $(this).text().replace('PM', '') );
-      $(this).text( $(this).text().replace('NOON', '12') );
-      $(this).wrapInner("<span class='inner'></span>");
-    });
-
-    $('.section-locations .tile-2').text( $('.section-locations .tile-2').text().replace('Dates /', '') );
-    $('.section-locations .tile-3').text( $('.section-locations .tile-3').text().replace(' Us', '') );
-
-  };
+  // Campus calendar Overlapping overlaps (oh my!)
+  $('.overlap:eq(1)').removeClass('overlap').addClass('overlap-2').parent().parent().removeClass('rows-2').addClass('rows-3');
 
 
   // LifeMissions Page
@@ -210,49 +214,6 @@ $(function() {
 
     // Hide forms by default
     $('.involved-list form').hide();
-
-    // Change which cluster list appears on the page
-    /*$('.missions-list').hide();
-    $('.missions-global').show();
-    
-    $(".mission-filter select").change(function() {
-      if($(this).val() === 'global') {
-        $('.missions-list').fadeOut();
-        $('.missions-global').delay(500).fadeIn();
-        return false;
-      }
-      if($(this).val() === 'okc') {
-        $('.missions-list').fadeOut();
-        $('.missions-okc').delay(500).fadeIn();
-        return false;
-      }
-      if($(this).val() === 'tulsa') {
-        $('.missions-list').fadeOut();
-        $('.missions-tulsa').delay(500).fadeIn();
-        return false;
-      }
-      if($(this).val() === 'stillwater') {
-        $('.missions-list').fadeOut();
-        $('.missions-stillwater').delay(500).fadeIn();
-        return false;
-      }
-      if($(this).val() === 'dallasfw') {
-        $('.missions-list').fadeOut();
-        $('.missions-dallasfw').delay(500).fadeIn();
-        return false;
-      }
-      if($(this).val() === 'wellington') {
-        $('.missions-list').fadeOut();
-        $('.missions-wellington').delay(500).fadeIn();
-        return false;
-      }
-      if($(this).val() === 'albany') {
-        $('.missions-list').fadeOut();
-        $('.missions-albany').delay(500).fadeIn();
-        return false;
-      }
-    });*/
-
 
     // Make the form appear if "Get Involved" gets clicked
     $( ".involved-list" ).delegate( ".get-involved", "click", function() {
@@ -262,14 +223,6 @@ $(function() {
       $(this).fadeOut();
       return false;
     });
-
-    // Change the email recipient with the Select box
-    /*$(".missions-item form select").change(function() {
-      $(this).parent().parent().parent().find('input[name="recipient"]').attr('value', $(this).val());
-      if($(this).val() === 'Select Campus') {
-        $(this).parent().parent().parent().find('input[name="recipient"]').attr('value', 'someonebrave@lifechurch.tv');
-      }
-    });*/
 
   };
 

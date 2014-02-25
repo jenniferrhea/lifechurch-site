@@ -334,12 +334,6 @@
   }
 }
 
-// Adjust all content to match right side
-.location-tile-wrapper,
-.location-content-wrapper {
-  
-}
-
 // Page tile
 .location-tile {
   text-align: center;
@@ -516,101 +510,6 @@
 
 
 // Experience Calendar
-  
-  // Calendar general
-
-    .experience-calendar {
-      border-collapse: collapse;
-      table-layout: fixed;
-      width: 100%;
-
-      // Borders each hour to indicate the hour
-      .hour {
-        border-left: 1px solid #ccc;
-      }
-
-      // General spacing
-      td {
-        width: 6.6%;
-        height: 50px;
-        padding: 0;
-      }
-
-      td span {
-        width:6.6%;
-        height: 50px;
-        display: block;
-        font-size: 13px;
-      }
-
-
-  // Calendar entries
-
-    @media #{$small-only} {
-      td .inner,
-      .day {
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-        border: none !important;
-        background: none !important;
-        padding: 10px 0 0 !important;
-        top: -28px !important;
-        position: relative;
-      }
-
-      .day {
-        top: -2px !important;
-        padding: 6px 0 0 !important;
-      }
-    }
-
-    .entry {
-      padding-right: 1px;
-
-      span {
-        @include border-radius(3px);
-        display: block;
-        padding: 14px 0;
-        text-align: center;
-
-        &.hour-1 {
-          width: 99.9%;
-          margin: 0 1px 1px;
-        }
-
-        &.hour-2 {
-          width: 99.9%;
-          margin: 0 1px 1px;
-        }
-
-        &.hour-3 {
-          width: 99.9%;
-          margin: 0 1px 1px;
-        }
-      }
-
-      &.entry-lctv span {
-        background: lighten($red, 30%);
-        border: 1px solid lighten($red, 20%);
-        color: $red;
-      }
-
-      &.entry-switch span {
-        background: $primary-color;
-        border: 1px solid darken($primary-color, 10%);
-        color: darken($primary-color, 20%);
-      }
-
-      &.entry-konnect span {
-        background: $secondary-color;
-        border: 1px solid darken($secondary-color, 10%);
-        color: darken($secondary-color, 40%);
-      }
-    }
-  }
 
   // Calendar Key
 
@@ -633,7 +532,7 @@
         @include border-radius(3px);
       }
 
-      &.key-lctv figure {
+      &.key-lifechurch figure {
         background: lighten($red, 30%);
         border: 1px solid lighten($red, 20%);
       }
@@ -648,6 +547,201 @@
           border: 1px solid darken($secondary-color, 10%);
       }
     }
+
+
+
+
+
+// New Experience Calendar
+
+.times {
+  list-style: none;
+  margin-left: 0;
+}
+
+@media #{$medium-up} {
+  .days-times {
+    border: 1px solid #bbb;
+    background: #fff;
+    position: relative;
+    width: 100%;
+
+    h4 {
+      display: none;
+    }
+
+    // Day wrapper
+    .day {
+      height: 40px;
+      width: 100%;
+      background: #fff;
+
+      &:nth-child(even) {
+        background: #f9f9f9 !important;
+      }
+    }
+
+    // Entry wrapper
+    .times {
+      padding: 0;
+      margin: 0;
+      position: relative;
+
+      // Day title
+      label {
+        margin-left: 10px;
+      }
+    }
+
+    // Entry
+    .time {
+      height: 40px;
+      width: 5%; // default time 1 hour
+      position: absolute;
+      overflow: hidden;
+
+      label span {
+        display: none;
+      }
+
+      .time-box {
+        display: block;
+        width: 100%;
+        height: 40px;
+        background: #aaa;
+        @include border-radius(2px);
+        border: 1px solid #999;
+        font-size: rem-calc(11);
+
+        .time-box-time-label,
+        .time-box-duration,
+        .time-box-duration-label {
+          display: none;
+        }
+
+        .time-box-time {
+          margin: 0px 0 0 4px;
+        }
+      }
+
+      &.type-lifechurch .time-box {
+        background: lighten($red, 30%);
+        border: 1px solid lighten($red, 20%);
+        color: $red;
+      }
+
+      &.type-switch .time-box {
+        background: $primary-color;
+        border: 1px solid darken($primary-color, 10%);
+        color: darken($primary-color, 20%);
+      }
+
+      &.type-konnect .time-box {
+        background: $secondary-color;
+        border: 1px solid darken($secondary-color, 10%);
+        color: darken($secondary-color, 40%);
+      }
+    }
+
+    .time-07-00 { left: 20%; }
+    .time-07-30 { left: 22.5%; }
+    .time-08-00 { left: 25%; }
+    .time-08-30 { left: 27.5%; }
+    .time-09-00 { left: 30%; }
+    .time-09-30 { left: 32.5%; }
+    .time-10-00 { left: 35%; }
+    .time-10-30 { left: 37.5%; }
+    .time-11-00 { left: 40%; }
+    .time-11-30 { left: 42.5%; }
+    .time-12-00 { left: 45%; }
+    .time-12-30 { left: 47.5%; }
+    .time-13-00 { left: 50%; }
+    .time-13-30 { left: 52.5%; }
+    .time-14-00 { left: 55%; }
+    .time-14-30 { left: 57.5%; }
+    .time-15-00 { left: 60%; }
+    .time-15-30 { left: 62.5%; }
+    .time-16-00 { left: 65%; }
+    .time-16-30 { left: 67.5%; }
+    .time-17-00 { left: 70%; }
+    .time-17-30 { left: 72.5%; }
+    .time-18-00 { left: 75%; }
+    .time-18-30 { left: 77.5%; }
+    .time-19-00 { left: 80%; }
+    .time-19-30 { left: 82.5%; }
+    .time-20-00 { left: 85%; }
+    .time-20-30 { left: 87.5%; }
+    .time-21-00 { left: 90%; }
+    .time-21-30 { left: 92.5%; }
+    .time-22-00 { left: 95%; }
+
+    .overlap {
+      margin-top: 40px;
+    }
+
+    .overlap-2 {
+      margin-top: 80px;
+    }
+
+    .rows-2 {
+      height: 80px;
+    }
+
+    .rows-3 {
+      height: 120px;
+    }
+
+    // 1 hour entry
+    .duration-60 {
+      width: 5%;
+    }
+
+    // 2 hour entry
+    .duration-120 {
+      width: 10%
+    }
+
+    // 3 hour entry
+    .duration-180 {
+      width: 15%;
+    }
+
+    // 4 hour entry
+    .duration-240 {
+      width: 20%;
+    }
+
+    .time-lines .time {
+      height: 100%;
+
+      .time-line {
+        margin-top: 40px;
+        border-left: 1px solid #ccc;
+        height: 100%;
+      }
+
+      label {
+        margin: 0;
+        width: 100%;
+        height: 30px;
+        overflow: hidden;
+        position: absolute;
+        top: 11px;
+        font-size: rem-calc(13);
+      }
+    }
+
+  }
+
+}
+
+ @media #{$large-up} {
+  // Day title
+  .days-times .time label span {
+    display: inline;
+  }
+}
+
 
 
 // ~4 Specific Campus Pages ***************************************

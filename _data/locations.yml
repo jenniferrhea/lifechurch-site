@@ -2,112 +2,139 @@
   title: Albany NY Campus
   description_small: Description about this campus goes right here.
   address: '560 Sand Creek Rd Albany, NY 12205'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=560+Sand+Creek+Rd,+Albany,+NY+12205&sll=35.54882,-97.617253&sspn=0.006407,0.010042&layer=&safe=vss&ie=UTF8&om=1&iwloc=near&amp;z=11'
 
 - id: bao
   title: Broken Arrow OK Campus
   description_small: Description about this campus goes right here.
   address: '2420 E Kenosha Street Broken Arrow, OK 74014'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=2420+E+Kenosha+Street+Broken+Arrow+OK&sll=36.061981,-95.760239&sspn=0.006346,0.013561&layer=&safe=vss&ie=UTF8&z=11&om=1&iwloc=near'
 
 - id: edm
   title: Edmond OK Campus
   description_small: Description about this campus goes right here.
   address: '4600 E. 2nd St Edmond, OK 73034'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=4600+E.+2nd+St,+Edmond,+OK+73034&sll=36.303079,-86.6408&sspn=0.006346,0.013561&layer=&safe=vss&ie=UTF8&z=11&om=1&iwloc=near'
 
 - id: ftw
   title: Fort Worth TX Campus
   description_small: Description about this campus goes right here.
   address: '5298 Trail Lake Dr Fort Worth, TX 76133'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=5298+Trail+Lake+Dr,+Fort+Worth,+TX+76133&sll=32.653079,-97.420921&sspn=0.005465,0.011759&safe=vss&ie=UTF8&ll=32.669735,-97.383016&spn=0.005464,0.011759&z=11&iwloc=near&om=1'
 
 - id: hnv
   title: Hendersonville TN Campus
   description_small: Description about this campus goes right here.
   address: '120 Indian Lake Blvd Hendersonville, TN 37075'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=120+indian+lake+blvd,+hendersonville+tn+37075&sll=36.309432,-86.604578&sspn=50.644639,82.265625&layer=&safe=vss&ie=UTF8&z=15&om=1&iwloc=near'
 
 - id: jnk
   title: Jenks OK Campus
   description_small: Description about this campus goes right here.
   address: '890 W 81st St, Tulsa, OK 74132'
-  google_maps: 'https://maps.google.com/maps?q=890+W+81st+St,+Tulsa,+OK&hl=en&ll=36.045768,-96.001968&spn=0.343658,0.637894&sll=36.061981,-95.760239&sspn=0.343588,0.637894&oq=890+W+81st+St&hnear=890+W+81st+St,+Tulsa,+Oklahoma+74132&t=m&z=11'
 
 - id: klr
   title: Kellar TX Campus
   description_small: Description about this campus goes right here.
   address: '801 Bear Creek Parkway Keller, TX 76248'
-  google_maps: 'https://www.google.com/maps?sll=32.92807623906986%2C-97.23590700000001&sspn=0.00563799382271732%2C0.013509359920530954&t=m&ll=32.92859630000001%2C-97.23647030000001&q=801+Bear+Creek+Parkway%2C+Keller%2C+TX&spn=0.02255010129344585%2C0.03582190233864241&out'
 
 - id: mwc
   title: Midwest City Campus
   description_small: Description about this campus goes right here.
   address: '6809 E Reno Ave Midwest City, OK 73110'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=6809+East+Reno+Avenue,+Oklahoma+City,+OK+73110&sll=%2035.64971,-97.541743&sspn=0.006407,0.010042&layer=&safe=vss&ie=UTF8&om=1&iwloc=near'
 
 - id: mor
   title: Moore OK Campus
   description_small: Description about this campus goes right here.
   address: '2916 S. Telephone Rd. Moore, OK 73160'
-  google_maps: 'https://maps.google.com/maps?q=2916+S+Telephone+Rd,+Moore,+OK&hl=en&sll=32.928596,-97.23647&sspn=0.095239,0.180073&oq=2916+S.+Telephone+Rd.&hnear=2916+S+Telephone+Rd,+Moore,+Oklahoma+73160&t=m&z=16&out'
 
 - id: noc
   title: NW Oklahoma City Campus
   description_small: Description about this campus goes right here.
   address: '5821 NW Expressway Oklahoma City, OK 73132'
-  google_maps: 'https://maps.google.com/maps?q=2916+S+Telephone+Rd,+Moore,+OK&hl=en&sll=32.928596,-97.23647&sspn=0.095239,0.180073&oq=2916+S.+Telephone+Rd.&hnear=2916+S+Telephone+Rd,+Moore,+Oklahoma+73160&t=m&z=16&out'
 
 - id: noc
   title: NW Oklahoma City Campus
   description_small: Description about this campus goes right here.
   address: '5821 NW Expressway Oklahoma City, OK 73132'
-  google_maps: 'https://maps.google.com/maps?q=2916+S+Telephone+Rd,+Moore,+OK&hl=en&sll=32.928596,-97.23647&sspn=0.095239,0.180073&oq=2916+S.+Telephone+Rd.&hnear=2916+S+Telephone+Rd,+Moore,+Oklahoma+73160&t=m&z=16&out'
 
 - id: okc
   title: Oklahoma City OK Campus
   description_small: Description about this campus goes right here.
   address: '2001 NW 178th St, Edmond, OK 73012'
-  google_maps: 'https://www.google.com/maps?daddr=2001+NW+178th+St,+Edmond,+OK+73012&hl=en-US&view=map&geocode=CcnLgB-AH237FUcJIAIdjIcv-iEGjWeKHKsmTw&t=h&z=16'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:00PM
+      time: '18-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: ows
   title: Owasso OK Campus
   description_small: Description about this campus goes right here.
   address: '14008 E. 96th St. Owasso, OK 74055'
-  google_maps: 'https://maps.google.com/maps?hl=en&ie=UTF-8&q=14008+E+96th+St+Owasso,+OK+74055&fb=1&li=lmd&z=11&t=m&iwloc=near'
 
 - id: soc
   title: South Oklahoma City OK Campus
   description_small: Description about this campus goes right here.
   address: '7800 S. Walker Ave Oklahoma City, OK 73139'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=7800+S.+Walker+Ave,+Oklahoma+City,+OK+73139&sll=35.65305,-97.545878&sspn=0.006399,0.010042&layer=&safe=vss&ie=UTF8&z=11&om=1&iwloc=near'
 
 - id: sto
   title: South Tulsa OK Campus
   description_small: Description about this campus goes right here.
   address: '7071 East 121st St Bixby, OK 74008'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=7101+E.+121st+Street+South,+Bixby,+OK&sll=35.988494,-95.897856&sspn=0.044517,0.076733&safe=vss&ie=UTF8&t=p&z=11&iwloc=near&om=1'
 
 - id: stw
   title: Stillwater OK Campus
   description_small: Description about this campus goes right here.
-  address: '1917 North Country Club Rd Stillwater, OK 74075'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=1917+North+Country+Club+Rd,+Stillwater,+OK+74075&sll=33.379235,-111.744863&sspn=0.006576,0.013561&layer=&safe=vss&ie=UTF8&z=11&om=1&iwloc=near'
+  address: '1917 North Country Club Rd, Stillwater, OK 74075'
 
 - id: tul
   title: Tulsa OK Campus
   description_small: Description about this campus goes right here.
   address: '7015 E. 41st St Tulsa, OK 74145'
-  google_maps: 'https://maps.google.com/maps?f=q&hl=en&q=7015+E.+41st+St,+Tulsa,+OK+74145&layer=&sll=36.104394,-95.898812&sspn=0.006363,0.013561&safe=vss&ie=UTF8&z=11&om=1&iwloc=near'
 
 - id: wel
   title: Wellington FL Campus
   description_small: Description about this campus goes right here.
-  address: '3061 State Road 7 Wellington, FL 33449'
-  google_maps: 'https://maps.google.com/maps?q=3061+state+road+7,+wellington,+florida+33449&hl=en&ll=26.632115,-80.204315&spn=0.378097,0.705872&sll=26.630887,-80.204401&sspn=0.047263,0.088234&hnear=3061+Florida+7,+Wellington,+Florida+33449&t=m&z=11'
-
-- id: ykn
-  title: Yukon OK Campus
-  description_small: Description about this campus goes right here.
-  address: '1101 E Main Street Yukon, OK 73099'
-  google_maps: 'https://maps.google.com/maps?hl=en&source=hp&q=1101+E+Main+Street+Yukon,OK+73099&oq=&um=1&ie=UTF-8&hq=&hnear=1101+E+Main+St,+Yukon,+OK+73099&gl=us&z=11&t=m&iwloc=near'
+  address: '3061 State Road 7, Wellington, FL 33449'

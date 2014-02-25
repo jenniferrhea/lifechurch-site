@@ -5,9 +5,10 @@ section: locations
 
 {% assign location = site.data.locations | find_first : "id", page.location-id %}
 
-<!-- Page Main -->
+<!-- Page main -->
 <div class="page-main">
 
+  <!-- Page hero section -->
   <section class="locations-hero page-section section-first section-light">
     <div class="row">
       <div class="large-8 large-centered columns text-center">
@@ -17,10 +18,212 @@ section: locations
     </div>
   </section>
 
+  <!-- Main content wrapper -->
   <section class="tiles">
+
+    <!-- Tiles -->
+    <div class="location-tile-wrapper">
+      <a href="#" class="location-tile tile-1 tile-active"><span>Location</span></a>
+      <a href="#" class="location-tile tile-2"><span>Dates / Times</span></a>
+      <a href="#" class="location-tile tile-3"><span>Get Involved</span></a>  
+    </div>
+
+    <!-- Main content -->
+    <div class="location-content-wrapper">
+
+      <!-- Content area 1 -->
+      <div class="location-content content-1 content-active">
+        
+        <!-- Map pin -->
+        <div class="pin"></div>
+        
+        <!-- Map address -->
+        <div class="address">
+          {{ location.address }}
+          <br />
+          <br />
+          <a href="http://maps.google.com/?q={{ location.address }}" class="small action stack text-lprimary">Get Directions <i class="icon icon-arrow-2"></i></a>
+          <br class="hide-for-small" />
+          <br class="hide-for-small" />
+          <a class="action small text-lprimary" href="/contact/">Contact Us <i class="icon icon-arrow-2"></i></a>
+        </div>
+      </div>
+
+
+      <!-- Content area 2 -->
+      <div class="location-content content-2">
+
+        <div class="row">
+          <div class="medium-12 columns">
+
+            <div class="row">
+              <div class="medium-4 columns">
+                <h2>Experience Times</h2>
+              </div>
+              <div class="medium-8 columns">
+
+                <!-- Legend -->
+                <ul class="inline-list right">
+                  <li class="calendar-key key-lifechurch">
+                    <figure></figure>
+                    <a href="/watch/">LifeChurch.tv</a>
+                  </li>
+
+                  <li class="calendar-key key-switch">
+                    <figure></figure>
+                    <a href="/kids/#switch">Switch</a>
+                  </li>
+
+                  <li class="calendar-key key-konnect">
+                    <figure></figure>
+                    <a href="/kids/#konnect">Konnect+ / Roots</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- The calendar -->
+            <div class="days-times">
+              <section class="experience">
+
+                <!-- Time Lines -->
+                <div class="day time-lines hide-for-small">
+                  <div class="time time-07-00"><label>7<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-08-00"><label>8<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-09-00"><label>9<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-10-00"><label>10<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-11-00"><label>11<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-12-00"><label>12<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-13-00"><label>1<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-14-00"><label>2<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-15-00"><label>3<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-16-00"><label>4<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-17-00"><label>5<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-18-00"><label>6<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-19-00"><label>7<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-20-00"><label>8<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-21-00"><label>9<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-22-00"><label>10<span>PM</span></label><div class="time-line"></div></div>
+                </div>
+
+                <!-- Saturday Times -->
+                <div class="day saturday">
+                  <ul class="times">
+                    <li class="time duration-240">
+                      <label>Saturdays</label>
+                    </li>
+
+                    {% for time in location.times %}
+                    {% if time.day == 'sat' %}
+                      <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
+                        
+                        <span class="calendar-key key-{{ time.type }} show-for-small">
+                          <figure></figure>
+                        </span>
+                        
+                        <span class="time-box">
+                          <span class="time-box-time">{{ time.title }}</span>
+                          <span class="time-box-duration"> ({{ time.duration }} mins)</span>
+                        </span>
+                      </li>
+                    {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+
+                <!-- Sunday Times -->
+                <div class="day sunday">
+                  <ul class="times">
+                    <li class="time duration-240">
+                      <label>Sundays</label>
+                    </li>
+                    
+                    {% for time in location.times %}
+                    {% if time.day == 'sun' %}
+                      <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
+
+                        <span class="calendar-key key-{{ time.type }} show-for-small">
+                          <figure></figure>
+                        </span>
+
+                        <span class="time-box">
+                          <span class="time-box-time">{{ time.title }}</span>
+                          <span class="time-box-duration"> ({{ time.duration }} mins)</span>
+                        </span>
+                      </li>
+                    {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+
+                <!-- Wednesday Times -->
+                <div class="day wednesday">
+                  <ul class="times">
+                    <li class="time duration-240">
+                      <label>Wednesdays</label>
+                    </li>
+                    
+                    {% for time in location.times %}
+                    {% if time.day == 'wed' %}
+                      <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
+
+                        <span class="calendar-key key-{{ time.type }} show-for-small">
+                          <figure></figure>
+                        </span>
+
+                        <span class="time-box">
+                          <span class="time-box-time">{{ time.title }}</span>
+                          <span class="time-box-duration"> ({{ time.duration }} mins)</span>
+                        </span>
+                      </li>
+                    {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="location-content content-3">
+        <div class="row">
+          <div class="medium-12 columns">
+            <h2>Campus Serving Opportunities</h2>
+
+            <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+              {% for item in site.data.serving %}
+              {% if item.location == "Campus" %}
+              {% capture type %}Serving{% endcapture %}
+              {% include involved-item.html %}
+              {% endif %}
+              {% endfor %}
+            </ul>
+            
+            <h2>Campus LifeMissions</h2>
+              
+            <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+              {% for item in site.data.missions %}
+              {% if item.location == page.location-id %}
+              {% capture type %}Missions{% endcapture %}
+              {% include involved-item.html %}
+              {% endif %}
+              {% endfor %}
+            </ul>
+
+            <h2>Campus LifeGroups</h2>
+            <p>Interested in getting involved in a LifeGroup? This text explains what they are and why you want in.</p>
+            <p><a href="/lifegroups/" class="action">Learn more about LifeGroups <i class="icon icon-arrow-2"></i></a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
     {{ content }}
   </section>
 
+  <!-- Tertiary content -->
   <section class="updates">
     <div class="row">
       <div class="large-12 columns">
