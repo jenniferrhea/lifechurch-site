@@ -135,14 +135,18 @@
       top: -7px;
       margin-left: -10px;
       font-size: 9px;
-      color: #ff7777
+      color: $red;
+    }
+
+    .header-light & .live {
+      color: lighten($red, 30%);
     }
   }
 }
 
 // Set "Live" status on thin watch links
 .page-more .live {
-  color: #ff7777;
+  color: $red;
 
   &:before {
     content: "(";

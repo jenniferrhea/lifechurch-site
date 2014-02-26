@@ -27,12 +27,12 @@
     }
 
     .primary-links .live {
-      color: darken($red, 20%);
+      color: darken($red, 20%) !important;
     }
   }
 
   .section-restore-1 {
-    background: #000 url("/images/giving/restore-bg-1.jpg") no-repeat;
+    background: #000 url("/images/giving/restore-bg-1.jpg") center bottom no-repeat;
     background-size: cover;
     background-position: center;
 
