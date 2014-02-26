@@ -332,6 +332,10 @@
   .button {
     color: #fff !important;
   }
+
+  .tertiary-nav a:before {
+    color: rgba(0,0,0,.2);
+  }
 }
 
 // Page tile

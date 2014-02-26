@@ -17,3 +17,51 @@
     background-size: cover;
     background-position: center;
   }
+
+
+// Restore page section styles
+
+  .page-restore {
+    blockquote cite {
+      color: lighten($red, 20%);
+    }
+
+    .primary-links .live {
+      color: darken($red, 20%);
+    }
+  }
+
+  .section-restore-1 {
+    background: #000 url("/images/giving/restore-bg-1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @media #{$medium-up} {
+      padding-top: 250px;
+      padding-bottom: 50px;
+    }
+
+    @media only screen and (min-height: 620px) {
+      padding-top: 350px;
+      padding-bottom: 80px;
+    }
+  }
+
+  .section-restore-2 {
+    background: #222;
+  }
+
+  .hphoto-restore {
+    @include background-image-2x-jpg('/images/giving/restore-bg-2');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .section-restore-3 {
+    background: #222;
+
+    @media #{$medium-up} {
+      padding-top: 5em;
+      padding-bottom: 4em;
+    }
+  }

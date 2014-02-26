@@ -97,46 +97,83 @@ body {
 }
 
 // Header 1
-h1 {
-  font-weight: 600;
-  margin-top: 25px;
-  margin-bottom: 30px;
 
-  @media #{$small-only} and (orientation: landscape) {
-    // Decrease spacing on landscape mobiles
-    margin-bottom: 10px;
+  h1 {
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+    @media #{$small-only} and (orientation: landscape) {
+      // Decrease spacing on landscape mobiles
+      margin-bottom: 10px;
+    }
   }
-}
+
+  .h1 {
+    @extend h1;
+  }
+
 
 // Header 2
-h2 {
-  font-size:1.6rem;
-  margin-top: 20px !important;
 
-  @media #{$medium-up} {
-    font-size:2.3rem;
-    margin-top: 40px !important;
-    padding-bottom: .3em;
+  h2 {
+    font-size:1.6rem;
+    margin-top: 20px !important;
+
+    @media #{$medium-up} {
+      font-size:2.3rem;
+      margin-top: 40px !important;
+      padding-bottom: .3em;
+    }
   }
-}
+
+  .h2 {
+    @extend h2;
+  }
+
+
+// Header 3
+
+  .h3 {
+    @extend h3;
+  }
+
 
 // Header 4
-h4 {
-  margin-top: .5em;
-}
+
+  h4 {
+    margin-top: .5em;
+  }
+
+  .h4 {
+    @extend h4;
+  }
+
 
 // Header 5
-h5 {
-  font-weight: 300;
-  font-style: italic;
-  color: $gray;
-}
+  
+  h5 {
+    font-weight: 300;
+    font-style: italic;
+    color: $gray;
+  }
+
+  .h5 {
+    @extend h5;
+  }
+
 
 // Header 6
-h6 {
-  margin-top: 10px;
-  font-weight: 600;
-}
+  
+  h6 {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
+  .h6 {
+    @extend h6;
+  }
+
 
 // Rules
 

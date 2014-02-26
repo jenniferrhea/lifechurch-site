@@ -276,6 +276,10 @@
       color: rgba(0,0,0,.2);
     }
 
+    .header-light & a:before {
+      color: rgba(#fff,.5);
+    }
+
     a:first-child:before {
       content: "";
       margin-left: 0;
