@@ -1,0 +1,24 @@
+.chazown {
+
+  .chazown-bg {
+    @include background-image-2x-jpg('/images/chazown/chazown-bg');
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+
+    background-size: 500px auto;
+    padding-bottom: 130px;
+
+    @media #{$medium-up} {
+      background-size: 1255px auto;
+      padding-bottom: 340px;
+    }
+
+    @media #{$small-only} {
+      h1 { margin-top: 0; }
+    }
+  }
+
+
+}

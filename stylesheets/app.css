@@ -7267,11 +7267,11 @@ button.dropdown::before {
 }
 
 /* line 25, ../scss/pages/_giving.scss */
-.page-restore blockquote cite {
+.restore blockquote cite {
   color: #e0646b;
 }
 /* line 29, ../scss/pages/_giving.scss */
-.page-restore .primary-links .live {
+.restore .primary-links .live {
   color: #641418;
 }
 
@@ -7770,4 +7770,34 @@ button.dropdown::before {
 /* line 146, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
+}
+
+/* line 3, ../scss/pages/_chazown.scss */
+.chazown .chazown-bg {
+  background-image: url("/images/chazown/chazown-bg.jpg");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 25px;
+  background-size: 500px auto;
+  padding-bottom: 130px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 3, ../scss/pages/_chazown.scss */
+  .chazown .chazown-bg {
+    background-image: url("/images/chazown/chazown-bg@2x.jpg");
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 3, ../scss/pages/_chazown.scss */
+  .chazown .chazown-bg {
+    background-size: 1255px auto;
+    padding-bottom: 340px;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 19, ../scss/pages/_chazown.scss */
+  .chazown .chazown-bg h1, .chazown .chazown-bg .h1 {
+    margin-top: 0;
+  }
 }
