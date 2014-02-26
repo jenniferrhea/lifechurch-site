@@ -1,15 +1,10 @@
 // LifeGroups page section
 
 .section-lifegroups-top {
-  padding-bottom: 8px;
-  height: 480px;
-
-  @media only screen and (min-height: 620px) {
-    height: 540px;
-  }
-
-  @media only screen and (min-height: 700px) {
-    height: 650px;
+  padding-bottom: 50px;
+  
+  @media only screen and (min-height: 650px) {
+    padding-bottom: 100px;  
   }
 }
 
