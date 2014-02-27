@@ -10,7 +10,7 @@
         {% if page.section == "watch" %}<a href="/watch/">Watch</a>{% endif %}
         {% if page.section == "watch archive" %}<a href="/watch/">Watch</a>{% endif %}
         {% if page.section == "about" %}<a href="/who-we-are/">About</a>{% endif %}
-        {% if page.section == "giving" %}<a href="/giving/">Giving</a>{% endif %}
+        {% if page.section == "giving" %}<a href="/giving/">Giving Opportunities</a>{% endif %}
         {% if page.section == "lifemissions" %}<a href="/lifemissions/">LifeMissions</a>{% endif %}
         <a class="current" href="#">{{ page.title }}</a>
       </nav>
@@ -19,8 +19,8 @@
       {% if page.section == "watch" %}
       <!-- Watch Options -->
       <div class="hide-for-small">
-        <a href="#" 
-           data-dropdown="drop" 
+        <a href="#"
+           data-dropdown="drop"
            class="button tiny dropdown"
            onclick="_gaq.push(['_trackEvent', 'Series', 'Click', 'Resource']);">
            Get Resources
@@ -42,9 +42,9 @@
            class="button inverse white small"
            onclick="_gaq.push(['_trackEvent', 'Giving', 'Click', 'New Give']);">
            Sign up for Giving
-        </a> 
-        <a href="#" 
-           class="button small" 
+        </a>
+        <a href="#"
+           class="button small"
            onclick="_gaq.push(['_trackEvent', 'Giving', 'Click', 'Existing Give']);">
            Log in to Give
         </a>
