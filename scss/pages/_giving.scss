@@ -18,11 +18,24 @@
     background-position: center;
   }
 
-  .giving-main {
+  .giving-main,
+  .giving-ways {
     .button.inverse {
       border-color: rgba(255,255,255,.5);
       color: #fff;
     }
+  }
+
+  .giving-1 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid $red;
+    color: $red;
+    @include border-radius(100px);
+    text-align: center;
+    font-size: rem-calc(23);
+    padding-top: 10px;
+    margin: 0 auto -35px;
   }
 
 
