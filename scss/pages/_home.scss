@@ -1,9 +1,8 @@
 .home {
-  background: #1e1e1e url('/images/home/series-bg.jpg') center top no-repeat;
-  background-size: 480px auto;
+  background: #fff url('/images/home/series-bg.jpg') center top;
 
   @media #{$medium-up} {
-    background-size: 950px auto;
+
   }
 
   h1 {
@@ -14,22 +13,39 @@
 
   .section-first {
     @media #{$medium-up} {
-      padding-bottom: 50px;
+      padding-bottom: 30px;
     }
   }
 
+  .section-first a,
+  .page-footer a,
+  .action {
+    color: #7468b6;
+  }
+
+  .section-first a:hover,
+  .page-footer a:hover,
+  .action:hover,
+  .primary-links a:hover {
+    color: darken(#7468b6, 10%);
+  }
+
+  .primary-links a:hover .more-line {
+    background: darken(#7468b6, 10%) !important;
+  }
+
   .series-art {
-    @include svg-image('/images/home/series-logo');
+    @include background-image-2x-png('/images/home/series-title');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 121px;
-    height: 150px;
+    width: 270px;
+    height: 120px;
     margin: 0 auto 20px;
-    
+
     @media #{$medium-up} {
-      width: 227px;
-      height: 282px;
-      margin: 20px auto 40px;
+      width: 636px;
+      height: 277px;
+      margin: 60px auto 40px;
     }
   }
 }

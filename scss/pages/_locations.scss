@@ -37,6 +37,10 @@
     background: #a4ddf4;
   }
 
+  ul li {
+    margin-bottom: 0;
+  }
+
   // Hide tertiary links from locations page
   @media #{$medium-up} {
     .page-tertiary {
@@ -459,7 +463,7 @@
   background-repeat: no-repeat;
   height: 278px;
   border: 1px solid #ddd;
-  
+
   @media #{$small-only} {
     background-size: 800px auto;
     background-position: 0 -40px;
@@ -768,4 +772,3 @@
   .location-tul .content-1 { @include background-image-2x-png('/locations/assets/campus/tul-map'); }
   .location-wel .content-1 { @include background-image-2x-png('/locations/assets/campus/wel-map'); }
   .location-ykn .content-1 { @include background-image-2x-png('/locations/assets/campus/ykn-map'); }
-  

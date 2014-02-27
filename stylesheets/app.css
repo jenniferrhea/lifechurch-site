@@ -6047,53 +6047,58 @@ button.dropdown::before {
 
 /* line 1, ../scss/pages/_home.scss */
 .home {
-  background: #1e1e1e url("/images/home/series-bg.jpg") center top no-repeat;
-  background-size: 480px auto;
+  background: white url("/images/home/series-bg.jpg") center top;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1, ../scss/pages/_home.scss */
-  .home {
-    background-size: 950px auto;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 9, ../scss/pages/_home.scss */
+  /* line 8, ../scss/pages/_home.scss */
   .home h1, .home .h1 {
     margin-bottom: 15px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 15, ../scss/pages/_home.scss */
+  /* line 14, ../scss/pages/_home.scss */
   .home .section-first {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 }
-/* line 21, ../scss/pages/_home.scss */
+/* line 22, ../scss/pages/_home.scss */
+.home .section-first a,
+.home .page-footer a,
+.home .action {
+  color: #7468b6;
+}
+/* line 29, ../scss/pages/_home.scss */
+.home .section-first a:hover,
+.home .page-footer a:hover,
+.home .action:hover,
+.home .primary-links a:hover {
+  color: #594d9e;
+}
+/* line 33, ../scss/pages/_home.scss */
+.home .primary-links a:hover .more-line {
+  background: #594d9e !important;
+}
+/* line 37, ../scss/pages/_home.scss */
 .home .series-art {
+  background-image: url("/images/home/series-title.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 121px;
-  height: 150px;
+  width: 270px;
+  height: 120px;
   margin: 0 auto 20px;
 }
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .home .series-art {
-  background-image: url('/images/home/series-logo.svg?1390927426');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .home .series-art {
-  background-image: url('/images/home/series-logo.png?1390927430');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .home .series-art {
-  background-image: url('/images/home/series-logo.png?1390927430');
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 37, ../scss/pages/_home.scss */
+  .home .series-art {
+    background-image: url("/images/home/series-title@2x.png");
+  }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 21, ../scss/pages/_home.scss */
+  /* line 37, ../scss/pages/_home.scss */
   .home .series-art {
-    width: 227px;
-    height: 282px;
-    margin: 20px auto 40px;
+    width: 636px;
+    height: 277px;
+    margin: 60px auto 40px;
   }
 }
 
@@ -6225,14 +6230,18 @@ button.dropdown::before {
   overflow: hidden;
   background: #a4ddf4;
 }
+/* line 40, ../scss/pages/_locations.scss */
+.page-locations ul li {
+  margin-bottom: 0;
+}
 @media only screen and (min-width: 40.063em) {
-  /* line 42, ../scss/pages/_locations.scss */
+  /* line 46, ../scss/pages/_locations.scss */
   .page-locations .page-tertiary {
     visibility: hidden;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 49, ../scss/pages/_locations.scss */
+  /* line 53, ../scss/pages/_locations.scss */
   .page-locations .hphoto-small-locations {
     background-color: #a2ddf5;
     background-repeat: no-repeat;
@@ -6254,13 +6263,13 @@ button.dropdown::before {
   }
 }
 @media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 61, ../scss/pages/_locations.scss */
+  /* line 65, ../scss/pages/_locations.scss */
   .page-locations .hphoto-small-locations {
     height: 70px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 70, ../scss/pages/_locations.scss */
+  /* line 74, ../scss/pages/_locations.scss */
   .page-locations .page-main {
     height: 170px;
     margin-top: 220px;
@@ -6268,18 +6277,18 @@ button.dropdown::before {
     z-index: 2;
     overflow: hidden;
   }
-  /* line 79, ../scss/pages/_locations.scss */
+  /* line 83, ../scss/pages/_locations.scss */
   .page-locations .page-footer {
     background: #fff;
     position: relative;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
-  /* line 84, ../scss/pages/_locations.scss */
+  /* line 88, ../scss/pages/_locations.scss */
   .page-locations .page-footer .columns {
     margin-top: 0;
     border: none;
   }
-  /* line 91, ../scss/pages/_locations.scss */
+  /* line 95, ../scss/pages/_locations.scss */
   .page-locations .map {
     background-color: #a2ddf5;
     background-repeat: no-repeat;
@@ -6310,35 +6319,35 @@ button.dropdown::before {
   .no-js .page-locations .map {
     background-image: url(/locations/assets/map.png);
   }
-  /* line 106, ../scss/pages/_locations.scss */
+  /* line 110, ../scss/pages/_locations.scss */
   .page-locations .map-ok {
     background-size: auto 2400px;
     background-position: center -1050px;
   }
-  /* line 112, ../scss/pages/_locations.scss */
+  /* line 116, ../scss/pages/_locations.scss */
   .page-locations .map-tx {
     background-size: auto 2400px;
     background-position: center -1250px;
   }
-  /* line 118, ../scss/pages/_locations.scss */
+  /* line 122, ../scss/pages/_locations.scss */
   .page-locations .no-backgroundsize .map {
     background: url("/locations/assets/map-1.jpg") center top no-repeat !important;
   }
-  /* line 123, ../scss/pages/_locations.scss */
+  /* line 127, ../scss/pages/_locations.scss */
   .page-locations .no-backgroundsize .map-ok {
     background: url("/locations/assets/map-2.jpg") center top no-repeat !important;
   }
-  /* line 128, ../scss/pages/_locations.scss */
+  /* line 132, ../scss/pages/_locations.scss */
   .page-locations .no-backgroundsize .map-tx {
     background: url("/locations/assets/map-3.jpg") center top no-repeat !important;
   }
-  /* line 133, ../scss/pages/_locations.scss */
+  /* line 137, ../scss/pages/_locations.scss */
   .page-locations .map-back {
     position: relative;
     z-index: 6;
     top: 80px;
   }
-  /* line 140, ../scss/pages/_locations.scss */
+  /* line 144, ../scss/pages/_locations.scss */
   .page-locations .map-list {
     background: #fff;
     position: absolute;
@@ -6362,13 +6371,13 @@ button.dropdown::before {
     -o-transition-duration: 1s;
     transition-duration: 1s;
   }
-  /* line 153, ../scss/pages/_locations.scss */
+  /* line 157, ../scss/pages/_locations.scss */
   .page-locations .map-list-okc {
     left: 50%;
     top: 140px;
     margin-left: -240px;
   }
-  /* line 158, ../scss/pages/_locations.scss */
+  /* line 162, ../scss/pages/_locations.scss */
   .page-locations .map-list-okc:after {
     content: "";
     display: block;
@@ -6381,13 +6390,13 @@ button.dropdown::before {
     border-bottom: 10px solid transparent;
     border-left: 10px solid #fff;
   }
-  /* line 173, ../scss/pages/_locations.scss */
+  /* line 177, ../scss/pages/_locations.scss */
   .page-locations .map-list-tulsa {
     left: 50%;
     top: 140px;
     margin-left: 80px;
   }
-  /* line 178, ../scss/pages/_locations.scss */
+  /* line 182, ../scss/pages/_locations.scss */
   .page-locations .map-list-tulsa:after {
     content: "";
     display: block;
@@ -6400,13 +6409,13 @@ button.dropdown::before {
     border-bottom: 10px solid transparent;
     border-right: 10px solid #fff;
   }
-  /* line 193, ../scss/pages/_locations.scss */
+  /* line 197, ../scss/pages/_locations.scss */
   .page-locations .map-list-stillwater {
     left: 50%;
     top: 230px;
     margin-left: -40px;
   }
-  /* line 198, ../scss/pages/_locations.scss */
+  /* line 202, ../scss/pages/_locations.scss */
   .page-locations .map-list-stillwater:after {
     content: "";
     display: block;
@@ -6420,7 +6429,7 @@ button.dropdown::before {
     border-left: 10px solid transparent;
     border-bottom: 10px solid #fff;
   }
-  /* line 214, ../scss/pages/_locations.scss */
+  /* line 218, ../scss/pages/_locations.scss */
   .page-locations .pin {
     left: 50%;
     right: 0;
@@ -6435,69 +6444,69 @@ button.dropdown::before {
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s;
   }
-  /* line 224, ../scss/pages/_locations.scss */
+  /* line 228, ../scss/pages/_locations.scss */
   .page-locations .pin-fl {
     color: #4ea6c9;
   }
-  /* line 231, ../scss/pages/_locations.scss */
+  /* line 235, ../scss/pages/_locations.scss */
   .page-locations .pin-state:hover,
   .page-locations .pin-kellar:hover,
   .page-locations .pin-fortworth:hover {
     background-position: center 5px;
   }
-  /* line 237, ../scss/pages/_locations.scss */
+  /* line 241, ../scss/pages/_locations.scss */
   .page-locations .pin-ok {
     margin-left: -40px;
     top: 300px;
   }
-  /* line 242, ../scss/pages/_locations.scss */
+  /* line 246, ../scss/pages/_locations.scss */
   .page-locations .pin-tx {
     margin-left: -60px;
     top: 360px;
   }
-  /* line 247, ../scss/pages/_locations.scss */
+  /* line 251, ../scss/pages/_locations.scss */
   .page-locations .pin-tn {
     margin-left: 150px;
     top: 285px;
   }
-  /* line 252, ../scss/pages/_locations.scss */
+  /* line 256, ../scss/pages/_locations.scss */
   .page-locations .pin-fl {
     margin-left: 235px;
     top: 465px;
   }
-  /* line 257, ../scss/pages/_locations.scss */
+  /* line 261, ../scss/pages/_locations.scss */
   .page-locations .pin-ny {
     margin-left: 335px;
     top: 160px;
   }
-  /* line 262, ../scss/pages/_locations.scss */
+  /* line 266, ../scss/pages/_locations.scss */
   .page-locations .pin-okc {
     margin-left: -75px;
     top: 190px;
   }
-  /* line 267, ../scss/pages/_locations.scss */
+  /* line 271, ../scss/pages/_locations.scss */
   .page-locations .pin-tulsa {
     margin-left: 35px;
     top: 160px;
   }
-  /* line 272, ../scss/pages/_locations.scss */
+  /* line 276, ../scss/pages/_locations.scss */
   .page-locations .pin-stillwater {
     margin-left: -22px;
     top: 180px;
   }
-  /* line 277, ../scss/pages/_locations.scss */
+  /* line 281, ../scss/pages/_locations.scss */
   .page-locations .pin-kellar {
     margin-left: -70px;
     top: 240px;
   }
-  /* line 282, ../scss/pages/_locations.scss */
+  /* line 286, ../scss/pages/_locations.scss */
   .page-locations .pin-fortworth {
     margin-left: -40px;
     top: 200px;
   }
 }
 
-/* line 294, ../scss/pages/_locations.scss */
+/* line 298, ../scss/pages/_locations.scss */
 .locations-hero {
   background: url("http://placekitten.com/1000/620");
   background-size: cover;
@@ -6505,21 +6514,21 @@ button.dropdown::before {
   padding-bottom: 200px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 294, ../scss/pages/_locations.scss */
+  /* line 298, ../scss/pages/_locations.scss */
   .locations-hero {
     padding-top: 180px;
     padding-bottom: 130px;
   }
 }
 @media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 294, ../scss/pages/_locations.scss */
+  /* line 298, ../scss/pages/_locations.scss */
   .locations-hero {
     padding-top: 130px;
     padding-bottom: 100px;
   }
 }
 
-/* line 312, ../scss/pages/_locations.scss */
+/* line 316, ../scss/pages/_locations.scss */
 .tiles {
   margin-top: -111px;
   max-width: 1200px;
@@ -6527,30 +6536,30 @@ button.dropdown::before {
   margin-right: auto;
 }
 
-/* line 320, ../scss/pages/_locations.scss */
+/* line 324, ../scss/pages/_locations.scss */
 .section-locations .page-tertiary {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 @media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 320, ../scss/pages/_locations.scss */
+  /* line 324, ../scss/pages/_locations.scss */
   .section-locations .page-tertiary {
     border-bottom: none;
   }
 }
-/* line 328, ../scss/pages/_locations.scss */
+/* line 332, ../scss/pages/_locations.scss */
 .section-locations .page-tertiary a {
   color: #333333 !important;
 }
-/* line 332, ../scss/pages/_locations.scss */
+/* line 336, ../scss/pages/_locations.scss */
 .section-locations .page-tertiary .button {
   color: #fff !important;
 }
-/* line 336, ../scss/pages/_locations.scss */
+/* line 340, ../scss/pages/_locations.scss */
 .section-locations .page-tertiary .tertiary-nav a:before {
   color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 342, ../scss/pages/_locations.scss */
+/* line 346, ../scss/pages/_locations.scss */
 .location-tile {
   text-align: center;
   padding: 35px 0;
@@ -6573,16 +6582,16 @@ button.dropdown::before {
   position: relative;
   z-index: 2;
 }
-/* line 360, ../scss/pages/_locations.scss */
+/* line 364, ../scss/pages/_locations.scss */
 .location-tile span {
   position: relative;
   z-index: 2;
 }
-/* line 366, ../scss/pages/_locations.scss */
+/* line 370, ../scss/pages/_locations.scss */
 .location-tile:hover {
   color: #fff;
 }
-/* line 369, ../scss/pages/_locations.scss */
+/* line 373, ../scss/pages/_locations.scss */
 .location-tile:after {
   content: "";
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(60%, rgba(255, 255, 255, 0.2)));
@@ -6606,29 +6615,29 @@ button.dropdown::before {
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 385, ../scss/pages/_locations.scss */
+/* line 389, ../scss/pages/_locations.scss */
 .location-tile.tile-active:after, .location-tile:hover:after {
   opacity: 1;
 }
 
-/* line 391, ../scss/pages/_locations.scss */
+/* line 395, ../scss/pages/_locations.scss */
 .tile-1 {
   border-left: 1px solid #fff;
   border-top: 1px solid #fff;
 }
 
-/* line 397, ../scss/pages/_locations.scss */
+/* line 401, ../scss/pages/_locations.scss */
 .tile-2 {
   border-top: 1px solid #fff;
 }
 
-/* line 402, ../scss/pages/_locations.scss */
+/* line 406, ../scss/pages/_locations.scss */
 .tile-3 {
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
 }
 
-/* line 408, ../scss/pages/_locations.scss */
+/* line 412, ../scss/pages/_locations.scss */
 .tile-active {
   border-bottom: 0;
   background: #fdfdfd !important;
@@ -6636,19 +6645,19 @@ button.dropdown::before {
   opacity: 1;
   color: #333333;
 }
-/* line 415, ../scss/pages/_locations.scss */
+/* line 419, ../scss/pages/_locations.scss */
 .tile-active:hover {
   color: #333333;
 }
 
-/* line 421, ../scss/pages/_locations.scss */
+/* line 425, ../scss/pages/_locations.scss */
 .location-content-wrapper {
   position: relative;
   float: left;
   width: 100%;
 }
 
-/* line 428, ../scss/pages/_locations.scss */
+/* line 432, ../scss/pages/_locations.scss */
 .location-content {
   float: left;
   width: 99.8%;
@@ -6658,23 +6667,23 @@ button.dropdown::before {
   margin-bottom: 40px;
 }
 
-/* line 438, ../scss/pages/_locations.scss */
+/* line 442, ../scss/pages/_locations.scss */
 .content-active {
   z-index: 1;
   position: relative;
 }
 
-/* line 444, ../scss/pages/_locations.scss */
+/* line 448, ../scss/pages/_locations.scss */
 .content-2 {
   background: #fdfdfd;
 }
 
-/* line 449, ../scss/pages/_locations.scss */
+/* line 453, ../scss/pages/_locations.scss */
 .content-3 {
   background: #fdfdfd;
 }
 
-/* line 455, ../scss/pages/_locations.scss */
+/* line 459, ../scss/pages/_locations.scss */
 .content-1 {
   background-color: #fff;
   background-size: 1196px 398px;
@@ -6684,33 +6693,33 @@ button.dropdown::before {
   border: 1px solid #ddd;
 }
 @media only screen and (max-width: 40em) {
-  /* line 455, ../scss/pages/_locations.scss */
+  /* line 459, ../scss/pages/_locations.scss */
   .content-1 {
     background-size: 800px auto;
     background-position: 0 -40px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 455, ../scss/pages/_locations.scss */
+  /* line 459, ../scss/pages/_locations.scss */
   .content-1 {
     height: 400px;
     margin-top: 40px;
   }
 }
-/* line 473, ../scss/pages/_locations.scss */
+/* line 477, ../scss/pages/_locations.scss */
 .content-1 .pin {
   top: 70px;
   left: 70px;
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 473, ../scss/pages/_locations.scss */
+  /* line 477, ../scss/pages/_locations.scss */
   .content-1 .pin {
     top: 180px;
     left: 110px;
   }
 }
-/* line 484, ../scss/pages/_locations.scss */
+/* line 488, ../scss/pages/_locations.scss */
 .content-1 .address {
   background: #333333;
   color: #fff;
@@ -6720,7 +6729,7 @@ button.dropdown::before {
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 484, ../scss/pages/_locations.scss */
+  /* line 488, ../scss/pages/_locations.scss */
   .content-1 .address {
     width: 250px;
     top: 165px;
@@ -6732,7 +6741,7 @@ button.dropdown::before {
     -o-border-radius: 6px;
     border-radius: 6px;
   }
-  /* line 499, ../scss/pages/_locations.scss */
+  /* line 503, ../scss/pages/_locations.scss */
   .content-1 .address:after {
     content: "";
     display: block;
@@ -6748,16 +6757,16 @@ button.dropdown::before {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 520, ../scss/pages/_locations.scss */
+  /* line 524, ../scss/pages/_locations.scss */
   .calendar-key {
     margin-top: 55px;
   }
 }
-/* line 527, ../scss/pages/_locations.scss */
+/* line 531, ../scss/pages/_locations.scss */
 .calendar-key a {
   float: left;
 }
-/* line 531, ../scss/pages/_locations.scss */
+/* line 535, ../scss/pages/_locations.scss */
 .calendar-key figure {
   width: 20px;
   height: 20px;
@@ -6769,72 +6778,72 @@ button.dropdown::before {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 539, ../scss/pages/_locations.scss */
+/* line 543, ../scss/pages/_locations.scss */
 .calendar-key.key-lifechurch figure {
   background: #e98f93;
   border: 1px solid #e0646b;
 }
-/* line 544, ../scss/pages/_locations.scss */
+/* line 548, ../scss/pages/_locations.scss */
 .calendar-key.key-switch figure {
   background: #0ea9d6;
   border: 1px solid #0b83a6;
 }
-/* line 549, ../scss/pages/_locations.scss */
+/* line 553, ../scss/pages/_locations.scss */
 .calendar-key.key-konnect figure {
   background: #e7e7e7;
   border: 1px solid #cecece;
 }
 
-/* line 561, ../scss/pages/_locations.scss */
+/* line 565, ../scss/pages/_locations.scss */
 .times {
   list-style: none;
   margin-left: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 567, ../scss/pages/_locations.scss */
+  /* line 571, ../scss/pages/_locations.scss */
   .days-times {
     border: 1px solid #bbb;
     background: #fff;
     position: relative;
     width: 100%;
   }
-  /* line 573, ../scss/pages/_locations.scss */
+  /* line 577, ../scss/pages/_locations.scss */
   .days-times h4, .days-times .h4, .days-times .location-tile, .days-times .lifegroups-tile span, .lifegroups-tile .days-times span {
     display: none;
   }
-  /* line 578, ../scss/pages/_locations.scss */
+  /* line 582, ../scss/pages/_locations.scss */
   .days-times .day {
     height: 40px;
     width: 100%;
     background: #fff;
   }
-  /* line 583, ../scss/pages/_locations.scss */
+  /* line 587, ../scss/pages/_locations.scss */
   .days-times .day:nth-child(even) {
     background: #f9f9f9 !important;
   }
-  /* line 589, ../scss/pages/_locations.scss */
+  /* line 593, ../scss/pages/_locations.scss */
   .days-times .times {
     padding: 0;
     margin: 0;
     position: relative;
   }
-  /* line 595, ../scss/pages/_locations.scss */
+  /* line 599, ../scss/pages/_locations.scss */
   .days-times .times label {
     margin-left: 10px;
   }
-  /* line 601, ../scss/pages/_locations.scss */
+  /* line 605, ../scss/pages/_locations.scss */
   .days-times .time {
     height: 40px;
     width: 5%;
     position: absolute;
     overflow: hidden;
   }
-  /* line 607, ../scss/pages/_locations.scss */
+  /* line 611, ../scss/pages/_locations.scss */
   .days-times .time label span {
     display: none;
   }
-  /* line 611, ../scss/pages/_locations.scss */
+  /* line 615, ../scss/pages/_locations.scss */
   .days-times .time .time-box {
     display: block;
     width: 100%;
@@ -6848,201 +6857,201 @@ button.dropdown::before {
     border: 1px solid #999;
     font-size: 0.6875rem;
   }
-  /* line 622, ../scss/pages/_locations.scss */
+  /* line 626, ../scss/pages/_locations.scss */
   .days-times .time .time-box .time-box-time-label,
   .days-times .time .time-box .time-box-duration,
   .days-times .time .time-box .time-box-duration-label {
     display: none;
   }
-  /* line 626, ../scss/pages/_locations.scss */
+  /* line 630, ../scss/pages/_locations.scss */
   .days-times .time .time-box .time-box-time {
     margin: 0px 0 0 4px;
   }
-  /* line 631, ../scss/pages/_locations.scss */
+  /* line 635, ../scss/pages/_locations.scss */
   .days-times .time.type-lifechurch .time-box {
     background: #e98f93;
     border: 1px solid #e0646b;
     color: #b9252d;
   }
-  /* line 637, ../scss/pages/_locations.scss */
+  /* line 641, ../scss/pages/_locations.scss */
   .days-times .time.type-switch .time-box {
     background: #0ea9d6;
     border: 1px solid #0b83a6;
     color: #085d76;
   }
-  /* line 643, ../scss/pages/_locations.scss */
+  /* line 647, ../scss/pages/_locations.scss */
   .days-times .time.type-konnect .time-box {
     background: #e7e7e7;
     border: 1px solid #cecece;
     color: #818181;
   }
-  /* line 650, ../scss/pages/_locations.scss */
+  /* line 654, ../scss/pages/_locations.scss */
   .days-times .time-07-00 {
     left: 20%;
   }
-  /* line 651, ../scss/pages/_locations.scss */
+  /* line 655, ../scss/pages/_locations.scss */
   .days-times .time-07-30 {
     left: 22.5%;
   }
-  /* line 652, ../scss/pages/_locations.scss */
+  /* line 656, ../scss/pages/_locations.scss */
   .days-times .time-08-00 {
     left: 25%;
   }
-  /* line 653, ../scss/pages/_locations.scss */
+  /* line 657, ../scss/pages/_locations.scss */
   .days-times .time-08-30 {
     left: 27.5%;
   }
-  /* line 654, ../scss/pages/_locations.scss */
+  /* line 658, ../scss/pages/_locations.scss */
   .days-times .time-09-00 {
     left: 30%;
   }
-  /* line 655, ../scss/pages/_locations.scss */
+  /* line 659, ../scss/pages/_locations.scss */
   .days-times .time-09-30 {
     left: 32.5%;
   }
-  /* line 656, ../scss/pages/_locations.scss */
+  /* line 660, ../scss/pages/_locations.scss */
   .days-times .time-10-00 {
     left: 35%;
   }
-  /* line 657, ../scss/pages/_locations.scss */
+  /* line 661, ../scss/pages/_locations.scss */
   .days-times .time-10-30 {
     left: 37.5%;
   }
-  /* line 658, ../scss/pages/_locations.scss */
+  /* line 662, ../scss/pages/_locations.scss */
   .days-times .time-11-00 {
     left: 40%;
   }
-  /* line 659, ../scss/pages/_locations.scss */
+  /* line 663, ../scss/pages/_locations.scss */
   .days-times .time-11-30 {
     left: 42.5%;
   }
-  /* line 660, ../scss/pages/_locations.scss */
+  /* line 664, ../scss/pages/_locations.scss */
   .days-times .time-12-00 {
     left: 45%;
   }
-  /* line 661, ../scss/pages/_locations.scss */
+  /* line 665, ../scss/pages/_locations.scss */
   .days-times .time-12-30 {
     left: 47.5%;
   }
-  /* line 662, ../scss/pages/_locations.scss */
+  /* line 666, ../scss/pages/_locations.scss */
   .days-times .time-13-00 {
     left: 50%;
   }
-  /* line 663, ../scss/pages/_locations.scss */
+  /* line 667, ../scss/pages/_locations.scss */
   .days-times .time-13-30 {
     left: 52.5%;
   }
-  /* line 664, ../scss/pages/_locations.scss */
+  /* line 668, ../scss/pages/_locations.scss */
   .days-times .time-14-00 {
     left: 55%;
   }
-  /* line 665, ../scss/pages/_locations.scss */
+  /* line 669, ../scss/pages/_locations.scss */
   .days-times .time-14-30 {
     left: 57.5%;
   }
-  /* line 666, ../scss/pages/_locations.scss */
+  /* line 670, ../scss/pages/_locations.scss */
   .days-times .time-15-00 {
     left: 60%;
   }
-  /* line 667, ../scss/pages/_locations.scss */
+  /* line 671, ../scss/pages/_locations.scss */
   .days-times .time-15-30 {
     left: 62.5%;
   }
-  /* line 668, ../scss/pages/_locations.scss */
+  /* line 672, ../scss/pages/_locations.scss */
   .days-times .time-16-00 {
     left: 65%;
   }
-  /* line 669, ../scss/pages/_locations.scss */
+  /* line 673, ../scss/pages/_locations.scss */
   .days-times .time-16-30 {
     left: 67.5%;
   }
-  /* line 670, ../scss/pages/_locations.scss */
+  /* line 674, ../scss/pages/_locations.scss */
   .days-times .time-17-00 {
     left: 70%;
   }
-  /* line 671, ../scss/pages/_locations.scss */
+  /* line 675, ../scss/pages/_locations.scss */
   .days-times .time-17-30 {
     left: 72.5%;
   }
-  /* line 672, ../scss/pages/_locations.scss */
+  /* line 676, ../scss/pages/_locations.scss */
   .days-times .time-18-00 {
     left: 75%;
   }
-  /* line 673, ../scss/pages/_locations.scss */
+  /* line 677, ../scss/pages/_locations.scss */
   .days-times .time-18-30 {
     left: 77.5%;
   }
-  /* line 674, ../scss/pages/_locations.scss */
+  /* line 678, ../scss/pages/_locations.scss */
   .days-times .time-19-00 {
     left: 80%;
   }
-  /* line 675, ../scss/pages/_locations.scss */
+  /* line 679, ../scss/pages/_locations.scss */
   .days-times .time-19-30 {
     left: 82.5%;
   }
-  /* line 676, ../scss/pages/_locations.scss */
+  /* line 680, ../scss/pages/_locations.scss */
   .days-times .time-20-00 {
     left: 85%;
   }
-  /* line 677, ../scss/pages/_locations.scss */
+  /* line 681, ../scss/pages/_locations.scss */
   .days-times .time-20-30 {
     left: 87.5%;
   }
-  /* line 678, ../scss/pages/_locations.scss */
+  /* line 682, ../scss/pages/_locations.scss */
   .days-times .time-21-00 {
     left: 90%;
   }
-  /* line 679, ../scss/pages/_locations.scss */
+  /* line 683, ../scss/pages/_locations.scss */
   .days-times .time-21-30 {
     left: 92.5%;
   }
-  /* line 680, ../scss/pages/_locations.scss */
+  /* line 684, ../scss/pages/_locations.scss */
   .days-times .time-22-00 {
     left: 95%;
   }
-  /* line 682, ../scss/pages/_locations.scss */
+  /* line 686, ../scss/pages/_locations.scss */
   .days-times .overlap {
     margin-top: 40px;
   }
-  /* line 686, ../scss/pages/_locations.scss */
+  /* line 690, ../scss/pages/_locations.scss */
   .days-times .overlap-2 {
     margin-top: 80px;
   }
-  /* line 690, ../scss/pages/_locations.scss */
+  /* line 694, ../scss/pages/_locations.scss */
   .days-times .rows-2 {
     height: 80px;
   }
-  /* line 694, ../scss/pages/_locations.scss */
+  /* line 698, ../scss/pages/_locations.scss */
   .days-times .rows-3 {
     height: 120px;
   }
-  /* line 699, ../scss/pages/_locations.scss */
+  /* line 703, ../scss/pages/_locations.scss */
   .days-times .duration-60 {
     width: 5%;
   }
-  /* line 704, ../scss/pages/_locations.scss */
+  /* line 708, ../scss/pages/_locations.scss */
   .days-times .duration-120 {
     width: 10%;
   }
-  /* line 709, ../scss/pages/_locations.scss */
+  /* line 713, ../scss/pages/_locations.scss */
   .days-times .duration-180 {
     width: 15%;
   }
-  /* line 714, ../scss/pages/_locations.scss */
+  /* line 718, ../scss/pages/_locations.scss */
   .days-times .duration-240 {
     width: 20%;
   }
-  /* line 718, ../scss/pages/_locations.scss */
+  /* line 722, ../scss/pages/_locations.scss */
   .days-times .time-lines .time {
     height: 100%;
   }
-  /* line 721, ../scss/pages/_locations.scss */
+  /* line 725, ../scss/pages/_locations.scss */
   .days-times .time-lines .time .time-line {
     margin-top: 40px;
     border-left: 1px solid #ccc;
     height: 100%;
   }
-  /* line 727, ../scss/pages/_locations.scss */
+  /* line 731, ../scss/pages/_locations.scss */
   .days-times .time-lines .time label {
     margin: 0;
     width: 100%;
@@ -7054,204 +7063,204 @@ button.dropdown::before {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 744, ../scss/pages/_locations.scss */
+  /* line 748, ../scss/pages/_locations.scss */
   .days-times .time label span {
     display: inline;
   }
 }
-/* line 753, ../scss/pages/_locations.scss */
+/* line 757, ../scss/pages/_locations.scss */
 .location-alb .content-1 {
   background-image: url("/locations/assets/campus/alb-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 753, ../scss/pages/_locations.scss */
+  /* line 757, ../scss/pages/_locations.scss */
   .location-alb .content-1 {
     background-image: url("/locations/assets/campus/alb-map@2x.png");
   }
 }
 
-/* line 754, ../scss/pages/_locations.scss */
+/* line 758, ../scss/pages/_locations.scss */
 .location-bao .content-1 {
   background-image: url("/locations/assets/campus/bao-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 754, ../scss/pages/_locations.scss */
+  /* line 758, ../scss/pages/_locations.scss */
   .location-bao .content-1 {
     background-image: url("/locations/assets/campus/bao-map@2x.png");
   }
 }
 
-/* line 755, ../scss/pages/_locations.scss */
+/* line 759, ../scss/pages/_locations.scss */
 .location-edm .content-1 {
   background-image: url("/locations/assets/campus/edm-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 755, ../scss/pages/_locations.scss */
+  /* line 759, ../scss/pages/_locations.scss */
   .location-edm .content-1 {
     background-image: url("/locations/assets/campus/edm-map@2x.png");
   }
 }
 
-/* line 756, ../scss/pages/_locations.scss */
+/* line 760, ../scss/pages/_locations.scss */
 .location-ftw .content-1 {
   background-image: url("/locations/assets/campus/ftw-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 756, ../scss/pages/_locations.scss */
+  /* line 760, ../scss/pages/_locations.scss */
   .location-ftw .content-1 {
     background-image: url("/locations/assets/campus/ftw-map@2x.png");
   }
 }
 
-/* line 757, ../scss/pages/_locations.scss */
+/* line 761, ../scss/pages/_locations.scss */
 .location-hnv .content-1 {
   background-image: url("/locations/assets/campus/hnv-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 757, ../scss/pages/_locations.scss */
+  /* line 761, ../scss/pages/_locations.scss */
   .location-hnv .content-1 {
     background-image: url("/locations/assets/campus/hnv-map@2x.png");
   }
 }
 
-/* line 758, ../scss/pages/_locations.scss */
+/* line 762, ../scss/pages/_locations.scss */
 .location-jnk .content-1 {
   background-image: url("/locations/assets/campus/jnk-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 758, ../scss/pages/_locations.scss */
+  /* line 762, ../scss/pages/_locations.scss */
   .location-jnk .content-1 {
     background-image: url("/locations/assets/campus/jnk-map@2x.png");
   }
 }
 
-/* line 759, ../scss/pages/_locations.scss */
+/* line 763, ../scss/pages/_locations.scss */
 .location-klr .content-1 {
   background-image: url("/locations/assets/campus/klr-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 759, ../scss/pages/_locations.scss */
+  /* line 763, ../scss/pages/_locations.scss */
   .location-klr .content-1 {
     background-image: url("/locations/assets/campus/klr-map@2x.png");
   }
 }
 
-/* line 760, ../scss/pages/_locations.scss */
+/* line 764, ../scss/pages/_locations.scss */
 .location-mor .content-1 {
   background-image: url("/locations/assets/campus/mor-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 760, ../scss/pages/_locations.scss */
+  /* line 764, ../scss/pages/_locations.scss */
   .location-mor .content-1 {
     background-image: url("/locations/assets/campus/mor-map@2x.png");
   }
 }
 
-/* line 761, ../scss/pages/_locations.scss */
+/* line 765, ../scss/pages/_locations.scss */
 .location-mwc .content-1 {
   background-image: url("/locations/assets/campus/mwc-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 761, ../scss/pages/_locations.scss */
+  /* line 765, ../scss/pages/_locations.scss */
   .location-mwc .content-1 {
     background-image: url("/locations/assets/campus/mwc-map@2x.png");
   }
 }
 
-/* line 762, ../scss/pages/_locations.scss */
+/* line 766, ../scss/pages/_locations.scss */
 .location-noc .content-1 {
   background-image: url("/locations/assets/campus/noc-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 762, ../scss/pages/_locations.scss */
+  /* line 766, ../scss/pages/_locations.scss */
   .location-noc .content-1 {
     background-image: url("/locations/assets/campus/noc-map@2x.png");
   }
 }
 
-/* line 763, ../scss/pages/_locations.scss */
+/* line 767, ../scss/pages/_locations.scss */
 .location-okc .content-1 {
   background-image: url("/locations/assets/campus/okc-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 763, ../scss/pages/_locations.scss */
+  /* line 767, ../scss/pages/_locations.scss */
   .location-okc .content-1 {
     background-image: url("/locations/assets/campus/okc-map@2x.png");
   }
 }
 
-/* line 764, ../scss/pages/_locations.scss */
+/* line 768, ../scss/pages/_locations.scss */
 .location-ows .content-1 {
   background-image: url("/locations/assets/campus/ows-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 764, ../scss/pages/_locations.scss */
+  /* line 768, ../scss/pages/_locations.scss */
   .location-ows .content-1 {
     background-image: url("/locations/assets/campus/ows-map@2x.png");
   }
 }
 
-/* line 765, ../scss/pages/_locations.scss */
+/* line 769, ../scss/pages/_locations.scss */
 .location-soc .content-1 {
   background-image: url("/locations/assets/campus/soc-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 765, ../scss/pages/_locations.scss */
+  /* line 769, ../scss/pages/_locations.scss */
   .location-soc .content-1 {
     background-image: url("/locations/assets/campus/soc-map@2x.png");
   }
 }
 
-/* line 766, ../scss/pages/_locations.scss */
+/* line 770, ../scss/pages/_locations.scss */
 .location-stu .content-1 {
   background-image: url("/locations/assets/campus/stu-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 766, ../scss/pages/_locations.scss */
+  /* line 770, ../scss/pages/_locations.scss */
   .location-stu .content-1 {
     background-image: url("/locations/assets/campus/stu-map@2x.png");
   }
 }
 
-/* line 767, ../scss/pages/_locations.scss */
+/* line 771, ../scss/pages/_locations.scss */
 .location-stw .content-1 {
   background-image: url("/locations/assets/campus/stw-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 767, ../scss/pages/_locations.scss */
+  /* line 771, ../scss/pages/_locations.scss */
   .location-stw .content-1 {
     background-image: url("/locations/assets/campus/stw-map@2x.png");
   }
 }
 
-/* line 768, ../scss/pages/_locations.scss */
+/* line 772, ../scss/pages/_locations.scss */
 .location-tul .content-1 {
   background-image: url("/locations/assets/campus/tul-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 768, ../scss/pages/_locations.scss */
+  /* line 772, ../scss/pages/_locations.scss */
   .location-tul .content-1 {
     background-image: url("/locations/assets/campus/tul-map@2x.png");
   }
 }
 
-/* line 769, ../scss/pages/_locations.scss */
+/* line 773, ../scss/pages/_locations.scss */
 .location-wel .content-1 {
   background-image: url("/locations/assets/campus/wel-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 769, ../scss/pages/_locations.scss */
+  /* line 773, ../scss/pages/_locations.scss */
   .location-wel .content-1 {
     background-image: url("/locations/assets/campus/wel-map@2x.png");
   }
 }
 
-/* line 770, ../scss/pages/_locations.scss */
+/* line 774, ../scss/pages/_locations.scss */
 .location-ykn .content-1 {
   background-image: url("/locations/assets/campus/ykn-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 770, ../scss/pages/_locations.scss */
+  /* line 774, ../scss/pages/_locations.scss */
   .location-ykn .content-1 {
     background-image: url("/locations/assets/campus/ykn-map@2x.png");
   }
