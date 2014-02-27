@@ -29,7 +29,7 @@
 
 
 // Hover type colors
-  
+
   a.text-primary:hover {
     color: darken($primary-color, 20%) !important;
   }
@@ -151,7 +151,7 @@ body {
 
 
 // Header 5
-  
+
   h5 {
     font-weight: 300;
     font-style: italic;
@@ -164,7 +164,7 @@ body {
 
 
 // Header 6
-  
+
   h6 {
     margin-top: 10px;
     font-weight: 600;
@@ -311,6 +311,13 @@ p {
 // Smaller paragraph
 .detail {
   font-size: rem-calc(15);
+}
+
+// List items
+ul li {
+  @extend p;
+  @extend .detail;
+  margin-bottom: 10px;
 }
 
 // Tertiary links serif type

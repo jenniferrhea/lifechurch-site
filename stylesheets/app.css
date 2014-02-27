@@ -3566,7 +3566,7 @@ label.error {
   margin-bottom: 0;
 }
 /* line 54, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel .h1, .panel h2, .panel .h2, .panel h3, .panel .h3, .panel h4, .panel .h4, .panel .location-tile, .panel .lifegroups-tile span, .lifegroups-tile .panel span, .panel h5, .panel .h5, .panel h6, .panel .h6, .panel label, .panel p {
+.panel h1, .panel .h1, .panel h2, .panel .h2, .panel h3, .panel .h3, .panel h4, .panel .h4, .panel .location-tile, .panel .lifegroups-tile span, .lifegroups-tile .panel span, .panel h5, .panel .h5, .panel h6, .panel .h6, .panel label, .panel p, .panel ul li, ul .panel li {
   color: #333333;
 }
 /* line 58, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -3596,7 +3596,7 @@ label.error {
   margin-bottom: 0;
 }
 /* line 54, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout .h1, .panel.callout h2, .panel.callout .h2, .panel.callout h3, .panel.callout .h3, .panel.callout h4, .panel.callout .h4, .panel.callout .location-tile, .panel.callout .lifegroups-tile span, .lifegroups-tile .panel.callout span, .panel.callout h5, .panel.callout .h5, .panel.callout h6, .panel.callout .h6, .panel.callout label, .panel.callout p {
+.panel.callout h1, .panel.callout .h1, .panel.callout h2, .panel.callout .h2, .panel.callout h3, .panel.callout .h3, .panel.callout h4, .panel.callout .h4, .panel.callout .location-tile, .panel.callout .lifegroups-tile span, .lifegroups-tile .panel.callout span, .panel.callout h5, .panel.callout .h5, .panel.callout h6, .panel.callout .h6, .panel.callout label, .panel.callout p, .panel.callout ul li, ul .panel.callout li {
   color: #333333;
 }
 /* line 58, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -3712,6 +3712,7 @@ label,
 pre,
 form,
 p,
+ul li,
 blockquote,
 th,
 td {
@@ -3737,7 +3738,7 @@ a img {
 
 /* Default paragraph styles */
 /* line 163, ../bower_components/foundation/scss/foundation/components/_type.scss */
-p {
+p, ul li {
   font-family: inherit;
   font-weight: normal;
   font-size: 1rem;
@@ -3746,12 +3747,12 @@ p {
   text-rendering: optimizeLegibility;
 }
 /* line 171, ../bower_components/foundation/scss/foundation/components/_type.scss */
-p.lead, p.action.large {
+p.lead, ul li.lead, ul li.action.large, p.action.large {
   font-size: 1.21875rem;
   line-height: 1.6;
 }
 /* line 173, ../bower_components/foundation/scss/foundation/components/_type.scss */
-p aside {
+p aside, ul li aside {
   font-size: 0.875rem;
   line-height: 1.35;
   font-style: italic;
@@ -3977,7 +3978,9 @@ blockquote cite a:visited {
 
 /* line 342, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
-blockquote p {
+blockquote p,
+blockquote ul li,
+ul blockquote li {
   line-height: 1.6;
   color: #6f6f6f;
 }
@@ -4113,7 +4116,7 @@ blockquote p {
 }
 
   /* line 430, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  p,
+  p, ul li,
   h2,
   .h2,
   h3,
@@ -5098,14 +5101,14 @@ blockquote {
   text-align: center;
 }
 /* line 215, ../scss/design/_type.scss */
-blockquote p {
+blockquote p, blockquote ul li, ul blockquote li {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 215, ../scss/design/_type.scss */
-  blockquote p {
+  blockquote p, blockquote ul li, ul blockquote li {
     font-size: 2rem;
   }
 }
@@ -5125,7 +5128,7 @@ blockquote.quote-large {
   text-align: left;
 }
 /* line 237, ../scss/design/_type.scss */
-blockquote.quote-large p {
+blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
   font-size: 1.2rem;
   line-height: 1.3em;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5133,7 +5136,7 @@ blockquote.quote-large p {
 }
 @media only screen and (min-width: 40.063em) {
   /* line 237, ../scss/design/_type.scss */
-  blockquote.quote-large p {
+  blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
     font-size: 3rem;
   }
 }
@@ -5150,7 +5153,7 @@ blockquote.quote-large cite {
 }
 
 /* line 261, ../scss/design/_type.scss */
-a p {
+a p, a ul li, ul a li {
   color: #333333;
 }
 
@@ -5192,7 +5195,7 @@ img.expand {
 }
 
 /* line 300, ../scss/design/_type.scss */
-p {
+p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
   font-size: 0.9375rem;
@@ -5200,23 +5203,28 @@ p {
 }
 @media only screen and (min-width: 40.063em) {
   /* line 300, ../scss/design/_type.scss */
-  p {
+  p, ul li {
     font-size: 1.25rem;
   }
 }
 
 /* line 312, ../scss/design/_type.scss */
-.detail {
+.detail, ul li {
   font-size: 0.9375rem;
 }
 
 /* line 317, ../scss/design/_type.scss */
+ul li {
+  margin-bottom: 10px;
+}
+
+/* line 324, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "ff-meta-serif-web-pro";
   font-weight: 300;
 }
 
-/* line 324, ../scss/design/_type.scss */
+/* line 331, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5225,12 +5233,12 @@ p {
   font-weight: 300;
 }
 
-/* line 330, ../scss/design/_type.scss */
-.page-footer p {
+/* line 337, ../scss/design/_type.scss */
+.page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 336, ../scss/design/_type.scss */
+/* line 343, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2 {
@@ -5266,7 +5274,7 @@ html {
     padding: 5px 0;
   }
   /* line 22, ../scss/design/_more.scss */
-  .page-more p {
+  .page-more p, .page-more ul li, ul .page-more li {
     margin-top: 10px;
     margin-bottom: 0;
   }
@@ -5314,7 +5322,7 @@ html {
     padding: 10px;
   }
   /* line 60, ../scss/design/_more.scss */
-  .page-more a p {
+  .page-more a p, .page-more a ul li, ul .page-more a li {
     margin: 0;
   }
 }
@@ -5325,7 +5333,7 @@ html {
 }
 
 /* line 72, ../scss/design/_more.scss */
-.page-more-inner p {
+.page-more-inner p, .page-more-inner ul li, ul .page-more-inner li {
   font-size: 1em;
 }
 
@@ -5641,12 +5649,12 @@ html {
 }
 
 /* line 5, ../scss/design/_footer.scss */
-.page-footer p, .page-footer li {
+.page-footer p, .page-footer ul li, ul .page-footer li, .page-footer li {
   font-size: .8em;
   color: #929292;
 }
 /* line 11, ../scss/design/_footer.scss */
-.page-footer p {
+.page-footer p, .page-footer ul li, ul .page-footer li {
   margin-bottom: 8px;
 }
 @media only screen and (max-width: 40em) {
@@ -5876,7 +5884,7 @@ a .panel h1, a .panel .h1, a .panel h2, a .panel .h2, a .panel h3, a .panel .h3,
 }
 
 /* line 71, ../scss/design/_sections.scss */
-.section-light h1, .section-light .h1, .section-light h2, .section-light .h2, .section-light h3, .section-light .h3, .section-light h4, .section-light .h4, .section-light .location-tile, .section-light .lifegroups-tile span, .lifegroups-tile .section-light span, .section-light h5, .section-light .h5, .section-light h6, .section-light .h6, .section-light label, .section-light p, .section-light a, .section-light .button {
+.section-light h1, .section-light .h1, .section-light h2, .section-light .h2, .section-light h3, .section-light .h3, .section-light h4, .section-light .h4, .section-light .location-tile, .section-light .lifegroups-tile span, .lifegroups-tile .section-light span, .section-light h5, .section-light .h5, .section-light h6, .section-light .h6, .section-light label, .section-light p, .section-light ul li, ul .section-light li, .section-light a, .section-light .button {
   color: #fff;
   border-color: #fff;
 }
@@ -5916,7 +5924,7 @@ a .panel h1, a .panel .h1, a .panel h2, a .panel .h2, a .panel h3, a .panel .h3,
   border-color: rgba(255, 255, 255, 0.4) !important;
 }
 /* line 114, ../scss/design/_sections.scss */
-.footer-light .page-footer p {
+.footer-light .page-footer p, .footer-light .page-footer ul li, ul .footer-light .page-footer li {
   color: #fff !important;
 }
 /* line 118, ../scss/design/_sections.scss */
