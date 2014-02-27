@@ -7278,60 +7278,66 @@ button.dropdown::before {
   background-position: center;
 }
 
-/* line 25, ../scss/pages/_giving.scss */
+/* line 22, ../scss/pages/_giving.scss */
+.giving-main .button.inverse {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+/* line 32, ../scss/pages/_giving.scss */
 .restore blockquote cite {
   color: #e0646b;
 }
-/* line 29, ../scss/pages/_giving.scss */
+/* line 36, ../scss/pages/_giving.scss */
 .restore .primary-links .live {
   color: #641418 !important;
 }
 
-/* line 34, ../scss/pages/_giving.scss */
+/* line 41, ../scss/pages/_giving.scss */
 .section-restore-1 {
   background: black url("/images/giving/restore-bg-1.jpg") center bottom no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 34, ../scss/pages/_giving.scss */
+  /* line 41, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 250px;
     padding-bottom: 50px;
   }
 }
 @media only screen and (min-height: 620px) {
-  /* line 34, ../scss/pages/_giving.scss */
+  /* line 41, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 350px;
     padding-bottom: 80px;
   }
 }
 
-/* line 50, ../scss/pages/_giving.scss */
+/* line 57, ../scss/pages/_giving.scss */
 .section-restore-2 {
   background: #222;
 }
 
-/* line 54, ../scss/pages/_giving.scss */
+/* line 61, ../scss/pages/_giving.scss */
 .hphoto-restore {
   background-image: url("/images/giving/restore-bg-2.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 54, ../scss/pages/_giving.scss */
+  /* line 61, ../scss/pages/_giving.scss */
   .hphoto-restore {
     background-image: url("/images/giving/restore-bg-2@2x.jpg");
   }
 }
 
-/* line 60, ../scss/pages/_giving.scss */
+/* line 67, ../scss/pages/_giving.scss */
 .section-restore-3 {
   background: #222;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 60, ../scss/pages/_giving.scss */
+  /* line 67, ../scss/pages/_giving.scss */
   .section-restore-3 {
     padding-top: 5em;
     padding-bottom: 4em;

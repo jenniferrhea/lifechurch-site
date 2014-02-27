@@ -35,11 +35,11 @@
       <a class="button small" href="#">Subscribe thing</a>
       {% endif %}
 
-      {% if page.title == "Giving Opportunities" %}
+      {% if page.title == "Giving Opportunities" or page.section == "giving" %}
       <!-- Giving Options -->
       <div class="hide-for-small">
         <a href="#"
-           class="button inverse white small"
+           class="button inverse small"
            onclick="_gaq.push(['_trackEvent', 'Giving', 'Click', 'New Give']);">
            Sign up for Giving
         </a>
