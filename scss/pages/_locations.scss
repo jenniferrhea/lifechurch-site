@@ -523,10 +523,6 @@
 
     .calendar-key {
 
-      @media #{$medium-up} {
-        margin-top: 55px;
-      }
-
       // Keep the links in the key on the same line as the colors
       a {
         float: left;

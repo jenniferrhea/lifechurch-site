@@ -25,7 +25,7 @@ section: locations
     <div class="location-tile-wrapper">
       <a href="#" class="location-tile tile-1 tile-active"><span>Location</span></a>
       <a href="#" class="location-tile tile-2"><span>Dates / Times</span></a>
-      <a href="#" class="location-tile tile-3"><span>Get Involved</span></a>  
+      <a href="#" class="location-tile tile-3"><span>Get Involved</span></a>
     </div>
 
     <!-- Main content -->
@@ -33,10 +33,10 @@ section: locations
 
       <!-- Content area 1 -->
       <div class="location-content content-1 content-active">
-        
+
         <!-- Map pin -->
         <div class="pin"></div>
-        
+
         <!-- Map address -->
         <div class="address">
           {{ location.address }}
@@ -55,32 +55,25 @@ section: locations
 
         <div class="row">
           <div class="medium-12 columns">
+            <h2>Experience Times</h2>
 
-            <div class="row">
-              <div class="medium-4 columns">
-                <h2>Experience Times</h2>
-              </div>
-              <div class="medium-8 columns">
+            <!-- Legend -->
+            <ul class="inline-list">
+              <li class="calendar-key key-lifechurch">
+                <figure></figure>
+                <a href="/watch/">LifeChurch.tv Experience</a>
+              </li>
 
-                <!-- Legend -->
-                <ul class="inline-list right">
-                  <li class="calendar-key key-lifechurch">
-                    <figure></figure>
-                    <a href="/watch/">LifeChurch.tv</a>
-                  </li>
+              <li class="calendar-key key-switch">
+                <figure></figure>
+                <a href="/kids/#switch">Switch Youth Ministry</a>
+              </li>
 
-                  <li class="calendar-key key-switch">
-                    <figure></figure>
-                    <a href="/kids/#switch">Switch</a>
-                  </li>
-
-                  <li class="calendar-key key-konnect">
-                    <figure></figure>
-                    <a href="/kids/#konnect">Konnect+ / Roots</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+              <li class="calendar-key key-konnect">
+                <figure></figure>
+                <a href="/kids/#konnect">Konnect Plus / Roots Student Ministry</a>
+              </li>
+            </ul>
 
             <!-- The calendar -->
             <div class="days-times">
@@ -116,11 +109,11 @@ section: locations
                     {% for time in location.times %}
                     {% if time.day == 'sat' %}
                       <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
-                        
+
                         <span class="calendar-key key-{{ time.type }} show-for-small">
                           <figure></figure>
                         </span>
-                        
+
                         <span class="time-box">
                           <span class="time-box-time">{{ time.title }}</span>
                           <span class="time-box-duration"> ({{ time.duration }} mins)</span>
@@ -137,7 +130,7 @@ section: locations
                     <li class="time duration-240">
                       <label>Sundays</label>
                     </li>
-                    
+
                     {% for time in location.times %}
                     {% if time.day == 'sun' %}
                       <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
@@ -162,7 +155,7 @@ section: locations
                     <li class="time duration-240">
                       <label>Wednesdays</label>
                     </li>
-                    
+
                     {% for time in location.times %}
                     {% if time.day == 'wed' %}
                       <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
@@ -199,9 +192,9 @@ section: locations
               {% endif %}
               {% endfor %}
             </ul>
-            
+
             <h2>Campus LifeMissions</h2>
-              
+
             <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
               {% for item in site.data.missions %}
               {% if item.location == page.location-id %}
@@ -211,8 +204,8 @@ section: locations
               {% endfor %}
             </ul>
 
-            <h2>Campus LifeGroups</h2>
-            <p>Interested in getting involved in a LifeGroup? This text explains what they are and why you want in.</p>
+            <h2>Local LifeGroups</h2>
+            <p>Did you know you were designed to thrive in community with other believers and grow better together? LifeGroups are the friends that you grow, laugh and serve with.</p>
             <p><a href="/lifegroups/" class="action">Learn more about LifeGroups <i class="icon icon-arrow-2"></i></a></p>
 
           </div>
