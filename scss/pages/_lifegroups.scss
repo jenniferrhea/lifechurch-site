@@ -30,7 +30,8 @@
   }
 
   .section-lifegroups-tiles {
-    height: 450px;
+    max-width: 1500px;
+    margin: 0 auto;
     background: #000;
 
     @media #{$medium-up} {
@@ -39,25 +40,31 @@
   }
 
   .lifegroups-tile {
-    height: 150px;
+    height: 180px;
     width: 100%;
     text-align: center;
     padding-top: 60px;
     position: relative;
     background-color: #333;
-    background-size: cover;
+    background-size: 100% auto;
     background-repeat: no-repeat;
+    background-position: center;
     display: block;
 
     @media #{$medium-up} {
-      height: 200px;
+      height: 250px;
       width: 33%;
       float: left;
-      padding-top: 90px;
+      padding-top: 100px;
+      background-size: 550px 313px;
 
       &.lifegroups-tile-last {
         width: 34%;
       }
+    }
+
+    @media #{$large-up} {
+
     }
 
     span {
@@ -71,22 +78,18 @@
 
   .lifegroups-tile-1 {
     @include background-image-2x-jpg('/images/lifegroups/lifegroups-1-tile');
-    background-size: 456px 289px;
   }
 
   .lifegroups-tile-2 {
     @include background-image-2x-jpg('/images/lifegroups/lifegroups-2-tile');
-    background-size: 456px 289px;
   }
 
   .lifegroups-tile-3 {
     @include background-image-2x-jpg('/images/lifegroups/lifegroups-3-tile');
-    background-size: 456px 289px;
   }
 
   .lifegroups-tile-4 {
     @include background-image-2x-jpg('/images/lifegroups/lifegroups-4-tile');
-    background-size: 456px 289px;
   }
 
 
