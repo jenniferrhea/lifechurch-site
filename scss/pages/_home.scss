@@ -1,39 +1,50 @@
 .home {
-  background: #fff url('/images/home/series-bg.jpg') center top;
+  @include background-image-2x-jpg('/images/home/series-bg');
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-size: 531px 744px;
 
-  @media #{$medium-up} {
-
+  // Action links
+  .action {
+    color: #263880;
   }
 
-  h1 {
-    @media #{$medium-up} {
-      margin-bottom: 15px;
-    }
-  }
-
+  // Space after action links
   .section-first {
     @media #{$medium-up} {
       padding-bottom: 30px;
     }
   }
 
-  .section-first a,
-  .page-footer a,
-  .action {
-    color: #7468b6;
+  // Footer section
+  .page-footer {
+    @include background-image-2x-png('/images/home/series-bg2');
+    background-size: 96px 62px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    border: none;
+    padding-bottom: 0;
+
+    // Line break in footer
+    .columns {
+      border: none;
+      margin-top: 0;
+    }
+
+    // Inner styles
+    .footer-inner {
+      background: #28377f;
+      padding-bottom: 30px;
+      padding-top: 20px;
+
+      p {
+        color: #fff;
+      }
+    }
   }
 
-  .section-first a:hover,
-  .page-footer a:hover,
-  .action:hover,
-  .primary-links a:hover {
-    color: darken(#7468b6, 10%);
-  }
-
-  .primary-links a:hover .more-line {
-    background: darken(#7468b6, 10%) !important;
-  }
-
+  // Series art
   .series-art {
     @include background-image-2x-png('/images/home/series-title');
     background-size: contain;
@@ -45,7 +56,7 @@
     @media #{$medium-up} {
       width: 636px;
       height: 216px;
-      margin: 120px auto 40px;
+      margin: 120px auto 20px;
     }
   }
 }

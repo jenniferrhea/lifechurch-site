@@ -28,7 +28,7 @@
     </script>
 
   </head>
-  
+
   {% if page.class %}
   <body class="{{ page.class }}">
   {% else %}
@@ -55,7 +55,7 @@
         </div>
       </div>
     </header>
-    
+
     <!-- Include tertiary here unless watch/locations -->
     {% unless page.section == 'home' %}
     {% unless page.section == 'watch' %}
@@ -73,24 +73,26 @@
 
     <!-- Page Footer -->
     <footer id="footer" class="page-footer">
-      <div class="row">
-        <div class="hide-for-small large-6 large-push-6 columns">
-          <ul class="inline-list large-right">
-            <li><a href="/watch/">Watch</a></li>
-            <li><a href="/locations/">Locations</a></li>
-            <li><a href="/giving/">Giving</a></li>
-            <li><a href="/tools/">Tools for Churches and Groups</a></li>
-            <li><a href="/contact/">Get in Touch</a></li>
-          </ul>
-        </div>
+      <div class="footer-inner">
+        <div class="row">
+          <div class="hide-for-small large-6 large-push-6 columns">
+            <ul class="inline-list large-right">
+              <li><a href="/watch/">Watch</a></li>
+              <li><a href="/locations/">Locations</a></li>
+              <li><a href="/giving/">Giving</a></li>
+              <li><a href="/tools/">Tools for Churches and Groups</a></li>
+              <li><a href="/contact/">Get in Touch</a></li>
+            </ul>
+          </div>
 
-        <div class="small-12 large-6 large-pull-6 columns large-left">
-          <p>Join us at <a href="http://live.lifechurch.tv">Church Online</a>, at one of our <a href="/locations/">physical campuses</a> or at a <a href="http://www.networkchurches.tv">network church</a>.</p>
-          <p>&copy; {{ site.time | date: '%Y' }} LifeChurch.tv. All rights reserved.</p>
+          <div class="small-12 large-6 large-pull-6 columns large-left">
+            <p>Join us at <a href="http://live.lifechurch.tv">Church Online</a>, at one of our <a href="/locations/">physical campuses</a> or at a <a href="http://www.networkchurches.tv">network church</a>.</p>
+            <p>&copy; {{ site.time | date: '%Y' }} LifeChurch.tv. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>
-    
+
     <script src="/bower_components/jquery/jquery.min.js"></script>
     <script src="/bower_components/foundation/js/vendor/fastclick.js"></script>
     <script src="/bower_components/foundation/js/foundation/foundation.js"></script>
