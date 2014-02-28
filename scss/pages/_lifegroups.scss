@@ -1,70 +1,161 @@
 // LifeGroups page section
 
-.section-lifegroups-top {
-  padding-bottom: 50px;
-  
-  @media only screen and (min-height: 650px) {
-    padding-bottom: 100px;  
-  }
-}
+  .section-lifegroups-top {
+    height: 560px;
 
-.lifegroups .page-tertiary {
-  display: none;
-}
+    @media only screen and (min-width: 40.063em) {
+      height: 680px;
+    }
 
-.section-lifegroups-find {
-  padding: 4em 0 5em;
-  clear: both;
-}
+    @media only screen and (min-width: 768px) {
+      height: 610px;
+    }
 
-.section-lifegroups-tiles {
-  height: 450px;
-  background: #000;
+    @media only screen and (min-width: 768px) and (min-height: 650px) {
+      height: 630px;
+    }
 
-  @media #{$medium-up} {
-    height: 200px;
-  }
-}
-
-.lifegroups-tile {
-  height: 150px;
-  width: 100%;
-  text-align: center;
-  padding-top: 60px;
-  position: relative;
-  background-color: #333;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: block;
-
-  @media #{$medium-up} {
-    height: 200px; 
-    width: 33%;
-    float: left;
-    padding-top: 90px;
-
-    &.lifegroups-tile-last {
-      width: 34%;
+    @media only screen and (min-width: 768px) and (min-height: 700px) {
+      height: 680px;
     }
   }
 
-  span {
-    color: #fff;
-    @extend h4;
-    display: block;
-    position: relative;
-    z-index: 2;
+  .lifegroups .page-tertiary {
+    display: none;
   }
-}
 
-.lifegroups-tile-2 {
-  background-image: url("http://placekitten.com/500/400");
-}
+  .section-lifegroups-find {
+    padding: 4em 0 5em;
+    clear: both;
+  }
 
-.lifegroups-tile-3 {
-  background-image: url("http://placekitten.com/500/400");
-}
+  .section-lifegroups-tiles {
+    height: 450px;
+    background: #000;
 
-.lifegroups-tile-4 {
-  background-image: url("http://placekitten.com/500/400");
-}
+    @media #{$medium-up} {
+      height: 200px;
+    }
+  }
+
+  .lifegroups-tile {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+    background-color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+
+    @media #{$medium-up} {
+      height: 200px;
+      width: 33%;
+      float: left;
+      padding-top: 90px;
+
+      &.lifegroups-tile-last {
+        width: 34%;
+      }
+    }
+
+    span {
+      color: #fff;
+      @extend h4;
+      display: block;
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .lifegroups-tile-1 {
+    @include background-image-2x-jpg('/images/lifegroups/lifegroups-1-tile');
+    background-size: 456px 289px;
+  }
+
+  .lifegroups-tile-2 {
+    @include background-image-2x-jpg('/images/lifegroups/lifegroups-2-tile');
+    background-size: 456px 289px;
+  }
+
+  .lifegroups-tile-3 {
+    @include background-image-2x-jpg('/images/lifegroups/lifegroups-3-tile');
+    background-size: 456px 289px;
+  }
+
+  .lifegroups-tile-4 {
+    @include background-image-2x-jpg('/images/lifegroups/lifegroups-4-tile');
+    background-size: 456px 289px;
+  }
+
+
+// Page-specific
+
+  .lifegroups-1 {
+    background-repeat: no-repeat;
+    background-color: #efeae6;
+
+    @media #{$small-only} {
+      @include background-image-2x-jpg('/images/lifegroups/lifegroups-1-thin');
+      background-size: 391px 486px;
+      background-position: left top;
+    }
+
+    @media #{$medium-up} {
+      @include background-image-2x-jpg('/images/lifegroups/lifegroups-1');
+      background-size: 1500px 595px;
+      background-position: center top;
+    }
+  }
+
+  .lifegroups-2 {
+    background-repeat: no-repeat;
+    background-color: #e9e9de;
+
+    @media #{$small-only} {
+      @include background-image-2x-jpg('/images/lifegroups/lifegroups-2-thin');
+      background-size: 391px 486px;
+      background-position: left top;
+    }
+
+    @media #{$medium-up} {
+      @include background-image-2x-jpg('/images/lifegroups/lifegroups-2');
+      background-size: 1500px 595px;
+      background-position: center top;
+    }
+  }
+
+  .lifegroups-3 {
+    background-repeat: no-repeat;
+    background-color: #000;
+
+    @media #{$small-only} {
+      @include background-image-2x-jpg('/images/lifegroups/lifegroups-3-thin');
+      background-size: 391px 486px;
+      background-position: left top;
+    }
+
+    @media #{$medium-up} {
+      @include background-image-2x-jpg('/images/lifegroups/lifegroups-3');
+      background-size: 1500px 595px;
+      background-position: center top;
+    }
+  }
+
+  .lifegroups-4 {
+    background-repeat: no-repeat;
+    background-color: #eaeae1;
+
+    @media #{$small-only} {
+      @include background-image-2x-jpg('/images/lifegroups/lifegroups-4-thin');
+      background-size: 391px 486px;
+      background-position: left top;
+    }
+
+    @media #{$medium-up} {
+      @include background-image-2x-jpg('/images/lifegroups/lifegroups-4');
+      background-size: 1500px 595px;
+      background-position: center top;
+    }
+  }
