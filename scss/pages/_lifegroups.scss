@@ -1,72 +1,115 @@
 // LifeGroups page section
 
+  // Establish the height of the main section
+  // Small
   .section-lifegroups-top {
     height: 560px;
 
+    // Medium sized
     @media only screen and (min-width: 40.063em) {
       height: 680px;
     }
 
+    // Large sized
     @media only screen and (min-width: 768px) {
       height: 610px;
     }
 
+    // Large and a bit taller
     @media only screen and (min-width: 768px) and (min-height: 650px) {
       height: 630px;
     }
 
+    // Large and tallest
     @media only screen and (min-width: 768px) and (min-height: 700px) {
       height: 680px;
     }
   }
 
+  // Hide the tertiary nav
   .lifegroups .page-tertiary {
     display: none;
   }
 
+  // Clear the call to action
   .section-lifegroups-find {
-    padding: 4em 0 5em;
+    padding: 4em 0 3.5em;
     clear: both;
   }
 
+  // Tiles below main section
   .section-lifegroups-tiles {
     max-width: 1500px;
     margin: 0 auto;
-    background: #000;
+    background: #222;
 
+    // Make them a little bigger w/ spacing on larger screens
     @media #{$medium-up} {
-      height: 200px;
+      height: 250px;
+      border-top: 2px solid #222;
     }
   }
 
+  // The tiles themselves
   .lifegroups-tile {
     height: 180px;
     width: 100%;
     text-align: center;
     padding-top: 60px;
     position: relative;
-    background-color: #333;
+    background-color: #222;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
+    position: relative;
 
+    // Put borders between them on small
+    @media #{$small-only} {
+      border-top: 2px solid #222;
+    }
+
+    // Put borders either side of the middle one on large
     @media #{$medium-up} {
       height: 250px;
       width: 33%;
       float: left;
       padding-top: 100px;
       background-size: 550px 313px;
+      border-left: 2px solid #222;
+      border-right: 2px solid #222;
 
+      // Tile hover preperation
+      &:after {
+        @include transition-property(background);
+        @include transition-duration(.25s);
+        content: "";
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0);
+      }
+
+      // Tile hover action
+      &:hover:after {
+        background: rgba(0,0,0,.3);
+      }
+
+      // Remove borders from first/last on large
+      &.lifegroups-tile-first,
+      &.lifegroups-tile-last {
+        border: none;
+      }
+
+      // Make last a little larger for math
       &.lifegroups-tile-last {
         width: 34%;
       }
     }
 
-    @media #{$large-up} {
-
-    }
-
+    // Text in the tiles
     span {
       color: #fff;
       @extend h4;
@@ -76,18 +119,22 @@
     }
   }
 
+  // Tile 1
   .lifegroups-tile-1 {
     @include background-image-2x-jpg('/images/lifegroups/lifegroups-1-tile');
   }
 
+  // Tile 2
   .lifegroups-tile-2 {
     @include background-image-2x-jpg('/images/lifegroups/lifegroups-2-tile');
   }
 
+  // Tile 3
   .lifegroups-tile-3 {
     @include background-image-2x-jpg('/images/lifegroups/lifegroups-3-tile');
   }
 
+  // Tile 4
   .lifegroups-tile-4 {
     @include background-image-2x-jpg('/images/lifegroups/lifegroups-4-tile');
   }
@@ -95,9 +142,10 @@
 
 // Page-specific
 
+  // LifeGroups 1
   .lifegroups-1 {
     background-repeat: no-repeat;
-    background-color: #efeae6;
+    background-color: #222;
 
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-1-thin');
@@ -112,9 +160,10 @@
     }
   }
 
+  // LifeGroups 2
   .lifegroups-2 {
     background-repeat: no-repeat;
-    background-color: #e9e9de;
+    background-color: #222;
 
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-2-thin');
@@ -129,9 +178,10 @@
     }
   }
 
+  // LifeGroups 3
   .lifegroups-3 {
     background-repeat: no-repeat;
-    background-color: #000;
+    background-color: #222;
 
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-3-thin');
@@ -146,9 +196,10 @@
     }
   }
 
+  // LifeGroups 4
   .lifegroups-4 {
     background-repeat: no-repeat;
-    background-color: #eaeae1;
+    background-color: #222;
 
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-4-thin');
