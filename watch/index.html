@@ -14,7 +14,7 @@ class: header-red section-watch page-watch
       <h1 class="h2 text-white">{{ latest.headline }}</h1>
       <p>{{ latest.description_small }}</p>
       <p>
-        <a href="http://live.lifechurch.tv" 
+        <a href="http://live.lifechurch.tv"
            class="action"
            onclick="_gaq.push(['_trackEvent', 'Watch', 'Click', 'Live']);">
            Watch Live in 14min 28sec <i class="icon icon-play-2"></i>
@@ -38,7 +38,7 @@ class: header-red section-watch page-watch
 <!-- Archive Grid -->
 <div class="row">
   <div class="large-12 columns">
-    <ul class="small-block-grid-2 large-block-grid-3">
+    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
       {% for post in site.categories.watch limit:9 %}
       {% assign series = site.data.watch | find_first : "id", post.series-id %}
 
@@ -48,7 +48,7 @@ class: header-red section-watch page-watch
           <div class="panel">
             <img data-interchange="[{{ series.image_small }}, (default)], [{{ series.image_medium }}, (medium)]" alt="{{ series.title }}" />
             <noscript><img src="{{ series.image_small }}" alt="{{ series.title }}"></noscript>
-            
+
             <h6>{{ series.title }}</h6>
           </div>
         </a>

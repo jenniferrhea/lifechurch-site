@@ -14,7 +14,7 @@ class: header-red
 
 <div class="row">
   <div class="large-12 columns">
-    <ul class="small-block-grid-2 large-block-grid-3">
+    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
     {% for post in site.categories.watch limit:1000 %}
       {% assign series = site.data.watch | find_first : "id", post.series-id %}
       {% capture date %}{{ post.date | date: '%B %Y' }}{% endcapture %}
@@ -29,16 +29,16 @@ class: header-red
           <br />
         </div>
       </div>
-      <ul class="small-block-grid-2 large-block-grid-3">
+      <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
       {% endif %}
-   
+
       <!-- Archive Item -->
       <li class="watch-item">
         <a href="{{ post.url }}">
           <div class="panel">
             <img data-interchange="[{{ series.image_small }}, (default)], [{{ series.image_medium }}, (medium)]" alt="{{ series.title }}" />
             <noscript><img src="{{ series.image_small }}" alt="{{ series.title }}"></noscript>
-            
+
             <h6>{{ series.title }}</h6>
           </div>
         </a>
