@@ -149,6 +149,7 @@
 
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-1-thin');
+      background-color: #f1eae4;
       background-size: 391px 486px;
       background-position: left top;
     }
@@ -169,6 +170,7 @@
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-2-thin');
       background-size: 391px 486px;
       background-position: left top;
+      background-color: #e9e9dd;
     }
 
     @media #{$medium-up} {
@@ -187,6 +189,7 @@
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-3-thin');
       background-size: 391px 486px;
       background-position: left top;
+      background-color: #000;
     }
 
     @media #{$medium-up} {
@@ -205,6 +208,7 @@
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-4-thin');
       background-size: 391px 486px;
       background-position: left top;
+      background-color: #e9e9dd;
     }
 
     @media #{$medium-up} {
