@@ -1,7 +1,7 @@
 - id: serving-1
   title: Host Team
   location: Campus
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: 'As a member of the Host Team, you’ll help create a comfortable environment so people can be open to receiving God’s truth.'
   description_medium: 'As a member of the Host Team, you’ll help create a comfortable environment so people can be open to receiving God’s truth. You can serve as a greeter, usher, parking attendant, in hospitality, at the campus office, or behind the scenes.'
@@ -13,7 +13,7 @@
 - id: serving-2
   title: LifeGroups
   location: Campus
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: 'In a group environment, people can develop their relationship with God and others.'
   description_medium: 'In a group environment, people can develop their relationship with God and others. LifeGroup volunteers gain leadership skills and support personal growth by serving as group leaders, hosts, or administrative support.'
@@ -25,7 +25,7 @@
 - id: serving-3
   title: LifeKids.tv
   location: Campus
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: 'To help families raise fully devoted followers of Christ, LifeKids provides small group interaction, worship, and age-appropriate biblical teaching for newborns through 6th graders.'
   description_medium: 'To help families raise fully devoted followers of Christ, LifeKids provides small group interaction, worship, and age-appropriate biblical teaching for newborns through 6th graders. Opportunities include room leaders, experience captains, emcees, and more.'
@@ -37,7 +37,7 @@
 - id: serving-4
   title: Switch
   location: Campus
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: 'Switch meets on Wednesday nights and challenges students to become fully devoted followers of Christ.'
   description_medium: 'Switch meets on Wednesday nights and challenges students to become fully devoted followers of Christ. Adults can serve middle and high school students as small group leaders, mentors, security, or administrative support.'
@@ -49,7 +49,7 @@
 - id: serving-5
   title: Campus Administration
   location: Campus
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: 'Prayer, meal preparation, finance, data entry, recycling, graphic design, event preparation, and much more.'
   description_medium: 'If you’re more comfortable working behind the scenes or have a unique schedule, we have several opportunities for you including: prayer, meal preparation, finance, data entry, recycling, graphic design, event preparation, and much more.'
@@ -61,7 +61,7 @@
 - id: serving-6
   title: Experience Team
   location: Online
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -84,7 +84,7 @@
 - id: serving-7
   title: Response Team
   location: Online
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -107,7 +107,7 @@
 - id: serving-8
   title: Finance
   location: Central
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -130,7 +130,7 @@
 - id: serving-9
   title: Central Administration
   location: Central
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -153,7 +153,7 @@
 - id: serving-10
   title: IT (Information Technology)
   location: Central
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -176,7 +176,7 @@
 - id: serving-12
   title: Digital Missions
   location: Central
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -199,7 +199,7 @@
 - id: serving-13
   title: Cast and Crew
   location: Central
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -222,7 +222,7 @@
 - id: serving-14
   title: OPEN
   location: Central
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -245,7 +245,7 @@
 - id: serving-15
   title: Bible.com
   location: Central
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |

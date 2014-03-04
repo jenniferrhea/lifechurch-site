@@ -1,4 +1,4 @@
-<li id="{{ item.id }}" class="item">
+<li id="{{ item.id }}" class="item involved-item">
   <div class="panel">
     <img data-interchange="[{{ item.image_small }}, (default)], [{{ item.image_medium }}, (medium)]" alt="{{ item.title }}" />
     <noscript><img src="{{ item.image_small }}" alt="{{ item.title }}" /></noscript>
@@ -13,16 +13,16 @@
            Get Involved <i class="icon icon-arrow-2"></i>
         </a>
       </p>
-      
+
       <form>
-        <input name="recipient" type="hidden" value="{{ item.recipient }}">
-        <input name="subject" type="hidden" value="{{ item.title }}">
+        <input class="recipient" name="recipient" type="hidden" value="{{ item.recipient }}">
+        <input class="title" name="subject" type="hidden" value="{{ item.title }}">
         <hr />
         <h6>Get Connected</h6>
         <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
-        <input type="text" placeholder="Email or Phone number" />
+        <input class="details" type="text" placeholder="Email or Phone number" />
         <input type="button"
-               class="button small"
+               class="button small submit-involved"
                value="Send to LifeChurch.tv"
                onclick="_gaq.push(['_trackEvent', '{{ type }}', 'Click', 'New {{ item.title }}']);" />
       </form>

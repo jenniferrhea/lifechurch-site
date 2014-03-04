@@ -1,11 +1,11 @@
 // Foundation JavaScript
-// Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
+// And the rest
 $(function() {
 
   // "More" panel open/close
-    
+
   if ($('html.js').length > 0) {
 
     $('.nav-more').attr('href','#');
@@ -19,7 +19,7 @@ $(function() {
       }, 400, function() {
         // Animation complete.
       });
-      
+
       $(this).removeClass("nav-more").addClass("nav-close-more");
 
       if ($('.header-light').length > 0) {
@@ -58,7 +58,7 @@ $(function() {
     }
   }
 
-  
+
   // If the first section on a page is "light", make the nav "light" too
   if ($('.section-first.section-light').length > 0) {
     $('body').addClass('header-light');
@@ -168,8 +168,6 @@ $(function() {
   $( ".tiles" ).delegate( ".location-tile.tile-2", "click", function() {
     if (!$('.tile-2').hasClass('tile-active')) {
       // Animate the calendar entries in
-      //$(".content-2 .entry span").animate({ opacity: 0 }, 0);
-      //$(".content-2 .entry span").delay(150).animate({ opacity: 1 }, 250);
 
       // Fade the correct content in, and the rest out
       $(".location-content.content-2").fadeIn(250).addClass('content-active');
@@ -192,7 +190,7 @@ $(function() {
   // Campus calendar 5pm overlaps
   $('.time-17-00').siblings('.time-17-30').addClass('overlap').parent().parent().addClass('rows-2');
   $('.time-17-00.duration-120').siblings('.time-17-30, .time-18-00, .time-18-30').addClass('overlap').parent().parent().addClass('rows-2');
-    
+
   // Campus calendar 6pm overlaps
   $('.time-18-00').siblings('.time-18-30').addClass('overlap').parent().parent().addClass('rows-2');
   $('.time-18-00.duration-120').siblings('.time-18-30, .time-19-00, .time-19-30').addClass('overlap').parent().parent().addClass('rows-2');
@@ -223,7 +221,16 @@ $(function() {
       $(this).fadeOut();
       return false;
     });
-
   };
+
+
+  // Get Involved form
+  $('.involved-item .button').click(function() {
+    $(this).parent().fadeOut();
+    $(this).parent().parent().append("<div class='cta-thanks' style='display: none;'><hr /><em>Thanks! We'll be in touch soon.</em></div>").fadeIn();
+    $(this).parent().parent('.cta').removeClass('open').addClass('sent');
+    $(this).parent().parent().find('.cta-thanks').fadeIn();
+  });
+
 
 });

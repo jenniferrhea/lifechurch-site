@@ -9,7 +9,7 @@
 
   .cta.open {
     height: 300px;
-    
+
     @media #{$medium-up} {
       height: 310px;
     }
@@ -17,6 +17,10 @@
     @media #{$large-up} {
       height: 260px;
     }
+  }
+
+  .cta.sent {
+    height: 80px;
   }
 
   form {

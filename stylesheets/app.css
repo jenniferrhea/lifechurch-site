@@ -6039,6 +6039,10 @@ button.dropdown::before {
   }
 }
 /* line 22, ../scss/design/_involved-list.scss */
+.involved-list .cta.sent {
+  height: 80px;
+}
+/* line 26, ../scss/design/_involved-list.scss */
 .involved-list form {
   position: absolute;
   top: -15px;
