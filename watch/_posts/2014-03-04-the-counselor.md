@@ -2,9 +2,9 @@
 published: true
 layout: watch
 categories: watch
-series-id: small-things-big-difference-2
+series-id: the-counselor
 
-assets: /watch/assets/2014-stdb/
+assets: /watch/assets/2014-the-counselor/
 stylesheet: false
 javascript: false
 ---
@@ -14,13 +14,13 @@ javascript: false
 <div class="page-section section-first">
   <div class="row">
     <div class="medium-6 large-4 columns">
-      <h1 class="text-red">Title goes here about this series.</h1>
+      <h1 class="text-red">{{ series.headline }}.</h1>
       <p>{{ series.description_medium | newline_to_br }}</p>
       <p><a href="#messages" class="action">Watch series <i class="icon icon-arrow-down-2"></i></a></p>
     </div>
-    <div class="medium-6 large-4 columns">
+    <div class="medium-6 large-7 columns">
       <img class="padded" data-interchange="[{{ series.image_medium }}, (default)], [{{ series.image_large }}, (medium)]" alt="{{ series.title }}" />
-        <noscript><img class="padded" src="{{ series.image_small }}" alt="{{ series.title }}" /></noscript>
+      <noscript><img class="padded" src="{{ series.image_small }}" alt="{{ series.title }}" /></noscript>
     </div>
   </div>
 
