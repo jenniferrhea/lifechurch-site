@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/stylesheets/app.css" />
 
     {% if page.stylesheet == true %}
-    <link rel="stylesheet" href="{{ page.assets }}style.css" />
+    <link rel="stylesheet" href="/stylesheets/watch/{{ page.assets }}/style.css" />
     {% endif %}
 
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -81,7 +81,7 @@
               <li><a href="/locations/">Locations</a></li>
               <li><a href="/giving/">Giving</a></li>
               <li><a href="/tools/">Tools &amp; Resources</a></li>
-              <li><a href="/contact/">Get in Touch</a></li>
+              <li><a href="/contact/">Reach Us</a></li>
             </ul>
           </div>
 
@@ -103,7 +103,7 @@
     <script src="/js/app.js"></script>
 
     {% if page.javascript == true %}
-    <script src="{{ page.assets }}script.js"></script>
+    <script src="/js/watch/{{ page.assets }}/script.js"></script>
     {% endif %}
 
   </body>
