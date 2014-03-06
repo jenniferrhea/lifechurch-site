@@ -1,8 +1,9 @@
 {
-  "name": "foundation-compass-app",
+  "name":  "lifechurch-site",
   "version": "0.0.1",
-  "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "jquery.stellar": "git@github.com:markdalgleish/stellar.js.git",
+    "skrollr": "git@github.com:Prinzhorn/skrollr.git"
   }
 }
