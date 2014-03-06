@@ -296,10 +296,15 @@
 
 // Page hero section
 .locations-hero {
-  background: url("http://placekitten.com/1000/620");
-  background-size: cover;
-  padding-top: 230px;
+  background-size: 1500px 450px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-top: 130px;
   padding-bottom: 200px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
 
   @media #{$small-only} {
     padding-top: 180px;
@@ -612,6 +617,7 @@
         display: block;
         width: 100%;
         height: 40px;
+        font-family: $body-font-family;
         background: #aaa;
         @include border-radius(2px);
         border: 1px solid #999;
@@ -749,6 +755,38 @@
 
 
 // ~4 Specific Campus Pages ***************************************
+
+  .location-alb .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/alb-bg'); }
+  .location-bao .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/bao-bg'); }
+  .location-edm .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/edm-bg'); }
+  .location-ftw .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/ftw-bg'); }
+  .location-hnv .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/hnv-bg'); }
+  .location-jnk .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/jnk-bg'); }
+  .location-mor .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/mor-bg'); }
+  .location-mwc .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/mwc-bg'); }
+  .location-noc .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/noc-bg'); }
+  .location-okc .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/okc-bg'); }
+  .location-ows .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/ows-bg'); }
+  .location-soc .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/soc-bg'); }
+  .location-stu .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/stu-bg'); }
+  .location-stw .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/stw-bg'); }
+  .location-tul .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/tul-bg'); }
+  .location-wel .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/wel-bg'); }
+  .location-ykn .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/ykn-bg'); }
+
+  .header-light.section-locations h1 {
+    color: #fff;
+  }
+
+  .location-bao h1,
+  .location-jnk h1,
+  .location-mwc h1,
+  .location-soc h1,
+  .location-stu h1,
+  .location-tul h1  {
+    text-align: right;
+  }
+
 
   .location-alb .content-1 { @include background-image-2x-png('/locations/assets/campus/alb-map'); }
   .location-bao .content-1 { @include background-image-2x-png('/locations/assets/campus/bao-map'); }

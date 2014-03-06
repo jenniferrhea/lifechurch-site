@@ -2,56 +2,562 @@
   title: Albany NY Campus
   description_small: Description about this campus goes right here.
   address: '560 Sand Creek Rd Albany, NY 12205'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: bao
   title: Broken Arrow OK Campus
   description_small: Description about this campus goes right here.
   address: '2420 E Kenosha Street Broken Arrow, OK 74014'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: edm
   title: Edmond OK Campus
   description_small: Description about this campus goes right here.
   address: '4600 E. 2nd St Edmond, OK 73034'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: ftw
   title: Fort Worth TX Campus
   description_small: Description about this campus goes right here.
   address: '5298 Trail Lake Dr Fort Worth, TX 76133'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: hnv
   title: Hendersonville TN Campus
   description_small: Description about this campus goes right here.
   address: '120 Indian Lake Blvd Hendersonville, TN 37075'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: jnk
   title: Jenks OK Campus
   description_small: Description about this campus goes right here.
   address: '890 W 81st St, Tulsa, OK 74132'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: klr
   title: Kellar TX Campus
   description_small: Description about this campus goes right here.
   address: '801 Bear Creek Parkway Keller, TX 76248'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: mwc
   title: Midwest City Campus
   description_small: Description about this campus goes right here.
   address: '6809 E Reno Ave Midwest City, OK 73110'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: mor
   title: Moore OK Campus
   description_small: Description about this campus goes right here.
   address: '2916 S. Telephone Rd. Moore, OK 73160'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: noc
   title: NW Oklahoma City Campus
   description_small: Description about this campus goes right here.
   address: '5821 NW Expressway Oklahoma City, OK 73132'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: noc
   title: NW Oklahoma City Campus
   description_small: Description about this campus goes right here.
   address: '5821 NW Expressway Oklahoma City, OK 73132'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: okc
   title: Oklahoma City OK Campus
@@ -98,11 +604,6 @@
       day: wed
       type: switch
       duration: 120
-    - title: 6:00PM
-      time: '18-00'
-      day: wed
-      type: switch
-      duration: 120
     - title: 6:30PM
       time: '18-30'
       day: wed
@@ -113,16 +614,154 @@
   title: Owasso OK Campus
   description_small: Description about this campus goes right here.
   address: '14008 E. 96th St. Owasso, OK 74055'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: soc
   title: South Oklahoma City OK Campus
   description_small: Description about this campus goes right here.
   address: '7800 S. Walker Ave Oklahoma City, OK 73139'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
-- id: sto
+- id: stu
   title: South Tulsa OK Campus
   description_small: Description about this campus goes right here.
   address: '7071 East 121st St Bixby, OK 74008'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: stw
   title: Stillwater OK Campus
@@ -133,8 +772,151 @@
   title: Tulsa OK Campus
   description_small: Description about this campus goes right here.
   address: '7015 E. 41st St Tulsa, OK 74145'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
 
 - id: wel
   title: Wellington FL Campus
   description_small: Description about this campus goes right here.
   address: '3061 State Road 7, Wellington, FL 33449'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
+
+- id: ykn
+  title: Yukon OK Campus
+  description_small: Description about this campus goes right here.
+  address: '3061 State Road 7, Wellington, FL 33449'
+  times:
+    - title: 5:00PM
+      time: '17-00'
+      day: sat
+      duration: 60
+      type: lifechurch
+    - title: 5:00PM
+      time: '18-30'
+      day: sat
+      type: lifechurch
+      duration: 60
+    - title: 8:30AM
+      time: '08-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 10:00AM
+      time: '10-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 11:30AM
+      time: '11-30'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 1:00PM
+      time: '13-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 6:00PM
+      time: '18-00'
+      day: sun
+      type: lifechurch
+      duration: 60
+    - title: 5:00PM
+      time: '17-00'
+      day: wed
+      type: switch
+      duration: 120
+    - title: 6:30PM
+      time: '18-30'
+      day: wed
+      type: konnect
+      duration: 120
