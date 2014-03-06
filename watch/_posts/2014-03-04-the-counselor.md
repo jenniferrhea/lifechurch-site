@@ -22,12 +22,17 @@ javascript: true
         <div class="type type-first" data-0="opacity:1; display:block;" data-150="opacity:0; display:none;">
           <h1>{{ series.title }}</h1>
           <p>{{ series.description_medium }}</p>
-          <p><a href="#messages" class="action">Watch series <i class="icon icon-arrow-down-2"></i></a></p>
+          <!--<p><a href="#messages" class="action">Watch series <i class="icon icon-arrow-down-2"></i></a></p>-->
+
+          <div class="please-scroll">
+            <span>Scroll</span>
+            <div class="scroll-arrow"><i class="icon-arrow-down-1"></i></div>
+          </div>
         </div>
 
         <div class="couch" data-3050="opacity:1; display:block;" data-3100="opacity:0; display:none;"></div>
         <div class="person state-1" data-150="opacity:0; top:270px" data-250="opacity:1; top:350px; display:block;" data-251="opacity:0; display:none;"></div>
-        <div class="person state-2" data-250="opacity:0;" data-251="opacity:1" data-265="opacity:1 display:block;" data-266="opacity:0; display:none;"></div>
+        <div class="person state-2" data-249="display:none" data-250="opacity:0; display:block;" data-251="opacity:1" data-265="opacity:1 display:block;" data-266="opacity:0; display:none;"></div>
         <div class="person state-3" data-265="opacity:0;" data-266="opacity:1" data-1000="opacity:1; display:block;" data-1050="opacity:0; display:none;"></div>
 
         <div class="type" data-300="opacity:0" data-450="opacity:1" data-800="opacity:1; display:block;" data-900="opacity:0; display:none;">

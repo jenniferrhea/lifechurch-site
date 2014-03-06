@@ -1,8 +1,8 @@
 - id: the-counselor
   title: The Counselor
-  headline: 'If you could ask God thing, what would it be?'
-  description_small: 'If you could ask God thing, what would it be?'
-  description_medium: 'If you could ask God thing, what would it be? Our questions reveal more about our faith than our curiosities.'
+  headline: 'If you could ask God one thing, what would it be?'
+  description_small: 'If you could ask God one thing, what would it be?'
+  description_medium: 'If you could ask God one thing, what would it be? Our questions reveal more about our faith than our curiosities.'
   quote: 'Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.'
   quote_cite: Some citation goes here
   open: http://www.apple.com/
