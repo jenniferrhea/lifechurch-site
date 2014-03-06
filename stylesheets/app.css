@@ -6132,6 +6132,7 @@ button.dropdown::before {
   top: -33px !important;
   padding-top: 35px;
   margin-bottom: -40px;
+  background: #000;
 }
 @media only screen and (max-width: 40em) {
   /* line 1, ../scss/pages/_watch.scss */
@@ -6140,27 +6141,27 @@ button.dropdown::before {
   }
 }
 
-/* line 11, ../scss/pages/_watch.scss */
+/* line 12, ../scss/pages/_watch.scss */
 .message h4, .message .h4, .message .location-tile, .message .lifegroups-tile span, .lifegroups-tile .message span {
   margin-top: -5px;
 }
 
-/* line 15, ../scss/pages/_watch.scss */
+/* line 16, ../scss/pages/_watch.scss */
 .message h6, .message .h6, .message label {
   margin-top: 2px;
 }
 
-/* line 19, ../scss/pages/_watch.scss */
+/* line 20, ../scss/pages/_watch.scss */
 .message {
   padding-bottom: 12px;
 }
 
-/* line 23, ../scss/pages/_watch.scss */
+/* line 24, ../scss/pages/_watch.scss */
 .watch-item h6, .watch-item .h6, .watch-item label {
   margin-top: 5px;
 }
 
-/* line 29, ../scss/pages/_watch.scss */
+/* line 30, ../scss/pages/_watch.scss */
 .watch-podcast,
 .watch-talkitover,
 .watch-open {
@@ -6168,7 +6169,7 @@ button.dropdown::before {
   padding-bottom: 12px !important;
 }
 
-/* line 36, ../scss/pages/_watch.scss */
+/* line 37, ../scss/pages/_watch.scss */
 .watch-podcast:before,
 .watch-talkitover:before,
 .watch-open:before {
