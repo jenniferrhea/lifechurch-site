@@ -1,20 +1,30 @@
 // Giving page section styles
 
   .hphoto-giving-tithe {
-    background: url("http://placekitten.com/1000/700") no-repeat;
-    background-size: cover;
+    @include background-image-2x-jpg('/images/giving/giving-bg');
+    background-repeat: no-repeat;
+    background-size: 1500px 450px;
     background-position: center;
   }
 
   .hphoto-giving-spacesplaces {
-    background: url("/images/giving/spaces-places-bg.jpg") no-repeat;
-    background-size: cover;
+    @include background-image-2x-jpg('/images/giving/spaces-places');
+    background-repeat: no-repeat;
+    background-size: 1500px 450px;
     background-position: center;
   }
 
   .hphoto-giving-reliefrestoration {
-    background: url("/images/giving/relief-restoration-bg.jpg") no-repeat;
-    background-size: cover;
+    @include background-image-2x-jpg('/images/giving/relief-restoration');
+    background-repeat: no-repeat;
+    background-size: 1500px 450px;
+    background-position: center;
+  }
+
+  .hphoto-giving-digitalmissions {
+    @include background-image-2x-jpg('/images/giving/digital-missions');
+    background-repeat: no-repeat;
+    background-size: 1500px 450px;
     background-position: center;
   }
 
@@ -83,5 +93,19 @@
     @media #{$medium-up} {
       padding-top: 5em;
       padding-bottom: 4em;
+    }
+  }
+
+
+// Digital Missions page
+
+  .digital-missions {
+    .digital-missions-bg {
+      height: 600px;
+      @include background-image-2x-jpg('/images/digital-missions/dm-bg');
+      background-color: #eae9cd;
+      background-repeat: no-repeat;
+      background-size: 1500px 450px;
+      background-position: center bottom;
     }
   }
