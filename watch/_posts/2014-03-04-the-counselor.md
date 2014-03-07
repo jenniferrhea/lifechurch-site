@@ -16,7 +16,7 @@ javascript: true
 
     <div class="row">
 
-      <a class="logo logo-2" href="/" data-200="opacity:0; display:block;" data-300="opacity:1; display:block;" data-4800="opacity:1; display:block;" data-4900="opacity:0; display:none;"><span>LifeChurch.tv</span></a>
+      <a class="logo logo-2" href="/" data-200="opacity:0; display:block;" data-300="opacity:1; display:block;" data-4800="opacity:1; display:block;" data-4900="opacity:0; display:none;"></a>
 
       <div class="medium-8 medium-centered text-center columns">
         <div class="type type-first" data-0="opacity:1; display:block;" data-150="opacity:0; display:none;">
