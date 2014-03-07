@@ -7,6 +7,7 @@ series-id: the-counselor
 assets: 2014-the-counselor
 stylesheet: true
 javascript: true
+skrollable: true
 ---
 
 {% assign series = site.data.watch | find_first : "id", page.series-id %}
