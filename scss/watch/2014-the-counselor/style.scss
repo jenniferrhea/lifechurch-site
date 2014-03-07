@@ -29,24 +29,31 @@
   }
 
   .type {
+
+    &.type-first {
+      margin-top: 0 !important;
+    }
+
+    margin-top: -60px !important;
+
     @media only screen and (min-height: 650px) {
-      margin-top: 80px !important;
+
     }
 
     @media only screen and (min-height: 850px) {
-      margin-top: 150px !important;
+      margin-top: 0px !important;
       width: 30% !important;
     }
 
     @media only screen and (min-height: 950px) {
-      margin-top: 200px !important;
+      margin-top: 60px !important;
     }
   }
 
   .couch,
   .person {
     @media only screen and (min-height: 150px) {
-      margin-top: -140px;
+      margin-top: -40px;
     }
 
     @media only screen and (min-height: 650px) {
@@ -92,9 +99,9 @@
       left: 0;
       right: 0;
       top: 450px;
-      height: 288px;
+      height:412px;
       width: 100%;
-      background: url("/images/watch/2014-the-counselor/the-counselor-couch.png") center top no-repeat;
+      background: url("/images/watch/2014-the-counselor/couch.png") center top no-repeat;
       z-index: 2;
     }
 
@@ -103,26 +110,29 @@
       position: fixed;
       left: 0;
       right: 0;
-      top: 350px;
-      height: 406px;
+      top: 150px;
+      height: 517px;
       width: 100%;
-      background: url("/images/watch/2014-the-counselor/the-counselor-person-1.png") center top no-repeat;
+      background: url("/images/watch/2014-the-counselor/person-1.png") center top no-repeat;
       z-index: 1;
+      margin-left: 84px;
     }
 
     .person.state-2 {
-      background: url("/images/watch/2014-the-counselor/the-counselor-person-2.png") center top no-repeat;
-      height: 406px;
+      background: url("/images/watch/2014-the-counselor/person-2.png") center top no-repeat;
+      height: 355px;
       z-index: 3;
-      top: 350px;
+      top: 290px;
       z-index: 1;
+      margin-left: 84px;
     }
 
     .person.state-3 {
-      background: url("/images/watch/2014-the-counselor/the-counselor-person-3.png") center top no-repeat;
-      height: 406px;
+      background: url("/images/watch/2014-the-counselor/person-3.png") center top no-repeat;
+      height: 489px;
       z-index: 3;
-      top: 370px;
+      top: 290px;
+      margin-left: 84px
     }
 
 

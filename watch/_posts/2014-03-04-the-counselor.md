@@ -31,7 +31,7 @@ javascript: true
         </div>
 
         <div class="couch" data-3050="opacity:1; display:block;" data-3100="opacity:0; display:none;"></div>
-        <div class="person state-1" data-150="opacity:0; top:270px" data-250="opacity:1; top:350px; display:block;" data-251="opacity:0; display:none;"></div>
+        <div class="person state-1" data-150="opacity:0; top:150px" data-250="opacity:1; top:200px; display:block;" data-251="opacity:0; display:none;"></div>
         <div class="person state-2" data-250="opacity:0;" data-251="opacity:1" data-265="opacity:1; display:block;" data-266="opacity:0; display:none;"></div>
         <div class="person state-3" data-265="opacity:0;" data-266="opacity:1" data-1000="opacity:1; display:block;" data-1050="opacity:0; display:none;"></div>
 
@@ -49,7 +49,7 @@ javascript: true
           </blockquote>
         </div>
 
-        <div class="person state-1" data-1150="opacity:0; top:270px" data-1250="opacity:1; top:350px; display:block;" data-1251="opacity:0; display:none;"></div>
+        <div class="person state-1" data-1150="opacity:0; top:150px" data-1250="opacity:1; top:200px; display:block;" data-1251="opacity:0; display:none;"></div>
         <div class="person state-2" data-1250="opacity:0;" data-1251="opacity:1" data-1265="opacity:1; display:block;" data-1266="opacity:0; display:none;"></div>
         <div class="person state-3" data-1265="opacity:0;" data-1266="opacity:1" data-2000="opacity:1; display:block;" data-2050="opacity:0; display:none;"></div>
 
@@ -60,7 +60,7 @@ javascript: true
           </blockquote>
         </div>
 
-        <div class="person state-1" data-2150="opacity:0; top:270px" data-2250="opacity:1; top:350px; display:block;" data-2251="opacity:0; display:none;"></div>
+        <div class="person state-1" data-2150="opacity:0; top:150px" data-2250="opacity:1; top:200px; display:block;" data-2251="opacity:0; display:none;"></div>
         <div class="person state-2" data-2250="opacity:0;" data-2251="opacity:1" data-2265="opacity:1; display:block;" data-2266="opacity:0; display:none;"></div>
         <div class="person state-3" data-2265="opacity:0;" data-2266="opacity:1" data-3000="opacity:1; display:block;" data-3050="opacity:0; display:none;"></div>
 
