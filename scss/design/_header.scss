@@ -1,13 +1,21 @@
 // Logo
-  
+
   // Logo general
   .logo {
-    margin-top: -8px;
+    @media #{$small-only} {
+      margin-top: -8px;
+    }
+
+    margin-top: -4px;
     width: 66px;
     height: 44px;
     display: block;
     position: relative;
     z-index: 11;
+
+    span {
+      color: inherit;
+    }
   }
 
   // Logo font icon transitioning
@@ -18,34 +26,55 @@
 
   // Hide logo title text
   .logo span {
-    display: none;
+    display: block;
+    position: absolute;
+    top: 7px;
+    text-transform: uppercase;
+    left: 52px;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: rem-calc(14);
+
+    @media #{$medium-up} {
+      top: 8px;
+      left: 62px;
+    }
   }
 
   // Logo font icon
+  .logo span,
+  .logo:after {
+    color: $body-font-color;
+  }
+
   .logo:after {
     content: "\31";
     text-indent: 0;
     font-family: 'lctv';
-    font-size: 36px;
-    color: $body-font-color;
+    font-size: 26px;
+    @media #{$medium-up} {
+      font-size: 30px;
+    }
   }
 
   // Logo font icon hover
+  .logo span,
   .logo:hover:after {
     color: #555;
   }
 
 
 // Logo Variations
-  
-  // Logo fallback 
+
+  // Logo fallback
   .lt-ie9 .logo {
     background: url('/images/branding/logomark-black.png') no-repeat;
 
     &:after {
       display: none;
     }
-    
+
     &:hover {
       opacity: .7;
     }
@@ -54,17 +83,19 @@
       display: block;
     }
   }
-  
+
 
   // Light logo
 
-    .header-light .logo:after {
+    .header-light .logo:after,
+    .header-light .logo span {
       color: #fff;
       opacity: .75
     }
 
     // Light logo hover
-    .header-light .logo:hover:after {
+    .header-light .logo:hover:after,
+    .header-light .logo span {
       opacity: 1;
     }
 
@@ -102,6 +133,10 @@
   position: relative;
   z-index: 11;
   text-transform: uppercase;
+
+  @media #{$small-only} {
+    margin-top: -5px;
+  }
 
   a {
     font-family: "Helvetica Neue", sans-serif;
@@ -164,7 +199,7 @@
 }
 
 // "More" hamburger icon
-  
+
   // Top menu icon
   @media #{$small-only} {
     .nav-more,
@@ -226,7 +261,7 @@
 
 
 // Tertiary navigation
-  
+
   // Section
   .page-tertiary {
     margin-bottom: 2em;
@@ -241,13 +276,18 @@
   }
 
   // Save space on landscape mobiles
-  @media #{$small-only} and (orientation: landscape) {
+  /*@media (min-width: 480px) and (max-width: 600px) and (orientation: landscape) {
     .tertiary-header {
       width: 200px;
-      top: -58px;
-      left: 75px;
+      top: -64px;
+      left: 170px;
       margin-bottom: -10px;
       border: none;
+
+      .tertiary-nav:before {
+        content: "/ ";
+        display: inline;
+      }
 
       a {
         font-size: 1em !important;
@@ -258,7 +298,7 @@
         font-size: rem-calc(14) !important;
       }
     }
-  }
+  }*/
 
   // The navigation itself
   .tertiary-nav {
