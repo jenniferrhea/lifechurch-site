@@ -64,6 +64,28 @@
     margin: 0 auto -35px;
   }
 
+  .figure-spacesplaces {
+    padding-top: 30px;
+    margin: 0;
+
+    @media #{$medium-up} {
+      padding-top: 30px;
+    }
+
+    @media #{$large-up} {
+      border: 2px solid #ccc;
+      border-radius: 2000px;
+      width: 360px;
+      height: 360px;
+      padding: 90px 40px 0;
+    }
+
+    img {
+      margin: 10px 10px 0;
+      position: relative;
+    }
+  }
+
 
 // Restore page section styles
 

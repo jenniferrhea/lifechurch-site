@@ -175,6 +175,15 @@ body {
   }
 
 
+// Figcaption
+
+  figcaption {
+    @extend h2;
+    font-size: rem-calc(24);
+    margin-top: 20px !important;
+  }
+
+
 // Rules
 
   hr {

@@ -3566,16 +3566,16 @@ label.error {
   margin-bottom: 0;
 }
 /* line 54, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel .h1, .panel h2, .panel .h2, .panel h3, .panel .h3, .panel h4, .panel .h4, .panel .location-tile, .panel .lifegroups-tile span, .lifegroups-tile .panel span, .panel h5, .panel .h5, .panel h6, .panel .h6, .panel label, .panel p, .panel ul li, ul .panel li {
+.panel h1, .panel .h1, .panel h2, .panel .h2, .panel figcaption, .panel h3, .panel .h3, .panel h4, .panel .h4, .panel .location-tile, .panel .lifegroups-tile span, .lifegroups-tile .panel span, .panel h5, .panel .h5, .panel h6, .panel .h6, .panel label, .panel p, .panel ul li, ul .panel li {
   color: #333333;
 }
 /* line 58, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel .h1, .panel h2, .panel .h2, .panel h3, .panel .h3, .panel h4, .panel .h4, .panel .location-tile, .panel .lifegroups-tile span, .lifegroups-tile .panel span, .panel h5, .panel .h5, .panel h6, .panel .h6, .panel label {
+.panel h1, .panel .h1, .panel h2, .panel .h2, .panel figcaption, .panel h3, .panel .h3, .panel h4, .panel .h4, .panel .location-tile, .panel .lifegroups-tile span, .lifegroups-tile .panel span, .panel h5, .panel .h5, .panel h6, .panel .h6, .panel label {
   line-height: 1;
   margin-bottom: 0.625rem;
 }
 /* line 60, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1.subheader, .panel .subheader.h1, .panel h2.subheader, .panel .subheader.h2, .panel h3.subheader, .panel .subheader.h3, .panel h4.subheader, .panel .subheader.h4, .panel .subheader.location-tile, .panel .lifegroups-tile span.subheader, .lifegroups-tile .panel span.subheader, .panel h5.subheader, .panel .subheader.h5, .panel h6.subheader, .panel .subheader.h6, .panel label.subheader {
+.panel h1.subheader, .panel .subheader.h1, .panel h2.subheader, .panel .subheader.h2, .panel figcaption.subheader, .panel h3.subheader, .panel .subheader.h3, .panel h4.subheader, .panel .subheader.h4, .panel .subheader.location-tile, .panel .lifegroups-tile span.subheader, .lifegroups-tile .panel span.subheader, .panel h5.subheader, .panel .subheader.h5, .panel h6.subheader, .panel .subheader.h6, .panel label.subheader {
   line-height: 1.4;
 }
 /* line 72, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -3596,16 +3596,16 @@ label.error {
   margin-bottom: 0;
 }
 /* line 54, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout .h1, .panel.callout h2, .panel.callout .h2, .panel.callout h3, .panel.callout .h3, .panel.callout h4, .panel.callout .h4, .panel.callout .location-tile, .panel.callout .lifegroups-tile span, .lifegroups-tile .panel.callout span, .panel.callout h5, .panel.callout .h5, .panel.callout h6, .panel.callout .h6, .panel.callout label, .panel.callout p, .panel.callout ul li, ul .panel.callout li {
+.panel.callout h1, .panel.callout .h1, .panel.callout h2, .panel.callout .h2, .panel.callout figcaption, .panel.callout h3, .panel.callout .h3, .panel.callout h4, .panel.callout .h4, .panel.callout .location-tile, .panel.callout .lifegroups-tile span, .lifegroups-tile .panel.callout span, .panel.callout h5, .panel.callout .h5, .panel.callout h6, .panel.callout .h6, .panel.callout label, .panel.callout p, .panel.callout ul li, ul .panel.callout li {
   color: #333333;
 }
 /* line 58, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout .h1, .panel.callout h2, .panel.callout .h2, .panel.callout h3, .panel.callout .h3, .panel.callout h4, .panel.callout .h4, .panel.callout .location-tile, .panel.callout .lifegroups-tile span, .lifegroups-tile .panel.callout span, .panel.callout h5, .panel.callout .h5, .panel.callout h6, .panel.callout .h6, .panel.callout label {
+.panel.callout h1, .panel.callout .h1, .panel.callout h2, .panel.callout .h2, .panel.callout figcaption, .panel.callout h3, .panel.callout .h3, .panel.callout h4, .panel.callout .h4, .panel.callout .location-tile, .panel.callout .lifegroups-tile span, .lifegroups-tile .panel.callout span, .panel.callout h5, .panel.callout .h5, .panel.callout h6, .panel.callout .h6, .panel.callout label {
   line-height: 1;
   margin-bottom: 0.625rem;
 }
 /* line 60, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1.subheader, .panel.callout .subheader.h1, .panel.callout h2.subheader, .panel.callout .subheader.h2, .panel.callout h3.subheader, .panel.callout .subheader.h3, .panel.callout h4.subheader, .panel.callout .subheader.h4, .panel.callout .subheader.location-tile, .panel.callout .lifegroups-tile span.subheader, .lifegroups-tile .panel.callout span.subheader, .panel.callout h5.subheader, .panel.callout .subheader.h5, .panel.callout h6.subheader, .panel.callout .subheader.h6, .panel.callout label.subheader {
+.panel.callout h1.subheader, .panel.callout .subheader.h1, .panel.callout h2.subheader, .panel.callout .subheader.h2, .panel.callout figcaption.subheader, .panel.callout h3.subheader, .panel.callout .subheader.h3, .panel.callout h4.subheader, .panel.callout .subheader.h4, .panel.callout .subheader.location-tile, .panel.callout .lifegroups-tile span.subheader, .lifegroups-tile .panel.callout span.subheader, .panel.callout h5.subheader, .panel.callout .subheader.h5, .panel.callout h6.subheader, .panel.callout .subheader.h6, .panel.callout label.subheader {
   line-height: 1.4;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -3698,6 +3698,7 @@ h1,
 .h1,
 h2,
 .h2,
+figcaption,
 h3,
 .h3,
 h4,
@@ -3760,7 +3761,7 @@ p aside, ul li aside {
 
 /* Default header styles */
 /* line 181, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h5, .h5, h6, .h6, label {
+h1, .h1, h2, .h2, figcaption, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h5, .h5, h6, .h6, label {
   font-family: "myriad-pro", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -3771,7 +3772,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h5, .
   line-height: 1.2;
 }
 /* line 191, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h4 small, .h4 small, .location-tile small, .lifegroups-tile span small, h5 small, .h5 small, h6 small, .h6 small, label small {
+h1 small, .h1 small, h2 small, .h2 small, figcaption small, h3 small, .h3 small, h4 small, .h4 small, .location-tile small, .lifegroups-tile span small, h5 small, .h5 small, h6 small, .h6 small, label small {
   font-size: 60%;
   color: #6f6f6f;
   line-height: 0;
@@ -3783,7 +3784,7 @@ h1, .h1 {
 }
 
 /* line 199, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h2, .h2 {
+h2, .h2, figcaption {
   font-size: 1.375rem;
 }
 
@@ -4019,7 +4020,7 @@ ul blockquote li {
 
 @media only screen and (min-width: 40.063em) {
   /* line 378, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h1, .h1, h2, .h2, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h5, .h5, h6, .h6, label {
+  h1, .h1, h2, .h2, figcaption, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h5, .h5, h6, .h6, label {
     line-height: 1.2;
   }
 
@@ -4029,7 +4030,7 @@ ul blockquote li {
   }
 
   /* line 380, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h2, .h2 {
+  h2, .h2, figcaption {
     font-size: 2rem;
   }
 
@@ -4119,6 +4120,7 @@ ul blockquote li {
   p, ul li,
   h2,
   .h2,
+  figcaption,
   h3,
   .h3 {
     orphans: 3;
@@ -4126,7 +4128,7 @@ ul blockquote li {
   }
 
   /* line 436, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h2, .h2,
+  h2, .h2, figcaption,
   h3,
   .h3 {
     page-break-after: avoid;
@@ -4996,11 +4998,11 @@ a.text-black:hover {
 }
 
 /* line 67, ../scss/design/_type.scss */
-a h1, a .h1, a h2, a .h2, a h3, a .h3, a h4, a .h4, a .location-tile, a .lifegroups-tile span, .lifegroups-tile a span, a h5, a .h5, a h6, a .h6, a label {
+a h1, a .h1, a h2, a .h2, a figcaption, a h3, a .h3, a h4, a .h4, a .location-tile, a .lifegroups-tile span, .lifegroups-tile a span, a h5, a .h5, a h6, a .h6, a label {
   color: #0ea9d6 !important;
 }
 /* line 72, ../scss/design/_type.scss */
-a :hover h1, a :hover .h1, a :hover h2, a :hover .h2, a :hover h3, a :hover .h3, a :hover h4, a :hover .h4, a :hover .location-tile, a :hover .lifegroups-tile span, .lifegroups-tile a :hover span, a :hover h5, a :hover .h5, a :hover h6, a :hover .h6, a :hover label {
+a :hover h1, a :hover .h1, a :hover h2, a :hover .h2, a :hover figcaption, a :hover h3, a :hover .h3, a :hover h4, a :hover .h4, a :hover .location-tile, a :hover .lifegroups-tile span, .lifegroups-tile a :hover span, a :hover h5, a :hover .h5, a :hover h6, a :hover .h6, a :hover label {
   color: #09708e;
 }
 
@@ -5010,12 +5012,12 @@ h1, .h1 {
 }
 
 /* line 85, ../scss/design/_type.scss */
-h2, .h2, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h6, .h6, label {
+h2, .h2, figcaption, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h6, .h6, label {
   color: #444;
 }
 
 /* line 89, ../scss/design/_type.scss */
-h1, .h1, h2, .h2, h3, .h3 {
+h1, .h1, h2, .h2, figcaption, h3, .h3 {
   letter-spacing: -1px;
 }
 
@@ -5038,13 +5040,13 @@ h1, .h1 {
 }
 
 /* line 119, ../scss/design/_type.scss */
-h2, .h2 {
+h2, .h2, figcaption {
   font-size: 1.6rem;
   margin-top: 20px !important;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 119, ../scss/design/_type.scss */
-  h2, .h2 {
+  h2, .h2, figcaption {
     font-size: 2.3rem;
     margin-top: 40px !important;
     padding-bottom: .3em;
@@ -5070,64 +5072,70 @@ h6, .h6, label {
 }
 
 /* line 180, ../scss/design/_type.scss */
+figcaption {
+  font-size: 1.5rem;
+  margin-top: 20px !important;
+}
+
+/* line 189, ../scss/design/_type.scss */
 hr {
   margin-left: 15px;
   margin-right: 15px;
   max-width: 970px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 180, ../scss/design/_type.scss */
+  /* line 189, ../scss/design/_type.scss */
   hr {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-/* line 191, ../scss/design/_type.scss */
+/* line 200, ../scss/design/_type.scss */
 hr.thin {
   margin-left: 30%;
   margin-right: 30%;
 }
 
-/* line 203, ../scss/design/_type.scss */
+/* line 212, ../scss/design/_type.scss */
 textarea {
   min-height: 200px;
 }
 
-/* line 210, ../scss/design/_type.scss */
+/* line 219, ../scss/design/_type.scss */
 blockquote {
   padding-left: 0;
   border: none;
   text-align: center;
 }
-/* line 215, ../scss/design/_type.scss */
+/* line 224, ../scss/design/_type.scss */
 blockquote p, blockquote ul li, ul blockquote li {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 215, ../scss/design/_type.scss */
+  /* line 224, ../scss/design/_type.scss */
   blockquote p, blockquote ul li, ul blockquote li {
     font-size: 2rem;
   }
 }
-/* line 225, ../scss/design/_type.scss */
+/* line 234, ../scss/design/_type.scss */
 blockquote cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 225, ../scss/design/_type.scss */
+  /* line 234, ../scss/design/_type.scss */
   blockquote cite {
     font-size: 1.3rem;
   }
 }
-/* line 234, ../scss/design/_type.scss */
+/* line 243, ../scss/design/_type.scss */
 blockquote.quote-large {
   text-align: left;
 }
-/* line 237, ../scss/design/_type.scss */
+/* line 246, ../scss/design/_type.scss */
 blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
   font-size: 1.2rem;
   line-height: 1.3em;
@@ -5135,66 +5143,66 @@ blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-larg
   font-weight: 300;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 237, ../scss/design/_type.scss */
+  /* line 246, ../scss/design/_type.scss */
   blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
     font-size: 3rem;
   }
 }
-/* line 248, ../scss/design/_type.scss */
+/* line 257, ../scss/design/_type.scss */
 blockquote.quote-large cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 248, ../scss/design/_type.scss */
+  /* line 257, ../scss/design/_type.scss */
   blockquote.quote-large cite {
     font-size: 1.5rem;
   }
 }
 
-/* line 261, ../scss/design/_type.scss */
+/* line 270, ../scss/design/_type.scss */
 a p, a ul li, ul a li {
   color: #333333;
 }
 
-/* line 266, ../scss/design/_type.scss */
+/* line 275, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 272, ../scss/design/_type.scss */
+/* line 281, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 278, ../scss/design/_type.scss */
+/* line 287, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 278, ../scss/design/_type.scss */
+  /* line 287, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 288, ../scss/design/_type.scss */
+/* line 297, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 295, ../scss/design/_type.scss */
+/* line 304, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 300, ../scss/design/_type.scss */
+/* line 309, ../scss/design/_type.scss */
 p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5202,29 +5210,29 @@ p, ul li {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 300, ../scss/design/_type.scss */
+  /* line 309, ../scss/design/_type.scss */
   p, ul li {
     font-size: 1.25rem;
   }
 }
 
-/* line 312, ../scss/design/_type.scss */
+/* line 321, ../scss/design/_type.scss */
 .detail, ul li {
   font-size: 0.9375rem;
 }
 
-/* line 317, ../scss/design/_type.scss */
+/* line 326, ../scss/design/_type.scss */
 ul li {
   margin-bottom: 10px;
 }
 
-/* line 324, ../scss/design/_type.scss */
+/* line 333, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "ff-meta-serif-web-pro";
   font-weight: 300;
 }
 
-/* line 331, ../scss/design/_type.scss */
+/* line 340, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5233,15 +5241,16 @@ ul li {
   font-weight: 300;
 }
 
-/* line 337, ../scss/design/_type.scss */
+/* line 346, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 343, ../scss/design/_type.scss */
+/* line 352, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
-.header-red .h2 {
+.header-red .h2,
+.header-red figcaption {
   color: #b9252d;
 }
 
@@ -5911,7 +5920,7 @@ a .panel {
   border-color: #d8d8d8;
 }
 /* line 45, ../scss/design/_sections.scss */
-a .panel h1, a .panel .h1, a .panel h2, a .panel .h2, a .panel h3, a .panel .h3, a .panel h4, a .panel .h4, a .panel .location-tile, a .panel .lifegroups-tile span, .lifegroups-tile a .panel span, a .panel h5, a .panel .h5, a .panel h6, a .panel .h6, a .panel label {
+a .panel h1, a .panel .h1, a .panel h2, a .panel .h2, a .panel figcaption, a .panel h3, a .panel .h3, a .panel h4, a .panel .h4, a .panel .location-tile, a .panel .lifegroups-tile span, .lifegroups-tile a .panel span, a .panel h5, a .panel .h5, a .panel h6, a .panel .h6, a .panel label {
   margin-top: 15px !important;
   margin-bottom: 0 !important;
 }
@@ -5933,7 +5942,7 @@ a .panel h1, a .panel .h1, a .panel h2, a .panel .h2, a .panel h3, a .panel .h3,
 }
 
 /* line 71, ../scss/design/_sections.scss */
-.section-light h1, .section-light .h1, .section-light h2, .section-light .h2, .section-light h3, .section-light .h3, .section-light h4, .section-light .h4, .section-light .location-tile, .section-light .lifegroups-tile span, .lifegroups-tile .section-light span, .section-light h5, .section-light .h5, .section-light h6, .section-light .h6, .section-light label, .section-light p, .section-light ul li, ul .section-light li, .section-light a, .section-light .button {
+.section-light h1, .section-light .h1, .section-light h2, .section-light .h2, .section-light figcaption, .section-light h3, .section-light .h3, .section-light h4, .section-light .h4, .section-light .location-tile, .section-light .lifegroups-tile span, .lifegroups-tile .section-light span, .section-light h5, .section-light .h5, .section-light h6, .section-light .h6, .section-light label, .section-light p, .section-light ul li, ul .section-light li, .section-light a, .section-light .button {
   color: #fff;
   border-color: #fff;
 }
@@ -7651,67 +7660,94 @@ button.dropdown::before {
   margin: 0 auto -35px;
 }
 
-/* line 71, ../scss/pages/_giving.scss */
+/* line 67, ../scss/pages/_giving.scss */
+.figure-spacesplaces {
+  padding-top: 30px;
+  margin: 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 67, ../scss/pages/_giving.scss */
+  .figure-spacesplaces {
+    padding-top: 30px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 67, ../scss/pages/_giving.scss */
+  .figure-spacesplaces {
+    border: 2px solid #ccc;
+    border-radius: 2000px;
+    width: 360px;
+    height: 360px;
+    padding: 90px 40px 0;
+  }
+}
+/* line 83, ../scss/pages/_giving.scss */
+.figure-spacesplaces img {
+  margin: 10px 10px 0;
+  position: relative;
+}
+
+/* line 93, ../scss/pages/_giving.scss */
 .restore blockquote cite {
   color: #e0646b;
 }
-/* line 75, ../scss/pages/_giving.scss */
+/* line 97, ../scss/pages/_giving.scss */
 .restore .primary-links .live {
   color: #641418 !important;
 }
 
-/* line 80, ../scss/pages/_giving.scss */
+/* line 102, ../scss/pages/_giving.scss */
 .section-restore-1 {
   background: black url("/images/giving/restore-bg-1.jpg") center bottom no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 80, ../scss/pages/_giving.scss */
+  /* line 102, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 250px;
     padding-bottom: 50px;
   }
 }
 @media only screen and (min-height: 620px) {
-  /* line 80, ../scss/pages/_giving.scss */
+  /* line 102, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 350px;
     padding-bottom: 80px;
   }
 }
 
-/* line 96, ../scss/pages/_giving.scss */
+/* line 118, ../scss/pages/_giving.scss */
 .section-restore-2 {
   background: #222;
 }
 
-/* line 100, ../scss/pages/_giving.scss */
+/* line 122, ../scss/pages/_giving.scss */
 .hphoto-restore {
   background-image: url("/images/giving/restore-bg-2.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 100, ../scss/pages/_giving.scss */
+  /* line 122, ../scss/pages/_giving.scss */
   .hphoto-restore {
     background-image: url("/images/giving/restore-bg-2@2x.jpg");
   }
 }
 
-/* line 106, ../scss/pages/_giving.scss */
+/* line 128, ../scss/pages/_giving.scss */
 .section-restore-3 {
   background: #222;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 106, ../scss/pages/_giving.scss */
+  /* line 128, ../scss/pages/_giving.scss */
   .section-restore-3 {
     padding-top: 5em;
     padding-bottom: 4em;
   }
 }
 
-/* line 119, ../scss/pages/_giving.scss */
+/* line 141, ../scss/pages/_giving.scss */
 .digital-missions .digital-missions-bg {
   height: 600px;
   background-image: url("/images/digital-missions/dm-bg.jpg");
@@ -7721,7 +7757,7 @@ button.dropdown::before {
   background-position: center bottom;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 119, ../scss/pages/_giving.scss */
+  /* line 141, ../scss/pages/_giving.scss */
   .digital-missions .digital-missions-bg {
     background-image: url("/images/digital-missions/dm-bg@2x.jpg");
   }
