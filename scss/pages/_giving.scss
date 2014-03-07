@@ -3,29 +3,45 @@
   .hphoto-giving-tithe {
     @include background-image-2x-jpg('/images/giving/giving-bg');
     background-repeat: no-repeat;
-    background-size: 1500px 450px;
     background-position: center;
+    background-size: auto 100%;
+
+    @media #{$medium-up} {
+      background-size: 1500px 450px;
+    }
   }
 
   .hphoto-giving-spacesplaces {
     @include background-image-2x-jpg('/images/giving/spaces-places');
     background-repeat: no-repeat;
-    background-size: 1500px 450px;
     background-position: center;
+    background-size: auto 100%;
+
+    @media #{$medium-up} {
+      background-size: 1500px 450px;
+    }
   }
 
   .hphoto-giving-reliefrestoration {
     @include background-image-2x-jpg('/images/giving/relief-restoration');
     background-repeat: no-repeat;
-    background-size: 1500px 450px;
     background-position: center;
+    background-size: auto 100%;
+
+    @media #{$medium-up} {
+      background-size: 1500px 450px;
+    }
   }
 
   .hphoto-giving-digitalmissions {
     @include background-image-2x-jpg('/images/giving/digital-missions');
     background-repeat: no-repeat;
-    background-size: 1500px 450px;
     background-position: center;
+    background-size: auto 100%;
+
+    @media #{$medium-up} {
+      background-size: 1500px 450px;
+    }
   }
 
   .giving-main,
