@@ -1,6 +1,6 @@
 ---
-- id: 1
-  title: Being Rich
+- id: 1097
+  title: 30 Second Theology
   headline: TODO
   description_small: TODO
   description_medium: TODO
@@ -9,19 +9,7 @@
   image_small: TODO
   image_medium: TODO
   image_large: TODO
-  messages:
-  - title: Rich in Good Deeds
-    headline: TODO
-    video: o1u7b9mdqi
-  - title: Rich Givers
-    headline: TODO
-    video: a0x3409aoc
-  - title: Deceitfulness of Riches
-    headline: TODO
-    video: 2zwngf3fsh
-  - title: Good News, Bad News
-    headline: TODO
-    video: gdeqxjnzut
+  messages: []
 - id: 1096
   title: Small Things Big Difference
   headline: TODO
@@ -35,16 +23,16 @@
   messages:
   - title: Your Habits
     headline: TODO
-    video: 6ue0baclbe
+    video: 6ocetoiwty
   - title: Your Words
     headline: TODO
-    video: 2empmqn1c2
+    video: 
   - title: Your Thoughts
     headline: TODO
-    video: 527fcsdh9w
+    video: 
   - title: Your One Word
     headline: TODO
-    video: 6ocetoiwty
+    video: 
 - id: 1095
   title: Maker of Miracles
   headline: TODO
@@ -58,7 +46,7 @@
   messages:
   - title: Christine Caine - Maker of Miracles
     headline: TODO
-    video: ixpwc86xl5
+    video: 
 - id: 1094
   title: Fear Not
   headline: TODO
@@ -72,13 +60,13 @@
   messages:
   - title: Fear of Where You Stand with God
     headline: TODO
-    video: wx2nij12h9
+    video: 
   - title: Fear of What People Think About Me
     headline: TODO
-    video: 8aqqjcszp0
+    video: 
   - title: Fear of What God is Asking Me to Do
     headline: TODO
-    video: 2urjgyzul9
+    video: 
 - id: 1092
   title: Interview with Kevin Durant and Carl Lentz
   headline: TODO
@@ -92,7 +80,7 @@
   messages:
   - title: Growing Spiritually
     headline: TODO
-    video: w27d5mmxhd
+    video: 
 - id: 1091
   title: Necessary Sins
   headline: TODO
@@ -106,16 +94,16 @@
   messages:
   - title: Anger
     headline: TODO
-    video: ety3f2bsel
+    video: 
   - title: Lust
     headline: TODO
-    video: vg3o6ux37k
+    video: 
   - title: Gossip
     headline: TODO
-    video: 2h8ifyzn2p
+    video: 
   - title: Lying
     headline: TODO
-    video: napinerez1
+    video: 
 - id: 1090
   title: Fight
   headline: TODO
@@ -129,7 +117,7 @@
   messages:
   - title: Fight
     headline: TODO
-    video: 0w0hlb1bhl
+    video: 
 - id: 1089
   title: Multiply 2013
   headline: TODO
@@ -143,13 +131,13 @@
   messages:
   - title: Sowing and Reaping
     headline: TODO
-    video: cqwqmvtona
+    video: 
   - title: The Principles of Multiplication
     headline: TODO
-    video: ar3vfbmpfc
+    video: 
   - title: God Must Be First
     headline: TODO
-    video: om1eri2tur
+    video: 
 - id: 1088
   title: Friending
   headline: TODO
@@ -163,16 +151,16 @@
   messages:
   - title: Unfriending
     headline: TODO
-    video: abo4rvpr5z
+    video: 
   - title: One Community Away
     headline: TODO
-    video: sj714e3yn5
+    video: 
   - title: One Friend Away
     headline: TODO
-    video: r1ctexojna
+    video: 
   - title: The Foundation of Friendship
     headline: TODO
-    video: w73t3gupni
+    video: 
 - id: 1087
   title: Rescue
   headline: TODO
@@ -200,16 +188,16 @@
   messages:
   - title: Ridiculous Recovery
     headline: TODO
-    video: 0s27y4jqtd
+    video: 
   - title: Ridiculous Provision
     headline: TODO
-    video: td06b8sufz
+    video: 
   - title: Ridiculous Faith
     headline: TODO
-    video: fw48dru3hx
+    video: 
   - title: Ridiculous Commitment
     headline: TODO
-    video: vbowemb7vw
+    video: 
 - id: 1085
   title: At the Movies 2013
   headline: TODO
@@ -583,13 +571,13 @@
   image_medium: TODO
   image_large: TODO
   messages:
-  - title: 'A Different Perspective On Worry '
+  - title: ! 'A Different Perspective On Worry '
     headline: TODO
     video: 
   - title: Seeing From A Different Perspective
     headline: TODO
     video: 
-  - title: 'A Different Way Of Thinking '
+  - title: ! 'A Different Way Of Thinking '
     headline: TODO
     video: 
   - title: Now What?
@@ -689,7 +677,7 @@
   - title: Failing Forward
     headline: TODO
     video: 
-  - title: 'Small Steps Towards Big Destruction '
+  - title: ! 'Small Steps Towards Big Destruction '
     headline: TODO
     video: 
   - title: Emotional Strength
@@ -1638,7 +1626,7 @@
   image_medium: TODO
   image_large: TODO
   messages:
-  - title: '#1 Myth about Money'
+  - title: ! '#1 Myth about Money'
     headline: TODO
     video: 
   - title: Breaking The Bondage Of Debt
