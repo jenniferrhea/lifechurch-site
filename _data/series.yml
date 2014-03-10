@@ -1,323 +1,4 @@
 ---
-- id: 9
-  title: Money Matters
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Money Matters - Session 1
-    headline: TODO
-    video: 4uduwve7d1
-  - title: Money Matters - Session 2
-    headline: TODO
-    video: 7vjfrs5pkm
-  - title: Money Matters - Session 3
-    headline: TODO
-    video: reem6tggmd
-  - title: Money Matters - Session 4
-    headline: TODO
-    video: e2ewjsr5po
-- id: 10
-  title: Margin - Video Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Margin - Session 1
-    headline: TODO
-    video: 25ek24sx5q
-  - title: Margin - Session 2
-    headline: TODO
-    video: icyeffaru8
-  - title: Margin - Session 3
-    headline: TODO
-    video: hln323m923
-- id: 6
-  title: Developing Others Through Coaching
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Developing Others Through Coaching - Intro
-    headline: TODO
-    video: nhku2k7ea5
-  - title: Developing Others Through Coaching - Session 1
-    headline: TODO
-    video: 33qlnskvy7
-  - title: Developing Others Through Coaching - Session 2
-    headline: TODO
-    video: 43fytc8138
-  - title: Developing Others Through Coaching - Session 3
-    headline: TODO
-    video: 2auzl6uw0u
-  - title: Developing Others Through Coaching - Session 4
-    headline: TODO
-    video: e3vjv62mf7
-  - title: Developing Others Through Coaching - Session 5
-    headline: TODO
-    video: u1l1hiel22
-  - title: Developing Others Through Coaching - Close
-    headline: TODO
-    video: qlf6m9x043
-- id: 4
-  title: Restore
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Restore - Introduction
-    headline: TODO
-    video: zy6w6xtun1
-  - title: Restore - Session 1
-    headline: TODO
-    video: 4ife0zlgbr
-  - title: Restore - Session 2
-    headline: TODO
-    video: lil913bneq
-  - title: Restore - Session 3
-    headline: TODO
-    video: tiumuhv1zp
-- id: 7
-  title: Changed
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Changed - Session 1
-    headline: TODO
-    video: xnm53dknnm
-  - title: Changed - Session 2
-    headline: TODO
-    video: 7y02hapmjw
-  - title: Changed - Session 3
-    headline: TODO
-    video: 9pqwgmc3g4
-  - title: Changed - Session 4
-    headline: TODO
-    video: 416da1ie2u
-  - title: Changed - Session 5
-    headline: TODO
-    video: higicm0edh
-  - title: Changed - Session 6
-    headline: TODO
-    video: uii8dvussx
-- id: 8
-  title: Family-iD
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Family-iD - Session 1
-    headline: TODO
-    video: hxco9eowfi
-  - title: Family-iD - Session 2
-    headline: TODO
-    video: tg8n385mpk
-  - title: Family-iD - Session 3
-    headline: TODO
-    video: 4y5c6e11n1
-  - title: Family-iD - Session 4
-    headline: TODO
-    video: wqzg2z5iyw
-- id: 12
-  title: Sharing Your Story
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Sharing Your Story - Session 1
-    headline: TODO
-    video: zq3g2hp31y
-  - title: Sharing Your Story - Session 2
-    headline: TODO
-    video: ki0cj4aww0
-- id: 11
-  title: Friending - Video Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Friending - Session 1
-    headline: TODO
-    video: 9h613p5jgd
-  - title: Friending - Session 2
-    headline: TODO
-    video: umrwm9xcr4
-  - title: Friending - Session 3
-    headline: TODO
-    video: p6gf29xcxb
-  - title: Friending - Session 4
-    headline: TODO
-    video: jh6owjhz5f
-- id: 16
-  title: Being Rich - Video Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Being Rich - Session 1
-    headline: TODO
-    video: j5d6k78xnm
-  - title: Being Rich - Session 2
-    headline: TODO
-    video: th99r5wops
-  - title: Being Rich - Session 3
-    headline: TODO
-    video: pom3nztgip
-  - title: Being Rich - Session 4
-    headline: TODO
-    video: 6f3zv42ibt
-  - title: Being Rich - Session 5
-    headline: TODO
-    video: d9hiv7d540
-- id: 13
-  title: From This Day Forward - Video Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: From This Day Forward - Session 1
-    headline: TODO
-    video: 8xuk8uwoiv
-  - title: From This Day Forward - Session 2
-    headline: TODO
-    video: omu2j9jh5t
-  - title: From This Day Forward - Session 3
-    headline: TODO
-    video: v53i2m40ak
-  - title: From This Day Forward - Session 4
-    headline: TODO
-    video: 1h07ktjpfs
-  - title: From This Day Forward - Session 5
-    headline: TODO
-    video: 4fgyj7eeam
-- id: 5
-  title: LifeGroup Training
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: LifeGroup Training - Session 1
-    headline: TODO
-    video: 8ony5a0idk
-  - title: LifeGroup Training - Session 2
-    headline: TODO
-    video: h0wifrt0w7
-  - title: LifeGroup Training - Session 3
-    headline: TODO
-    video: l2s43t5z12
-- id: 15
-  title: Helping Without Hurting
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Helping Without Hurting - Session 1
-    headline: TODO
-    video: goikk7z4wl
-  - title: Helping Without Hurting - Session 2
-    headline: TODO
-    video: kobqiozv9s
-  - title: Helping Without Hurting - Session 3
-    headline: TODO
-    video: ojy7e1wrb7
-  - title: Helping Without Hurting - Session 4
-    headline: TODO
-    video: nwedrtzzh9
-  - title: Helping Without Hurting - Session 5
-    headline: TODO
-    video: f96wlasrk8
-  - title: Helping Without Hurting - Session 6
-    headline: TODO
-    video: wjfv2sgj9r
-- id: 3
-  title: Church Online Welcome
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Welcome Message
-    headline: TODO
-    video: l4wjxd560f
-- id: 2
-  title: Church Online Experience
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Weekend Message Experience
-    headline: TODO
-    video: 03882yi654
 - id: 1
   title: Being Rich
   headline: TODO
@@ -341,17 +22,6 @@
   - title: Good News, Bad News
     headline: TODO
     video: gdeqxjnzut
-- id: 1097
-  title: 30 Second Theology
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages: []
 - id: 1096
   title: Small Things Big Difference
   headline: TODO
@@ -842,128 +512,6 @@
   - title: A Godly Perspective on Money
     headline: TODO
     video: 
-- id: 1070
-  title: Bible X
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Goals, Structure, and Key Characteristics of BibleX // Introduction Module
-      - Session 1
-    headline: TODO
-    video: 
-  - title: What is the Bible?  Where did the Bible come from? // Introduction Module
-      - Session 2
-    headline: TODO
-    video: 
-  - title: The Value of Scripture // Introduction Module - Session 3
-    headline: TODO
-    video: 
-  - title: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy // Module 1 - Session
-      1
-    headline: TODO
-    video: 
-  - title: Genesis // Module 1 - Session 2
-    headline: TODO
-    video: 
-  - title: 'Patriarchs: Genesis // Module 1 - Session 3'
-    headline: TODO
-    video: 
-  - title: Exodus // Module 1 - Session 4
-    headline: TODO
-    video: 
-  - title: Exodus and Leviticus // Module 1 - Session 5
-    headline: TODO
-    video: 
-  - title: Numbers // Module 1 - Session 6
-    headline: TODO
-    video: 
-  - title: Joshua and Judges // Module 2 - Session 1
-    headline: TODO
-    video: 
-  - title: 1 Samuel and 2 Samuel // Module 2 - Session 2
-    headline: TODO
-    video: 
-  - title: 1 Kings, 2 Kings, and 1 Chronicles // Module 2 - Session 3
-    headline: TODO
-    video: 
-  - title: Daniel and Esther // Module 2 - Session 4
-    headline: TODO
-    video: 
-  - title: Ezra and Nehemiah // Module 2 - Session 5
-    headline: TODO
-    video: 
-  - title: Psalms // Module 3 - Session 1
-    headline: TODO
-    video: 
-  - title: Proverbs // Module 3 - Session 2
-    headline: TODO
-    video: 
-  - title: Ecclesiastes // Module 3 - Session 3
-    headline: TODO
-    video: 
-  - title: Job // Module 3 - Session 4
-    headline: TODO
-    video: 
-  - title: Isaiah // Module 4 - Session 1
-    headline: TODO
-    video: 
-  - title: Jeremiah // Module 4 - Session 2
-    headline: TODO
-    video: 
-  - title: Hosea // Module 4 - Session 3
-    headline: TODO
-    video: 
-  - title: Jonah // Module 4 - Session 4
-    headline: TODO
-    video: 
-  - title: Amos // Module 4 - Session 5
-    headline: TODO
-    video: 
-  - title: 'Gospels: Matthew, Mark, Luke, and John // Module 5 - Session 1'
-    headline: TODO
-    video: 
-  - title: Matthew // Module 5 - Session 2
-    headline: TODO
-    video: 
-  - title: Mark // Module 5 - Session 3
-    headline: TODO
-    video: 
-  - title: Luke // Module 5 - Session 4
-    headline: TODO
-    video: 
-  - title: John // Module 5 - Session 5
-    headline: TODO
-    video: 
-  - title: Acts, Philemon, and Romans // Module 6 - Session 1
-    headline: TODO
-    video: 
-  - title: Galatians // Module 6 - Session 2
-    headline: TODO
-    video: 
-  - title: Ephesians // Module 6 - Session 3
-    headline: TODO
-    video: 
-  - title: Philippians // Module 6 - Session 4
-    headline: TODO
-    video: 
-  - title: 1 Timothy and 2 Timothy // Module 6 - Session 5
-    headline: TODO
-    video: 
-  - title: James // Module 7 - Session 2
-    headline: TODO
-    video: 
-  - title: 1 John // Module 7 - Session 3
-    headline: TODO
-    video: 
-  - title: Revelation // Module 7 - Session 4
-    headline: TODO
-    video: 
 - id: 1063
   title: From This Day Forward
   headline: TODO
@@ -988,29 +536,6 @@
     headline: TODO
     video: 
   - title: Seek God
-    headline: TODO
-    video: 
-- id: 1064
-  title: Better Small Group Series
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Better LifeGroup Discussion Session 4
-    headline: TODO
-    video: 
-  - title: Better LifeGroup Discussion Session 3
-    headline: TODO
-    video: 
-  - title: Better LifeGroup Discussion Session 2
-    headline: TODO
-    video: 
-  - title: Better LifeGroup Discussion Session 1
     headline: TODO
     video: 
 - id: 1062
@@ -1045,35 +570,6 @@
   image_large: TODO
   messages:
   - title: More Than Dust
-    headline: TODO
-    video: 
-- id: 1060
-  title: Chazown for Small Groups
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Chazown - Session 1
-    headline: TODO
-    video: 
-  - title: Chazown - Session 2
-    headline: TODO
-    video: 
-  - title: Chazown - Session 3
-    headline: TODO
-    video: 
-  - title: chazown - Session 4
-    headline: TODO
-    video: 
-  - title: chazown - Session 5
-    headline: TODO
-    video: 
-  - title: chazown - Session 6
     headline: TODO
     video: 
 - id: 1057
@@ -1613,26 +1109,6 @@
   - title: Hope Shines Through
     headline: TODO
     video: 
-- id: 1028
-  title: Multiply
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Sowing and Reaping
-    headline: TODO
-    video: 
-  - title: The Principles of Multiplication
-    headline: TODO
-    video: 
-  - title: God Must Be First
-    headline: TODO
-    video: 
 - id: 1027
   title: Masquerade
   headline: TODO
@@ -1713,17 +1189,6 @@
   - title: Week 1
     headline: TODO
     video: 
-- id: 1023
-  title: An Interview With Tony Dungy
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages: []
 - id: 1022
   title: Toxic
   headline: TODO
@@ -1796,17 +1261,6 @@
   - title: Unstoppable Courage
     headline: TODO
     video: 
-- id: 1019
-  title: The Porn Event
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages: []
 - id: 1018
   title: Forgotten Virtues
   headline: TODO
@@ -1925,17 +1379,6 @@
   - title: Margin
     headline: TODO
     video: 
-- id: 1033
-  title: First
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages: []
 - id: 1014
   title: The One Thing
   headline: TODO
@@ -2522,29 +1965,6 @@
   - title: Bitterness
     headline: TODO
     video: 
-- id: 961
-  title: How to Be Rich
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Week 4
-    headline: TODO
-    video: 
-  - title: Week 3
-    headline: TODO
-    video: 
-  - title: Week 2
-    headline: TODO
-    video: 
-  - title: Week 1
-    headline: TODO
-    video: 
 - id: 960
   title: Unstoppable
   headline: TODO
@@ -2625,26 +2045,6 @@
   - title: Porn
     headline: TODO
     video: 
-- id: 954
-  title: Friends with Benefits
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Friends with Benefits 1
-    headline: TODO
-    video: 
-  - title: Friends with Benefits 2
-    headline: TODO
-    video: 
-  - title: Friends with Benefits 3
-    headline: TODO
-    video: 
 - id: 950
   title: Blessed
   headline: TODO
@@ -2666,20 +2066,6 @@
     headline: TODO
     video: 
   - title: Blessed with a Need
-    headline: TODO
-    video: 
-- id: 949
-  title: What is SWITCH?
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: What is Switch
     headline: TODO
     video: 
 - id: 948
@@ -2737,51 +2123,6 @@
     headline: TODO
     video: 
   - title: The Jonah In Us
-    headline: TODO
-    video: 
-- id: 938
-  title: Parents
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages: []
-- id: 939
-  title: Switch Rewind
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Switch Rewind - Part 1
-    headline: TODO
-    video: 
-  - title: Switch Rewind - Part 2
-    headline: TODO
-    video: 
-  - title: Switch Rewind - Part 3
-    headline: TODO
-    video: 
-- id: 940
-  title: Fully Devoted
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Fully Devoted
     headline: TODO
     video: 
 - id: 931
@@ -2853,46 +2194,6 @@
   - title: Communion
     headline: TODO
     video: 
-- id: 937
-  title: Stones
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Stones - Part 1
-    headline: TODO
-    video: 
-  - title: Stones - Part 2
-    headline: TODO
-    video: 
-  - title: Stones - Part 3
-    headline: TODO
-    video: 
-- id: 936
-  title: Journey 2
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Journey 2 - Week 1
-    headline: TODO
-    video: 
-  - title: Journey 2 - Week 2
-    headline: TODO
-    video: 
-  - title: Journey 2 - Week 3
-    headline: TODO
-    video: 
 - id: 925
   title: Satans Sex Ed
   headline: TODO
@@ -2914,29 +2215,6 @@
     headline: TODO
     video: 
   - title: Satans Sex Ed 101
-    headline: TODO
-    video: 
-- id: 921
-  title: Urban Legends - LifeGroup Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Sin Legends
-    headline: TODO
-    video: 
-  - title: More Than You Can Handle
-    headline: TODO
-    video: 
-  - title: God Wants You Happy
-    headline: TODO
-    video: 
-  - title: There Are Many Ways to God
     headline: TODO
     video: 
 - id: 918
@@ -2976,37 +2254,6 @@
   - title: Vision 2007
     headline: TODO
     video: 
-- id: 916
-  title: Footsteps
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Footsteps 2
-    headline: TODO
-    video: 
-  - title: Footsteps 1
-    headline: TODO
-    video: 
-- id: 920
-  title: Matthew
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Matthew
-    headline: TODO
-    video: 
 - id: 914
   title: Miracles
   headline: TODO
@@ -3036,57 +2283,6 @@
   - title: Calming the Storm
     headline: TODO
     video: 
-- id: 923
-  title: Solomon
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Solomon
-    headline: TODO
-    video: 
-- id: 928
-  title: Prayer
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Prayer
-    headline: TODO
-    video: 
-- id: 926
-  title: Mind Your Own Business - Supplemental Tools
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Supplemental Tools 4
-    headline: TODO
-    video: 
-  - title: Supplemental Tools 3
-    headline: TODO
-    video: 
-  - title: Supplemental Tools 2
-    headline: TODO
-    video: 
-  - title: Supplemental Tools 1
-    headline: TODO
-    video: 
 - id: 912
   title: Mind Your Own Business
   headline: TODO
@@ -3108,46 +2304,6 @@
     headline: TODO
     video: 
   - title: Minding the Business
-    headline: TODO
-    video: 
-- id: 924
-  title: Worship
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Worship
-    headline: TODO
-    video: 
-- id: 909
-  title: Disciple - LifeGroup Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Video 5
-    headline: TODO
-    video: 
-  - title: Video 4
-    headline: TODO
-    video: 
-  - title: Video 3
-    headline: TODO
-    video: 
-  - title: Video 2
-    headline: TODO
-    video: 
-  - title: Video 1
     headline: TODO
     video: 
 - id: 910
@@ -3176,37 +2332,6 @@
   - title: No Christians Allowed
     headline: TODO
     video: 
-- id: 915
-  title: David
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: David 1
-    headline: TODO
-    video: 
-- id: 911
-  title: Poser
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Poser 2
-    headline: TODO
-    video: 
-  - title: Poser 1
-    headline: TODO
-    video: 
 - id: 907
   title: My Secret
   headline: TODO
@@ -3228,20 +2353,6 @@
     headline: TODO
     video: 
   - title: Lying
-    headline: TODO
-    video: 
-- id: 962
-  title: Lust
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Lust
     headline: TODO
     video: 
 - id: 906
@@ -3295,80 +2406,6 @@
   image_medium: TODO
   image_large: TODO
   messages: []
-- id: 901
-  title: Mexico
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Mexico - 2
-    headline: TODO
-    video: 
-  - title: Mexico - 1
-    headline: TODO
-    video: 
-- id: 905
-  title: Blog
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Who Are You?
-    headline: TODO
-    video: 
-  - title: Are You Committed?
-    headline: TODO
-    video: 
-  - title: Fear of Rejection
-    headline: TODO
-    video: 
-- id: 945
-  title: Why - Host LifeGroup Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages: []
-- id: 898
-  title: Why
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Why Are We Here?
-    headline: TODO
-    video: 
-  - title: Why Isnt God Fair?
-    headline: TODO
-    video: 
-  - title: Why Would God Love Me?
-    headline: TODO
-    video: 
-  - title: Why Didnt God Answer My Prayer?
-    headline: TODO
-    video: 
-  - title: Why Dont I Always Feel God?
-    headline: TODO
-    video: 
 - id: 897
   title: Meds
   headline: TODO
@@ -3407,23 +2444,6 @@
     headline: TODO
     video: 
   - title: I Have to be Strong
-    headline: TODO
-    video: 
-- id: 904
-  title: Stories
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Samson
-    headline: TODO
-    video: 
-  - title: Esther
     headline: TODO
     video: 
 - id: 854
@@ -3472,46 +2492,6 @@
   - title: Jehovah Rohi
     headline: TODO
     video: 
-- id: 899
-  title: Hookups and Breakups
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Breakups
-    headline: TODO
-    video: 
-  - title: Hookups
-    headline: TODO
-    video: 
-- id: 932
-  title: Parenthood - LifeGroup Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: The Parents Priority
-    headline: TODO
-    video: 
-  - title: Unchanging Principles of Parenting
-    headline: TODO
-    video: 
-  - title: Discipline
-    headline: TODO
-    video: 
-  - title: Now What?
-    headline: TODO
-    video: 
 - id: 850
   title: Parenthood
   headline: TODO
@@ -3533,23 +2513,6 @@
     headline: TODO
     video: 
   - title: Now What?
-    headline: TODO
-    video: 
-- id: 903
-  title: Pressure
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Pressure - 2
-    headline: TODO
-    video: 
-  - title: Pressure - 1
     headline: TODO
     video: 
 - id: 855
@@ -3595,40 +2558,6 @@
   - title: Between The Lines
     headline: TODO
     video: 
-- id: 933
-  title: Whats God's Will? - LifeGroup Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Markers on the Road
-    headline: TODO
-    video: 
-  - title: What Am I Doing Wrong?
-    headline: TODO
-    video: 
-  - title: Between The Lines
-    headline: TODO
-    video: 
-  - title: My Will or Thy Will?
-    headline: TODO
-    video: 
-- id: 946
-  title: Baggage - LifeGroup Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages: []
 - id: 853
   title: Baggage
   headline: TODO
@@ -3737,26 +2666,6 @@
   - title: Be The One
     headline: TODO
     video: 
-- id: 900
-  title: Journey
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Journey - 3
-    headline: TODO
-    video: 
-  - title: Journey - 2
-    headline: TODO
-    video: 
-  - title: Journey - 1
-    headline: TODO
-    video: 
 - id: 874
   title: Doubters Anonymous
   headline: TODO
@@ -3797,26 +2706,6 @@
   - title: When People Let You Down
     headline: TODO
     video: 
-- id: 922
-  title: Help Wanted
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Help Wanted 3
-    headline: TODO
-    video: 
-  - title: Help Wanted 2
-    headline: TODO
-    video: 
-  - title: Help Wanted 1
-    headline: TODO
-    video: 
 - id: 870
   title: God Love Sex
   headline: TODO
@@ -3844,32 +2733,6 @@
     headline: TODO
     video: 
   - title: Faithful Attraction
-    headline: TODO
-    video: 
-- id: 935
-  title: God Love Sex - LifeGroup Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Perfect Seasoning
-    headline: TODO
-    video: 
-  - title: Till Death Do Us Part
-    headline: TODO
-    video: 
-  - title: Just Do It
-    headline: TODO
-    video: 
-  - title: Reconcilable Differences
-    headline: TODO
-    video: 
-  - title: Great Sex
     headline: TODO
     video: 
 - id: 876
@@ -3928,23 +2791,6 @@
   - title: Green with Envy
     headline: TODO
     video: 
-- id: 890
-  title: Confessions
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Message 2
-    headline: TODO
-    video: 
-  - title: Message 1
-    headline: TODO
-    video: 
 - id: 861
   title: Q and A 2004
   headline: TODO
@@ -3967,35 +2813,6 @@
     video: 
 - id: 864
   title: Life Development Plan 2004
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Work Life
-    headline: TODO
-    video: 
-  - title: Physical Life
-    headline: TODO
-    video: 
-  - title: Finances
-    headline: TODO
-    video: 
-  - title: Relationship with People
-    headline: TODO
-    video: 
-  - title: Relationship with God
-    headline: TODO
-    video: 
-  - title: Mission and Values
-    headline: TODO
-    video: 
-- id: 934
-  title: Life Development Plan 2004 - LifeGroup Study
   headline: TODO
   description_small: TODO
   description_medium: TODO
@@ -4100,17 +2917,6 @@
   - title: Attitude Check
     headline: TODO
     video: 
-- id: 943
-  title: Its All In Your Mind - LifeGroup Study
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages: []
 - id: 857
   title: Whats the Difference?
   headline: TODO
@@ -4169,29 +2975,6 @@
     headline: TODO
     video: 
   - title: Consumed
-    headline: TODO
-    video: 
-- id: 859
-  title: The Warrior 2004
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: The Passionate Warrior
-    headline: TODO
-    video: 
-  - title: The Wounded Warrior
-    headline: TODO
-    video: 
-  - title: The Hesitant Warrior
-    headline: TODO
-    video: 
-  - title: The Warrior
     headline: TODO
     video: 
 - id: 877
@@ -4363,29 +3146,6 @@
   - title: The Pain of Loss
     headline: TODO
     video: 
-- id: 856
-  title: Take A Vow
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: The Vow of Purity
-    headline: TODO
-    video: 
-  - title: The Vow of Partnership
-    headline: TODO
-    video: 
-  - title: The Vow of Pursuit
-    headline: TODO
-    video: 
-  - title: The Vow of Priority
-    headline: TODO
-    video: 
 - id: 851
   title: World Changers
   headline: TODO
@@ -4496,25 +3256,5 @@
     headline: TODO
     video: 
   - title: Forgiving
-    headline: TODO
-    video: 
-- id: 888
-  title: X-Stress Yourself
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
-  messages:
-  - title: Worry Thwart
-    headline: TODO
-    video: 
-  - title: I Will Survive
-    headline: TODO
-    video: 
-  - title: Struggle Juggle
     headline: TODO
     video: 
