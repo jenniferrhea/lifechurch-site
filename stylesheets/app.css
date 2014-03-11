@@ -7819,73 +7819,68 @@ button.dropdown::before {
     padding: 90px 40px 0;
   }
 }
-/* line 83, ../scss/pages/_giving.scss */
-.figure-spacesplaces img {
-  margin: 10px 10px 0;
-  position: relative;
-}
 
-/* line 93, ../scss/pages/_giving.scss */
+/* line 90, ../scss/pages/_giving.scss */
 .restore blockquote cite {
   color: #e0646b;
 }
-/* line 97, ../scss/pages/_giving.scss */
+/* line 94, ../scss/pages/_giving.scss */
 .restore .primary-links .live {
   color: #641418 !important;
 }
 
-/* line 102, ../scss/pages/_giving.scss */
+/* line 99, ../scss/pages/_giving.scss */
 .section-restore-1 {
   background: black url("/images/giving/restore-bg-1.jpg") center bottom no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 102, ../scss/pages/_giving.scss */
+  /* line 99, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 250px;
     padding-bottom: 50px;
   }
 }
 @media only screen and (min-height: 620px) {
-  /* line 102, ../scss/pages/_giving.scss */
+  /* line 99, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 350px;
     padding-bottom: 80px;
   }
 }
 
-/* line 118, ../scss/pages/_giving.scss */
+/* line 115, ../scss/pages/_giving.scss */
 .section-restore-2 {
   background: #222;
 }
 
-/* line 122, ../scss/pages/_giving.scss */
+/* line 119, ../scss/pages/_giving.scss */
 .hphoto-restore {
   background-image: url("/images/giving/restore-bg-2.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 122, ../scss/pages/_giving.scss */
+  /* line 119, ../scss/pages/_giving.scss */
   .hphoto-restore {
     background-image: url("/images/giving/restore-bg-2@2x.jpg");
   }
 }
 
-/* line 128, ../scss/pages/_giving.scss */
+/* line 125, ../scss/pages/_giving.scss */
 .section-restore-3 {
   background: #222;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 128, ../scss/pages/_giving.scss */
+  /* line 125, ../scss/pages/_giving.scss */
   .section-restore-3 {
     padding-top: 5em;
     padding-bottom: 4em;
   }
 }
 
-/* line 141, ../scss/pages/_giving.scss */
+/* line 138, ../scss/pages/_giving.scss */
 .digital-missions .digital-missions-bg {
   height: 600px;
   background-image: url("/images/digital-missions/dm-bg.jpg");
@@ -7895,7 +7890,7 @@ button.dropdown::before {
   background-position: center bottom;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 141, ../scss/pages/_giving.scss */
+  /* line 138, ../scss/pages/_giving.scss */
   .digital-missions .digital-missions-bg {
     background-image: url("/images/digital-missions/dm-bg@2x.jpg");
   }
