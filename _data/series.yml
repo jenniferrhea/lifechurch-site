@@ -1,3260 +1,3727 @@
 ---
-- id: 1
+- id: being-rich
   title: Being Rich
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: ''
+  description_small: ''
+  description_medium: A bigger house, nicer car, better vacations. Wanting more isn't
+    always bad, but are we looking for satisfaction in the right places? Maybe it's
+    not about how much we have, but what we do with what we already have. Join us
+    for a new perspective on Being Rich.
+  quote: '"test quotes"'
+  quote_cite: ''
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Rich in Good Deeds
-    headline: TODO
+    headline: ''
     video: o1u7b9mdqi
   - title: Rich Givers
-    headline: TODO
+    headline: ''
     video: a0x3409aoc
   - title: Deceitfulness of Riches
-    headline: TODO
+    headline: ''
     video: 2zwngf3fsh
   - title: Good News, Bad News
-    headline: TODO
+    headline: ''
     video: gdeqxjnzut
-- id: 1096
+- id: small-things
   title: Small Things Big Difference
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Major resolutions and huge goals. We want big change and we
+    want it now. But maybe taking life in a new direction has a lot more to do with
+    the little things. Let's learn how to embrace intentionality in Small Things,
+    Big Difference.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Your Habits
-    headline: TODO
+    headline: ''
     video: 6ue0baclbe
   - title: Your Words
-    headline: TODO
+    headline: ''
     video: 2empmqn1c2
   - title: Your Thoughts
-    headline: TODO
+    headline: ''
     video: 527fcsdh9w
   - title: Your One Word
-    headline: TODO
+    headline: ''
     video: 6ocetoiwty
-- id: 1095
+- id: maker-of-miracles
   title: Maker of Miracles
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: No one knows more about something than its creator. We see this
+    with mothers and children, architects and buildings, and painters and their art.
+    But is it true for miracles too? Let’s discover what we can learn from the Maker
+    of Miracles.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Christine Caine - Maker of Miracles
-    headline: TODO
+    headline: ''
     video: ixpwc86xl5
-- id: 1094
+- id: fear-not
   title: Fear Not
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What are you afraid of? Fears attack the most precious parts
+    of our life and keep us from living the life meant for us. God wants to help us
+    overcome our darkest fears as we learn to Fear Not.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Fear of Where You Stand with God
-    headline: TODO
+    headline: ''
     video: wx2nij12h9
   - title: Fear of What People Think About Me
-    headline: TODO
+    headline: ''
     video: 8aqqjcszp0
   - title: Fear of What God is Asking Me to Do
-    headline: TODO
+    headline: ''
     video: 2urjgyzul9
-- id: 1092
+- id: growing-spiritually
   title: Interview with Kevin Durant and Carl Lentz
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Experiences, relationships, and past decisions shape the person
+    you will become, but how influential is your faith? Join us as Pastor Craig Groeschel
+    interviews basketball star Kevin Durant and his friend and mentor Pastor Carl
+    Lentz as they discuss life, legacy, and their relationships with God.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Growing Spiritually
-    headline: TODO
+    headline: ''
     video: w27d5mmxhd
-- id: 1091
+- id: necessary-sins
   title: Necessary Sins
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What do you do to get through the day? We allow certain habits
+    to help us deal with life, but sometimes the bad ones can become part of our identity
+    in dangerous ways. It’s time to separate ourselves from our so-called Necessary
+    Sins.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Anger
-    headline: TODO
+    headline: ''
     video: ety3f2bsel
   - title: Lust
-    headline: TODO
+    headline: ''
     video: vg3o6ux37k
   - title: Gossip
-    headline: TODO
+    headline: ''
     video: 2h8ifyzn2p
   - title: Lying
-    headline: TODO
+    headline: ''
     video: napinerez1
-- id: 1090
+- id: fight
   title: Fight
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What would you do if someone threatened your marriage, your
+    family, and the state of your heart? Every day, the things we love most are being
+    attacked and we don’t recognize it. It’s time take a stand – it’s time to Fight.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Fight
-    headline: TODO
+    headline: ''
     video: 0w0hlb1bhl
-- id: 1089
+- id: multiply-2013
   title: Multiply 2013
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Sometimes it’s good if things don’t add up. When God is in the
+    equation, we can end up with way more than we expected. Learn what can happen
+    in our lives when we shift our thinking and start to Multiply.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Sowing and Reaping
-    headline: TODO
+    headline: ''
     video: cqwqmvtona
   - title: The Principles of Multiplication
-    headline: TODO
+    headline: ''
     video: ar3vfbmpfc
   - title: God Must Be First
-    headline: TODO
+    headline: ''
     video: om1eri2tur
-- id: 1088
+- id: friending
   title: Friending
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Friends love you at your worst and can help you be your best,
+    but many of us don’t realize the importance of whom we choose to surround ourselves
+    with. The friends you have help determine the quality and direction of your life.
+    Where are your friendships leading you? Come learn what the Bible says about Friending.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Unfriending
-    headline: TODO
+    headline: ''
     video: abo4rvpr5z
   - title: One Community Away
-    headline: TODO
+    headline: ''
     video: sj714e3yn5
   - title: One Friend Away
-    headline: TODO
+    headline: ''
     video: r1ctexojna
   - title: The Foundation of Friendship
-    headline: TODO
+    headline: ''
     video: w73t3gupni
-- id: 1087
+- id: rescue
   title: Rescue
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: When relationships, jobs, and possessions don't bring the happiness
+    and fulfillment we are searching for, we often find ourselves drowning in loneliness
+    and disappointment. Join us as we discover how God wants to Rescue us through
+    the Church and use our story of survival to Rescue others.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Rescue
-    headline: TODO
+    headline: 
     video: 
-- id: 1086
+- id: elisha
   title: Elisha A Tale of Ridiculous Faith
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Let’s stop holding back. It's time we start taking risks and
+    making decisions the world doesn’t understand. Come see what life can look like
+    when we let go…when we decide to have Ridiculous Faith.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Ridiculous Recovery
-    headline: TODO
+    headline: ''
     video: 0s27y4jqtd
   - title: Ridiculous Provision
-    headline: TODO
+    headline: ''
     video: td06b8sufz
   - title: Ridiculous Faith
-    headline: TODO
+    headline: ''
     video: fw48dru3hx
   - title: Ridiculous Commitment
-    headline: TODO
+    headline: ''
     video: vbowemb7vw
-- id: 1085
+- id: at-the-movies-2013
   title: At the Movies 2013
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: As we check off the boxes of day-to-day responsibilities, our
+    sense of adventure can seem like a fleeting memory. But when we’re immersed in
+    a film, we're reminded anything is possible. Let yourself be transformed At the
+    Movies. You can only catch this series  for a limited time, so bring your friends
+    each weekend or catch it all week at Church Online!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages: []
-- id: 1084
+- id: on-the-road
   title: On the Road
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: At work, home, and in our communities, we are leaders who influence
+    the future. Good leaders challenge and inspire others to accomplish more than
+    they dreamed was possible. Pastor Craig Groeschel teaches us how to lead and who
+    to follow while he’s On the Road.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: On the Road Part 4
-    headline: TODO
+    headline: 
     video: 
   - title: On the Road Part 3
-    headline: TODO
+    headline: 
     video: 
   - title: The Strongest Link
-    headline: TODO
+    headline: 
     video: 
   - title: Pain - A Leader's Constant Companion
-    headline: TODO
+    headline: 
     video: 
-- id: 1083
+- id: just-getting-started
   title: Just Getting Started
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: It's no accident that we were created for this time and place
+    in history. God wants to do big things through us in the here and now. Let's learn
+    about the specific part we get to play, because God's Just Getting Started.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Just Getting Started
-    headline: TODO
+    headline: 
     video: 
-- id: 1082
+- id: helping-the-hurting
   title: Helping the Hurting
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: When the unimaginable happens and reality begins to sink in,
+    we begin to wonder… Where is God in this tragedy? What can I do to help? Join
+    us for answers to these difficult questions in Helping the Hurting.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Helping the Hurting
-    headline: TODO
+    headline: 
     video: 
-- id: 1081
+- id: bless-this-home
   title: Bless This Home
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: We want our family to enjoy peace, happiness, and contentment,
+    but so often we stumble through our most important relationships. Let's discover
+    four family-altering qualities as we ask God to Bless This Home.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Persecuted
-    headline: TODO
+    headline: 
     video: 
   - title: Peacemakers
-    headline: TODO
+    headline: 
     video: 
   - title: Pure in Heart
-    headline: TODO
+    headline: 
     video: 
   - title: Hunger and Thirst for Righteousness
-    headline: TODO
+    headline: 
     video: 
-- id: 1080
+- id: i-am-jesus
   title: I Am Jesus
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: To the dead man, Jesus was life. To the prostitute, He was a
+    second chance. To the searching, He was the long-awaited answer. Who is Jesus
+    to you? Discover what it means when He says, "I Am Jesus."
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: I Am the Vine
-    headline: TODO
+    headline: 
     video: 
   - title: I Am the Light of the World
-    headline: TODO
+    headline: 
     video: 
   - title: I Am the Good Shepherd
-    headline: TODO
+    headline: 
     video: 
   - title: I Am the Resurrection and the Life
-    headline: TODO
+    headline: 
     video: 
-- id: 1079
+- id: new
   title: New
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Transformation is in our DNA. We were created to grow, and
+    the best kind of change leaves a permanent mark on our soul. Let’s learn together
+    what it means to become New. '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: New From Old - Week 3
-    headline: TODO
+    headline: 
     video: 
   - title: New in Christ - Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: New in Christ - Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 1078
+- id: altar-ego
   title: Altar Ego
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: We are not our labels. We are not who others say we are. And
+    we aren’t the broken self-image we see in the mirror. So how can we get to our
+    true identity?  By laying down who we think we are to become who God says we are.
+    Let’s discover our Altar Ego.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: My Longing For Approval
-    headline: TODO
+    headline: 
     video: 
   - title: My Right to be Offended
-    headline: TODO
+    headline: 
     video: 
   - title: My Need for Control
-    headline: TODO
+    headline: 
     video: 
   - title: My Feelings of Inadequacy
-    headline: TODO
+    headline: 
     video: 
-- id: 1077
+- id: 30-second-theology-2013
   title: 30-Second Theology 2013
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: It’s not just the biggest day in football. It’s also the biggest
+    day for TV advertising, and we think there’s something we can learn from those
+    commercial breaks. Don’t miss 30-Second Theology at LifeChurch.tv—it’s your only
+    chance to catch this special message!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages: []
-- id: 1076
+- id: my-story
   title: My Story
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: One day we're all going to tell a story about our lives. The
+    decisions we make today will determine the story we'll tell tomorrow. In the series,
+    My Story, we're going to learn to live a story worth telling.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: I Decided to Go
-    headline: TODO
+    headline: 
     video: 
   - title: I Decided to Stay
-    headline: TODO
+    headline: 
     video: 
   - title: I Decided to Stop
-    headline: TODO
+    headline: 
     video: 
   - title: I Decided to Start
-    headline: TODO
+    headline: 
     video: 
-- id: 1075
+- id: lead-like-jesus
   title: Lead Like Jesus
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Jesus came not to build a religion but to build relationships.
+    And in His time among us, he showed us what true leadership looks like. Join us
+    for a special message from Ken Blanchard as we learn to Lead Like Jesus.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Lead Like Jesus
-    headline: TODO
+    headline: 
     video: 
-- id: 1074
+- id: like-a-child
   title: Like a Child
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Whether we’re nostalgic or overscheduled, this season can find
+    us longing for a simpler time…when the world seemed full of wonder, when joy was
+    wholehearted and love was unrestrained. Let’s re-discover what it means to live
+    and believe Like a Child.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: My God Can Do Anything
-    headline: TODO
+    headline: 
     video: 
   - title: My God Forgives Me
-    headline: TODO
+    headline: 
     video: 
   - title: My God is With Me
-    headline: TODO
+    headline: 
     video: 
   - title: My God is For Me
-    headline: TODO
+    headline: 
     video: 
-- id: 1073
+- id: because-of-you-2012
   title: Because of You
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Loving and caring for each other. Bringing peace and truth into
+    darkness. Pointing each other toward Jesus. It’s the Church, and it’s a beautiful
+    expression of God at work through us. Join us as we take a look at what’s coming
+    to life Because of You.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Steven Furtick
-    headline: TODO
+    headline: 
     video: 
   - title: God is Changing Lives
-    headline: TODO
+    headline: 
     video: 
-- id: 1072
+- id: the-end
   title: The End
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Life as we know it won't last forever. So what happens when
+    this world ceases to exist? And does it matter in the here and now? Let's look
+    to the Bible for answers as we explore The End.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Snapshots of Revelation
-    headline: TODO
+    headline: 
     video: 
   - title: Your End Times
-    headline: TODO
+    headline: 
     video: 
   - title: The Return of Christ
-    headline: TODO
+    headline: 
     video: 
-- id: 1071
+- id: love-and-hate
   title: Love and Hate
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: God loves every person on this planet. But He doesn’t love everything
+    we do. So where exactly is that line and how should it shape our lives? Join us
+    as we explore Love and Hate.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Part 2
-    headline: TODO
+    headline: 
     video: 
   - title: Part 1
-    headline: TODO
+    headline: 
     video: 
-- id: 1069
+- id: strapped
   title: Strapped
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Too many of us are living in a prison of financial debt and
+    stress. The good news is we can learn how to get out of financial bondage. Let's
+    get smart with our money and learn practical and biblical principles to free ourselves
+    from being Strapped.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Q and A
-    headline: TODO
+    headline: 
     video: 
   - title: Putting God First
-    headline: TODO
+    headline: 
     video: 
   - title: The Buck Starts Here
-    headline: TODO
+    headline: 
     video: 
   - title: Act Your Wage
-    headline: TODO
+    headline: 
     video: 
   - title: A Godly Perspective on Money
-    headline: TODO
+    headline: 
     video: 
-- id: 1063
+- id: from-this-day-forward
   title: From This Day Forward
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Tired of watching marriages crumble? Fed up with couples giving
+    up? Would you like to guarantee that your marriage will last? Join the fight against
+    destruction and make five commitments to fail proof your marriage, From This Day
+    Forward.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Never Give Up
-    headline: TODO
+    headline: 
     video: 
   - title: Stay Pure
-    headline: TODO
+    headline: 
     video: 
   - title: Have Fun
-    headline: TODO
+    headline: 
     video: 
   - title: Fight Fair
-    headline: TODO
+    headline: 
     video: 
   - title: Seek God
-    headline: TODO
+    headline: 
     video: 
-- id: 1062
+- id: at-the-movies-2012
   title: At the Movies 2012
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: If life were a movie, what part would you play? Bring your imagination
+    and join us for At the Movies, where we’ll learn how recent films reveal truth
+    for our lives. This will be your only chance all year to catch this series, so
+    bring your friends each week!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Moneyball
-    headline: TODO
+    headline: 
     video: 
   - title: We Bought A Zoo
-    headline: TODO
+    headline: 
     video: 
   - title: Book of Eli
-    headline: TODO
+    headline: 
     video: 
-- id: 1061
+- id: more-than-dust
   title: More Than Dust
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Our life is a masterpiece in the making. We have potential for
+    beauty that's beyond our comprehension, but it takes willingness on our part.
+    Are we allowing ourselves to be shaped and molded by a loving Creator? Join us
+    as we discover that we're More Than Dust.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: More Than Dust
-    headline: TODO
+    headline: 
     video: 
-- id: 1057
+- id: perspective
   title: Perspective
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Is happiness dependent on whatever life throws our way or do
+    we have a say in the matter? We can find peace amongst chaos, contentment despite
+    limitations, and joy even in our lowest moments. It all comes down to Perspective.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: 'A Different Perspective On Worry '
-    headline: TODO
+    headline: 
     video: 
   - title: Seeing From A Different Perspective
-    headline: TODO
+    headline: 
     video: 
   - title: 'A Different Way Of Thinking '
-    headline: TODO
+    headline: 
     video: 
   - title: Now What?
-    headline: TODO
+    headline: 
     video: 
-- id: 1055
+- id: forget-you
   title: Forget You
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: We polish our profile, update our status, and craft an ideal
+    version of our life to share with the world. What if we have it all backwards?
+    Let’s learn how to shift our focus in a better direction with the series, “Forget
+    You.”
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: I am Less, He is More
-    headline: TODO
+    headline: 
     video: 
   - title: Part 1
-    headline: TODO
+    headline: 
     video: 
-- id: 1054
+- id: soul-detox
   title: Soul Detox
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What’s chipping away at your soul? What’s getting in the way
+    of you becoming the person who God created you to be? Let’s explore how we can
+    neutralize damaging influences and embrace clean living in Soul Detox.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Seduced Soul
-    headline: TODO
+    headline: 
     video: 
   - title: The Tortured Soul
-    headline: TODO
+    headline: 
     video: 
   - title: The Heavy Soul
-    headline: TODO
+    headline: 
     video: 
   - title: The Restless Soul
-    headline: TODO
+    headline: 
     video: 
-- id: 1053
+- id: why-2012
   title: Why
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: The call we never expect...the diagnosis that knocks us off
+    our feet...the regrets that keep us up at night. How could God let it happen?
+    Why didn't He answer that prayer? What does it mean when He feels distant? He
+    welcomes our questions. Join us as we ask "Why?"
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Why would God Use Me?
-    headline: TODO
+    headline: 
     video: 
   - title: Why Doesn't God Seem Fair?
-    headline: TODO
+    headline: 
     video: 
   - title: Why Doesn't God Answer My Prayers?
-    headline: TODO
+    headline: 
     video: 
   - title: Why Don't I Always Feel God?
-    headline: TODO
+    headline: 
     video: 
-- id: 1052
+- id: found-favor
   title: Found Favor
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Some people have all the luck. Ever look at those people and
+    wonder how they lead such a charmed life? Is it just God playing favorites? Maybe
+    there's more going on than meets the eye. Let's explore what's happening when
+    things go our way—and when they don't—in Found Favor.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Walking in the Fog
-    headline: TODO
+    headline: 
     video: 
   - title: Found Favor
-    headline: TODO
+    headline: 
     video: 
-- id: 1051
+- id: samson-2012
   title: Samson
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Think you’re strong?  Even our best intentions can falter when
+    we face temptation and distraction. Join us for Samson as we learn how to stand
+    strong against forces of darkness that want to take us out.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Failing Forward
-    headline: TODO
+    headline: 
     video: 
   - title: 'Small Steps Towards Big Destruction '
-    headline: TODO
+    headline: 
     video: 
   - title: Emotional Strength
-    headline: TODO
+    headline: 
     video: 
   - title: When Strong Men Are Weak
-    headline: TODO
+    headline: 
     video: 
-- id: 1050
+- id: 30-second-theology
   title: 30 Second Theology
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: It’s not just the biggest day in American football. It’s also
+    the biggest day for TV advertising, and we think there’s something we can learn
+    from those commercial breaks. Don’t miss 30-Second Theology at LifeChurch.tv—it’s
+    your only chance to catch this special message!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: 30 Second Theology
-    headline: TODO
+    headline: 
     video: 
-- id: 1049
+- id: better
   title: Better
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Do you feel overwhelmed, dissatisfied, and stuck in a rut?
+    Wishing your day-to-day life could improve? God''s Word is your guide to brighter
+    days. When life hands you choices, choose Better. '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Better is a Good Name
-    headline: TODO
+    headline: 
     video: 
   - title: Better is Wisdom than Gold
-    headline: TODO
+    headline: 
     video: 
   - title: Better is One Handful
-    headline: TODO
+    headline: 
     video: 
   - title: Better is One Day in Your Courts
-    headline: TODO
+    headline: 
     video: 
-- id: 1048
+- id: problem-or-a-miracle
   title: John Maxwell
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Dealing with a problem? Then you’re a candidate for a miracle.
+    Join us as bestselling author and leadership expert Dr. John Maxwell examines
+    the way God brings people together to form a Miracle. '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Problem or a Miracle
-    headline: TODO
+    headline: 
     video: 
-- id: 1047
+- id: carols
   title: Carols
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: God is with us – in answered promises, realized dreams, and
+    refreshed hope. How could we help but sing? Let’s explore the songs born from
+    our joy that Christ has entered the world. Join us for Carols.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Emmanuel
-    headline: TODO
+    headline: 
     video: 
   - title: Away in a Manger
-    headline: TODO
+    headline: 
     video: 
   - title: O Come All Ye Faithful
-    headline: TODO
+    headline: 
     video: 
   - title: O Holy Night
-    headline: TODO
+    headline: 
     video: 
-- id: 1046
+- id: because-of-you
   title: Because of You
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Beautiful things happen when you invest your life in the work
+    of Jesus. Hunger finds nourishment. Sorrow meets healing. Dreams see daylight.
+    See what God is doing through you, with you, and Because of You.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: God is Changing Lives
-    headline: TODO
+    headline: 
     video: 
   - title: Because of You
-    headline: TODO
+    headline: 
     video: 
-- id: 1045
+- id: those-people
   title: Those People
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'The negative neighbor. The critical co-worker. The manipulative
+    family member. We all have difficult people in our lives. Let’s learn how we can
+    live with—and show love to—Those People. '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Those Critical People
-    headline: TODO
+    headline: 
     video: 
   - title: Those Hypocritical People
-    headline: TODO
+    headline: 
     video: 
   - title: Those Manipulative People
-    headline: TODO
+    headline: 
     video: 
   - title: Those Overly Needy People
-    headline: TODO
+    headline: 
     video: 
-- id: 1044
+- id: passing-the-test
   title: Passing the Test
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Some tests aren’t about what we put down on paper. The most
+    important tests reveal deep, core truths about who we really are. Come explore
+    what it looks like when we're Passing the Test.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: When We Test God
-    headline: TODO
+    headline: 
     video: 
   - title: When God Tests Us
-    headline: TODO
+    headline: 
     video: 
-- id: 1043
+- id: change-your-world
   title: Change Your World In 52 Days
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: There's a slice of the world just waiting for your imprint.
+    How will you shape it? Learn how you're uniquely qualified to make a difference
+    in Change Your World in 52 Days.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Finishing Strong
-    headline: TODO
+    headline: 
     video: 
   - title: Defeating Discouragement
-    headline: TODO
+    headline: 
     video: 
   - title: The Leader In You
-    headline: TODO
+    headline: 
     video: 
   - title: Ordinary World Changers
-    headline: TODO
+    headline: 
     video: 
-- id: 1042
+- id: twogather
   title: Two-Gather
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: We need people in our lives…people who know us, love us, and
+    remind us of who we really are. Come explore what happens when we let others in…it’s
+    better together.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Where Everybody Knows Your Name
-    headline: TODO
+    headline: 
     video: 
   - title: Heart & Soul
-    headline: TODO
+    headline: 
     video: 
-- id: 1041
+- id: bold
   title: Bold
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: We have a choice. We can play it safe or we can seize the life
+    God has in mind for us. What’s it going to be? Come explore what can happen when
+    we become Bold.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Bold Obedience
-    headline: TODO
+    headline: 
     video: 
   - title: Bold Speaking
-    headline: TODO
+    headline: 
     video: 
   - title: Bold Prayers
-    headline: TODO
+    headline: 
     video: 
   - title: Amazing Boldness
-    headline: TODO
+    headline: 
     video: 
-- id: 1040
+- id: at-the-movies-2011
   title: At the Movies 2011
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: "Are you looking for an epic adventure? Join us for At the Movies!
+    We’ll be diving into some Hollywood hits and uncovering the story behind the story.
+    It’s the only time you’ll be able to catch the messages, so don’t miss a week.
+    Get ready for something big!\r\n"
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The King's Speech
-    headline: TODO
+    headline: 
     video: 
   - title: Book of Eli
-    headline: TODO
+    headline: 
     video: 
   - title: 127 Hours
-    headline: TODO
+    headline: 
     video: 
   - title: The Blindside
-    headline: TODO
+    headline: 
     video: 
-- id: 1039
+- id: re
   title: RE
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Souls refreshed. Relationships restored. Hearts reborn. God
+    is the author of incredible stories of change, and is ready to do the same in
+    our lives. Learn how we can open the door to transformation in our upcoming series,
+    RE.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Remain
-    headline: TODO
+    headline: 
     video: 
   - title: Renew
-    headline: TODO
+    headline: 
     video: 
   - title: Repentance
-    headline: TODO
+    headline: 
     video: 
   - title: Remember
-    headline: TODO
+    headline: 
     video: 
-- id: 1038
+- id: getting-past-your-past
   title: Getting Past Your Past
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Is your future caged up in your past? Instead of being dragged
+    down and immobilized by the weight of guilt, pain, or a lingering sense of failure,
+    what freedom could we find in laying those burdens down? Join us for Getting Past
+    Your Past. '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Getting Past Your Personal Failures
-    headline: TODO
+    headline: 
     video: 
   - title: Apologizing To Those You’ve Hurt
-    headline: TODO
+    headline: 
     video: 
   - title: Forgiving Those Who Hurt You
-    headline: TODO
+    headline: 
     video: 
   - title: Breaking The Labels That Bind
-    headline: TODO
+    headline: 
     video: 
-- id: 1037
+- id: weird
   title: Weird
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: These days, it’s normal to deal with financial debt, high divorce
+    rates, and bad relationships. Maybe it’s time to shake things up. Join us as we
+    explore life beyond normal in our next series, WEIRD.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: A Weird View of Money
-    headline: TODO
+    headline: 
     video: 
   - title: Weird Way to Save the World
-    headline: TODO
+    headline: 
     video: 
   - title: Weird Desires
-    headline: TODO
+    headline: 
     video: 
   - title: Weird is Better
-    headline: TODO
+    headline: 
     video: 
   - title: Weird in a God way
-    headline: TODO
+    headline: 
     video: 
-- id: 1031
+- id: sun-stand-still
   title: Sun Stand Still
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Ever wanted something so big and so bold that you could barely
+    say it out loud? Learn what can happen when we dare to ask God for the impossible.
+    Join us for a special message from Pastor Steven Furtick
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Sun Stand Still
-    headline: TODO
+    headline: 
     video: 
   - title: Sun Stand Still
-    headline: TODO
+    headline: 
     video: 
-- id: 1030
+- id: who-do-you-think-you-are
   title: Who Do You Think You Are
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'How do you see yourself? A masterpiece or a mess? Survivor
+    or struggler? Advocate or critic? Getting perspective on how God sees you might
+    give you a new view of yourself. '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Disciple
-    headline: TODO
+    headline: 
     video: 
   - title: Salt and Light
-    headline: TODO
+    headline: 
     video: 
   - title: Overcomer
-    headline: TODO
+    headline: 
     video: 
   - title: Masterpiece
-    headline: TODO
+    headline: 
     video: 
   - title: Ambassadors
-    headline: TODO
+    headline: 
     video: 
-- id: 1036
+- id: i-quit
   title: I Quit
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Fed up with the status quo? The way things are isn’t the way
+    things have to be. Come see what happens when we’re ready to say, “I quit.”
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: I Quit Comparing
-    headline: TODO
+    headline: 
     video: 
   - title: I Quit Living in Fear
-    headline: TODO
+    headline: 
     video: 
   - title: I Quit Complaining
-    headline: TODO
+    headline: 
     video: 
   - title: I Quit Making Excuses
-    headline: TODO
+    headline: 
     video: 
-- id: 1035
+- id: xv
   title: XV
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: In the fifteen years of LifeChurch.tv, we have experienced beyond
+    any doubt that God is good, all the time. We have seen His goodness as lives have
+    been transformed and many have become fully devoted followers of Christ. Join
+    us for XV as we celebrate all God has done and look toward the future where He
+    will continue to do more than we could ask, think or imagine!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: 15-Year Anniversary
-    headline: TODO
+    headline: 
     video: 
-- id: 1034
+- id: first
   title: First
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Who doesn’t love a fresh start? New Year's Day, the first of
+    the month, or the dawn of a new day…how do we use firsts like these to get our
+    hearts and our priorities in line with God? Join us as we find out what to do
+    First.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Firsts
-    headline: TODO
+    headline: 
     video: 
-- id: 1032
+- id: never-lose-heart
   title: Never Lose Heart
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: When we’re surrounded by much but fulfilled by little, frustrated,
+    or just plain tired, life’s burdens feel especially heavy. Learn how we can reclaim
+    peace and joy as we Never Lose Heart.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Never Lose Heart
-    headline: TODO
+    headline: 
     video: 
-- id: 1029
+- id: christmas10
   title: Christmas 2010
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |
+    At Christmas, we have the opportunity to find renewed hope and joy in the overwhelming love of a God who is with us. Join us as we celebrate the birth of the one who brings peace.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Hope Shines Through
-    headline: TODO
+    headline: 
     video: 
-- id: 1027
+- id: masquerade
   title: Masquerade
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: There’s the side of you everyone else sees, and then there’s
+    the real you. Tired of keeping up the façade? Join us for Masquerade.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Hiding Your Hurt
-    headline: TODO
+    headline: 
     video: 
   - title: Financial Fakers
-    headline: TODO
+    headline: 
     video: 
   - title: Hiding Your Sin
-    headline: TODO
+    headline: 
     video: 
   - title: Self Deception
-    headline: TODO
+    headline: 
     video: 
   - title: Hiding from God
-    headline: TODO
+    headline: 
     video: 
-- id: 1026
+- id: planted
   title: Planted
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: When adversity hits, life can start to unravel. But we have
+    access to deep roots of faith and friendship that allow us to overcome and thrive.
+    Learn how to be Planted.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 1025
+- id: chazown
   title: Chazown
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Chazown. It’s the Hebrew word for vision, and it’s what God
+    had in mind for you when you were created. Each of us is a masterpiece, placed
+    on earth for a unique purpose that’s solely ours to fulfill. Come uncover God’s
+    dream for your life—your Chazown.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Chazown
-    headline: TODO
+    headline: 
     video: 
-- id: 1024
+- id: i-believe-in-you
   title: I Believe In You
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'How does it feel to know someone’s in your corner—coaching
+    you and cheering you on? Now imagine if entire generations could experience support
+    like this. Learn what can happen when we develop relationships that shape, share
+    insight, and speak into our souls: I Believe in You.'
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 4
-    headline: TODO
+    headline: 
     video: 
   - title: Week 3
-    headline: TODO
+    headline: 
     video: 
   - title: Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 1022
+- id: toxic
   title: Toxic
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Need a little personal poison control?  Are there relationships,
+    thoughts, or behaviors that quietly compromise our well-being? How can we learn
+    to recognize and remove the hidden dangers in our lives? Join us for Toxic.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Toxic Religion
-    headline: TODO
+    headline: 
     video: 
   - title: Toxic Words
-    headline: TODO
+    headline: 
     video: 
   - title: Toxic Relationships
-    headline: TODO
+    headline: 
     video: 
   - title: Toxic Influences
-    headline: TODO
+    headline: 
     video: 
   - title: Toxic Thoughts
-    headline: TODO
+    headline: 
     video: 
-- id: 1021
+- id: at-the-movies-2010
   title: At The Movies
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Where do you like to watch movies? In a theater? On the couch
+    at home? How about church? At the Movies is back! We’re enjoying blockbuster hits
+    at LifeChurch.tv to see where truth meets the silver screen. Bring some friends
+    and make sure to join us each week, because it’s your only chance all year to
+    catch the messages. See you At the Movies!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: At The Movies
-    headline: TODO
+    headline: 
     video: 
   - title: At The Movies
-    headline: TODO
+    headline: 
     video: 
   - title: At The Movies 2010
-    headline: TODO
+    headline: 
     video: 
   - title: At The Movies 2010
-    headline: TODO
+    headline: 
     video: 
-- id: 1002
+- id: one-prayer-10
   title: One Prayer 2010
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Imagine churches around the world coming together as one. All
+    joining forces to share...to serve...to give. Join us for One Prayer 2010 to learn
+    what it can mean when the Church becomes unstoppable.    '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Unstoppable Power
-    headline: TODO
+    headline: 
     video: 
   - title: Unstoppable
-    headline: TODO
+    headline: 
     video: 
   - title: Unstoppable Life
-    headline: TODO
+    headline: 
     video: 
   - title: Unstoppable Courage
-    headline: TODO
+    headline: 
     video: 
-- id: 1018
+- id: forgotten-virtues
   title: Forgotten Virtues
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Honor. Purity. Loyalty. Integrity. Gratitude. Are they gone?
+    Did we leave true character behind? Join us as we learn what we can do to restore
+    these Forgotten Virtues.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Gratitude
-    headline: TODO
+    headline: 
     video: 
   - title: Integrity
-    headline: TODO
+    headline: 
     video: 
   - title: Loyalty
-    headline: TODO
+    headline: 
     video: 
   - title: Purity
-    headline: TODO
+    headline: 
     video: 
   - title: Honor
-    headline: TODO
+    headline: 
     video: 
-- id: 1020
+- id: faq
   title: FAQ
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Have you ever wondered what God thinks about suicide, homosexuality,
+    the end of the world, birth control, horoscopes, and why good people suffer? Find
+    out the answers to these questions and more—join us for FAQ
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 1
-    headline: TODO
+    headline: 
     video: 
   - title: Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Week 3
-    headline: TODO
+    headline: 
     video: 
-- id: 1017
+- id: red-letter-day
   title: Red Letter Day
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |-
+    It was a Red Letter Day.<br /><br />
+    Bloody,  beaten, and nailed to a cross, a dying Jesus looked at those around Him and spoke His final words as a man.  What did he say?  Join us as we relive Jesus' final hours, and celebrate His ultimate victory on this Red Letter Day.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 5
-    headline: TODO
+    headline: 
     video: 
   - title: Week 4
-    headline: TODO
+    headline: 
     video: 
   - title: Week 3
-    headline: TODO
+    headline: 
     video: 
   - title: Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 1016
+- id: once-upon-a-marriage
   title: Once Upon A Marriage
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: There’s nothing quite like a juicy love story...the romance,
+    the intrigue, and maybe a little scandal. We’re digging in to some of the greatest
+    biblical marriages to see what we can learn. Travel back in time with us for Once
+    Upon a Marriage.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Unfailing Love
-    headline: TODO
+    headline: 
     video: 
   - title: Faith-Less or Faith-Full
-    headline: TODO
+    headline: 
     video: 
   - title: Power Struggle
-    headline: TODO
+    headline: 
     video: 
   - title: Never Satisfied
-    headline: TODO
+    headline: 
     video: 
-- id: 1015
+- id: margin
   title: Margin
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Sometimes it seems like the only way to keep up with all the
+    demands on our lives is to run at maximum capacity—and then some. But there is
+    another way...one where we have room to breathe and space to respond to what life
+    brings our way. Come explore what it means to live with Margin.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Moral Margin
-    headline: TODO
+    headline: 
     video: 
   - title: Financial Margin
-    headline: TODO
+    headline: 
     video: 
   - title: Scheduling Margin
-    headline: TODO
+    headline: 
     video: 
   - title: Margin
-    headline: TODO
+    headline: 
     video: 
-- id: 1014
+- id: one-thing
   title: The One Thing
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |-
+    When we're setting goals for the new year, it's tempting to tackle everything we want to change about our lives.
+    <br /><br />
+    But how often does that really work?  Instead, what if we focused on less to accomplish more?  Join us as we explore the power of One Thing.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: New Years 2010
-    headline: TODO
+    headline: 
     video: 
-- id: 1013
+- id: this-christmas
   title: This Christmas
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Have you been spending this Christmas waiting for God to show
+    up?  He''s here.  Maybe you just haven’t been searching for him. '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: This Christmas
-    headline: TODO
+    headline: 
     video: 
-- id: 1012
+- id: blessed-life
   title: The Blessed Life
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Pursuing happiness takes work. It’s tough to find and even harder
+    to hold. Ever want more than that for your life? God does. He wants us to be blessed.
+    Discover what the Bible says about living The Blessed Life.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Heart Of Serving
-    headline: TODO
+    headline: 
     video: 
   - title: The Generous Eye
-    headline: TODO
+    headline: 
     video: 
   - title: The Blessed Test
-    headline: TODO
+    headline: 
     video: 
   - title: Heart Of Generosity
-    headline: TODO
+    headline: 
     video: 
-- id: 1008
+- id: carbon-copy
   title: Carbon Copy
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: "A life well lived. Sounds good, right? But how do we achieve
+    that when we get conflicting advice everywhere we turn? It doesn’t have to be
+    so complicated. In fact, we already have a blueprint for our private and public
+    lives. Come see what we can learn from being a Carbon Copy.\n<br /><br /> \nSeries
+    begins November 21st."
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Life Of Jesus
-    headline: TODO
+    headline: 
     video: 
   - title: The Unseen Life of Jesus
-    headline: TODO
+    headline: 
     video: 
-- id: 1011
+- id: ghost
   title: Ghost
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: The spirit of life... the essence of truth... the voice of God.
+    He has always been here, and will always remain. And when you are alone, lost,
+    and afraid, He will carry you home. Come explore the power and comfort of the
+    one who resides within...The Ghost.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Filled With The Spirit
-    headline: TODO
+    headline: 
     video: 
   - title: Spiritual Gifts
-    headline: TODO
+    headline: 
     video: 
   - title: The Power Of The Holy Spirit
-    headline: TODO
+    headline: 
     video: 
   - title: The Presence of the Holy
-    headline: TODO
+    headline: 
     video: 
-- id: 1009
+- id: place-for-everyone
   title: There's A Place For Everyone
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: It doesn’t matter who you are, what you believe, or what you’ve
+    done—there’s a place for you in the local church. It’s not a building. It’s a
+    movement of people following a loving God and serving each other. Come see the
+    spot carved out just for you. Join us as we discover A Place for Everyone.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 1007
+- id: five-easy-steps
   title: Five Easy Steps...
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Nobody plans for it to happen, but life can get pretty messy.
+    Trouble with our relationships…harmful habits…feeling far from God…we look back
+    and wonder, “How did I end up here?” Starting down that path is easier than you
+    might think, unless you know what to look for. Join us for our next series, 5
+    Easy Steps to Wreck Your Life.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: How to Become Dissatisfied
-    headline: TODO
+    headline: 
     video: 
   - title: How to Become an Addict
-    headline: TODO
+    headline: 
     video: 
   - title: How To Drift From God
-    headline: TODO
+    headline: 
     video: 
   - title: How to Commit Adultery
-    headline: TODO
+    headline: 
     video: 
-- id: 1005
+- id: stop-acting-like-a-christian
   title: Stop Acting Like A Christian...
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Start doing the right things and stop doing the wrong things—that’s
+    what it means to follow Jesus, right? Or what if we have it all turned around?
+    Special guest Christine Caine shares the freedom and passion that comes from a
+    genuine relationship with God. Join us for our next series as we learn to Stop
+    Acting Like a Christian and Just Be One.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 1003
+- id: behind-the-curtain
   title: Behind The Curtain
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: The Church... It stretches far beyond what you see. It accomplishes
+    more than we dreamed was possible. And the part you play? It’s bigger than you
+    realize. We’re taking an inside look at LifeChurch.tv to show you the difference
+    you’re making in the world. Join us as we step Behind the Curtain.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 3
-    headline: TODO
+    headline: 
     video: 
   - title: Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Digital Missions
-    headline: TODO
+    headline: 
     video: 
-- id: 1001
+- id: at-the-movies-2009
   title: At The Movies 2009
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: In the cool darkness of a movie theater, we're glued to the
+    screen. We laugh, cry, and cheer as the story connects to something deeper within
+    us. But what can these larger-than-life moments tell us about the world where
+    we live? Find the timeless truths revealed in Hollywood's biggest films... At
+    the Movies!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages: []
-- id: 997
+- id: one-prayer-09
   title: One Prayer 2009
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: We’re coming together across continents and cultures. We’re
+    exploring who God Is. We’re teaming up to make a lasting difference in our world.
+    Be a part of One Prayer 2009, and join forces with people around the globe as
+    we share, serve, and give…as one.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: God Is...
-    headline: TODO
+    headline: 
     video: 
   - title: God Is...
-    headline: TODO
+    headline: 
     video: 
   - title: God Is Father
-    headline: TODO
+    headline: 
     video: 
   - title: God Is... Strength
-    headline: TODO
+    headline: 
     video: 
-- id: 995
+- id: elijah
   title: Elijah
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: <p>An angry king. Devastating drought. Epic opposition. And
+    one man who overcomes it all. <br /><br /> When the world around us is spinning
+    out of control, where do we turn? Join us as we learn from Elijah.</p>
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Depression
-    headline: TODO
+    headline: 
     video: 
   - title: Powerful Prayer
-    headline: TODO
+    headline: 
     video: 
   - title: Which God Do You Serve?
-    headline: TODO
+    headline: 
     video: 
   - title: The Making Of A Man Of God
-    headline: TODO
+    headline: 
     video: 
-- id: 994
+- id: can-you-see-him
   title: Can You See Him?
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Daily life usually sets us on a path that’s almost robotic and
+    we forget to see God in all things-the GOOD-the TRAGIC, or even the MUNDANE. Think
+    of your day today. Did you see Him in your kid’s laughter, the homeless person
+    on the corner, or even the papers you stapled? He was there. Join LifeChurch.tv
+    as we discover how to see God in everything.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: In Your Struggles
-    headline: TODO
+    headline: 
     video: 
   - title: Believing Is Seeing
-    headline: TODO
+    headline: 
     video: 
   - title: Seeing The Light
-    headline: TODO
+    headline: 
     video: 
   - title: In Your Doubts
-    headline: TODO
+    headline: 
     video: 
-- id: 992
+- id: life-money-hope
   title: Life. Money. Hope.
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Trying to make sense of the economy? Leading financial expert
+    Dave Ramsey joins us to share timeless advice on the money matters right under
+    your own roof. '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: '#1 Myth about Money'
-    headline: TODO
+    headline: 
     video: 
   - title: Breaking The Bondage Of Debt
-    headline: TODO
+    headline: 
     video: 
   - title: Basics of Biblical Finance
-    headline: TODO
+    headline: 
     video: 
-- id: 977
+- id: the-vow
   title: The Vow
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |
+    For better, for worse…to have and to hold, from this day forward… Wedding vows are more than a declaration of love—they hold the keys for a strong, lasting marriage. Whether you hope to get married someday, or you’ve already tied the knot, discover what these words can mean for the future of your relationship. Join us as the secret of The Vow is revealed.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Vow Of Purity
-    headline: TODO
+    headline: 
     video: 
   - title: The Vow Of Partnership
-    headline: TODO
+    headline: 
     video: 
   - title: The Vow Of Pursuit
-    headline: TODO
+    headline: 
     video: 
   - title: The Vow Of Priority
-    headline: TODO
+    headline: 
     video: 
-- id: 974
+- id: trueish
   title: True(ish)
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: God’s truth is black and white and even though there is no gray
+    area, that’s where so many of us live today.  We prefer to live by the concepts
+    or facts we wish to be true, rather than those known to be true... the gray area.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: As Long As Nobody Gets Hurt
-    headline: TODO
+    headline: 
     video: 
   - title: As Long As You're Sincere
-    headline: TODO
+    headline: 
     video: 
   - title: As Long As You're Happy
-    headline: TODO
+    headline: 
     video: 
   - title: What Is Truth?
-    headline: TODO
+    headline: 
     video: 
-- id: 975
+- id: i-love-my-church
   title: I Love My Church
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: It’s more than a building or an hour on the weekend.  The heart
+    of a church is the people who gather there to follow Christ together. But it’s
+    what happens along the way that is truly inspiring!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Invasions - Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Invasions - Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 991
+- id: christmas08
   title: Christmas 2008
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |
+    Merry Christmas from LifeChurch.tv!  Our prayer is that your holiday season is filled with love, joy, and peace, and that you’ll experience Jesus Christ in new and exciting ways!</p>
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: What Child Is This
-    headline: TODO
+    headline: 
     video: 
-- id: 990
+- id: prayer_2008
   title: Prayer
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: <p>Everyone knows it’s important but not everyone knows how
+    to do it.</p>
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Praying Like Jesus Prayed
-    headline: TODO
+    headline: 
     video: 
   - title: Why Didn't God Answer My Prayer?
-    headline: TODO
+    headline: 
     video: 
   - title: Getting to Know God Through Prayer
-    headline: TODO
+    headline: 
     video: 
-- id: 988
+- id: whispers
   title: Whispers
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: <p>A whisper. It’s spoken softly in quiet tones. It’s hard to
+    hear and easy to miss. And it’s often how God communicates with us. Find out what
+    happens when we pay attention to the Whispers of God.</p>
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Whispers
-    headline: TODO
+    headline: 
     video: 
-- id: 986
+- id: practical-atheist
   title: Practical Atheist
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |-
+    <p>You say you believe in God. Do you really?</p>
+
+    <p>Do you live your life as if God is in the room, or do you assume He’s not paying attention?</p>
+
+    <p>You call yourself a Christian. Are you who you say you are?</p>
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: I Believe in God , But I Don’t Know Him
-    headline: TODO
+    headline: 
     video: 
   - title: I Believe in God , But I Trust in Money
-    headline: TODO
+    headline: 
     video: 
   - title: I Believe in God , But Don’t Go Overboard
-    headline: TODO
+    headline: 
     video: 
   - title: I Believe in God , But I don’t Fear Him
-    headline: TODO
+    headline: 
     video: 
-- id: 982
+- id: kaleo08
   title: Kaleo
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |-
+    1 Peter 2:21 (NIV), "To this you were called, because Christ suffered for you, leaving you an example, that you should follow in his steps," is the foundation of the message series, Kaleo.
+    <br /><br />
+    Join LifeChurch.tv as we learn God's call on each of our lives and how to be set apart and ready to follow His divine calling.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Called To Make Disciples
-    headline: TODO
+    headline: 
     video: 
   - title: Called To Serve
-    headline: TODO
+    headline: 
     video: 
   - title: Called To Generosity
-    headline: TODO
+    headline: 
     video: 
   - title: Kaleo - 1
-    headline: TODO
+    headline: 
     video: 
-- id: 984
+- id: ydhwit
   title: You Don't Have What It Takes
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: "Trying to juggle everything life throws at you can feel like
+    a three-ring circus. No matter how hard you try, you'll never be able to handle
+    it on your own. \n<br /><br />Bet you didn't know that was a good thing."
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 4
-    headline: TODO
+    headline: 
     video: 
   - title: Week 3
-    headline: TODO
+    headline: 
     video: 
   - title: Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 979
+- id: so-your-dead
   title: So You're Dead... Now What?
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'The afterlife is cloaked in mystery. What happens moments after
+    we die? What is Heaven really like? What about Hell? And does what we do in this
+    world really matter in the next? '
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Heaven
-    headline: TODO
+    headline: 
     video: 
   - title: Death
-    headline: TODO
+    headline: 
     video: 
   - title: Hell
-    headline: TODO
+    headline: 
     video: 
   - title: Death
-    headline: TODO
+    headline: 
     video: 
-- id: 972
+- id: one-prayer
   title: One Prayer
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: One Lord, One Baptism, One Faith... and now, One Prayer<br /><br
+    />What would happen if believers from all over the globe came together to impact
+    the world like never before?  LifeChurch.tv is partnering with hundreds of other
+    churches to unite together for a series called &#39;One Prayer.&#39;  By living
+    beyond ourselves, we can change our communities and our world.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Make Us Passionate
-    headline: TODO
+    headline: 
     video: 
   - title: Make Us Wake Up
-    headline: TODO
+    headline: 
     video: 
   - title: Make Us Dangerous
-    headline: TODO
+    headline: 
     video: 
   - title: Make Us One
-    headline: TODO
+    headline: 
     video: 
   - title: One Prayer - The Vision
-    headline: TODO
+    headline: 
     video: 
-- id: 970
+- id: fanatic
   title: Fanatic
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: "Ask yourself the question, &#34;What do I worship?&#34;  You
+    might be surprised by the answer.  \n \nDo you spend the same time and energy
+    toward God as you do with sporting events, concerts or even your Wii?  Are you
+    as fanatical about showing your praise for God as you are about showing off your
+    house?  If not, then maybe you&#39;re worshipping the wrong things."
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Fanatic 2
-    headline: TODO
+    headline: 
     video: 
   - title: Fanatic 1
-    headline: TODO
+    headline: 
     video: 
-- id: 968
+- id: habakkuk
   title: Habakkuk
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: You see it every day. Bad people taking advantage of the weak.
+    Good people down on their luck. Innocent people suffering. War. Injustice.Ever
+    get the feeling God isn&#39;t fair? Discover how an Old Testament prophet can
+    inspire a modern day faith in God&#39;s Promises.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Habakkuk - Week 3
-    headline: TODO
+    headline: 
     video: 
   - title: Habakkuk - Week 2
-    headline: TODO
+    headline: 
     video: 
   - title: Habakkuk - Week 1
-    headline: TODO
+    headline: 
     video: 
-- id: 966
+- id: the-warrior
   title: The Warrior
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: In every man's life, there is a cause worth fighting for and
+    a victory worth claiming. What is yours? Discover how to not only prepare for
+    the battles ahead, but more importantly, how to emerge victoriously. It's time
+    to stop playing the role of the nice guy and instead live as The Warrior.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Passionate Warrior
-    headline: TODO
+    headline: 
     video: 
   - title: The Distracted Warrior
-    headline: TODO
+    headline: 
     video: 
   - title: The Wounded Warrior
-    headline: TODO
+    headline: 
     video: 
   - title: The Hesitant Warrior
-    headline: TODO
+    headline: 
     video: 
   - title: The Warrior's Cause
-    headline: TODO
+    headline: 
     video: 
-- id: 963
+- id: hostage
   title: Hostage
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: We’re all held hostage by something…what is your captor? Maybe
+    it’s fear, pride, lust, or even jealousy. The good news is that our ransom has
+    been paid in full. Join LifeChurch.tv for Hostage, and discover how to truly break
+    free, once and for all, from the ties that bind.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Lies
-    headline: TODO
+    headline: 
     video: 
   - title: Anger
-    headline: TODO
+    headline: 
     video: 
   - title: Addiction
-    headline: TODO
+    headline: 
     video: 
   - title: Worry
-    headline: TODO
+    headline: 
     video: 
   - title: Bitterness
-    headline: TODO
+    headline: 
     video: 
-- id: 960
+- id: unstoppable
   title: Unstoppable
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What would happen if we truly embraced our mission to lead people
+    to become fully devoted followers of Christ? We could become an unstoppable force.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Unstoppable Idiots
-    headline: TODO
+    headline: 
     video: 
   - title: Unstoppable
-    headline: TODO
+    headline: 
     video: 
   - title: Unstoppable Vision
-    headline: TODO
+    headline: 
     video: 
-- id: 959
+- id: he-will-be-called
   title: He Will Be Called
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: There are many names for Jesus, but what do they really mean?
+    Join LifeChurch.tv as we discover why He is called Wonderful Counselor, Mighty
+    God, Everlasting Father, and Prince of Peace. You’ll gain a new and relevant perspective
+    on the Savior who was born in a manger over two thousand years ago.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Prince of Peace
-    headline: TODO
+    headline: 
     video: 
   - title: Everlasting Father
-    headline: TODO
+    headline: 
     video: 
   - title: Mighty God
-    headline: TODO
+    headline: 
     video: 
   - title: Wonderful Counselor
-    headline: TODO
+    headline: 
     video: 
-- id: 952
+- id: supernatural
   title: Supernatural
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What you see is not all there is. The Bible says, "We are not
+    fighting against people made of flesh and blood, but against the evil rulers and
+    authorities of the unseen world..." (Eph 6:12, NLT). Join us as we study spiritual
+    warfare, angels, demons and the Holy Spirit. Together well uncover the SuperNatural.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Angels
-    headline: TODO
+    headline: 
     video: 
   - title: Satan and His Demons
-    headline: TODO
+    headline: 
     video: 
   - title: Holy Spirit
-    headline: TODO
+    headline: 
     video: 
   - title: Spiritual Warfare
-    headline: TODO
+    headline: 
     video: 
-- id: 953
+- id: porn-sunday
   title: Porn Sunday
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Pornography is a multi billion-dollar industry that is tearing
+    apart marriages and families everywhere you turn. This addiction is raping the
+    minds of people all around the world…Christians, non-Christians, men, women AND
+    children. The facts surrounding this ugly elephant in the room will blow your
+    mind. Join us as we partner with XXXChurch.com, the nation’s largest anti-porn
+    ministry, for National Porn Sunday. You’ll walk away empowered with the truth
+    necessary to battle America’s dirty little secret…pornography.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Porn
-    headline: TODO
+    headline: 
     video: 
-- id: 950
+- id: blessed
   title: Blessed
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Many people pray, “God, please bless me.” And God wants to bless
+    you. But the blessings of God are often more than a new car, a bigger salary,
+    and a better lifestyle. In the series, “Blessed,” we’ll experience firsthand some
+    of God’s unusual blessings.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Blessed to Share His Story
-    headline: TODO
+    headline: 
     video: 
   - title: Blessed to be a Blessing
-    headline: TODO
+    headline: 
     video: 
   - title: Blessed with a Burden
-    headline: TODO
+    headline: 
     video: 
   - title: Blessed with a Need
-    headline: TODO
+    headline: 
     video: 
-- id: 948
+- id: 30-days-to-live
   title: 30 Days to Live
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What if you learned you had just 30 days to live? How would
+    your life be different? Is it possible to make the most of every day, right now?
+    Join us for "30 Days to Live," as we meet several brave people facing life-threatening
+    illnesses. Once you hear their stories, and experience Gods truth, you'll never
+    look at life the same.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Fighting for Peace
-    headline: TODO
+    headline: 
     video: 
   - title: Leave a Legacy
-    headline: TODO
+    headline: 
     video: 
   - title: Eternal Perspectives
-    headline: TODO
+    headline: 
     video: 
   - title: Living in the Moment
-    headline: TODO
+    headline: 
     video: 
-- id: 947
+- id: at-the-movies-2007
   title: At the Movies 2007
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Were pulling out all the stops as we prepare to discover timeless
+    truths from some of today's blockbuster hits in a way that will entertain and
+    impact you like never before!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages: []
-- id: 942
+- id: jonah
   title: Jonah
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: God works miracles through those who obey, though often times
+    our nature rebels against Him.  Regardless of which path we choose-obedience or
+    rebellion- God is the God of second chances. Few stories illustrate this principle
+    more clearly than the story of Jonah.  Join us as we delve into the story of one
+    man and his journey towards surrender.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Jonahs Anger
-    headline: TODO
+    headline: 
     video: 
   - title: Jonah Obeys
-    headline: TODO
+    headline: 
     video: 
   - title: Jonahs Prayer
-    headline: TODO
+    headline: 
     video: 
   - title: The Jonah In Us
-    headline: TODO
+    headline: 
     video: 
-- id: 931
+- id: fearless
   title: Fearless
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |-
+    Battles are inevitable but victory is not. We often find ourselves fighting enemies that are stronger than we are. So how do you stand fearless when theres so much at stake? Be inspired by accounts from God's word about average people who became champions and overcame insurmountable odds.
+
+    Do you have what it takes?
+
+    Experience "FEARLESS" to find out once and for all.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: David and Goliath
-    headline: TODO
+    headline: 
     video: 
   - title: Jonathan
-    headline: TODO
+    headline: 
     video: 
   - title: Benaiah
-    headline: TODO
+    headline: 
     video: 
   - title: Shadrach, Meshach, Abednego
-    headline: TODO
+    headline: 
     video: 
   - title: Gideon
-    headline: TODO
+    headline: 
     video: 
-- id: 929
+- id: mix-tape
   title: Mix Tape
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: |-
+    You made a mixtape as the soundtrack for your road trip. You gave another to your first love professing your undying affection. Maybe someone gave you a mixtape to help encourage you through tough times. Making mixtapes for friends and family is a great way to communicate whats going on in our lives.
+    LifeChurch.tv would like to share our 2007 mixtape with you. Come discover how God can connect with us through His life-changing truth revealed through today's hottest music.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Runaway
-    headline: TODO
+    headline: 
     video: 
   - title: A Time and A Season
-    headline: TODO
+    headline: 
     video: 
   - title: Saving a Life
-    headline: TODO
+    headline: 
     video: 
   - title: Irrational Love
-    headline: TODO
+    headline: 
     video: 
-- id: 927
+- id: remember
   title: Remember
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Do ancient practices have any significance for us today? Dig
+    deeper to discover where these traditions came from and why they are still important
+    in our lives.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Baptism
-    headline: TODO
+    headline: 
     video: 
   - title: Life in the Fast Lane
-    headline: TODO
+    headline: 
     video: 
   - title: Communion
-    headline: TODO
+    headline: 
     video: 
-- id: 925
+- id: satans-sex-ed
   title: Satans Sex Ed
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Do you ever wonder what really makes the difference between
+    good sex, bad sex, and great sex?  And what about those awkward topics that few
+    people discuss openly?  Weve come a long way since the days when TV couples like
+    Ward and June Cleaver slept in separate beds... and today's kids aren't nearly
+    as innnocent as Wally and the Beaver.  Sometimes it's the things you have to unlearn
+    about sex that help you understand what great sex really is.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: What Satan is Telling Single Adults
-    headline: TODO
+    headline: 
     video: 
   - title: What Satan is Telling Married Couples
-    headline: TODO
+    headline: 
     video: 
   - title: What Satan Is Teaching Your Kids
-    headline: TODO
+    headline: 
     video: 
   - title: Satans Sex Ed 101
-    headline: TODO
+    headline: 
     video: 
-- id: 918
+- id: urban-legends
   title: Urban Legends
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Do you know someone whos seen Bigfoot''s tracks? What about
+    Nessie in Loch Ness? Of course, almost every kid has learned that there really
+    are alligators in the sewer. You know how it goes: someone sees something and
+    tells someone who then tells someone else. On and on and on it goes until its
+    hard to separate fact from fiction. This doesn''t just happen with alligators
+    and Bigfoot... it happens with spiritual truths as well. Join us as we separate
+    fact from fiction and debunk spiritual myths.'
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Sin Legends
-    headline: TODO
+    headline: 
     video: 
   - title: More Than You Can Handle
-    headline: TODO
+    headline: 
     video: 
   - title: God Wants You Happy
-    headline: TODO
+    headline: 
     video: 
   - title: There Are Many Ways to God
-    headline: TODO
+    headline: 
     video: 
-- id: 919
+- id: vision-2007
   title: Vision 2007
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: No Guts... No Glory for God! Its time to think Mission Possible.
+    Not as a movie - but as a motivation! Vision 2007 is here and as we look back
+    at everything that's been done, we also look forward to everything there is to
+    do. We're going to break some rules. We're going to try some things that people
+    say can't be done. And this weekend, you'll get a sneak peek at all of it. Are
+    you in?
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Vision 2007
-    headline: TODO
+    headline: 
     video: 
-- id: 914
+- id: miracles
   title: Miracles
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: He turned water to wine, calmed a storm, made a blind man see,
+    a crippled man walk again. So why do we sometimes lack the faith to believe that
+    God can calm the storms in our own lives? What would it take for you to believe
+    that the impossible is possible? A miracle? Join us starting next week as we learn
+    about six different ones and what they mean to us today.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Opening Blind Eyes
-    headline: TODO
+    headline: 
     video: 
   - title: Water to Wine
-    headline: TODO
+    headline: 
     video: 
   - title: Raising Lazarus from the Dead
-    headline: TODO
+    headline: 
     video: 
   - title: Poolside Miracle
-    headline: TODO
+    headline: 
     video: 
   - title: Casting Out the Evil Spirit
-    headline: TODO
+    headline: 
     video: 
   - title: Calming the Storm
-    headline: TODO
+    headline: 
     video: 
-- id: 912
+- id: mind-your-own-business
   title: Mind Your Own Business
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: If money really could talk, what would yours say? Good-bye?
+    No matter how much debt you have, no matter how many bills you have to pay, no
+    matter how much - or how little - money you make, you can achieve financial freedom.
+    Learn how to take practical steps, spend smarter, make personalized goals and
+    learn why, when it comes to money, IN God We definitely Trust.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Buck Starts Here
-    headline: TODO
+    headline: 
     video: 
   - title: Profit Sharing
-    headline: TODO
+    headline: 
     video: 
   - title: Act Your Wage
-    headline: TODO
+    headline: 
     video: 
   - title: Minding the Business
-    headline: TODO
+    headline: 
     video: 
-- id: 910
+- id: disciple
   title: Disciple
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What does a disciple do? Are disciples chosen by God? Or do
+    they choose willingly a life that promises great suffering and trial? Absolute
+    submission. Ultimate sacrifice. And relentless pursuit of that which is promised
+    to those who will follow. This is what it means to be a disciple. Will you?
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Goes Out
-    headline: TODO
+    headline: 
     video: 
   - title: Breaks Bread
-    headline: TODO
+    headline: 
     video: 
   - title: Washes Feet
-    headline: TODO
+    headline: 
     video: 
   - title: Go Fishing
-    headline: TODO
+    headline: 
     video: 
   - title: No Christians Allowed
-    headline: TODO
+    headline: 
     video: 
-- id: 907
+- id: my-secret
   title: My Secret
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: My Secret. Who are you when no one’s looking? What secret are
+    you holding in that nobody will ever know? What’s the stuff you’ve tried to stuff
+    way down deep…but that still seems to linger somewhere right under your skin?
+    We all have them. Or do they have us? Secrets. Let’s talk.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Secret Shame
-    headline: TODO
+    headline: 
     video: 
   - title: Sexual Secrets
-    headline: TODO
+    headline: 
     video: 
   - title: Addictions
-    headline: TODO
+    headline: 
     video: 
   - title: Lying
-    headline: TODO
+    headline: 
     video: 
-- id: 906
+- id: the-sickness-within
   title: The Sickness Within
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Is it really what’s inside that counts? If so, what’s going
+    on inside you? Worry? Doubt? Loneliness? Lust? Sometimes the internal struggles
+    that no one else sees are the ones that blind us the most. We’ll get the inside
+    story on how God offers hope and strength for overcoming these battles in this
+    series, The Sickness Within.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Bitterness
-    headline: TODO
+    headline: 
     video: 
   - title: Control
-    headline: TODO
+    headline: 
     video: 
   - title: Pride
-    headline: TODO
+    headline: 
     video: 
   - title: Envy
-    headline: TODO
+    headline: 
     video: 
   - title: Anger
-    headline: TODO
+    headline: 
     video: 
-- id: 941
+- id: samson
   title: Samson
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: He had brains, he had brawn. But he had one weakness – and it
+    eventually cost him everything. The mighty Samson was destined to be the next
+    leader of Israel. But when he refused to fight the battle of sin in his life,
+    God’s plan for him was stolen and he never lived up to the greatness he could
+    have. Discover the importance of following God’s plan for our lives.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Samson
-    headline: TODO
+    headline: 
     video: 
-- id: 902
+- id: girls-gone-wild-bible-style
   title: Girls Gone Wild Bible Style
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Just because theyre in the Bible doesn't mean they were good
+    girls. There was enough lying, deception and betrayal going on to make even the
+    most desperate housewife blush. But what can we learn from these wily women and
+    their wicked ways? Men and women alike will love this wild three-week series.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages: []
-- id: 897
+- id: meds
   title: Meds
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What doesn’t kill you makes you stronger. And if it doesn’t,
+    just take stronger medication, right? Well, no. But with all the quick fixes today,
+    you might think that’s the answer. However, feelin’ no pain isn’t always the way
+    God wants us to feel. Take this two-week series and call us in the morning.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Know Pain, Know Gain
-    headline: TODO
+    headline: 
     video: 
   - title: Stressed Out
-    headline: TODO
+    headline: 
     video: 
-- id: 917
+- id: identity-theft
   title: Identity Theft
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Within this message lies the truth. Actually, its the truth
+    about lies. The lies we tell ourselves and the damage they do if we don''t take
+    hold. There''s nothing little or white about them - lies keep us from finding
+    our true identity: the identity we have knowing that we''re living up to the amazing
+    potential that God has planned for us.'
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: I Am What I Do
-    headline: TODO
+    headline: 
     video: 
   - title: Im Not Good Enough
-    headline: TODO
+    headline: 
     video: 
   - title: This is Just the Way I Am
-    headline: TODO
+    headline: 
     video: 
   - title: I Have to be Strong
-    headline: TODO
+    headline: 
     video: 
-- id: 854
+- id: goin-all-the-way
   title: Goin All the Way
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: If you’re involved in a relationship – or maybe just hoping
+    to be someday – the Goin’ All The Way series is just your type. Pastor Craig Groeschel
+    covers everything from dating to sex to marriage in this candid but refreshing
+    perspective on love done God’s way.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Finding the One
-    headline: TODO
+    headline: 
     video: 
   - title: Finding the Two
-    headline: TODO
+    headline: 
     video: 
   - title: It Matters
-    headline: TODO
+    headline: 
     video: 
   - title: Q & A
-    headline: TODO
+    headline: 
     video: 
-- id: 852
+- id: aka-god
   title: a.k.a. God
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Maybe the only thing you know about God’s name is that you shouldn’t
+    use it in vain. But there’s so much more to know – including the fact that He
+    has many different names. a.k.a. God will lead you through a four-week study of
+    four of these names, what they mean, and how they can be a personal introduction
+    to a more intimate understanding of God’s heart and character.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Emmanuel
-    headline: TODO
+    headline: 
     video: 
   - title: Jehova Nissi
-    headline: TODO
+    headline: 
     video: 
   - title: Jehovah Tsidkenu
-    headline: TODO
+    headline: 
     video: 
   - title: Jehovah Rohi
-    headline: TODO
+    headline: 
     video: 
-- id: 850
+- id: parenthood
   title: Parenthood
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: If you have kids or are even thinking about having them, you
+    wont want to miss this four-week series that explores what God's Word has to say
+    about all things parental. Whether they're bawling, crawling, walking, talking,
+    driving you crazy or asking to drive your car, kids are a gift from God - and
+    He provides some very clear guidance and insight on how to raise them to be full
+    of faith and focused on Him, rather than leaving you frustrated, frazzled and
+    fatigued.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Parents Priority
-    headline: TODO
+    headline: 
     video: 
   - title: Unchanging Principles of Parenting
-    headline: TODO
+    headline: 
     video: 
   - title: Discipline
-    headline: TODO
+    headline: 
     video: 
   - title: Now What?
-    headline: TODO
+    headline: 
     video: 
-- id: 855
+- id: zip-it
   title: Zip it
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Don’t tell anyone I told you, but rumor has it that there is
+    a series at LifeChurch.tv is called Zip It. I heard they are talking about gossip,
+    how damaging it can be and why we do it. Then someone else told me they’re talking
+    about criticism and complaining and how powerful our words can be and how we can
+    use them positively instead of negatively. Can you believe that?
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Prayer Request Gossiper
-    headline: TODO
+    headline: 
     video: 
   - title: Criticism Gone Bad
-    headline: TODO
+    headline: 
     video: 
   - title: Containing Complaining
-    headline: TODO
+    headline: 
     video: 
-- id: 858
+- id: whats-gods-will
   title: Whats God's Will?
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Does God have a plan for my life? How will I know? What if I
+    miss it? How much of it is my responsibility? If you’ve ever wondered about God’s
+    will for your life, for your career, for your relationships…or even just for the
+    day ahead, you can learn valuable insight – and find great comfort - in this eye-opening
+    series, What’s God’s Will?
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: My Will or Thy Will?
-    headline: TODO
+    headline: 
     video: 
   - title: Markers on the Road
-    headline: TODO
+    headline: 
     video: 
   - title: What Am I Doing Wrong?
-    headline: TODO
+    headline: 
     video: 
   - title: Between The Lines
-    headline: TODO
+    headline: 
     video: 
-- id: 853
+- id: baggage
   title: Baggage
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Do you have it? Would you like to check it for good? God is
+    ready and willing to claim it, we just have to be willing to let it go. And not
+    on a round-trip flight, but a one-way destination. Learn how you can pack up the
+    pain and hurt, find release from addiction and torment, and break free from the
+    battles that keep you – and your baggage – grounded.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Released From Depression
-    headline: TODO
+    headline: 
     video: 
   - title: Emotional Baggage
-    headline: TODO
+    headline: 
     video: 
   - title: Overcoming Addictions
-    headline: TODO
+    headline: 
     video: 
   - title: Baggage Check
-    headline: TODO
+    headline: 
     video: 
-- id: 891
+- id: vision-2005
   title: Vision 2005
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Have you checked your vision lately? God says that where there
+    is no vision, the people perish. Join Senior Pastor Craig Groeschel for a look
+    into the past, present and future of LifeChurch.tv – and how the best part of
+    a vision is to see that which is yet to be seen.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Vision 2005
-    headline: TODO
+    headline: 
     video: 
-- id: 896
+- id: lost
   title: Lost
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Are you satisfied? Would you be satisfied with more? King Solomon
+    had all the riches in the world, but still he sought more. More money, more sex,
+    more power. And what he found is that the problem with having everything in the
+    world…is having everything in the world. Explore the book of Ecclesiastes as Solomon’s
+    personal discovery that, even though he tried and he tried…he couldn’t get no
+    satisfaction. His ultimate conclusion was that following God and His commandments
+    is all that matters.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Lost
-    headline: TODO
+    headline: 
     video: 
-- id: 881
+- id: changed
   title: Changed
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: He became a slave. Who became a fugitive. Who came to know Christ.
+    And overcame it all. Hear the story of Onesimus, the slave who betrayed Philemon,
+    and the passionate efforts of Paul to convince Philemon to change his mind…about
+    this truly changed man.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Changed Legacy
-    headline: TODO
+    headline: 
     video: 
   - title: Changed Perspective
-    headline: TODO
+    headline: 
     video: 
   - title: Changed Lives
-    headline: TODO
+    headline: 
     video: 
-- id: 875
+- id: difficult-people
   title: Difficult People
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: A simple guide to dealing with the needy, manipulative, hypocritical,
+    and overly critical people that drive you crazy every day.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Hypocritical People
-    headline: TODO
+    headline: 
     video: 
   - title: Manipulator
-    headline: TODO
+    headline: 
     video: 
   - title: Overly Needy
-    headline: TODO
+    headline: 
     video: 
   - title: Critical People
-    headline: TODO
+    headline: 
     video: 
-- id: 895
+- id: be-the-one
   title: Be The One
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Are you encountering obstacles and circumstances that keep you
+    from living a great life? Be The One is an inspiring message taken from the story
+    of Jesus encounter with the ten lepers. It is a message about overcoming and soaring
+    above the things that hold us down and suck the life out of us.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Be The One
-    headline: TODO
+    headline: 
     video: 
-- id: 874
+- id: doubters-anonymous
   title: Doubters Anonymous
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Theres no doubt about it. We all doubt at some point in our
+    lives. Whether we doubt our faith, God's goodness, or just His willingness to
+    work miracles in our lives, we could all subscribe to "Doubters Anonymous." Think
+    it's doubtful that God can use you? We'll show you beyond the shadow of a doubt
+    that He can!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: I Doubt God Can Use Me
-    headline: TODO
+    headline: 
     video: 
   - title: I Doubt God Will Do It For Me
-    headline: TODO
+    headline: 
     video: 
   - title: Doubting Gods Goodness
-    headline: TODO
+    headline: 
     video: 
   - title: Bout with Doubt
-    headline: TODO
+    headline: 
     video: 
-- id: 863
+- id: letdown
   title: Letdown
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Have you ever felt let down by other people or by God? Do you
+    ever wonder why people always seem to disappoint you, or why they never measure
+    up to your expectations? What about God? If God is so good, why does He let bad
+    things happen to good people? Where is God when you need Him? There are Biblical
+    answers to these questions, and we will explore those in the series, <i>Letdown</i>.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: When God Lets You Down
-    headline: TODO
+    headline: 
     video: 
   - title: When People Let You Down
-    headline: TODO
+    headline: 
     video: 
-- id: 870
+- id: god-loves-sex
   title: God Love Sex
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Whether youre married, single, or struggling in a relationship,
+    we all have questions about God, Love, and Sex. Get real life answers for real
+    life relationships.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Till Death Do Us Part
-    headline: TODO
+    headline: 
     video: 
   - title: Just Do It
-    headline: TODO
+    headline: 
     video: 
   - title: Reconcilable Differences
-    headline: TODO
+    headline: 
     video: 
   - title: Great Sex
-    headline: TODO
+    headline: 
     video: 
   - title: Perfect Seasoning
-    headline: TODO
+    headline: 
     video: 
   - title: Faithful Attraction
-    headline: TODO
+    headline: 
     video: 
-- id: 876
+- id: dangerous-church-2
   title: Dangerous Church 2
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Over 2000 years ago, God used twelve ordinary men to transform
+    the world. As followers of Christ, the call on our lives is no less. We are to
+    be a dangerous people, allowing ourselves to be Gods vessel for accomplishing
+    extraordinary things. When is the last time you believed God for something extraordinary?
+    Prepare yourself to take a risk and go where no church has gone before!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages: []
-- id: 892
+- id: Invasion-2004
   title: Invasion 2004
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: LifeChurch.tv is passionately focused on leading people to become
+    fully devoted followers of Christ. It’s not what we do, it’s who we are! Part
+    of that privilege is witnessing the amazing transformation and healing that God
+    brings to individual lives. Take a peek with us as we “invade” several lives to
+    hear first hand about God’s life changing power!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Invasion 2004
-    headline: TODO
+    headline: 
     video: 
-- id: 894
+- id: confidence
   title: Confidence
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Confidence is an important ingredient for living life successfully.
+    Many people read books, attend seminars, and work hard to build self-confidence
+    only to find themselves dealing with the same feelings of unsureness and insecurity
+    over and over. Join along in this study as we say goodbye to unsure and insecure
+    and learn to walk confidently with God every day.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Confidence
-    headline: TODO
+    headline: 
     video: 
-- id: 880
+- id: clean-and-clear
   title: Clean and Clear
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: The holidays are the most wonderful time of the year...right?
+    Maybe. But if youre like many of us, the joy of the season is overshadowed by
+    envy, resentment and broken relationships. Get Clean N Clear this season to break
+    down festering bitterness and rebuild healthy relationships in your life.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Bitter or Better
-    headline: TODO
+    headline: 
     video: 
   - title: Green with Envy
-    headline: TODO
+    headline: 
     video: 
-- id: 861
+- id: q-and-a-2004
   title: Q and A 2004
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Is it wrong for Christians to go dancing?  Should a Christian
+    get a tattoo?  What is the difference between Calvinism and Arminiaism?  How can
+    I dress modestly and be in style?  Is it okay to be cremated?  Will we be married
+    in heaven?  Can people from heaven see us?  Some of lifes toughest questions are
+    the ones you usually don't hear about in church.  You've go questions?  the bible
+    has answers!  Get straight answers to these tough questions.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Q and A 2004 - Message 1
-    headline: TODO
+    headline: 
     video: 
   - title: Q and A 2004 - Message 2
-    headline: TODO
+    headline: 
     video: 
   - title: Q and A 2004 - Message 3
-    headline: TODO
+    headline: 
     video: 
-- id: 864
+- id: life-development-plan-2004
   title: Life Development Plan 2004
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: The Life Development Plan is a tool to help you radically evaluate
+    and redirect your life toward total commitment to Christ. Its a new way of thinking
+    — YOUR blueprint to help you set goals regarding your relationship with God, your
+    relationship with people, your physical life, your financial life and your work
+    life.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Work Life
-    headline: TODO
+    headline: 
     video: 
   - title: Physical Life
-    headline: TODO
+    headline: 
     video: 
   - title: Finances
-    headline: TODO
+    headline: 
     video: 
   - title: Relationship with People
-    headline: TODO
+    headline: 
     video: 
   - title: Relationship with God
-    headline: TODO
+    headline: 
     video: 
   - title: Mission and Values
-    headline: TODO
+    headline: 
     video: 
-- id: 871
+- id: give-it-up
   title: Give It Up
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: God gave His best for us when He sent Jesus. God desires that
+    we give our best to Him. You are going to give your life and resources to something.
+    Give to something that lasts! God wants you to give it UP!
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Love Made Me Do It
-    headline: TODO
+    headline: 
     video: 
   - title: First Things First
-    headline: TODO
+    headline: 
     video: 
-- id: 893
+- id: go
   title: Go
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: God has called us to, "Go out unto the world and preach the
+    Good News," and thats exactly what the story of our salvation is - GOOD NEWS.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Go
-    headline: TODO
+    headline: 
     video: 
-- id: 872
+- id: fear
   title: Fear
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: So many people live their lives paralyzed by fear. Four most
+    common fears people suffer from are fear of failure, fear of rejection, fear of
+    intimacy, and fear of losing control. God has not given us a spirit of fear, but
+    of power. During the series, Fear we’ll experience the power of God to overcome
+    these fears.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Fear of Losing Control
-    headline: TODO
+    headline: 
     video: 
   - title: Fear of Intimacy
-    headline: TODO
+    headline: 
     video: 
   - title: Fear of Failure
-    headline: TODO
+    headline: 
     video: 
   - title: Fear of Rejection
-    headline: TODO
+    headline: 
     video: 
-- id: 867
+- id: its-all-in-your-mind
   title: Its All In Your Mind
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Do you find yourself worrying about everything under the sun,
+    always comparing yourself to others, or you can’t seem to kick that nagging habit?
+    Most of the time these struggles are a result of a wrong mindset. During the series
+    It’s all in Your Mind Pastor Craig shares biblical truths on the battlefield of
+    the mind, overcoming strongholds, defeating worry, and understanding the mind
+    of Christ.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Attitude of Gratitude
-    headline: TODO
+    headline: 
     video: 
   - title: Truth or Snare
-    headline: TODO
+    headline: 
     video: 
   - title: Strongholds
-    headline: TODO
+    headline: 
     video: 
   - title: Attitude Check
-    headline: TODO
+    headline: 
     video: 
-- id: 857
+- id: whats-the-difference
   title: Whats the Difference?
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Many people claim that all paths lead to God. Are all "religions"
+    basically the same? At what points do they differ? Do the differences really matter?
+    In the series "Whats the Difference?" you will get an overview of the differences
+    between the Bible and other world-wide teachings. This series will help equip
+    you to reach out to other people armed with knowledge and full of the love of
+    Jesus Christ.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Jehovahs Witnesses
-    headline: TODO
+    headline: 
     video: 
   - title: Catholicism
-    headline: TODO
+    headline: 
     video: 
   - title: Mormonism
-    headline: TODO
+    headline: 
     video: 
-- id: 873
+- id: famous-last-words
   title: Famous Last Words
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Our dying Savior blessed us with His famous last words. In this
+    series “Famous Last Words” Pastor Craig unpacks the depth and practical application
+    of the final words Jesus uttered before giving His life.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Today You Will Be With Me In Paradise
-    headline: TODO
+    headline: 
     video: 
   - title: It Is Finished
-    headline: TODO
+    headline: 
     video: 
   - title: My God, My God, Why?
-    headline: TODO
+    headline: 
     video: 
   - title: Father, Forgive Them
-    headline: TODO
+    headline: 
     video: 
-- id: 878
+- id: consumed
   title: Consumed
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Worship isn’t just singing. It’s a lifestyle. As we consider
+    who God is and what He has done our only reasonable response is worship. Pastor
+    Craig teaches us how to be “Consumed” in the presence of God. We look forward
+    to seeing you this weekend for the new message series, Consumed.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: True Worshippers
-    headline: TODO
+    headline: 
     video: 
   - title: Consumed
-    headline: TODO
+    headline: 
     video: 
-- id: 877
+- id: dangerous-church
   title: Dangerous Church
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Are you comfortable in your walk with Christ? Living a Christian
+    life is a hard road to travel, and anything but comfortable. In Dangerous Church,
+    we will discuss the radical calling on the fully devoted follower of Christ. We
+    will share the biblical truths of who we are called to become, living in a dangerous
+    church.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: A Dangerous Church
-    headline: TODO
+    headline: 
     video: 
   - title: A Safe Church
-    headline: TODO
+    headline: 
     video: 
-- id: 868
+- id: invasion-2003
   title: Invasion 2003
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Join us for the Invasion series as we look to see what God has
+    done this year.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Faithful
-    headline: TODO
+    headline: 
     video: 
   - title: All Things Are Possible
-    headline: TODO
+    headline: 
     video: 
-- id: 866
+- id: joy
   title: Joy
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Finding joy in the midst of struggles, chaos, and confusion
+    a study of Philippians.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: A Peace in the Action
-    headline: TODO
+    headline: 
     video: 
   - title: Getting to Know You
-    headline: TODO
+    headline: 
     video: 
   - title: Its All In Your Mind
-    headline: TODO
+    headline: 
     video: 
   - title: Joyful No Matter What
-    headline: TODO
+    headline: 
     video: 
-- id: 865
+- id: kaleo
   title: Kaleo
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 1 Peter 2:21, “To this you were called, because Christ suffered
+    for you, leaving you an example, that you should follow in his steps,” is the
+    foundation of the current message series, Kaleo. Join Pastor Craig as we learn
+    God’s call on each of our lives and how to be set apart and ready to following
+    His divine calling.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Change the World
-    headline: TODO
+    headline: 
     video: 
   - title: Generosity
-    headline: TODO
+    headline: 
     video: 
   - title: Community
-    headline: TODO
+    headline: 
     video: 
-- id: 869
+- id: growing-to-the-chapel
   title: Growing to the Chapel
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: People prepare for many things, yet few people prepare for marriage.
+    In Growing to the Chapel well examine God's truth to prepare us for a lasting
+    and meaningful marriage covenant.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Truth or Dont You Dare
-    headline: TODO
+    headline: 
     video: 
   - title: Amy On Submission
-    headline: TODO
+    headline: 
     video: 
   - title: Rebel with a Cause
-    headline: TODO
+    headline: 
     video: 
   - title: Becoming a Great Lead-Her
-    headline: TODO
+    headline: 
     video: 
   - title: Pre-pair-ing
-    headline: TODO
+    headline: 
     video: 
-- id: 879
+- id: confessions-of-a-pastor
   title: Confessions of a Pastor
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: 'Uncover the deep, dark, secrets that have remained untold in
+    the realm of a pastor’s life: insecurities, doubts, and weariness....frustrations,
+    concerns and mistakes. In "Confessions of a Pastor," Pastor Craig opens up in
+    hopes of shattering any false pretenses. What is it like to be a pastor? Probably
+    a lot like being anyone else. Let go of the expectations and high standards that
+    are keeping you in bondage and let God start to become one of your truest friends
+    through your own confessions.'
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: I Dont Like a Lot of Christians
-    headline: TODO
+    headline: 
     video: 
   - title: Sometimes I Have My Doubts About God
-    headline: TODO
+    headline: 
     video: 
   - title: I Feel Completely Inadequate
-    headline: TODO
+    headline: 
     video: 
   - title: I Dont Feel Like Praying
-    headline: TODO
+    headline: 
     video: 
-- id: 860
+- id: religion-bytes
   title: Religion Bytes
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: You don’t have to be a religious person to be a Christian. God
+    did not send Jesus to make us religious. As we study the book of Galatians, learn
+    how to avoid the prison of religion and live in the freedom of Christ.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Slave or Son
-    headline: TODO
+    headline: 
     video: 
   - title: Seems Right
-    headline: TODO
+    headline: 
     video: 
   - title: Avoiding People Problems
-    headline: TODO
+    headline: 
     video: 
   - title: Religion Never Works
-    headline: TODO
+    headline: 
     video: 
-- id: 862
+- id: painkiller
   title: Painkiller
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Life can be full of pain sometimes. What do you do when life
+    is really hard? How do you heal from hurt? Dont miss the "Painkiller". Pastor
+    Craig will teach us Biblical ways to overcome the pain of loss and the pain of
+    suffering and the pain of rejection.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: The Pain of Rejection
-    headline: TODO
+    headline: 
     video: 
   - title: The Pain of Suffering
-    headline: TODO
+    headline: 
     video: 
   - title: The Pain of Loss
-    headline: TODO
+    headline: 
     video: 
-- id: 851
+- id: world-changers
   title: World Changers
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: '"Give me ten men who hate nothing but sin and love nothing
+    but God, and well change the world." Through the life of John Wesley we''ll learn
+    to change the world with a plan for holiness, a peace with God, and a passion
+    for change.'
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Dwight L. Moody
-    headline: TODO
+    headline: 
     video: 
   - title: Charles Spurgeon
-    headline: TODO
+    headline: 
     video: 
   - title: Charles Finney
-    headline: TODO
+    headline: 
     video: 
   - title: John Wesley
-    headline: TODO
+    headline: 
     video: 
-- id: 882
+- id: sex-files
   title: Sex Files
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: '"The Sex Files" is a very important and relevant teaching that
+    explores the Biblical perspective on sex and how we should respond to todays extremely
+    sexual culture.'
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Great Sexpectations
-    headline: TODO
+    headline: 
     video: 
   - title: Indecent Proposal
-    headline: TODO
+    headline: 
     video: 
   - title: Hooked
-    headline: TODO
+    headline: 
     video: 
   - title: Out Of Order
-    headline: TODO
+    headline: 
     video: 
-- id: 883
+- id: man-2-man
   title: Man 2 Man
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Men! Step up to the plate and discover how you can be a man
+    of Godly character. In this four part message series, you will learn how to become
+    a loving husband and Godly father, build accountability with others, and lead
+    your family with vision and passion.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Ally
-    headline: TODO
+    headline: 
     video: 
   - title: Knight in Shining Armor
-    headline: TODO
+    headline: 
     video: 
   - title: Spiritual Coach
-    headline: TODO
+    headline: 
     video: 
   - title: Shepherd Warrior
-    headline: TODO
+    headline: 
     video: 
-- id: 884
+- id: if-i-die-before-i-wake
   title: If I Die Before I Wake
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: What happens one minute after we die? Its a controversial topic,
+    but from a Biblical perspective, one that could mean life or death for anyone
+    who dares to ask the question. Study along as Pastor Craig addresses the issues
+    of life, death, heaven and hell and explores what the Bible has to say about them.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Hell No
-    headline: TODO
+    headline: 
     video: 
   - title: Heaven Yes
-    headline: TODO
+    headline: 
     video: 
   - title: One Minute After You Die
-    headline: TODO
+    headline: 
     video: 
   - title: This Bloods For You
-    headline: TODO
+    headline: 
     video: 
-- id: 887
+- id: christmas-is-for-giving
   title: Christmas is For-Giving
-  headline: TODO
-  description_small: TODO
-  description_medium: TODO
-  quote: TODO
-  quote_cite: TODO
-  image_small: TODO
-  image_medium: TODO
-  image_large: TODO
+  headline: 
+  description_small: 
+  description_medium: Christmas is always thought of as the best time of the year.
+    Unfortunately, as we go through life we often experience family and relational
+    pain, and Christmas can go from being the highlight of the year to the most difficult
+    time. In this three-part study, we learn how to forgive others, how to ask for
+    forgiveness, and what it means to be forgiven.
+  quote: 
+  quote_cite: 
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
   messages:
   - title: Forgetting
-    headline: TODO
+    headline: 
     video: 
   - title: Forgoing
-    headline: TODO
+    headline: 
     video: 
   - title: Forgiving
-    headline: TODO
+    headline: 
     video: 
