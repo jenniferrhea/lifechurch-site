@@ -215,5 +215,9 @@ $(function() {
     $(this).parent().parent().find('.cta-thanks').fadeIn();
   });
 
+  setInterval(function() {
+    $('.primary-links a .live').toggleClass('alt');
+  }, 1000);
+
 
 });

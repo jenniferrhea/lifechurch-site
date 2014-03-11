@@ -171,11 +171,12 @@
       margin-left: -10px;
       font-size: 9px;
       color: $red;
+
+      &.alt {
+        color: lighten($red, 20%);
+      }
     }
 
-    .header-light & .live {
-      color: lighten($red, 30%);
-    }
   }
 }
 
