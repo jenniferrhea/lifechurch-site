@@ -13,12 +13,10 @@ skrollable: true
 {% assign series = site.data.watch | find_first : "id", page.series-id %}
 
 <div class="page-section section-first section-light">
-  <div class="the-counselor-1-ender" data-2400="display:block;" data-2401="display:none;"></div>
+  <div class="the-counselor-1-ender" data-0="display:none;" data-100="display:block;" data-2400="display:block;" data-2401="display:none;"></div>
   <div class="the-counselor-1">
 
     <div class="row">
-
-      <a class="logo logo-2" href="/" data-200="opacity:0; display:block;" data-300="opacity:1; display:block;" data-3000="opacity:1; display:block;" data-3100="opacity:0; display:none;"></a>
 
       <div class="medium-12 large-8 medium-centered text-center columns">
         <div class="type type-first">
@@ -51,7 +49,7 @@ skrollable: true
         </div>
 
         <div class="skrollr-elements">
-          <div class="couch-bg" data-2500="opacity:1; display:block;" data-2600="opacity:0; display:none;"></div>
+          <div class="couch-bg" data-0="display:none;" data-200="display:block;" data-2500="opacity:1; display:block;" data-2600="opacity:0; display:none;"></div>
           <div class="couch" data-2500="opacity:1; display:block;" data-2600="opacity:0; display:none;"></div>
           <div class="person person-1 state-1" data-0="display:none;" data-250="display:block; opacity:0; top:150px" data-450="opacity:1; top:200px; display:block;" data-451="opacity:0; display:none;"></div>
           <div class="person person-1 state-2" data-0="display:none;" data-450="display:block; opacity:0;" data-451="opacity:1" data-471="opacity:1; display:block;" data-472="opacity:0; display:none;"></div>

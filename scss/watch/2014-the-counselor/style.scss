@@ -27,19 +27,21 @@
 
   @media #{$small-only} {
     margin-top: -10px;
-
   }
+}
 
-  .action {
-    position: relative;
-    z-index: 8;
+.action {
+  position: relative;
+  z-index: 8;
+  color: #86def7 !important;
+  &:hover {
+    opacity: .7;
   }
 }
 
 // Hide elements when not needed
 .please-scroll,
-.please-touch,
-.logo-2 {
+.please-touch {
   display: none;
 }
 
@@ -76,14 +78,6 @@
     // Hide small images
     .thin-image {
       display: none;
-    }
-
-    // Supporting logomark as you scroll down
-    .logo-2 {
-      position: fixed;
-      display: block;
-      top: 29px;
-      margin-left: 15px
     }
 
     // Prompt to scroll (no-touch)
@@ -170,7 +164,7 @@
       // Opening type section
       &.type-first {
         margin-top: 20px !important;
-        
+
       }
     }
 
