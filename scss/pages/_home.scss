@@ -12,8 +12,8 @@
   }
 
   .section-first {
-    @include background-image-2x-jpg('/images/home/home-bg-small');
     background-color: #000;
+    @include background-image-2x-jpg('/images/home/home-bg-small');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 656px 557px;

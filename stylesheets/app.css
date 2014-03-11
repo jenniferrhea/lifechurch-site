@@ -6223,8 +6223,8 @@ button.dropdown::before {
 }
 /* line 14, ../scss/pages/_home.scss */
 .home .section-first {
-  background-image: url("/images/home/home-bg-small.jpg");
   background-color: #000;
+  background-image: url("/images/home/home-bg-small.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 656px 557px;
