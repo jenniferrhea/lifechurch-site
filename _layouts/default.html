@@ -30,9 +30,9 @@
   </head>
 
   {% if page.class %}
-  <body class="{{ page.class }}">
+  <body id="skrollr-body" class="{{ page.class }}">
   {% else %}
-  <body>
+  <body id="skrollr-body">
   {% endif %}
 
     <!-- Page Header -->
@@ -75,13 +75,21 @@
     <footer id="footer" class="page-footer">
       <div class="footer-inner">
         <div class="row">
-          <div class="hide-for-small large-6 large-push-6 columns">
-            <ul class="inline-list large-right">
+          <div class="small-12 large-6 large-push-6 columns">
+            <ul class="inline-list large-right hide-for-small">
               <li><a href="/watch/">Watch</a></li>
               <li><a href="/locations/">Locations</a></li>
               <li><a href="/giving/">Giving</a></li>
               <li><a href="/tools/">Tools &amp; Resources</a></li>
               <li><a href="/contact/">Reach Us</a></li>
+            </ul>
+
+            <ul class="footer-social inline-list large-right">
+              <li><a class="icon-facebook" href="#">Facebook</a></li>
+              <li><a class="icon-twitter" href="#">Twitter</a></li>
+              <li><a class="icon-instagram" href="#">Instagram</a></li>
+              <li><a class="icon-pinterest" href="#">Pinterest</a></li>
+              <li><a class="icon-youtube" href="#">YouTube</a></li>
             </ul>
           </div>
 
@@ -102,19 +110,19 @@
     <script src="/bower_components/jquery.stellar/jquery.stellar.min.js"></script>
     <script src="/js/app.js"></script>
 
+    {% if page.javascript == true %}
+    <script src="/js/watch/{{ page.assets }}/script.js"></script>
+    {% endif %}
+
     {% if page.skrollable == true %}
     <script src="/bower_components/skrollr/src/skrollr.js"></script>
     <script>
       $(function() {
-        if ( $("html").hasClass("no-touch")) {
+        if ($(window).width() > 600) {
           var s = skrollr.init();
         }
       });
     </script>
-    {% endif %}
-
-    {% if page.javascript == true %}
-    <script src="/js/watch/{{ page.assets }}/script.js"></script>
     {% endif %}
 
   </body>

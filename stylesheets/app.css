@@ -5715,6 +5715,90 @@ html {
 .page-footer p, .page-footer ul li, ul .page-footer li {
   margin-bottom: 8px;
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/design/_footer.scss */
+  .page-footer .footer-social {
+    margin-top: -10px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 20, ../scss/design/_footer.scss */
+  .page-footer .footer-social li {
+    margin-left: 0;
+  }
+}
+/* line 26, ../scss/design/_footer.scss */
+.page-footer .footer-social a {
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -999em;
+  width: 40px;
+  height: 14px;
+}
+/* line 33, ../scss/design/_footer.scss */
+.page-footer .footer-social a:hover {
+  opacity: .7;
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .page-footer .footer-social .icon-facebook {
+  background-image: url('/images/social/icon-facebook.svg?1394478088');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .page-footer .footer-social .icon-facebook {
+  background-image: url('/images/social/icon-facebook.png?1394478090');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .page-footer .footer-social .icon-facebook {
+  background-image: url('/images/social/icon-facebook.png?1394478090');
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .page-footer .footer-social .icon-twitter {
+  background-image: url('/images/social/icon-twitter.svg?1394478040');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .page-footer .footer-social .icon-twitter {
+  background-image: url('/images/social/icon-twitter.png?1394478067');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .page-footer .footer-social .icon-twitter {
+  background-image: url('/images/social/icon-twitter.png?1394478067');
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .page-footer .footer-social .icon-instagram {
+  background-image: url('/images/social/icon-instagram.svg?1394478017');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .page-footer .footer-social .icon-instagram {
+  background-image: url('/images/social/icon-instagram.png?1394478018');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .page-footer .footer-social .icon-instagram {
+  background-image: url('/images/social/icon-instagram.png?1394478018');
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .page-footer .footer-social .icon-pinterest {
+  background-image: url('/images/social/icon-pinterest.svg?1394477988');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .page-footer .footer-social .icon-pinterest {
+  background-image: url('/images/social/icon-pinterest.png?1394477991');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .page-footer .footer-social .icon-pinterest {
+  background-image: url('/images/social/icon-pinterest.png?1394477991');
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .page-footer .footer-social .icon-youtube {
+  background-image: url('/images/social/icon-youtube.svg?1394477961');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .page-footer .footer-social .icon-youtube {
+  background-image: url('/images/social/icon-youtube.png?1394477964');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .page-footer .footer-social .icon-youtube {
+  background-image: url('/images/social/icon-youtube.png?1394477964');
+}
 @media only screen and (max-width: 40em) {
   /* line 3, ../scss/design/_footer.scss */
   .page-footer {
@@ -5734,7 +5818,7 @@ html {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 33, ../scss/design/_footer.scss */
+  /* line 77, ../scss/design/_footer.scss */
   .page-footer .columns {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 2em;
