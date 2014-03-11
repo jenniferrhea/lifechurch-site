@@ -6316,7 +6316,17 @@ button.dropdown::before {
   top: -33px !important;
   padding-top: 35px;
   margin-bottom: -40px;
-  background: #000;
+  background-image: url("/images/watch/watch-live.jpg");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: 1500px 496px;
+  background-position: center;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 1, ../scss/pages/_watch.scss */
+  .page-watch .section-watch-live {
+    background-image: url("/images/watch/watch-live@2x.jpg");
+  }
 }
 @media only screen and (max-width: 40em) {
   /* line 1, ../scss/pages/_watch.scss */
@@ -6325,27 +6335,27 @@ button.dropdown::before {
   }
 }
 
-/* line 12, ../scss/pages/_watch.scss */
+/* line 16, ../scss/pages/_watch.scss */
 .message h4, .message .h4, .message .location-tile, .message .lifegroups-tile span, .lifegroups-tile .message span {
   margin-top: -5px;
 }
 
-/* line 16, ../scss/pages/_watch.scss */
+/* line 20, ../scss/pages/_watch.scss */
 .message h6, .message .h6, .message label {
   margin-top: 2px;
 }
 
-/* line 20, ../scss/pages/_watch.scss */
+/* line 24, ../scss/pages/_watch.scss */
 .message {
   padding-bottom: 12px;
 }
 
-/* line 24, ../scss/pages/_watch.scss */
+/* line 28, ../scss/pages/_watch.scss */
 .watch-item h6, .watch-item .h6, .watch-item label {
   margin-top: 5px;
 }
 
-/* line 30, ../scss/pages/_watch.scss */
+/* line 34, ../scss/pages/_watch.scss */
 .watch-podcast,
 .watch-talkitover,
 .watch-open {
@@ -6353,7 +6363,7 @@ button.dropdown::before {
   padding-bottom: 12px !important;
 }
 
-/* line 37, ../scss/pages/_watch.scss */
+/* line 41, ../scss/pages/_watch.scss */
 .watch-podcast:before,
 .watch-talkitover:before,
 .watch-open:before {
