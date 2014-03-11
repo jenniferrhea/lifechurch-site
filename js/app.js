@@ -70,23 +70,6 @@ $(function() {
   };
 
 
-  // Smooth scrolling for hash links
-  $(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
-
-
   // SVG / PNG
   if(!Modernizr.svg) {
     $('img[src*="svg"]').attr('src', function () {
