@@ -5113,37 +5113,38 @@ textarea {
 /* line 219, ../scss/design/_type.scss */
 blockquote {
   padding-left: 0;
+  padding-right: 0;
   border: none;
   text-align: center;
 }
-/* line 224, ../scss/design/_type.scss */
+/* line 225, ../scss/design/_type.scss */
 blockquote p, blockquote ul li, ul blockquote li {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 224, ../scss/design/_type.scss */
+  /* line 225, ../scss/design/_type.scss */
   blockquote p, blockquote ul li, ul blockquote li {
     font-size: 2rem;
   }
 }
-/* line 234, ../scss/design/_type.scss */
+/* line 235, ../scss/design/_type.scss */
 blockquote cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 234, ../scss/design/_type.scss */
+  /* line 235, ../scss/design/_type.scss */
   blockquote cite {
     font-size: 1.3rem;
   }
 }
-/* line 243, ../scss/design/_type.scss */
+/* line 244, ../scss/design/_type.scss */
 blockquote.quote-large {
   text-align: left;
 }
-/* line 246, ../scss/design/_type.scss */
+/* line 247, ../scss/design/_type.scss */
 blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
   font-size: 1.2rem;
   line-height: 1.3em;
@@ -5151,66 +5152,66 @@ blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-larg
   font-weight: 300;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 246, ../scss/design/_type.scss */
+  /* line 247, ../scss/design/_type.scss */
   blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
     font-size: 3rem;
   }
 }
-/* line 257, ../scss/design/_type.scss */
+/* line 258, ../scss/design/_type.scss */
 blockquote.quote-large cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 257, ../scss/design/_type.scss */
+  /* line 258, ../scss/design/_type.scss */
   blockquote.quote-large cite {
     font-size: 1.5rem;
   }
 }
 
-/* line 270, ../scss/design/_type.scss */
+/* line 271, ../scss/design/_type.scss */
 a p, a ul li, ul a li {
   color: #333333;
 }
 
-/* line 275, ../scss/design/_type.scss */
+/* line 276, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 281, ../scss/design/_type.scss */
+/* line 282, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 287, ../scss/design/_type.scss */
+/* line 288, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 287, ../scss/design/_type.scss */
+  /* line 288, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 297, ../scss/design/_type.scss */
+/* line 298, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 304, ../scss/design/_type.scss */
+/* line 305, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 309, ../scss/design/_type.scss */
+/* line 310, ../scss/design/_type.scss */
 p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5218,28 +5219,28 @@ p, ul li {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 309, ../scss/design/_type.scss */
+  /* line 310, ../scss/design/_type.scss */
   p, ul li {
     font-size: 1.25rem;
   }
 }
 
-/* line 321, ../scss/design/_type.scss */
+/* line 322, ../scss/design/_type.scss */
 .detail, ul li {
   font-size: 0.9375rem;
 }
 
-/* line 326, ../scss/design/_type.scss */
+/* line 327, ../scss/design/_type.scss */
 ul li {
   margin-bottom: 10px;
 }
 
-/* line 333, ../scss/design/_type.scss */
+/* line 334, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 342, ../scss/design/_type.scss */
+/* line 343, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5248,12 +5249,12 @@ ul li {
   font-weight: 300;
 }
 
-/* line 348, ../scss/design/_type.scss */
+/* line 349, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 354, ../scss/design/_type.scss */
+/* line 355, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2,

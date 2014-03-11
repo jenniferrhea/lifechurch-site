@@ -24,6 +24,11 @@
   background-position: center;
   background-size: contain;
   text-indent: -999em;
+
+  @media #{$small-only} {
+    margin-top: -10px;
+
+  }
 }
 
 // Hide elements when not needed
@@ -53,6 +58,12 @@
 
     &.thin-image-3 {
       background-image: url("/images/watch/2014-the-counselor/person-3-thin.png");
+    }
+  }
+
+  @media #{$small-only} {
+    .type-first {
+      margin-bottom: 40px;
     }
   }
 
