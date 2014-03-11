@@ -6190,82 +6190,110 @@ button.dropdown::before {
   width: 100%;
 }
 
-/* line 1, ../scss/pages/_home.scss */
-.home {
-  background-image: url("/images/home/series-bg.jpg");
-  background-position: center top;
-  background-repeat: repeat-x;
-  background-size: 531px 744px;
+/* line 3, ../scss/pages/_home.scss */
+.home h1, .home .h1 {
+  width: 100%;
+  height: 59px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-indent: -999em;
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .home h1, .svg .home .h1 {
+  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.svg?1393966325');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .home h1, .no-svg .home .h1 {
+  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394548819');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .home h1, .no-js .home .h1 {
+  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394548819');
+}
+/* line 14, ../scss/pages/_home.scss */
+.home .section-first {
+  background-image: url("/images/home/home-bg-small.jpg");
+  background-color: #000;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 656px 557px;
+  height: 550px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 1, ../scss/pages/_home.scss */
-  .home {
-    background-image: url("/images/home/series-bg@2x.jpg");
+  /* line 14, ../scss/pages/_home.scss */
+  .home .section-first {
+    background-image: url("/images/home/home-bg-small@2x.jpg");
   }
 }
-/* line 8, ../scss/pages/_home.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 14, ../scss/pages/_home.scss */
+  .home .section-first {
+    background-image: url("/images/home/home-bg.jpg");
+    background-size: 1500px 931px;
+    height: 650px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
+  /* line 14, ../scss/pages/_home.scss */
+  .home .section-first {
+    background-image: url("/images/home/home-bg@2x.jpg");
+  }
+}
+@media only screen and (min-width: 700px) and (min-height: 550px) {
+  /* line 14, ../scss/pages/_home.scss */
+  .home .section-first {
+    height: 750px;
+  }
+  /* line 31, ../scss/pages/_home.scss */
+  .home .section-first h1, .home .section-first .h1 {
+    margin-top: 110px;
+  }
+}
+@media only screen and (min-width: 700px) and (min-height: 650px) {
+  /* line 14, ../scss/pages/_home.scss */
+  .home .section-first {
+    height: 850px;
+  }
+  /* line 39, ../scss/pages/_home.scss */
+  .home .section-first h1, .home .section-first .h1 {
+    margin-top: 160px;
+  }
+}
+@media only screen and (min-width: 700px) and (min-height: 750px) {
+  /* line 14, ../scss/pages/_home.scss */
+  .home .section-first {
+    height: 931px;
+  }
+  /* line 47, ../scss/pages/_home.scss */
+  .home .section-first h1, .home .section-first .h1 {
+    margin-top: 220px;
+  }
+}
+/* line 54, ../scss/pages/_home.scss */
 .home .action {
-  color: #263880;
+  color: #fff;
+}
+/* line 57, ../scss/pages/_home.scss */
+.home .action:hover {
+  opacity: .6;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 13, ../scss/pages/_home.scss */
+  /* line 63, ../scss/pages/_home.scss */
   .home .section-first {
     padding-bottom: 30px;
   }
 }
-/* line 20, ../scss/pages/_home.scss */
+/* line 69, ../scss/pages/_home.scss */
 .home .page-footer {
-  background-image: url("/images/home/series-bg2.png");
-  background-size: 96px 62px;
-  background-position: center top;
-  background-repeat: no-repeat;
-  padding-top: 55px;
-  border: none;
-  padding-bottom: 0;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 20, ../scss/pages/_home.scss */
-  .home .page-footer {
-    background-image: url("/images/home/series-bg2@2x.png");
-  }
-}
-/* line 30, ../scss/pages/_home.scss */
-.home .page-footer .columns {
   border: none;
   margin-top: 0;
 }
-/* line 36, ../scss/pages/_home.scss */
-.home .page-footer .footer-inner {
-  background: #28377f;
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-/* line 41, ../scss/pages/_home.scss */
-.home .page-footer .footer-inner p, .home .page-footer .footer-inner ul li, ul .home .page-footer .footer-inner li {
-  color: #fff;
-}
-/* line 48, ../scss/pages/_home.scss */
-.home .series-art {
-  background-image: url("/images/home/series-title.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 270px;
-  height: 120px;
-  margin: 0 auto 20px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 48, ../scss/pages/_home.scss */
-  .home .series-art {
-    background-image: url("/images/home/series-title@2x.png");
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 48, ../scss/pages/_home.scss */
-  .home .series-art {
-    width: 636px;
-    height: 216px;
-    margin: 120px auto 20px;
-  }
+/* line 73, ../scss/pages/_home.scss */
+.home .page-footer .columns {
+  padding-top: 0;
+  border: none;
 }
 
 /* line 1, ../scss/pages/_watch.scss */
