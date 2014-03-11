@@ -1,6 +1,17 @@
 // LCTV font icons
 
   @font-face {
+    font-family: 'eurostile';
+    src:url('/fonts/eurostile/eurostile.eot?-dvzee9');
+    src:url('/fonts/eurostile/eurostile.eot?#iefix-dvzee9') format('embedded-opentype'),
+      url('/fonts/eurostile/eurostile.woff?-dvzee9') format('woff'),
+      url('/fonts/eurostile/eurostile.ttf?-dvzee9') format('truetype'),
+      url('/fonts/eurostile/eurostile.svg?-dvzee9#lctv') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
     font-family: 'lctv';
     src:url('/fonts/lctv/lctv.eot?-dvzee9');
     src:url('/fonts/lctv/lctv.eot?#iefix-dvzee9') format('embedded-opentype'),

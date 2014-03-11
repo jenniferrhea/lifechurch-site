@@ -31,14 +31,15 @@
     top: 7px;
     text-transform: uppercase;
     left: 52px;
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "eurostile", sans-serif;
+    letter-spacing: -1px;
     color: #000;
     font-weight: bold;
     font-size: rem-calc(14);
 
     @media #{$medium-up} {
-      top: 8px;
-      left: 62px;
+      top: 10px;
+      left: 60px;
     }
   }
 
