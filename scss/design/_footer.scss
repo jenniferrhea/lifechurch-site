@@ -25,10 +25,14 @@
 
       a {
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: left;
         text-indent: -999em;
         width: 40px;
         height: 14px;
+
+        @media #{$large-up} {
+          background-position: right;
+        }
 
         &:hover {
           opacity: .7;

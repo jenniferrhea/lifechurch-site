@@ -11,7 +11,7 @@
     text-indent: -999em;
   }
 
-  .section-first {
+  .section-first.section-home {
     background-color: #000;
     @include background-image-2x-jpg('/images/home/home-bg-small');
     background-position: center bottom;

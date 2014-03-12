@@ -5738,12 +5738,18 @@ html {
 /* line 26, ../scss/design/_footer.scss */
 .page-footer .footer-social a {
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
   text-indent: -999em;
   width: 40px;
   height: 14px;
 }
-/* line 33, ../scss/design/_footer.scss */
+@media only screen and (min-width: 64.063em) {
+  /* line 26, ../scss/design/_footer.scss */
+  .page-footer .footer-social a {
+    background-position: right;
+  }
+}
+/* line 37, ../scss/design/_footer.scss */
 .page-footer .footer-social a:hover {
   opacity: .7;
 }
@@ -5826,7 +5832,7 @@ html {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../scss/design/_footer.scss */
+  /* line 81, ../scss/design/_footer.scss */
   .page-footer .columns {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 2em;
@@ -6222,7 +6228,7 @@ button.dropdown::before {
   background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394548819');
 }
 /* line 14, ../scss/pages/_home.scss */
-.home .section-first {
+.home .section-first.section-home {
   background-color: #000;
   background-image: url("/images/home/home-bg-small.jpg");
   background-position: center bottom;
@@ -6232,19 +6238,19 @@ button.dropdown::before {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 14, ../scss/pages/_home.scss */
-  .home .section-first {
+  .home .section-first.section-home {
     background-image: url("/images/home/home-bg-small@2x.jpg");
   }
 }
 /* line 22, ../scss/pages/_home.scss */
-.home .section-first p, .home .section-first ul li, ul .home .section-first li {
+.home .section-first.section-home p, .home .section-first.section-home ul li, ul .home .section-first.section-home li {
   max-width: 600px;
   margin: 0 auto 30px;
   color: #fff;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 14, ../scss/pages/_home.scss */
-  .home .section-first {
+  .home .section-first.section-home {
     background-image: url("/images/home/home-bg.jpg");
     background-size: 1500px 931px;
     height: 700px;
@@ -6252,37 +6258,37 @@ button.dropdown::before {
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
   /* line 14, ../scss/pages/_home.scss */
-  .home .section-first {
+  .home .section-first.section-home {
     background-image: url("/images/home/home-bg@2x.jpg");
   }
 }
 @media only screen and (min-width: 700px) and (min-height: 600px) {
   /* line 14, ../scss/pages/_home.scss */
-  .home .section-first {
+  .home .section-first.section-home {
     height: 800px;
   }
   /* line 37, ../scss/pages/_home.scss */
-  .home .section-first h1, .home .section-first .h1 {
+  .home .section-first.section-home h1, .home .section-first.section-home .h1 {
     margin-top: 110px;
   }
 }
 @media only screen and (min-width: 700px) and (min-height: 700px) {
   /* line 14, ../scss/pages/_home.scss */
-  .home .section-first {
+  .home .section-first.section-home {
     height: 850px;
   }
   /* line 45, ../scss/pages/_home.scss */
-  .home .section-first h1, .home .section-first .h1 {
+  .home .section-first.section-home h1, .home .section-first.section-home .h1 {
     margin-top: 160px;
   }
 }
 @media only screen and (min-width: 700px) and (min-height: 800px) {
   /* line 14, ../scss/pages/_home.scss */
-  .home .section-first {
+  .home .section-first.section-home {
     height: 931px;
   }
   /* line 53, ../scss/pages/_home.scss */
-  .home .section-first h1, .home .section-first .h1 {
+  .home .section-first.section-home h1, .home .section-first.section-home .h1 {
     margin-top: 220px;
   }
 }
