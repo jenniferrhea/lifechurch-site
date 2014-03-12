@@ -5738,7 +5738,7 @@ html {
 /* line 26, ../scss/design/_footer.scss */
 .page-footer .footer-social a {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   text-indent: -999em;
   width: 40px;
   height: 14px;
