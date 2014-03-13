@@ -7032,8 +7032,8 @@ button.dropdown::before {
 }
 /* line 564, ../scss/pages/_locations.scss */
 .calendar-key.key-konnect figure {
-  background: #e7e7e7;
-  border: 1px solid #cecece;
+  background: #69d166;
+  border: 1px solid #43c53f;
 }
 
 /* line 576, ../scss/pages/_locations.scss */
@@ -7124,9 +7124,9 @@ button.dropdown::before {
   }
   /* line 659, ../scss/pages/_locations.scss */
   .days-times .time.type-konnect .time-box {
-    background: #e7e7e7;
-    border: 1px solid #cecece;
-    color: #818181;
+    background: #69d166;
+    border: 1px solid #43c53f;
+    color: #1a5219;
   }
   /* line 666, ../scss/pages/_locations.scss */
   .days-times .time-07-00 {

@@ -562,8 +562,8 @@
       }
 
       &.key-konnect figure {
-        background: $secondary-color;
-          border: 1px solid darken($secondary-color, 10%);
+        background: #69d166;
+          border: 1px solid darken(#69d166, 10%);
       }
     }
 
@@ -657,9 +657,9 @@
       }
 
       &.type-konnect .time-box {
-        background: $secondary-color;
-        border: 1px solid darken($secondary-color, 10%);
-        color: darken($secondary-color, 40%);
+        background: #69d166;
+        border: 1px solid darken(#69d166, 10%);
+        color: darken(#69d166, 40%);
       }
     }
 
