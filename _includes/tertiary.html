@@ -30,6 +30,18 @@
       {% include watch-resources.html %}
       {% endif %}
 
+      {% if page.section == "locations" %}
+      <!-- Watch Options -->
+      <div class="hide-for-small">
+        <a href="#"
+           data-dropdown="drop"
+           class="locations-mycampus button secondary tiny"
+           onclick="_gaq.push(['_trackEvent', 'Location', 'Click', 'My Campus']);">
+           Save as your campus
+        </a>
+      </div>
+      {% endif %}
+
       {% if page.title == "Giving Opportunities" or page.section == "giving" %}
       <!-- Giving Options -->
       <div class="hide-for-small">
