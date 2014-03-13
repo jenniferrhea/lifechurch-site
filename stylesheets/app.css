@@ -8512,27 +8512,25 @@ button.dropdown::before {
   }
 }
 
-/* line 151, ../scss/pages/_about.scss */
-.video-image {
+/*.video-image {
   display: block;
-}
-/* line 154, ../scss/pages/_about.scss */
-.video-image i {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 70px auto 0;
-  font-size: 50px;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-}
-/* line 166, ../scss/pages/_about.scss */
-.video-image:hover i {
-  color: #ddd;
-}
 
+  i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 70px auto 0;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  &:hover i {
+    color: #ddd;
+  }
+}*/
 /* line 174, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
