@@ -14,7 +14,7 @@
           <h6>{{ message.headline }}</h6>
         </div>
         <div class="medium-3 columns medium-text-right play-message">
-          <a href="{{ message.url }}" class="action text-lprimary small">Play <i class="icon icon-play-2"></i></a>
+          <a href="javascript:void(0);" class="action text-lprimary small" data-video-player="{{message.video}}" >Play <i class="icon icon-play-2"></i></a>
         </div>
       </div>
 
@@ -33,3 +33,9 @@
   </div>
 
 </section>
+
+{% for message in series.messages %}
+
+{% include video-player.html id=message.video %}
+
+{% endfor %}
