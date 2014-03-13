@@ -6,26 +6,30 @@ $(function() {
 
   // "More" panel open/close
 
-  if ($('html.js').length > 0) {
+  if ($(window).width() > 640) {
 
-    $('.nav-more').attr('href','#');
+    if ($('html.js').length > 0) {
 
-    // Open the more panel
-    $( ".primary-links" ).delegate( ".nav-more", "click", function() {
-      $(".page-more").fadeIn();
-      $("html").addClass("html-more");
-      $(".page-more-inner").animate({
-        top: '90px'
-      }, 400, function() {
-        // Animation complete.
+      $('.nav-more').attr('href','#');
+
+      // Open the more panel
+      $( ".primary-links" ).delegate( ".nav-more", "click", function() {
+        $(".page-more").fadeIn();
+        $("html").addClass("html-more");
+        $(".page-more-inner").animate({
+          top: '90px'
+        }, 400, function() {
+          // Animation complete.
+        });
+
+        $(this).removeClass("nav-more").addClass("nav-close-more");
+
+        if ($('.header-light').length > 0) {
+          $('body').removeClass('header-light').addClass('header-light-paused');
+        };
       });
 
-      $(this).removeClass("nav-more").addClass("nav-close-more");
-
-      if ($('.header-light').length > 0) {
-        $('body').removeClass('header-light').addClass('header-light-paused');
-      };
-    });
+    }
 
 
     // Close the more panel
