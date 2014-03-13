@@ -5221,15 +5221,15 @@ blockquote.quote-large cite {
 }
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .tweet-this .icon {
-  background-image: url('/images/social/icon-twitter.svg?1394478040');
+  background-image: url('/images/social/icon-twitter.svg?1394555407');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .tweet-this .icon {
-  background-image: url('/images/social/icon-twitter.png?1394478067');
+  background-image: url('/images/social/icon-twitter.png?1394555407');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .tweet-this .icon {
-  background-image: url('/images/social/icon-twitter.png?1394478067');
+  background-image: url('/images/social/icon-twitter.png?1394555407');
 }
 
 /* line 292, ../scss/design/_type.scss */
@@ -6275,36 +6275,6 @@ button.dropdown::before {
   width: 100%;
 }
 
-/* line 3, ../scss/pages/_home.scss */
-.home h1, .home .h1 {
-  width: 100%;
-  height: 59px;
-  margin-top: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  text-indent: -999em;
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .home h1, .svg .home .h1 {
-  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.svg?1393966325');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .home h1, .no-svg .home .h1 {
-  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394548819');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .home h1, .no-js .home .h1 {
-  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394548819');
-}
-/* line 14, ../scss/pages/_home.scss */
-.home .section-first.section-home {
-  background-color: #000;
-  background-image: url("/images/home/home-bg-small.jpg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 656px 557px;
-  height: 600px;
 /* line 1, ../scss/design/_video-player.scss */
 .video-player {
   display: none;
@@ -6316,7 +6286,7 @@ button.dropdown::before {
   width: 100%;
   height: 100%;
   background: #000;
-  z-index: 10;
+  z-index: 12;
 }
 /* line 13, ../scss/design/_video-player.scss */
 .video-player .wistia-flex-video {
@@ -6361,12 +6331,36 @@ button.dropdown::before {
   overflow: hidden;
 }
 
-/* line 1, ../scss/pages/_home.scss */
-.home {
-  background-image: url("/images/home/series-bg.jpg");
-  background-position: center top;
-  background-repeat: repeat-x;
-  background-size: 531px 744px;
+/* line 3, ../scss/pages/_home.scss */
+.home h1, .home .h1 {
+  width: 100%;
+  height: 59px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-indent: -999em;
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .home h1, .svg .home .h1 {
+  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.svg?1394555407');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .home h1, .no-svg .home .h1 {
+  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394555407');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .home h1, .no-js .home .h1 {
+  background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394555407');
+}
+/* line 14, ../scss/pages/_home.scss */
+.home .section-first.section-home {
+  background-color: #000;
+  background-image: url("/images/home/home-bg-small.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 656px 557px;
+  height: 600px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 14, ../scss/pages/_home.scss */

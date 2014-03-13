@@ -205,5 +205,21 @@ $(function() {
     video_player_close();
   });
 
+  //auto play a video based on a hashlink on page load
+  $(window).load(function() {
+    if(window.location.hash != "") {
+      //we have a hash people!
+      var number = parseInt(window.location.hash.substring(1));
+
+      //if this isn't a number, get out of here
+      if(isNaN(number)) {
+        return;
+      }
+
+      $("[data-video-player]:eq(" + number + ")").click();
+
+    }
+  });
+
 
 });
