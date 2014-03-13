@@ -5169,49 +5169,83 @@ blockquote.quote-large cite {
   }
 }
 
-/* line 271, ../scss/design/_type.scss */
+/* line 269, ../scss/design/_type.scss */
+.tweet-this {
+  color: #0ea9d6 !important;
+  font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+/* line 275, ../scss/design/_type.scss */
+.tweet-this:hover {
+  color: #888 !important;
+}
+
+/* line 280, ../scss/design/_type.scss */
+.tweet-this .icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-indent: -999em;
+  width: 20px;
+  height: 14px;
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .tweet-this .icon {
+  background-image: url('/images/social/icon-twitter.svg?1394478040');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .tweet-this .icon {
+  background-image: url('/images/social/icon-twitter.png?1394478067');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .tweet-this .icon {
+  background-image: url('/images/social/icon-twitter.png?1394478067');
+}
+
+/* line 292, ../scss/design/_type.scss */
 a p, a ul li, ul a li {
   color: #333333;
 }
 
-/* line 276, ../scss/design/_type.scss */
+/* line 297, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 282, ../scss/design/_type.scss */
+/* line 303, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 288, ../scss/design/_type.scss */
+/* line 309, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 288, ../scss/design/_type.scss */
+  /* line 309, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 298, ../scss/design/_type.scss */
+/* line 319, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 305, ../scss/design/_type.scss */
+/* line 326, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 310, ../scss/design/_type.scss */
+/* line 331, ../scss/design/_type.scss */
 p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5219,28 +5253,28 @@ p, ul li {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 310, ../scss/design/_type.scss */
+  /* line 331, ../scss/design/_type.scss */
   p, ul li {
     font-size: 1.25rem;
   }
 }
 
-/* line 322, ../scss/design/_type.scss */
+/* line 343, ../scss/design/_type.scss */
 .detail, ul li {
   font-size: 0.9375rem;
 }
 
-/* line 327, ../scss/design/_type.scss */
+/* line 348, ../scss/design/_type.scss */
 ul li {
   margin-bottom: 10px;
 }
 
-/* line 334, ../scss/design/_type.scss */
+/* line 355, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 343, ../scss/design/_type.scss */
+/* line 364, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5249,12 +5283,12 @@ ul li {
   font-weight: 300;
 }
 
-/* line 349, ../scss/design/_type.scss */
+/* line 370, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 355, ../scss/design/_type.scss */
+/* line 376, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2,
@@ -5852,7 +5886,7 @@ html {
 .button {
   font-family: "ff-meta-serif-web-pro";
   font-weight: 300;
-  border: #0b83a6 1px solid;
+  border: #09708e 1px solid;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -6759,72 +6793,27 @@ button.dropdown::before {
   background-size: 1500px 450px;
   background-position: center top;
   background-repeat: no-repeat;
-  padding-top: 130px;
-  padding-bottom: 200px;
   max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -160px;
-  height: 448px;
-}
-@media only screen and (max-width: 40em) {
-  /* line 303, ../scss/pages/_locations.scss */
-  .locations-hero {
-    padding-top: 180px;
-    padding-bottom: 130px;
-  }
-}
-@media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 303, ../scss/pages/_locations.scss */
-  .locations-hero {
-    padding-top: 130px;
-    padding-bottom: 100px;
-  }
-}
-/* line 325, ../scss/pages/_locations.scss */
-.locations-hero h1, .locations-hero .h1 {
-  margin-top: 43px;
 }
 
-/* line 331, ../scss/pages/_locations.scss */
+/* line 311, ../scss/pages/_locations.scss */
 .tiles {
-  margin-top: -111px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 113px;
+  border-bottom: 1px solid #ddd;
+  margin-top: -20px;
 }
 
-/*.section-locations .page-tertiary {
-  border-bottom: 1px solid rgba(0,0,0,.10);
-
-  @media only screen and (max-width: 40em) and (orientation: landscape) {
-    border-bottom: none;
-  }
-
-  // Link style
-  a {
-    color: $body-font-color !important;
-  }
-
-  .button {
-    color: #fff !important;
-  }
-
-  .tertiary-nav a:before {
-    color: rgba(0,0,0,.2);
-  }
-}*/
-/* line 361, ../scss/pages/_locations.scss */
+/* line 318, ../scss/pages/_locations.scss */
 .location-tile {
   text-align: center;
   padding: 35px 0;
   display: block;
-  color: #fff;
   width: 33.3%;
   float: left;
   height: 100px;
-  border-right: 1px solid #fff;
-  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  background: #eee;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -6837,155 +6826,88 @@ button.dropdown::before {
   position: relative;
   z-index: 2;
 }
-/* line 379, ../scss/pages/_locations.scss */
+/* line 336, ../scss/pages/_locations.scss */
 .location-tile span {
   position: relative;
   z-index: 2;
 }
-/* line 385, ../scss/pages/_locations.scss */
+/* line 342, ../scss/pages/_locations.scss */
 .location-tile:hover {
-  color: #fff;
-}
-/* line 388, ../scss/pages/_locations.scss */
-.location-tile:after {
-  content: "";
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(60%, rgba(255, 255, 255, 0.2)));
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 60%);
-  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 60%);
-  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 60%);
-  background-image: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 60%);
-  display: block;
-  height: 100px;
-  width: 70px;
-  top: 0;
-  opacity: 0;
-  position: absolute;
-  width: 100%;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-/* line 404, ../scss/pages/_locations.scss */
-.location-tile.tile-active:after, .location-tile:hover:after {
-  opacity: 1;
+  color: #333333;
+  background: #ddd;
 }
 
-/* line 410, ../scss/pages/_locations.scss */
-.tile-1 {
-  border-left: 1px solid #fff;
-  border-top: 1px solid #fff;
-}
-
-/* line 416, ../scss/pages/_locations.scss */
-.tile-2 {
-  border-top: 1px solid #fff;
-}
-
-/* line 421, ../scss/pages/_locations.scss */
-.tile-3 {
-  border-top: 1px solid #fff;
-  border-right: 1px solid #fff;
-}
-
-/* line 427, ../scss/pages/_locations.scss */
+/* line 349, ../scss/pages/_locations.scss */
 .tile-active {
-  border-bottom: 0;
-  background: #fdfdfd !important;
-  height: 100px;
-  opacity: 1;
-  color: #333333;
-}
-/* line 434, ../scss/pages/_locations.scss */
-.tile-active:hover {
-  color: #333333;
+  background: #ddd !important;
 }
 
-/* line 440, ../scss/pages/_locations.scss */
-.location-content-wrapper {
-  position: relative;
-  float: left;
-  width: 100%;
-}
-
-/* line 447, ../scss/pages/_locations.scss */
+/* line 354, ../scss/pages/_locations.scss */
 .location-content {
   float: left;
   width: 99.8%;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
-  position: absolute;
   margin-bottom: 40px;
 }
 
-/* line 457, ../scss/pages/_locations.scss */
+/* line 363, ../scss/pages/_locations.scss */
 .content-active {
   z-index: 1;
   position: relative;
 }
 
-/* line 463, ../scss/pages/_locations.scss */
-.content-2 {
-  background: #fdfdfd;
-}
-
-/* line 468, ../scss/pages/_locations.scss */
-.content-3 {
-  background: #fdfdfd;
-}
-
-/* line 474, ../scss/pages/_locations.scss */
+/* line 370, ../scss/pages/_locations.scss */
 .content-1 {
   background-color: #fff;
   background-size: 1196px 398px;
   background-position: left top;
   background-repeat: no-repeat;
-  height: 278px;
+  height: 170px;
   border: 1px solid #ddd;
 }
 @media only screen and (max-width: 40em) {
-  /* line 474, ../scss/pages/_locations.scss */
+  /* line 370, ../scss/pages/_locations.scss */
   .content-1 {
     background-size: 800px auto;
     background-position: 0 -40px;
+    margin-bottom: 150px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 474, ../scss/pages/_locations.scss */
+  /* line 370, ../scss/pages/_locations.scss */
   .content-1 {
     height: 400px;
     margin-top: 40px;
   }
 }
-/* line 492, ../scss/pages/_locations.scss */
+/* line 389, ../scss/pages/_locations.scss */
 .content-1 .pin {
   top: 70px;
   left: 70px;
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 492, ../scss/pages/_locations.scss */
+  /* line 389, ../scss/pages/_locations.scss */
   .content-1 .pin {
     top: 180px;
     left: 110px;
   }
 }
-/* line 503, ../scss/pages/_locations.scss */
+/* line 400, ../scss/pages/_locations.scss */
 .content-1 .address {
-  background: #333333;
-  color: #fff;
-  padding: 15px;
+  background: #fff;
+  color: #333333;
+  padding: 15px 0;
   width: 100%;
-  top: 150px;
+  top: 172px;
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 503, ../scss/pages/_locations.scss */
+  /* line 400, ../scss/pages/_locations.scss */
   .content-1 .address {
+    padding: 15px;
+    color: #fff;
     width: 250px;
     top: 165px;
     left: 160px;
@@ -6996,7 +6918,11 @@ button.dropdown::before {
     -o-border-radius: 6px;
     border-radius: 6px;
   }
-  /* line 518, ../scss/pages/_locations.scss */
+  /* line 417, ../scss/pages/_locations.scss */
+  .content-1 .address a {
+    color: #86def7;
+  }
+  /* line 421, ../scss/pages/_locations.scss */
   .content-1 .address:after {
     content: "";
     display: block;
@@ -7011,11 +6937,11 @@ button.dropdown::before {
   }
 }
 
-/* line 542, ../scss/pages/_locations.scss */
+/* line 445, ../scss/pages/_locations.scss */
 .calendar-key a {
   float: left;
 }
-/* line 546, ../scss/pages/_locations.scss */
+/* line 449, ../scss/pages/_locations.scss */
 .calendar-key figure {
   width: 20px;
   height: 20px;
@@ -7027,72 +6953,72 @@ button.dropdown::before {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 554, ../scss/pages/_locations.scss */
+/* line 457, ../scss/pages/_locations.scss */
 .calendar-key.key-lifechurch figure {
   background: #e98f93;
   border: 1px solid #e0646b;
 }
-/* line 559, ../scss/pages/_locations.scss */
+/* line 462, ../scss/pages/_locations.scss */
 .calendar-key.key-switch figure {
   background: #0ea9d6;
   border: 1px solid #0b83a6;
 }
-/* line 564, ../scss/pages/_locations.scss */
+/* line 467, ../scss/pages/_locations.scss */
 .calendar-key.key-konnect figure {
   background: #69d166;
   border: 1px solid #43c53f;
 }
 
-/* line 576, ../scss/pages/_locations.scss */
+/* line 479, ../scss/pages/_locations.scss */
 .times {
   list-style: none;
   margin-left: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 582, ../scss/pages/_locations.scss */
+  /* line 485, ../scss/pages/_locations.scss */
   .days-times {
     border: 1px solid #bbb;
     background: #fff;
     position: relative;
     width: 100%;
   }
-  /* line 588, ../scss/pages/_locations.scss */
+  /* line 491, ../scss/pages/_locations.scss */
   .days-times h4, .days-times .h4, .days-times .location-tile, .days-times .lifegroups-tile span, .lifegroups-tile .days-times span {
     display: none;
   }
-  /* line 593, ../scss/pages/_locations.scss */
+  /* line 496, ../scss/pages/_locations.scss */
   .days-times .day {
     height: 40px;
     width: 100%;
     background: #fff;
   }
-  /* line 598, ../scss/pages/_locations.scss */
+  /* line 501, ../scss/pages/_locations.scss */
   .days-times .day:nth-child(even) {
     background: #f9f9f9 !important;
   }
-  /* line 604, ../scss/pages/_locations.scss */
+  /* line 507, ../scss/pages/_locations.scss */
   .days-times .times {
     padding: 0;
     margin: 0;
     position: relative;
   }
-  /* line 610, ../scss/pages/_locations.scss */
+  /* line 513, ../scss/pages/_locations.scss */
   .days-times .times label {
     margin-left: 10px;
   }
-  /* line 616, ../scss/pages/_locations.scss */
+  /* line 519, ../scss/pages/_locations.scss */
   .days-times .time {
     height: 40px;
     width: 5%;
     position: absolute;
     overflow: hidden;
   }
-  /* line 622, ../scss/pages/_locations.scss */
+  /* line 525, ../scss/pages/_locations.scss */
   .days-times .time label span {
     display: none;
   }
-  /* line 626, ../scss/pages/_locations.scss */
+  /* line 529, ../scss/pages/_locations.scss */
   .days-times .time .time-box {
     display: block;
     width: 100%;
@@ -7107,201 +7033,201 @@ button.dropdown::before {
     border: 1px solid #999;
     font-size: 0.6875rem;
   }
-  /* line 638, ../scss/pages/_locations.scss */
+  /* line 541, ../scss/pages/_locations.scss */
   .days-times .time .time-box .time-box-time-label,
   .days-times .time .time-box .time-box-duration,
   .days-times .time .time-box .time-box-duration-label {
     display: none;
   }
-  /* line 642, ../scss/pages/_locations.scss */
+  /* line 545, ../scss/pages/_locations.scss */
   .days-times .time .time-box .time-box-time {
     margin: 0px 0 0 4px;
   }
-  /* line 647, ../scss/pages/_locations.scss */
+  /* line 550, ../scss/pages/_locations.scss */
   .days-times .time.type-lifechurch .time-box {
     background: #e98f93;
     border: 1px solid #e0646b;
     color: #b9252d;
   }
-  /* line 653, ../scss/pages/_locations.scss */
+  /* line 556, ../scss/pages/_locations.scss */
   .days-times .time.type-switch .time-box {
     background: #0ea9d6;
     border: 1px solid #0b83a6;
     color: #085d76;
   }
-  /* line 659, ../scss/pages/_locations.scss */
+  /* line 562, ../scss/pages/_locations.scss */
   .days-times .time.type-konnect .time-box {
     background: #69d166;
     border: 1px solid #43c53f;
     color: #1a5219;
   }
-  /* line 666, ../scss/pages/_locations.scss */
+  /* line 569, ../scss/pages/_locations.scss */
   .days-times .time-07-00 {
     left: 20%;
   }
-  /* line 667, ../scss/pages/_locations.scss */
+  /* line 570, ../scss/pages/_locations.scss */
   .days-times .time-07-30 {
     left: 22.5%;
   }
-  /* line 668, ../scss/pages/_locations.scss */
+  /* line 571, ../scss/pages/_locations.scss */
   .days-times .time-08-00 {
     left: 25%;
   }
-  /* line 669, ../scss/pages/_locations.scss */
+  /* line 572, ../scss/pages/_locations.scss */
   .days-times .time-08-30 {
     left: 27.5%;
   }
-  /* line 670, ../scss/pages/_locations.scss */
+  /* line 573, ../scss/pages/_locations.scss */
   .days-times .time-09-00 {
     left: 30%;
   }
-  /* line 671, ../scss/pages/_locations.scss */
+  /* line 574, ../scss/pages/_locations.scss */
   .days-times .time-09-30 {
     left: 32.5%;
   }
-  /* line 672, ../scss/pages/_locations.scss */
+  /* line 575, ../scss/pages/_locations.scss */
   .days-times .time-10-00 {
     left: 35%;
   }
-  /* line 673, ../scss/pages/_locations.scss */
+  /* line 576, ../scss/pages/_locations.scss */
   .days-times .time-10-30 {
     left: 37.5%;
   }
-  /* line 674, ../scss/pages/_locations.scss */
+  /* line 577, ../scss/pages/_locations.scss */
   .days-times .time-11-00 {
     left: 40%;
   }
-  /* line 675, ../scss/pages/_locations.scss */
+  /* line 578, ../scss/pages/_locations.scss */
   .days-times .time-11-30 {
     left: 42.5%;
   }
-  /* line 676, ../scss/pages/_locations.scss */
+  /* line 579, ../scss/pages/_locations.scss */
   .days-times .time-12-00 {
     left: 45%;
   }
-  /* line 677, ../scss/pages/_locations.scss */
+  /* line 580, ../scss/pages/_locations.scss */
   .days-times .time-12-30 {
     left: 47.5%;
   }
-  /* line 678, ../scss/pages/_locations.scss */
+  /* line 581, ../scss/pages/_locations.scss */
   .days-times .time-13-00 {
     left: 50%;
   }
-  /* line 679, ../scss/pages/_locations.scss */
+  /* line 582, ../scss/pages/_locations.scss */
   .days-times .time-13-30 {
     left: 52.5%;
   }
-  /* line 680, ../scss/pages/_locations.scss */
+  /* line 583, ../scss/pages/_locations.scss */
   .days-times .time-14-00 {
     left: 55%;
   }
-  /* line 681, ../scss/pages/_locations.scss */
+  /* line 584, ../scss/pages/_locations.scss */
   .days-times .time-14-30 {
     left: 57.5%;
   }
-  /* line 682, ../scss/pages/_locations.scss */
+  /* line 585, ../scss/pages/_locations.scss */
   .days-times .time-15-00 {
     left: 60%;
   }
-  /* line 683, ../scss/pages/_locations.scss */
+  /* line 586, ../scss/pages/_locations.scss */
   .days-times .time-15-30 {
     left: 62.5%;
   }
-  /* line 684, ../scss/pages/_locations.scss */
+  /* line 587, ../scss/pages/_locations.scss */
   .days-times .time-16-00 {
     left: 65%;
   }
-  /* line 685, ../scss/pages/_locations.scss */
+  /* line 588, ../scss/pages/_locations.scss */
   .days-times .time-16-30 {
     left: 67.5%;
   }
-  /* line 686, ../scss/pages/_locations.scss */
+  /* line 589, ../scss/pages/_locations.scss */
   .days-times .time-17-00 {
     left: 70%;
   }
-  /* line 687, ../scss/pages/_locations.scss */
+  /* line 590, ../scss/pages/_locations.scss */
   .days-times .time-17-30 {
     left: 72.5%;
   }
-  /* line 688, ../scss/pages/_locations.scss */
+  /* line 591, ../scss/pages/_locations.scss */
   .days-times .time-18-00 {
     left: 75%;
   }
-  /* line 689, ../scss/pages/_locations.scss */
+  /* line 592, ../scss/pages/_locations.scss */
   .days-times .time-18-30 {
     left: 77.5%;
   }
-  /* line 690, ../scss/pages/_locations.scss */
+  /* line 593, ../scss/pages/_locations.scss */
   .days-times .time-19-00 {
     left: 80%;
   }
-  /* line 691, ../scss/pages/_locations.scss */
+  /* line 594, ../scss/pages/_locations.scss */
   .days-times .time-19-30 {
     left: 82.5%;
   }
-  /* line 692, ../scss/pages/_locations.scss */
+  /* line 595, ../scss/pages/_locations.scss */
   .days-times .time-20-00 {
     left: 85%;
   }
-  /* line 693, ../scss/pages/_locations.scss */
+  /* line 596, ../scss/pages/_locations.scss */
   .days-times .time-20-30 {
     left: 87.5%;
   }
-  /* line 694, ../scss/pages/_locations.scss */
+  /* line 597, ../scss/pages/_locations.scss */
   .days-times .time-21-00 {
     left: 90%;
   }
-  /* line 695, ../scss/pages/_locations.scss */
+  /* line 598, ../scss/pages/_locations.scss */
   .days-times .time-21-30 {
     left: 92.5%;
   }
-  /* line 696, ../scss/pages/_locations.scss */
+  /* line 599, ../scss/pages/_locations.scss */
   .days-times .time-22-00 {
     left: 95%;
   }
-  /* line 698, ../scss/pages/_locations.scss */
+  /* line 601, ../scss/pages/_locations.scss */
   .days-times .overlap {
     margin-top: 40px;
   }
-  /* line 702, ../scss/pages/_locations.scss */
+  /* line 605, ../scss/pages/_locations.scss */
   .days-times .overlap-2 {
     margin-top: 80px;
   }
-  /* line 706, ../scss/pages/_locations.scss */
+  /* line 609, ../scss/pages/_locations.scss */
   .days-times .rows-2 {
     height: 80px;
   }
-  /* line 710, ../scss/pages/_locations.scss */
+  /* line 613, ../scss/pages/_locations.scss */
   .days-times .rows-3 {
     height: 120px;
   }
-  /* line 715, ../scss/pages/_locations.scss */
+  /* line 618, ../scss/pages/_locations.scss */
   .days-times .duration-60 {
     width: 5%;
   }
-  /* line 720, ../scss/pages/_locations.scss */
+  /* line 623, ../scss/pages/_locations.scss */
   .days-times .duration-120 {
     width: 10%;
   }
-  /* line 725, ../scss/pages/_locations.scss */
+  /* line 628, ../scss/pages/_locations.scss */
   .days-times .duration-180 {
     width: 15%;
   }
-  /* line 730, ../scss/pages/_locations.scss */
+  /* line 633, ../scss/pages/_locations.scss */
   .days-times .duration-240 {
     width: 20%;
   }
-  /* line 734, ../scss/pages/_locations.scss */
+  /* line 637, ../scss/pages/_locations.scss */
   .days-times .time-lines .time {
     height: 100%;
   }
-  /* line 737, ../scss/pages/_locations.scss */
+  /* line 640, ../scss/pages/_locations.scss */
   .days-times .time-lines .time .time-line {
     margin-top: 40px;
     border-left: 1px solid #ccc;
     height: 100%;
   }
-  /* line 743, ../scss/pages/_locations.scss */
+  /* line 646, ../scss/pages/_locations.scss */
   .days-times .time-lines .time label {
     margin: 0;
     width: 100%;
@@ -7313,411 +7239,404 @@ button.dropdown::before {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 760, ../scss/pages/_locations.scss */
+  /* line 663, ../scss/pages/_locations.scss */
   .days-times .time label span {
     display: inline;
   }
 }
-/* line 769, ../scss/pages/_locations.scss */
+/* line 672, ../scss/pages/_locations.scss */
 .location-alb .locations-hero {
   background-image: url("/locations/assets/campus/alb-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 769, ../scss/pages/_locations.scss */
+  /* line 672, ../scss/pages/_locations.scss */
   .location-alb .locations-hero {
     background-image: url("/locations/assets/campus/alb-bg@2x.jpg");
   }
 }
 
-/* line 770, ../scss/pages/_locations.scss */
+/* line 673, ../scss/pages/_locations.scss */
 .location-bao .locations-hero {
   background-image: url("/locations/assets/campus/bao-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 770, ../scss/pages/_locations.scss */
+  /* line 673, ../scss/pages/_locations.scss */
   .location-bao .locations-hero {
     background-image: url("/locations/assets/campus/bao-bg@2x.jpg");
   }
 }
 
-/* line 771, ../scss/pages/_locations.scss */
+/* line 674, ../scss/pages/_locations.scss */
 .location-edm .locations-hero {
   background-image: url("/locations/assets/campus/edm-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 771, ../scss/pages/_locations.scss */
+  /* line 674, ../scss/pages/_locations.scss */
   .location-edm .locations-hero {
     background-image: url("/locations/assets/campus/edm-bg@2x.jpg");
   }
 }
 
-/* line 772, ../scss/pages/_locations.scss */
+/* line 675, ../scss/pages/_locations.scss */
 .location-ftw .locations-hero {
   background-image: url("/locations/assets/campus/ftw-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 772, ../scss/pages/_locations.scss */
+  /* line 675, ../scss/pages/_locations.scss */
   .location-ftw .locations-hero {
     background-image: url("/locations/assets/campus/ftw-bg@2x.jpg");
   }
 }
 
-/* line 773, ../scss/pages/_locations.scss */
+/* line 676, ../scss/pages/_locations.scss */
 .location-hnv .locations-hero {
   background-image: url("/locations/assets/campus/hnv-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 773, ../scss/pages/_locations.scss */
+  /* line 676, ../scss/pages/_locations.scss */
   .location-hnv .locations-hero {
     background-image: url("/locations/assets/campus/hnv-bg@2x.jpg");
   }
 }
 
-/* line 774, ../scss/pages/_locations.scss */
+/* line 677, ../scss/pages/_locations.scss */
 .location-jnk .locations-hero {
   background-image: url("/locations/assets/campus/jnk-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 774, ../scss/pages/_locations.scss */
+  /* line 677, ../scss/pages/_locations.scss */
   .location-jnk .locations-hero {
     background-image: url("/locations/assets/campus/jnk-bg@2x.jpg");
   }
 }
 
-/* line 775, ../scss/pages/_locations.scss */
+/* line 678, ../scss/pages/_locations.scss */
 .location-mor .locations-hero {
   background-image: url("/locations/assets/campus/mor-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 775, ../scss/pages/_locations.scss */
+  /* line 678, ../scss/pages/_locations.scss */
   .location-mor .locations-hero {
     background-image: url("/locations/assets/campus/mor-bg@2x.jpg");
   }
 }
 
-/* line 776, ../scss/pages/_locations.scss */
+/* line 679, ../scss/pages/_locations.scss */
 .location-mwc .locations-hero {
   background-image: url("/locations/assets/campus/mwc-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 776, ../scss/pages/_locations.scss */
+  /* line 679, ../scss/pages/_locations.scss */
   .location-mwc .locations-hero {
     background-image: url("/locations/assets/campus/mwc-bg@2x.jpg");
   }
 }
 
-/* line 777, ../scss/pages/_locations.scss */
+/* line 680, ../scss/pages/_locations.scss */
 .location-noc .locations-hero {
   background-image: url("/locations/assets/campus/noc-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 777, ../scss/pages/_locations.scss */
+  /* line 680, ../scss/pages/_locations.scss */
   .location-noc .locations-hero {
     background-image: url("/locations/assets/campus/noc-bg@2x.jpg");
   }
 }
 
-/* line 778, ../scss/pages/_locations.scss */
+/* line 681, ../scss/pages/_locations.scss */
 .location-okc .locations-hero {
   background-image: url("/locations/assets/campus/okc-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 778, ../scss/pages/_locations.scss */
+  /* line 681, ../scss/pages/_locations.scss */
   .location-okc .locations-hero {
     background-image: url("/locations/assets/campus/okc-bg@2x.jpg");
   }
 }
 
-/* line 779, ../scss/pages/_locations.scss */
+/* line 682, ../scss/pages/_locations.scss */
 .location-ows .locations-hero {
   background-image: url("/locations/assets/campus/ows-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 779, ../scss/pages/_locations.scss */
+  /* line 682, ../scss/pages/_locations.scss */
   .location-ows .locations-hero {
     background-image: url("/locations/assets/campus/ows-bg@2x.jpg");
   }
 }
 
-/* line 780, ../scss/pages/_locations.scss */
+/* line 683, ../scss/pages/_locations.scss */
 .location-soc .locations-hero {
   background-image: url("/locations/assets/campus/soc-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 780, ../scss/pages/_locations.scss */
+  /* line 683, ../scss/pages/_locations.scss */
   .location-soc .locations-hero {
     background-image: url("/locations/assets/campus/soc-bg@2x.jpg");
   }
 }
 
-/* line 781, ../scss/pages/_locations.scss */
+/* line 684, ../scss/pages/_locations.scss */
 .location-stu .locations-hero {
   background-image: url("/locations/assets/campus/stu-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 781, ../scss/pages/_locations.scss */
+  /* line 684, ../scss/pages/_locations.scss */
   .location-stu .locations-hero {
     background-image: url("/locations/assets/campus/stu-bg@2x.jpg");
   }
 }
 
-/* line 782, ../scss/pages/_locations.scss */
+/* line 685, ../scss/pages/_locations.scss */
 .location-stw .locations-hero {
   background-image: url("/locations/assets/campus/stw-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 782, ../scss/pages/_locations.scss */
+  /* line 685, ../scss/pages/_locations.scss */
   .location-stw .locations-hero {
     background-image: url("/locations/assets/campus/stw-bg@2x.jpg");
   }
 }
 
-/* line 783, ../scss/pages/_locations.scss */
+/* line 686, ../scss/pages/_locations.scss */
 .location-tul .locations-hero {
   background-image: url("/locations/assets/campus/tul-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 783, ../scss/pages/_locations.scss */
+  /* line 686, ../scss/pages/_locations.scss */
   .location-tul .locations-hero {
     background-image: url("/locations/assets/campus/tul-bg@2x.jpg");
   }
 }
 
-/* line 784, ../scss/pages/_locations.scss */
+/* line 687, ../scss/pages/_locations.scss */
 .location-wel .locations-hero {
   background-image: url("/locations/assets/campus/wel-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 784, ../scss/pages/_locations.scss */
+  /* line 687, ../scss/pages/_locations.scss */
   .location-wel .locations-hero {
     background-image: url("/locations/assets/campus/wel-bg@2x.jpg");
   }
 }
 
-/* line 785, ../scss/pages/_locations.scss */
+/* line 688, ../scss/pages/_locations.scss */
 .location-ykn .locations-hero {
   background-image: url("/locations/assets/campus/ykn-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 785, ../scss/pages/_locations.scss */
+  /* line 688, ../scss/pages/_locations.scss */
   .location-ykn .locations-hero {
     background-image: url("/locations/assets/campus/ykn-bg@2x.jpg");
   }
 }
 
-/* line 787, ../scss/pages/_locations.scss */
-.header-light.section-locations h1, .header-light.section-locations .h1 {
-  color: #fff;
-}
-
-/* line 796, ../scss/pages/_locations.scss */
-.location-bao h1, .location-bao .h1,
+/*.location-bao h1,
 .location-jnk h1,
-.location-jnk .h1,
 .location-mwc h1,
-.location-mwc .h1,
 .location-soc h1,
-.location-soc .h1,
 .location-stu h1,
-.location-stu .h1,
-.location-tul h1,
-.location-tul .h1 {
+.location-tul h1  {
   text-align: right;
+}*/
+/* line 699, ../scss/pages/_locations.scss */
+.section-locations h1, .section-locations .h1 {
+  text-align: center;
 }
 
-/* line 801, ../scss/pages/_locations.scss */
+/* line 704, ../scss/pages/_locations.scss */
 .location-alb .content-1 {
   background-image: url("/locations/assets/campus/alb-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 801, ../scss/pages/_locations.scss */
+  /* line 704, ../scss/pages/_locations.scss */
   .location-alb .content-1 {
     background-image: url("/locations/assets/campus/alb-map@2x.png");
   }
 }
 
-/* line 802, ../scss/pages/_locations.scss */
+/* line 705, ../scss/pages/_locations.scss */
 .location-bao .content-1 {
   background-image: url("/locations/assets/campus/bao-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 802, ../scss/pages/_locations.scss */
+  /* line 705, ../scss/pages/_locations.scss */
   .location-bao .content-1 {
     background-image: url("/locations/assets/campus/bao-map@2x.png");
   }
 }
 
-/* line 803, ../scss/pages/_locations.scss */
+/* line 706, ../scss/pages/_locations.scss */
 .location-edm .content-1 {
   background-image: url("/locations/assets/campus/edm-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 803, ../scss/pages/_locations.scss */
+  /* line 706, ../scss/pages/_locations.scss */
   .location-edm .content-1 {
     background-image: url("/locations/assets/campus/edm-map@2x.png");
   }
 }
 
-/* line 804, ../scss/pages/_locations.scss */
+/* line 707, ../scss/pages/_locations.scss */
 .location-ftw .content-1 {
   background-image: url("/locations/assets/campus/ftw-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 804, ../scss/pages/_locations.scss */
+  /* line 707, ../scss/pages/_locations.scss */
   .location-ftw .content-1 {
     background-image: url("/locations/assets/campus/ftw-map@2x.png");
   }
 }
 
-/* line 805, ../scss/pages/_locations.scss */
+/* line 708, ../scss/pages/_locations.scss */
 .location-hnv .content-1 {
   background-image: url("/locations/assets/campus/hnv-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 805, ../scss/pages/_locations.scss */
+  /* line 708, ../scss/pages/_locations.scss */
   .location-hnv .content-1 {
     background-image: url("/locations/assets/campus/hnv-map@2x.png");
   }
 }
 
-/* line 806, ../scss/pages/_locations.scss */
+/* line 709, ../scss/pages/_locations.scss */
 .location-jnk .content-1 {
   background-image: url("/locations/assets/campus/jnk-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 806, ../scss/pages/_locations.scss */
+  /* line 709, ../scss/pages/_locations.scss */
   .location-jnk .content-1 {
     background-image: url("/locations/assets/campus/jnk-map@2x.png");
   }
 }
 
-/* line 807, ../scss/pages/_locations.scss */
+/* line 710, ../scss/pages/_locations.scss */
 .location-klr .content-1 {
   background-image: url("/locations/assets/campus/klr-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 807, ../scss/pages/_locations.scss */
+  /* line 710, ../scss/pages/_locations.scss */
   .location-klr .content-1 {
     background-image: url("/locations/assets/campus/klr-map@2x.png");
   }
 }
 
-/* line 808, ../scss/pages/_locations.scss */
+/* line 711, ../scss/pages/_locations.scss */
 .location-mor .content-1 {
   background-image: url("/locations/assets/campus/mor-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 808, ../scss/pages/_locations.scss */
+  /* line 711, ../scss/pages/_locations.scss */
   .location-mor .content-1 {
     background-image: url("/locations/assets/campus/mor-map@2x.png");
   }
 }
 
-/* line 809, ../scss/pages/_locations.scss */
+/* line 712, ../scss/pages/_locations.scss */
 .location-mwc .content-1 {
   background-image: url("/locations/assets/campus/mwc-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 809, ../scss/pages/_locations.scss */
+  /* line 712, ../scss/pages/_locations.scss */
   .location-mwc .content-1 {
     background-image: url("/locations/assets/campus/mwc-map@2x.png");
   }
 }
 
-/* line 810, ../scss/pages/_locations.scss */
+/* line 713, ../scss/pages/_locations.scss */
 .location-noc .content-1 {
   background-image: url("/locations/assets/campus/noc-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 810, ../scss/pages/_locations.scss */
+  /* line 713, ../scss/pages/_locations.scss */
   .location-noc .content-1 {
     background-image: url("/locations/assets/campus/noc-map@2x.png");
   }
 }
 
-/* line 811, ../scss/pages/_locations.scss */
+/* line 714, ../scss/pages/_locations.scss */
 .location-okc .content-1 {
   background-image: url("/locations/assets/campus/okc-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 811, ../scss/pages/_locations.scss */
+  /* line 714, ../scss/pages/_locations.scss */
   .location-okc .content-1 {
     background-image: url("/locations/assets/campus/okc-map@2x.png");
   }
 }
 
-/* line 812, ../scss/pages/_locations.scss */
+/* line 715, ../scss/pages/_locations.scss */
 .location-ows .content-1 {
   background-image: url("/locations/assets/campus/ows-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 812, ../scss/pages/_locations.scss */
+  /* line 715, ../scss/pages/_locations.scss */
   .location-ows .content-1 {
     background-image: url("/locations/assets/campus/ows-map@2x.png");
   }
 }
 
-/* line 813, ../scss/pages/_locations.scss */
+/* line 716, ../scss/pages/_locations.scss */
 .location-soc .content-1 {
   background-image: url("/locations/assets/campus/soc-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 813, ../scss/pages/_locations.scss */
+  /* line 716, ../scss/pages/_locations.scss */
   .location-soc .content-1 {
     background-image: url("/locations/assets/campus/soc-map@2x.png");
   }
 }
 
-/* line 814, ../scss/pages/_locations.scss */
+/* line 717, ../scss/pages/_locations.scss */
 .location-stu .content-1 {
   background-image: url("/locations/assets/campus/stu-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 814, ../scss/pages/_locations.scss */
+  /* line 717, ../scss/pages/_locations.scss */
   .location-stu .content-1 {
     background-image: url("/locations/assets/campus/stu-map@2x.png");
   }
 }
 
-/* line 815, ../scss/pages/_locations.scss */
+/* line 718, ../scss/pages/_locations.scss */
 .location-stw .content-1 {
   background-image: url("/locations/assets/campus/stw-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 815, ../scss/pages/_locations.scss */
+  /* line 718, ../scss/pages/_locations.scss */
   .location-stw .content-1 {
     background-image: url("/locations/assets/campus/stw-map@2x.png");
   }
 }
 
-/* line 816, ../scss/pages/_locations.scss */
+/* line 719, ../scss/pages/_locations.scss */
 .location-tul .content-1 {
   background-image: url("/locations/assets/campus/tul-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 816, ../scss/pages/_locations.scss */
+  /* line 719, ../scss/pages/_locations.scss */
   .location-tul .content-1 {
     background-image: url("/locations/assets/campus/tul-map@2x.png");
   }
 }
 
-/* line 817, ../scss/pages/_locations.scss */
+/* line 720, ../scss/pages/_locations.scss */
 .location-wel .content-1 {
   background-image: url("/locations/assets/campus/wel-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 817, ../scss/pages/_locations.scss */
+  /* line 720, ../scss/pages/_locations.scss */
   .location-wel .content-1 {
     background-image: url("/locations/assets/campus/wel-map@2x.png");
   }
 }
 
-/* line 818, ../scss/pages/_locations.scss */
+/* line 721, ../scss/pages/_locations.scss */
 .location-ykn .content-1 {
   background-image: url("/locations/assets/campus/ykn-map.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 818, ../scss/pages/_locations.scss */
+  /* line 721, ../scss/pages/_locations.scss */
   .location-ykn .content-1 {
     background-image: url("/locations/assets/campus/ykn-map@2x.png");
   }
@@ -8575,7 +8494,7 @@ button.dropdown::before {
   }
 }
 
-/* line 131, ../scss/pages/_about.scss */
+/* line 132, ../scss/pages/_about.scss */
 .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
   margin-top: 10px;
 }
@@ -8585,14 +8504,36 @@ button.dropdown::before {
     background: url("/images/about/about-jobs.jpg") bottom center no-repeat;
     background-size: 1095px auto;
     height: 570px;
+    border-bottom: 1px solid #ccc;
   }
-  /* line 137, ../scss/pages/_about.scss */
+  /* line 142, ../scss/pages/_about.scss */
   .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
     margin-top: 160px;
   }
 }
 
-/* line 146, ../scss/pages/_about.scss */
+/* line 151, ../scss/pages/_about.scss */
+.video-image {
+  display: block;
+}
+/* line 154, ../scss/pages/_about.scss */
+.video-image i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 70px auto 0;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+/* line 166, ../scss/pages/_about.scss */
+.video-image:hover i {
+  color: #ddd;
+}
+
+/* line 174, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
 }

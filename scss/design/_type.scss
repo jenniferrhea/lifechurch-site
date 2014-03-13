@@ -266,6 +266,27 @@ body {
     }
   }
 
+  .tweet-this {
+    color: $primary-color !important;
+    font-family: $body-font-family;
+    font-style: italic;
+    font-size: rem-calc(20);
+
+    &:hover {
+      color: #888 !important;
+    }
+  }
+
+  .tweet-this .icon {
+    display: inline-block;
+    @include svg-image('/images/social/icon-twitter');
+    background-repeat: no-repeat;
+    background-position: left;
+    text-indent: -999em;
+    width: 20px;
+    height: 14px;
+  }
+
 
 // Paragraphs within a hyperlink (rather the other way around) don't get active color
 a p {

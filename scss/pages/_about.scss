@@ -128,15 +128,43 @@
 
   // Feature image
   .section-jobs-top {
-    h1 { margin-top: 10px; }
+
+    h1 {
+      margin-top: 10px;
+    }
 
     @media #{$medium-up} {
       background: url('/images/about/about-jobs.jpg') bottom center no-repeat;
       background-size: 1095px auto;
       height: 570px;
-      h1 { margin-top: 160px; }
+      border-bottom: 1px solid #ccc;
+
+      h1 {
+        margin-top: 160px;
+      }
     }
-    
+
+  }
+}
+
+
+.video-image {
+  display: block;
+
+  i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 70px auto 0;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  &:hover i {
+    color: #ddd;
   }
 }
 

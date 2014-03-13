@@ -130,50 +130,6 @@ $(function() {
 
   // Locations Page Tiles
 
-  $('.location-content.content-2, .location-content.content-3').hide();
-
-  $( ".tiles" ).delegate( ".location-tile.tile-1", "click", function() {
-    if (!$('.tile-1').hasClass('tile-active')) {
-      if ($(window).width() > 960) {
-        // Animate the pin & address in
-        $(".content-1 .pin").animate({ opacity: 0, top: '-=30' }, 0);
-        $(".content-1 .address").animate({ opacity: 0, left: '-=10' }, 0);
-        $(".content-1 .pin").delay(150).animate({ opacity: 1, top: '+=30' }, 250);
-        $(".content-1 .address").delay(400).animate({ opacity: 1, left: '+=10' }, 200);
-      } else {
-        $(".content-1 .address").animate({ opacity: 1 }, 0);
-      }
-
-      // Fade the correct content in, and the rest out
-      $(".location-content.content-1").fadeIn(250).addClass('content-active');
-      $(".location-content.content-2, .location-content.content-3").delay(250).fadeOut(250).removeClass('content-active');
-      $(".tile-1").addClass('tile-active');
-      $(".tile-2, .tile-3").removeClass('tile-active');
-    }
-    return false;
-  });
-  $( ".tiles" ).delegate( ".location-tile.tile-2", "click", function() {
-    if (!$('.tile-2').hasClass('tile-active')) {
-      // Animate the calendar entries in
-
-      // Fade the correct content in, and the rest out
-      $(".location-content.content-2").fadeIn(250).addClass('content-active');
-      $(".location-content.content-1, .location-content.content-3").delay(250).fadeOut(250).removeClass('content-active');
-      $(".tile-2").addClass('tile-active');
-      $(".tile-1, .tile-3").removeClass('tile-active');
-    }
-    return false;
-  });
-  $( ".tiles" ).delegate( ".location-tile.tile-3", "click", function() {
-    if (!$('.tile-3').hasClass('tile-active')) {
-      $(".location-content.content-3").fadeIn(250).addClass('content-active');
-      $(".location-content.content-1, .location-content.content-2").delay(250).fadeOut(250).removeClass('content-active');
-      $(".tile-3").addClass('tile-active');
-      $(".tile-1, .tile-2").removeClass('tile-active');
-    }
-    return false;
-  });
-
   // Campus calendar 5pm overlaps
   $('.time-17-00').siblings('.time-17-30').addClass('overlap').parent().parent().addClass('rows-2');
   $('.time-17-00.duration-120').siblings('.time-17-30, .time-18-00, .time-18-30').addClass('overlap').parent().parent().addClass('rows-2');

@@ -102,7 +102,7 @@ skrollable: true
   <div class="medium-12 columns">
     <blockquote class="quote-large">
       <p>“When Jesus asks the questions, He sheds light on who we really are and what we truly believe. Find out how His questions reveal our hearts in The Counselor.”</p>
-      <cite>{{ series.quote_cite }}</cite>
+      <cite>{{ series.quote_cite }} &nbsp; <a class="tweet-this" href="http://twitter.com/home/?status=“Some text goes here that captures the essence of some pretty sweet quotage.”"><i class="icon"></i>tweet this quote</a></cite>
     </blockquote>
   </div>
 </div>

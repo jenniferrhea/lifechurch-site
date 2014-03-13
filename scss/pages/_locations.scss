@@ -304,70 +304,27 @@
   background-size: 1500px 450px;
   background-position: center top;
   background-repeat: no-repeat;
-  padding-top: 130px;
-  padding-bottom: 200px;
   max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -160px;
-  height: 448px;
-
-  @media #{$small-only} {
-    padding-top: 180px;
-    padding-bottom: 130px;
-  }
-
-  @media #{$small-only} and (orientation: landscape) {
-    padding-top: 130px;
-    padding-bottom: 100px;
-  }
-
-  h1 {
-    margin-top: 43px;
-  }
 }
 
 // Page content wrapper
 .tiles {
-  margin-top: -111px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 113px;
+  border-bottom: 1px solid #ddd;
+  margin-top: -20px;
 }
-
-// Page tertiary section
-/*.section-locations .page-tertiary {
-  border-bottom: 1px solid rgba(0,0,0,.10);
-
-  @media #{$small-only} and (orientation: landscape) {
-    border-bottom: none;
-  }
-
-  // Link style
-  a {
-    color: $body-font-color !important;
-  }
-
-  .button {
-    color: #fff !important;
-  }
-
-  .tertiary-nav a:before {
-    color: rgba(0,0,0,.2);
-  }
-}*/
 
 // Page tile
 .location-tile {
   text-align: center;
   padding: 35px 0;
   display: block;
-  color: #fff;
   width: 33.3%;
   float: left;
   height: 100px;
-  border-right: 1px solid #fff;
-  background: rgba(0,0,0,.5);
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  background: #eee;
   @include transition-property(all);
   @include transition-duration(.3s);
   @extend h4;
@@ -382,65 +339,15 @@
   }
 
   // Hover state
-  &:hover { color: #fff; }
-
-  // Gradient over the tile
-  &:after {
-    content: "";
-    @include background-image(linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,.2) 60%));
-    display: block;
-    height: 100px;
-    width: 70px;
-    top: 0;
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    @include transition-property(all);
-    @include transition-duration(.3s);
+  &:hover {
+    color: $body-font-color;
+    background: #ddd;
   }
-
-  // Gradient fade-in effect
-  &.tile-active:after,
-  &:hover:after {
-    opacity: 1;
-  }
-}
-
-// Map tile
-.tile-1 {
-  border-left: 1px solid #fff;
-  border-top: 1px solid #fff;
-}
-
-// Calendar tile
-.tile-2 {
-  border-top: 1px solid #fff;
-}
-
-// Contact tile
-.tile-3 {
-  border-top: 1px solid #fff;
-  border-right: 1px solid #fff;
 }
 
 // Active tile state
 .tile-active {
-  border-bottom: 0;
-  background: $body-bg !important;
-  height: 100px;
-  opacity: 1;
-  color: $body-font-color;
-
-  &:hover {
-    color: $body-font-color;
-  }
-}
-
-// Wrapper around the tile's revealed content
-.location-content-wrapper {
-  position: relative;
-  float: left;
-  width: 100%;
+  background: #ddd !important;
 }
 
 // Page content section
@@ -449,7 +356,6 @@
   width: 99.8%;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
-  position: absolute;
   margin-bottom: 40px;
 }
 
@@ -459,16 +365,6 @@
   position: relative;
 }
 
-// Calendar content area
-.content-2 {
-  background: $body-bg;
-}
-
-// Contact us area
-.content-3 {
-  background: $body-bg;
-}
-
 
 // Map content area
 .content-1 {
@@ -476,12 +372,13 @@
   background-size: 1196px 398px;
   background-position: left top;
   background-repeat: no-repeat;
-  height: 278px;
+  height: 170px;
   border: 1px solid #ddd;
 
   @media #{$small-only} {
     background-size: 800px auto;
     background-position: 0 -40px;
+    margin-bottom: 150px;
   }
 
   @media #{$medium-up} {
@@ -501,19 +398,25 @@
   }
 
   .address {
-    background: $body-font-color;
-    color: #fff;
-    padding: 15px;
+    background: #fff;
+    color: $body-font-color;
+    padding: 15px 0;
     width: 100%;
-    top: 150px;
+    top: 172px;
     position: absolute;
 
     @media #{$medium-up} {
+      padding: 15px;
+      color: #fff;
       width: 250px;
       top: 165px;
       left: 160px;
       background: rgba(0,0,0,.8);
       @include border-radius(6px);
+
+      a {
+        color: #86def7;
+      }
 
       &:after {
         content: "";
@@ -784,17 +687,17 @@
   .location-wel .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/wel-bg'); }
   .location-ykn .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/ykn-bg'); }
 
-  .header-light.section-locations h1 {
-    color: #fff;
-  }
-
-  .location-bao h1,
+  /*.location-bao h1,
   .location-jnk h1,
   .location-mwc h1,
   .location-soc h1,
   .location-stu h1,
   .location-tul h1  {
     text-align: right;
+  }*/
+
+  .section-locations h1 {
+    text-align: center;
   }
 
 
