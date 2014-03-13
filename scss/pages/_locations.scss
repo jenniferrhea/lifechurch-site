@@ -22,6 +22,11 @@
   text-indent: 6px;
 }
 
+.pin-state.pin-ok,
+.pin-state.pin-tx {
+  @include svg-image('/locations/assets/pin2');
+}
+
 
 // ~2 Locations Overview Page ***************************************
 
