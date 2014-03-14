@@ -12,13 +12,39 @@
 
   .wistia-flex-video {
     @include flex-video-container();
+
+    iframe {
+      height: 100%;
+      width: 100%;
+      margin-top: -20px;
+    }
+  }
+
+  .video-player-inner .social {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 50%;
+  }
+
+  .button-twitter,
+  .button-facebook,
+  .button-gplus {
+    width: 70px;
+    display: block;
+    float: left;
+  }
+
+  .button-gplus iframe {
+    width: 60px !important;
   }
 
   .close {
     color: #fff;
     font-size: 2em;
     position: absolute;
-    right: 12%;
+    right: 15px;
+    top: 10px;
     z-index: 12;
     cursor: pointer;
   }

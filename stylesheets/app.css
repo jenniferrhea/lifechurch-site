@@ -5967,7 +5967,7 @@ html {
 }
 /* line 40, ../scss/design/_buttons.scss */
 .button.inverse.white {
-  border-color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.8);
   color: #fff;
 }
 /* line 44, ../scss/design/_buttons.scss */
@@ -6321,17 +6321,43 @@ button.dropdown::before {
   width: 100%;
   height: 100%;
 }
-/* line 17, ../scss/design/_video-player.scss */
+/* line 16, ../scss/design/_video-player.scss */
+.video-player .wistia-flex-video iframe {
+  height: 100%;
+  width: 100%;
+  margin-top: -20px;
+}
+/* line 23, ../scss/design/_video-player.scss */
+.video-player .video-player-inner .social {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 50%;
+}
+/* line 32, ../scss/design/_video-player.scss */
+.video-player .button-twitter,
+.video-player .button-facebook,
+.video-player .button-gplus {
+  width: 70px;
+  display: block;
+  float: left;
+}
+/* line 38, ../scss/design/_video-player.scss */
+.video-player .button-gplus iframe {
+  width: 60px !important;
+}
+/* line 42, ../scss/design/_video-player.scss */
 .video-player .close {
   color: #fff;
   font-size: 2em;
   position: absolute;
-  right: 12%;
+  right: 15px;
+  top: 10px;
   z-index: 12;
   cursor: pointer;
 }
 
-/* line 28, ../scss/design/_video-player.scss */
+/* line 54, ../scss/design/_video-player.scss */
 .noscroll {
   overflow: hidden;
 }

@@ -2,15 +2,47 @@
   <div class="close"><i class="icon icon-play-2"></i></div>
   <div class="video-player-inner">
 
+      <div class="wistia-flex-video widescreen">
+        <iframe src="http://fast.wistia.net/embed/iframe/{{include.id}}?playerColor=B9252D&version=v1" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
+      </div>
+      <div class="social">
 
-        <div class="wistia-flex-video widescreen">
-          <iframe src="http://fast.wistia.net/embed/iframe/{{include.id}}?playerColor=B9252D&version=v1" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
+        <!-- Facebook Setup -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=567912296616576";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <div class="button-twitter">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-hashtags="lifechurchtv">Tweet</a>
         </div>
-        <div class="social">
-          <a href="#" class="button">Share via Twitter</a>
-          <a href="#" class="button">Share via Facebook</a>
-          <a href="#" class="button">Share via Email</a>
+
+        <div class="button-facebook">
+          <div class="fb-share-button" data-type="button"></div>
         </div>
-    
+
+        <div class="button-gplus">
+          <div class="g-plus" data-action="share" data-annotation="none"></div>
+        </div>
+
+        <!-- Twitter Setup -->
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+        <!-- Google+ Setup -->
+        <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+
+
+      </div>
+
   </div>
 </section>
