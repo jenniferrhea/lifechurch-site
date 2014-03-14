@@ -5,12 +5,25 @@
 
 // Background
 .series-the-counselor {
-  height: 100% !important;
-  background: #000 url("/images/watch/2014-the-counselor/background.png") top center repeat-x;
-  background-attachment: fixed;
+  background: url('/images/watch/2014-the-counselor/background.png') repeat-x;
+  background-size: 1500px 931px;
+  background-position: center top;
 }
 
-// Background for the quote, to offset the main background
+.section-first {
+  padding-top: 45px;
+  margin-bottom: -160px;
+}
+
+.the-counselor-1 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  top: -160px;
+  overflow: hidden;
+  padding-top: 130px;
+}
+
 .the-counselor-2 {
   background: #fff;
 }
@@ -24,10 +37,7 @@
   background-position: center;
   background-size: contain;
   text-indent: -999em;
-
-  @media #{$small-only} {
-    margin-top: -10px;
-  }
+  margin-top: 55px;
 }
 
 .action {
@@ -39,209 +49,35 @@
   }
 }
 
-// Hide elements when not needed
-.please-scroll,
-.please-touch {
-  display: none;
-}
-
-// Images for small devices
-
-  .thin-image {
-    width: 100%;
-    height: 230px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
-    margin-bottom: 40px;
-
-    &.thin-image-1 {
-      background-image: url("/images/watch/2014-the-counselor/person-1-thin.png");
-    }
-
-    &.thin-image-2 {
-      background-image: url("/images/watch/2014-the-counselor/person-2-thin.png");
-    }
-
-    &.thin-image-3 {
-      background-image: url("/images/watch/2014-the-counselor/person-3-thin.png");
-    }
-  }
-
-  .type-first {
-    margin-bottom: 80px;
-  }
 
 // Styles for medium up displays
 
-  @media only screen and (min-height: 650px) and (min-width: 700px) {
-    // Hide small images
-    .thin-image {
-      display: none;
-    }
-
-    // Prompt to scroll (no-touch)
-
-      .please-scroll {
-        color: #fff;
-        display: block;
-        position: relative;
-        z-index: 8;
-
-        @media only screen and (min-height: 650px) and (min-width: 700px) {
-          margin-top: 70px;
-        }
-      }
-
-      .scroll-arrow {
-        font-size: rem-calc(30);
-        margin: 5px auto 0;
-        width: 40px;
-        height: 40px;
-        position: relative;
-      }
-
-
-    // Prompt to scroll (touch)
-
-      .please-touch {
-        color: #fff;
-        display: block;
-        padding-top: 100px;
-        position: relative;
-        width: 150px;
-        height: 120px;
-        margin: 0 auto;
-        z-index: 8;
-
-        // Element background
-        .touch-status {
-          width: 23px;
-          height: 36px;
-          @include svg-image('/images/watch/2014-the-counselor/touch-scroll');
-          background-size: 23px 66px;
-          background-repeat: no-repeat;
-          background-position: center bottom;
-          position: absolute;
-          top: 55px;
-          left: 64px;
-        }
-
-        // Blue ring
-        .touch-active {
-          width: 23px;
-          height: 23px;
-          @include svg-image('/images/watch/2014-the-counselor/touch-scroll-2');
-          position: absolute;
-          top: 57px;
-          left: 64px;
-          opacity: 0;
-        }
-
-        // Finger
-        .touch-finger {
-          width: 35px;
-          height: 28px;
-          @include svg-image('/images/watch/2014-the-counselor/touch-scroll-3');
-          position: absolute;
-          top: 63px;
-          left: 72px;
-          z-index: 2;
-        }
-      }
-
-
-    // Hide prompts when input type doesn't match
-    .touch .please-scroll,
-    .no-touch .please-touch {
-      display: none;
-    }
-
-    // Type section
-    .type {
-      margin-top: -60px !important;
-
-      // Opening type section
-      &.type-first {
-        margin-top: 20px !important;
-
-      }
-    }
-
-    // Black coverage for underneath the couch, to hide upcoming text
-    .the-counselor-1-ender {
-      position: fixed;
-      top: 490px;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: 1000px;
-      background: #000;
-      z-index: 0;
-    }
-
-    // Main section
-
-      .the-counselor-1 {
-        height: 3200px;
-
-        .row {
-          position: relative;
-        }
-
-        .type {
-          margin-bottom: 700px;
-          z-index: 7;
-        }
-
-        .type-first {
-          margin-bottom: 570px;
-        }
-      }
+  .section-first {
+    padding-bottom: 0;
+  }
 
 
     // The main couch
     .couch {
-      position: fixed;
+      position: absolute;
       left: 0;
       right: 0;
-      top: 447px;
-      height: 412px;
+      top: 290px;
+      height: 310px;
       width: 100%;
       background: url("/images/watch/2014-the-counselor/couch.png") center top no-repeat;
       z-index: 2;
       background-size: 631px 305px;
 
-      @media only screen and (max-width: 700px) {
-        background-size: 315px 152px;
-        top: 370px;
-      }
-    }
 
-    // Black gradient behind the couch, to fade the text without it being in the cracks
-    .couch-bg {
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 450px;
-      height: 81px;
-      width: 100%;
-      background: url("/images/watch/2014-the-counselor/couch-bg.png") center top repeat-x;
-      z-index: 0;
-
-      @media only screen and (max-width: 700px) {
-        display: none;
-      }
     }
 
     // Person general styles
     .person {
-      opacity: 0;
-      display: none;
-      position: fixed;
+      position: absolute;
       left: 0;
       right: 0;
-      top: 150px;
+      top: -130px;
       height: 517px;
       width: 100%;
       z-index: 1;
@@ -256,7 +92,6 @@
     .person.state-2 {
       height: 355px;
       z-index: 3;
-      top: 290px;
       z-index: 1;
       margin-left: 84px;
     }
@@ -265,53 +100,50 @@
     .person.state-3 {
       height: 489px;
       z-index: 3;
-      top: 290px;
       margin-left: 84px
     }
 
     // Imagery for person 1
 
-      .person-1 {
-        // State 1
-        &.state-1 {
+      .person {
+        &.person-1.state-1 {
           background: url("/images/watch/2014-the-counselor/person-1-1.png") center top no-repeat;
-
-          @media only screen and (max-width: 700px) {
-            background-size: 371px 258px;
+          margin-left: 0;
+          &.state-3 {
+            background: url("/images/watch/2014-the-counselor/person-1-3.png") center top no-repeat;
+            top: 232px !important;
+            margin-left: -15px;
           }
         }
 
-        // State 2
-        &.state-2 {
-          background: url("/images/watch/2014-the-counselor/person-1-2.png") center top no-repeat;
-
-          @media only screen and (max-width: 700px) {
-            background-size: 330px 177px;
+        &.person-2.state-1 {
+          background: url("/images/watch/2014-the-counselor/person-2-1.png") center top no-repeat;
+          margin-left: 0;
+          &.state-3 {
+            background: url("/images/watch/2014-the-counselor/person-2-3.png") center top no-repeat;
+            top: 232px !important;
+            margin-left: -15px;
           }
         }
+      }
 
-        // State 3
-        &.state-3 {
-          background: url("/images/watch/2014-the-counselor/person-1-3.png") center top no-repeat;
+      .quote-1,
+      .quote-2 {
+        max-width: 600px;
+        margin: 70px auto 0;
+        padding-left: 140px;
+      }
 
-          @media only screen and (max-width: 700px) {
-            background-size: 324px 244px;
-          }
-        }
+      .quote-3 {
+        max-width: 600px;
+        margin: 120px auto 0;
       }
 
 
     // Imagery for person 2
 
       .person-2 {
-        // State 1
-        &.state-1 {
-          background: url("/images/watch/2014-the-counselor/person-2-1.png") center top no-repeat;
 
-          @media only screen and (max-width: 700px) {
-            background-size: 371px 258px;
-          }
-        }
 
         // State 2
         &.state-2 {
@@ -363,6 +195,3 @@
           }
         }
       }
-
-
-  }
