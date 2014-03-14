@@ -781,19 +781,25 @@ th.hide-for-touch {
 /* line 18, ../../../scss/watch/2014-the-counselor/style.scss */
 .the-counselor-1 {
   position: relative;
-  height: 500px;
+  height: 390px;
   width: 100%;
   top: -160px;
   overflow: hidden;
   padding-top: 130px;
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 18, ../../../scss/watch/2014-the-counselor/style.scss */
+  .the-counselor-1 {
+    height: 500px;
+  }
+}
 
-/* line 27, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 31, ../../../scss/watch/2014-the-counselor/style.scss */
 .the-counselor-2 {
   background: #fff;
 }
 
-/* line 32, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 36, ../../../scss/watch/2014-the-counselor/style.scss */
 .series-the-counselor h1 {
   width: 100%;
   height: 59px;
@@ -801,7 +807,7 @@ th.hide-for-touch {
   background-position: center;
   background-size: contain;
   text-indent: -999em;
-  margin-top: 55px;
+  margin-top: 25px;
 }
 /* line 5, ../../../scss/settings/_svgpng.scss */
 .svg .series-the-counselor h1 {
@@ -815,37 +821,45 @@ th.hide-for-touch {
 .no-js .series-the-counselor h1 {
   background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394548819');
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 36, ../../../scss/watch/2014-the-counselor/style.scss */
+  .series-the-counselor h1 {
+    margin-top: 55px;
+  }
+}
 
-/* line 43, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 51, ../../../scss/watch/2014-the-counselor/style.scss */
 .action {
   position: relative;
   z-index: 8;
   color: #86def7 !important;
 }
-/* line 47, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 55, ../../../scss/watch/2014-the-counselor/style.scss */
 .action:hover {
   opacity: .7;
 }
 
-/* line 55, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 63, ../../../scss/watch/2014-the-counselor/style.scss */
 .section-first {
   padding-bottom: 0;
 }
 
-/* line 61, ../../../scss/watch/2014-the-counselor/style.scss */
-.couch {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 290px;
-  height: 310px;
-  width: 100%;
-  background: url("/images/watch/2014-the-counselor/couch.png") center top no-repeat;
-  z-index: 2;
-  background-size: 631px 305px;
+@media only screen and (min-width: 40.063em) {
+  /* line 69, ../../../scss/watch/2014-the-counselor/style.scss */
+  .couch {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 290px;
+    height: 310px;
+    width: 100%;
+    background: url("/images/watch/2014-the-counselor/couch.png") center top no-repeat;
+    z-index: 2;
+    background-size: 631px 305px;
+  }
 }
 
-/* line 76, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 84, ../../../scss/watch/2014-the-counselor/style.scss */
 .person {
   position: absolute;
   left: 0;
@@ -857,13 +871,13 @@ th.hide-for-touch {
   margin-left: 84px;
 }
 @media only screen and (max-width: 700px) {
-  /* line 76, ../../../scss/watch/2014-the-counselor/style.scss */
+  /* line 84, ../../../scss/watch/2014-the-counselor/style.scss */
   .person {
     margin-left: 35px !important;
   }
 }
 
-/* line 92, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 100, ../../../scss/watch/2014-the-counselor/style.scss */
 .person.state-2 {
   height: 355px;
   z-index: 3;
@@ -871,97 +885,133 @@ th.hide-for-touch {
   margin-left: 84px;
 }
 
-/* line 100, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 108, ../../../scss/watch/2014-the-counselor/style.scss */
 .person.state-3 {
   height: 489px;
   z-index: 3;
   margin-left: 84px;
 }
 
-/* line 109, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 117, ../../../scss/watch/2014-the-counselor/style.scss */
 .person.person-1.state-1 {
   background: url("/images/watch/2014-the-counselor/person-1-1.png") center top no-repeat;
   margin-left: 0;
 }
-/* line 112, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 121, ../../../scss/watch/2014-the-counselor/style.scss */
 .person.person-1.state-1.state-3 {
   background: url("/images/watch/2014-the-counselor/person-1-3.png") center top no-repeat;
   top: 232px !important;
   margin-left: -15px;
 }
-/* line 119, ../../../scss/watch/2014-the-counselor/style.scss */
+@media only screen and (max-width: 40em) {
+  /* line 121, ../../../scss/watch/2014-the-counselor/style.scss */
+  .person.person-1.state-1.state-3 {
+    margin-left: 0;
+    background-size: 324px 244px;
+  }
+}
+/* line 133, ../../../scss/watch/2014-the-counselor/style.scss */
 .person.person-2.state-1 {
   background: url("/images/watch/2014-the-counselor/person-2-1.png") center top no-repeat;
   margin-left: 0;
 }
-/* line 122, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 137, ../../../scss/watch/2014-the-counselor/style.scss */
 .person.person-2.state-1.state-3 {
   background: url("/images/watch/2014-the-counselor/person-2-3.png") center top no-repeat;
   top: 232px !important;
   margin-left: -15px;
 }
 
-/* line 131, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 145, ../../../scss/watch/2014-the-counselor/style.scss */
+.person-1-thin {
+  background: url("/images/watch/2014-the-counselor/person-1-thin.png") center top no-repeat;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 500px;
+  margin-left: 0 !important;
+}
+
+/* line 154, ../../../scss/watch/2014-the-counselor/style.scss */
+.person-2-thin {
+  background: url("/images/watch/2014-the-counselor/person-2-thin.png") center top no-repeat;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 500px;
+}
+
+/* line 163, ../../../scss/watch/2014-the-counselor/style.scss */
 .quote-1,
 .quote-2 {
   max-width: 600px;
-  margin: 70px auto 0;
-  padding-left: 140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 163, ../../../scss/watch/2014-the-counselor/style.scss */
+  .quote-1,
+  .quote-2 {
+    padding: 0 0 0 140px;
+    margin: 70px auto 0;
+  }
 }
 
-/* line 137, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 174, ../../../scss/watch/2014-the-counselor/style.scss */
 .quote-3 {
   max-width: 600px;
-  margin: 120px auto 0;
+  margin: 70px auto 0;
+  padding: 0 20px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 174, ../../../scss/watch/2014-the-counselor/style.scss */
+  .quote-3 {
+    margin: 120px auto 0;
+    padding: 0;
+  }
 }
 
-/* line 149, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 192, ../../../scss/watch/2014-the-counselor/style.scss */
 .person-2.state-2 {
   background: url("/images/watch/2014-the-counselor/person-2-2.png") center top no-repeat;
 }
 @media only screen and (max-width: 700px) {
-  /* line 149, ../../../scss/watch/2014-the-counselor/style.scss */
+  /* line 192, ../../../scss/watch/2014-the-counselor/style.scss */
   .person-2.state-2 {
     background-size: 330px 177px;
   }
 }
-/* line 158, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 201, ../../../scss/watch/2014-the-counselor/style.scss */
 .person-2.state-3 {
   background: url("/images/watch/2014-the-counselor/person-2-3.png") center top no-repeat;
 }
-@media only screen and (max-width: 700px) {
-  /* line 158, ../../../scss/watch/2014-the-counselor/style.scss */
-  .person-2.state-3 {
-    background-size: 324px 244px;
-  }
-}
 
-/* line 172, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 213, ../../../scss/watch/2014-the-counselor/style.scss */
 .person-3.state-1 {
   background: url("/images/watch/2014-the-counselor/person-3-1.png") center top no-repeat;
 }
 @media only screen and (max-width: 700px) {
-  /* line 172, ../../../scss/watch/2014-the-counselor/style.scss */
+  /* line 213, ../../../scss/watch/2014-the-counselor/style.scss */
   .person-3.state-1 {
     background-size: 371px 258px;
   }
 }
-/* line 181, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 222, ../../../scss/watch/2014-the-counselor/style.scss */
 .person-3.state-2 {
   background: url("/images/watch/2014-the-counselor/person-3-2.png") center top no-repeat;
 }
 @media only screen and (max-width: 700px) {
-  /* line 181, ../../../scss/watch/2014-the-counselor/style.scss */
+  /* line 222, ../../../scss/watch/2014-the-counselor/style.scss */
   .person-3.state-2 {
     background-size: 330px 177px;
   }
 }
-/* line 190, ../../../scss/watch/2014-the-counselor/style.scss */
+/* line 231, ../../../scss/watch/2014-the-counselor/style.scss */
 .person-3.state-3 {
   background: url("/images/watch/2014-the-counselor/person-3-3.png") center top no-repeat;
 }
 @media only screen and (max-width: 700px) {
-  /* line 190, ../../../scss/watch/2014-the-counselor/style.scss */
+  /* line 231, ../../../scss/watch/2014-the-counselor/style.scss */
   .person-3.state-3 {
     background-size: 324px 244px;
   }

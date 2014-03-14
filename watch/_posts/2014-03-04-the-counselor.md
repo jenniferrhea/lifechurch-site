@@ -56,6 +56,13 @@ skrollable: false
 </div>
 </div>
 
+<div class="hide">
+  <div class="person person-1 state-1"></div>
+  <div class="person person-1 state-1 state-2"></div>
+  <div class="person person-2 state-1"></div>
+  <div class="person person-2 state-1 state-2"></div>
+</div>
+
 {{ if series.quote }}
 <div class="page-section the-counselor-2">
 <div class="row">
