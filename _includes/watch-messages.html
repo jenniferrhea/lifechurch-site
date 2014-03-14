@@ -2,7 +2,7 @@
   <div class="row">
     <div class="large-6 columns">
       <h2 class="underlined">In this series</h2>
-      
+
       <!-- Get the messages out of the series and list them out -->
       {% for message in series.messages %}
 
@@ -20,15 +20,24 @@
 
       {% endfor %}
 
-      <a href="#" 
-         data-dropdown="drop" 
+      <a href="#"
+         data-dropdown="drop"
          class="action dropdown white show-for-small"
          onclick="ga('send', 'event', 'Series', 'Click', 'Resource');">
          Get Resources <i class="icon icon-arrow-down-2"></i>
       </a>
       <br />
       {% include watch-resources.html %}
-      
+
+    </div>
+
+    <div class="large-5 columns">
+      <h2 class="underlined">Invite</h2>
+      <a href="http://twitter.com/home/?status=“Some text goes here that captures the essence of some pretty sweet quotage.”" target="_blank">Twitter</a>
+
+      <a href="http://www.facebook.com/sharer.php?app_id=567912296616576&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.lifechurch.tv{{ page.url }}%2F" target="_blank">Facebook</a>
+
+
     </div>
   </div>
 

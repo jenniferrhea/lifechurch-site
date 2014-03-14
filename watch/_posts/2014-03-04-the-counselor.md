@@ -17,15 +17,21 @@ skrollable: false
 
   <section class="slide-1">
     <div class="row">
-      <div class="medium-6 medium-centered columns text-center">
+      <div class="medium-7 medium-centered columns medium-text-center">
         <h1>{{ series.title }}</h1>
-        <p>{{ series.description_small }}</p>
+        <p>{{ series.description_medium }}</p>
         <p>
-          <a href="#messages"
+
+          {% for message in series.messages limit:1 %}
+          <a href="javascript:void(0);"
              class="action"
+             data-video-player="{{message.video}}"
              >
-             Watch series <i class="icon icon-play-2"></i>
+             Watch Church Online in 14min 28sec <i class="icon icon-play-2"></i>
           </a>
+          {% endfor %}
+
+
           <a href="#"
              class="action learn-more"
              >
@@ -61,17 +67,6 @@ skrollable: false
   <div class="person person-1 state-1 state-2"></div>
   <div class="person person-2 state-1"></div>
   <div class="person person-2 state-1 state-2"></div>
+  <div class="person person-1-thin"></div>
+  <div class="person person-2-thin"></div>
 </div>
-
-{{ if series.quote }}
-<div class="page-section the-counselor-2">
-<div class="row">
-  <div class="medium-12 columns">
-    <blockquote class="quote-large">
-      <p>“When Jesus asks the questions, He sheds light on who we really are and what we truly believe. Find out how His questions reveal our hearts in The Counselor.”</p>
-      <cite>{{ series.quote_cite }} &nbsp; <a class="tweet-this" href="http://twitter.com/home/?status=“Some text goes here that captures the essence of some pretty sweet quotage.”"><i class="icon"></i>tweet this quote</a></cite>
-    </blockquote>
-  </div>
-</div>
-</div>
-{{ endif }}

@@ -39,9 +39,8 @@ section: locations
             </div>
           </div>
 
-
           <!-- Content area 2 -->
-          <div class="location-content content-2">
+          <div class="page-section location-content content-2">
 
             <div class="row">
               <div class="medium-12 columns">
@@ -169,30 +168,41 @@ section: locations
             </div>
           </div>
 
+<hr class="large" />
+
           <div class="location-content content-3">
             <div class="row">
               <div class="medium-12 columns">
-                <h2>Campus Serving Opportunities</h2>
 
-                <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-                  {% for item in site.data.serving %}
-                  {% if item.location == "Campus" %}
-                  {% capture type %}Serving{% endcapture %}
-                  {% include involved-item.html %}
-                  {% endif %}
-                  {% endfor %}
-                </ul>
+                <div class="page-section">
+                  <h2>Campus Serving Opportunities</h2>
 
-                <h2>Campus LifeMissions</h2>
+                  <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+                    {% for item in site.data.serving %}
+                    {% if item.location == "Campus" %}
+                    {% capture type %}Serving{% endcapture %}
+                    {% include involved-item.html %}
+                    {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
 
-                <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-                  {% for item in site.data.missions %}
-                  {% if item.location == page.location-id %}
-                  {% capture type %}Missions{% endcapture %}
-                  {% include involved-item.html %}
-                  {% endif %}
-                  {% endfor %}
-                </ul>
+<hr class="large" />
+
+                <div class="page-section">
+                  <h2>Campus LifeMissions</h2>
+
+                  <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+                    {% for item in site.data.missions %}
+                    {% if item.location == page.location-id %}
+                    {% capture type %}Missions{% endcapture %}
+                    {% include involved-item.html %}
+                    {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+
+<hr class="large" />
 
                 <h2>Local LifeGroups</h2>
                 <p>Did you know you were designed to thrive in community with other believers and grow better together? LifeGroups are the friends that you grow, laugh and serve with.</p>

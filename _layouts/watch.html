@@ -5,6 +5,7 @@ class: section-watch section-series
 ---
 
 {% assign series = site.data.watch | find_first : "id", page.series-id %}
+<img class="hide" src="{{ series.social }}" alt="Social image" />
 {% include tertiary.html %}
 
 <!-- Page Main -->
