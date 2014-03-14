@@ -18,7 +18,12 @@
 }
 
 .watch-messages {
-  padding-top: 0 !important;
+  //padding-top: 0 !important;
+}
+
+.section-last.section-light,
+.footer-light .page-footer {
+  //background: #000;
 }
 
 h2.underlined {
@@ -30,14 +35,9 @@ h2.underlined {
   z-index: 5;
 }
 
-.section-last.section-light,
-.footer-light .page-footer {
-  background: #000;
-}
-
 .the-counselor-1 {
   position: relative;
-  height: 350px;
+  height: 415px;
   width: 100%;
   top: -160px;
   overflow: hidden;
@@ -45,6 +45,21 @@ h2.underlined {
 
   @media #{$medium-up} {
     height: 490px;
+  }
+}
+
+.inner {
+  @media #{$medium-up} {
+    @include background-image-2x-jpg('/images/watch/2014-the-counselor/inner');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 1500px 496px;
+    background-position: center top;
+    margin-top: -130px;
+    padding-top: 130px;
+    height: 500px;
+    position: absolute;
+    width: 100%;
   }
 }
 
@@ -56,11 +71,11 @@ h2.underlined {
 .series-the-counselor h1 {
   width: 100%;
   height: 59px;
-  @include svg-image('/images/watch/2014-the-counselor/the-counselor-title');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  text-indent: -999em;
+  //@include svg-image('/images/watch/2014-the-counselor/the-counselor-title');
+  //background-repeat: no-repeat;
+  //background-position: left;
+  //background-size: contain;
+  //text-indent: -999em;
   margin-top: 25px;
 
   @media #{$medium-up} {
@@ -69,7 +84,7 @@ h2.underlined {
   }
 }
 
-.slide-1 .action {
+.slide-1 a {
   position: relative;
   //margin-top: 15px;
   z-index: 8;
@@ -91,10 +106,11 @@ h2.underlined {
     .couch {
       @media #{$medium-up} {
         position: absolute;
-        opacity: .5;
+        opacity: 0;
         left: 0;
         right: 0;
-        top: 270px;
+        top: 390px;
+        margin-left: -80px;
         height: 310px;
         width: 100%;
         background: url("/images/watch/2014-the-counselor/couch.png") center top no-repeat;
