@@ -22,7 +22,7 @@
         <a href="#"
            data-dropdown="drop"
            class="watch-resources button tiny dropdown"
-           onclick="_gaq.push(['_trackEvent', 'Series', 'Click', 'Resource']);">
+           onclick="ga('send', 'event', 'Series', 'Click', 'Resource');">
            Get Resources
         </a>
         <br />
@@ -36,7 +36,7 @@
         <a href="#"
            data-dropdown="drop"
            class="locations-mycampus button tiny"
-           onclick="_gaq.push(['_trackEvent', 'Location', 'Click', 'My Campus']);">
+           onclick="ga('send', 'event', 'Location', 'Click', 'My Campus');">
            Save as your campus
         </a>
       </div>
@@ -47,12 +47,12 @@
       <div class="hide-for-small">
         <a href="#"
            class="button inverse small"
-           onclick="_gaq.push(['_trackEvent', 'Giving', 'Click', 'New Give']);">
+           onclick="ga('send', 'event', 'Giving', 'Click', 'New Give');">
            Sign up to Give
         </a>
         <a href="#"
            class="button small"
-           onclick="_gaq.push(['_trackEvent', 'Giving', 'Click', 'Existing Give']);">
+           onclick="ga('send', 'event', 'Giving', 'Click', 'Existing Give');">
            Log in to Give
         </a>
       </div>

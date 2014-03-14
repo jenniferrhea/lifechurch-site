@@ -16,7 +16,7 @@ class: header-red section-watch page-watch
       <p>
         <a href="http://live.lifechurch.tv"
            class="action"
-           onclick="_gaq.push(['_trackEvent', 'Watch', 'Click', 'Live']);">
+           onclick="ga('send', 'event', 'Watch', 'Click', 'Live');">
            Watch Church Online in 14min 28sec <i class="icon icon-play-2"></i>
          </a>
       </p>
@@ -64,7 +64,7 @@ class: header-red section-watch page-watch
   <div class="large-12 large-centered columns text-center">
     <a href="/watch/archive/"
        class="action large text-black"
-       onclick="_gaq.push(['_trackEvent', 'Watch', 'Click', 'View Archives']);">
+       onclick="ga('send', 'event', 'Watch', 'Click', 'View Archives');">
        View more archives <i class="icon icon-play-2"></i>
     </a>
   </div>
