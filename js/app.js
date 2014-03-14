@@ -221,5 +221,21 @@ $(function() {
     }
   });
 
+  //local storage for locations
+  $('.locations-mycampus').bind("click", function() {
+    if (Modernizr.localstorage) {
+      if(localstorage["myCampus"]) {
+        localStorage["myCampus"] = $(this).data("campus");
+      }
+      else {
+        localstorage.removeItem("myCampus")
+      }
+    }  
+  });
 
+  $('[data-my-campus]').each(function(index) {
+    if (Modernizr.localstorage && localStorage["myCampus"]) {
+      $(this).attr('href',"/locations/" + localStorage["myCampus"] + $(this).data("my-campus"));
+    }
+  });
 });
