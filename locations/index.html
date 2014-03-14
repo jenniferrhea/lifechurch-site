@@ -12,7 +12,7 @@ class: page-locations section-locations
       <a href="#"
          class="map-back button tiny small"
          style="display: none;"
-         onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Zoom Out']);">
+         onclick="ga('send', 'event', 'Locations', 'Click', 'Zoom Out');">
          &larr; Back to full map
       </a>
     </div>
@@ -20,12 +20,12 @@ class: page-locations section-locations
 
   <a href="#"
      class="pin pin-state pin-ok"
-     onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Zoom OK']);">
+     onclick="ga('send', 'event', 'Locations', 'Click', 'Zoom OK');">
      Oklahoma&nbsp;(13)
   </a>
   <a href="#"
      class="pin pin-state pin-tx"
-     onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Zoom TX']);">
+     onclick="ga('send', 'event', 'Locations', 'Click', 'Zoom TX');">
      Texas&nbsp;(2)
   </a>
   <a class="pin pin-state pin-tn" href="/locations/hnv/">Hendersonville,&nbsp;TN</a>
@@ -68,13 +68,13 @@ class: page-locations section-locations
       <p>
         <a href="http://live.lifechurch.tv"
            class="action text-black large"
-           onclick="_gaq.push(['_trackEvent', 'Watch', 'Click', 'Live']);">
+           onclick="ga('send', 'event', 'Watch', 'Click', 'Live');">
            Join us at one of our campuses <br />or at Church Online. <i class="icon icon-arrow-2"></i>
         </a>
         <br />
         <a href="http://www.networkchurches.tv"
            class="action small text-black"
-           onclick="_gaq.push(['_trackEvent', 'Locations', 'Click', 'Network Churches']);">
+           onclick="ga('send', 'event', 'Locations', 'Click', 'Network Churches');">
            Or, search for a Network Church near you. <i class="icon icon-arrow-1"></i>
         </a>
       </p>
