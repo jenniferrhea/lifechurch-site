@@ -3,7 +3,8 @@ layout: default
 section: locations
 ---
 
-{% assign location = site.data.locations | find_first : "id", page.location-id %}
+{% for location in site.data.locations %}
+{% if location.id == page.location-id %}
 
 <!-- Page main -->
 <div class="page-main">
@@ -258,3 +259,7 @@ section: locations
   </section>
 
 </div>
+
+
+{% endif %}
+{% endfor %}

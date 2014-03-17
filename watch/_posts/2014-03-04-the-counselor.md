@@ -7,10 +7,10 @@ series-id: the-counselor
 assets: 2014-the-counselor
 stylesheet: true
 javascript: true
-skrollable: false
 ---
 
-{% assign series = site.data.watch | find_first : "id", page.series-id %}
+{% for series in site.data.watch %}
+{% if series.id == page.series-id %}
 
 <div class="page-section section-first section-light">
 <div class="the-counselor-1 contain">
@@ -71,3 +71,6 @@ skrollable: false
   <div class="person person-1-thin"></div>
   <div class="person person-2-thin"></div>
 </div>
+
+{% endif %}
+{% endfor %}

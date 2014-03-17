@@ -27,10 +27,10 @@
 
 - id: small-things-big-difference
   title: Small Things Big Difference
-  headline: 'Title goes here about this series.'
-  description_small: 'Some text goes here that describes what this mission is all about.'
-  description_medium: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-  quote: 'Some text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.'
+  headline: 'STBD Headline.'
+  description_small: 'STBDSome text goes here that describes what this mission is all about.'
+  description_medium: 'STBDLorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+  quote: 'STBDSome text goes here that captures the essence of some pretty sweet quotage. Some text goes here that captures the essence of some pretty sweet quotage.'
   quote_cite: Some citation goes here
   open: http://www.apple.com/
   url: http://www.apple.com/

@@ -4,7 +4,9 @@ section: watch
 class: section-watch section-series
 ---
 
-{% assign series = site.data.watch | find_first : "id", page.series-id %}
+{% for series in site.data.watch %}
+{% if series.id == page.series-id %}
+
 <img class="hide" src="{{ series.social }}" alt="Social image" />
 {% include tertiary.html %}
 
@@ -15,3 +17,6 @@ class: section-watch section-series
 </div>
 
 <div class="series-locator">series-{{ series.id }}</div>
+
+{% endif %}
+{% endfor %}

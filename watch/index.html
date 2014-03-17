@@ -40,7 +40,8 @@ class: header-red section-watch page-watch
   <div class="large-12 columns">
     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
       {% for post in site.categories.watch limit:9 %}
-      {% assign series = site.data.watch | find_first : "id", post.series-id %}
+      {% for series in site.data.watch %}
+      {% if series.id == post.series-id %}
 
       <!-- Archive Item -->
       <li class="watch-item">
@@ -53,6 +54,9 @@ class: header-red section-watch page-watch
           </div>
         </a>
       </li>
+      
+      {% endif %}
+      {% endfor %}
       {% endfor %}
     </ul>
   </div>
