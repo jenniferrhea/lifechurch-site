@@ -2,6 +2,7 @@
   title: Albany NY Campus
   description_small: Description about this campus goes right here.
   address: '560 Sand Creek Rd Albany, NY 12205'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -53,6 +54,7 @@
   title: Broken Arrow OK Campus
   description_small: Description about this campus goes right here.
   address: '2420 E Kenosha Street Broken Arrow, OK 74014'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -104,6 +106,7 @@
   title: Edmond OK Campus
   description_small: Description about this campus goes right here.
   address: '4600 E. 2nd St Edmond, OK 73034'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -155,6 +158,7 @@
   title: Fort Worth TX Campus
   description_small: Description about this campus goes right here.
   address: '5298 Trail Lake Dr Fort Worth, TX 76133'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -206,6 +210,7 @@
   title: Hendersonville TN Campus
   description_small: Description about this campus goes right here.
   address: '120 Indian Lake Blvd Hendersonville, TN 37075'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -257,6 +262,7 @@
   title: Jenks OK Campus
   description_small: Description about this campus goes right here.
   address: '890 W 81st St, Tulsa, OK 74132'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -308,6 +314,7 @@
   title: Kellar TX Campus
   description_small: Description about this campus goes right here.
   address: '801 Bear Creek Parkway Keller, TX 76248'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -359,6 +366,7 @@
   title: Midwest City Campus
   description_small: Description about this campus goes right here.
   address: '6809 E Reno Ave Midwest City, OK 73110'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -410,6 +418,7 @@
   title: Moore OK Campus
   description_small: Description about this campus goes right here.
   address: '2916 S. Telephone Rd. Moore, OK 73160'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -461,6 +470,7 @@
   title: NW Oklahoma City Campus
   description_small: Description about this campus goes right here.
   address: '5821 NW Expressway Oklahoma City, OK 73132'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -512,6 +522,7 @@
   title: NW Oklahoma City Campus
   description_small: Description about this campus goes right here.
   address: '5821 NW Expressway Oklahoma City, OK 73132'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -563,6 +574,7 @@
   title: Oklahoma City OK Campus
   description_small: Description about this campus goes right here.
   address: '2001 NW 178th St, Edmond, OK 73012'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -614,6 +626,7 @@
   title: Owasso OK Campus
   description_small: Description about this campus goes right here.
   address: '14008 E. 96th St. Owasso, OK 74055'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -665,6 +678,7 @@
   title: South Oklahoma City OK Campus
   description_small: Description about this campus goes right here.
   address: '7800 S. Walker Ave Oklahoma City, OK 73139'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -716,6 +730,7 @@
   title: South Tulsa OK Campus
   description_small: Description about this campus goes right here.
   address: '7071 East 121st St Bixby, OK 74008'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -767,11 +782,13 @@
   title: Stillwater OK Campus
   description_small: Description about this campus goes right here.
   address: '1917 North Country Club Rd, Stillwater, OK 74075'
+  email: interactive@lifechurch.tv
 
 - id: tul
   title: Tulsa OK Campus
   description_small: Description about this campus goes right here.
   address: '7015 E. 41st St Tulsa, OK 74145'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -823,6 +840,7 @@
   title: Wellington FL Campus
   description_small: Description about this campus goes right here.
   address: '3061 State Road 7, Wellington, FL 33449'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'
@@ -874,6 +892,7 @@
   title: Yukon OK Campus
   description_small: Description about this campus goes right here.
   address: '3061 State Road 7, Wellington, FL 33449'
+  email: interactive@lifechurch.tv
   times:
     - title: 5:00PM
       time: '17-00'

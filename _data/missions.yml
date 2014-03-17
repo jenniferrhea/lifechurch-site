@@ -1,7 +1,6 @@
 - id: mission-1
   title: Mission 1
   location: okc
-  recipient: someone.brave@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -11,9 +10,9 @@
   description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
@@ -25,7 +24,6 @@
 - id: mission-2
   title: Mission 2
   location: okc
-  recipient: someone.brave@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -35,9 +33,9 @@
   description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
@@ -49,7 +47,6 @@
 - id: mission-3
   title: Mission 3
   location: Tulsa
-  recipient: someone.brave@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -59,9 +56,9 @@
   description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
@@ -73,7 +70,6 @@
 - id: mission-4
   title: Mission 4
   location: ftw
-  recipient: someone.brave@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -83,9 +79,9 @@
   description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
@@ -97,7 +93,7 @@
 - id: mission-5
   title: Mission 5
   location: Global
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -107,9 +103,9 @@
   description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com
@@ -121,7 +117,7 @@
 - id: mission-6
   title: Mission 6
   location: Global
-  recipient: someone.brave@lifechurch.tv
+  recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: Some text goes here that describes what this mission is all about.
   description_medium: |
@@ -131,9 +127,9 @@
   description_large: |
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   website: http://google.com

@@ -175,17 +175,28 @@ $(function() {
     $(this).parent().parent().find('.cta-thanks').fadeIn();
   });
 
+
+  // Contact form Response
+  $('.form-contact .button').click(function() {
+    $(this).parent().fadeOut();
+    $(this).parent().parent().append("<div class='cta-thanks' style='display: none;'><em>Thanks! We'll be in touch soon.</em></div>").delay(500).fadeIn();
+    $(this).parent().parent().find('.cta-thanks').fadeIn();
+  });
+
+
+  // Live color changing
   setInterval(function() {
     $('.primary-links a .live').toggleClass('alt');
   }, 1000);
 
-  //video players
+
+  // Video players
   $('[data-video-player]').bind('click', video_player_start)
 
   function video_player_start(event) {
     var videoId = $(this).data('video-player');
     var videoWrapper = $("#video-"+videoId);
-    var videoPlayer = videoWrapper.find('iframe')[0].wistiaApi;    
+    var videoPlayer = videoWrapper.find('iframe')[0].wistiaApi;
     $('body').addClass('noscroll');
     videoWrapper.show();
     videoPlayer.play();
@@ -196,7 +207,7 @@ $(function() {
     $('.video-player').hide();
   }
 
-  //close video players
+  // Close video players
   $(document).keyup(function(e) {
     if (e.keyCode == 27) { video_player_close(); }   // esc
   });
@@ -205,13 +216,13 @@ $(function() {
     video_player_close();
   });
 
-  //auto play a video based on a hashlink on page load
+  // Auto play a video based on a hashlink on page load
   $(window).load(function() {
     if(window.location.hash != "") {
-      //we have a hash people!
+      // We have a hash people!
       var number = parseInt(window.location.hash.substring(1));
 
-      //if this isn't a number, get out of here
+      // If this isn't a number, get out of here
       if(isNaN(number)) {
         return;
       }
@@ -221,5 +232,33 @@ $(function() {
     }
   });
 
+
+  // Keep Involved form users on the site
+  $('.form-involved').submit(function(event) {
+    event.preventDefault();
+    recipient = $(this).find('input[name="recipient"]').val();
+    subject = $(this).find('input[name="subject"]').val();
+    detail = $(this).find('input[name="detail"]').val();
+    $.post($(this).attr('action'), {
+      recipient: recipient,
+      subject: subject,
+      detail: detail
+    });
+  });
+
+  // Keep Contact form users on the site
+  $('.form-contact').submit(function(event) {
+    event.preventDefault();
+    recipient = $(this).find('input[name="recipient"]').val();
+    subject = $(this).find('select[name="subject"]').val();
+    detail = $(this).find('input[name="detail"]').val();
+    message = $(this).find('textarea[name="message"]').val();
+    $.post($(this).attr('action'), {
+      recipient: recipient,
+      subject: subject,
+      detail: detail,
+      message: message
+    });
+  });
 
 });

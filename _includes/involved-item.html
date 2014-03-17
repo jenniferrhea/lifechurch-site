@@ -14,14 +14,19 @@
         </a>
       </p>
 
-      <form>
-        <input class="recipient" name="recipient" type="hidden" value="{{ item.recipient }}">
-        <input class="title" name="subject" type="hidden" value="{{ item.title }}">
+      <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
+        {% if page.title == "Serving Opportunities" %}
+          <input type="hidden" class="recipient" name="recipient" value="{{ item.recipient }}" />
+          <input type="hidden" class="title" name="subject" value="{{ item.location }} - {{ item.title }}" />
+          {% else %}
+          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+          <input type="hidden" class="title" name="subject" value="{{ location.title }} - {{ item.title }}" />
+        {% endif %}
         <hr />
         <h6>Get Connected</h6>
         <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
-        <input class="details" type="text" placeholder="Email or Phone number" />
-        <input type="button"
+        <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
+        <input type="submit"
                class="button small submit-involved"
                value="Send to LifeChurch.tv"
                onclick="ga('send', 'event', '{{ type }}', 'Click', 'New {{ item.title }}');" />

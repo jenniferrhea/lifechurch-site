@@ -16,35 +16,37 @@ class: header-red contact about
       </div>
 
       <div class="panel">
-        <form>
+        <form class="form-contact" action="http://lifechurch-site-mailer.herokuapp.com/contact" method="post">
+          <input type="hidden" class="recipient" name="recipient" value="interactive@lifechurch.tv" />
+
           <label>How can we help you?</label>
           <p class="detail">Select the option below that best meets your needs.</p>
-          <select>
-            <option>I have a question about giving at LifeChurch.tv.</option>
-            <option>I'm interested in serving at LifeChurch.tv.</option>
-            <option>I'm a church, ministry, or organization leader with questions for the LifeChurch.tv staff team.</option>
-            <option>I'm a member of the media with a question or interview request.</option>
-            <option>I'm having a technical issue with the LifeChurch.tv site.</option>
-            <option>I have a question about a specific LifeChurch.tv location.</option>
-            <option>I'm interested in a job at LifeChurch.tv.</option>
-            <option>I have another need not included in this list.</option>
+          <select name="subject">
+            <option value="Giving Question">I have a question about giving at LifeChurch.tv.</option>
+            <option value="Serving Question">I'm interested in serving at LifeChurch.tv.</option>
+            <option value="Staff Question">I'm a church, ministry, or organization leader with questions for the LifeChurch.tv staff team.</option>
+            <option value="Media Question / Interview Request">I'm a member of the media with a question or interview request.</option>
+            <option value="Site Technical Issue">I'm having a technical issue with the LifeChurch.tv site.</option>
+            <option value="Campus Question">I have a question about a specific LifeChurch.tv location.</option>
+            <option value="Job Question">I'm interested in a job at LifeChurch.tv.</option>
+            <option value="Misc Question">I have another need not included in this list.</option>
           </select>
 
           <hr />
 
           <label>What is your specific question, comment, or issue?</label>
           <p class="detail">The more we know, the better we can help you.</p>
-          <textarea></textarea>
+          <textarea name="message"></textarea>
 
           <hr />
 
           <label>What is the best way to reach you?</label>
           <p class="detail">Please share your email address below. <br /><span class="text-gray">(If you are in the US and it's best to reach you by phone, please share your phone number instead.)</span></p>
-          <input type="text" placeholder="Enter your email address or phone number" />
+          <input name="detail" type="text" placeholder="Enter your email address or phone number" />
 
           <hr />
 
-          <input type="submit" class="button small" value="Submit this contact form" />
+          <input type="submit" class="button small submit-contact" value="Submit this contact form" />
 
           <p class="detail"><em>(We are generally able to respond within one to three days of your request.)</em></p>
 
