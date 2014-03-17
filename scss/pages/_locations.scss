@@ -325,6 +325,15 @@
     border-bottom: 1px solid #eee;
   }
 
+  .magellan-anchor {
+    position: relative;
+    top: -100px;
+
+    @media #{$medium-up} {
+      top: -20px;
+    }
+  }
+
 
 // Page content wrapper
 .tiles {

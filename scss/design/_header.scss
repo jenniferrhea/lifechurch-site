@@ -1,125 +1,33 @@
 // Logo
 
-  // Logo general
-  .logo {
-    @media #{$small-only} {
-      margin-top: -8px;
-    }
+// Logo general
+.logo {
+  width: 185px;
+  height: 20px;
+  background-repeat: no-repeat;
+  @include svg-image('/images/branding/logo-black-black');
+  display: block;
+  text-indent: -999em;
+  position: relative;
+  z-index: 11;
 
+  @media #{$small-only} {
     margin-top: -4px;
-    width: 66px;
-    height: 44px;
-    display: block;
-    position: relative;
-    z-index: 11;
-
-    span {
-      color: inherit;
-    }
   }
-
-  // Logo font icon transitioning
-  .logo:after {
-    @include transition-property(all);
-    @include transition-duration(.25s);
-  }
-
-  // Hide logo title text
-  .logo span {
-    display: block;
-    position: absolute;
-    top: 7px;
-    text-transform: uppercase;
-    left: 52px;
-    font-family: "eurostile", sans-serif;
-    letter-spacing: -1px;
-    color: #000;
-    font-weight: bold;
-    font-size: rem-calc(14);
-
-    @media #{$medium-up} {
-      top: 10px;
-      left: 60px;
-    }
-  }
-
-  // Logo font icon
-  .logo span,
-  .logo:after {
-    color: $body-font-color;
-  }
-
-  .logo:after {
-    content: "\31";
-    text-indent: 0;
-    font-family: 'lctv';
-    font-size: 26px;
-    @media #{$medium-up} {
-      font-size: 30px;
-    }
-  }
-
-  // Logo font icon hover
-  .logo span,
-  .logo:hover:after {
-    color: #555;
-  }
-
+}
 
 // Logo Variations
 
-  // Logo fallback
-  .lt-ie9 .logo {
-    background: url('/images/branding/logomark-black.png') no-repeat;
-
-    &:after {
-      display: none;
-    }
-
-    &:hover {
-      opacity: .7;
-    }
-
-    span {
-      display: block;
-    }
+  // Light logo
+  .header-light .logo {
+    @include svg-image('/images/branding/logo-white-white');
   }
 
 
-  // Light logo
-
-    .header-light .logo:after,
-    .header-light .logo span {
-      color: #fff;
-    }
-
-    // Light logo hover
-    .header-light .logo:hover:after,
-    .header-light .logo:hover span {
-      opacity: 1;
-    }
-
-    // Legacy fallback
-    .lt-ie9 .header-light .logo {
-      background: url('/images/branding/logomark-white.png') no-repeat;
-    }
-
-
   // Red logo
-
-    .header-red .logo:after {
-      color: $red;
-    }
-
-    // Red logo hover
-    .header-red .logo:hover:after {
-      color: darken($red, 10%);
-    }
-
-    // Legacy fallback
-    .lt-ie9 .header-red .logo {
-      background: url('/images/branding/logomark-red.png') no-repeat;
-    }
+  .header-red .logo {
+    @include svg-image('/images/branding/logo-red-black');
+  }
 
 
 // Header Section
