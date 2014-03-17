@@ -307,6 +307,25 @@
   max-width: 1500px;
 }
 
+// Magellan
+
+  .section-locations .sub-nav {
+    text-align: center;
+  }
+
+  .section-locations .sub-nav dt,
+  .section-locations .sub-nav dd,
+  .section-locations .sub-nav li {
+    float: none;
+  }
+
+  .section-locations .fixed {
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #eee;
+  }
+
+
 // Page content wrapper
 .tiles {
   height: 113px;

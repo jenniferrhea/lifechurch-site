@@ -16,10 +16,24 @@ section: locations
     <div class="row">
       <div class="medium-12 columns">
 
+        <a name="location"></a>
+        <div data-magellan-destination="location"></div>
+
         <h1>{{ location.title }}</h1>
 
         <!-- Main content -->
         <div class="location-content-wrapper">
+
+          <div data-magellan-expedition="fixed">
+            <dl class="sub-nav">
+              <dd data-magellan-arrival="location"><a href="#location">Location</a></dd>
+              <dd data-magellan-arrival="times"><a href="#times">Experience Times</a></dd>
+              <dd data-magellan-arrival="serving"><a href="#serving">Serving</a></dd>
+              <dd data-magellan-arrival="lifemissions"><a href="#lifemissions">LifeMissions</a></dd>
+              <dd data-magellan-arrival="lifegroups"><a href="#lifegroups">LifeGroups</a></dd>
+              <dd data-magellan-arrival="chazown"><a href="#chazown">Chazown</a></dd>
+            </dl>
+          </div>
 
           <!-- Content area 1 -->
           <div class="location-content content-1 content-active">
@@ -41,6 +55,9 @@ section: locations
 
           <!-- Content area 2 -->
           <div class="page-section location-content content-2">
+
+            <a name="times"></a>
+            <div data-magellan-destination="times"></div>
 
             <div class="row">
               <div class="medium-12 columns">
@@ -168,9 +185,13 @@ section: locations
             </div>
           </div>
 
-<hr class="large" />
+          <hr class="large" />
+
+          <a name="serving"></a>
+          <div data-magellan-destination="serving"></div>
 
           <div class="location-content content-3">
+
             <div class="row">
               <div class="medium-12 columns">
 
@@ -187,9 +208,14 @@ section: locations
                   </ul>
                 </div>
 
-<hr class="large" />
+                <hr class="large" />
+
+                <a name="lifemissions"></a>
+                <div data-magellan-destination="lifemissions"></div>
 
                 <div class="page-section">
+                  <a name="lifemissions"></a>
+                  <div data-magellan-destination="lifemissions"></div>
                   <h2>Campus LifeMissions</h2>
 
                   <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
@@ -202,11 +228,22 @@ section: locations
                   </ul>
                 </div>
 
-<hr class="large" />
+                <hr class="large" />
 
-                <h2>Local LifeGroups</h2>
+                <a name="lifegroups"></a>
+                <div data-magellan-destination="lifegroups"></div>
+
+                <h2 >Local LifeGroups</h2>
                 <p>Did you know you were designed to thrive in community with other believers and grow better together? LifeGroups are the friends that you grow, laugh and serve with.</p>
                 <p><a href="/lifegroups/" class="action">Learn more about LifeGroups <i class="icon icon-arrow-2"></i></a></p>
+
+                <hr class="large" />
+
+                <a name="chazown"></a>
+                <div data-magellan-destination="chazown"></div>
+
+                <h2 >Chazown bit</h2>
+                <p>Text about Chazown.</p>
 
               </div>
             </div>
