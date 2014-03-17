@@ -1,4 +1,21 @@
 ---
+- id: the-artisan-soul
+  title: The Artisan Soul
+  headline: ''
+  description_small: ''
+  description_medium: We are all artists with the ability to create something beautiful.
+    Every action we take, the love we show, and the relationships we build have the
+    potential to become something meaningful and inspiring. God put creativity in
+    each one of us–with Him, we can release The Artisan Soul in ourselves.
+  quote: ''
+  quote_cite: ''
+  image_small: http://placekitten.com/300/200
+  image_medium: http://placekitten.com/600/400
+  image_large: http://placekitten.com/1200/800
+  messages:
+  - title: Part 1
+    headline: ''
+    video: g5q4shw1mf
 - id: being-rich
   title: Being Rich
   headline: ''
@@ -463,8 +480,8 @@
   image_large: http://placekitten.com/1200/800
   messages:
   - title: Lead Like Jesus
-    headline: 
-    video: 
+    headline: ''
+    video: hsmre66g65
 - id: like-a-child
   title: Like a Child
   headline: 
