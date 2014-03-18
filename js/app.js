@@ -233,15 +233,32 @@ $(function() {
   });
 
   //local storage for locations
-  $('.locations-mycampus').bind("click", function() {
+  $('[data-set-campus]').bind("click", function() {
     if (Modernizr.localstorage) {
-      if(localstorage["myCampus"]) {
-        localStorage["myCampus"] = $(this).data("campus");
-      }
-      else {
-        localstorage.removeItem("myCampus")
-      }
+      localStorage["myCampus"] = $(this).data("set-campus");     
+      $(this).parent().addClass('my-campus'); 
     }  
+  });
+
+  $('[data-unset-campus]').bind("click", function() {
+    if (Modernizr.localstorage) {
+      localStorage.removeItem("myCampus");
+      $(this).parent().removeClass('my-campus');
+    }  
+  });
+
+  //replaces links that should go straight to the campus pages
+  $('[data-my-campus]').each(function(index) {
+    if (Modernizr.localstorage && localStorage["myCampus"]) {
+      $(this).attr('href',"/locations/" + localStorage["myCampus"] + $(this).data("my-campus"));
+    }
+  });
+
+  //show the "not your campus?"" button if this campus is present in localstorage
+  $('[data-set-campus]').each(function(index) {
+    if (Modernizr.localstorage && (localStorage["myCampus"] == $(this).data("set-campus"))) {
+      $(this).parent().addClass('my-campus');
+    }
   });
 
   // Keep Involved form users on the site
@@ -270,12 +287,6 @@ $(function() {
       detail: detail,
       message: message
     });
-  });
-
-  $('[data-my-campus]').each(function(index) {
-    if (Modernizr.localstorage && localStorage["myCampus"]) {
-      $(this).attr('href',"/locations/" + localStorage["myCampus"] + $(this).data("my-campus"));
-    }
   });
 
 });
