@@ -30,6 +30,20 @@ class: header-red section-watch page-watch
     <div class="page-tertiary padded text-left">
       <nav class="tertiary-nav">
         <a class="current" href="#">On Demand</a>
+
+        <script>
+          (function() {
+            var cx = '002176242189043456332:_gc7rgk658s';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+        <gcse:search></gcse:search>
       </nav>
     </div>
   </div>
@@ -54,7 +68,7 @@ class: header-red section-watch page-watch
           </div>
         </a>
       </li>
-      
+
       {% endif %}
       {% endfor %}
       {% endfor %}
