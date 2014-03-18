@@ -30,7 +30,24 @@
 
 // ~2 Locations Overview Page ***************************************
 
+// my campus buttons
+[data-unset-campus] {
+  display: none;
+}
+
+.my-campus {
+  [data-unset-campus] {
+    display: inline-block;    
+  }
+
+  [data-set-campus] {
+    display: none;
+  }
+}
+
 .page-locations {
+
+
 
   // Wrapper around all the large screen location content
   .map-wrapper {
