@@ -5474,30 +5474,37 @@ html {
   z-index: 10;
   -webkit-tap-highlight-color: transparent;
 }
+@media only screen and (max-width: 40em) {
+  /* line 12, ../scss/design/_more.scss */
+  .page-more {
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+  }
+}
 @media only screen and (min-width: 40.063em) {
-  /* line 18, ../scss/design/_more.scss */
+  /* line 23, ../scss/design/_more.scss */
   .page-more .row {
     padding: 5px 0;
   }
-  /* line 22, ../scss/design/_more.scss */
+  /* line 27, ../scss/design/_more.scss */
   .page-more p, .page-more ul li, ul .page-more li {
     margin-top: 10px;
     margin-bottom: 0;
   }
 }
 
-/* line 29, ../scss/design/_more.scss */
+/* line 34, ../scss/design/_more.scss */
 .no-js .page-more {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 34, ../scss/design/_more.scss */
+/* line 39, ../scss/design/_more.scss */
 .js .page-more {
   padding-top: 40px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 34, ../scss/design/_more.scss */
+  /* line 39, ../scss/design/_more.scss */
   .js .page-more {
     padding-top: 0;
     display: none;
@@ -5511,14 +5518,14 @@ html {
   }
 }
 
-/* line 50, ../scss/design/_more.scss */
+/* line 55, ../scss/design/_more.scss */
 .page-more-inner {
   position: relative;
   top: 0;
   background: #fff;
 }
 
-/* line 56, ../scss/design/_more.scss */
+/* line 61, ../scss/design/_more.scss */
 .page-more a {
   display: block;
   margin: 0 -10px;
@@ -5530,27 +5537,27 @@ html {
   border-radius: 4px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 56, ../scss/design/_more.scss */
+  /* line 61, ../scss/design/_more.scss */
   .page-more a {
     padding: 10px;
   }
-  /* line 65, ../scss/design/_more.scss */
+  /* line 70, ../scss/design/_more.scss */
   .page-more a p, .page-more a ul li, ul .page-more a li {
     margin: 0;
   }
 }
 
-/* line 71, ../scss/design/_more.scss */
+/* line 76, ../scss/design/_more.scss */
 .page-more a:hover {
   background: #e7faff;
 }
 
-/* line 77, ../scss/design/_more.scss */
+/* line 82, ../scss/design/_more.scss */
 .page-more-inner p, .page-more-inner ul li, ul .page-more-inner li {
   font-size: 1em;
 }
 
-/* line 82, ../scss/design/_more.scss */
+/* line 87, ../scss/design/_more.scss */
 .page-more-inner h4, .page-more-inner .h4, .page-more-inner .location-tile, .page-more-inner .lifegroups-tile span, .lifegroups-tile .page-more-inner span {
   margin: 7px 0 8px;
 }
@@ -6083,6 +6090,14 @@ html {
   /* line 82, ../scss/design/_buttons.scss */
   .action {
     display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 122, ../scss/design/_buttons.scss */
+  .infoicon {
+    width: 70%;
+    margin: 20px auto;
   }
 }
 

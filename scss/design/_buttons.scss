@@ -116,3 +116,12 @@
       display: inline-block;
     }
   }
+
+
+  // Infoicons
+  .infoicon {
+    @media #{$small-only} {
+      width: 70%;
+      margin: 20px auto;
+    }
+  }

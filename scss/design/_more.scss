@@ -14,6 +14,11 @@
     z-index: 10;
     -webkit-tap-highlight-color: transparent;
 
+    @media #{$small-only} {
+      border-top: 1px solid #ddd;
+      margin-top: 50px;
+    }
+
     @media #{$medium-up} {
       .row {
         padding: 5px 0;
