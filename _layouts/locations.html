@@ -31,8 +31,8 @@ section: locations
               <dd data-magellan-arrival="times"><a href="#times">Experience Times</a></dd>
               <dd data-magellan-arrival="serving"><a href="#serving">Serving</a></dd>
               <dd data-magellan-arrival="lifemissions"><a href="#lifemissions">LifeMissions</a></dd>
+              <dd data-magellan-arrival="events"><a href="#events">Events</a></dd>
               <dd data-magellan-arrival="lifegroups"><a href="#lifegroups">LifeGroups</a></dd>
-              <dd data-magellan-arrival="chazown"><a href="#chazown">Chazown</a></dd>
             </dl>
           </div>
 
@@ -229,24 +229,128 @@ section: locations
                   </ul>
                 </div>
 
-                <hr class="large" />
-
-                <a name="lifegroups"></a>
-                <div class="magellan-anchor" data-magellan-destination="lifegroups"></div>
-
-                <h2>{{ page.title }} LifeGroups</h2>
-                <p>Did you know you were designed to thrive in community with other believers and grow better together? LifeGroups are the friends that you grow, laugh and serve with.</p>
-                <p><a href="/lifegroups/" class="action">Learn more about LifeGroups <i class="icon icon-arrow-2"></i></a></p>
+                <a name="events"></a>
+                <div class="magellan-anchor" data-magellan-destination="events"></div>
 
                 <hr class="large" />
 
-                <a name="chazown"></a>
-                <div class="magellan-anchor" data-magellan-destination="chazown"></div>
+                <h2>{{ page.title }} Events</h2>
 
-                <h2>{{ page.title }} Chazown bit</h2>
-                <p>Text about Chazown.</p>
+                <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
 
+                  <!-- Open Door -->
+                  <li class="item involved-item">
+                    <div class="panel">
+                      <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Open Door" />
+                      <noscript><img src="http://placekitten.com/300/200" alt="Open Door" /></noscript>
+                      <h6>Open Door</h6>
+                      <p class="detail">Description here</p>
+
+                      <div class="cta">
+                        <p>
+                          <a href="#"
+                             class="action small get-involved"
+                             onclick="ga('send', 'event', 'Events', 'Click', 'Expand Open Door');">
+                             Get Involved <i class="icon icon-arrow-2"></i>
+                          </a>
+                        </p>
+
+                        <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
+                          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+                          <input type="hidden" class="title" name="subject" value="{{ location.title }} - Open Door" />
+                          <hr />
+                          <h6>Get Connected</h6>
+                          <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
+                          <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
+                          <input type="submit"
+                                 class="button small submit-involved"
+                                 value="Send to LifeChurch.tv"
+                                 onclick="ga('send', 'event', 'Events', 'Click', 'New Open Door');" />
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Chazown -->
+                  <li class="item involved-item">
+                    <div class="panel">
+                      <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Chazown" />
+                      <noscript><img src="http://placekitten.com/300/200" alt="Chazown" /></noscript>
+                      <h6>Chazown</h6>
+                      <p class="detail">Description here</p>
+
+                      <div class="cta">
+                        <p>
+                          <a href="#"
+                             class="action small get-involved"
+                             onclick="ga('send', 'event', 'Events', 'Click', 'Expand Chazown');">
+                             Get Involved <i class="icon icon-arrow-2"></i>
+                          </a>
+                        </p>
+
+                        <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
+                          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+                          <input type="hidden" class="title" name="subject" value="{{ location.title }} - Chazown" />
+                          <hr />
+                          <h6>Get Connected</h6>
+                          <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
+                          <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
+                          <input type="submit"
+                                 class="button small submit-involved"
+                                 value="Send to LifeChurch.tv"
+                                 onclick="ga('send', 'event', 'Events', 'Click', 'New Chazown');" />
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Baptism -->
+                  <li class="item involved-item">
+                    <div class="panel">
+                      <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Baptism" />
+                      <noscript><img src="http://placekitten.com/300/200" alt="Baptism" /></noscript>
+                      <h6>Baptism</h6>
+                      <p class="detail">Description here</p>
+
+                      <div class="cta">
+                        <p>
+                          <a href="#"
+                             class="action small get-involved"
+                             onclick="ga('send', 'event', 'Events', 'Click', 'Expand Baptism');">
+                             Get Involved <i class="icon icon-arrow-2"></i>
+                          </a>
+                        </p>
+
+                        <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
+                          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+                          <input type="hidden" class="title" name="subject" value="{{ location.title }} - Baptism" />
+                          <hr />
+                          <h6>Get Connected</h6>
+                          <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
+                          <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
+                          <input type="submit"
+                                 class="button small submit-involved"
+                                 value="Send to LifeChurch.tv"
+                                 onclick="ga('send', 'event', 'Events', 'Click', 'New Baptism');" />
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+
+                <hr class="large" />
+
+                <div class="page-section">
+                  <a name="lifegroups"></a>
+                  <div class="magellan-anchor" data-magellan-destination="lifegroups"></div>
+
+                  <h2>{{ page.title }} LifeGroups</h2>
+                  <p>Did you know you were designed to thrive in community with other believers and grow better together? LifeGroups are the friends that you grow, laugh and serve with.</p>
+                  <p><a href="/lifegroups/" class="action">Learn more about LifeGroups <i class="icon icon-arrow-2"></i></a></p>
+                </div>
               </div>
+
             </div>
           </div>
         </div>
