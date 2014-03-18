@@ -518,58 +518,6 @@
       type: konnect
       duration: 120
 
-- id: noc
-  title: NW Oklahoma City Campus
-  description_small: Description about this campus goes right here.
-  address: '5821 NW Expressway Oklahoma City, OK 73132'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
 - id: okc
   title: Oklahoma City OK Campus
   description_small: Description about this campus goes right here.
