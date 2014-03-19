@@ -17,19 +17,24 @@ skrollable: true
 
   <div class="row">
     <div class="large-8 large-centered text-center columns">
+      <a href="#"
+         class="show-for-small button expand"
+         onclick="ga('send', 'event', 'Giving', 'Click', 'General Give');">
+         Sign in to Give
+      </a>
       <p class="lead">We know it changes lives—ours and the people we’re reaching. At LifeChurch.tv, taking action on your generosity is simple.</p>
-      <p>
-        <a href="#"
-           class="action"
-           onclick="ga('send', 'event', 'Giving', 'Click', 'New Give');">
-           Sign up to Give <i class="icon icon-arrow-2"></i>
-        </a>
-        <a href="#"
-           class="action"
-           onclick="ga('send', 'event', 'Giving', 'Click', 'Existing Give');">
-           Log in to Give <i class="icon icon-arrow-2"></i>
-        </a>
-      </p>
+
+      <div class="row">
+        <div class="medium-6 columns medium-centered">
+          <p>
+            <a href="#"
+               class="hide-for-small button large"
+               onclick="ga('send', 'event', 'Giving', 'Click', 'General Give');">
+               Sign in to Give
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -172,8 +177,8 @@ skrollable: true
       <p class="large-padded">
         <a href="#"
            class="action text-black large"
-           onclick="ga('send', 'event', 'Giving', 'Click', 'New Give');">
-           Sign up to Give <i class="icon icon-arrow-2"></i>
+           onclick="ga('send', 'event', 'Giving', 'Click', 'General Give');">
+           Sign in to Give <i class="icon icon-arrow-2"></i>
         </a>
 
         <a href="/giving/ways/"
