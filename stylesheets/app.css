@@ -5948,6 +5948,18 @@ html {
 .no-js .page-footer .footer-social .icon-youtube {
   background-image: url('/images/social/icon-youtube.png?1394477964');
 }
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .page-footer .footer-social .icon-gplus {
+  background-image: url('/images/social/icon-gplus.svg?1395236838');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .page-footer .footer-social .icon-gplus {
+  background-image: url('/images/social/icon-gplus.png?1395236841');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .page-footer .footer-social .icon-gplus {
+  background-image: url('/images/social/icon-gplus.png?1395236841');
+}
 @media only screen and (max-width: 40em) {
   /* line 3, ../scss/design/_footer.scss */
   .page-footer {
@@ -5967,7 +5979,7 @@ html {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 81, ../scss/design/_footer.scss */
+  /* line 85, ../scss/design/_footer.scss */
   .page-footer .columns {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 2em;
@@ -6722,6 +6734,64 @@ input.gsc-search-button:hover {
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .watch-open:before {
   background-image: url('/images/watch/watch-open.png?1392045171');
+}
+
+/* line 71, ../scss/pages/_watch.scss */
+.section-watch .icon-facebook,
+.section-watch .icon-twitter,
+.section-watch .icon-instagram,
+.section-watch .icon-gplus {
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  margin-bottom: 17px;
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .section-watch .icon-facebook {
+  background-image: url('/images/social/icon-facebook.svg?1394478088');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .section-watch .icon-facebook {
+  background-image: url('/images/social/icon-facebook.png?1394478090');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .section-watch .icon-facebook {
+  background-image: url('/images/social/icon-facebook.png?1394478090');
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .section-watch .icon-twitter {
+  background-image: url('/images/social/icon-twitter.svg?1394478040');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .section-watch .icon-twitter {
+  background-image: url('/images/social/icon-twitter.png?1394478067');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .section-watch .icon-twitter {
+  background-image: url('/images/social/icon-twitter.png?1394478067');
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .section-watch .icon-instagram {
+  background-image: url('/images/social/icon-instagram.svg?1394478017');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .section-watch .icon-instagram {
+  background-image: url('/images/social/icon-instagram.png?1394478018');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .section-watch .icon-instagram {
+  background-image: url('/images/social/icon-instagram.png?1394478018');
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .section-watch .icon-gplus {
+  background-image: url('/images/social/icon-gplus.svg?1395236838');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .section-watch .icon-gplus {
+  background-image: url('/images/social/icon-gplus.png?1395236841');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .section-watch .icon-gplus {
+  background-image: url('/images/social/icon-gplus.png?1395236841');
 }
 
 /* line 11, ../scss/pages/_locations.scss */
