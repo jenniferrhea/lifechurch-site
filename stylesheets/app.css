@@ -5425,11 +5425,16 @@ ul li {
 }
 
 /* line 355, ../scss/design/_type.scss */
+.detail li, ul li li {
+  margin-bottom: 0;
+}
+
+/* line 360, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 364, ../scss/design/_type.scss */
+/* line 369, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5438,12 +5443,12 @@ ul li {
   font-weight: 300;
 }
 
-/* line 370, ../scss/design/_type.scss */
+/* line 375, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 376, ../scss/design/_type.scss */
+/* line 381, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2,
@@ -8564,33 +8569,34 @@ input.gsc-search-button:hover {
   }
   /* line 62, ../scss/pages/_kids.scss */
   .kids .kids-lifekids {
-    height: 400px;
+    height: 500px;
   }
   /* line 66, ../scss/pages/_kids.scss */
   .kids .kids-konnect {
     height: 400px;
+    margin-top: 100px !important;
   }
-  /* line 70, ../scss/pages/_kids.scss */
+  /* line 71, ../scss/pages/_kids.scss */
   .kids .kids-roots {
     height: 100px;
   }
-  /* line 73, ../scss/pages/_kids.scss */
+  /* line 74, ../scss/pages/_kids.scss */
   .kids .kids-roots h4, .kids .kids-roots .h4, .kids .kids-roots .location-tile, .kids .kids-roots .lifegroups-tile span, .lifegroups-tile .kids .kids-roots span {
     margin-top: -10px;
   }
-  /* line 78, ../scss/pages/_kids.scss */
+  /* line 79, ../scss/pages/_kids.scss */
   .kids .kids-loop {
     height: 200px;
   }
-  /* line 81, ../scss/pages/_kids.scss */
+  /* line 82, ../scss/pages/_kids.scss */
   .kids .kids-loop h4, .kids .kids-loop .h4, .kids .kids-loop .location-tile, .kids .kids-loop .lifegroups-tile span, .lifegroups-tile .kids .kids-loop span {
     margin-top: -10px;
   }
-  /* line 86, ../scss/pages/_kids.scss */
+  /* line 87, ../scss/pages/_kids.scss */
   .kids .kids-switch {
     height: 600px;
   }
-  /* line 90, ../scss/pages/_kids.scss */
+  /* line 91, ../scss/pages/_kids.scss */
   .kids .grade-list strong {
     position: absolute;
     top: -25px;
@@ -8598,19 +8604,19 @@ input.gsc-search-button:hover {
     width: 70px;
     text-transform: uppercase;
   }
-  /* line 98, ../scss/pages/_kids.scss */
+  /* line 99, ../scss/pages/_kids.scss */
   .kids .kids-grid {
     padding-top: 30px;
   }
-  /* line 102, ../scss/pages/_kids.scss */
+  /* line 103, ../scss/pages/_kids.scss */
   .kids .grade-list span {
-    height: 75px;
+    height: 100px;
     display: block;
     border-top: 1px solid #bbb;
     color: #777;
     font-size: 14px;
   }
-  /* line 110, ../scss/pages/_kids.scss */
+  /* line 111, ../scss/pages/_kids.scss */
   .kids .kids-call {
     margin: 150px 0 0 30px;
     display: block;
@@ -8618,32 +8624,33 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 118, ../scss/pages/_kids.scss */
+  /* line 119, ../scss/pages/_kids.scss */
   .kids .panel h4, .kids .panel .h4, .kids .panel .location-tile, .kids .panel .lifegroups-tile span, .lifegroups-tile .kids .panel span {
     width: 110px;
     height: 53px;
   }
-  /* line 123, ../scss/pages/_kids.scss */
+  /* line 124, ../scss/pages/_kids.scss */
   .kids .kids-lifekids {
-    height: 300px;
+    height: 375px;
   }
-  /* line 127, ../scss/pages/_kids.scss */
+  /* line 128, ../scss/pages/_kids.scss */
   .kids .kids-konnect {
     height: 300px;
+    margin-top: 75px !important;
   }
-  /* line 131, ../scss/pages/_kids.scss */
+  /* line 133, ../scss/pages/_kids.scss */
   .kids .kids-roots {
     height: 75px;
   }
-  /* line 135, ../scss/pages/_kids.scss */
+  /* line 137, ../scss/pages/_kids.scss */
   .kids .kids-loop {
     height: 150px;
   }
-  /* line 139, ../scss/pages/_kids.scss */
+  /* line 141, ../scss/pages/_kids.scss */
   .kids .kids-switch {
     height: 450px;
   }
-  /* line 143, ../scss/pages/_kids.scss */
+  /* line 145, ../scss/pages/_kids.scss */
   .kids .grade-list strong {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -8654,7 +8661,7 @@ input.gsc-search-button:hover {
     text-align: right;
     top: 27px;
   }
-  /* line 154, ../scss/pages/_kids.scss */
+  /* line 156, ../scss/pages/_kids.scss */
   .kids .grade-list span {
     height: 75px;
   }
