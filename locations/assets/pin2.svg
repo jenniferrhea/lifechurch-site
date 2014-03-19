@@ -2,7 +2,13 @@
 <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20.5 34" enable-background="new 0 0 20.5 34" xml:space="preserve">
-<rect x="9.2" y="19" fill="#DBD2D1" width="2" height="15"/>
-<circle fill="#E58E1A" cx="10.2" cy="10.3" r="9.5"/>
+	 viewBox="-3.9 -1.1 28.3 35.1" enable-background="new -3.9 -1.1 28.3 35.1" xml:space="preserve">
+<circle fill="#B9252D" cx="10.2" cy="10.3" r="9.5"/>
+<path fill="#DBD2D1" d="M10.2,20.8c-0.3,0-0.7,0-1-0.1V34h2V20.7C10.8,20.8,10.5,20.8,10.2,20.8z"/>
+<path fill="#B9252D" d="M-0.3,10.3c0-5.4,4.1-9.9,9.3-10.4c-1.2-0.6-2.6-1-4-1c-4.9,0-8.9,4-8.9,8.9c0,3.6,2.1,6.7,5.2,8.1
+	C0.3,14.3-0.3,12.3-0.3,10.3z"/>
+<path fill="#DBD2D1" d="M4,18.8V31h1.9V19.9C5.3,19.6,4.6,19.2,4,18.8z"/>
+<path fill="#B9252D" d="M20.8,10.3c0-5.4-4.1-9.9-9.3-10.4c1.2-0.6,2.6-1,4-1c4.9,0,8.9,4,8.9,8.9c0,3.6-2.1,6.7-5.2,8.1
+	C20.2,14.3,20.8,12.3,20.8,10.3z"/>
+<path fill="#DBD2D1" d="M16.5,18.8V31h-1.9V19.9C15.2,19.6,15.9,19.2,16.5,18.8z"/>
 </svg>

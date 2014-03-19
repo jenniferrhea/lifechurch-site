@@ -37,7 +37,7 @@
 
 .my-campus {
   [data-unset-campus] {
-    display: inline-block;    
+    display: inline-block;
   }
 
   [data-set-campus] {
@@ -218,7 +218,7 @@
     // List box styles for Stillwater
     .map-list-stillwater {
       left: 50%;
-      top: 230px;
+      top: 210px;
       margin-left: -40px;
 
       &:after {
@@ -297,7 +297,7 @@
 
       .pin-stillwater {
         margin-left: -22px;
-        top: 180px;
+        top: 160px;
       }
 
       .pin-keller {

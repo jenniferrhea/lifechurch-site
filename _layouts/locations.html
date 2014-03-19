@@ -30,9 +30,9 @@ section: locations
               <dd data-magellan-arrival="location"><a href="#location">Location</a></dd>
               <dd data-magellan-arrival="times"><a href="#times">Service Times</a></dd>
               <dd data-magellan-arrival="serving"><a href="#serving">Serving</a></dd>
-              <dd data-magellan-arrival="lifemissions"><a href="#lifemissions">LifeMissions</a></dd>
+              <dd data-magellan-arrival="localpartners"><a href="#localpartners">Local Partners</a></dd>
               <dd data-magellan-arrival="events"><a href="#events">Events</a></dd>
-              <dd data-magellan-arrival="lifegroups"><a href="#lifegroups">LifeGroups</a></dd>
+              <dd data-magellan-arrival="connect"><a href="#connect">Connect</a></dd>
             </dl>
           </div>
 
@@ -50,7 +50,7 @@ section: locations
               <a href="http://maps.google.com/?q={{ location.address }}" class="small action stack">Get Directions <i class="icon icon-arrow-2"></i></a>
               <br class="hide-for-small" />
               <br class="hide-for-small" />
-              <a class="action small" href="/contact/">Contact Us <i class="icon icon-arrow-2"></i></a>
+              <a class="action small" href="#contact">Facebook Page <i class="icon icon-arrow-2"></i></a>
             </div>
           </div>
 
@@ -61,9 +61,13 @@ section: locations
             <div class="magellan-anchor" data-magellan-destination="times"></div>
 
             <div class="row">
-              <div class="medium-12 columns">
+              <div class="large-8 large-centered text-center columns">
                 <h2>{{ page.title }} Service Times</h2>
+              </div>
+            </div>
 
+            <div class="row padded">
+              <div class="medium-12 columns">
                 <!-- Legend -->
                 <ul class="inline-list">
                   <li class="calendar-key key-lifechurch">
@@ -197,7 +201,15 @@ section: locations
               <div class="medium-12 columns">
 
                 <div class="page-section">
-                  <h2>{{ page.title }} Serving Opportunities</h2>
+
+                  <div class="row">
+                    <div class="large-8 large-centered text-center columns">
+                      <h2>{{ page.title }} Serving Opportunities</h2>
+                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lipwig nigel mansell devilish cad robert winston cappuccino collector sportacus ron jeremy.</p>
+                    </div>
+                  </div>
+
+                  <div class="row padded">
 
                   <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
                     {% for item in site.data.serving %}
@@ -215,9 +227,18 @@ section: locations
                 <div class="magellan-anchor" data-magellan-destination="lifemissions"></div>
 
                 <div class="page-section">
-                  <a name="lifemissions"></a>
-                  <div data-magellan-destination="lifemissions"></div>
-                  <h2>{{ page.title }} LifeMissions</h2>
+
+
+                  <div class="row">
+                    <div class="large-8 large-centered text-center columns">
+                      <a name="localpartners"></a>
+                      <div data-magellan-destination="localpartners"></div>
+                      <h2>{{ page.title }} Local Partners</h2>
+                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lipwig nigel mansell devilish cad robert winston cappuccino collector sportacus ron jeremy.</p>
+                    </div>
+                  </div>
+
+                  <div class="row padded">
 
                   <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
                     {% for item in site.data.missions %}
@@ -234,9 +255,21 @@ section: locations
 
                 <hr class="large" />
 
-                <h2>{{ page.title }} Events</h2>
+                <div class="row">
+                  <div class="large-8 large-centered text-center columns">
+                    <a name="events"></a>
+                    <div data-magellan-destination="events"></div>
+                    <h2>{{ page.title }} Events</h2>
 
-                <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+                    <p>Social links can either go here (since events are on Facebook) or in with the bit below (if here, the below bit would be called "Contact" instead).
+
+                  </div>
+                </div>
+
+
+
+
+                <ul class="padded small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
 
                   <!-- Open Door -->
                   <li class="item involved-item">
@@ -341,32 +374,39 @@ section: locations
 
                 <hr class="large" />
 
+                <a name="connect"></a>
+                <div class="magellan-anchor" data-magellan-destination="connect"></div>
+
                 <div class="page-section">
-                  <a name="lifegroups"></a>
-                  <div class="magellan-anchor" data-magellan-destination="lifegroups"></div>
+                  <div class="row">
+                    <div class="medium-8 medium-centered columns text-center">
+                      <h2>Connect with {{ location.title }}</h2>
+                      <p>Text here about getting in touch with the campus, and helping answer questions etc.</p>
 
-                  <h2>{{ page.title }} LifeGroups</h2>
-                  <p>Did you know you were designed to thrive in community with other believers and grow better together? LifeGroups are the friends that you grow, laugh and serve with.</p>
-                  <p>
-                    <a href="#"
-                       class="action"
-                       onclick="ga('send', 'event', 'Locations', 'Click', 'New LifeGroup');">
-                       Find your LifeGroup <i class="icon icon-arrow-2"></i>
-                    </a>
+                      <p><a href="#" class="action">Connect with us on Facebook <i class="icon-arrow-2"></i></a></p>
 
-                    <a href="#"
-                       class="action"
-                       onclick="ga('send', 'event', 'Locations', 'Click', 'Start LifeGroup');">
-                       Start a LifeGroup <i class="icon icon-arrow-2"></i>
-                    </a>
+                      <br />
+                      <div class="panel text-left">
+                        <form class="locations-contact-form">
+                          <h3>Ask us a question</h3><br />
+                          <label>What is your specific question, comment, or issue?</label>
+                          <p class="detail">The more we know, the better we can help you.</p>
+                          <textarea type="text" placeholder="Your message"></textarea>
+                          <hr />
+                          <label>What is the best way to reach you?</label>
+                          <p class="detail">Please share your email address below. <span class="text-gray">(If you are in the US and it's best to reach you by phone, please share your phone number instead.)</span></p>
+                          <input name="detail" type="text" placeholder="Enter your email address or phone number" />
+                          <hr />
+                          <input type="submit" class="button small submit-contact" value="Submit this contact form" />
+                          <p class="detail"><em>(We are generally able to respond within one to three days of your request.)</em></p>
+                        </form>
+                      </div>
 
-                    <a href="/lifegroups/"
-                       class="action"
-                       onclick="ga('send', 'event', 'Locations', 'Click', 'Info LifeGroup');">
-                       Learn more about LifeGroups <i class="icon icon-arrow-2"></i>
-                    </a>
-                  </p>
+                    </div>
+                  </div>
+
                 </div>
+
               </div>
 
             </div>

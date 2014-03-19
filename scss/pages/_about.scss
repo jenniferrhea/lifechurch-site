@@ -1,42 +1,4 @@
 .who-we-are {
-
-  // Position the headline to accomodate those feature images
-  h1 {
-    padding-top: 70px;
-    @media #{$medium-up} {
-      padding-top: 100px;
-    }
-  }
-
-  // Hold those absolutely positioned images in place
-  .row { position: relative; }
-
-  // Feature image
-  .about-bike {
-    background: url('/images/about/about-bike.png') no-repeat;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: -20px;
-
-    @media #{$small-only} {
-      background-size: 200px auto;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-    }
-
-    @media #{$medium-up} {
-      width: 496px;
-      height: 236px;
-      top: -120px;
-      right: 0;
-    }
-
-    @media #{$large-up} {
-      right: -100px;
-    }
-  }
 }
 
 
