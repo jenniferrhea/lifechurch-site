@@ -202,7 +202,7 @@ section: locations
                   <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
                     {% for item in site.data.serving %}
                     {% if item.location == "Campus" %}
-                    {% capture type %}Serving{% endcapture %}
+                    {% capture type %}Locations{% endcapture %}
                     {% include involved-item.html %}
                     {% endif %}
                     {% endfor %}
@@ -222,7 +222,7 @@ section: locations
                   <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
                     {% for item in site.data.missions %}
                     {% if item.location == page.location-id %}
-                    {% capture type %}Missions{% endcapture %}
+                    {% capture type %}Locations{% endcapture %}
                     {% include involved-item.html %}
                     {% endif %}
                     {% endfor %}
@@ -250,7 +250,7 @@ section: locations
                         <p>
                           <a href="#"
                              class="action small get-involved"
-                             onclick="ga('send', 'event', 'Events', 'Click', 'Expand Open Door');">
+                             onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Open Door');">
                              Get Involved <i class="icon icon-arrow-2"></i>
                           </a>
                         </p>
@@ -265,7 +265,7 @@ section: locations
                           <input type="submit"
                                  class="button small submit-involved"
                                  value="Send to LifeChurch.tv"
-                                 onclick="ga('send', 'event', 'Events', 'Click', 'New Open Door');" />
+                                 onclick="ga('send', 'event', 'Locations', 'Click', 'New Open Door');" />
                         </form>
                       </div>
                     </div>
@@ -283,7 +283,7 @@ section: locations
                         <p>
                           <a href="#"
                              class="action small get-involved"
-                             onclick="ga('send', 'event', 'Events', 'Click', 'Expand Chazown');">
+                             onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Chazown');">
                              Get Involved <i class="icon icon-arrow-2"></i>
                           </a>
                         </p>
@@ -298,7 +298,7 @@ section: locations
                           <input type="submit"
                                  class="button small submit-involved"
                                  value="Send to LifeChurch.tv"
-                                 onclick="ga('send', 'event', 'Events', 'Click', 'New Chazown');" />
+                                 onclick="ga('send', 'event', 'Locations', 'Click', 'New Chazown');" />
                         </form>
                       </div>
                     </div>
@@ -316,7 +316,7 @@ section: locations
                         <p>
                           <a href="#"
                              class="action small get-involved"
-                             onclick="ga('send', 'event', 'Events', 'Click', 'Expand Baptism');">
+                             onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Baptism');">
                              Get Involved <i class="icon icon-arrow-2"></i>
                           </a>
                         </p>
@@ -331,7 +331,7 @@ section: locations
                           <input type="submit"
                                  class="button small submit-involved"
                                  value="Send to LifeChurch.tv"
-                                 onclick="ga('send', 'event', 'Events', 'Click', 'New Baptism');" />
+                                 onclick="ga('send', 'event', 'Locations', 'Click', 'New Baptism');" />
                         </form>
                       </div>
                     </div>
@@ -347,7 +347,25 @@ section: locations
 
                   <h2>{{ page.title }} LifeGroups</h2>
                   <p>Did you know you were designed to thrive in community with other believers and grow better together? LifeGroups are the friends that you grow, laugh and serve with.</p>
-                  <p><a href="/lifegroups/" class="action">Learn more about LifeGroups <i class="icon icon-arrow-2"></i></a></p>
+                  <p>
+                    <a href="#"
+                       class="action"
+                       onclick="ga('send', 'event', 'Locations', 'Click', 'New LifeGroup');">
+                       Find your LifeGroup <i class="icon icon-arrow-2"></i>
+                    </a>
+
+                    <a href="#"
+                       class="action"
+                       onclick="ga('send', 'event', 'Locations', 'Click', 'Start LifeGroup');">
+                       Start a LifeGroup <i class="icon icon-arrow-2"></i>
+                    </a>
+
+                    <a href="/lifegroups/"
+                       class="action"
+                       onclick="ga('send', 'event', 'Locations', 'Click', 'Info LifeGroup');">
+                       Learn more about LifeGroups <i class="icon icon-arrow-2"></i>
+                    </a>
+                  </p>
                 </div>
               </div>
 
