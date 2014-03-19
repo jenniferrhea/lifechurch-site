@@ -8225,6 +8225,12 @@ input.gsc-search-button:hover {
     background-image: url("/images/digital-missions/dm-bg@2x.jpg");
   }
 }
+@media only screen and (max-width: 40em) {
+  /* line 153, ../scss/pages/_giving.scss */
+  .digital-missions .biblekids {
+    margin-top: -180px;
+  }
+}
 
 /* line 5, ../scss/pages/_lifegroups.scss */
 .section-lifegroups-top {

@@ -149,4 +149,14 @@
       background-size: 1500px 450px;
       background-position: center bottom;
     }
+
+    .biblekids {
+      @media #{$small-only} {
+        margin-top: -180px;
+      }
+    }
+
+
+
+
   }
