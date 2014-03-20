@@ -11,419 +11,435 @@ section: locations
 
   <figure class="hphoto hphoto-top locations-hero" data-stellar-background-ratio="0.9"></figure>
 
-  <!-- Main content wrapper -->
-  <section class="page-section section-last">
+  <!-- Header section -->
+  <div class="row padded">
+    <div class="medium-12 columns text-center">
 
+      <!-- Location magellan link at the top -->
+      <a name="location"></a>
+      <div class="magellan-anchor" data-magellan-destination="location"></div>
+
+      <!-- Campus title -->
+      <h1>{{ location.title }}</h1>
+
+      <!-- Page Links -->
+      <div data-magellan-expedition="fixed">
+        <dl class="sub-nav">
+          <dd data-magellan-arrival="location"><a href="#location">Location</a></dd>
+          <dd data-magellan-arrival="times"><a href="#times">Service Times</a></dd>
+          <dd data-magellan-arrival="serving"><a href="#serving">Serving</a></dd>
+          <dd data-magellan-arrival="localpartners"><a href="#localpartners">Local Partners</a></dd>
+          <dd data-magellan-arrival="events"><a href="#events">Events</a></dd>
+          <dd data-magellan-arrival="connect"><a href="#connect">Connect</a></dd>
+        </dl>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Location section -->
+  <section class="page-section">
     <div class="row">
       <div class="medium-12 columns">
 
-        <a name="location"></a>
-        <div class="magellan-anchor" data-magellan-destination="location"></div>
+        <!-- Map -->
+        <div class="locations-map">
+          <!-- Map pin -->
+          <div class="pin"></div>
 
-        <h1>{{ location.title }}</h1>
-
-        <!-- Main content -->
-        <div class="location-content-wrapper">
-
-          <div data-magellan-expedition="fixed">
-            <dl class="sub-nav">
-              <dd data-magellan-arrival="location"><a href="#location">Location</a></dd>
-              <dd data-magellan-arrival="times"><a href="#times">Service Times</a></dd>
-              <dd data-magellan-arrival="serving"><a href="#serving">Serving</a></dd>
-              <dd data-magellan-arrival="localpartners"><a href="#localpartners">Local Partners</a></dd>
-              <dd data-magellan-arrival="events"><a href="#events">Events</a></dd>
-              <dd data-magellan-arrival="connect"><a href="#connect">Connect</a></dd>
-            </dl>
+          <!-- Map address -->
+          <div class="address">
+            {{ location.address }}
+            <br />
+            <br />
+            <a href="http://maps.google.com/?q={{ location.address }}" class="small action stack">Get Directions <i class="icon icon-arrow-2"></i></a>
+            <br class="hide-for-small" />
+            <br class="hide-for-small" />
+            <a class="action small" href="#">Facebook Page <i class="icon icon-arrow-2"></i></a>
           </div>
+        </div>
 
-          <!-- Content area 1 -->
-          <div class="location-content content-1 content-active">
+      </div>
+    </div>
+  </section>
 
-            <!-- Map pin -->
-            <div class="pin"></div>
 
-            <!-- Map address -->
-            <div class="address">
-              {{ location.address }}
-              <br />
-              <br />
-              <a href="http://maps.google.com/?q={{ location.address }}" class="small action stack">Get Directions <i class="icon icon-arrow-2"></i></a>
-              <br class="hide-for-small" />
-              <br class="hide-for-small" />
-              <a class="action small" href="#">Facebook Page <i class="icon icon-arrow-2"></i></a>
-            </div>
+  <!-- Times section -->
+  <a name="times"></a>
+  <div class="magellan-anchor" data-magellan-destination="times"></div>
+
+  <section class="page-section">
+    <div class="row">
+      <div class="medium-12 columns">
+        <!-- Title -->
+        <div class="row">
+          <div class="large-8 large-centered text-center columns">
+            <h2>{{ page.title }} Service Times</h2>
           </div>
+        </div>
 
-          <!-- Content area 2 -->
-          <div class="page-section location-content content-2">
+        <!-- Content -->
+        <div class="row padded">
+          <div class="medium-12 columns">
+            <!-- Legend -->
+            <ul class="inline-list">
+              <li class="calendar-key key-lifechurch">
+                <figure></figure>
+                <a href="/watch/">LifeChurch.tv Service</a>
+              </li>
 
-            <a name="times"></a>
-            <div class="magellan-anchor" data-magellan-destination="times"></div>
+              <li class="calendar-key key-switch">
+                <figure></figure>
+                <a href="/kids/#switch">Switch Youth Ministries</a>
+              </li>
 
-            <div class="row">
-              <div class="large-8 large-centered text-center columns">
-                <h2>{{ page.title }} Service Times</h2>
-              </div>
-            </div>
+              <li class="calendar-key key-konnect">
+                <figure></figure>
+                <a href="/kids/#lifekids">LifeKids / Loop Ministries</a>
+              </li>
+            </ul>
 
-            <div class="row padded">
-              <div class="medium-12 columns">
-                <!-- Legend -->
-                <ul class="inline-list">
-                  <li class="calendar-key key-lifechurch">
-                    <figure></figure>
-                    <a href="/watch/">LifeChurch.tv Service</a>
-                  </li>
+            <!-- The calendar -->
+            <div class="days-times">
+              <section class="experience">
 
-                  <li class="calendar-key key-switch">
-                    <figure></figure>
-                    <a href="/kids/#switch">Switch Youth Ministries</a>
-                  </li>
-
-                  <li class="calendar-key key-konnect">
-                    <figure></figure>
-                    <a href="/kids/#lifekids">LifeKids / Loop Ministries</a>
-                  </li>
-                </ul>
-
-                <!-- The calendar -->
-                <div class="days-times">
-                  <section class="experience">
-
-                    <!-- Time Lines -->
-                    <div class="day time-lines hide-for-small">
-                      <div class="time time-07-00"><label>7<span>AM</span></label><div class="time-line"></div></div>
-                      <div class="time time-08-00"><label>8<span>AM</span></label><div class="time-line"></div></div>
-                      <div class="time time-09-00"><label>9<span>AM</span></label><div class="time-line"></div></div>
-                      <div class="time time-10-00"><label>10<span>AM</span></label><div class="time-line"></div></div>
-                      <div class="time time-11-00"><label>11<span>AM</span></label><div class="time-line"></div></div>
-                      <div class="time time-12-00"><label>12<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-13-00"><label>1<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-14-00"><label>2<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-15-00"><label>3<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-16-00"><label>4<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-17-00"><label>5<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-18-00"><label>6<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-19-00"><label>7<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-20-00"><label>8<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-21-00"><label>9<span>PM</span></label><div class="time-line"></div></div>
-                      <div class="time time-22-00"><label>10<span>PM</span></label><div class="time-line"></div></div>
-                    </div>
-
-                    <!-- Saturday Times -->
-                    <div class="day saturday">
-                      <ul class="times">
-                        <li class="time duration-240">
-                          <label>Saturdays</label>
-                        </li>
-
-                        {% for time in location.times %}
-                        {% if time.day == 'sat' %}
-                          <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
-
-                            <span class="calendar-key key-{{ time.type }} show-for-small">
-                              <figure></figure>
-                            </span>
-
-                            <span class="time-box">
-                              <span class="time-box-time">{{ time.title }}</span>
-                              <span class="time-box-duration"> ({{ time.duration }} mins)</span>
-                            </span>
-                          </li>
-                        {% endif %}
-                        {% endfor %}
-                      </ul>
-                    </div>
-
-                    <!-- Sunday Times -->
-                    <div class="day sunday">
-                      <ul class="times">
-                        <li class="time duration-240">
-                          <label>Sundays</label>
-                        </li>
-
-                        {% for time in location.times %}
-                        {% if time.day == 'sun' %}
-                          <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
-
-                            <span class="calendar-key key-{{ time.type }} show-for-small">
-                              <figure></figure>
-                            </span>
-
-                            <span class="time-box">
-                              <span class="time-box-time">{{ time.title }}</span>
-                              <span class="time-box-duration"> ({{ time.duration }} mins)</span>
-                            </span>
-                          </li>
-                        {% endif %}
-                        {% endfor %}
-                      </ul>
-                    </div>
-
-                    <!-- Wednesday Times -->
-                    <div class="day wednesday">
-                      <ul class="times">
-                        <li class="time duration-240">
-                          <label>Wednesdays</label>
-                        </li>
-
-                        {% for time in location.times %}
-                        {% if time.day == 'wed' %}
-                          <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
-
-                            <span class="calendar-key key-{{ time.type }} show-for-small">
-                              <figure></figure>
-                            </span>
-
-                            <span class="time-box">
-                              <span class="time-box-time">{{ time.title }}</span>
-                              <span class="time-box-duration"> ({{ time.duration }} mins)</span>
-                            </span>
-                          </li>
-                        {% endif %}
-                        {% endfor %}
-                      </ul>
-                    </div>
-                  </section>
+                <!-- Time Lines -->
+                <div class="day time-lines hide-for-small">
+                  <div class="time time-07-00"><label>7<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-08-00"><label>8<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-09-00"><label>9<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-10-00"><label>10<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-11-00"><label>11<span>AM</span></label><div class="time-line"></div></div>
+                  <div class="time time-12-00"><label>12<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-13-00"><label>1<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-14-00"><label>2<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-15-00"><label>3<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-16-00"><label>4<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-17-00"><label>5<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-18-00"><label>6<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-19-00"><label>7<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-20-00"><label>8<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-21-00"><label>9<span>PM</span></label><div class="time-line"></div></div>
+                  <div class="time time-22-00"><label>10<span>PM</span></label><div class="time-line"></div></div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <hr class="large" />
+                <!-- Saturday Times -->
+                <div class="day saturday">
+                  <ul class="times">
+                    <li class="time duration-240">
+                      <label>Saturdays</label>
+                    </li>
 
-          <a name="serving"></a>
-          <div class="magellan-anchor" data-magellan-destination="serving"></div>
+                    {% for time in location.times %}
+                    {% if time.day == 'sat' %}
+                      <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
 
-          <div class="location-content content-3">
+                        <span class="calendar-key key-{{ time.type }} show-for-small">
+                          <figure></figure>
+                        </span>
 
-            <div class="row">
-              <div class="medium-12 columns">
-
-                <div class="page-section">
-
-                  <div class="row">
-                    <div class="large-8 large-centered text-center columns">
-                      <h2>{{ page.title }} Serving Opportunities</h2>
-                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lipwig nigel mansell devilish cad robert winston cappuccino collector sportacus ron jeremy.</p>
-                    </div>
-                  </div>
-
-                  <div class="row padded">
-
-                  <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-                    {% for item in site.data.serving %}
-                    {% if item.location == "Campus" %}
-                    {% capture type %}Locations{% endcapture %}
-                    {% include involved-item.html %}
+                        <span class="time-box">
+                          <span class="time-box-time">{{ time.title }}</span>
+                          <span class="time-box-duration"> ({{ time.duration }} mins)</span>
+                        </span>
+                      </li>
                     {% endif %}
                     {% endfor %}
                   </ul>
                 </div>
 
-                <hr class="large" />
+                <!-- Sunday Times -->
+                <div class="day sunday">
+                  <ul class="times">
+                    <li class="time duration-240">
+                      <label>Sundays</label>
+                    </li>
 
-                <a name="lifemissions"></a>
-                <div class="magellan-anchor" data-magellan-destination="lifemissions"></div>
+                    {% for time in location.times %}
+                    {% if time.day == 'sun' %}
+                      <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
 
-                <div class="page-section">
+                        <span class="calendar-key key-{{ time.type }} show-for-small">
+                          <figure></figure>
+                        </span>
 
-
-                  <div class="row">
-                    <div class="large-8 large-centered text-center columns">
-                      <a name="localpartners"></a>
-                      <div data-magellan-destination="localpartners"></div>
-                      <h2>{{ page.title }} Local Partners</h2>
-                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lipwig nigel mansell devilish cad robert winston cappuccino collector sportacus ron jeremy.</p>
-                    </div>
-                  </div>
-
-                  <div class="row padded">
-
-                  <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-                    {% for item in site.data.missions %}
-                    {% if item.location == page.location-id %}
-                    {% capture type %}Locations{% endcapture %}
-                    {% include involved-item.html %}
+                        <span class="time-box">
+                          <span class="time-box-time">{{ time.title }}</span>
+                          <span class="time-box-duration"> ({{ time.duration }} mins)</span>
+                        </span>
+                      </li>
                     {% endif %}
                     {% endfor %}
                   </ul>
                 </div>
 
-                <a name="events"></a>
-                <div class="magellan-anchor" data-magellan-destination="events"></div>
+                <!-- Wednesday Times -->
+                <div class="day wednesday">
+                  <ul class="times">
+                    <li class="time duration-240">
+                      <label>Wednesdays</label>
+                    </li>
 
-                <hr class="large" />
+                    {% for time in location.times %}
+                    {% if time.day == 'wed' %}
+                      <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
 
-                <div class="row">
-                  <div class="large-8 large-centered text-center columns">
-                    <a name="events"></a>
-                    <div data-magellan-destination="events"></div>
-                    <h2>{{ page.title }} Events</h2>
+                        <span class="calendar-key key-{{ time.type }} show-for-small">
+                          <figure></figure>
+                        </span>
 
-                    <p>Social links can either go here (since events are on Facebook) or in with the bit below (if here, the below bit would be called "Contact" instead).
-
-                  </div>
+                        <span class="time-box">
+                          <span class="time-box-time">{{ time.title }}</span>
+                          <span class="time-box-duration"> ({{ time.duration }} mins)</span>
+                        </span>
+                      </li>
+                    {% endif %}
+                    {% endfor %}
+                  </ul>
                 </div>
-
-
-
-
-                <ul class="padded small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-
-                  <!-- Open Door -->
-                  <li class="item involved-item">
-                    <div class="panel">
-                      <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Open Door" />
-                      <noscript><img src="http://placekitten.com/300/200" alt="Open Door" /></noscript>
-                      <h6>Open Door</h6>
-                      <p class="detail">Description here</p>
-
-                      <div class="cta">
-                        <p>
-                          <a href="#"
-                             class="action small get-involved"
-                             onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Open Door');">
-                             Get Involved <i class="icon icon-arrow-2"></i>
-                          </a>
-                        </p>
-
-                        <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
-                          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
-                          <input type="hidden" class="title" name="subject" value="{{ location.title }} - Open Door" />
-                          <hr />
-                          <h6>Get Connected</h6>
-                          <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
-                          <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
-                          <input type="submit"
-                                 class="button small submit-involved"
-                                 value="Send to LifeChurch.tv"
-                                 onclick="ga('send', 'event', 'Locations', 'Click', 'New Open Door');" />
-                        </form>
-                      </div>
-                    </div>
-                  </li>
-
-                  <!-- Chazown -->
-                  <li class="item involved-item">
-                    <div class="panel">
-                      <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Chazown" />
-                      <noscript><img src="http://placekitten.com/300/200" alt="Chazown" /></noscript>
-                      <h6>Chazown</h6>
-                      <p class="detail">Description here</p>
-
-                      <div class="cta">
-                        <p>
-                          <a href="#"
-                             class="action small get-involved"
-                             onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Chazown');">
-                             Get Involved <i class="icon icon-arrow-2"></i>
-                          </a>
-                        </p>
-
-                        <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
-                          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
-                          <input type="hidden" class="title" name="subject" value="{{ location.title }} - Chazown" />
-                          <hr />
-                          <h6>Get Connected</h6>
-                          <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
-                          <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
-                          <input type="submit"
-                                 class="button small submit-involved"
-                                 value="Send to LifeChurch.tv"
-                                 onclick="ga('send', 'event', 'Locations', 'Click', 'New Chazown');" />
-                        </form>
-                      </div>
-                    </div>
-                  </li>
-
-                  <!-- Baptism -->
-                  <li class="item involved-item">
-                    <div class="panel">
-                      <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Baptism" />
-                      <noscript><img src="http://placekitten.com/300/200" alt="Baptism" /></noscript>
-                      <h6>Baptism</h6>
-                      <p class="detail">Description here</p>
-
-                      <div class="cta">
-                        <p>
-                          <a href="#"
-                             class="action small get-involved"
-                             onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Baptism');">
-                             Get Involved <i class="icon icon-arrow-2"></i>
-                          </a>
-                        </p>
-
-                        <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
-                          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
-                          <input type="hidden" class="title" name="subject" value="{{ location.title }} - Baptism" />
-                          <hr />
-                          <h6>Get Connected</h6>
-                          <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
-                          <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
-                          <input type="submit"
-                                 class="button small submit-involved"
-                                 value="Send to LifeChurch.tv"
-                                 onclick="ga('send', 'event', 'Locations', 'Click', 'New Baptism');" />
-                        </form>
-                      </div>
-                    </div>
-                  </li>
-
-                </ul>
-
-                <hr class="large" />
-
-                <a name="connect"></a>
-                <div class="magellan-anchor" data-magellan-destination="connect"></div>
-
-                <div class="page-section">
-                  <div class="row">
-                    <div class="medium-8 medium-centered columns text-center">
-                      <h2>Connect with {{ location.title }}</h2>
-                      <p>Text here about getting in touch with the campus, and helping answer questions etc.</p>
-
-                      <p><a href="#" class="action">Connect with us on Facebook <i class="icon-arrow-2"></i></a></p>
-
-                      <br />
-                      <div class="panel text-left">
-                        <form class="form-contact" action="http://lifechurch-site-mailer.herokuapp.com/contact" method="post">
-                          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
-                          <input type="hidden" class="subject" name="subject" value="Campus Contact Form" />
-                          <h3>Ask us a question</h3><br />
-                          <label>What is your specific question, comment, or issue?</label>
-                          <p class="detail">The more we know, the better we can help you.</p>
-                          <textarea name="message" placeholder="Your message"></textarea>
-                          <hr />
-                          <label>What is the best way to reach you?</label>
-                          <p class="detail">Please share your email address below. <span class="text-gray">(If you are in the US and it's best to reach you by phone, please share your phone number instead.)</span></p>
-                          <input name="detail" type="text" placeholder="Enter your email address or phone number" />
-                          <hr />
-                          <input type="submit" class="button small submit-contact" value="Submit this contact form" />
-                          <p class="detail"><em>(We are generally able to respond within one to three days of your request.)</em></p>
-                        </form>
-                      </div>
-
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
+              </section>
             </div>
           </div>
         </div>
 
-        {{ content }}
+      </div>
+    </div>
+  </section>
+
+
+  <hr />
+
+
+  <!-- Serving section -->
+  <a name="serving"></a>
+  <div class="magellan-anchor" data-magellan-destination="serving"></div>
+
+  <section class="page-section">
+    <!-- Title -->
+    <div class="row">
+      <div class="large-8 large-centered text-center columns">
+        <h2>{{ page.title }} Serving Opportunities</h2>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lipwig nigel mansell devilish cad robert winston cappuccino collector sportacus ron jeremy.</p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row padded">
+      <div class="medium-12 columns">
+        <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+          {% for item in site.data.serving %}
+          {% if item.location == "Campus" %}
+          {% capture type %}Locations{% endcapture %}
+          {% include involved-item.html %}
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <hr />
+
+
+  <!-- Local Partners (LifeMissions) section -->
+  <a name="localpartners"></a>
+  <div data-magellan-destination="localpartners"></div>
+
+  <section class="page-section">
+    <!-- Title -->
+    <div class="large-8 large-centered text-center columns">
+      <h2>{{ page.title }} Local Partners</h2>
+      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lipwig nigel mansell devilish cad robert winston cappuccino collector sportacus ron jeremy.</p>
+    </div>
+
+    <!-- Content -->
+    <div class="row padded">
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+        {% for item in site.data.missions %}
+        {% if item.location == page.location-id %}
+        {% capture type %}Locations{% endcapture %}
+        {% include involved-item.html %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+
+  <hr />
+
+
+  <!-- Events section -->
+  <a name="events"></a>
+  <div class="magellan-anchor" data-magellan-destination="events"></div>
+
+  <section class="page-section">
+    <!-- Title -->
+    <div class="row">
+      <div class="large-8 large-centered text-center columns">
+        <a name="events"></a>
+        <div data-magellan-destination="events"></div>
+        <h2>{{ page.title }} Events</h2>
+
+        <p>Social links can either go here (since events are on Facebook) or in with the bit below (if here, the below bit would be called "Contact" instead).
 
       </div>
     </div>
 
+    <!-- Content -->
+    <div class="row">
+      <div class="medium-12 columns">
+        <ul class="padded small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+          <!-- Open Door -->
+          <li class="item involved-item">
+            <div class="panel">
+              <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Open Door" />
+              <noscript><img src="http://placekitten.com/300/200" alt="Open Door" /></noscript>
+              <h6>Open Door</h6>
+              <p class="detail">Description here</p>
+
+              <div class="cta">
+                <p>
+                  <a href="#"
+                     class="action small get-involved"
+                     onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Open Door');">
+                     Get Involved <i class="icon icon-arrow-2"></i>
+                  </a>
+                </p>
+
+                <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
+                  <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+                  <input type="hidden" class="title" name="subject" value="{{ location.title }} - Open Door" />
+                  <hr />
+                  <h6>Get Connected</h6>
+                  <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
+                  <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
+                  <input type="submit"
+                         class="button small submit-involved"
+                         value="Send to LifeChurch.tv"
+                         onclick="ga('send', 'event', 'Locations', 'Click', 'New Open Door');" />
+                </form>
+              </div>
+            </div>
+          </li>
+
+          <!-- Chazown -->
+          <li class="item involved-item">
+            <div class="panel">
+              <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Chazown" />
+              <noscript><img src="http://placekitten.com/300/200" alt="Chazown" /></noscript>
+              <h6>Chazown</h6>
+              <p class="detail">Description here</p>
+
+              <div class="cta">
+                <p>
+                  <a href="#"
+                     class="action small get-involved"
+                     onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Chazown');">
+                     Get Involved <i class="icon icon-arrow-2"></i>
+                  </a>
+                </p>
+
+                <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
+                  <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+                  <input type="hidden" class="title" name="subject" value="{{ location.title }} - Chazown" />
+                  <hr />
+                  <h6>Get Connected</h6>
+                  <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
+                  <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
+                  <input type="submit"
+                         class="button small submit-involved"
+                         value="Send to LifeChurch.tv"
+                         onclick="ga('send', 'event', 'Locations', 'Click', 'New Chazown');" />
+                </form>
+              </div>
+            </div>
+          </li>
+
+          <!-- Baptism -->
+          <li class="item involved-item">
+            <div class="panel">
+              <img data-interchange="[http://placekitten.com/300/200, (default)], [http://placekitten.com/600/400, (medium)]" alt="Baptism" />
+              <noscript><img src="http://placekitten.com/300/200" alt="Baptism" /></noscript>
+              <h6>Baptism</h6>
+              <p class="detail">Description here</p>
+
+              <div class="cta">
+                <p>
+                  <a href="#"
+                     class="action small get-involved"
+                     onclick="ga('send', 'event', 'Locations', 'Click', 'Expand Baptism');">
+                     Get Involved <i class="icon icon-arrow-2"></i>
+                  </a>
+                </p>
+
+                <form class="form-involved" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
+                  <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+                  <input type="hidden" class="title" name="subject" value="{{ location.title }} - Baptism" />
+                  <hr />
+                  <h6>Get Connected</h6>
+                  <p class="detail">Give us your email address or phone number and we'll get back to you on how to get started. <span class="text-gray">(Email only outside of US, please.)</span></p>
+                  <input type="text" class="details" name="detail" placeholder="Email or Phone number" />
+                  <input type="submit"
+                         class="button small submit-involved"
+                         value="Send to LifeChurch.tv"
+                         onclick="ga('send', 'event', 'Locations', 'Click', 'New Baptism');" />
+                </form>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+
+  <hr />
+
+
+  <!-- Connect section -->
+  <a name="connect"></a>
+  <div class="magellan-anchor" data-magellan-destination="connect"></div>
+
+  <section class="page-section">
+    <!-- Title -->
+    <div class="row">
+      <div class="medium-8 medium-centered columns text-center">
+        <h2>Connect with {{ location.title }}</h2>
+        <p>Text here about getting in touch with the campus, and helping answer questions etc.</p>
+
+        <p><a href="#" class="action">Connect with us on Facebook <i class="icon-arrow-2"></i></a></p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+      <div class="medium-8 medium-centered columns">
+        <div class="panel">
+          <form class="form-contact" action="http://lifechurch-site-mailer.herokuapp.com/contact" method="post">
+            <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+            <input type="hidden" class="subject" name="subject" value="Campus Contact Form" />
+            <h3>Ask us a question</h3><br />
+            <label>What is your specific question, comment, or issue?</label>
+            <p class="detail">The more we know, the better we can help you.</p>
+            <textarea name="message" placeholder="Your message"></textarea>
+            <hr />
+            <label>What is the best way to reach you?</label>
+            <p class="detail">Please share your email address below. <span class="text-gray">(If you are in the US and it's best to reach you by phone, please share your phone number instead.)</span></p>
+            <input name="detail" type="text" placeholder="Enter your email address or phone number" />
+            <hr />
+            <input type="submit" class="button small submit-contact" value="Submit this contact form" />
+            <p class="detail"><em>(We are generally able to respond within one to three days of your request.)</em></p>
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
 
 </div>
-
 
 {% endif %}
 {% endfor %}

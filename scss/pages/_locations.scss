@@ -395,15 +395,6 @@
   background: #ddd !important;
 }
 
-// Page content section
-.location-content {
-  float: left;
-  width: 99.8%;
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
-  margin-bottom: 40px;
-}
-
 // Lift active content over the content fading out
 .content-active {
   z-index: 1;
@@ -411,8 +402,8 @@
 }
 
 
-// Map content area
-.content-1 {
+// Map
+.locations-map {
   background-color: #fff;
   background-size: 1196px 398px;
   background-position: left top;
@@ -428,7 +419,6 @@
 
   @media #{$medium-up} {
     height: 400px;
-    margin-top: 40px;
   }
 
   .pin {
@@ -732,35 +722,21 @@
   .location-wel .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/wel-bg'); }
   .location-ykn .locations-hero { @include background-image-2x-jpg('/locations/assets/campus/ykn-bg'); }
 
-  /*.location-bao h1,
-  .location-jnk h1,
-  .location-mwc h1,
-  .location-soc h1,
-  .location-stu h1,
-  .location-tul h1  {
-    text-align: right;
-  }*/
-
-  .section-locations h1 {
-    text-align: center;
-  }
-
-
-  .location-alb .content-1 { @include background-image-2x-png('/locations/assets/campus/alb-map'); }
-  .location-bao .content-1 { @include background-image-2x-png('/locations/assets/campus/bao-map'); }
-  .location-edm .content-1 { @include background-image-2x-png('/locations/assets/campus/edm-map'); }
-  .location-ftw .content-1 { @include background-image-2x-png('/locations/assets/campus/ftw-map'); }
-  .location-hnv .content-1 { @include background-image-2x-png('/locations/assets/campus/hnv-map'); }
-  .location-jnk .content-1 { @include background-image-2x-png('/locations/assets/campus/jnk-map'); }
-  .location-klr .content-1 { @include background-image-2x-png('/locations/assets/campus/klr-map'); }
-  .location-mor .content-1 { @include background-image-2x-png('/locations/assets/campus/mor-map'); }
-  .location-mwc .content-1 { @include background-image-2x-png('/locations/assets/campus/mwc-map'); }
-  .location-noc .content-1 { @include background-image-2x-png('/locations/assets/campus/noc-map'); }
-  .location-okc .content-1 { @include background-image-2x-png('/locations/assets/campus/okc-map'); }
-  .location-ows .content-1 { @include background-image-2x-png('/locations/assets/campus/ows-map'); }
-  .location-soc .content-1 { @include background-image-2x-png('/locations/assets/campus/soc-map'); }
-  .location-stu .content-1 { @include background-image-2x-png('/locations/assets/campus/stu-map'); }
-  .location-stw .content-1 { @include background-image-2x-png('/locations/assets/campus/stw-map'); }
-  .location-tul .content-1 { @include background-image-2x-png('/locations/assets/campus/tul-map'); }
-  .location-wel .content-1 { @include background-image-2x-png('/locations/assets/campus/wel-map'); }
-  .location-ykn .content-1 { @include background-image-2x-png('/locations/assets/campus/ykn-map'); }
+  .location-alb .locations-map { @include background-image-2x-png('/locations/assets/campus/alb-map'); }
+  .location-bao .locations-map { @include background-image-2x-png('/locations/assets/campus/bao-map'); }
+  .location-edm .locations-map { @include background-image-2x-png('/locations/assets/campus/edm-map'); }
+  .location-ftw .locations-map { @include background-image-2x-png('/locations/assets/campus/ftw-map'); }
+  .location-hnv .locations-map { @include background-image-2x-png('/locations/assets/campus/hnv-map'); }
+  .location-jnk .locations-map { @include background-image-2x-png('/locations/assets/campus/jnk-map'); }
+  .location-klr .locations-map { @include background-image-2x-png('/locations/assets/campus/klr-map'); }
+  .location-mor .locations-map { @include background-image-2x-png('/locations/assets/campus/mor-map'); }
+  .location-mwc .locations-map { @include background-image-2x-png('/locations/assets/campus/mwc-map'); }
+  .location-noc .locations-map { @include background-image-2x-png('/locations/assets/campus/noc-map'); }
+  .location-okc .locations-map { @include background-image-2x-png('/locations/assets/campus/okc-map'); }
+  .location-ows .locations-map { @include background-image-2x-png('/locations/assets/campus/ows-map'); }
+  .location-soc .locations-map { @include background-image-2x-png('/locations/assets/campus/soc-map'); }
+  .location-stu .locations-map { @include background-image-2x-png('/locations/assets/campus/stu-map'); }
+  .location-stw .locations-map { @include background-image-2x-png('/locations/assets/campus/stw-map'); }
+  .location-tul .locations-map { @include background-image-2x-png('/locations/assets/campus/tul-map'); }
+  .location-wel .locations-map { @include background-image-2x-png('/locations/assets/campus/wel-map'); }
+  .location-ykn .locations-map { @include background-image-2x-png('/locations/assets/campus/ykn-map'); }
