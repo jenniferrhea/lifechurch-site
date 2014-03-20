@@ -8963,6 +8963,11 @@ input.gsc-search-button:hover {
     margin-top: 160px;
   }
 }
+/* line 111, ../scss/pages/_about.scss */
+.jobs .job-title {
+  list-style: none;
+  margin-left: -1.1rem;
+}
 
 /*.video-image {
   display: block;
@@ -8983,7 +8988,7 @@ input.gsc-search-button:hover {
     color: #ddd;
   }
 }*/
-/* line 136, ../scss/pages/_about.scss */
+/* line 141, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
 }

@@ -46,7 +46,7 @@ function displayInternships(container) {
 }
 
 function displayFutureJobs(container) {
-  container.append("<li>Future Locations</li>");
+  container.append("<li class='job-title'><h6>Future Locations</h6></li>");
 
   $(window.jobs).find("entry").has("newton\\:location:contains(Future Locations)").each(function(index) {
     container.append(jobTemplate($(this)));
@@ -60,17 +60,17 @@ function displayCampusJobs(container) {
   $(window.jobs).find("entry").has("newton\\:department:contains(Campus)").each(function(index) {
     var entry = $(this);
     var campus_name = entry.find("newton\\:department").text();
-    
+
     if($.grep(campuses, function(e){ return e.name == campus_name; }).length == 0) {
       campuses.push({name: campus_name, jobs: []});
     }
 
-    $.grep(campuses, function(e){ return e.name == campus_name; })[0].jobs.push(entry);    
+    $.grep(campuses, function(e){ return e.name == campus_name; })[0].jobs.push(entry);
   });
 
   //sort campuses because they might not be coming in alphabetical order
-  campuses.sort(compare);  
-  
+  campuses.sort(compare);
+
   campuses.forEach(function(campus) {
     container.append(campusTemplate(campus));
 
@@ -81,11 +81,11 @@ function displayCampusJobs(container) {
 }
 
 function jobTemplate(entry) {
-  return $("<li></li>").append($("<a></a>").attr("href", entry.find("link").attr("href")).text(entry.find("title").text()));
+  return $('<li></li>').append($("<a></a>").attr("href", entry.find("link").attr("href")).text(entry.find("title").text()));
 }
 
 function campusTemplate(campus) {
-  return $("<li class='campus'></li>").text(campus.name);
+  return $("<li class='job-title'></li>").html('<h6>' + campus.name + '</h6>');
 }
 
 function compare(a,b) {
