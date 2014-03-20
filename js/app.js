@@ -128,7 +128,7 @@ $(function() {
   }
 
 
-  // Locations Page Tiles
+  // Locations Page Content
 
   // Campus calendar 5pm overlaps
   $('.time-17-00').siblings('.time-17-30').addClass('overlap').parent().parent().addClass('rows-2');
@@ -148,6 +148,11 @@ $(function() {
 
   // Campus calendar Overlapping overlaps (oh my!)
   $('.overlap:eq(1)').removeClass('overlap').addClass('overlap-2').parent().parent().removeClass('rows-2').addClass('rows-3');
+
+  // If sections are empty
+
+  $(".section-locations .involved-list:not(:contains(li))").parent().find('.coming-soon').show();
+
 
 
   // LifeMissions Page
@@ -289,7 +294,7 @@ $(function() {
     recipient = $(this).find('input[name="recipient"]').val();
     detail = $(this).find('input[name="detail"]').val();
     message = $(this).find('textarea[name="message"]').val();
-    
+
     $.post($(this).attr('action'), {
       recipient: recipient,
       subject: subject,
