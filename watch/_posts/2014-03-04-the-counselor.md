@@ -28,7 +28,7 @@ javascript: true
              class=""
              data-video-player="{{message.video}}"
              >
-             Watch Church Online in 14min 28sec <i class="icon icon-play-2"></i>
+             Watch Church Online <span data-churchonline-counter></span> <i class="icon icon-play-2"></i>
           </a>
           {% endfor %}
 
