@@ -29,6 +29,13 @@
     @include svg-image('/images/branding/logo-red-black');
   }
 
+  // Home logo
+  .home .logo {
+    @media #{$small-only} {
+      @include svg-image('/images/branding/logo-red-white');
+    }
+  }
+
 
 // Header Section
 .page-header {

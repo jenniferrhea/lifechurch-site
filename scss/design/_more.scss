@@ -80,7 +80,11 @@
 
 // Make descriptions in "more" smaller than normal paragraphs
 .page-more-inner p {
-  font-size: 1em;
+  font-size: .8em;
+
+  @media #{$medium-up} {
+    font-size: 1em;
+  }
 }
 
 // More header positioning

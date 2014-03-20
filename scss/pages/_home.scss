@@ -1,34 +1,88 @@
 .home {
 
-  h1 {
-    width: 100%;
-    height: 59px;
-    margin-top: 20px;
-    @include svg-image('/images/watch/2014-the-counselor/the-counselor-title');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    text-indent: -999em;
-  }
-
-  .section-first.section-home {
-    background-color: #000;
-    @include background-image-2x-jpg('/images/home/home-bg-small');
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 656px 557px;
-    height: 600px;
-
-    p {
-      max-width: 600px;
-      margin: 0 auto 30px;
-      color: #fff;
+  // Small screens
+  @media #{$small-only} {
+    .nav-more {
+      display: none;
     }
 
+    .page-header {
+      background: #000;
+      height: 70px;
+      overflow: hidden;
+      margin-bottom: 5px;
+    }
+
+    .page-more {
+      border-top: none;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    // Hide small primary links since the homepage has it's own
+    .small-primary-links h5 {
+      display: none !important;
+    }
+
+    .more-watch-small {
+      @include background-image-2x-jpg('/images/home/home-bg-small');
+      background-color: #000;
+      background-size: auto 100%;
+      background-position: top left;
+      padding-bottom: 70px;
+
+      &:hover {
+        background: #000 !important;
+      }
+
+      p {
+        color: #fff;
+      }
+    }
+
+  } // End small screens
+
+
+  // Large screens
+  .section-first.section-home {
     @media #{$medium-up} {
+      background-color: #000;
+      //@include background-image-2x-jpg('/images/home/home-bg-small');
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      //background-size: 656px 557px;
+      //height: 600px;
       @include background-image-2x-jpg('/images/home/home-bg');
       background-size: 1500px 931px;
       height: 700px;
+
+      // Action links
+      .action {
+        color: #fff;
+
+        &:hover {
+          opacity: .6;
+        }
+      }
+
+      p {
+        max-width: 600px;
+        margin: 0 auto 30px;
+        color: #fff;
+      }
+
+      // Title
+      h1 {
+        width: 100%;
+        height: 59px;
+        margin-top: 20px;
+        @include svg-image('/images/watch/2014-the-counselor/the-counselor-title');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        text-indent: -999em;
+      }
+
     }
 
     @media only screen and (min-width: 700px) and (min-height: 600px) {
@@ -54,32 +108,25 @@
         margin-top: 220px;
       }
     }
-  }
 
-  // Action links
-  .action {
-    color: #fff;
-
-    &:hover {
-      opacity: .6;
+    // Space after action links
+    .section-first {
+      @media #{$medium-up} {
+        padding-bottom: 30px;
+      }
     }
-  }
 
-  // Space after action links
-  .section-first {
-    @media #{$medium-up} {
-      padding-bottom: 30px;
-    }
-  }
-
-  .page-footer {
-    border: none;
-    margin-top: 0;
-
-    .columns {
-      padding-top: 0;
+    .page-footer {
       border: none;
-    }
-  }
+      margin-top: 0;
 
-}
+      .columns {
+        padding-top: 0;
+        border: none;
+      }
+    }
+
+  } // End Larger screens
+
+
+} // End home
