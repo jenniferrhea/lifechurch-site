@@ -235,16 +235,16 @@ $(function() {
   //local storage for locations
   $('[data-set-campus]').bind("click", function() {
     if (Modernizr.localstorage) {
-      localStorage["myCampus"] = $(this).data("set-campus");     
-      $(this).parent().addClass('my-campus'); 
-    }  
+      localStorage["myCampus"] = $(this).data("set-campus");
+      $(this).parent().addClass('my-campus');
+    }
   });
 
   $('[data-unset-campus]').bind("click", function() {
     if (Modernizr.localstorage) {
       localStorage.removeItem("myCampus");
       $(this).parent().removeClass('my-campus');
-    }  
+    }
   });
 
   //replaces links that should go straight to the campus pages
@@ -277,10 +277,19 @@ $(function() {
   // Keep Contact form users on the site
   $('.form-contact').submit(function(event) {
     event.preventDefault();
+
+    if ($('select[name="subject"]').length > 0) {
+      subject = $(this).find('select[name="subject"]').val();
+    }
+
+    if ($('input[name="subject"]').length > 0) {
+      subject = $(this).find('input[name="subject"]').val();
+    }
+
     recipient = $(this).find('input[name="recipient"]').val();
-    subject = $(this).find('select[name="subject"]').val();
     detail = $(this).find('input[name="detail"]').val();
     message = $(this).find('textarea[name="message"]').val();
+    
     $.post($(this).attr('action'), {
       recipient: recipient,
       subject: subject,

@@ -387,11 +387,13 @@ section: locations
 
                       <br />
                       <div class="panel text-left">
-                        <form class="locations-contact-form">
+                        <form class="form-contact" action="http://lifechurch-site-mailer.herokuapp.com/contact" method="post">
+                          <input type="hidden" class="recipient" name="recipient" value="{{ location.email }}" />
+                          <input type="hidden" class="subject" name="subject" value="Campus Contact Form" />
                           <h3>Ask us a question</h3><br />
                           <label>What is your specific question, comment, or issue?</label>
                           <p class="detail">The more we know, the better we can help you.</p>
-                          <textarea type="text" placeholder="Your message"></textarea>
+                          <textarea name="message" placeholder="Your message"></textarea>
                           <hr />
                           <label>What is the best way to reach you?</label>
                           <p class="detail">Please share your email address below. <span class="text-gray">(If you are in the US and it's best to reach you by phone, please share your phone number instead.)</span></p>
