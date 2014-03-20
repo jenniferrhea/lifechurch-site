@@ -1,8 +1,8 @@
 jQuery(function() {
   var days, goLive, hours, intervalId, minutes, seconds;
   goLive = function() {
-    // $('.nav-watch .live').removeClass('hide');
-    // $('[data-churchonline-counter]').text("Live Now").addClass("live");
+    $('.nav-watch .live').removeClass('hide');
+    $('[data-churchonline-counter]').text("Live Now").addClass("live");
   };
   days = void 0;
   hours = void 0;

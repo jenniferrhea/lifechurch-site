@@ -6568,14 +6568,15 @@ input.gsc-search-button:hover {
     background-image: url("/images/home/home-bg-small.jpg");
     background-color: #000;
     background-size: auto 100%;
+    background-repeat: no-repeat;
     background-position: top left;
     padding-bottom: 70px;
   }
-  /* line 34, ../scss/pages/_home.scss */
+  /* line 35, ../scss/pages/_home.scss */
   .home .more-watch-small:hover {
     background: #000 !important;
   }
-  /* line 38, ../scss/pages/_home.scss */
+  /* line 39, ../scss/pages/_home.scss */
   .home .more-watch-small p, .home .more-watch-small ul li, ul .home .more-watch-small li {
     color: #fff;
   }
@@ -6586,18 +6587,18 @@ input.gsc-search-button:hover {
     background-image: url("/images/home/home-bg-small@2x.jpg");
   }
 }
-/* line 48, ../scss/pages/_home.scss */
+/* line 49, ../scss/pages/_home.scss */
 .home .action-live {
   position: relative;
 }
-/* line 52, ../scss/pages/_home.scss */
+/* line 53, ../scss/pages/_home.scss */
 .home span[data-churchonline-counter] {
   font-size: 0.6em;
   display: block;
   position: absolute;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 58, ../scss/pages/_home.scss */
+  /* line 59, ../scss/pages/_home.scss */
   .home .section-first.section-home {
     background-color: #000;
     background-position: center bottom;
@@ -6606,21 +6607,21 @@ input.gsc-search-button:hover {
     background-size: 1500px 931px;
     height: 700px;
   }
-  /* line 71, ../scss/pages/_home.scss */
+  /* line 72, ../scss/pages/_home.scss */
   .home .section-first.section-home .action {
     color: #fff;
   }
-  /* line 74, ../scss/pages/_home.scss */
+  /* line 75, ../scss/pages/_home.scss */
   .home .section-first.section-home .action:hover {
     opacity: .6;
   }
-  /* line 79, ../scss/pages/_home.scss */
+  /* line 80, ../scss/pages/_home.scss */
   .home .section-first.section-home p, .home .section-first.section-home ul li, ul .home .section-first.section-home li {
     max-width: 600px;
     margin: 0 auto 30px;
     color: #fff;
   }
-  /* line 86, ../scss/pages/_home.scss */
+  /* line 87, ../scss/pages/_home.scss */
   .home .section-first.section-home h1, .home .section-first.section-home .h1 {
     width: 100%;
     height: 59px;
@@ -6644,53 +6645,53 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
-  /* line 58, ../scss/pages/_home.scss */
+  /* line 59, ../scss/pages/_home.scss */
   .home .section-first.section-home {
     background-image: url("/images/home/home-bg@2x.jpg");
   }
 }
 @media only screen and (min-width: 700px) and (min-height: 600px) {
-  /* line 58, ../scss/pages/_home.scss */
+  /* line 59, ../scss/pages/_home.scss */
   .home .section-first.section-home {
     height: 800px;
   }
-  /* line 102, ../scss/pages/_home.scss */
+  /* line 103, ../scss/pages/_home.scss */
   .home .section-first.section-home h1, .home .section-first.section-home .h1 {
     margin-top: 110px;
   }
 }
 @media only screen and (min-width: 700px) and (min-height: 700px) {
-  /* line 58, ../scss/pages/_home.scss */
+  /* line 59, ../scss/pages/_home.scss */
   .home .section-first.section-home {
     height: 850px;
   }
-  /* line 110, ../scss/pages/_home.scss */
+  /* line 111, ../scss/pages/_home.scss */
   .home .section-first.section-home h1, .home .section-first.section-home .h1 {
     margin-top: 160px;
   }
 }
 @media only screen and (min-width: 700px) and (min-height: 800px) {
-  /* line 58, ../scss/pages/_home.scss */
+  /* line 59, ../scss/pages/_home.scss */
   .home .section-first.section-home {
     height: 931px;
   }
-  /* line 118, ../scss/pages/_home.scss */
+  /* line 119, ../scss/pages/_home.scss */
   .home .section-first.section-home h1, .home .section-first.section-home .h1 {
     margin-top: 220px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 124, ../scss/pages/_home.scss */
+  /* line 125, ../scss/pages/_home.scss */
   .home .section-first.section-home .section-first {
     padding-bottom: 30px;
   }
 }
-/* line 130, ../scss/pages/_home.scss */
+/* line 131, ../scss/pages/_home.scss */
 .home .section-first.section-home .page-footer {
   border: none;
   margin-top: 0;
 }
-/* line 134, ../scss/pages/_home.scss */
+/* line 135, ../scss/pages/_home.scss */
 .home .section-first.section-home .page-footer .columns {
   padding-top: 0;
   border: none;
