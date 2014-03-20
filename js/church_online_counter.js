@@ -37,9 +37,6 @@ jQuery(function() {
               }
             }
           }
-          // var hours_string = (hours.toString().length < 2 ? "0" + hours : hours);
-          // var minutes_string = (minutes.toString().length < 2 ? "0" + minutes : minutes);
-          // var seconds_string = (seconds.toString().length < 2 ? "0" + seconds : seconds);
           $('[data-churchonline-counter]').text("in " + (hours == "0" ? "" : (hours + "hours ")) + (minutes == "0" ? "" : (minutes + "mins ")) + (seconds + "secs"))
           if (seconds === 0 && minutes === 0 && hours === 0 && days === 0) {
             goLive();
