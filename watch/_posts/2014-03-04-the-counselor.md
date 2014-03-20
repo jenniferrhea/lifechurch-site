@@ -13,6 +13,14 @@ javascript: true
 {% if series.id == page.series-id %}
 
 <div class="page-section section-first section-light">
+  <image src="/images/watch/2014-the-counselor/couch.png" width="1" height="1" border="0" alt="Preload" />
+  <image src="/images/watch/2014-the-counselor/person-1-1.png" width="1" height="1" border="0" alt="Preload" />
+  <image src="/images/watch/2014-the-counselor/person-1-2.png" width="1" height="1" border="0" alt="Preload" />
+  <image src="/images/watch/2014-the-counselor/person-1-3.png" width="1" height="1" border="0" alt="Preload" />
+  <image src="/images/watch/2014-the-counselor/person-2-1.png" width="1" height="1" border="0" alt="Preload" />
+  <image src="/images/watch/2014-the-counselor/person-2-2.png" width="1" height="1" border="0" alt="Preload" />
+  <image src="/images/watch/2014-the-counselor/person-2-3.png" width="1" height="1" border="0" alt="Preload" />
+
 <div class="the-counselor-1 contain">
 <div class="inner"></div>
 
@@ -32,7 +40,8 @@ javascript: true
           </a>
           {% endfor %}
 
-<br />
+          <br />
+
           <a href="#"
              class="learn-more"
              >
@@ -61,15 +70,6 @@ javascript: true
   </div>
 
 </div>
-</div>
-
-<div class="hide">
-  <div class="person person-1 state-1"></div>
-  <div class="person person-1 state-1 state-2"></div>
-  <div class="person person-2 state-1"></div>
-  <div class="person person-2 state-1 state-2"></div>
-  <div class="person person-1-thin"></div>
-  <div class="person person-2-thin"></div>
 </div>
 
 {% endif %}

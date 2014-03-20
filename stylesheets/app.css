@@ -6463,15 +6463,55 @@ button.dropdown::before {
   overflow: hidden;
 }
 
-/* line 1, ../scss/design/_search.scss */
-.gsc-control-cse {
-  width: 300px !important;
-  float: right !important;
-  top: -30px;
-  position: relative;
-}
+@media only screen and (max-width: 40em) {
+  /* line 2, ../scss/design/_search.scss */
+  .gsc-control-cse {
+    margin-top: 20px !important;
+  }
 
-/* line 15, ../scss/design/_search.scss */
+  /* line 6, ../scss/design/_search.scss */
+  .gsc-results-wrapper-overlay {
+    width: 96% !important;
+    left: 2% !important;
+    padding: 0 !important;
+  }
+
+  /* line 12, ../scss/design/_search.scss */
+  .gsc-control-cse .gsc-table-result {
+    width: 98% !important;
+  }
+
+  /* line 16, ../scss/design/_search.scss */
+  .gs-result .gs-snippet {
+    font-size: 13px !important;
+  }
+
+  /* line 20, ../scss/design/_search.scss */
+  .gsc-results-close-btn-visible {
+    background-color: #eee !important;
+    border: 7px solid #eee !important;
+    height: 25px !important;
+    border-radius: 100px !important;
+    width: 25px !important;
+    top: 5px !important;
+    right: 5px !important;
+  }
+
+  /* line 30, ../scss/design/_search.scss */
+  .gsc-table-result {
+    margin-bottom: -5px !important;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 36, ../scss/design/_search.scss */
+  .gsc-control-cse {
+    width: 300px !important;
+    float: right !important;
+    top: -30px;
+    position: relative;
+  }
+}
+/* line 52, ../scss/design/_search.scss */
 .cse .gsc-control-cse,
 .gsc-control-cse,
 .cse .gsc-control-cse,
@@ -6482,9 +6522,10 @@ form.gsc-search-box,
 .gsc-search-button {
   padding: 0 !important;
   border: none !important;
+  -webkit-appearance: none;
 }
 
-/* line 25, ../scss/design/_search.scss */
+/* line 63, ../scss/design/_search.scss */
 .gsc-clear-button,
 .gsc-resultsHeader,
 .gsc-above-wrapper-area,
@@ -6494,12 +6535,12 @@ form.gsc-search-box,
   display: none !important;
 }
 
-/* line 29, ../scss/design/_search.scss */
+/* line 67, ../scss/design/_search.scss */
 table.gsc-search-box td {
   vertical-align: top !important;
 }
 
-/* line 34, ../scss/design/_search.scss */
+/* line 72, ../scss/design/_search.scss */
 input.gsc-input {
   box-shadow: none !important;
   border: 1px solid #ccc !important;
@@ -6510,7 +6551,7 @@ input.gsc-input {
   background-position: 5px !important;
 }
 
-/* line 45, ../scss/design/_search.scss */
+/* line 83, ../scss/design/_search.scss */
 input.gsc-search-button {
   font-family: "ff-meta-serif-web-pro" !important;
   font-weight: 300 !important;
@@ -6519,24 +6560,24 @@ input.gsc-search-button {
   width: 70px;
   cursor: pointer;
 }
-/* line 52, ../scss/design/_search.scss */
+/* line 90, ../scss/design/_search.scss */
 input.gsc-search-button:hover {
   background: #0c96be !important;
 }
 
-/* line 57, ../scss/design/_search.scss */
+/* line 95, ../scss/design/_search.scss */
 .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
   border: none !important;
   background: none !important;
   text-shadow: none !important;
 }
 
-/* line 63, ../scss/design/_search.scss */
+/* line 101, ../scss/design/_search.scss */
 .gsc-webResult.gsc-result:hover, .gsc-imageResult:hover {
   border-color: #fff !important;
 }
 
-/* line 67, ../scss/design/_search.scss */
+/* line 105, ../scss/design/_search.scss */
 .gs-title, .gs-title b {
   text-decoration: none !important;
 }
