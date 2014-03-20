@@ -7,6 +7,12 @@
     font-size: rem-calc(20);
     margin: 0 auto -35px;
     font-family: $body-font-family;
+
+    &:hover {
+      border: 2px solid $red;
+      color: $red;
+      cursor: initial;
+    }
   }
 
   .kids-bg {

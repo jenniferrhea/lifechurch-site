@@ -110,21 +110,27 @@
         padding-bottom: 30px;
       }
     }
-
-    .page-footer {
-      border: none;
-      margin-top: 0;
-
-      .columns {
-        padding-top: 0;
-        border: none;
-      }
-    }
-
   } // End Larger screens
 
-
 } // End home
+
+
+
+// Next Week
+.home .next-week,
+.home-2 .next-week{
+  @include background-image-2x-jpg('/images/home/next-week');
+  background-size: 1500px 225px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 225px;
+  display: block;
+  //margin-bottom: -32px;
+  text-indent: -999em;
+}
+
+
+
 
 
 // More Watch Small for all pages
@@ -145,4 +151,11 @@
       color: #fff;
     }
   }
+}
+
+
+// ********************************************************************
+
+.home-2 {
+
 }
