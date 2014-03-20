@@ -44,6 +44,17 @@
 
 
   // Large screens
+
+  .action-live {
+    position: relative;
+  }
+
+  span[data-churchonline-counter] {
+    font-size: 0.6em;
+    display: block;
+    position: absolute;
+  }
+
   .section-first.section-home {
     @media #{$medium-up} {
       background-color: #000;
