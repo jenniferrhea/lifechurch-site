@@ -1,43 +1,60 @@
 $(function() {
   $('[data-jobs]').each(function(index) {
     var category = $(this).data('jobs');
+    var container = $(this);
 
-    $.get('http://newton.newtonsoftware.com/career/CareerAtomFeed.action?clientId=8a42a12b3e686c7c013e6be2c20e7384', function (data) {
-      window.jobs = data;
-      $('.jobs-container').html("");  
-      switch(category) {
-        case "central":
-          displayCentralJobs();
-          break;
-        case "campus":
-          displayCampusJobs();
-          break;
-        case "internship":
-          displayInternships();
-          break;
-      }
-    });
+    if (window.jobs) {
+      showJobs(container, category);
+    }
+    else {
+      $.get('http://newton.newtonsoftware.com/career/CareerAtomFeed.action?clientId=8a42a12b3e686c7c013e6be2c20e7384', function (data) {
+        window.jobs = data;
+        $('[data-jobs-loader]').hide();
+        showJobs(container, category);
+      });
+    }
   });
 });
 
-function displayCentralJobs() {
+function showJobs(container, category) {
+  switch(category) {
+    case "central":
+      displayCentralJobs(container);
+      break;
+    case "campus":
+      displayCampusJobs(container);
+      break;
+    case "future":
+      displayFutureJobs(container);
+      break;
+    case "internship":
+      displayInternships(container);
+      break;
+  }
+}
+
+function displayCentralJobs(container) {
   $(window.jobs).find("entry").has("newton\\:department:contains(Central Office)").each(function(index) {
-    $('.jobs-container').append(jobTemplate($(this)));
+    container.append(jobTemplate($(this)));
   });
 }
 
-function displayInternships() {
+function displayInternships(container) {
   $(window.jobs).find("entry").has("newton\\:location:contains(Internships)").each(function(index) {
-    $('.jobs-container').append(jobTemplate($(this)));
+    container.append(jobTemplate($(this)));
   });
 }
 
-function jobTemplate(entry) {
-  return $("<li></li>").append($("<a></a>").attr("href", entry.find("link").attr("href")).text(entry.find("title").text()));
+function displayFutureJobs(container) {
+  container.append("<li>Future Locations</li>");
+
+  $(window.jobs).find("entry").has("newton\\:location:contains(Future Locations)").each(function(index) {
+    container.append(jobTemplate($(this)));
+  });
 }
 
-function displayCampusJobs() {
-  campuses = [];
+function displayCampusJobs(container) {
+  var campuses = [];
 
   //add campuses
   $(window.jobs).find("entry").has("newton\\:department:contains(Campus)").each(function(index) {
@@ -52,31 +69,23 @@ function displayCampusJobs() {
   });
 
   //sort campuses because they might not be coming in alphabetical order
-  campuses.sort(compare);
-
-  //put future locations at the top
-  $(window.jobs).find("entry").has("newton\\:location:contains(Future Locations)").each(function(index) {
-    var entry = $(this);
-    var campus_name = "Future Locations"
-    
-    if($.grep(campuses, function(e){ return e.name == campus_name; }).length == 0) {
-      campuses.unshift({name: campus_name, jobs: []});
-    }
-
-    $.grep(campuses, function(e){ return e.name == campus_name; })[0].jobs.push(entry);
-  });
+  campuses.sort(compare);  
   
   campuses.forEach(function(campus) {
-    $('.jobs-container').append(campusTemplate(campus));
+    container.append(campusTemplate(campus));
 
     campus.jobs.forEach(function(job) {
-      campusHTML.after(jobTemplate(job));
+      container.append(jobTemplate(job));
     });
   });
 }
 
+function jobTemplate(entry) {
+  return $("<li></li>").append($("<a></a>").attr("href", entry.find("link").attr("href")).text(entry.find("title").text()));
+}
+
 function campusTemplate(campus) {
-  return campusHTML = $("<li></li>").text(campus.name);
+  return $("<li class='campus'></li>").text(campus.name);
 }
 
 function compare(a,b) {
