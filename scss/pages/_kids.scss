@@ -1,5 +1,14 @@
 .kids {
 
+  .grade {
+    border: 2px solid $red;
+    color: $red;
+    text-align: center;
+    font-size: rem-calc(20);
+    margin: 0 auto -35px;
+    font-family: $body-font-family;
+  }
+
   .kids-bg {
     background: #f4f4f4 url("/images/kids/kids-bg.jpg") center bottom no-repeat;
     background-size: 500px auto;

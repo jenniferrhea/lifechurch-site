@@ -24,23 +24,6 @@
       display: none !important;
     }
 
-    .more-watch-small {
-      @include background-image-2x-jpg('/images/home/home-bg-small');
-      background-color: #000;
-      background-size: auto 100%;
-      background-repeat: no-repeat;
-      background-position: top left;
-      padding-bottom: 70px;
-
-      &:hover {
-        background: #000 !important;
-      }
-
-      p {
-        color: #fff;
-      }
-    }
-
   } // End small screens
 
 
@@ -142,3 +125,24 @@
 
 
 } // End home
+
+
+// More Watch Small for all pages
+@media #{$small-only} {
+  .more-watch-small {
+    @include background-image-2x-jpg('/images/home/home-bg-small');
+    background-color: #000;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-bottom: 70px !important;
+
+    &:hover {
+      background: #000 !important;
+    }
+
+    p {
+      color: #fff;
+    }
+  }
+}
