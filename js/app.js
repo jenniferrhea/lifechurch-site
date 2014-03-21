@@ -93,6 +93,10 @@ $(function() {
 
   // Locations Map
 
+  if ($('.page-locations .alert-box').length > 0) {
+    $('.map-wrapper').addClass('with-alerts');
+  };
+
   if ($(window).width() < 960) {
   }
   // If the screen is wide:
