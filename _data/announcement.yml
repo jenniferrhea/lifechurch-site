@@ -1,0 +1,7 @@
+# type: notice or alert
+# active: true or false
+# message: the message in the announcement
+
+- active: false
+  type: alert
+  message: Important notice goes here

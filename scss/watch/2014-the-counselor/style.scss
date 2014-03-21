@@ -119,13 +119,71 @@ h2.underlined {
       }
     }
 
-    // Person general styles
-    .person {
+
+
+
+
+    .person-1 {
       position: absolute;
       left: 0;
       right: 0;
       top: -130px;
-      height: 517px;
+      z-index: 1;
+
+      height: 530px;
+      width: 100%;
+      background: url("/images/watch/2014-the-counselor/person-1.png") center top no-repeat;
+
+      &.state-2 {
+        background-position: center -510px;
+        z-index: 1;
+      }
+
+      &.state-3 {
+        background-position: center -1040px;
+        margin-top: 65px;
+        margin-left: 19px;
+        z-index: 3;
+      }
+    }
+
+    .person-2 {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -130px;
+      z-index: 1;
+
+      height: 530px;
+      width: 100%;
+      background: url("/images/watch/2014-the-counselor/person-2.png") center top no-repeat;
+
+      &.state-2 {
+        background-position: center -510px;
+        z-index: 1;
+      }
+
+      &.state-3 {
+        background-position: center -1040px;
+        margin-top: 65px;
+        margin-left: 19px;
+        z-index: 3;
+      }
+    }
+
+
+
+
+
+
+
+    // Person general styles
+    /*.person {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -130px;
+      height: 506px;
       width: 100%;
       z-index: 1;
       margin-left: 84px;
@@ -137,7 +195,7 @@ h2.underlined {
 
     // Person state 2
     .person.state-2 {
-      height: 355px;
+      height: 440px;
       z-index: 3;
       z-index: 1;
       margin-left: 84px;
@@ -145,14 +203,14 @@ h2.underlined {
 
     // Person state 3
     .person.state-3 {
-      height: 489px;
+      height: 441px;
       z-index: 3;
-      margin-left: 84px
-    }
+      margin-left: 84px;
+    }*/
 
     // Imagery for person 1
 
-      .person {
+      /*.person {
         &.person-1.state-1 {
           background: url("/images/watch/2014-the-counselor/person-1-1.png") center top no-repeat;
           margin-left: 0;
@@ -186,7 +244,7 @@ h2.underlined {
             }
           }
         }
-      }
+      }*/
 
       .person-1-thin {
         background: url("/images/watch/2014-the-counselor/person-1-thin.png") center top no-repeat;
@@ -231,7 +289,7 @@ h2.underlined {
 
     // Imagery for person 2
 
-      .person-2 {
+      /*.person-2 {
 
 
         // State 2
@@ -249,7 +307,7 @@ h2.underlined {
 
 
         }
-      }
+      }*/
 
 
     // Imagery for person 3

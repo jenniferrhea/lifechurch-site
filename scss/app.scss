@@ -1,7 +1,7 @@
 // Foundation
 @import "settings/settings";
 // @import "foundation/components/accordion";
-// @import "foundation/components/alert-boxes";
+@import "foundation/components/alert-boxes";
 @import "foundation/components/block-grid";
 @import "foundation/components/breadcrumbs";
 // @import "foundation/components/button-groups";
@@ -96,3 +96,21 @@ $red: #B9252D;
 @import "pages/kids";
 @import "pages/about";
 @import "pages/chazown";
+
+
+// Alerts
+.alert-box {
+  border: none;
+  margin-bottom: 0;
+
+  background: #fff;
+  color: $body-font-color;
+
+  @media #{$small-only} {
+    text-align: center;
+  }
+
+  &.alert {
+    background: $red;
+  }
+}
