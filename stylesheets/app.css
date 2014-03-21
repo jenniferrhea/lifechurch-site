@@ -8792,13 +8792,30 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 146, ../scss/pages/_lifegroups.scss */
+/* line 148, ../scss/pages/_lifegroups.scss */
+.has-alerts.lifegroups-1,
+.has-alerts.lifegroups-2,
+.has-alerts.lifegroups-3,
+.has-alerts.lifegroups-4 {
+  background-position: left 44px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 148, ../scss/pages/_lifegroups.scss */
+  .has-alerts.lifegroups-1,
+  .has-alerts.lifegroups-2,
+  .has-alerts.lifegroups-3,
+  .has-alerts.lifegroups-4 {
+    background-position: center 44px;
+  }
+}
+
+/* line 156, ../scss/pages/_lifegroups.scss */
 .lifegroups-1 {
   background-repeat: no-repeat;
   background-color: #222;
 }
 @media only screen and (max-width: 40em) {
-  /* line 146, ../scss/pages/_lifegroups.scss */
+  /* line 156, ../scss/pages/_lifegroups.scss */
   .lifegroups-1 {
     background-image: url("/images/lifegroups/lifegroups-1-thin.jpg");
     background-color: #f1eae4;
@@ -8807,13 +8824,13 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (max-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (max-width: 40em) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (min-device-pixel-ratio: 1.5) {
-  /* line 146, ../scss/pages/_lifegroups.scss */
+  /* line 156, ../scss/pages/_lifegroups.scss */
   .lifegroups-1 {
     background-image: url("/images/lifegroups/lifegroups-1-thin@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 146, ../scss/pages/_lifegroups.scss */
+  /* line 156, ../scss/pages/_lifegroups.scss */
   .lifegroups-1 {
     background-image: url("/images/lifegroups/lifegroups-1.jpg");
     background-size: 1500px 595px;
@@ -8821,19 +8838,19 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
-  /* line 146, ../scss/pages/_lifegroups.scss */
+  /* line 156, ../scss/pages/_lifegroups.scss */
   .lifegroups-1 {
     background-image: url("/images/lifegroups/lifegroups-1@2x.jpg");
   }
 }
 
-/* line 165, ../scss/pages/_lifegroups.scss */
+/* line 175, ../scss/pages/_lifegroups.scss */
 .lifegroups-2 {
   background-repeat: no-repeat;
   background-color: #222;
 }
 @media only screen and (max-width: 40em) {
-  /* line 165, ../scss/pages/_lifegroups.scss */
+  /* line 175, ../scss/pages/_lifegroups.scss */
   .lifegroups-2 {
     background-image: url("/images/lifegroups/lifegroups-2-thin.jpg");
     background-size: 391px 486px;
@@ -8842,13 +8859,13 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (max-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (max-width: 40em) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (min-device-pixel-ratio: 1.5) {
-  /* line 165, ../scss/pages/_lifegroups.scss */
+  /* line 175, ../scss/pages/_lifegroups.scss */
   .lifegroups-2 {
     background-image: url("/images/lifegroups/lifegroups-2-thin@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 165, ../scss/pages/_lifegroups.scss */
+  /* line 175, ../scss/pages/_lifegroups.scss */
   .lifegroups-2 {
     background-image: url("/images/lifegroups/lifegroups-2.jpg");
     background-size: 1500px 595px;
@@ -8856,19 +8873,19 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
-  /* line 165, ../scss/pages/_lifegroups.scss */
+  /* line 175, ../scss/pages/_lifegroups.scss */
   .lifegroups-2 {
     background-image: url("/images/lifegroups/lifegroups-2@2x.jpg");
   }
 }
 
-/* line 184, ../scss/pages/_lifegroups.scss */
+/* line 194, ../scss/pages/_lifegroups.scss */
 .lifegroups-3 {
   background-repeat: no-repeat;
   background-color: #222;
 }
 @media only screen and (max-width: 40em) {
-  /* line 184, ../scss/pages/_lifegroups.scss */
+  /* line 194, ../scss/pages/_lifegroups.scss */
   .lifegroups-3 {
     background-image: url("/images/lifegroups/lifegroups-3-thin.jpg");
     background-size: 391px 486px;
@@ -8877,13 +8894,13 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (max-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (max-width: 40em) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (min-device-pixel-ratio: 1.5) {
-  /* line 184, ../scss/pages/_lifegroups.scss */
+  /* line 194, ../scss/pages/_lifegroups.scss */
   .lifegroups-3 {
     background-image: url("/images/lifegroups/lifegroups-3-thin@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 184, ../scss/pages/_lifegroups.scss */
+  /* line 194, ../scss/pages/_lifegroups.scss */
   .lifegroups-3 {
     background-image: url("/images/lifegroups/lifegroups-3.jpg");
     background-size: 1500px 595px;
@@ -8891,19 +8908,19 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
-  /* line 184, ../scss/pages/_lifegroups.scss */
+  /* line 194, ../scss/pages/_lifegroups.scss */
   .lifegroups-3 {
     background-image: url("/images/lifegroups/lifegroups-3@2x.jpg");
   }
 }
 
-/* line 203, ../scss/pages/_lifegroups.scss */
+/* line 213, ../scss/pages/_lifegroups.scss */
 .lifegroups-4 {
   background-repeat: no-repeat;
   background-color: #222;
 }
 @media only screen and (max-width: 40em) {
-  /* line 203, ../scss/pages/_lifegroups.scss */
+  /* line 213, ../scss/pages/_lifegroups.scss */
   .lifegroups-4 {
     background-image: url("/images/lifegroups/lifegroups-4-thin.jpg");
     background-size: 391px 486px;
@@ -8912,13 +8929,13 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (max-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (max-width: 40em) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (min-device-pixel-ratio: 1.5) {
-  /* line 203, ../scss/pages/_lifegroups.scss */
+  /* line 213, ../scss/pages/_lifegroups.scss */
   .lifegroups-4 {
     background-image: url("/images/lifegroups/lifegroups-4-thin@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 203, ../scss/pages/_lifegroups.scss */
+  /* line 213, ../scss/pages/_lifegroups.scss */
   .lifegroups-4 {
     background-image: url("/images/lifegroups/lifegroups-4.jpg");
     background-size: 1500px 595px;
@@ -8926,7 +8943,7 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
-  /* line 203, ../scss/pages/_lifegroups.scss */
+  /* line 213, ../scss/pages/_lifegroups.scss */
   .lifegroups-4 {
     background-image: url("/images/lifegroups/lifegroups-4@2x.jpg");
   }

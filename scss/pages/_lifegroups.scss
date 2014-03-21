@@ -142,6 +142,16 @@
 
 // Page-specific
 
+  .has-alerts.lifegroups-1,
+  .has-alerts.lifegroups-2,
+  .has-alerts.lifegroups-3,
+  .has-alerts.lifegroups-4 {
+    background-position: left 44px;
+    @media #{$medium-up} {
+      background-position: center 44px;
+    }
+  }
+
   // LifeGroups 1
   .lifegroups-1 {
     background-repeat: no-repeat;
