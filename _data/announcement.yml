@@ -2,8 +2,10 @@
 # active: true or false
 # icon: weather-snow, weather-rain, campus, money, calendar, maintenance
 # message: the message in the announcement
+# url: link or leave blank
 
-- active: false
-  type: alert
-  icon: weather-snow
-  message: Important notice goes here
+- active: true
+  type: notice
+  icon: calendar
+  message: Extra Easter campus times are available here
+  url: /easter/

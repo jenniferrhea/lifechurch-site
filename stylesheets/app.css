@@ -6670,6 +6670,8 @@ input.gsc-search-button:hover {
 .alert-box {
   border: none;
   margin-bottom: 0;
+  z-index: 4;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: #fff;
   color: #333333;
 }
@@ -6679,12 +6681,12 @@ input.gsc-search-button:hover {
     text-align: center;
   }
 }
-/* line 13, ../scss/design/_announcements.scss */
+/* line 15, ../scss/design/_announcements.scss */
 .alert-box.alert {
   background: #b9252d;
 }
 
-/* line 18, ../scss/design/_announcements.scss */
+/* line 20, ../scss/design/_announcements.scss */
 .announcement-icon {
   display: block;
   height: 25px;
@@ -6692,6 +6694,11 @@ input.gsc-search-button:hover {
   float: left;
   margin: -5px 5px -5px 0;
   background-repeat: no-repeat;
+}
+
+/* line 29, ../scss/design/_announcements.scss */
+.alert .announcement-link {
+  color: #fff;
 }
 
 /* line 5, ../scss/settings/_svgpng.scss */

@@ -2,6 +2,8 @@
 .alert-box {
   border: none;
   margin-bottom: 0;
+  z-index: 4;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
   background: #fff;
   color: $body-font-color;
@@ -22,6 +24,10 @@
   float: left;
   margin: -5px 5px -5px 0;
   background-repeat: no-repeat;
+}
+
+.alert .announcement-link {
+  color: #fff;
 }
 
 .alert-box {

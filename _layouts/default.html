@@ -55,7 +55,9 @@
     <div data-alert class="alert-box {{ announcement.type }}">
       <div class="row">
         <div class="medium-12 columns">
-          <span class="announcement-icon icon-{{ announcement.icon }}"></span> {{ announcement.message }}
+          {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
+            <span class="announcement-icon icon-{{ announcement.icon }}"></span> {{ announcement.message }}
+          {% if announcement.url %}</a>{% endif %}
         </div>
       </div>
     </div>
