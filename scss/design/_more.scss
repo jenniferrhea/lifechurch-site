@@ -9,6 +9,15 @@
     background-color: #fff;
   }
 
+  .page-header {
+    @include transition-property(margin-top);
+    @include transition-duration(.5s);
+  }
+
+  .alerts-page-header-more {
+    margin-top: -44px;
+  }
+
   .page-more {
     background: #fff;
     z-index: 10;

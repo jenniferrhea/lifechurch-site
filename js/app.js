@@ -16,6 +16,7 @@ $(function() {
       $( ".primary-links" ).delegate( ".nav-more", "click", function() {
         $(".page-more").fadeIn();
         $("html").addClass("html-more");
+        $(".has-alerts .page-header").addClass("alerts-page-header-more");
         $(".page-more-inner").animate({
           top: '90px'
         }, 400, function() {
@@ -36,6 +37,7 @@ $(function() {
     $( ".primary-links" ).delegate( ".nav-close-more", "click", function() {
       $(".page-more").fadeOut();
       $("html").removeClass("html-more");
+      $(".alerts-page-header-more").removeClass("alerts-page-header-more");
       $(".page-more-inner").animate({ top: '0' }, 400, function() {});
 
       $(this).removeClass("nav-close-more").addClass("nav-more");
@@ -93,8 +95,8 @@ $(function() {
 
   // Locations Map
 
-  if ($('.page-locations .alert-box').length > 0) {
-    $('.map-wrapper').addClass('with-alerts');
+  if ($('.alert-box').length > 0) {
+    $('body').addClass('has-alerts');
   };
 
   if ($(window).width() < 960) {

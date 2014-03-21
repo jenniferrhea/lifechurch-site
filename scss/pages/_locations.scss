@@ -45,9 +45,11 @@
   }
 }
 
+.page-locations.has-alerts .map-wrapper {
+  top: 43px;
+}
+
 .page-locations {
-
-
 
   // Wrapper around all the large screen location content
   .map-wrapper {
@@ -57,10 +59,6 @@
     top: 0;
     overflow: hidden;
     background: #a4ddf4;
-  }
-
-  .map-wrapper.with-alerts {
-    top: 43px;
   }
 
   ul li {
