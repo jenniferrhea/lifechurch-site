@@ -5194,92 +5194,105 @@ th.hide-for-touch {
   color: #333333;
 }
 
-/* line 33, ../scss/design/_type.scss */
+/* line 30, ../scss/design/_type.scss */
+time.meta {
+  margin: -15px 0 30px;
+  display: block;
+  font-family: "myriad-pro", sans-serif;
+  color: #888;
+}
+
+/* line 37, ../scss/design/_type.scss */
+.article-title a {
+  color: #b9252d;
+}
+
+/* line 44, ../scss/design/_type.scss */
 a.text-primary:hover {
   color: #085d76 !important;
 }
 
-/* line 38, ../scss/design/_type.scss */
+/* line 49, ../scss/design/_type.scss */
 a.text-lprimary:hover,
 .footer-light .page-footer a:hover {
   color: #26c4f1 !important;
 }
 
-/* line 42, ../scss/design/_type.scss */
+/* line 53, ../scss/design/_type.scss */
 a.text-secondary:hover {
   color: #c1c1c1 !important;
 }
 
-/* line 46, ../scss/design/_type.scss */
+/* line 57, ../scss/design/_type.scss */
 a.text-red:hover {
   color: #79181d;
 }
 
-/* line 50, ../scss/design/_type.scss */
+/* line 61, ../scss/design/_type.scss */
 a.text-gray:hover {
   color: #6c6c6c;
 }
 
-/* line 55, ../scss/design/_type.scss */
+/* line 66, ../scss/design/_type.scss */
 a.text-white:hover,
 .section-light a:hover {
   color: #d9d9d9;
 }
 
-/* line 59, ../scss/design/_type.scss */
+/* line 70, ../scss/design/_type.scss */
 a.text-black:hover {
   color: #737373;
 }
 
-/* line 67, ../scss/design/_type.scss */
+/* line 78, ../scss/design/_type.scss */
 a h1, a .h1, a h2, a .h2, a figcaption, a h3, a .h3, a h4, a .h4, a .location-tile, a .lifegroups-tile span, .lifegroups-tile a span, a h5, a .h5, a h6, a .h6, a label {
   color: #0ea9d6 !important;
 }
-/* line 72, ../scss/design/_type.scss */
+/* line 83, ../scss/design/_type.scss */
 a :hover h1, a :hover .h1, a :hover h2, a :hover .h2, a :hover figcaption, a :hover h3, a :hover .h3, a :hover h4, a :hover .h4, a :hover .location-tile, a :hover .lifegroups-tile span, .lifegroups-tile a :hover span, a :hover h5, a :hover .h5, a :hover h6, a :hover .h6, a :hover label {
   color: #09708e;
 }
 
-/* line 81, ../scss/design/_type.scss */
+/* line 92, ../scss/design/_type.scss */
 h1, .h1 {
   color: #333;
 }
 
-/* line 85, ../scss/design/_type.scss */
+/* line 96, ../scss/design/_type.scss */
 h2, .h2, figcaption, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h6, .h6, label {
   color: #444;
 }
 
-/* line 89, ../scss/design/_type.scss */
+/* line 100, ../scss/design/_type.scss */
 h1, .h1, h2, .h2, figcaption, h3, .h3 {
   letter-spacing: -1px;
 }
 
-/* line 95, ../scss/design/_type.scss */
+/* line 106, ../scss/design/_type.scss */
 body {
   -webkit-text-size-adjust: none;
 }
 
-/* line 101, ../scss/design/_type.scss */
+/* line 112, ../scss/design/_type.scss */
 h1, .h1 {
   font-weight: 600;
   margin-top: 25px;
   margin-bottom: 30px;
 }
 @media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 101, ../scss/design/_type.scss */
+  /* line 112, ../scss/design/_type.scss */
   h1, .h1 {
     margin-bottom: 10px;
   }
 }
 
-/* line 119, ../scss/design/_type.scss */
+/* line 130, ../scss/design/_type.scss */
 h2, .h2, figcaption {
   font-size: 1.6rem;
   margin-top: 20px !important;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 119, ../scss/design/_type.scss */
+  /* line 130, ../scss/design/_type.scss */
   h2, .h2, figcaption {
     font-size: 2.3rem;
     margin-top: 40px !important;
@@ -5287,90 +5300,90 @@ h2, .h2, figcaption {
   }
 }
 
-/* line 144, ../scss/design/_type.scss */
+/* line 155, ../scss/design/_type.scss */
 h4, .h4, .location-tile, .lifegroups-tile span {
   margin-top: .5em;
 }
 
-/* line 155, ../scss/design/_type.scss */
+/* line 166, ../scss/design/_type.scss */
 h5, .h5 {
   font-weight: 300;
   font-style: italic;
   color: #929292;
 }
 
-/* line 168, ../scss/design/_type.scss */
+/* line 179, ../scss/design/_type.scss */
 h6, .h6, label {
   margin-top: 10px;
   font-weight: 600;
 }
 
-/* line 180, ../scss/design/_type.scss */
+/* line 191, ../scss/design/_type.scss */
 figcaption {
   font-size: 1.5rem;
   margin-top: 20px !important;
 }
 
-/* line 189, ../scss/design/_type.scss */
+/* line 200, ../scss/design/_type.scss */
 hr {
   margin-left: 15px;
   margin-right: 15px;
   max-width: 970px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 189, ../scss/design/_type.scss */
+  /* line 200, ../scss/design/_type.scss */
   hr {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-/* line 200, ../scss/design/_type.scss */
+/* line 211, ../scss/design/_type.scss */
 hr.thin {
   margin-left: 30%;
   margin-right: 30%;
 }
 
-/* line 212, ../scss/design/_type.scss */
+/* line 223, ../scss/design/_type.scss */
 textarea {
   min-height: 200px;
 }
 
-/* line 219, ../scss/design/_type.scss */
+/* line 230, ../scss/design/_type.scss */
 blockquote {
   padding-left: 0;
   padding-right: 0;
   border: none;
   text-align: center;
 }
-/* line 225, ../scss/design/_type.scss */
+/* line 236, ../scss/design/_type.scss */
 blockquote p, blockquote ul li, ul blockquote li {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 225, ../scss/design/_type.scss */
+  /* line 236, ../scss/design/_type.scss */
   blockquote p, blockquote ul li, ul blockquote li {
     font-size: 2rem;
   }
 }
-/* line 235, ../scss/design/_type.scss */
+/* line 246, ../scss/design/_type.scss */
 blockquote cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 235, ../scss/design/_type.scss */
+  /* line 246, ../scss/design/_type.scss */
   blockquote cite {
     font-size: 1.3rem;
   }
 }
-/* line 244, ../scss/design/_type.scss */
+/* line 255, ../scss/design/_type.scss */
 blockquote.quote-large {
   text-align: left;
 }
-/* line 247, ../scss/design/_type.scss */
+/* line 258, ../scss/design/_type.scss */
 blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
   font-size: 1.2rem;
   line-height: 1.3em;
@@ -5378,36 +5391,36 @@ blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-larg
   font-weight: 300;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 247, ../scss/design/_type.scss */
+  /* line 258, ../scss/design/_type.scss */
   blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
     font-size: 3rem;
   }
 }
-/* line 258, ../scss/design/_type.scss */
+/* line 269, ../scss/design/_type.scss */
 blockquote.quote-large cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 258, ../scss/design/_type.scss */
+  /* line 269, ../scss/design/_type.scss */
   blockquote.quote-large cite {
     font-size: 1.5rem;
   }
 }
 
-/* line 269, ../scss/design/_type.scss */
+/* line 280, ../scss/design/_type.scss */
 .tweet-this {
   color: #0ea9d6 !important;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 1.25rem;
 }
-/* line 275, ../scss/design/_type.scss */
+/* line 286, ../scss/design/_type.scss */
 .tweet-this:hover {
   color: #888 !important;
 }
 
-/* line 280, ../scss/design/_type.scss */
+/* line 291, ../scss/design/_type.scss */
 .tweet-this .icon {
   display: inline-block;
   background-repeat: no-repeat;
@@ -5429,49 +5442,49 @@ blockquote.quote-large cite {
   background-image: url('/images/social/icon-twitter.png?1394478067');
 }
 
-/* line 292, ../scss/design/_type.scss */
+/* line 303, ../scss/design/_type.scss */
 a p, a ul li, ul a li {
   color: #333333;
 }
 
-/* line 297, ../scss/design/_type.scss */
+/* line 308, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 303, ../scss/design/_type.scss */
+/* line 314, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 309, ../scss/design/_type.scss */
+/* line 320, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 309, ../scss/design/_type.scss */
+  /* line 320, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 319, ../scss/design/_type.scss */
+/* line 330, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 326, ../scss/design/_type.scss */
+/* line 337, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 331, ../scss/design/_type.scss */
+/* line 342, ../scss/design/_type.scss */
 p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5479,33 +5492,33 @@ p, ul li {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 331, ../scss/design/_type.scss */
+  /* line 342, ../scss/design/_type.scss */
   p, ul li {
     font-size: 1.25rem;
   }
 }
 
-/* line 343, ../scss/design/_type.scss */
+/* line 354, ../scss/design/_type.scss */
 .detail, ul li {
   font-size: 0.9375rem;
 }
 
-/* line 348, ../scss/design/_type.scss */
+/* line 359, ../scss/design/_type.scss */
 ul li {
   margin-bottom: 10px;
 }
 
-/* line 355, ../scss/design/_type.scss */
+/* line 366, ../scss/design/_type.scss */
 .detail li, ul li li {
   margin-bottom: 0;
 }
 
-/* line 360, ../scss/design/_type.scss */
+/* line 371, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 369, ../scss/design/_type.scss */
+/* line 380, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5514,12 +5527,12 @@ ul li {
   font-weight: 300;
 }
 
-/* line 375, ../scss/design/_type.scss */
+/* line 386, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 381, ../scss/design/_type.scss */
+/* line 392, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2,

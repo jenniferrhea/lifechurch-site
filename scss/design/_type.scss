@@ -27,6 +27,17 @@
     color: $body-font-color;
   }
 
+  time.meta {
+    margin: -15px 0 30px;
+    display: block;
+    font-family: $header-font-family;
+    color: #888;
+  }
+
+  .article-title a {
+    color: $red;
+  }
+
 
 // Hover type colors
 
