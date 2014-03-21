@@ -86,6 +86,7 @@ $red: #B9252D;
 @import "design/involved-list";
 @import "design/video-player";
 @import "design/search";
+@import "design/announcements";
 
 // Pages
 @import "pages/home";
@@ -96,21 +97,3 @@ $red: #B9252D;
 @import "pages/kids";
 @import "pages/about";
 @import "pages/chazown";
-
-
-// Alerts
-.alert-box {
-  border: none;
-  margin-bottom: 0;
-
-  background: #fff;
-  color: $body-font-color;
-
-  @media #{$small-only} {
-    text-align: center;
-  }
-
-  &.alert {
-    background: $red;
-  }
-}

@@ -40,7 +40,6 @@
     <meta itemprop="description" content="{{ page.description_small }}">
     {% endif %}
     {% endif %}
-    <script src="http://tomodo-tools.s3.amazonaws.com/tomodo.korz-0.5.js"></script>
   </head>
 
   {% if page.class %}
@@ -55,7 +54,7 @@
     <div data-alert class="alert-box {{ announcement.type }}">
       <div class="row">
         <div class="medium-12 columns">
-          {{ announcement.message }}
+          <span class="announcement-icon icon-{{ announcement.icon }}"></span> {{ announcement.message }}
         </div>
       </div>
     </div>
@@ -139,9 +138,13 @@
     <script src="/bower_components/foundation/js/foundation/foundation.orbit.js"></script>
     <script src="/bower_components/foundation/js/foundation/foundation.magellan.js"></script>
     <script src="/bower_components/jquery.stellar/jquery.stellar.min.js"></script>
-    <script src="/js/app.js"></script>
+
     <script src="/js/church_online_counter.js"></script>
+    
+    <script src="http://tomodo-tools.s3.amazonaws.com/tomodo.korz-0.5.js"></script>
     <script src="/js/jobs-parser.js"></script>
+
+    <script src="/js/app.js"></script>
 
     {% if page.javascript == true %}
     <script src="/js/watch/{{ page.assets }}/script.js"></script>

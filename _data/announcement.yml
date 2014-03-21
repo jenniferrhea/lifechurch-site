@@ -1,7 +1,9 @@
 # type: notice or alert
 # active: true or false
+# icon: weather-snow, weather-rain, campus, money, calendar, maintenance
 # message: the message in the announcement
 
 - active: false
   type: alert
+  icon: weather-snow
   message: Important notice goes here
