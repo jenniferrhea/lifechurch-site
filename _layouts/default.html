@@ -52,6 +52,7 @@
     <!-- Announcement -->
     {% for announcement in site.data.announcement %}
     {% if announcement.active == true %}
+    {% if page.section != 'announcements' %}
     <div data-alert class="alert-box {{ announcement.type }}">
       <div class="row">
         <div class="medium-12 columns">
@@ -61,6 +62,7 @@
         </div>
       </div>
     </div>
+    {% endif %}
     {% endif %}
     {% endfor %}
 
