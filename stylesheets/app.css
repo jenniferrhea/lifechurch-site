@@ -9169,3 +9169,18 @@ input.gsc-search-button:hover {
     margin-top: 0;
   }
 }
+
+/* line 102, ../scss/app.scss */
+code {
+  background-color: #ededed;
+  border-color: #dddddd;
+  color: #444;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0;
+  font-family: "Consolas", "Menlo", "Courier", monospace;
+  font-size: 0.875rem;
+  padding: 0.125rem 0.25rem 0;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}

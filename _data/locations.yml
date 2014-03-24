@@ -523,6 +523,7 @@
   description_small: Description about this campus goes right here.
   address: '2001 NW 178th St, Edmond, OK 73012'
   email: interactive@lifechurch.tv
+  facebook: LifeChurchOKC
   times:
     - title: 5:00PM
       time: '17-00'
