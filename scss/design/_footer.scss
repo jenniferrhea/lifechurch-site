@@ -14,53 +14,15 @@
 
     .footer-social {
       @media #{$medium-up} {
-        margin-top: -10px;
-      }
-
-      li {
-        @media #{$large-up} {
-          margin-left: 0;
-        }
+        margin-top: -17px;
       }
 
       a {
-        background-repeat: no-repeat;
-        background-position: left;
-        text-indent: -999em;
-        width: 40px;
-        height: 14px;
-
-        @media #{$large-up} {
-          background-position: right;
-        }
+        color: #929292;
 
         &:hover {
-          opacity: .7;
+          color: #0c91b8;
         }
-      }
-
-      .icon-facebook {
-        @include svg-image('/images/social/icon-facebook');
-      }
-
-      .icon-twitter {
-        @include svg-image('/images/social/icon-twitter');
-      }
-
-      .icon-instagram {
-        @include svg-image('/images/social/icon-instagram');
-      }
-
-      .icon-pinterest {
-        @include svg-image('/images/social/icon-pinterest');
-      }
-
-      .icon-youtube {
-        @include svg-image('/images/social/icon-youtube');
-      }
-
-      .icon-gplus {
-        @include svg-image('/images/social/icon-gplus');
       }
     }
 

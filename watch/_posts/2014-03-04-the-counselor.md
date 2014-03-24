@@ -39,7 +39,7 @@ javascript: true
                class=""
                data-video-player="{{message.video}}"
                >
-               Watch Church Online <span data-churchonline-counter></span> <i class="icon icon-play-2"></i>
+               Watch Church Online <span data-churchonline-counter></span> <i class="icon icon-play"></i>
             </a>
             {% endfor %}
 
@@ -48,7 +48,7 @@ javascript: true
             <a href="#"
                class="learn-more"
                >
-               Learn More <i class="icon icon-play-2"></i>
+               Learn More <i class="icon icon-play"></i>
             </a>
           </p>
         </div>

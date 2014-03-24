@@ -13,11 +13,11 @@
 
   @font-face {
     font-family: 'lctv';
-    src:url('/fonts/lctv/lctv.eot?-dvzee9');
-    src:url('/fonts/lctv/lctv.eot?#iefix-dvzee9') format('embedded-opentype'),
-      url('/fonts/lctv/lctv.woff?-dvzee9') format('woff'),
-      url('/fonts/lctv/lctv.ttf?-dvzee9') format('truetype'),
-      url('/fonts/lctv/lctv.svg?-dvzee9#lctv') format('svg');
+    src:url('/fonts/lctv/lctv.eot');
+    src:url('/fonts/lctv/lctv.eot#iefix') format('embedded-opentype'),
+      url('/fonts/lctv/lctv.woff') format('woff'),
+      url('/fonts/lctv/lctv.ttf') format('truetype'),
+      url('/fonts/lctv/lctv.svg#lctv') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -31,46 +31,44 @@
     text-transform: none;
     line-height: 1;
 
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    font-size: .8em;
+
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  .icon-play-1:before {
-    content: "\36";
-  }
-  .icon-play-2:before {
-    content: "\37";
-    font-size: 1.2em;
-  }
-  .icon-external:before {
-    content: "\38";
-  }
-  .icon-arrow-down-1:before {
-    content: "\34";
-  }
-  .icon-arrow-down-2:before {
-    content: "\35";
-  }
-  .icon-arrow-2:before {
-    content: "\33";
-  }
-  .icon-arrow-1:before {
-    content: "\32";
-  }
-  .icon-logomark:before {
-    content: "\31";
-  }
+  .icon-logo:before { content: '\e800'; }
+  .icon-arrow:before { content: '\e801'; }
+  .icon-down:before { content: '\e802'; }
+  .icon-close:before { content: '\e803'; }
+  .icon-download:before { content: '\e804'; }
+  .icon-share:before { content: '\e805'; }
+  .icon-window:before { content: '\e806'; }
+  .icon-file:before { content: '\e807'; }
+  .icon-play:before { content: '\e808'; }
 
-  @media #{$medium-up} {
-    .small .icon:before {
-      bottom: -3px;
-    }
-    .icon:before {
-      bottom: -4px;
-      position: relative;
-    }
-    .large .icon:before {
-      bottom: -6px;
-    }
-  }
+  .icon-announcement-money:before { content: '\e813'; }
+  .icon-announcement-calendar:before { content: '\e810'; }
+  .icon-announcement-campus:before { content: '\e811'; }
+  .icon-announcement-maintenance:before { content: '\e812'; }
+  .icon-announcement-weather-rain:before { content: '\e815'; }
+  .icon-announcement-weather-snow:before { content: '\e814'; }
+
+  .icon-social-facebook:before { content: '\e809'; }
+  .icon-social-twitter:before { content: '\e80b'; }
+  .icon-social-instagram:before { content: '\e80c'; }
+  .icon-social-pinterest:before { content: '\e80d'; }
+  .icon-social-vine:before { content: '\e80e'; }
+  .icon-social-youtube:before { content: '\e80f'; }
+  .icon-social-gplus:before { content: '\e80a'; }

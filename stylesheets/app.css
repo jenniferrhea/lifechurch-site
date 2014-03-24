@@ -5081,8 +5081,8 @@ th.hide-for-touch {
 
 @font-face {
   font-family: 'lctv';
-  src: url("/fonts/lctv/lctv.eot?-dvzee9");
-  src: url("/fonts/lctv/lctv.eot?#iefix-dvzee9") format("embedded-opentype"), url("/fonts/lctv/lctv.woff?-dvzee9") format("woff"), url("/fonts/lctv/lctv.ttf?-dvzee9") format("truetype"), url("/fonts/lctv/lctv.svg?-dvzee9#lctv") format("svg");
+  src: url("/fonts/lctv/lctv.eot");
+  src: url("/fonts/lctv/lctv.eot#iefix") format("embedded-opentype"), url("/fonts/lctv/lctv.woff") format("woff"), url("/fonts/lctv/lctv.ttf") format("truetype"), url("/fonts/lctv/lctv.svg#lctv") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5096,69 +5096,130 @@ th.hide-for-touch {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  font-size: .8em;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 39, ../scss/design/_fonts.scss */
-.icon-play-1:before {
-  content: "\36";
-}
-
-/* line 42, ../scss/design/_fonts.scss */
-.icon-play-2:before {
-  content: "\37";
-  font-size: 1.2em;
-}
-
-/* line 46, ../scss/design/_fonts.scss */
-.icon-external:before {
-  content: "\38";
-}
-
-/* line 49, ../scss/design/_fonts.scss */
-.icon-arrow-down-1:before {
-  content: "\34";
+/* line 51, ../scss/design/_fonts.scss */
+.icon-logo:before {
+  content: '\e800';
 }
 
 /* line 52, ../scss/design/_fonts.scss */
-.icon-arrow-down-2:before {
-  content: "\35";
+.icon-arrow:before {
+  content: '\e801';
+}
+
+/* line 53, ../scss/design/_fonts.scss */
+.icon-down:before {
+  content: '\e802';
+}
+
+/* line 54, ../scss/design/_fonts.scss */
+.icon-close:before {
+  content: '\e803';
 }
 
 /* line 55, ../scss/design/_fonts.scss */
-.icon-arrow-2:before {
-  content: "\33";
+.icon-download:before {
+  content: '\e804';
+}
+
+/* line 56, ../scss/design/_fonts.scss */
+.icon-share:before {
+  content: '\e805';
+}
+
+/* line 57, ../scss/design/_fonts.scss */
+.icon-window:before {
+  content: '\e806';
 }
 
 /* line 58, ../scss/design/_fonts.scss */
-.icon-arrow-1:before {
-  content: "\32";
+.icon-file:before {
+  content: '\e807';
+}
+
+/* line 59, ../scss/design/_fonts.scss */
+.icon-play:before {
+  content: '\e808';
 }
 
 /* line 61, ../scss/design/_fonts.scss */
-.icon-logomark:before {
-  content: "\31";
+.icon-announcement-money:before {
+  content: '\e813';
 }
 
-@media only screen and (min-width: 40.063em) {
-  /* line 66, ../scss/design/_fonts.scss */
-  .small .icon:before {
-    bottom: -3px;
-  }
-
-  /* line 69, ../scss/design/_fonts.scss */
-  .icon:before {
-    bottom: -4px;
-    position: relative;
-  }
-
-  /* line 73, ../scss/design/_fonts.scss */
-  .large .icon:before {
-    bottom: -6px;
-  }
+/* line 62, ../scss/design/_fonts.scss */
+.icon-announcement-calendar:before {
+  content: '\e810';
 }
+
+/* line 63, ../scss/design/_fonts.scss */
+.icon-announcement-campus:before {
+  content: '\e811';
+}
+
+/* line 64, ../scss/design/_fonts.scss */
+.icon-announcement-maintenance:before {
+  content: '\e812';
+}
+
+/* line 65, ../scss/design/_fonts.scss */
+.icon-announcement-weather-rain:before {
+  content: '\e815';
+}
+
+/* line 66, ../scss/design/_fonts.scss */
+.icon-announcement-weather-snow:before {
+  content: '\e814';
+}
+
+/* line 68, ../scss/design/_fonts.scss */
+.icon-social-facebook:before {
+  content: '\e809';
+}
+
+/* line 69, ../scss/design/_fonts.scss */
+.icon-social-twitter:before {
+  content: '\e80b';
+}
+
+/* line 70, ../scss/design/_fonts.scss */
+.icon-social-instagram:before {
+  content: '\e80c';
+}
+
+/* line 71, ../scss/design/_fonts.scss */
+.icon-social-pinterest:before {
+  content: '\e80d';
+}
+
+/* line 72, ../scss/design/_fonts.scss */
+.icon-social-vine:before {
+  content: '\e80e';
+}
+
+/* line 73, ../scss/design/_fonts.scss */
+.icon-social-youtube:before {
+  content: '\e80f';
+}
+
+/* line 74, ../scss/design/_fonts.scss */
+.icon-social-gplus:before {
+  content: '\e80a';
+}
+
 /* line 2, ../scss/design/_type.scss */
 .text-primary {
   color: #0ea9d6 !important;
@@ -5983,104 +6044,16 @@ html {
 @media only screen and (min-width: 40.063em) {
   /* line 15, ../scss/design/_footer.scss */
   .page-footer .footer-social {
-    margin-top: -10px;
+    margin-top: -17px;
   }
 }
-@media only screen and (min-width: 64.063em) {
-  /* line 20, ../scss/design/_footer.scss */
-  .page-footer .footer-social li {
-    margin-left: 0;
-  }
-}
-/* line 26, ../scss/design/_footer.scss */
+/* line 20, ../scss/design/_footer.scss */
 .page-footer .footer-social a {
-  background-repeat: no-repeat;
-  background-position: left;
-  text-indent: -999em;
-  width: 40px;
-  height: 14px;
+  color: #929292;
 }
-@media only screen and (min-width: 64.063em) {
-  /* line 26, ../scss/design/_footer.scss */
-  .page-footer .footer-social a {
-    background-position: right;
-  }
-}
-/* line 37, ../scss/design/_footer.scss */
+/* line 23, ../scss/design/_footer.scss */
 .page-footer .footer-social a:hover {
-  opacity: .7;
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .page-footer .footer-social .icon-facebook {
-  background-image: url('/images/social/icon-facebook.svg?1394478088');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .page-footer .footer-social .icon-facebook {
-  background-image: url('/images/social/icon-facebook.png?1394478090');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .page-footer .footer-social .icon-facebook {
-  background-image: url('/images/social/icon-facebook.png?1394478090');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .page-footer .footer-social .icon-twitter {
-  background-image: url('/images/social/icon-twitter.svg?1394478040');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .page-footer .footer-social .icon-twitter {
-  background-image: url('/images/social/icon-twitter.png?1394478067');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .page-footer .footer-social .icon-twitter {
-  background-image: url('/images/social/icon-twitter.png?1394478067');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .page-footer .footer-social .icon-instagram {
-  background-image: url('/images/social/icon-instagram.svg?1394478017');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .page-footer .footer-social .icon-instagram {
-  background-image: url('/images/social/icon-instagram.png?1394478018');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .page-footer .footer-social .icon-instagram {
-  background-image: url('/images/social/icon-instagram.png?1394478018');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .page-footer .footer-social .icon-pinterest {
-  background-image: url('/images/social/icon-pinterest.svg?1394477988');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .page-footer .footer-social .icon-pinterest {
-  background-image: url('/images/social/icon-pinterest.png?1394477991');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .page-footer .footer-social .icon-pinterest {
-  background-image: url('/images/social/icon-pinterest.png?1394477991');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .page-footer .footer-social .icon-youtube {
-  background-image: url('/images/social/icon-youtube.svg?1394477961');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .page-footer .footer-social .icon-youtube {
-  background-image: url('/images/social/icon-youtube.png?1394477964');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .page-footer .footer-social .icon-youtube {
-  background-image: url('/images/social/icon-youtube.png?1394477964');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .page-footer .footer-social .icon-gplus {
-  background-image: url('/images/social/icon-gplus.svg?1395236838');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .page-footer .footer-social .icon-gplus {
-  background-image: url('/images/social/icon-gplus.png?1395236841');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .page-footer .footer-social .icon-gplus {
-  background-image: url('/images/social/icon-gplus.png?1395236841');
+  color: #0c91b8;
 }
 @media only screen and (max-width: 40em) {
   /* line 3, ../scss/design/_footer.scss */
@@ -6101,7 +6074,7 @@ html {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 85, ../scss/design/_footer.scss */
+  /* line 47, ../scss/design/_footer.scss */
   .page-footer .columns {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 2em;
@@ -6698,170 +6671,22 @@ input.gsc-search-button:hover {
     text-align: center;
   }
 }
-/* line 15, ../scss/design/_announcements.scss */
+/* line 14, ../scss/design/_announcements.scss */
 .alert-box.alert {
   background: #b9252d;
 }
 
-/* line 20, ../scss/design/_announcements.scss */
+/* line 19, ../scss/design/_announcements.scss */
 .announcement-icon {
-  display: block;
   height: 25px;
   width: 25px;
-  float: left;
   margin: -5px 5px -5px 0;
-  background-repeat: no-repeat;
+  font-size: 23px;
 }
 
-/* line 29, ../scss/design/_announcements.scss */
+/* line 26, ../scss/design/_announcements.scss */
 .alert .announcement-link {
   color: #fff;
-}
-
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box .icon-weather-snow {
-  background-image: url('/images/icons/announcement-icon-weather-snow-black.svg?1395423032');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box .icon-weather-snow {
-  background-image: url('/images/icons/announcement-icon-weather-snow-black.png?1395423044');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box .icon-weather-snow {
-  background-image: url('/images/icons/announcement-icon-weather-snow-black.png?1395423044');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box .icon-weather-rain {
-  background-image: url('/images/icons/announcement-icon-weather-rain-black.svg?1395423316');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box .icon-weather-rain {
-  background-image: url('/images/icons/announcement-icon-weather-rain-black.png?1395423318');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box .icon-weather-rain {
-  background-image: url('/images/icons/announcement-icon-weather-rain-black.png?1395423318');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box .icon-campus {
-  background-image: url('/images/icons/announcement-icon-campus-black.svg?1395423365');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box .icon-campus {
-  background-image: url('/images/icons/announcement-icon-campus-black.png?1395423353');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box .icon-campus {
-  background-image: url('/images/icons/announcement-icon-campus-black.png?1395423353');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box .icon-money {
-  background-image: url('/images/icons/announcement-icon-money-black.svg?1395423408');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box .icon-money {
-  background-image: url('/images/icons/announcement-icon-money-black.png?1395423411');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box .icon-money {
-  background-image: url('/images/icons/announcement-icon-money-black.png?1395423411');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box .icon-calendar {
-  background-image: url('/images/icons/announcement-icon-calendar-black.svg?1395423450');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box .icon-calendar {
-  background-image: url('/images/icons/announcement-icon-calendar-black.png?1395423451');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box .icon-calendar {
-  background-image: url('/images/icons/announcement-icon-calendar-black.png?1395423451');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box .icon-maintenance {
-  background-image: url('/images/icons/announcement-icon-maintenance-black.svg?1395423479');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box .icon-maintenance {
-  background-image: url('/images/icons/announcement-icon-maintenance-black.png?1395423480');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box .icon-maintenance {
-  background-image: url('/images/icons/announcement-icon-maintenance-black.png?1395423480');
-}
-
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box.alert .icon-weather-snow {
-  background-image: url('/images/icons/announcement-icon-weather-snow-white.svg?1395423037');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box.alert .icon-weather-snow {
-  background-image: url('/images/icons/announcement-icon-weather-snow-white.png?1395423039');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box.alert .icon-weather-snow {
-  background-image: url('/images/icons/announcement-icon-weather-snow-white.png?1395423039');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box.alert .icon-weather-rain {
-  background-image: url('/images/icons/announcement-icon-weather-rain-white.svg?1395423322');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box.alert .icon-weather-rain {
-  background-image: url('/images/icons/announcement-icon-weather-rain-white.png?1395423324');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box.alert .icon-weather-rain {
-  background-image: url('/images/icons/announcement-icon-weather-rain-white.png?1395423324');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box.alert .icon-campus {
-  background-image: url('/images/icons/announcement-icon-campus-white.svg?1395423371');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box.alert .icon-campus {
-  background-image: url('/images/icons/announcement-icon-campus-white.png?1395423372');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box.alert .icon-campus {
-  background-image: url('/images/icons/announcement-icon-campus-white.png?1395423372');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box.alert .icon-money {
-  background-image: url('/images/icons/announcement-icon-money-white.svg?1395423415');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box.alert .icon-money {
-  background-image: url('/images/icons/announcement-icon-money-white.png?1395423416');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box.alert .icon-money {
-  background-image: url('/images/icons/announcement-icon-money-white.png?1395423416');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box.alert .icon-calendar {
-  background-image: url('/images/icons/announcement-icon-calendar-white.svg?1395423456');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box.alert .icon-calendar {
-  background-image: url('/images/icons/announcement-icon-calendar-white.png?1395423457');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box.alert .icon-calendar {
-  background-image: url('/images/icons/announcement-icon-calendar-white.png?1395423457');
-}
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .alert-box.alert .icon-maintenance {
-  background-image: url('/images/icons/announcement-icon-maintenance-white.svg?1395423484');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .alert-box.alert .icon-maintenance {
-  background-image: url('/images/icons/announcement-icon-maintenance-white.png?1395423485');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .alert-box.alert .icon-maintenance {
-  background-image: url('/images/icons/announcement-icon-maintenance-white.png?1395423485');
 }
 
 @media only screen and (max-width: 40em) {
@@ -7277,7 +7102,7 @@ input.gsc-search-button:hover {
   background: #a4ddf4;
 }
 /* line 64, ../scss/pages/_locations.scss */
-.page-locations ul li {
+.page-locations .map-list li {
   margin-bottom: 0;
 }
 @media only screen and (min-width: 40.063em) {
