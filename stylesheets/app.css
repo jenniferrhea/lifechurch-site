@@ -7052,30 +7052,43 @@ input.gsc-search-button:hover {
   /* line 1, ../scss/pages/_watch.scss */
   .page-watch .section-watch-live {
     height: 300px;
+    background-image: url("/images/watch/watch-live-small.jpg");
+    background-color: #000;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-bottom: 80px !important;
+    padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (max-width: 40em) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (min-device-pixel-ratio: 1.5) {
+  /* line 1, ../scss/pages/_watch.scss */
+  .page-watch .section-watch-live {
+    background-image: url("/images/watch/watch-live-small@2x.jpg");
   }
 }
 
-/* line 16, ../scss/pages/_watch.scss */
+/* line 28, ../scss/pages/_watch.scss */
 .message h4, .message .h4, .message .location-tile, .message .lifegroups-tile span, .lifegroups-tile .message span {
   margin-top: -5px;
 }
 
-/* line 20, ../scss/pages/_watch.scss */
+/* line 32, ../scss/pages/_watch.scss */
 .message h6, .message .h6, .message label {
   margin-top: 2px;
 }
 
-/* line 24, ../scss/pages/_watch.scss */
+/* line 36, ../scss/pages/_watch.scss */
 .message {
   padding-bottom: 12px;
 }
 
-/* line 28, ../scss/pages/_watch.scss */
+/* line 40, ../scss/pages/_watch.scss */
 .watch-item h6, .watch-item .h6, .watch-item label {
   margin-top: 5px;
 }
 
-/* line 34, ../scss/pages/_watch.scss */
+/* line 46, ../scss/pages/_watch.scss */
 .watch-podcast,
 .watch-talkitover,
 .watch-open {
@@ -7083,7 +7096,7 @@ input.gsc-search-button:hover {
   padding-bottom: 12px !important;
 }
 
-/* line 41, ../scss/pages/_watch.scss */
+/* line 53, ../scss/pages/_watch.scss */
 .watch-podcast:before,
 .watch-talkitover:before,
 .watch-open:before {
@@ -7135,7 +7148,7 @@ input.gsc-search-button:hover {
   background-image: url('/images/watch/watch-open.png?1392045171');
 }
 
-/* line 71, ../scss/pages/_watch.scss */
+/* line 83, ../scss/pages/_watch.scss */
 .section-watch .icon-facebook,
 .section-watch .icon-twitter,
 .section-watch .icon-instagram,

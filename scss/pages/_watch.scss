@@ -9,8 +9,20 @@
   background-position: center;
 
   @media #{$small-only} {
-    height: 300px;
   }
+
+  @media #{$small-only} {
+    height: 300px;
+    @include background-image-2x-jpg('/images/watch/watch-live-small');
+    background-color: #000;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-bottom: 80px !important;
+    padding-top: 15px;
+
+  }
+
 }
 
 .message h4 {
