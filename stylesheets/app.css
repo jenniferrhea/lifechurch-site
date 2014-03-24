@@ -5570,8 +5570,8 @@ html {
 }
 
 /* line 17, ../scss/design/_more.scss */
-.alerts-page-header-more {
-  margin-top: -44px;
+.html-more .has-alerts .page-more {
+  margin-top: 44px;
 }
 
 /* line 21, ../scss/design/_more.scss */
@@ -6687,7 +6687,7 @@ input.gsc-search-button:hover {
 .alert-box {
   border: none;
   margin-bottom: 0;
-  z-index: 4;
+  z-index: 11;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: #fff;
   color: #333333;
