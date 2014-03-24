@@ -189,31 +189,6 @@
     }
   }
 
-  // Save space on landscape mobiles
-  /*@media (min-width: 480px) and (max-width: 600px) and (orientation: landscape) {
-    .tertiary-header {
-      width: 200px;
-      top: -64px;
-      left: 170px;
-      margin-bottom: -10px;
-      border: none;
-
-      .tertiary-nav:before {
-        content: "/ ";
-        display: inline;
-      }
-
-      a {
-        font-size: 1em !important;
-        text-transform: uppercase;
-        font-family: "Helvetica Neue", sans-serif;
-        color: $black;
-        font-weight: bold !important;
-        font-size: rem-calc(14) !important;
-      }
-    }
-  }*/
-
   // The navigation itself
   .tertiary-nav {
     margin-top: 10px;

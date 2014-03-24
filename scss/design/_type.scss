@@ -288,16 +288,6 @@ body {
     }
   }
 
-  .tweet-this .icon {
-    display: inline-block;
-    @include svg-image('/images/social/icon-twitter');
-    background-repeat: no-repeat;
-    background-position: left;
-    text-indent: -999em;
-    width: 20px;
-    height: 14px;
-  }
-
 
 // Paragraphs within a hyperlink (rather the other way around) don't get active color
 a p {
@@ -369,10 +359,7 @@ ul li {
 
 // Tertiary links serif type
 .tertiary-nav a {
-  //font-family: "ff-meta-serif-web-pro";
   font-family: $body-font-family;
-  //font-weight: 300;
-  //letter-spacing: -1px;
 }
 
 // Make regular action type & message descriptions serif type

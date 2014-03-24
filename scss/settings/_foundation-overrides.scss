@@ -1,7 +1,7 @@
 // These settings override Foundation defaults, so that we can style certain
 // elements ourselves. Orbit's slider arrow images, for example.
 
-@media #{$medium-up} {
+/*@media #{$medium-up} {
   .orbit-next,
   .orbit-prev {
     width: 96px !important;
@@ -29,9 +29,9 @@
 
   .orbit-bullets li {
     cursor: pointer;
-    
+
     &.active {
       cursor: default;
     }
   }
-}
+}*/

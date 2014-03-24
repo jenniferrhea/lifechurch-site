@@ -9,9 +9,6 @@
   background-position: center;
 
   @media #{$small-only} {
-  }
-
-  @media #{$small-only} {
     height: 300px;
     @include background-image-2x-jpg('/images/watch/watch-live-small');
     background-color: #000;
@@ -20,9 +17,7 @@
     background-position: top left;
     padding-bottom: 80px !important;
     padding-top: 15px;
-
   }
-
 }
 
 .message h4 {
@@ -71,34 +66,3 @@
 .watch-open:before {
   @include svg-image('/images/watch/watch-open');
 }
-
-
-// Invite
-
-  .section-watch {
-
-    .icon-facebook,
-    .icon-twitter,
-    .icon-instagram,
-    .icon-gplus {
-      padding-left: 30px;
-      background-repeat: no-repeat;
-      margin-bottom: 17px;
-    }
-
-    .icon-facebook {
-      @include svg-image('/images/social/icon-facebook');
-    }
-
-    .icon-twitter {
-      @include svg-image('/images/social/icon-twitter');
-    }
-
-    .icon-instagram {
-      @include svg-image('/images/social/icon-instagram');
-    }
-
-    .icon-gplus {
-      @include svg-image('/images/social/icon-gplus');
-    }
-  }
