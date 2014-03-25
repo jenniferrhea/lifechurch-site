@@ -158,4 +158,54 @@
 
 .home-2 {
 
+  .alert-box {
+    display: none;
+  }
+
+  @media #{$medium-up} {
+    h1 {
+      background: url('/images/home/home-2/series-art.png') no-repeat;
+      background-size: contain;
+      width: 378px;
+      height: 212px;
+      text-indent: -999em;
+      margin: 80px auto 70px;
+    }
+
+    .series-art {
+      background: url('/images/home/home-2/guy.png') no-repeat;
+      background-size: 98px 213px;
+      height: 213px;
+      width: 98px;
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      margin-left: 290px;
+    }
+
+    .action-live {
+      position: relative;
+    }
+
+    span[data-churchonline-counter] {
+      font-size: 0.6em;
+      display: block;
+      position: absolute;
+    }
+
+    .section-home {
+      background: url('/images/home/home-2/series-bg.jpg') center 85px no-repeat;
+      background-size: 1309px 588px;
+      padding-bottom: 90px;
+
+      .action {
+        color: #000;
+
+        &:hover {
+          opacity: .5;
+        }
+      }
+    }
+  }
+
 }

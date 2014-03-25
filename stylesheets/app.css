@@ -6785,6 +6785,57 @@ input.gsc-search-button:hover {
     background-image: url("/images/home/home-bg-small@2x.jpg");
   }
 }
+/* line 161, ../scss/pages/_home.scss */
+.home-2 .alert-box {
+  display: none;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 166, ../scss/pages/_home.scss */
+  .home-2 h1, .home-2 .h1 {
+    background: url("/images/home/home-2/series-art.png") no-repeat;
+    background-size: contain;
+    width: 378px;
+    height: 212px;
+    text-indent: -999em;
+    margin: 80px auto 70px;
+  }
+  /* line 175, ../scss/pages/_home.scss */
+  .home-2 .series-art {
+    background: url("/images/home/home-2/guy.png") no-repeat;
+    background-size: 98px 213px;
+    height: 213px;
+    width: 98px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: 290px;
+  }
+  /* line 186, ../scss/pages/_home.scss */
+  .home-2 .action-live {
+    position: relative;
+  }
+  /* line 190, ../scss/pages/_home.scss */
+  .home-2 span[data-churchonline-counter] {
+    font-size: 0.6em;
+    display: block;
+    position: absolute;
+  }
+  /* line 196, ../scss/pages/_home.scss */
+  .home-2 .section-home {
+    background: url("/images/home/home-2/series-bg.jpg") center 85px no-repeat;
+    background-size: 1309px 588px;
+    padding-bottom: 90px;
+  }
+  /* line 201, ../scss/pages/_home.scss */
+  .home-2 .section-home .action {
+    color: #000;
+  }
+  /* line 204, ../scss/pages/_home.scss */
+  .home-2 .section-home .action:hover {
+    opacity: .5;
+  }
+}
+
 /* line 1, ../scss/pages/_watch.scss */
 .page-watch .section-watch-live {
   top: -33px !important;
