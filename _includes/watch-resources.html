@@ -1,23 +1,29 @@
 <ul id="drop" data-dropdown-content class="f-dropdown text-left watch-resources">
+  {% if series.podcast %}
   <li>
-    <a href="#"
+    <a href="{{ series.podcast }}"
        class="watch-podcast"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource Podcast');">
        Get the Podcast
     </a>
   </li>
+  {% endif %}
+  {% if series.talkitover %}
   <li>
-    <a href="#"
+    <a href="{{ series.talkitover }}"
        class="watch-talkitover"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource Talk Notes');">
        Get Talk Notes
     </a>
   </li>
+  {% endif %}
+  {% if series.open %}
   <li>
-    <a href="{{series.open}}"
+    <a href="{{ series.open }}"
        class="watch-open"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource OPEN');">
        For Churches
     </a>
   </li>
+  {% endif %}
 </ul>
