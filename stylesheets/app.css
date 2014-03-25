@@ -7872,13 +7872,13 @@ input.gsc-search-button:hover {
 }
 
 /* line 726, ../scss/pages/_locations.scss */
-.location-stu .locations-hero {
-  background-image: url("/locations/assets/campus/stu-bg.jpg");
+.location-sto .locations-hero {
+  background-image: url("/locations/assets/campus/sto-bg.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 726, ../scss/pages/_locations.scss */
-  .location-stu .locations-hero {
-    background-image: url("/locations/assets/campus/stu-bg@2x.jpg");
+  .location-sto .locations-hero {
+    background-image: url("/locations/assets/campus/sto-bg@2x.jpg");
   }
 }
 
@@ -7928,199 +7928,199 @@ input.gsc-search-button:hover {
 
 /* line 732, ../scss/pages/_locations.scss */
 .location-alb .locations-map {
-  background-image: url("/locations/assets/campus/alb-map.png");
+  background-image: url("/locations/assets/campus/alb-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 732, ../scss/pages/_locations.scss */
   .location-alb .locations-map {
-    background-image: url("/locations/assets/campus/alb-map@2x.png");
+    background-image: url("/locations/assets/campus/alb-map@2x.jpg");
   }
 }
 
 /* line 733, ../scss/pages/_locations.scss */
 .location-bao .locations-map {
-  background-image: url("/locations/assets/campus/bao-map.png");
+  background-image: url("/locations/assets/campus/bao-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 733, ../scss/pages/_locations.scss */
   .location-bao .locations-map {
-    background-image: url("/locations/assets/campus/bao-map@2x.png");
+    background-image: url("/locations/assets/campus/bao-map@2x.jpg");
   }
 }
 
 /* line 734, ../scss/pages/_locations.scss */
 .location-edm .locations-map {
-  background-image: url("/locations/assets/campus/edm-map.png");
+  background-image: url("/locations/assets/campus/edm-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 734, ../scss/pages/_locations.scss */
   .location-edm .locations-map {
-    background-image: url("/locations/assets/campus/edm-map@2x.png");
+    background-image: url("/locations/assets/campus/edm-map@2x.jpg");
   }
 }
 
 /* line 735, ../scss/pages/_locations.scss */
 .location-ftw .locations-map {
-  background-image: url("/locations/assets/campus/ftw-map.png");
+  background-image: url("/locations/assets/campus/ftw-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 735, ../scss/pages/_locations.scss */
   .location-ftw .locations-map {
-    background-image: url("/locations/assets/campus/ftw-map@2x.png");
+    background-image: url("/locations/assets/campus/ftw-map@2x.jpg");
   }
 }
 
 /* line 736, ../scss/pages/_locations.scss */
 .location-hnv .locations-map {
-  background-image: url("/locations/assets/campus/hnv-map.png");
+  background-image: url("/locations/assets/campus/hnv-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 736, ../scss/pages/_locations.scss */
   .location-hnv .locations-map {
-    background-image: url("/locations/assets/campus/hnv-map@2x.png");
+    background-image: url("/locations/assets/campus/hnv-map@2x.jpg");
   }
 }
 
 /* line 737, ../scss/pages/_locations.scss */
 .location-jnk .locations-map {
-  background-image: url("/locations/assets/campus/jnk-map.png");
+  background-image: url("/locations/assets/campus/jnk-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 737, ../scss/pages/_locations.scss */
   .location-jnk .locations-map {
-    background-image: url("/locations/assets/campus/jnk-map@2x.png");
+    background-image: url("/locations/assets/campus/jnk-map@2x.jpg");
   }
 }
 
 /* line 738, ../scss/pages/_locations.scss */
 .location-klr .locations-map {
-  background-image: url("/locations/assets/campus/klr-map.png");
+  background-image: url("/locations/assets/campus/klr-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 738, ../scss/pages/_locations.scss */
   .location-klr .locations-map {
-    background-image: url("/locations/assets/campus/klr-map@2x.png");
+    background-image: url("/locations/assets/campus/klr-map@2x.jpg");
   }
 }
 
 /* line 739, ../scss/pages/_locations.scss */
 .location-mor .locations-map {
-  background-image: url("/locations/assets/campus/mor-map.png");
+  background-image: url("/locations/assets/campus/mor-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 739, ../scss/pages/_locations.scss */
   .location-mor .locations-map {
-    background-image: url("/locations/assets/campus/mor-map@2x.png");
+    background-image: url("/locations/assets/campus/mor-map@2x.jpg");
   }
 }
 
 /* line 740, ../scss/pages/_locations.scss */
 .location-mwc .locations-map {
-  background-image: url("/locations/assets/campus/mwc-map.png");
+  background-image: url("/locations/assets/campus/mwc-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 740, ../scss/pages/_locations.scss */
   .location-mwc .locations-map {
-    background-image: url("/locations/assets/campus/mwc-map@2x.png");
+    background-image: url("/locations/assets/campus/mwc-map@2x.jpg");
   }
 }
 
 /* line 741, ../scss/pages/_locations.scss */
 .location-noc .locations-map {
-  background-image: url("/locations/assets/campus/noc-map.png");
+  background-image: url("/locations/assets/campus/noc-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 741, ../scss/pages/_locations.scss */
   .location-noc .locations-map {
-    background-image: url("/locations/assets/campus/noc-map@2x.png");
+    background-image: url("/locations/assets/campus/noc-map@2x.jpg");
   }
 }
 
 /* line 742, ../scss/pages/_locations.scss */
 .location-okc .locations-map {
-  background-image: url("/locations/assets/campus/okc-map.png");
+  background-image: url("/locations/assets/campus/okc-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 742, ../scss/pages/_locations.scss */
   .location-okc .locations-map {
-    background-image: url("/locations/assets/campus/okc-map@2x.png");
+    background-image: url("/locations/assets/campus/okc-map@2x.jpg");
   }
 }
 
 /* line 743, ../scss/pages/_locations.scss */
 .location-ows .locations-map {
-  background-image: url("/locations/assets/campus/ows-map.png");
+  background-image: url("/locations/assets/campus/ows-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 743, ../scss/pages/_locations.scss */
   .location-ows .locations-map {
-    background-image: url("/locations/assets/campus/ows-map@2x.png");
+    background-image: url("/locations/assets/campus/ows-map@2x.jpg");
   }
 }
 
 /* line 744, ../scss/pages/_locations.scss */
 .location-soc .locations-map {
-  background-image: url("/locations/assets/campus/soc-map.png");
+  background-image: url("/locations/assets/campus/soc-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 744, ../scss/pages/_locations.scss */
   .location-soc .locations-map {
-    background-image: url("/locations/assets/campus/soc-map@2x.png");
+    background-image: url("/locations/assets/campus/soc-map@2x.jpg");
   }
 }
 
 /* line 745, ../scss/pages/_locations.scss */
-.location-stu .locations-map {
-  background-image: url("/locations/assets/campus/stu-map.png");
+.location-sto .locations-map {
+  background-image: url("/locations/assets/campus/sto-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 745, ../scss/pages/_locations.scss */
-  .location-stu .locations-map {
-    background-image: url("/locations/assets/campus/stu-map@2x.png");
+  .location-sto .locations-map {
+    background-image: url("/locations/assets/campus/sto-map@2x.jpg");
   }
 }
 
 /* line 746, ../scss/pages/_locations.scss */
 .location-stw .locations-map {
-  background-image: url("/locations/assets/campus/stw-map.png");
+  background-image: url("/locations/assets/campus/stw-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 746, ../scss/pages/_locations.scss */
   .location-stw .locations-map {
-    background-image: url("/locations/assets/campus/stw-map@2x.png");
+    background-image: url("/locations/assets/campus/stw-map@2x.jpg");
   }
 }
 
 /* line 747, ../scss/pages/_locations.scss */
 .location-tul .locations-map {
-  background-image: url("/locations/assets/campus/tul-map.png");
+  background-image: url("/locations/assets/campus/tul-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 747, ../scss/pages/_locations.scss */
   .location-tul .locations-map {
-    background-image: url("/locations/assets/campus/tul-map@2x.png");
+    background-image: url("/locations/assets/campus/tul-map@2x.jpg");
   }
 }
 
 /* line 748, ../scss/pages/_locations.scss */
 .location-wel .locations-map {
-  background-image: url("/locations/assets/campus/wel-map.png");
+  background-image: url("/locations/assets/campus/wel-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 748, ../scss/pages/_locations.scss */
   .location-wel .locations-map {
-    background-image: url("/locations/assets/campus/wel-map@2x.png");
+    background-image: url("/locations/assets/campus/wel-map@2x.jpg");
   }
 }
 
 /* line 749, ../scss/pages/_locations.scss */
 .location-ykn .locations-map {
-  background-image: url("/locations/assets/campus/ykn-map.png");
+  background-image: url("/locations/assets/campus/ykn-map.jpg");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 749, ../scss/pages/_locations.scss */
   .location-ykn .locations-map {
-    background-image: url("/locations/assets/campus/ykn-map@2x.png");
+    background-image: url("/locations/assets/campus/ykn-map@2x.jpg");
   }
 }
 
