@@ -36,7 +36,7 @@ javascript: true
             <a href="javascript:void(0);"
                class=""
                data-video-player="{{message.video}}"
-               >
+               onclick="ga('send', 'event', 'Series', 'Click', 'Live');">
                Watch Church Online <span data-churchonline-counter></span> <i class="icon icon-play"></i>
             </a>
             {% endfor %}
@@ -45,7 +45,7 @@ javascript: true
 
             <a href="#"
                class="learn-more"
-               >
+               onclick="ga('send', 'event', 'Series', 'Click', 'Learn More');">
                Learn More <i class="icon icon-play"></i>
             </a>
           </p>
