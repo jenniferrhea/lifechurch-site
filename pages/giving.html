@@ -155,16 +155,41 @@ skrollable: true
       <br />
       <div class="panel">
         <h6>Year in Review</h6>
-        <p class="detail">See the journey that we took last year on our <a href="https://www.youtube.com/watch?v=k833p0qScg0" target="_blank">Year in Review<i class="icon icon-window"></i></a> video.</p>
+        <p class="detail">See the journey that we took last year on our
+          <a href="https://www.youtube.com/watch?v=k833p0qScg0"
+             target="_blank"
+             onclick="ga('send', 'event', 'Giving', 'Click', 'Year in Review');">
+             Year in Review<i class="icon icon-window"></i>
+          </a>
+          video.
+        </p>
 
         <h6>Finance Statements</h6>
         <ul class="detail">
-          <li><a href="https://s3.amazonaws.com/lctv-site/downloads/giving/Giving-Financial-Statements-2013-Unaudited.pdf" target="_blank">2013 Finance Statements (unaudited) <i class="icon icon-file"></i></a></li>
-          <li><a href="https://s3.amazonaws.com/lctv-site/downloads/giving/Giving-Financial-Statements-2012-Audited.pdf" target="_blank">2012 Finance Audited Statements <i class="icon icon-file"></i></a></li>
+          <li>
+            <a href="https://s3.amazonaws.com/lctv-site/downloads/giving/Giving-Financial-Statements-2013-Unaudited.pdf"
+               target="_blank"
+               onclick="ga('send', 'event', 'Giving', 'Download', '2013 Finance Statements');">
+               2013 Finance Statements (unaudited) <i class="icon icon-file"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://s3.amazonaws.com/lctv-site/downloads/giving/Giving-Financial-Statements-2012-Audited.pdf"
+               target="_blank"
+               onclick="ga('send', 'event', 'Giving', 'Download', '2012 Finance Statements');">
+               2012 Finance Audited Statements <i class="icon icon-file"></i>
+            </a>
+          </li>
         </ul>
 
         <h6>Finance FAQ</h6>
-        <p class="detail">More questions? Check out our <a href="https://s3.amazonaws.com/lctv-site/downloads/giving/Giving-FAQ.pdf" target="_blank">Giving FAQ PDF <i class="icon icon-file"></i></a>.</p>
+        <p class="detail">More questions? Check out our
+          <a href="https://s3.amazonaws.com/lctv-site/downloads/giving/Giving-FAQ.pdf"
+             target="_blank"
+             onclick="ga('send', 'event', 'Giving', 'Download', 'Download FAQ');">
+             Giving FAQ PDF <i class="icon icon-file"></i>
+          </a>.
+        </p>
       </div>
     </div>
   </div>
