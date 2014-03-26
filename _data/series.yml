@@ -1430,17 +1430,17 @@
   image_large: http://placekitten.com/1200/800
   messages:
   - title: Unstoppable Power
-    headline: 
-    video: 
+    headline: ''
+    video: i6gsk9l4tr
   - title: Unstoppable
-    headline: 
-    video: 
+    headline: ''
+    video: bakz9emzqn
   - title: Unstoppable Life
-    headline: 
-    video: 
+    headline: ''
+    video: 59ohh2dsuv
   - title: Unstoppable Courage
-    headline: 
-    video: 
+    headline: ''
+    video: gciguvqpcb
 - id: forgotten-virtues
   title: Forgotten Virtues
   headline: 
@@ -1455,20 +1455,20 @@
   image_large: http://placekitten.com/1200/800
   messages:
   - title: Gratitude
-    headline: 
-    video: 
+    headline: ''
+    video: v3oma8lm7e
   - title: Integrity
-    headline: 
-    video: 
+    headline: ''
+    video: 9135wsphut
   - title: Loyalty
-    headline: 
-    video: 
+    headline: ''
+    video: gd8ff6s3ql
   - title: Purity
-    headline: 
-    video: 
+    headline: ''
+    video: ef5kvv6d2n
   - title: Honor
-    headline: 
-    video: 
+    headline: ''
+    video: wmgtd4umfd
 - id: faq
   title: FAQ
   headline: 
@@ -1483,14 +1483,14 @@
   image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 1
-    headline: 
-    video: 
+    headline: ''
+    video: c2hxppuivn
   - title: Week 2
-    headline: 
-    video: 
+    headline: ''
+    video: xq7oq9vlf5
   - title: Week 3
-    headline: 
-    video: 
+    headline: ''
+    video: ef9g51z472
 - id: red-letter-day
   title: Red Letter Day
   headline: 
@@ -1505,20 +1505,20 @@
   image_large: http://placekitten.com/1200/800
   messages:
   - title: Week 5
-    headline: 
-    video: 
+    headline: ''
+    video: 3vr297flyt
   - title: Week 4
-    headline: 
-    video: 
+    headline: ''
+    video: seq8jywcnr
   - title: Week 3
-    headline: 
-    video: 
+    headline: ''
+    video: orytd9rajv
   - title: Week 2
-    headline: 
-    video: 
+    headline: ''
+    video: 5nxjydnhk1
   - title: Week 1
-    headline: 
-    video: 
+    headline: ''
+    video: kyadq4t27m
 - id: once-upon-a-marriage
   title: Once Upon A Marriage
   headline: 
@@ -1534,17 +1534,17 @@
   image_large: http://placekitten.com/1200/800
   messages:
   - title: Unfailing Love
-    headline: 
-    video: 
+    headline: ''
+    video: 02vz0b11d6
   - title: Faith-Less or Faith-Full
-    headline: 
-    video: 
+    headline: ''
+    video: 1wplbn0mvx
   - title: Power Struggle
-    headline: 
-    video: 
+    headline: ''
+    video: 330l9lpxxu
   - title: Never Satisfied
-    headline: 
-    video: 
+    headline: ''
+    video: n9zrod7krf
 - id: margin
   title: Margin
   headline: 
@@ -1560,8 +1560,8 @@
   image_large: http://placekitten.com/1200/800
   messages:
   - title: Moral Margin
-    headline: 
-    video: 
+    headline: ''
+    video: pgk979l5rt
   - title: Financial Margin
     headline: ''
     video: lda39bv7k8
