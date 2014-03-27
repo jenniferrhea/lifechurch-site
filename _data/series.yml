@@ -1443,13 +1443,13 @@
     video: gciguvqpcb
 - id: forgotten-virtues
   title: Forgotten Virtues
-  headline: 
-  description_small: 
+  headline: ''
+  description_small: ''
   description_medium: Honor. Purity. Loyalty. Integrity. Gratitude. Are they gone?
     Did we leave true character behind? Join us as we learn what we can do to restore
     these Forgotten Virtues.
-  quote: 
-  quote_cite: 
+  quote: ''
+  quote_cite: ''
   image_small: http://placekitten.com/300/200
   image_medium: http://placekitten.com/600/400
   image_large: http://placekitten.com/1200/800
@@ -1493,13 +1493,14 @@
     video: ef9g51z472
 - id: red-letter-day
   title: Red Letter Day
-  headline: 
-  description_small: 
-  description_medium: |-
-    It was a Red Letter Day.<br /><br />
-    Bloody,  beaten, and nailed to a cross, a dying Jesus looked at those around Him and spoke His final words as a man.  What did he say?  Join us as we relive Jesus' final hours, and celebrate His ultimate victory on this Red Letter Day.
-  quote: 
-  quote_cite: 
+  headline: ''
+  description_small: ''
+  description_medium: "It was a Red Letter Day.<br /><br />\r\nBloody,  beaten, and
+    nailed to a cross, a dying Jesus looked at those around Him and spoke His final
+    words as a man.  What did he say?  Join us as we relive Jesus' final hours, and
+    celebrate His ultimate victory on this Red Letter Day."
+  quote: ''
+  quote_cite: ''
   image_small: http://placekitten.com/300/200
   image_medium: http://placekitten.com/600/400
   image_large: http://placekitten.com/1200/800
@@ -1521,14 +1522,14 @@
     video: kyadq4t27m
 - id: once-upon-a-marriage
   title: Once Upon A Marriage
-  headline: 
-  description_small: 
+  headline: ''
+  description_small: ''
   description_medium: There’s nothing quite like a juicy love story...the romance,
     the intrigue, and maybe a little scandal. We’re digging in to some of the greatest
     biblical marriages to see what we can learn. Travel back in time with us for Once
     Upon a Marriage.
-  quote: 
-  quote_cite: 
+  quote: ''
+  quote_cite: ''
   image_small: http://placekitten.com/300/200
   image_medium: http://placekitten.com/600/400
   image_large: http://placekitten.com/1200/800
@@ -1547,14 +1548,14 @@
     video: n9zrod7krf
 - id: margin
   title: Margin
-  headline: 
-  description_small: 
+  headline: ''
+  description_small: ''
   description_medium: Sometimes it seems like the only way to keep up with all the
     demands on our lives is to run at maximum capacity—and then some. But there is
     another way...one where we have room to breathe and space to respond to what life
     brings our way. Come explore what it means to live with Margin.
-  quote: 
-  quote_cite: 
+  quote: ''
+  quote_cite: ''
   image_small: http://placekitten.com/300/200
   image_medium: http://placekitten.com/600/400
   image_large: http://placekitten.com/1200/800
