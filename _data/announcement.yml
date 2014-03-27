@@ -7,5 +7,5 @@
 - active: true
   type: notice
   icon: calendar
-  message: Extra Easter campus times are available here
+  message: View additional Easter service times.
   url: /easter/

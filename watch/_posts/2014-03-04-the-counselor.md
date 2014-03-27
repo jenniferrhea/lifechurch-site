@@ -37,7 +37,7 @@ javascript: true
                class=""
                data-video-player="{{message.video}}"
                onclick="ga('send', 'event', 'Series', 'Click', 'Live');">
-               Watch Church Online <span data-churchonline-counter></span> <i class="icon icon-play"></i>
+               Visit Church Online <span data-churchonline-counter></span> <i class="icon icon-play"></i>
             </a>
             {% endfor %}
 
