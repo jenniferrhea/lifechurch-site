@@ -9,9 +9,9 @@
     each one of us–with Him, we can release The Artisan Soul in ourselves.
   quote: ''
   quote_cite: ''
-  image_small: ''
-  image_medium: ''
-  image_large: ''
+  image_small: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/300x200.jpg?1396043492
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/600x400.jpg?1396043573
+  image_large: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/1200x800.jpg?1396043604
   image_social: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/400x400.jpg?1395087834
   messages:
   - title: Part 2
@@ -30,9 +30,9 @@
     for a new perspective on Being Rich.
   quote: '"test quotes"'
   quote_cite: ''
-  image_small: ''
-  image_medium: ''
-  image_large: ''
+  image_small: http://s3.amazonaws.com/lcapi.production/series/being-rich/300x200.jpg?1396042535
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/being-rich/600x400.jpg?1396042589
+  image_large: http://s3.amazonaws.com/lcapi.production/series/being-rich/1200x800.jpg?1396042616
   image_social: http://s3.amazonaws.com/lcapi.production/series/being-rich/400x400.jpg?1393367080
   messages:
   - title: Rich Toward God
@@ -60,9 +60,9 @@
     Big Difference.
   quote: 
   quote_cite: 
-  image_small: ''
-  image_medium: ''
-  image_large: ''
+  image_small: http://s3.amazonaws.com/lcapi.production/series/small-things/300x200.jpg?1396042267
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/small-things/600x400.jpg?1396042312
+  image_large: http://s3.amazonaws.com/lcapi.production/series/small-things/1200x800.jpg?1396042380
   image_social: http://s3.amazonaws.com/lcapi.production/series/small-things/400x400.jpg?1393365744
   messages:
   - title: Your Habits
@@ -104,9 +104,9 @@
     overcome our darkest fears as we learn to Fear Not.
   quote: 
   quote_cite: 
-  image_small: ''
-  image_medium: ''
-  image_large: ''
+  image_small: http://s3.amazonaws.com/lcapi.production/series/fear-not/300x200.jpg?1396042061
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/fear-not/600x400.jpg?1396042126
+  image_large: http://s3.amazonaws.com/lcapi.production/series/fear-not/1200x800.jpg?1396042178
   image_social: http://s3.amazonaws.com/lcapi.production/series/fear-not/400x400.jpg?1393349804
   messages:
   - title: Fear of Where You Stand with God
@@ -147,8 +147,8 @@
   quote: 
   quote_cite: 
   image_small: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/300x200.jpg?1396041700
-  image_medium: ''
-  image_large: ''
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/600x400.jpg?1396041749
+  image_large: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/1200x800.jpg?1396041777
   image_social: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/400x400.jpg?1393350234
   messages:
   - title: Anger
