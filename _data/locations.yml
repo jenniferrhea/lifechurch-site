@@ -3,6 +3,7 @@
   title: Moore
   email: 
   address: 2916 S. Telephone Rd. Moore, OK 73160
+  facebook: '409843575804511'
   times:
   - title: 08:30AM
     time: 08-30
@@ -24,11 +25,18 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: klr
   title: Keller
   email: 
   address: 801 Bear Creek Parkway Keller, TX 76248
+  facebook: '343331435797233'
   times:
   - title: 10:00AM
     time: 10-00
@@ -45,6 +53,7 @@
   title: Jenks
   email: 
   address: 890 W 81st St Tulsa, OK 74132
+  facebook: '283866385077708'
   times:
   - title: 08:30AM
     time: 08-30
@@ -91,6 +100,7 @@
   title: Broken Arrow
   email: 
   address: 2420 E Kenosha Street Broken Arrow, OK 74014
+  facebook: '229503863780213'
   times:
   - title: 08:30AM
     time: 08-30
@@ -137,6 +147,7 @@
   title: Midwest City
   email: 
   address: 6809 E Reno Ave Midwest City, OK 73110
+  facebook: '141521929249905'
   times:
   - title: 08:30AM
     time: 08-30
@@ -168,11 +179,18 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: ykn
   title: Yukon
   email: 
   address: 1101 E Main Street Yukon, OK 73099
+  facebook: '310515131268'
   times:
   - title: 08:30AM
     time: 08-30
@@ -209,11 +227,18 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: ows
   title: Owasso
   email: 
   address: 14008 E. 96th St.  Owasso, OK 74055
+  facebook: '136945189263'
   times:
   - title: 08:30AM
     time: 08-30
@@ -260,6 +285,7 @@
   title: Wellington
   email: 
   address: 3061 State Road 7 Wellington, FL 33449
+  facebook: '105749019464173'
   times:
   - title: 09:30AM
     time: 09-30
@@ -286,6 +312,7 @@
   title: Tulsa
   email: 
   address: 7015 E. 41st St Tulsa, OK 74145
+  facebook: '111300269668'
   times:
   - title: 08:30AM
     time: 08-30
@@ -322,6 +349,7 @@
   title: Stillwater
   email: 
   address: 1917 North Country Club Rd Stillwater, OK 74075
+  facebook: '111614742192203'
   times:
   - title: 08:30AM
     time: 08-30
@@ -353,11 +381,18 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: sto
   title: South Tulsa
   email: 
   address: 7071 East 121st St Bixby, OK 74008
+  facebook: '168831606831'
   times:
   - title: 08:30AM
     time: 08-30
@@ -404,6 +439,7 @@
   title: South Oklahoma City
   email: 
   address: 7800 S. Walker Ave Oklahoma City, OK 73139
+  facebook: '152357570862'
   times:
   - title: 08:30AM
     time: 08-30
@@ -445,6 +481,7 @@
   title: Oklahoma City
   email: 
   address: 2001 NW 178th St Edmond, OK 73012
+  facebook: '284153305483'
   times:
   - title: 08:30AM
     time: 08-30
@@ -479,13 +516,20 @@
   - title: 06:30PM
     time: 18-30
     day: sat
-    duration: 60
+    duration: -540
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: noc
   title: NW Oklahoma City
   email: 
   address: 5821 NW Expressway Oklahoma City, OK 73132
+  facebook: '156898983627'
   times:
   - title: 08:30AM
     time: 08-30
@@ -527,6 +571,7 @@
   title: Hendersonville
   email: 
   address: 120 Indian Lake Blvd Hendersonville, TN 37075
+  facebook: '121921428281'
   times:
   - title: 10:00AM
     time: 10-00
@@ -558,6 +603,7 @@
   title: Fort Worth
   email: 
   address: 5298 Trail Lake Dr Fort Worth, TX 76133
+  facebook: '236157182628'
   times:
   - title: 08:30AM
     time: 08-30
@@ -594,6 +640,7 @@
   title: Edmond
   email: 
   address: 4600 E. 2nd St Edmond, OK 73034
+  facebook: '206643266075'
   times:
   - title: 08:30AM
     time: 08-30
@@ -630,6 +677,7 @@
   title: Albany
   email: 
   address: 560 Sand Creek Rd Albany, NY 12205
+  facebook: '198238577847'
   times:
   - title: 08:30AM
     time: 08-30
