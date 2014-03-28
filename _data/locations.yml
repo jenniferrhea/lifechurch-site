@@ -1,7 +1,7 @@
 ---
 - id: mor
   title: Moore
-  serving_email: 
+  email: 
   address: 2916 S. Telephone Rd. Moore, OK 73160
   times:
   - title: 08:30AM
@@ -24,10 +24,16 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: klr
   title: Keller
-  serving_email: 
+  email: 
   address: 801 Bear Creek Parkway Keller, TX 76248
   times:
   - title: 10:00AM
@@ -43,7 +49,7 @@
   missions: []
 - id: jnk
   title: Jenks
-  serving_email: 
+  email: 
   address: 890 W 81st St Tulsa, OK 74132
   times:
   - title: 08:30AM
@@ -89,7 +95,7 @@
   missions: []
 - id: bao
   title: Broken Arrow
-  serving_email: 
+  email: 
   address: 2420 E Kenosha Street Broken Arrow, OK 74014
   times:
   - title: 08:30AM
@@ -135,7 +141,7 @@
   missions: []
 - id: mwc
   title: Midwest City
-  serving_email: 
+  email: 
   address: 6809 E Reno Ave Midwest City, OK 73110
   times:
   - title: 08:30AM
@@ -168,10 +174,16 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: ykn
   title: Yukon
-  serving_email: 
+  email: 
   address: 1101 E Main Street Yukon, OK 73099
   times:
   - title: 08:30AM
@@ -209,10 +221,16 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: ows
   title: Owasso
-  serving_email: 
+  email: 
   address: 14008 E. 96th St.  Owasso, OK 74055
   times:
   - title: 08:30AM
@@ -258,7 +276,7 @@
   missions: []
 - id: wel
   title: Wellington
-  serving_email: 
+  email: 
   address: 3061 State Road 7 Wellington, FL 33449
   times:
   - title: 09:30AM
@@ -284,7 +302,7 @@
   missions: []
 - id: tul
   title: Tulsa
-  serving_email: 
+  email: 
   address: 7015 E. 41st St Tulsa, OK 74145
   times:
   - title: 08:30AM
@@ -320,7 +338,7 @@
   missions: []
 - id: stw
   title: Stillwater
-  serving_email: 
+  email: 
   address: 1917 North Country Club Rd Stillwater, OK 74075
   times:
   - title: 08:30AM
@@ -353,10 +371,16 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: sto
   title: South Tulsa
-  serving_email: 
+  email: 
   address: 7071 East 121st St Bixby, OK 74008
   times:
   - title: 08:30AM
@@ -402,7 +426,7 @@
   missions: []
 - id: soc
   title: South Oklahoma City
-  serving_email: 
+  email: 
   address: 7800 S. Walker Ave Oklahoma City, OK 73139
   times:
   - title: 08:30AM
@@ -443,7 +467,7 @@
   missions: []
 - id: okc
   title: Oklahoma City
-  serving_email: 
+  email: 
   address: 2001 NW 178th St Edmond, OK 73012
   times:
   - title: 08:30AM
@@ -479,12 +503,18 @@
   - title: 06:30PM
     time: 18-30
     day: sat
-    duration: 60
+    duration: -540
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://bbbs.org
+    description_small: Big Brothers Big Sisters
+    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
 - id: noc
   title: NW Oklahoma City
-  serving_email: 
+  email: 
   address: 5821 NW Expressway Oklahoma City, OK 73132
   times:
   - title: 08:30AM
@@ -525,7 +555,7 @@
   missions: []
 - id: hnv
   title: Hendersonville
-  serving_email: 
+  email: 
   address: 120 Indian Lake Blvd Hendersonville, TN 37075
   times:
   - title: 10:00AM
@@ -556,7 +586,7 @@
   missions: []
 - id: ftw
   title: Fort Worth
-  serving_email: 
+  email: 
   address: 5298 Trail Lake Dr Fort Worth, TX 76133
   times:
   - title: 08:30AM
@@ -592,7 +622,7 @@
   missions: []
 - id: edm
   title: Edmond
-  serving_email: 
+  email: 
   address: 4600 E. 2nd St Edmond, OK 73034
   times:
   - title: 08:30AM
@@ -628,7 +658,7 @@
   missions: []
 - id: alb
   title: Albany
-  serving_email: 
+  email: 
   address: 560 Sand Creek Rd Albany, NY 12205
   times:
   - title: 08:30AM
