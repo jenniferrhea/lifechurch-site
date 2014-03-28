@@ -25,13 +25,7 @@
     day: sun
     duration: 60
     type: service-time
-  missions:
-  - id: 1
-    title: Big Brothers Big Sisters
-    recipient: 
-    url: http://bbbs.org
-    description_small: Big Brothers Big Sisters
-    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
+  missions: []
 - id: klr
   title: Keller
   email: 
@@ -179,13 +173,7 @@
     day: sun
     duration: 60
     type: service-time
-  missions:
-  - id: 1
-    title: Big Brothers Big Sisters
-    recipient: 
-    url: http://bbbs.org
-    description_small: Big Brothers Big Sisters
-    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
+  missions: []
 - id: ykn
   title: Yukon
   email: 
@@ -227,13 +215,7 @@
     day: sat
     duration: 60
     type: service-time
-  missions:
-  - id: 1
-    title: Big Brothers Big Sisters
-    recipient: 
-    url: http://bbbs.org
-    description_small: Big Brothers Big Sisters
-    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
+  missions: []
 - id: ows
   title: Owasso
   email: 
@@ -381,13 +363,7 @@
     day: sun
     duration: 60
     type: service-time
-  missions:
-  - id: 1
-    title: Big Brothers Big Sisters
-    recipient: 
-    url: http://bbbs.org
-    description_small: Big Brothers Big Sisters
-    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
+  missions: []
 - id: sto
   title: South Tulsa
   email: 
@@ -516,15 +492,9 @@
   - title: 06:30PM
     time: 18-30
     day: sat
-    duration: -540
+    duration: 60
     type: service-time
-  missions:
-  - id: 1
-    title: Big Brothers Big Sisters
-    recipient: 
-    url: http://bbbs.org
-    description_small: Big Brothers Big Sisters
-    description_medium: Big Brothers Big Sisters is an org that does blah blah blah.
+  missions: []
 - id: noc
   title: NW Oklahoma City
   email: 
