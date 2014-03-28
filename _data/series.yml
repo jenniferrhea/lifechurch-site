@@ -1,53 +1,19 @@
 ---
-- id: the-artisan-soul
-  title: The Artisan Soul
-  headline: ''
-  description_small: ''
-  description_medium: We are all artists with the ability to create something beautiful.
-    Every action we take, the love we show, and the relationships we build have the
-    potential to become something meaningful and inspiring. God put creativity in
-    each one of us–with Him, we can release The Artisan Soul in ourselves.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
-  messages:
-  - title: Part 2
-    headline: ''
-    video: 2owh2q3poc
-  - title: Part 1
-    headline: ''
-    video: g5q4shw1mf
-- id: being-rich
-  title: Being Rich
-  headline: ''
-  description_small: ''
-  description_medium: A bigger house, nicer car, better vacations. Wanting more isn't
-    always bad, but are we looking for satisfaction in the right places? Maybe it's
-    not about how much we have, but what we do with what we already have. Join us
-    for a new perspective on Being Rich.
-  quote: '"test quotes"'
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
-  messages:
-  - title: Rich Toward God
-    headline: ''
-    video: dqnlvxwsni
-  - title: Rich in Good Deeds
-    headline: ''
-    video: o1u7b9mdqi
-  - title: Rich Givers
-    headline: ''
-    video: a0x3409aoc
-  - title: Deceitfulness of Riches
-    headline: ''
-    video: 2zwngf3fsh
-  - title: Good News, Bad News
-    headline: ''
-    video: gdeqxjnzut
+- id: 30-second-theology-2014
+  title: 30 Second Theology
+  headline: 
+  description_small: 
+  description_medium: It's not just the biggest day in American football. It's also
+    the biggest day for TV advertising, and we think there's something we can learn
+    from those commercial breaks. Don't miss 30-Second Theology at LifeChurch.tv -
+    it's your only chance to catch this special message!
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
+  messages: []
 - id: small-things
   title: Small Things Big Difference
   headline: 
@@ -58,22 +24,23 @@
     Big Difference.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Your Habits
     headline: ''
-    video: 6ue0baclbe
-  - title: Your Words
-    headline: ''
-    video: 2empmqn1c2
-  - title: Your Thoughts
-    headline: ''
-    video: 527fcsdh9w
-  - title: Your One Word
-    headline: ''
     video: 6ocetoiwty
+  - title: Your Words
+    headline: 
+    video: 
+  - title: Your Thoughts
+    headline: 
+    video: 
+  - title: Your One Word
+    headline: 
+    video: 
 - id: maker-of-miracles
   title: Maker of Miracles
   headline: 
@@ -84,13 +51,14 @@
     of Miracles.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Christine Caine - Maker of Miracles
-    headline: ''
-    video: ixpwc86xl5
+    headline: 
+    video: 
 - id: fear-not
   title: Fear Not
   headline: 
@@ -100,19 +68,20 @@
     overcome our darkest fears as we learn to Fear Not.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Fear of Where You Stand with God
-    headline: ''
-    video: wx2nij12h9
+    headline: 
+    video: 
   - title: Fear of What People Think About Me
-    headline: ''
-    video: 8aqqjcszp0
+    headline: 
+    video: 
   - title: Fear of What God is Asking Me to Do
-    headline: ''
-    video: 2urjgyzul9
+    headline: 
+    video: 
 - id: growing-spiritually
   title: Interview with Kevin Durant and Carl Lentz
   headline: 
@@ -123,13 +92,14 @@
     Lentz as they discuss life, legacy, and their relationships with God.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Growing Spiritually
-    headline: ''
-    video: w27d5mmxhd
+    headline: 
+    video: 
 - id: necessary-sins
   title: Necessary Sins
   headline: 
@@ -140,22 +110,23 @@
     Sins.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Anger
-    headline: ''
-    video: ety3f2bsel
+    headline: 
+    video: 
   - title: Lust
-    headline: ''
-    video: vg3o6ux37k
+    headline: 
+    video: 
   - title: Gossip
-    headline: ''
-    video: 2h8ifyzn2p
+    headline: 
+    video: 
   - title: Lying
-    headline: ''
-    video: napinerez1
+    headline: 
+    video: 
 - id: fight
   title: Fight
   headline: 
@@ -165,13 +136,14 @@
     attacked and we don’t recognize it. It’s time take a stand – it’s time to Fight.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Fight
-    headline: ''
-    video: 0w0hlb1bhl
+    headline: 
+    video: 
 - id: multiply-2013
   title: Multiply 2013
   headline: 
@@ -181,19 +153,20 @@
     in our lives when we shift our thinking and start to Multiply.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Sowing and Reaping
-    headline: ''
-    video: cqwqmvtona
+    headline: 
+    video: 
   - title: The Principles of Multiplication
-    headline: ''
-    video: ar3vfbmpfc
+    headline: 
+    video: 
   - title: God Must Be First
-    headline: ''
-    video: om1eri2tur
+    headline: 
+    video: 
 - id: friending
   title: Friending
   headline: 
@@ -204,22 +177,23 @@
     Where are your friendships leading you? Come learn what the Bible says about Friending.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Unfriending
-    headline: ''
-    video: abo4rvpr5z
+    headline: 
+    video: 
   - title: One Community Away
-    headline: ''
-    video: sj714e3yn5
+    headline: 
+    video: 
   - title: One Friend Away
-    headline: ''
-    video: r1ctexojna
+    headline: 
+    video: 
   - title: The Foundation of Friendship
-    headline: ''
-    video: w73t3gupni
+    headline: 
+    video: 
 - id: rescue
   title: Rescue
   headline: 
@@ -230,13 +204,14 @@
     the Church and use our story of survival to Rescue others.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Rescue
-    headline: ''
-    video: kvvth3kjdw
+    headline: 
+    video: 
 - id: elisha
   title: Elisha A Tale of Ridiculous Faith
   headline: 
@@ -246,22 +221,23 @@
     when we let go…when we decide to have Ridiculous Faith.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Ridiculous Recovery
-    headline: ''
-    video: 0s27y4jqtd
+    headline: 
+    video: 
   - title: Ridiculous Provision
-    headline: ''
-    video: td06b8sufz
+    headline: 
+    video: 
   - title: Ridiculous Faith
-    headline: ''
-    video: fw48dru3hx
+    headline: 
+    video: 
   - title: Ridiculous Commitment
-    headline: ''
-    video: vbowemb7vw
+    headline: 
+    video: 
 - id: at-the-movies-2013
   title: At the Movies 2013
   headline: 
@@ -273,9 +249,10 @@
     each weekend or catch it all week at Church Online!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages: []
 - id: on-the-road
   title: On the Road
@@ -287,22 +264,23 @@
     to follow while he’s On the Road.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: On the Road Part 4
-    headline: ''
-    video: uxbzn8isg5
+    headline: 
+    video: 
   - title: On the Road Part 3
     headline: 
     video: 
   - title: The Strongest Link
-    headline: ''
-    video: qm81kbtd9j
+    headline: 
+    video: 
   - title: Pain - A Leader's Constant Companion
-    headline: ''
-    video: zqycmikh7e
+    headline: 
+    video: 
 - id: just-getting-started
   title: Just Getting Started
   headline: 
@@ -312,13 +290,14 @@
     about the specific part we get to play, because God's Just Getting Started.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Just Getting Started
-    headline: ''
-    video: mp62yu6ybl
+    headline: 
+    video: 
 - id: helping-the-hurting
   title: Helping the Hurting
   headline: 
@@ -328,13 +307,14 @@
     us for answers to these difficult questions in Helping the Hurting.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Helping the Hurting
-    headline: ''
-    video: xshjl4cfk0
+    headline: 
+    video: 
 - id: bless-this-home
   title: Bless This Home
   headline: 
@@ -344,22 +324,23 @@
     four family-altering qualities as we ask God to Bless This Home.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Persecuted
-    headline: ''
-    video: i1qv3sjjti
+    headline: 
+    video: 
   - title: Peacemakers
-    headline: ''
-    video: eqom8t15x4
+    headline: 
+    video: 
   - title: Pure in Heart
-    headline: ''
-    video: j8s48x873e
+    headline: 
+    video: 
   - title: Hunger and Thirst for Righteousness
-    headline: ''
-    video: ku07ancb5w
+    headline: 
+    video: 
 - id: i-am-jesus
   title: I Am Jesus
   headline: 
@@ -369,44 +350,46 @@
     to you? Discover what it means when He says, "I Am Jesus."
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: I Am the Vine
-    headline: ''
-    video: oljxy5wh2c
+    headline: 
+    video: 
   - title: I Am the Light of the World
-    headline: ''
-    video: fl7ikgr67u
+    headline: 
+    video: 
   - title: I Am the Good Shepherd
-    headline: ''
-    video: d9eolym7b8
+    headline: 
+    video: 
   - title: I Am the Resurrection and the Life
-    headline: ''
-    video: y55ydift44
+    headline: 
+    video: 
 - id: new
   title: New
   headline: 
   description_small: 
-  description_medium: 'Transformation is in our DNA. We were created to grow, and
+  description_medium: ! 'Transformation is in our DNA. We were created to grow, and
     the best kind of change leaves a permanent mark on our soul. Let’s learn together
     what it means to become New. '
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: New From Old - Week 3
-    headline: ''
-    video: 3dozx8at0d
+    headline: 
+    video: 
   - title: New in Christ - Week 2
-    headline: ''
-    video: 9a6omimorh
+    headline: 
+    video: 
   - title: New in Christ - Week 1
-    headline: ''
-    video: 60y7v7g6qf
+    headline: 
+    video: 
 - id: altar-ego
   title: Altar Ego
   headline: 
@@ -417,22 +400,23 @@
     Let’s discover our Altar Ego.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: My Longing For Approval
-    headline: ''
-    video: s2cc60u5o2
+    headline: 
+    video: 
   - title: My Right to be Offended
-    headline: ''
-    video: 6eyr431u02
+    headline: 
+    video: 
   - title: My Need for Control
-    headline: ''
-    video: ifi9wdsqp8
+    headline: 
+    video: 
   - title: My Feelings of Inadequacy
-    headline: ''
-    video: 7sku4jk5gy
+    headline: 
+    video: 
 - id: 30-second-theology-2013
   title: 30-Second Theology 2013
   headline: 
@@ -443,9 +427,10 @@
     chance to catch this special message!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages: []
 - id: my-story
   title: My Story
@@ -456,22 +441,23 @@
     My Story, we're going to learn to live a story worth telling.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: I Decided to Go
-    headline: ''
-    video: fb6drhnjgc
+    headline: 
+    video: 
   - title: I Decided to Stay
-    headline: ''
-    video: dvp0282wd6
+    headline: 
+    video: 
   - title: I Decided to Stop
-    headline: ''
-    video: blp60bl3ex
+    headline: 
+    video: 
   - title: I Decided to Start
-    headline: ''
-    video: 74mgqfs19o
+    headline: 
+    video: 
 - id: lead-like-jesus
   title: Lead Like Jesus
   headline: 
@@ -481,13 +467,14 @@
     for a special message from Ken Blanchard as we learn to Lead Like Jesus.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Lead Like Jesus
-    headline: ''
-    video: hsmre66g65
+    headline: 
+    video: 
 - id: like-a-child
   title: Like a Child
   headline: 
@@ -498,22 +485,23 @@
     and believe Like a Child.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: My God Can Do Anything
-    headline: ''
-    video: q0ch2pj2ns
+    headline: 
+    video: 
   - title: My God Forgives Me
-    headline: ''
-    video: rd3oyjwt7d
+    headline: 
+    video: 
   - title: My God is With Me
-    headline: ''
-    video: ryzrqhcvr3
+    headline: 
+    video: 
   - title: My God is For Me
-    headline: ''
-    video: jcq22ml2ik
+    headline: 
+    video: 
 - id: because-of-you-2012
   title: Because of You
   headline: 
@@ -524,16 +512,17 @@
     to life Because of You.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Steven Furtick
-    headline: ''
-    video: zvus1cw6wb
+    headline: 
+    video: 
   - title: God is Changing Lives
-    headline: ''
-    video: 4o5y9c050z
+    headline: 
+    video: 
 - id: the-end
   title: The End
   headline: 
@@ -543,19 +532,20 @@
     to the Bible for answers as we explore The End.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Snapshots of Revelation
-    headline: ''
-    video: c5hnlb6sea
+    headline: 
+    video: 
   - title: Your End Times
-    headline: ''
-    video: 2o1mj10pqk
+    headline: 
+    video: 
   - title: The Return of Christ
-    headline: ''
-    video: z6covuilee
+    headline: 
+    video: 
 - id: love-and-hate
   title: Love and Hate
   headline: 
@@ -565,16 +555,17 @@
     as we explore Love and Hate.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Part 2
-    headline: ''
-    video: v4rseoutpz
+    headline: 
+    video: 
   - title: Part 1
-    headline: ''
-    video: j1z9h4c9tg
+    headline: 
+    video: 
 - id: strapped
   title: Strapped
   headline: 
@@ -585,25 +576,26 @@
     from being Strapped.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Q and A
-    headline: ''
-    video: 43rp5lwktd
+    headline: 
+    video: 
   - title: Putting God First
-    headline: ''
-    video: 2xar135woa
+    headline: 
+    video: 
   - title: The Buck Starts Here
-    headline: ''
-    video: k8nlo617b5
+    headline: 
+    video: 
   - title: Act Your Wage
-    headline: ''
-    video: ceycdhnhr7
+    headline: 
+    video: 
   - title: A Godly Perspective on Money
-    headline: ''
-    video: bk6kvw3sar
+    headline: 
+    video: 
 - id: from-this-day-forward
   title: From This Day Forward
   headline: 
@@ -614,25 +606,26 @@
     Forward.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Never Give Up
-    headline: ''
-    video: 822okkunei
+    headline: 
+    video: 
   - title: Stay Pure
-    headline: ''
-    video: hrldn3j4ok
+    headline: 
+    video: 
   - title: Have Fun
-    headline: ''
-    video: d6k22rkvc2
+    headline: 
+    video: 
   - title: Fight Fair
-    headline: ''
-    video: 5nrljn6yc1
+    headline: 
+    video: 
   - title: Seek God
-    headline: ''
-    video: xywa6uv1b1
+    headline: 
+    video: 
 - id: at-the-movies-2012
   title: At the Movies 2012
   headline: 
@@ -643,9 +636,10 @@
     bring your friends each week!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Moneyball
     headline: 
@@ -666,13 +660,14 @@
     as we discover that we're More Than Dust.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: More Than Dust
-    headline: ''
-    video: k4ombbm2m5
+    headline: 
+    video: 
 - id: perspective
   title: Perspective
   headline: 
@@ -682,22 +677,23 @@
     limitations, and joy even in our lowest moments. It all comes down to Perspective.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
-  - title: 'A Different Perspective On Worry '
-    headline: ''
-    video: xzenynnx7g
+  - title: ! 'A Different Perspective On Worry '
+    headline: 
+    video: 
   - title: Seeing From A Different Perspective
-    headline: ''
-    video: ejpp3kl2nh
-  - title: 'A Different Way Of Thinking '
-    headline: ''
-    video: ziv0h0sk7i
+    headline: 
+    video: 
+  - title: ! 'A Different Way Of Thinking '
+    headline: 
+    video: 
   - title: Now What?
-    headline: ''
-    video: 2jlaruulro
+    headline: 
+    video: 
 - id: forget-you
   title: Forget You
   headline: 
@@ -708,16 +704,17 @@
     You.”
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: I am Less, He is More
-    headline: ''
-    video: 69ms9qycec
+    headline: 
+    video: 
   - title: Part 1
-    headline: ''
-    video: qd9liemmbj
+    headline: 
+    video: 
 - id: soul-detox
   title: Soul Detox
   headline: 
@@ -727,22 +724,23 @@
     neutralize damaging influences and embrace clean living in Soul Detox.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Seduced Soul
-    headline: ''
-    video: xailb8w9g0
+    headline: 
+    video: 
   - title: The Tortured Soul
-    headline: ''
-    video: k2ez2cvnhs
+    headline: 
+    video: 
   - title: The Heavy Soul
-    headline: ''
-    video: 3nvz951o6g
+    headline: 
+    video: 
   - title: The Restless Soul
-    headline: ''
-    video: 7w1o5qeu6v
+    headline: 
+    video: 
 - id: why-2012
   title: Why
   headline: 
@@ -753,22 +751,23 @@
     welcomes our questions. Join us as we ask "Why?"
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Why would God Use Me?
-    headline: ''
-    video: 3wnvcemvjs
+    headline: 
+    video: 
   - title: Why Doesn't God Seem Fair?
-    headline: ''
-    video: 8jjgg2wu0h
+    headline: 
+    video: 
   - title: Why Doesn't God Answer My Prayers?
-    headline: ''
-    video: g1dxm63lf1
+    headline: 
+    video: 
   - title: Why Don't I Always Feel God?
-    headline: ''
-    video: taujd2bkb0
+    headline: 
+    video: 
 - id: found-favor
   title: Found Favor
   headline: 
@@ -779,16 +778,17 @@
     things go our way—and when they don't—in Found Favor.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Walking in the Fog
-    headline: ''
-    video: 0ekichw3f2
+    headline: 
+    video: 
   - title: Found Favor
-    headline: ''
-    video: 2a7t231mh0
+    headline: 
+    video: 
 - id: samson-2012
   title: Samson
   headline: 
@@ -798,22 +798,23 @@
     strong against forces of darkness that want to take us out.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Failing Forward
-    headline: ''
-    video: x3s3g0kv6n
-  - title: 'Small Steps Towards Big Destruction '
-    headline: ''
-    video: i6exyqwxyb
+    headline: 
+    video: 
+  - title: ! 'Small Steps Towards Big Destruction '
+    headline: 
+    video: 
   - title: Emotional Strength
-    headline: ''
-    video: bmjlw8qtqs
+    headline: 
+    video: 
   - title: When Strong Men Are Weak
-    headline: ''
-    video: 0a9xjkki0n
+    headline: 
+    video: 
 - id: 30-second-theology
   title: 30 Second Theology
   headline: 
@@ -824,9 +825,10 @@
     your only chance to catch this special message!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: 30 Second Theology
     headline: 
@@ -835,43 +837,45 @@
   title: Better
   headline: 
   description_small: 
-  description_medium: 'Do you feel overwhelmed, dissatisfied, and stuck in a rut?
+  description_medium: ! 'Do you feel overwhelmed, dissatisfied, and stuck in a rut?
     Wishing your day-to-day life could improve? God''s Word is your guide to brighter
     days. When life hands you choices, choose Better. '
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Better is a Good Name
-    headline: ''
-    video: en0vnq9xtg
+    headline: 
+    video: 
   - title: Better is Wisdom than Gold
-    headline: ''
-    video: 7zw7xar0u4
+    headline: 
+    video: 
   - title: Better is One Handful
-    headline: ''
-    video: bact9nzcxi
+    headline: 
+    video: 
   - title: Better is One Day in Your Courts
-    headline: ''
-    video: 3m6ss49vih
+    headline: 
+    video: 
 - id: problem-or-a-miracle
   title: John Maxwell
   headline: 
   description_small: 
-  description_medium: 'Dealing with a problem? Then you’re a candidate for a miracle.
+  description_medium: ! 'Dealing with a problem? Then you’re a candidate for a miracle.
     Join us as bestselling author and leadership expert Dr. John Maxwell examines
     the way God brings people together to form a Miracle. '
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Problem or a Miracle
-    headline: ''
-    video: mow4mb139w
+    headline: 
+    video: 
 - id: carols
   title: Carols
   headline: 
@@ -881,47 +885,69 @@
     our joy that Christ has entered the world. Join us for Carols.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Emmanuel
-    headline: ''
-    video: hda0sbqvxq
+    headline: 
+    video: 
   - title: Away in a Manger
-    headline: ''
-    video: oksr3gom6u
+    headline: 
+    video: 
   - title: O Come All Ye Faithful
-    headline: ''
-    video: v5i40llowk
+    headline: 
+    video: 
   - title: O Holy Night
-    headline: ''
-    video: 9c3atmyrjt
+    headline: 
+    video: 
+- id: because-of-you
+  title: Because of You
+  headline: 
+  description_small: 
+  description_medium: Beautiful things happen when you invest your life in the work
+    of Jesus. Hunger finds nourishment. Sorrow meets healing. Dreams see daylight.
+    See what God is doing through you, with you, and Because of You.
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
+  messages:
+  - title: God is Changing Lives
+    headline: 
+    video: 
+  - title: Because of You
+    headline: 
+    video: 
 - id: those-people
   title: Those People
   headline: 
   description_small: 
-  description_medium: 'The negative neighbor. The critical co-worker. The manipulative
+  description_medium: ! 'The negative neighbor. The critical co-worker. The manipulative
     family member. We all have difficult people in our lives. Let’s learn how we can
     live with—and show love to—Those People. '
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Those Critical People
-    headline: ''
-    video: oqpwjllhe7
+    headline: 
+    video: 
   - title: Those Hypocritical People
-    headline: ''
-    video: 51n4vydh51
+    headline: 
+    video: 
   - title: Those Manipulative People
-    headline: ''
-    video: vjqqwzext8
+    headline: 
+    video: 
   - title: Those Overly Needy People
-    headline: ''
-    video: 77pya6p39t
+    headline: 
+    video: 
 - id: passing-the-test
   title: Passing the Test
   headline: 
@@ -931,16 +957,17 @@
     what it looks like when we're Passing the Test.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: When We Test God
-    headline: ''
-    video: 68yxzinimn
+    headline: 
+    video: 
   - title: When God Tests Us
-    headline: ''
-    video: b4qxyya4ce
+    headline: 
+    video: 
 - id: change-your-world
   title: Change Your World In 52 Days
   headline: 
@@ -950,22 +977,23 @@
     in Change Your World in 52 Days.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Finishing Strong
-    headline: ''
-    video: et37ca7spw
+    headline: 
+    video: 
   - title: Defeating Discouragement
-    headline: ''
-    video: fr38xfh960
+    headline: 
+    video: 
   - title: The Leader In You
-    headline: ''
-    video: jf8f7dtfo7
+    headline: 
+    video: 
   - title: Ordinary World Changers
-    headline: ''
-    video: sr1bvngt2e
+    headline: 
+    video: 
 - id: twogather
   title: Two-Gather
   headline: 
@@ -975,16 +1003,17 @@
     better together.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Where Everybody Knows Your Name
-    headline: ''
-    video: 197vjxmhov
+    headline: 
+    video: 
   - title: Heart & Soul
-    headline: ''
-    video: 5idlsis5uc
+    headline: 
+    video: 
 - id: bold
   title: Bold
   headline: 
@@ -994,35 +1023,37 @@
     we become Bold.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Bold Obedience
-    headline: ''
-    video: c09kont99z
+    headline: 
+    video: 
   - title: Bold Speaking
-    headline: ''
-    video: qbeejg3e02
+    headline: 
+    video: 
   - title: Bold Prayers
-    headline: ''
-    video: d6m33i31k5
+    headline: 
+    video: 
   - title: Amazing Boldness
-    headline: ''
-    video: m5mj889npm
+    headline: 
+    video: 
 - id: at-the-movies-2011
   title: At the Movies 2011
   headline: 
   description_small: 
-  description_medium: "Are you looking for an epic adventure? Join us for At the Movies!
-    We’ll be diving into some Hollywood hits and uncovering the story behind the story.
-    It’s the only time you’ll be able to catch the messages, so don’t miss a week.
-    Get ready for something big!\r\n"
+  description_medium: ! "Are you looking for an epic adventure? Join us for At the
+    Movies! We’ll be diving into some Hollywood hits and uncovering the story behind
+    the story. It’s the only time you’ll be able to catch the messages, so don’t miss
+    a week. Get ready for something big!\r\n"
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The King's Speech
     headline: 
@@ -1046,48 +1077,50 @@
     RE.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Remain
-    headline: ''
-    video: bfla742tjk
+    headline: 
+    video: 
   - title: Renew
-    headline: ''
-    video: xu200xu1ss
+    headline: 
+    video: 
   - title: Repentance
-    headline: ''
-    video: s4zplbh07m
+    headline: 
+    video: 
   - title: Remember
-    headline: ''
-    video: ceg641bj79
+    headline: 
+    video: 
 - id: getting-past-your-past
   title: Getting Past Your Past
   headline: 
   description_small: 
-  description_medium: 'Is your future caged up in your past? Instead of being dragged
+  description_medium: ! 'Is your future caged up in your past? Instead of being dragged
     down and immobilized by the weight of guilt, pain, or a lingering sense of failure,
     what freedom could we find in laying those burdens down? Join us for Getting Past
     Your Past. '
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Getting Past Your Personal Failures
-    headline: ''
-    video: i9nkbv0uy1
+    headline: 
+    video: 
   - title: Apologizing To Those You’ve Hurt
-    headline: ''
-    video: 1bmb2rd4u3
+    headline: 
+    video: 
   - title: Forgiving Those Who Hurt You
-    headline: ''
-    video: njlha1em25
+    headline: 
+    video: 
   - title: Breaking The Labels That Bind
-    headline: ''
-    video: szvygfiso2
+    headline: 
+    video: 
 - id: weird
   title: Weird
   headline: 
@@ -1097,25 +1130,26 @@
     explore life beyond normal in our next series, WEIRD.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: A Weird View of Money
-    headline: ''
-    video: fsxqaxzfkq
+    headline: 
+    video: 
   - title: Weird Way to Save the World
-    headline: ''
-    video: 3e6rtkr9ja
+    headline: 
+    video: 
   - title: Weird Desires
-    headline: ''
-    video: w4rd83ifl5
+    headline: 
+    video: 
   - title: Weird is Better
-    headline: ''
-    video: k9xju6afl2
+    headline: 
+    video: 
   - title: Weird in a God way
-    headline: ''
-    video: 28djt44xd9
+    headline: 
+    video: 
 - id: sun-stand-still
   title: Sun Stand Still
   headline: 
@@ -1125,44 +1159,46 @@
     Join us for a special message from Pastor Steven Furtick
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Sun Stand Still
-    headline: ''
-    video: k8519bm0ot
+    headline: 
+    video: 
   - title: Sun Stand Still
-    headline: ''
-    video: ge6gbypk92
+    headline: 
+    video: 
 - id: who-do-you-think-you-are
   title: Who Do You Think You Are
   headline: 
   description_small: 
-  description_medium: 'How do you see yourself? A masterpiece or a mess? Survivor
+  description_medium: ! 'How do you see yourself? A masterpiece or a mess? Survivor
     or struggler? Advocate or critic? Getting perspective on how God sees you might
     give you a new view of yourself. '
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Disciple
-    headline: ''
-    video: e917fijd15
+    headline: 
+    video: 
   - title: Salt and Light
-    headline: ''
-    video: 9qipenq8w7
+    headline: 
+    video: 
   - title: Overcomer
-    headline: ''
-    video: v07is2hnnd
+    headline: 
+    video: 
   - title: Masterpiece
-    headline: ''
-    video: 7wlhywkt32
+    headline: 
+    video: 
   - title: Ambassadors
-    headline: ''
-    video: 0i97rz2pef
+    headline: 
+    video: 
 - id: i-quit
   title: I Quit
   headline: 
@@ -1171,22 +1207,23 @@
     things have to be. Come see what happens when we’re ready to say, “I quit.”
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: I Quit Comparing
-    headline: ''
-    video: nabisdifes
+    headline: 
+    video: 
   - title: I Quit Living in Fear
-    headline: ''
-    video: ufnlqv28y1
+    headline: 
+    video: 
   - title: I Quit Complaining
-    headline: ''
-    video: txds56fyf3
+    headline: 
+    video: 
   - title: I Quit Making Excuses
-    headline: ''
-    video: fv1q5ikzse
+    headline: 
+    video: 
 - id: xv
   title: XV
   headline: 
@@ -1198,13 +1235,14 @@
     will continue to do more than we could ask, think or imagine!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: 15-Year Anniversary
-    headline: ''
-    video: kd5gypwvsj
+    headline: 
+    video: 
 - id: first
   title: First
   headline: 
@@ -1215,72 +1253,78 @@
     First.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Firsts
-    headline: ''
-    video: 8w8s10ixuq
+    headline: 
+    video: 
 - id: never-lose-heart
   title: Never Lose Heart
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: When we’re surrounded by much but fulfilled by little, frustrated,
     or just plain tired, life’s burdens feel especially heavy. Learn how we can reclaim
     peace and joy as we Never Lose Heart.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Never Lose Heart
-    headline: ''
-    video: dsokiyaffw
+    headline: 
+    video: 
 - id: christmas10
   title: Christmas 2010
-  headline: ''
-  description_small: ''
-  description_medium: "At Christmas, we have the opportunity to find renewed hope
+  headline: 
+  description_small: 
+  description_medium: ! 'At Christmas, we have the opportunity to find renewed hope
     and joy in the overwhelming love of a God who is with us. Join us as we celebrate
-    the birth of the one who brings peace.\r\n"
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+    the birth of the one who brings peace.
+
+'
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Hope Shines Through
-    headline: ''
-    video: 9hpcmbomsf
+    headline: 
+    video: 
 - id: masquerade
   title: Masquerade
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: There’s the side of you everyone else sees, and then there’s
     the real you. Tired of keeping up the façade? Join us for Masquerade.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Hiding Your Hurt
-    headline: ''
-    video: k504psyklr
+    headline: 
+    video: 
   - title: Financial Fakers
-    headline: ''
-    video: jusaxldavy
+    headline: 
+    video: 
   - title: Hiding Your Sin
-    headline: ''
-    video: bioil5p01u
+    headline: 
+    video: 
   - title: Self Deception
-    headline: ''
-    video: 1s5boia22v
+    headline: 
+    video: 
   - title: Hiding from God
-    headline: ''
-    video: gogbypf2vp
+    headline: 
+    video: 
 - id: planted
   title: Planted
   headline: 
@@ -1290,87 +1334,91 @@
     Learn how to be Planted.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Week 2
-    headline: ''
-    video: g57n17hn77
+    headline: 
+    video: 
   - title: Week 1
-    headline: ''
-    video: 5fdnglxwjo
+    headline: 
+    video: 
 - id: chazown
   title: Chazown
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Chazown. It’s the Hebrew word for vision, and it’s what God
     had in mind for you when you were created. Each of us is a masterpiece, placed
     on earth for a unique purpose that’s solely ours to fulfill. Come uncover God’s
     dream for your life—your Chazown.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Chazown
-    headline: ''
-    video: 47e064gcir
+    headline: 
+    video: 
 - id: i-believe-in-you
   title: I Believe In You
-  headline: ''
-  description_small: ''
-  description_medium: 'How does it feel to know someone’s in your corner—coaching
+  headline: 
+  description_small: 
+  description_medium: ! 'How does it feel to know someone’s in your corner—coaching
     you and cheering you on? Now imagine if entire generations could experience support
     like this. Learn what can happen when we develop relationships that shape, share
     insight, and speak into our souls: I Believe in You.'
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Week 4
-    headline: ''
-    video: cxhfiy021g
+    headline: 
+    video: 
   - title: Week 3
-    headline: ''
-    video: 7j28y4kppi
+    headline: 
+    video: 
   - title: Week 2
-    headline: ''
-    video: cb4lwb643q
+    headline: 
+    video: 
   - title: Week 1
-    headline: ''
-    video: fr6b1uqy2g
+    headline: 
+    video: 
 - id: toxic
   title: Toxic
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Need a little personal poison control?  Are there relationships,
     thoughts, or behaviors that quietly compromise our well-being? How can we learn
     to recognize and remove the hidden dangers in our lives? Join us for Toxic.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Toxic Religion
-    headline: ''
-    video: 9bqpuwxhkc
+    headline: 
+    video: 
   - title: Toxic Words
-    headline: ''
-    video: 0pggjkf8we
+    headline: 
+    video: 
   - title: Toxic Relationships
-    headline: ''
-    video: 34vhk296vt
+    headline: 
+    video: 
   - title: Toxic Influences
-    headline: ''
-    video: 6yh9bn6wgv
+    headline: 
+    video: 
   - title: Toxic Thoughts
-    headline: ''
-    video: c9ve9on7nq
+    headline: 
+    video: 
 - id: at-the-movies-2010
   title: At The Movies
   headline: 
@@ -1382,9 +1430,10 @@
     catch the messages. See you At the Movies!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: At The Movies
     headline: 
@@ -1400,355 +1449,374 @@
     video: 
 - id: one-prayer-10
   title: One Prayer 2010
-  headline: ''
-  description_small: ''
-  description_medium: 'Imagine churches around the world coming together as one. All
-    joining forces to share...to serve...to give. Join us for One Prayer 2010 to learn
-    what it can mean when the Church becomes unstoppable.    '
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  headline: 
+  description_small: 
+  description_medium: ! 'Imagine churches around the world coming together as one.
+    All joining forces to share...to serve...to give. Join us for One Prayer 2010
+    to learn what it can mean when the Church becomes unstoppable.    '
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Unstoppable Power
-    headline: ''
-    video: i6gsk9l4tr
+    headline: 
+    video: 
   - title: Unstoppable
-    headline: ''
-    video: bakz9emzqn
+    headline: 
+    video: 
   - title: Unstoppable Life
-    headline: ''
-    video: 59ohh2dsuv
+    headline: 
+    video: 
   - title: Unstoppable Courage
-    headline: ''
-    video: gciguvqpcb
+    headline: 
+    video: 
 - id: forgotten-virtues
   title: Forgotten Virtues
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Honor. Purity. Loyalty. Integrity. Gratitude. Are they gone?
     Did we leave true character behind? Join us as we learn what we can do to restore
     these Forgotten Virtues.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Gratitude
-    headline: ''
-    video: v3oma8lm7e
+    headline: 
+    video: 
   - title: Integrity
-    headline: ''
-    video: 9135wsphut
+    headline: 
+    video: 
   - title: Loyalty
-    headline: ''
-    video: gd8ff6s3ql
+    headline: 
+    video: 
   - title: Purity
-    headline: ''
-    video: ef5kvv6d2n
+    headline: 
+    video: 
   - title: Honor
-    headline: ''
-    video: wmgtd4umfd
+    headline: 
+    video: 
 - id: faq
   title: FAQ
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Have you ever wondered what God thinks about suicide, homosexuality,
     the end of the world, birth control, horoscopes, and why good people suffer? Find
     out the answers to these questions and more—join us for FAQ
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Week 1
-    headline: ''
-    video: c2hxppuivn
+    headline: 
+    video: 
   - title: Week 2
-    headline: ''
-    video: xq7oq9vlf5
+    headline: 
+    video: 
   - title: Week 3
-    headline: ''
-    video: ef9g51z472
+    headline: 
+    video: 
 - id: red-letter-day
   title: Red Letter Day
-  headline: ''
-  description_small: ''
-  description_medium: "It was a Red Letter Day.<br /><br />\r\nBloody,  beaten, and
-    nailed to a cross, a dying Jesus looked at those around Him and spoke His final
-    words as a man.  What did he say?  Join us as we relive Jesus' final hours, and
-    celebrate His ultimate victory on this Red Letter Day."
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  headline: 
+  description_small: 
+  description_medium: ! 'It was a Red Letter Day.<br /><br />
+
+    Bloody,  beaten, and nailed to a cross, a dying Jesus looked at those around Him
+    and spoke His final words as a man.  What did he say?  Join us as we relive Jesus''
+    final hours, and celebrate His ultimate victory on this Red Letter Day.'
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Week 5
-    headline: ''
-    video: 3vr297flyt
+    headline: 
+    video: 
   - title: Week 4
-    headline: ''
-    video: seq8jywcnr
+    headline: 
+    video: 
   - title: Week 3
-    headline: ''
-    video: orytd9rajv
+    headline: 
+    video: 
   - title: Week 2
-    headline: ''
-    video: 5nxjydnhk1
+    headline: 
+    video: 
   - title: Week 1
-    headline: ''
-    video: kyadq4t27m
+    headline: 
+    video: 
 - id: once-upon-a-marriage
   title: Once Upon A Marriage
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: There’s nothing quite like a juicy love story...the romance,
     the intrigue, and maybe a little scandal. We’re digging in to some of the greatest
     biblical marriages to see what we can learn. Travel back in time with us for Once
     Upon a Marriage.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Unfailing Love
-    headline: ''
-    video: 02vz0b11d6
+    headline: 
+    video: 
   - title: Faith-Less or Faith-Full
-    headline: ''
-    video: 1wplbn0mvx
+    headline: 
+    video: 
   - title: Power Struggle
-    headline: ''
-    video: 330l9lpxxu
+    headline: 
+    video: 
   - title: Never Satisfied
-    headline: ''
-    video: n9zrod7krf
+    headline: 
+    video: 
 - id: margin
   title: Margin
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Sometimes it seems like the only way to keep up with all the
     demands on our lives is to run at maximum capacity—and then some. But there is
     another way...one where we have room to breathe and space to respond to what life
     brings our way. Come explore what it means to live with Margin.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Moral Margin
-    headline: ''
-    video: pgk979l5rt
+    headline: 
+    video: 
   - title: Financial Margin
-    headline: ''
-    video: lda39bv7k8
+    headline: 
+    video: 
   - title: Scheduling Margin
-    headline: ''
-    video: 7koetunv6d
+    headline: 
+    video: 
   - title: Margin
-    headline: ''
-    video: l7slv87ukb
+    headline: 
+    video: 
 - id: one-thing
   title: The One Thing
-  headline: ''
-  description_small: ''
-  description_medium: "When we're setting goals for the new year, it's tempting to
-    tackle everything we want to change about our lives.\r\n<br /><br />\r\nBut how
-    often does that really work?  Instead, what if we focused on less to accomplish
-    more?  Join us as we explore the power of One Thing."
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  headline: 
+  description_small: 
+  description_medium: ! 'When we''re setting goals for the new year, it''s tempting
+    to tackle everything we want to change about our lives.
+
+    <br /><br />
+
+    But how often does that really work?  Instead, what if we focused on less to accomplish
+    more?  Join us as we explore the power of One Thing.'
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: New Years 2010
-    headline: ''
-    video: zne8gbm9iz
+    headline: 
+    video: 
 - id: this-christmas
   title: This Christmas
-  headline: ''
-  description_small: ''
-  description_medium: 'Have you been spending this Christmas waiting for God to show
-    up?  He''s here.  Maybe you just haven’t been searching for him. '
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  headline: 
+  description_small: 
+  description_medium: ! 'Have you been spending this Christmas waiting for God to
+    show up?  He''s here.  Maybe you just haven’t been searching for him. '
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: This Christmas
-    headline: ''
-    video: qb85axukmj
+    headline: 
+    video: 
 - id: blessed-life
   title: The Blessed Life
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Pursuing happiness takes work. It’s tough to find and even harder
     to hold. Ever want more than that for your life? God does. He wants us to be blessed.
     Discover what the Bible says about living The Blessed Life.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Heart Of Serving
-    headline: ''
-    video: 164o060pzj
+    headline: 
+    video: 
   - title: The Generous Eye
-    headline: ''
-    video: 3vzode5sdp
+    headline: 
+    video: 
   - title: The Blessed Test
-    headline: ''
-    video: wvqxv36haw
+    headline: 
+    video: 
   - title: Heart Of Generosity
-    headline: ''
-    video: lgrkh524p0
+    headline: 
+    video: 
 - id: carbon-copy
   title: Carbon Copy
-  headline: ''
-  description_small: ''
-  description_medium: "A life well lived. Sounds good, right? But how do we achieve
+  headline: 
+  description_small: 
+  description_medium: ! "A life well lived. Sounds good, right? But how do we achieve
     that when we get conflicting advice everywhere we turn? It doesn’t have to be
     so complicated. In fact, we already have a blueprint for our private and public
-    lives. Come see what we can learn from being a Carbon Copy.\r\n<br /><br /> \r\nSeries
+    lives. Come see what we can learn from being a Carbon Copy.\n<br /><br /> \nSeries
     begins November 21st."
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Life Of Jesus
-    headline: ''
-    video: s30othsc2j
+    headline: 
+    video: 
   - title: The Unseen Life of Jesus
-    headline: ''
-    video: 5lzpvago6m
+    headline: 
+    video: 
 - id: ghost
   title: Ghost
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: The spirit of life... the essence of truth... the voice of God.
     He has always been here, and will always remain. And when you are alone, lost,
     and afraid, He will carry you home. Come explore the power and comfort of the
     one who resides within...The Ghost.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Filled With The Spirit
-    headline: ''
-    video: ybv7idflv0
+    headline: 
+    video: 
   - title: Spiritual Gifts
-    headline: ''
-    video: zw05wq0oyt
+    headline: 
+    video: 
   - title: The Power Of The Holy Spirit
-    headline: ''
-    video: giwvh1ncbg
+    headline: 
+    video: 
   - title: The Presence of the Holy
-    headline: ''
-    video: 52coqzgtcq
+    headline: 
+    video: 
 - id: place-for-everyone
   title: There's A Place For Everyone
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: It doesn’t matter who you are, what you believe, or what you’ve
     done—there’s a place for you in the local church. It’s not a building. It’s a
     movement of people following a loving God and serving each other. Come see the
     spot carved out just for you. Join us as we discover A Place for Everyone.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Week 2
-    headline: ''
-    video: 2a2np3c901
+    headline: 
+    video: 
   - title: Week 1
-    headline: ''
-    video: yye6zzxgqw
+    headline: 
+    video: 
 - id: five-easy-steps
   title: Five Easy Steps...
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Nobody plans for it to happen, but life can get pretty messy.
     Trouble with our relationships…harmful habits…feeling far from God…we look back
     and wonder, “How did I end up here?” Starting down that path is easier than you
     might think, unless you know what to look for. Join us for our next series, 5
     Easy Steps to Wreck Your Life.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: How to Become Dissatisfied
-    headline: ''
-    video: 57lyxqir0e
+    headline: 
+    video: 
   - title: How to Become an Addict
-    headline: ''
-    video: dqb1llfx3m
+    headline: 
+    video: 
   - title: How To Drift From God
-    headline: ''
-    video: 4fhn7ydkx4
+    headline: 
+    video: 
   - title: How to Commit Adultery
-    headline: ''
-    video: m2xawcp08d
+    headline: 
+    video: 
 - id: stop-acting-like-a-christian
   title: Stop Acting Like A Christian...
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Start doing the right things and stop doing the wrong things—that’s
     what it means to follow Jesus, right? Or what if we have it all turned around?
     Special guest Christine Caine shares the freedom and passion that comes from a
     genuine relationship with God. Join us for our next series as we learn to Stop
     Acting Like a Christian and Just Be One.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Week 2
-    headline: ''
-    video: 0atoxelyuk
+    headline: 
+    video: 
   - title: Week 1
-    headline: ''
-    video: q1a4hcho7t
+    headline: 
+    video: 
 - id: behind-the-curtain
   title: Behind The Curtain
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: The Church... It stretches far beyond what you see. It accomplishes
     more than we dreamed was possible. And the part you play? It’s bigger than you
     realize. We’re taking an inside look at LifeChurch.tv to show you the difference
     you’re making in the world. Join us as we step Behind the Curtain.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Week 3
-    headline: ''
-    video: a3qa3ulbta
+    headline: 
+    video: 
   - title: Week 2
-    headline: ''
-    video: tbyqrrus8p
+    headline: 
+    video: 
   - title: Digital Missions
-    headline: ''
-    video: c8rguw5v5m
+    headline: 
+    video: 
 - id: at-the-movies-2009
   title: At The Movies 2009
   headline: 
@@ -1760,162 +1828,145 @@
     the Movies!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages: []
 - id: one-prayer-09
   title: One Prayer 2009
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: We’re coming together across continents and cultures. We’re
     exploring who God Is. We’re teaming up to make a lasting difference in our world.
     Be a part of One Prayer 2009, and join forces with people around the globe as
     we share, serve, and give…as one.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: God Is...
-    headline: ''
-    video: rcrtk12ctf
+    headline: 
+    video: 
   - title: God Is...
-    headline: ''
-    video: w14bath81a
+    headline: 
+    video: 
   - title: God Is Father
-    headline: ''
-    video: is3tw2wnpa
+    headline: 
+    video: 
   - title: God Is... Strength
-    headline: ''
-    video: r5ereszhv6
+    headline: 
+    video: 
 - id: elijah
   title: Elijah
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: <p>An angry king. Devastating drought. Epic opposition. And
     one man who overcomes it all. <br /><br /> When the world around us is spinning
     out of control, where do we turn? Join us as we learn from Elijah.</p>
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Depression
-    headline: ''
-    video: xaai866ls0
+    headline: 
+    video: 
   - title: Powerful Prayer
-    headline: ''
-    video: uvlu22y38n
+    headline: 
+    video: 
   - title: Which God Do You Serve?
-    headline: ''
-    video: s9lgoc032a
+    headline: 
+    video: 
   - title: The Making Of A Man Of God
-    headline: ''
-    video: cnlrubdf0g
+    headline: 
+    video: 
 - id: can-you-see-him
   title: Can You See Him?
-  headline: ''
-  description_small: ''
+  headline: 
+  description_small: 
   description_medium: Daily life usually sets us on a path that’s almost robotic and
     we forget to see God in all things-the GOOD-the TRAGIC, or even the MUNDANE. Think
     of your day today. Did you see Him in your kid’s laughter, the homeless person
     on the corner, or even the papers you stapled? He was there. Join LifeChurch.tv
     as we discover how to see God in everything.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: In Your Struggles
-    headline: ''
-    video: hfg0p2si1g
+    headline: 
+    video: 
   - title: Believing Is Seeing
-    headline: ''
-    video: tn1zlzm7qu
+    headline: 
+    video: 
   - title: Seeing The Light
-    headline: ''
-    video: ywpf98fkl6
+    headline: 
+    video: 
   - title: In Your Doubts
-    headline: ''
-    video: jlxwdfnrrl
+    headline: 
+    video: 
 - id: life-money-hope
   title: Life. Money. Hope.
-  headline: ''
-  description_small: ''
-  description_medium: 'Trying to make sense of the economy? Leading financial expert
+  headline: 
+  description_small: 
+  description_medium: ! 'Trying to make sense of the economy? Leading financial expert
     Dave Ramsey joins us to share timeless advice on the money matters right under
     your own roof. '
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
-  - title: '#1 Myth about Money'
-    headline: ''
-    video: yy97ux96pf
+  - title: ! '#1 Myth about Money'
+    headline: 
+    video: 
   - title: Breaking The Bondage Of Debt
-    headline: ''
-    video: c31p7mglzv
+    headline: 
+    video: 
   - title: Basics of Biblical Finance
-    headline: ''
-    video: 6ut6lw1fln
+    headline: 
+    video: 
 - id: the-vow
   title: The Vow
-  headline: ''
-  description_small: ''
-  description_medium: "For better, for worse…to have and to hold, from this day forward…
-    Wedding vows are more than a declaration of love—they hold the keys for a strong,
-    lasting marriage. Whether you hope to get married someday, or you’ve already tied
-    the knot, discover what these words can mean for the future of your relationship.
-    Join us as the secret of The Vow is revealed.\r\n"
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  headline: 
+  description_small: 
+  description_medium: ! 'For better, for worse…to have and to hold, from this day
+    forward… Wedding vows are more than a declaration of love—they hold the keys for
+    a strong, lasting marriage. Whether you hope to get married someday, or you’ve
+    already tied the knot, discover what these words can mean for the future of your
+    relationship. Join us as the secret of The Vow is revealed.
+
+'
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Vow Of Purity
-    headline: ''
-    video: 1yb3lcr6hv
+    headline: 
+    video: 
   - title: The Vow Of Partnership
-    headline: ''
-    video: z8s1rzcug6
+    headline: 
+    video: 
   - title: The Vow Of Pursuit
-    headline: ''
-    video: g2zcq68q2a
+    headline: 
+    video: 
   - title: The Vow Of Priority
-    headline: ''
-    video: ge1a3y2iil
-- id: trueish
-  title: True(ish)
-  headline: ''
-  description_small: ''
-  description_medium: God’s truth is black and white and even though there is no gray
-    area, that’s where so many of us live today.  We prefer to live by the concepts
-    or facts we wish to be true, rather than those known to be true... the gray area.
-  quote: ''
-  quote_cite: ''
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
-  messages:
-  - title: As Long As Nobody Gets Hurt
-    headline: ''
-    video: c587hn1kf6
-  - title: As Long As You're Sincere
-    headline: ''
-    video: 7ol44ol3m3
-  - title: As Long As You're Happy
-    headline: ''
-    video: 60hjhrygwy
-  - title: What Is Truth?
-    headline: ''
-    video: yodbrnaycj
+    headline: 
+    video: 
 - id: i-love-my-church
   title: I Love My Church
   headline: 
@@ -1925,9 +1976,10 @@
     what happens along the way that is truly inspiring!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Invasions - Week 2
     headline: 
@@ -1939,13 +1991,17 @@
   title: Christmas 2008
   headline: 
   description_small: 
-  description_medium: |
-    Merry Christmas from LifeChurch.tv!  Our prayer is that your holiday season is filled with love, joy, and peace, and that you’ll experience Jesus Christ in new and exciting ways!</p>
+  description_medium: ! 'Merry Christmas from LifeChurch.tv!  Our prayer is that your
+    holiday season is filled with love, joy, and peace, and that you’ll experience
+    Jesus Christ in new and exciting ways!</p>
+
+'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: What Child Is This
     headline: 
@@ -1958,9 +2014,10 @@
     to do it.</p>
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Praying Like Jesus Prayed
     headline: 
@@ -1980,9 +2037,10 @@
     happens when we pay attention to the Whispers of God.</p>
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Whispers
     headline: 
@@ -1991,17 +2049,20 @@
   title: Practical Atheist
   headline: 
   description_small: 
-  description_medium: |-
-    <p>You say you believe in God. Do you really?</p>
+  description_medium: ! '<p>You say you believe in God. Do you really?</p>
 
-    <p>Do you live your life as if God is in the room, or do you assume He’s not paying attention?</p>
 
-    <p>You call yourself a Christian. Are you who you say you are?</p>
+    <p>Do you live your life as if God is in the room, or do you assume He’s not paying
+    attention?</p>
+
+
+    <p>You call yourself a Christian. Are you who you say you are?</p>'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: I Believe in God , But I Don’t Know Him
     headline: 
@@ -2019,15 +2080,20 @@
   title: Kaleo
   headline: 
   description_small: 
-  description_medium: |-
-    1 Peter 2:21 (NIV), "To this you were called, because Christ suffered for you, leaving you an example, that you should follow in his steps," is the foundation of the message series, Kaleo.
+  description_medium: ! '1 Peter 2:21 (NIV), "To this you were called, because Christ
+    suffered for you, leaving you an example, that you should follow in his steps,"
+    is the foundation of the message series, Kaleo.
+
     <br /><br />
-    Join LifeChurch.tv as we learn God's call on each of our lives and how to be set apart and ready to follow His divine calling.
+
+    Join LifeChurch.tv as we learn God''s call on each of our lives and how to be
+    set apart and ready to follow His divine calling.'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Called To Make Disciples
     headline: 
@@ -2045,14 +2111,15 @@
   title: You Don't Have What It Takes
   headline: 
   description_small: 
-  description_medium: "Trying to juggle everything life throws at you can feel like
+  description_medium: ! "Trying to juggle everything life throws at you can feel like
     a three-ring circus. No matter how hard you try, you'll never be able to handle
     it on your own. \n<br /><br />Bet you didn't know that was a good thing."
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Week 4
     headline: 
@@ -2070,14 +2137,15 @@
   title: So You're Dead... Now What?
   headline: 
   description_small: 
-  description_medium: 'The afterlife is cloaked in mystery. What happens moments after
-    we die? What is Heaven really like? What about Hell? And does what we do in this
-    world really matter in the next? '
+  description_medium: ! 'The afterlife is cloaked in mystery. What happens moments
+    after we die? What is Heaven really like? What about Hell? And does what we do
+    in this world really matter in the next? '
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Heaven
     headline: 
@@ -2102,9 +2170,10 @@
     beyond ourselves, we can change our communities and our world.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Make Us Passionate
     headline: 
@@ -2125,16 +2194,17 @@
   title: Fanatic
   headline: 
   description_small: 
-  description_medium: "Ask yourself the question, &#34;What do I worship?&#34;  You
+  description_medium: ! "Ask yourself the question, &#34;What do I worship?&#34;  You
     might be surprised by the answer.  \n \nDo you spend the same time and energy
     toward God as you do with sporting events, concerts or even your Wii?  Are you
     as fanatical about showing your praise for God as you are about showing off your
     house?  If not, then maybe you&#39;re worshipping the wrong things."
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Fanatic 2
     headline: 
@@ -2152,9 +2222,10 @@
     inspire a modern day faith in God&#39;s Promises.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Habakkuk - Week 3
     headline: 
@@ -2175,9 +2246,10 @@
     to stop playing the role of the nice guy and instead live as The Warrior.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Passionate Warrior
     headline: 
@@ -2204,9 +2276,10 @@
     free, once and for all, from the ties that bind.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Lies
     headline: 
@@ -2231,9 +2304,10 @@
     to become fully devoted followers of Christ? We could become an unstoppable force.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Unstoppable Idiots
     headline: 
@@ -2254,9 +2328,10 @@
     on the Savior who was born in a manger over two thousand years ago.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Prince of Peace
     headline: 
@@ -2280,9 +2355,10 @@
     warfare, angels, demons and the Holy Spirit. Together well uncover the SuperNatural.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Angels
     headline: 
@@ -2309,9 +2385,10 @@
     necessary to battle America’s dirty little secret…pornography.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Porn
     headline: 
@@ -2326,9 +2403,10 @@
     of God’s unusual blessings.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Blessed to Share His Story
     headline: 
@@ -2353,9 +2431,10 @@
     look at life the same.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Fighting for Peace
     headline: 
@@ -2378,9 +2457,10 @@
     impact you like never before!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages: []
 - id: jonah
   title: Jonah
@@ -2393,9 +2473,10 @@
     man and his journey towards surrender.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Jonahs Anger
     headline: 
@@ -2413,17 +2494,22 @@
   title: Fearless
   headline: 
   description_small: 
-  description_medium: |-
-    Battles are inevitable but victory is not. We often find ourselves fighting enemies that are stronger than we are. So how do you stand fearless when theres so much at stake? Be inspired by accounts from God's word about average people who became champions and overcame insurmountable odds.
+  description_medium: ! 'Battles are inevitable but victory is not. We often find
+    ourselves fighting enemies that are stronger than we are. So how do you stand
+    fearless when theres so much at stake? Be inspired by accounts from God''s word
+    about average people who became champions and overcame insurmountable odds.
+
 
     Do you have what it takes?
 
-    Experience "FEARLESS" to find out once and for all.
+
+    Experience "FEARLESS" to find out once and for all.'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: David and Goliath
     headline: 
@@ -2444,14 +2530,20 @@
   title: Mix Tape
   headline: 
   description_small: 
-  description_medium: |-
-    You made a mixtape as the soundtrack for your road trip. You gave another to your first love professing your undying affection. Maybe someone gave you a mixtape to help encourage you through tough times. Making mixtapes for friends and family is a great way to communicate whats going on in our lives.
-    LifeChurch.tv would like to share our 2007 mixtape with you. Come discover how God can connect with us through His life-changing truth revealed through today's hottest music.
+  description_medium: ! 'You made a mixtape as the soundtrack for your road trip.
+    You gave another to your first love professing your undying affection. Maybe someone
+    gave you a mixtape to help encourage you through tough times. Making mixtapes
+    for friends and family is a great way to communicate whats going on in our lives.
+
+    LifeChurch.tv would like to share our 2007 mixtape with you. Come discover how
+    God can connect with us through His life-changing truth revealed through today''s
+    hottest music.'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Runaway
     headline: 
@@ -2474,9 +2566,10 @@
     in our lives.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Baptism
     headline: 
@@ -2499,9 +2592,10 @@
     about sex that help you understand what great sex really is.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: What Satan is Telling Single Adults
     headline: 
@@ -2519,7 +2613,7 @@
   title: Urban Legends
   headline: 
   description_small: 
-  description_medium: 'Do you know someone whos seen Bigfoot''s tracks? What about
+  description_medium: ! 'Do you know someone whos seen Bigfoot''s tracks? What about
     Nessie in Loch Ness? Of course, almost every kid has learned that there really
     are alligators in the sewer. You know how it goes: someone sees something and
     tells someone who then tells someone else. On and on and on it goes until its
@@ -2528,9 +2622,10 @@
     fact from fiction and debunk spiritual myths.'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Sin Legends
     headline: 
@@ -2556,9 +2651,10 @@
     you in?
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Vision 2007
     headline: 
@@ -2574,9 +2670,10 @@
     about six different ones and what they mean to us today.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Opening Blind Eyes
     headline: 
@@ -2607,9 +2704,10 @@
     learn why, when it comes to money, IN God We definitely Trust.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Buck Starts Here
     headline: 
@@ -2633,9 +2731,10 @@
     to those who will follow. This is what it means to be a disciple. Will you?
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Goes Out
     headline: 
@@ -2662,9 +2761,10 @@
     We all have them. Or do they have us? Secrets. Let’s talk.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Secret Shame
     headline: 
@@ -2689,9 +2789,10 @@
     series, The Sickness Within.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Bitterness
     headline: 
@@ -2708,6 +2809,25 @@
   - title: Anger
     headline: 
     video: 
+- id: samson
+  title: Samson
+  headline: 
+  description_small: 
+  description_medium: He had brains, he had brawn. But he had one weakness – and it
+    eventually cost him everything. The mighty Samson was destined to be the next
+    leader of Israel. But when he refused to fight the battle of sin in his life,
+    God’s plan for him was stolen and he never lived up to the greatness he could
+    have. Discover the importance of following God’s plan for our lives.
+  quote: 
+  quote_cite: 
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
+  messages:
+  - title: Samson
+    headline: 
+    video: 
 - id: girls-gone-wild-bible-style
   title: Girls Gone Wild Bible Style
   headline: 
@@ -2718,9 +2838,10 @@
     their wicked ways? Men and women alike will love this wild three-week series.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages: []
 - id: meds
   title: Meds
@@ -2732,9 +2853,10 @@
     God wants us to feel. Take this two-week series and call us in the morning.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Know Pain, Know Gain
     headline: 
@@ -2746,16 +2868,17 @@
   title: Identity Theft
   headline: 
   description_small: 
-  description_medium: 'Within this message lies the truth. Actually, its the truth
+  description_medium: ! 'Within this message lies the truth. Actually, its the truth
     about lies. The lies we tell ourselves and the damage they do if we don''t take
     hold. There''s nothing little or white about them - lies keep us from finding
     our true identity: the identity we have knowing that we''re living up to the amazing
     potential that God has planned for us.'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: I Am What I Do
     headline: 
@@ -2779,9 +2902,10 @@
     perspective on love done God’s way.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Finding the One
     headline: 
@@ -2806,9 +2930,10 @@
     to a more intimate understanding of God’s heart and character.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Emmanuel
     headline: 
@@ -2835,9 +2960,10 @@
     fatigued.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Parents Priority
     headline: 
@@ -2862,9 +2988,10 @@
     use them positively instead of negatively. Can you believe that?
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Prayer Request Gossiper
     headline: 
@@ -2886,9 +3013,10 @@
     series, What’s God’s Will?
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: My Will or Thy Will?
     headline: 
@@ -2913,9 +3041,10 @@
     battles that keep you – and your baggage – grounded.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Released From Depression
     headline: 
@@ -2939,9 +3068,10 @@
     a vision is to see that which is yet to be seen.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Vision 2005
     headline: 
@@ -2959,9 +3089,10 @@
     is all that matters.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Lost
     headline: 
@@ -2976,9 +3107,10 @@
     this truly changed man.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Changed Legacy
     headline: 
@@ -2997,9 +3129,10 @@
     and overly critical people that drive you crazy every day.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Hypocritical People
     headline: 
@@ -3023,9 +3156,10 @@
     above the things that hold us down and suck the life out of us.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Be The One
     headline: 
@@ -3041,9 +3175,10 @@
     that He can!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: I Doubt God Can Use Me
     headline: 
@@ -3068,9 +3203,10 @@
     answers to these questions, and we will explore those in the series, <i>Letdown</i>.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: When God Lets You Down
     headline: 
@@ -3087,9 +3223,10 @@
     life relationships.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Till Death Do Us Part
     headline: 
@@ -3120,9 +3257,10 @@
     Prepare yourself to take a risk and go where no church has gone before!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages: []
 - id: Invasion-2004
   title: Invasion 2004
@@ -3135,9 +3273,10 @@
     hear first hand about God’s life changing power!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Invasion 2004
     headline: 
@@ -3153,9 +3292,10 @@
     and learn to walk confidently with God every day.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Confidence
     headline: 
@@ -3170,9 +3310,10 @@
     down festering bitterness and rebuild healthy relationships in your life.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Bitter or Better
     headline: 
@@ -3192,9 +3333,10 @@
     has answers!  Get straight answers to these tough questions.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Q and A 2004 - Message 1
     headline: 
@@ -3216,9 +3358,10 @@
     life.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Work Life
     headline: 
@@ -3247,9 +3390,10 @@
     Give to something that lasts! God wants you to give it UP!
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Love Made Me Do It
     headline: 
@@ -3265,9 +3409,10 @@
     Good News," and thats exactly what the story of our salvation is - GOOD NEWS.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Go
     headline: 
@@ -3283,9 +3428,10 @@
     these fears.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Fear of Losing Control
     headline: 
@@ -3311,9 +3457,10 @@
     of Christ.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Attitude of Gratitude
     headline: 
@@ -3339,9 +3486,10 @@
     Jesus Christ.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Jehovahs Witnesses
     headline: 
@@ -3361,9 +3509,10 @@
     of the final words Jesus uttered before giving His life.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Today You Will Be With Me In Paradise
     headline: 
@@ -3387,9 +3536,10 @@
     to seeing you this weekend for the new message series, Consumed.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: True Worshippers
     headline: 
@@ -3408,9 +3558,10 @@
     church.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: A Dangerous Church
     headline: 
@@ -3426,9 +3577,10 @@
     done this year.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Faithful
     headline: 
@@ -3444,9 +3596,10 @@
     a study of Philippians.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: A Peace in the Action
     headline: 
@@ -3471,9 +3624,10 @@
     His divine calling.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Change the World
     headline: 
@@ -3493,9 +3647,10 @@
     and meaningful marriage covenant.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Truth or Dont You Dare
     headline: 
@@ -3516,8 +3671,8 @@
   title: Confessions of a Pastor
   headline: 
   description_small: 
-  description_medium: 'Uncover the deep, dark, secrets that have remained untold in
-    the realm of a pastor’s life: insecurities, doubts, and weariness....frustrations,
+  description_medium: ! 'Uncover the deep, dark, secrets that have remained untold
+    in the realm of a pastor’s life: insecurities, doubts, and weariness....frustrations,
     concerns and mistakes. In "Confessions of a Pastor," Pastor Craig opens up in
     hopes of shattering any false pretenses. What is it like to be a pastor? Probably
     a lot like being anyone else. Let go of the expectations and high standards that
@@ -3525,9 +3680,10 @@
     through your own confessions.'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: I Dont Like a Lot of Christians
     headline: 
@@ -3550,9 +3706,10 @@
     how to avoid the prison of religion and live in the freedom of Christ.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Slave or Son
     headline: 
@@ -3576,9 +3733,10 @@
     suffering and the pain of rejection.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: The Pain of Rejection
     headline: 
@@ -3593,15 +3751,16 @@
   title: World Changers
   headline: 
   description_small: 
-  description_medium: '"Give me ten men who hate nothing but sin and love nothing
+  description_medium: ! '"Give me ten men who hate nothing but sin and love nothing
     but God, and well change the world." Through the life of John Wesley we''ll learn
     to change the world with a plan for holiness, a peace with God, and a passion
     for change.'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Dwight L. Moody
     headline: 
@@ -3619,14 +3778,15 @@
   title: Sex Files
   headline: 
   description_small: 
-  description_medium: '"The Sex Files" is a very important and relevant teaching that
-    explores the Biblical perspective on sex and how we should respond to todays extremely
-    sexual culture.'
+  description_medium: ! '"The Sex Files" is a very important and relevant teaching
+    that explores the Biblical perspective on sex and how we should respond to todays
+    extremely sexual culture.'
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Great Sexpectations
     headline: 
@@ -3650,9 +3810,10 @@
     your family with vision and passion.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Ally
     headline: 
@@ -3676,9 +3837,10 @@
     of life, death, heaven and hell and explores what the Bible has to say about them.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Hell No
     headline: 
@@ -3703,9 +3865,10 @@
     forgiveness, and what it means to be forgiven.
   quote: 
   quote_cite: 
-  image_small: http://placekitten.com/300/200
-  image_medium: http://placekitten.com/600/400
-  image_large: http://placekitten.com/1200/800
+  image_small: ''
+  image_medium: ''
+  image_large: ''
+  image_social: ''
   messages:
   - title: Forgetting
     headline: 
