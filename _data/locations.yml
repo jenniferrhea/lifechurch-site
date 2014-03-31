@@ -136,7 +136,22 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 16
+    title: Arrowhead Elementary
+    recipient: 
+    url: http://www.baschools.org/vnews/display.v/SEC/Arrowhead
+    description_small: ''
+    description_medium: Provide the opportunity for additional character and team
+      building learning experiences and allow students to work with one another in
+      a small group setting to build new friendships.
+  - id: 21
+    title: 111 Project
+    recipient: 
+    url: http://111project.org/
+    description_small: ''
+    description_medium: The goal of this organization is that every child will have
+      a family and every child will be loved. 1 Church 1 Family 1 Purpose.
 - id: mwc
   title: Midwest City
   email: 
@@ -215,7 +230,22 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 13
+    title: Youth & Family Services
+    recipient: 
+    url: http://www.yfsok.org/
+    description_small: ''
+    description_medium: Support families and children in foster care and engage in
+      the foster care system on multiple levels.
+  - id: 14
+    title: Yukon Special Athletes
+    recipient: 
+    url: http://www.specialolympicsyukon.ca/
+    description_small: ''
+    description_medium: Partner with special needs families to give the kids of the
+      special needs community the opportunity for healthy and beneficial relationships
+      that will serve them beyond their school years.
 - id: ows
   title: Owasso
   email: 
@@ -272,6 +302,13 @@
       professionally supported 1-to-1 relationships that change their lives for the
       better, forever. Each volunteer will be in a direct, mentor relationship with
       a child.
+  - id: 17
+    title: Southwest Foster Care
+    recipient: 
+    url: https://www.facebook.com/southwestfostercareok
+    description_small: ''
+    description_medium: Help recruit families and provide quality foster care service
+      as well as support foster care families in our community.
 - id: wel
   title: Wellington
   email: 
@@ -335,7 +372,14 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 20
+    title: Switch
+    recipient: 
+    url: ''
+    description_small: ''
+    description_medium: Lead students to become fully devoted followers of Christ,
+      mentoring them on weekly basis.
 - id: stw
   title: Stillwater
   email: 
@@ -382,6 +426,14 @@
       professionally supported 1-to-1 relationships that change their lives for the
       better, forever. Each volunteer will be in a direct, mentor relationship with
       a child.
+  - id: 15
+    title: Payne County Department of Human Services
+    recipient: 
+    url: http://www.okdhs.org/okdhslocal/payne/
+    description_small: ''
+    description_medium: Help ensure safety of at-risk children in the community and
+      to restore parents and children or find a new opportunity for those children
+      to have a normal life.
 - id: sto
   title: South Tulsa
   email: 
@@ -428,7 +480,23 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 18
+    title: Relations Group Home
+    recipient: 
+    url: ''
+    description_small: ''
+    description_medium: Support the efforts of Relations Group home, a place where
+      children 8-18 receive help and mentorship to become active young adults.
+  - id: 19
+    title: Tulsa Boys Home
+    recipient: 
+    url: http://www.tulsaboyshome.org/tulsaboys/default.asp
+    description_small: ''
+    description_medium: Help restore the lives of boys who have seen the worst in
+      people and lead them towards being healthy, responsible young men. LifeChurch.tv
+      volunteers surround these boys with what they have not seen; love, kindness,
+      and consistent interaction.
 - id: soc
   title: South Oklahoma City
   email: 
@@ -470,7 +538,22 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 5
+    title: Inner City Action Group
+    recipient: 
+    url: http://icag.org/
+    description_small: ''
+    description_medium: Build mentoring relationship between at-risk youth in OKC
+      and Christian role models who encourage youth to build positive character.
+  - id: 12
+    title: Warriors Mentoring
+    recipient: 
+    url: http://okcyouthwrestling.ning.com/
+    description_small: ''
+    description_medium: Build relationships between at-risk youth and caring role
+      models in the OKC area through the sport of wrestling to influence each child's
+      actions by teaching positive character traits.
 - id: okc
   title: Oklahoma City
   email: 
@@ -521,6 +604,22 @@
     description_medium: Improve the well-being of inner city youth through academic
       tutoring and positive mentoring relationships as well as communicating spiritual
       and moral values.
+  - id: 11
+    title: Sunset Elementary
+    recipient: 
+    url: http://www.edmondschools.net/sunset/Home.aspx
+    description_small: ''
+    description_medium: Make an impact in your surrounding community where there are
+      financial needs, language barriers, single parent homes, and other life concerns
+      that directly affect their experience in the classroom. Volunteers will help
+      to provide a better classroom and learning experience alongside the teachers.
+  - id: 21
+    title: 111 Project
+    recipient: 
+    url: http://111project.org/
+    description_small: ''
+    description_medium: The goal of this organization is that every child will have
+      a family and every child will be loved. 1 Church 1 Family 1 Purpose.
 - id: noc
   title: NW Oklahoma City
   email: 
@@ -579,6 +678,33 @@
     description_medium: Rewrite the fatherless story through mentoring by recruiting,
       training, resourcing and encouraging mentors to show up for at-risk and fatherless
       kids.
+  - id: 8
+    title: Novo Ministries
+    recipient: 
+    url: http://www.novoministries.org/
+    description_small: ''
+    description_medium: Help connect passionate individuals, churches, and organizations
+      with inner-city communities in the greater Oklahoma City area by helping facilitate
+      weekly after-school programming in these communities.
+  - id: 9
+    title: Tulakes Elementary
+    recipient: 
+    url: http://tes.putnamcityschools.org/
+    description_small: ''
+    description_medium: Support children, families, teachers, and administrators in
+      an under-resourced environment. With over 500 students meeting over 200 days
+      a year, it provides us the optimum opportunity to minister outside the church
+      walls.
+  - id: 10
+    title: Watch D.O.G.S.
+    recipient: 
+    url: http://www.fathers.com/content/index.php?option=com_content&task=view&id=21&Itemid=60
+    description_small: ''
+    description_medium: Provide positive male role models for the students, demonstrating
+      by their presence that education is important, and to provide extra sets of
+      eyes and ears to enhance school security and reduce bullying. With a 97% fatherlessness
+      rate in Tulakes, Watch Dogs seeks to recruit volunteers from NOC to act as a
+      male role models for the children at Tulakes to accomplish these goals at Tulakes.
 - id: hnv
   title: Hendersonville
   email: 
@@ -708,6 +834,27 @@
     description_medium: Rewrite the fatherless story through mentoring by recruiting,
       training, resourcing and encouraging mentors to show up for at-risk and fatherless
       kids.
+  - id: 5
+    title: Inner City Action Group
+    recipient: 
+    url: http://icag.org/
+    description_small: ''
+    description_medium: Build mentoring relationship between at-risk youth in OKC
+      and Christian role models who encourage youth to build positive character.
+  - id: 6
+    title: SeeWorth Foundation
+    recipient: 
+    url: http://www.seeworthfoundation.org/
+    description_small: ''
+    description_medium: Help students see their value as people and help them learn
+      how to better engage their world because of the value they find in themselves.
+  - id: 7
+    title: Young Life
+    recipient: 
+    url: http://www.younglife.org/Pages/default.aspx
+    description_small: ''
+    description_medium: Introduce teens to Jesus and help them grow in their faith
+      by weekly one on one mentoring.
 - id: alb
   title: Albany
   email: 
