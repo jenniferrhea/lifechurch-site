@@ -141,15 +141,21 @@
     title: Arrowhead Elementary
     recipient: 
     url: http://www.baschools.org/vnews/display.v/SEC/Arrowhead
-    description: Provide the opportunity for additional character and team building
-      learning experiences and allow students to work with one another in a small
-      group setting to build new friendships.
+    description_medium: Provide the opportunity for additional character and team
+      building learning experiences and allow students to work with one another in
+      a small group setting to build new friendships.
   - id: 21
     title: 111 Project
     recipient: 
     url: http://111project.org/
-    description: The goal of this organization is that every child will have a family
-      and every child will be loved. 1 Church 1 Family 1 Purpose.
+    description_medium: The goal of this organization is that every child will have
+      a family and every child will be loved. 1 Church 1 Family 1 Purpose.
+  - id: 36
+    title: Broken Arrow Neighbors
+    recipient: 
+    url: http://www.baneighbors.org/
+    description_medium: Provide basic needs assistance with dignity and compassion
+      to neighbors in need through a cooperative effort.
 - id: mwc
   title: Midwest City
   email: 
@@ -191,9 +197,16 @@
     title: Eden Clinic
     recipient: 
     url: http://www.edenclinic.tv/
-    description: In partnership with this Pregnancy Wellness program, provide emotional
-      support, material assistance, education and counseling, community referrals,
-      and pregnancy wellness classes.
+    description_medium: In partnership with this Pregnancy Wellness program, provide
+      emotional support, material assistance, education and counseling, community
+      referrals, and pregnancy wellness classes.
+  - id: 34
+    title: The Spero Project
+    recipient: 
+    url: http://www.thesperoproject.com/
+    description_medium: Confront injustice and oppression by mobilizing the Church
+      to fully engage in a Biblical response to under-resourced populations. There
+      are a variety of opportunities in the community to get involved.
 - id: ykn
   title: Yukon
   email: 
@@ -240,15 +253,23 @@
     title: Youth & Family Services
     recipient: 
     url: http://www.yfsok.org/
-    description: Support families and children in foster care and engage in the foster
-      care system on multiple levels.
+    description_medium: Support families and children in foster care and engage in
+      the foster care system on multiple levels.
   - id: 14
     title: Yukon Special Athletes
     recipient: 
     url: http://www.specialolympicsyukon.ca/
-    description: Partner with special needs families to give the kids of the special
-      needs community the opportunity for healthy and beneficial relationships that
-      will serve them beyond their school years.
+    description_medium: Partner with special needs families to give the kids of the
+      special needs community the opportunity for healthy and beneficial relationships
+      that will serve them beyond their school years.
+  - id: 35
+    title: City Rescue Mission
+    recipient: 
+    url: http://cityrescue.org/
+    description_medium: Support the goal to have people leave better and more successful
+      than when they first came in. Take advantage of the opportunity to dramatically
+      make a difference in these hurting peoples lives by coming with servant hearts
+      to walk along side people.
 - id: ows
   title: Owasso
   email: 
@@ -300,15 +321,24 @@
     title: Big Brothers Big Sisters
     recipient: 
     url: http://www.bbbs.org/
-    description: Provide children facing adversity with strong and enduring, professionally
-      supported 1-to-1 relationships that change their lives for the better, forever.
-      Each volunteer will be in a direct, mentor relationship with a child.
+    description_medium: Provide children facing adversity with strong and enduring,
+      professionally supported 1-to-1 relationships that change their lives for the
+      better, forever. Each volunteer will be in a direct, mentor relationship with
+      a child.
   - id: 17
     title: Southwest Foster Care
     recipient: 
     url: https://www.facebook.com/southwestfostercareok
-    description: Help recruit families and provide quality foster care service as
-      well as support foster care families in our community.
+    description_medium: Help recruit families and provide quality foster care service
+      as well as support foster care families in our community.
+  - id: 37
+    title: Owasso Community Resources
+    recipient: 
+    url: http://owassohelps.org/
+    description_medium: 'Offer services that provide a safety net for families and
+      individuals facing economic hardship, including: striving to prevent hunger,
+      prevent homelessness, restore hope and help families and individuals on their
+      path to self-sufficiency.'
 - id: wel
   title: Wellington
   email: 
@@ -340,9 +370,9 @@
     title: First Care
     recipient: 
     url: http://www.first-care.org/
-    description: Help give woman the opportunity to make an educated decision about
-      giving birth while empowering them to walk their decision out without guilt
-      or shame.
+    description_medium: Help give woman the opportunity to make an educated decision
+      about giving birth while empowering them to walk their decision out without
+      guilt or shame.
 - id: tul
   title: Tulsa
   email: 
@@ -384,8 +414,8 @@
     title: Switch
     recipient: 
     url: ''
-    description: Lead students to become fully devoted followers of Christ, mentoring
-      them on weekly basis.
+    description_medium: Lead students to become fully devoted followers of Christ,
+      mentoring them on weekly basis.
 - id: stw
   title: Stillwater
   email: 
@@ -427,37 +457,38 @@
     title: Big Brothers Big Sisters
     recipient: 
     url: http://www.bbbs.org/
-    description: Provide children facing adversity with strong and enduring, professionally
-      supported 1-to-1 relationships that change their lives for the better, forever.
-      Each volunteer will be in a direct, mentor relationship with a child.
+    description_medium: Provide children facing adversity with strong and enduring,
+      professionally supported 1-to-1 relationships that change their lives for the
+      better, forever. Each volunteer will be in a direct, mentor relationship with
+      a child.
   - id: 15
     title: Payne County Department of Human Services
     recipient: 
     url: http://www.okdhs.org/okdhslocal/payne/
-    description: Help ensure safety of at-risk children in the community and to restore
-      parents and children or find a new opportunity for those children to have a
-      normal life.
+    description_medium: Help ensure safety of at-risk children in the community and
+      to restore parents and children or find a new opportunity for those children
+      to have a normal life.
   - id: 26
     title: Stillwater Life Services
     recipient: 
     url: http://www.stillwaterlife.org/
-    description: Support the work of this sexual health and pregnancy resource clinic,
-      providing testing, treatment, and options for women and men. Provide ongoing
-      one-on-one mentoring of clients.
+    description_medium: Support the work of this sexual health and pregnancy resource
+      clinic, providing testing, treatment, and options for women and men. Provide
+      ongoing one-on-one mentoring of clients.
   - id: 27
     title: Wings of Hope
     recipient: 
     url: http://www.sdvs.org/
-    description: Join the mission to break the cycle of interpersonal violence by
-      supporting families through the process of restoration and healing.
+    description_medium: Join the mission to break the cycle of interpersonal violence
+      by supporting families through the process of restoration and healing.
   - id: 31
     title: Habitat for Humanity
     recipient: 
     url: http://www.habitat.org/
-    description: 'Build homes and hope in partnership with low income families to
-      build and renovate high quality, affordable housing; advocate on behalf of those
-      in need of decent housing, and serve as a partner and catalyst to create healthy
-      and sustainable communities. '
+    description_medium: 'Build homes and hope in partnership with low income families
+      to build and renovate high quality, affordable housing; advocate on behalf of
+      those in need of decent housing, and serve as a partner and catalyst to create
+      healthy and sustainable communities. '
 - id: sto
   title: South Tulsa
   email: 
@@ -509,16 +540,16 @@
     title: Relations Group Home
     recipient: 
     url: ''
-    description: Support the efforts of Relations Group home, a place where children
-      8-18 receive help and mentorship to become active young adults.
+    description_medium: Support the efforts of Relations Group home, a place where
+      children 8-18 receive help and mentorship to become active young adults.
   - id: 19
     title: Tulsa Boys Home
     recipient: 
     url: http://www.tulsaboyshome.org/tulsaboys/default.asp
-    description: Help restore the lives of boys who have seen the worst in people
-      and lead them towards being healthy, responsible young men. LifeChurch.tv volunteers
-      surround these boys with what they have not seen; love, kindness, and consistent
-      interaction.
+    description_medium: Help restore the lives of boys who have seen the worst in
+      people and lead them towards being healthy, responsible young men. LifeChurch.tv
+      volunteers surround these boys with what they have not seen; love, kindness,
+      and consistent interaction.
 - id: soc
   title: South Oklahoma City
   email: 
@@ -565,15 +596,23 @@
     title: Inner City Action Group
     recipient: 
     url: http://icag.org/
-    description: Build mentoring relationship between at-risk youth in OKC and Christian
-      role models who encourage youth to build positive character.
+    description_medium: Build mentoring relationship between at-risk youth in OKC
+      and Christian role models who encourage youth to build positive character.
   - id: 12
     title: Warriors Mentoring
     recipient: 
     url: http://okcyouthwrestling.ning.com/
-    description: Build relationships between at-risk youth and caring role models
-      in the OKC area through the sport of wrestling to influence each child's actions
-      by teaching positive character traits.
+    description_medium: Build relationships between at-risk youth and caring role
+      models in the OKC area through the sport of wrestling to influence each child's
+      actions by teaching positive character traits.
+  - id: 35
+    title: City Rescue Mission
+    recipient: 
+    url: http://cityrescue.org/
+    description_medium: Support the goal to have people leave better and more successful
+      than when they first came in. Take advantage of the opportunity to dramatically
+      make a difference in these hurting peoples lives by coming with servant hearts
+      to walk along side people.
 - id: okc
   title: Oklahoma City
   email: 
@@ -620,30 +659,31 @@
     title: Whiz Kids
     recipient: 
     url: http://www.whizkidsok.org/
-    description: Improve the well-being of inner city youth through academic tutoring
-      and positive mentoring relationships as well as communicating spiritual and
-      moral values.
+    description_medium: Improve the well-being of inner city youth through academic
+      tutoring and positive mentoring relationships as well as communicating spiritual
+      and moral values.
   - id: 11
     title: Sunset Elementary
     recipient: 
     url: http://www.edmondschools.net/sunset/Home.aspx
-    description: Make an impact in your surrounding community where there are financial
-      needs, language barriers, single parent homes, and other life concerns that
-      directly affect their experience in the classroom. Volunteers will help to provide
-      a better classroom and learning experience alongside the teachers.
+    description_medium: Make an impact in your surrounding community where there are
+      financial needs, language barriers, single parent homes, and other life concerns
+      that directly affect their experience in the classroom. Volunteers will help
+      to provide a better classroom and learning experience alongside the teachers.
   - id: 21
     title: 111 Project
     recipient: 
     url: http://111project.org/
-    description: The goal of this organization is that every child will have a family
-      and every child will be loved. 1 Church 1 Family 1 Purpose.
+    description_medium: The goal of this organization is that every child will have
+      a family and every child will be loved. 1 Church 1 Family 1 Purpose.
   - id: 25
     title: LifeTroops
     recipient: 
     url: http://lifetroops.tv/
-    description: Help soldiers during the healing process, "Mind, Body & Spirit" curriculum,
-      and support systems to meet the spiritual, emotional, educational, financial,
-      and physical needs of military members 24 hours a day, both home and abroad.
+    description_medium: Help soldiers during the healing process, "Mind, Body & Spirit"
+      curriculum, and support systems to meet the spiritual, emotional, educational,
+      financial, and physical needs of military members 24 hours a day, both home
+      and abroad.
 - id: noc
   title: NW Oklahoma City
   email: 
@@ -690,38 +730,47 @@
     title: Whiz Kids
     recipient: 
     url: http://www.whizkidsok.org/
-    description: Improve the well-being of inner city youth through academic tutoring
-      and positive mentoring relationships as well as communicating spiritual and
-      moral values.
+    description_medium: Improve the well-being of inner city youth through academic
+      tutoring and positive mentoring relationships as well as communicating spiritual
+      and moral values.
   - id: 4
     title: The Mentoring Project
     recipient: 
     url: http://www.thementoringproject.org/
-    description: Rewrite the fatherless story through mentoring by recruiting, training,
-      resourcing and encouraging mentors to show up for at-risk and fatherless kids.
+    description_medium: Rewrite the fatherless story through mentoring by recruiting,
+      training, resourcing and encouraging mentors to show up for at-risk and fatherless
+      kids.
   - id: 8
     title: Novo Ministries
     recipient: 
     url: http://www.novoministries.org/
-    description: Help connect passionate individuals, churches, and organizations
+    description_medium: Help connect passionate individuals, churches, and organizations
       with inner-city communities in the greater Oklahoma City area by helping facilitate
       weekly after-school programming in these communities.
   - id: 9
     title: Tulakes Elementary
     recipient: 
     url: http://tes.putnamcityschools.org/
-    description: Support children, families, teachers, and administrators in an under-resourced
-      environment. With over 500 students meeting over 200 days a year, it provides
-      us the optimum opportunity to minister outside the church walls.
+    description_medium: Support children, families, teachers, and administrators in
+      an under-resourced environment. With over 500 students meeting over 200 days
+      a year, it provides us the optimum opportunity to minister outside the church
+      walls.
   - id: 10
     title: Watch D.O.G.S.
     recipient: 
     url: http://www.fathers.com/content/index.php?option=com_content&task=view&id=21&Itemid=60
-    description: Provide positive male role models for the students, demonstrating
+    description_medium: Provide positive male role models for the students, demonstrating
       by their presence that education is important, and to provide extra sets of
       eyes and ears to enhance school security and reduce bullying. With a 97% fatherlessness
       rate in Tulakes, Watch Dogs seeks to recruit volunteers from NOC to act as a
       male role models for the children at Tulakes to accomplish these goals at Tulakes.
+  - id: 34
+    title: The Spero Project
+    recipient: 
+    url: http://www.thesperoproject.com/
+    description_medium: Confront injustice and oppression by mobilizing the Church
+      to fully engage in a Biblical response to under-resourced populations. There
+      are a variety of opportunities in the community to get involved.
 - id: hnv
   title: Hendersonville
   email: 
@@ -758,17 +807,26 @@
     title: End Slavery
     recipient: 
     url: http://www.endslaverytn.org/
-    description: Create a slave-free Tennessee and holistically restore survivors
+    description_medium: Create a slave-free Tennessee and holistically restore survivors
       of human trafficking. Volunteers can assist through awareness programs, distributing
       door hangers and fundraising.
   - id: 29
     title: Shalom Zone
     recipient: 
     url: http://www.gallatinshalomzone.org/
-    description: Engage the residents and kids of their community in healing, peace,
-      reconciliation and love so they grow beyond their current circumstances. LifeChurch.tv
-      volunteers come alongside the community as mentors, providing homework help,
-      enrichment, and assistance throughout the program.
+    description_medium: Engage the residents and kids of their community in healing,
+      peace, reconciliation and love so they grow beyond their current circumstances.
+      LifeChurch.tv volunteers come alongside the community as mentors, providing
+      homework help, enrichment, and assistance throughout the program.
+  - id: 33
+    title: Room in the Inn
+    recipient: 
+    url: http://www.roomintheinn.org/
+    description_medium: Help provide programs that emphasize human development and
+      recovery through education, self-help and work for those who call the streets
+      of Nashville home. LifeChurch.tv volunteers will assist the staff in providing
+      meals, mail sorting, cleaning, teaching classes, and mentoring residents in
+      the programs.
 - id: ftw
   title: Fort Worth
   email: 
@@ -810,16 +868,22 @@
     title: Tarrant Read2Win
     recipient: 
     url: http://www.tarrantnet.org/read2win/
-    description: Partner with a Fort Worth elementary schools and volunteer as a reading
-      coach for a first grader needing help in the Fort Worth I.S.D.
+    description_medium: Partner with a Fort Worth elementary schools and volunteer
+      as a reading coach for a first grader needing help in the Fort Worth I.S.D.
   - id: 31
     title: Habitat for Humanity
     recipient: 
     url: http://www.habitat.org/
-    description: 'Build homes and hope in partnership with low income families to
-      build and renovate high quality, affordable housing; advocate on behalf of those
-      in need of decent housing, and serve as a partner and catalyst to create healthy
-      and sustainable communities. '
+    description_medium: 'Build homes and hope in partnership with low income families
+      to build and renovate high quality, affordable housing; advocate on behalf of
+      those in need of decent housing, and serve as a partner and catalyst to create
+      healthy and sustainable communities. '
+  - id: 32
+    title: Altamesa Neighborhood Needs
+    recipient: 
+    url: http://www.altamesa.org/ministries/local/neighborhood-needs/
+    description_medium: Provide food, clothing, technology access and mentor/counseling
+      to those in need with God’s help and in God’s way.
 - id: edm
   title: Edmond
   email: 
@@ -861,40 +925,57 @@
     title: Whiz Kids
     recipient: 
     url: http://www.whizkidsok.org/
-    description: Improve the well-being of inner city youth through academic tutoring
-      and positive mentoring relationships as well as communicating spiritual and
-      moral values.
+    description_medium: Improve the well-being of inner city youth through academic
+      tutoring and positive mentoring relationships as well as communicating spiritual
+      and moral values.
   - id: 4
     title: The Mentoring Project
     recipient: 
     url: http://www.thementoringproject.org/
-    description: Rewrite the fatherless story through mentoring by recruiting, training,
-      resourcing and encouraging mentors to show up for at-risk and fatherless kids.
+    description_medium: Rewrite the fatherless story through mentoring by recruiting,
+      training, resourcing and encouraging mentors to show up for at-risk and fatherless
+      kids.
   - id: 5
     title: Inner City Action Group
     recipient: 
     url: http://icag.org/
-    description: Build mentoring relationship between at-risk youth in OKC and Christian
-      role models who encourage youth to build positive character.
+    description_medium: Build mentoring relationship between at-risk youth in OKC
+      and Christian role models who encourage youth to build positive character.
   - id: 6
     title: SeeWorth Foundation
     recipient: 
     url: http://www.seeworthfoundation.org/
-    description: Help students see their value as people and help them learn how to
-      better engage their world because of the value they find in themselves.
+    description_medium: Help students see their value as people and help them learn
+      how to better engage their world because of the value they find in themselves.
   - id: 7
     title: Young Life
     recipient: 
     url: http://www.younglife.org/Pages/default.aspx
-    description: Introduce teens to Jesus and help them grow in their faith by weekly
-      one on one mentoring.
+    description_medium: Introduce teens to Jesus and help them grow in their faith
+      by weekly one on one mentoring.
   - id: 23
     title: T.E.E.M (The Education and Employment Ministry)
     recipient: 
     url: http://www.teem.org/
-    description: Provide consistent and compassionate male mentors who establish quality
-      relationships with OKC area adult inmates for the purpose of promoting stability,
-      support, friendship, and ultimately success in the work place and personal life.
+    description_medium: Provide consistent and compassionate male mentors who establish
+      quality relationships with OKC area adult inmates for the purpose of promoting
+      stability, support, friendship, and ultimately success in the work place and
+      personal life.
+  - id: 34
+    title: The Spero Project
+    recipient: 
+    url: http://www.thesperoproject.com/
+    description_medium: Confront injustice and oppression by mobilizing the Church
+      to fully engage in a Biblical response to under-resourced populations. There
+      are a variety of opportunities in the community to get involved.
+  - id: 35
+    title: City Rescue Mission
+    recipient: 
+    url: http://cityrescue.org/
+    description_medium: Support the goal to have people leave better and more successful
+      than when they first came in. Take advantage of the opportunity to dramatically
+      make a difference in these hurting peoples lives by coming with servant hearts
+      to walk along side people.
 - id: alb
   title: Albany
   email: 
@@ -931,21 +1012,22 @@
     title: Big Brothers Big Sisters
     recipient: 
     url: http://www.bbbs.org/
-    description: Provide children facing adversity with strong and enduring, professionally
-      supported 1-to-1 relationships that change their lives for the better, forever.
-      Each volunteer will be in a direct, mentor relationship with a child.
+    description_medium: Provide children facing adversity with strong and enduring,
+      professionally supported 1-to-1 relationships that change their lives for the
+      better, forever. Each volunteer will be in a direct, mentor relationship with
+      a child.
   - id: 30
     title: City Mission of Schenectady
     recipient: 
     url: http://citymission.com/
-    description: Help people who are in poverty, help people get out of poverty and
-      help people stay out of poverty, and volunteers will partner with their efforts
-      and programs to make this a reality.
+    description_medium: Help people who are in poverty, help people get out of poverty
+      and help people stay out of poverty, and volunteers will partner with their
+      efforts and programs to make this a reality.
   - id: 31
     title: Habitat for Humanity
     recipient: 
     url: http://www.habitat.org/
-    description: 'Build homes and hope in partnership with low income families to
-      build and renovate high quality, affordable housing; advocate on behalf of those
-      in need of decent housing, and serve as a partner and catalyst to create healthy
-      and sustainable communities. '
+    description_medium: 'Build homes and hope in partnership with low income families
+      to build and renovate high quality, affordable housing; advocate on behalf of
+      those in need of decent housing, and serve as a partner and catalyst to create
+      healthy and sustainable communities. '
