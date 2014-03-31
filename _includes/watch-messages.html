@@ -8,12 +8,12 @@
 
       <div class="row message">
         <div class="medium-3 columns">
-          <h4>{{ message.title }}</h4>
+          <h4>{% cycle 'Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6' %}</h4>
         </div>
-        <div class="medium-6 columns medium-text-right">
-          <h6>{{ message.headline }}</h6>
+        <div class="medium-7 columns medium-text-right">
+          <h6>"{{ message.title }}"</h6>
         </div>
-        <div class="medium-3 columns medium-text-right play-message">
+        <div class="medium-2 columns medium-text-right play-message">
           <a href="javascript:void(0);" class="action text-lprimary small" data-video-player="{{message.video}}" >Play <i class="icon icon-play"></i></a>
         </div>
       </div>
