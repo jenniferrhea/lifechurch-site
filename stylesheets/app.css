@@ -7580,7 +7580,7 @@ input.gsc-search-button:hover {
     margin: 0px 0 0 4px;
   }
   /* line 591, ../scss/pages/_locations.scss */
-  .days-times .time.type-lifechurch .time-box {
+  .days-times .time.type-service-time .time-box {
     background: #e98f93;
     border: 1px solid #e0646b;
     color: #b9252d;
