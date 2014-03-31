@@ -1,4 +1,22 @@
 ---
+- id: the-counselor
+  title: The Counselor
+  headline: ''
+  description_small: ''
+  description_medium: If you could ask God one thing, what would it be? Our questions
+    reveal more about our faith than our curiosities. When Jesus asks the questions,
+    He sheds light on who we really are and what we truly believe. Find out how His
+    questions reveal our hearts in The Counselor.
+  quote: ''
+  quote_cite: ''
+  image_small: http://s3.amazonaws.com/lcapi.production/series/the-counselor/300x200.jpg?1396290251
+  image_medium: /files/original/missing.png
+  image_large: http://s3.amazonaws.com/lcapi.production/series/the-counselor/1200x800.jpg?1396290667
+  image_social: http://s3.amazonaws.com/lcapi.production/series/the-counselor/400x400.jpg?1396290604
+  messages:
+  - title: Why Are You So Afraid?
+    headline: ''
+    video: py2g4yg22p
 - id: the-artisan-soul
   title: The Artisan Soul
   headline: ''
