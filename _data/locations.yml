@@ -682,6 +682,13 @@
     description_medium: Defend the widows and orphans and set prisoners free through
       their three ministries of Life Launch, Women in Transition, and Stand in the
       Gap for Widows.
+  - id: 34
+    title: The Spero Project
+    recipient: 
+    url: http://www.thesperoproject.com/
+    description_medium: Confront injustice and oppression by mobilizing the Church
+      to fully engage in a Biblical response to under-resourced populations. There
+      are a variety of opportunities in the community to get involved.
 - id: okc
   title: Oklahoma City
   email: 
@@ -753,6 +760,13 @@
       curriculum, and support systems to meet the spiritual, emotional, educational,
       financial, and physical needs of military members 24 hours a day, both home
       and abroad.
+  - id: 34
+    title: The Spero Project
+    recipient: 
+    url: http://www.thesperoproject.com/
+    description_medium: Confront injustice and oppression by mobilizing the Church
+      to fully engage in a Biblical response to under-resourced populations. There
+      are a variety of opportunities in the community to get involved.
 - id: noc
   title: NW Oklahoma City
   email: 
