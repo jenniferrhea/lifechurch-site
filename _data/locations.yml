@@ -89,7 +89,21 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 41
+    title: New Hope Oklahoma
+    recipient: 
+    url: http://www.newhopeoklahoma.org/
+    description_medium: Help to end generational incarceration one child at a time
+      and partner with New Hope through after-school programs, summer camps, and holiday
+      parties.
+  - id: 44
+    title: Salvation Army Adult Rehabilitation Center (ARC)
+    recipient: 
+    url: http://satruck.org/national-rehabilitation
+    description_medium: Support the men who participate at the center to break the
+      cycle of addiction through Christ as their Savior and partner with the ARC through
+      mentoring and serving at the center, etc.
 - id: bao
   title: Broken Arrow
   email: 
@@ -373,6 +387,26 @@
     description_medium: Help give woman the opportunity to make an educated decision
       about giving birth while empowering them to walk their decision out without
       guilt or shame.
+  - id: 40
+    title: Oasis Compassion
+    recipient: 
+    url: http://oasiscompassion.org/
+    description_medium: Restore people that have fallen on hard times and bring them
+      through by helping them with food, resume building, interview skills classes,
+      housing, and job placement by showing them who they are in Christ.
+  - id: 42
+    title: 4Kids of South Florida
+    recipient: 
+    url: https://www.4kidsofsfl.org/
+    description_medium: Help care for kids in crisis through mentoring, caring, playing,
+      and being there for these kids in SafePlace.
+  - id: 45
+    title: Urban Youth Impact
+    recipient: 
+    url: http://www.urbanyouthimpact.com/
+    description_medium: Love, equip, and empower inner-city youth and their parents
+      to fulfill their God-given purpose through on-to-one mentorship relationships,
+      after school academic development, and parent development classes.
 - id: tul
   title: Tulsa
   email: 
@@ -416,6 +450,20 @@
     url: ''
     description_medium: Lead students to become fully devoted followers of Christ,
       mentoring them on weekly basis.
+  - id: 39
+    title: Emergency Infant Services
+    recipient: 
+    url: http://emergencyinfantservices.org/
+    description_medium: Provide basic needs for infants and children through five
+      years of age in the Tulsa area, whose families are in crisis. The LC.tv volunteers
+      will be organizing donations and meeting with and interviewing families.
+  - id: 43
+    title: John 3:16
+    recipient: 
+    url: http://john316mission.org/home.php
+    description_medium: Meet the physical, emotional, and spiritual needs of Tulsa's
+      hungry, homeless, and at-risk. The volunteers will be serving the community
+      and building relationships with those that receive benefits from the organization.
 - id: stw
   title: Stillwater
   email: 
@@ -621,6 +669,19 @@
       than when they first came in. Take advantage of the opportunity to dramatically
       make a difference in these hurting peoples lives by coming with servant hearts
       to walk along side people.
+  - id: 46
+    title: No Boundaries International
+    recipient: 
+    url: http://nbint.org/
+    description_medium: Train and deploy the body of Christ into devastated areas
+      impacted by human trafficking.
+  - id: 47
+    title: Stand in the Gap Ministries
+    recipient: 
+    url: http://www.sitgm.org/
+    description_medium: Defend the widows and orphans and set prisoners free through
+      their three ministries of Life Launch, Women in Transition, and Stand in the
+      Gap for Widows.
 - id: okc
   title: Oklahoma City
   email: 
