@@ -29,7 +29,7 @@ javascript: true
       <div class="row">
         <div class="medium-7 columns">
           <h1>{{ series.title }}</h1>
-          <p>{{ series.description_medium }}</p>
+          <p>{{ series.description_small }}</p>
           <p>
 
             {% for message in series.messages limit:1 %}

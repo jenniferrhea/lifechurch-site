@@ -6144,13 +6144,13 @@ html {
 
 /* line 3, ../scss/design/_sections.scss */
 .padded {
-  padding-top: 3em;
+  padding-top: 3.5em;
 }
 
 @media only screen and (min-width: 40.063em) {
   /* line 7, ../scss/design/_sections.scss */
   .large-padded {
-    padding-top: 3em;
+    padding-top: 3.5em;
   }
 }
 
@@ -6163,14 +6163,14 @@ html {
 
 /* line 18, ../scss/design/_sections.scss */
 .page-section {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 @media only screen and (min-height: 620px) {
   /* line 18, ../scss/design/_sections.scss */
   .page-section {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 4em;
+    padding-bottom: 4em;
   }
 }
 @media only screen and (max-width: 40em) {
