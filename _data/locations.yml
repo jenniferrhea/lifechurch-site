@@ -262,7 +262,16 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://www.bbbs.org/
+    description_small: ''
+    description_medium: Provide children facing adversity with strong and enduring,
+      professionally supported 1-to-1 relationships that change their lives for the
+      better, forever. Each volunteer will be in a direct, mentor relationship with
+      a child.
 - id: wel
   title: Wellington
   email: 
@@ -363,7 +372,16 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://www.bbbs.org/
+    description_small: ''
+    description_medium: Provide children facing adversity with strong and enduring,
+      professionally supported 1-to-1 relationships that change their lives for the
+      better, forever. Each volunteer will be in a direct, mentor relationship with
+      a child.
 - id: sto
   title: South Tulsa
   email: 
@@ -494,7 +512,15 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 3
+    title: Whiz Kids
+    recipient: 
+    url: http://www.whizkidsok.org/
+    description_small: ''
+    description_medium: Improve the well-being of inner city youth through academic
+      tutoring and positive mentoring relationships as well as communicating spiritual
+      and moral values.
 - id: noc
   title: NW Oklahoma City
   email: 
@@ -536,7 +562,23 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 3
+    title: Whiz Kids
+    recipient: 
+    url: http://www.whizkidsok.org/
+    description_small: ''
+    description_medium: Improve the well-being of inner city youth through academic
+      tutoring and positive mentoring relationships as well as communicating spiritual
+      and moral values.
+  - id: 4
+    title: The Mentoring Project
+    recipient: 
+    url: http://www.thementoringproject.org/
+    description_small: ''
+    description_medium: Rewrite the fatherless story through mentoring by recruiting,
+      training, resourcing and encouraging mentors to show up for at-risk and fatherless
+      kids.
 - id: hnv
   title: Hendersonville
   email: 
@@ -605,7 +647,14 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 2
+    title: Tarrant Read2Win
+    recipient: 
+    url: http://www.tarrantnet.org/read2win/
+    description_small: ''
+    description_medium: Partner with a Fort Worth elementary schools and volunteer
+      as a reading coach for a first grader needing help in the Fort Worth I.S.D.
 - id: edm
   title: Edmond
   email: 
@@ -642,7 +691,23 @@
     day: sat
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 3
+    title: Whiz Kids
+    recipient: 
+    url: http://www.whizkidsok.org/
+    description_small: ''
+    description_medium: Improve the well-being of inner city youth through academic
+      tutoring and positive mentoring relationships as well as communicating spiritual
+      and moral values.
+  - id: 4
+    title: The Mentoring Project
+    recipient: 
+    url: http://www.thementoringproject.org/
+    description_small: ''
+    description_medium: Rewrite the fatherless story through mentoring by recruiting,
+      training, resourcing and encouraging mentors to show up for at-risk and fatherless
+      kids.
 - id: alb
   title: Albany
   email: 
@@ -674,4 +739,13 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://www.bbbs.org/
+    description_small: ''
+    description_medium: Provide children facing adversity with strong and enduring,
+      professionally supported 1-to-1 relationships that change their lives for the
+      better, forever. Each volunteer will be in a direct, mentor relationship with
+      a child.
