@@ -188,7 +188,15 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 24
+    title: Eden Clinic
+    recipient: 
+    url: http://www.edenclinic.tv/
+    description_small: ''
+    description_medium: In partnership with this Pregnancy Wellness program, provide
+      emotional support, material assistance, education and counseling, community
+      referrals, and pregnancy wellness classes.
 - id: ykn
   title: Yukon
   email: 
@@ -335,7 +343,15 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 28
+    title: First Care
+    recipient: 
+    url: http://www.first-care.org/
+    description_small: ''
+    description_medium: Help give woman the opportunity to make an educated decision
+      about giving birth while empowering them to walk their decision out without
+      guilt or shame.
 - id: tul
   title: Tulsa
   email: 
@@ -434,6 +450,30 @@
     description_medium: Help ensure safety of at-risk children in the community and
       to restore parents and children or find a new opportunity for those children
       to have a normal life.
+  - id: 26
+    title: Stillwater Life Services
+    recipient: 
+    url: http://www.stillwaterlife.org/
+    description_small: ''
+    description_medium: Support the work of this sexual health and pregnancy resource
+      clinic, providing testing, treatment, and options for women and men. Provide
+      ongoing one-on-one mentoring of clients.
+  - id: 27
+    title: Wings of Hope
+    recipient: 
+    url: http://www.sdvs.org/
+    description_small: ''
+    description_medium: Join the mission to break the cycle of interpersonal violence
+      by supporting families through the process of restoration and healing.
+  - id: 31
+    title: Habitat for Humanity
+    recipient: 
+    url: http://www.habitat.org/
+    description_small: ''
+    description_medium: 'Build homes and hope in partnership with low income families
+      to build and renovate high quality, affordable housing; advocate on behalf of
+      those in need of decent housing, and serve as a partner and catalyst to create
+      healthy and sustainable communities. '
 - id: sto
   title: South Tulsa
   email: 
@@ -620,6 +660,15 @@
     description_small: ''
     description_medium: The goal of this organization is that every child will have
       a family and every child will be loved. 1 Church 1 Family 1 Purpose.
+  - id: 25
+    title: LifeTroops
+    recipient: 
+    url: http://lifetroops.tv/
+    description_small: ''
+    description_medium: Help soldiers during the healing process, "Mind, Body & Spirit"
+      curriculum, and support systems to meet the spiritual, emotional, educational,
+      financial, and physical needs of military members 24 hours a day, both home
+      and abroad.
 - id: noc
   title: NW Oklahoma City
   email: 
@@ -736,7 +785,24 @@
     day: sun
     duration: 60
     type: service-time
-  missions: []
+  missions:
+  - id: 22
+    title: End Slavery
+    recipient: 
+    url: http://www.endslaverytn.org/
+    description_small: ''
+    description_medium: Create a slave-free Tennessee and holistically restore survivors
+      of human trafficking. Volunteers can assist through awareness programs, distributing
+      door hangers and fundraising.
+  - id: 29
+    title: Shalom Zone
+    recipient: 
+    url: http://www.gallatinshalomzone.org/
+    description_small: ''
+    description_medium: Engage the residents and kids of their community in healing,
+      peace, reconciliation and love so they grow beyond their current circumstances.
+      LifeChurch.tv volunteers come alongside the community as mentors, providing
+      homework help, enrichment, and assistance throughout the program.
 - id: ftw
   title: Fort Worth
   email: 
@@ -781,6 +847,15 @@
     description_small: ''
     description_medium: Partner with a Fort Worth elementary schools and volunteer
       as a reading coach for a first grader needing help in the Fort Worth I.S.D.
+  - id: 31
+    title: Habitat for Humanity
+    recipient: 
+    url: http://www.habitat.org/
+    description_small: ''
+    description_medium: 'Build homes and hope in partnership with low income families
+      to build and renovate high quality, affordable housing; advocate on behalf of
+      those in need of decent housing, and serve as a partner and catalyst to create
+      healthy and sustainable communities. '
 - id: edm
   title: Edmond
   email: 
@@ -855,6 +930,15 @@
     description_small: ''
     description_medium: Introduce teens to Jesus and help them grow in their faith
       by weekly one on one mentoring.
+  - id: 23
+    title: T.E.E.M (The Education and Employment Ministry)
+    recipient: 
+    url: http://www.teem.org/
+    description_small: ''
+    description_medium: Provide consistent and compassionate male mentors who establish
+      quality relationships with OKC area adult inmates for the purpose of promoting
+      stability, support, friendship, and ultimately success in the work place and
+      personal life.
 - id: alb
   title: Albany
   email: 
@@ -896,3 +980,20 @@
       professionally supported 1-to-1 relationships that change their lives for the
       better, forever. Each volunteer will be in a direct, mentor relationship with
       a child.
+  - id: 30
+    title: City Mission of Schenectady
+    recipient: 
+    url: http://citymission.com/
+    description_small: ''
+    description_medium: Help people who are in poverty, help people get out of poverty
+      and help people stay out of poverty, and volunteers will partner with their
+      efforts and programs to make this a reality.
+  - id: 31
+    title: Habitat for Humanity
+    recipient: 
+    url: http://www.habitat.org/
+    description_small: ''
+    description_medium: 'Build homes and hope in partnership with low income families
+      to build and renovate high quality, affordable housing; advocate on behalf of
+      those in need of decent housing, and serve as a partner and catalyst to create
+      healthy and sustainable communities. '
