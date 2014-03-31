@@ -1,890 +1,951 @@
-- id: alb
-  title: Albany NY Campus
-  description_small: Description about this campus goes right here.
-  address: '560 Sand Creek Rd Albany, NY 12205'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: bao
-  title: Broken Arrow OK Campus
-  description_small: Description about this campus goes right here.
-  address: '2420 E Kenosha Street Broken Arrow, OK 74014'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: edm
-  title: Edmond OK Campus
-  description_small: Description about this campus goes right here.
-  address: '4600 E. 2nd St Edmond, OK 73034'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: ftw
-  title: Fort Worth TX Campus
-  description_small: Description about this campus goes right here.
-  address: '5298 Trail Lake Dr Fort Worth, TX 76133'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: hnv
-  title: Hendersonville TN Campus
-  description_small: Description about this campus goes right here.
-  address: '120 Indian Lake Blvd Hendersonville, TN 37075'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: jnk
-  title: Jenks OK Campus
-  description_small: Description about this campus goes right here.
-  address: '890 W 81st St, Tulsa, OK 74132'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: klr
-  title: Kellar TX Campus
-  description_small: Description about this campus goes right here.
-  address: '801 Bear Creek Parkway Keller, TX 76248'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: mwc
-  title: Midwest City Campus
-  description_small: Description about this campus goes right here.
-  address: '6809 E Reno Ave Midwest City, OK 73110'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
+---
 - id: mor
-  title: Moore OK Campus
-  description_small: Description about this campus goes right here.
-  address: '2916 S. Telephone Rd. Moore, OK 73160'
-  email: interactive@lifechurch.tv
+  title: Moore
+  email: 
+  address: 2916 S. Telephone Rd. Moore, OK 73160
+  facebook: '409843575804511'
   times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: noc
-  title: NW Oklahoma City Campus
-  description_small: Description about this campus goes right here.
-  address: '5821 NW Expressway Oklahoma City, OK 73132'
-  email: interactive@lifechurch.tv
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  missions: []
+- id: klr
+  title: Keller
+  email: 
+  address: 801 Bear Creek Parkway Keller, TX 76248
+  facebook: '343331435797233'
   times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: okc
-  title: Oklahoma City OK Campus
-  description_small: Description about this campus goes right here.
-  address: '2001 NW 178th St, Edmond, OK 73012'
-  email: interactive@lifechurch.tv
-  facebook: LifeChurchOKC
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  missions: []
+- id: jnk
+  title: Jenks
+  email: 
+  address: 890 W 81st St Tulsa, OK 74132
+  facebook: '283866385077708'
   times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: ows
-  title: Owasso OK Campus
-  description_small: Description about this campus goes right here.
-  address: '14008 E. 96th St. Owasso, OK 74055'
-  email: interactive@lifechurch.tv
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions: []
+- id: bao
+  title: Broken Arrow
+  email: 
+  address: 2420 E Kenosha Street Broken Arrow, OK 74014
+  facebook: '229503863780213'
   times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: soc
-  title: South Oklahoma City OK Campus
-  description_small: Description about this campus goes right here.
-  address: '7800 S. Walker Ave Oklahoma City, OK 73139'
-  email: interactive@lifechurch.tv
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 16
+    title: Arrowhead Elementary
+    recipient: 
+    url: http://www.baschools.org/vnews/display.v/SEC/Arrowhead
+    description: Provide the opportunity for additional character and team building
+      learning experiences and allow students to work with one another in a small
+      group setting to build new friendships.
+  - id: 21
+    title: 111 Project
+    recipient: 
+    url: http://111project.org/
+    description: The goal of this organization is that every child will have a family
+      and every child will be loved. 1 Church 1 Family 1 Purpose.
+- id: mwc
+  title: Midwest City
+  email: 
+  address: 6809 E Reno Ave Midwest City, OK 73110
+  facebook: '141521929249905'
   times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: sto
-  title: South Tulsa OK Campus
-  description_small: Description about this campus goes right here.
-  address: '7071 East 121st St Bixby, OK 74008'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: stw
-  title: Stillwater OK Campus
-  description_small: Description about this campus goes right here.
-  address: '1917 North Country Club Rd, Stillwater, OK 74075'
-  email: interactive@lifechurch.tv
-
-- id: tul
-  title: Tulsa OK Campus
-  description_small: Description about this campus goes right here.
-  address: '7015 E. 41st St Tulsa, OK 74145'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
-- id: wel
-  title: Wellington FL Campus
-  description_small: Description about this campus goes right here.
-  address: '3061 State Road 7, Wellington, FL 33449'
-  email: interactive@lifechurch.tv
-  times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
-
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  missions:
+  - id: 24
+    title: Eden Clinic
+    recipient: 
+    url: http://www.edenclinic.tv/
+    description: In partnership with this Pregnancy Wellness program, provide emotional
+      support, material assistance, education and counseling, community referrals,
+      and pregnancy wellness classes.
 - id: ykn
-  title: Yukon OK Campus
-  description_small: Description about this campus goes right here.
-  address: '3061 State Road 7, Wellington, FL 33449'
-  email: interactive@lifechurch.tv
+  title: Yukon
+  email: 
+  address: 1101 E Main Street Yukon, OK 73099
+  facebook: '310515131268'
   times:
-    - title: 5:00PM
-      time: '17-00'
-      day: sat
-      duration: 60
-      type: lifechurch
-    - title: 5:00PM
-      time: '18-30'
-      day: sat
-      type: lifechurch
-      duration: 60
-    - title: 8:30AM
-      time: '08-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 10:00AM
-      time: '10-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 11:30AM
-      time: '11-30'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 1:00PM
-      time: '13-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 6:00PM
-      time: '18-00'
-      day: sun
-      type: lifechurch
-      duration: 60
-    - title: 5:00PM
-      time: '17-00'
-      day: wed
-      type: switch
-      duration: 120
-    - title: 6:30PM
-      time: '18-30'
-      day: wed
-      type: konnect
-      duration: 120
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:00PM
+    time: 18-00
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 13
+    title: Youth & Family Services
+    recipient: 
+    url: http://www.yfsok.org/
+    description: Support families and children in foster care and engage in the foster
+      care system on multiple levels.
+  - id: 14
+    title: Yukon Special Athletes
+    recipient: 
+    url: http://www.specialolympicsyukon.ca/
+    description: Partner with special needs families to give the kids of the special
+      needs community the opportunity for healthy and beneficial relationships that
+      will serve them beyond their school years.
+- id: ows
+  title: Owasso
+  email: 
+  address: 14008 E. 96th St.  Owasso, OK 74055
+  facebook: '136945189263'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://www.bbbs.org/
+    description: Provide children facing adversity with strong and enduring, professionally
+      supported 1-to-1 relationships that change their lives for the better, forever.
+      Each volunteer will be in a direct, mentor relationship with a child.
+  - id: 17
+    title: Southwest Foster Care
+    recipient: 
+    url: https://www.facebook.com/southwestfostercareok
+    description: Help recruit families and provide quality foster care service as
+      well as support foster care families in our community.
+- id: wel
+  title: Wellington
+  email: 
+  address: 3061 State Road 7 Wellington, FL 33449
+  facebook: '105749019464173'
+  times:
+  - title: 09:30AM
+    time: 09-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:00AM
+    time: 11-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 12:30PM
+    time: 12-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:30PM
+    time: 17-30
+    day: sun
+    duration: 60
+    type: service-time
+  missions:
+  - id: 28
+    title: First Care
+    recipient: 
+    url: http://www.first-care.org/
+    description: Help give woman the opportunity to make an educated decision about
+      giving birth while empowering them to walk their decision out without guilt
+      or shame.
+- id: tul
+  title: Tulsa
+  email: 
+  address: 7015 E. 41st St Tulsa, OK 74145
+  facebook: '111300269668'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 20
+    title: Switch
+    recipient: 
+    url: ''
+    description: Lead students to become fully devoted followers of Christ, mentoring
+      them on weekly basis.
+- id: stw
+  title: Stillwater
+  email: 
+  address: 1917 North Country Club Rd Stillwater, OK 74075
+  facebook: '111614742192203'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 09:00PM
+    time: 21-00
+    day: sun
+    duration: 60
+    type: service-time
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://www.bbbs.org/
+    description: Provide children facing adversity with strong and enduring, professionally
+      supported 1-to-1 relationships that change their lives for the better, forever.
+      Each volunteer will be in a direct, mentor relationship with a child.
+  - id: 15
+    title: Payne County Department of Human Services
+    recipient: 
+    url: http://www.okdhs.org/okdhslocal/payne/
+    description: Help ensure safety of at-risk children in the community and to restore
+      parents and children or find a new opportunity for those children to have a
+      normal life.
+  - id: 26
+    title: Stillwater Life Services
+    recipient: 
+    url: http://www.stillwaterlife.org/
+    description: Support the work of this sexual health and pregnancy resource clinic,
+      providing testing, treatment, and options for women and men. Provide ongoing
+      one-on-one mentoring of clients.
+  - id: 27
+    title: Wings of Hope
+    recipient: 
+    url: http://www.sdvs.org/
+    description: Join the mission to break the cycle of interpersonal violence by
+      supporting families through the process of restoration and healing.
+  - id: 31
+    title: Habitat for Humanity
+    recipient: 
+    url: http://www.habitat.org/
+    description: 'Build homes and hope in partnership with low income families to
+      build and renovate high quality, affordable housing; advocate on behalf of those
+      in need of decent housing, and serve as a partner and catalyst to create healthy
+      and sustainable communities. '
+- id: sto
+  title: South Tulsa
+  email: 
+  address: 7071 East 121st St Bixby, OK 74008
+  facebook: '168831606831'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 18
+    title: Relations Group Home
+    recipient: 
+    url: ''
+    description: Support the efforts of Relations Group home, a place where children
+      8-18 receive help and mentorship to become active young adults.
+  - id: 19
+    title: Tulsa Boys Home
+    recipient: 
+    url: http://www.tulsaboyshome.org/tulsaboys/default.asp
+    description: Help restore the lives of boys who have seen the worst in people
+      and lead them towards being healthy, responsible young men. LifeChurch.tv volunteers
+      surround these boys with what they have not seen; love, kindness, and consistent
+      interaction.
+- id: soc
+  title: South Oklahoma City
+  email: 
+  address: 7800 S. Walker Ave Oklahoma City, OK 73139
+  facebook: '152357570862'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:00PM
+    time: 18-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 5
+    title: Inner City Action Group
+    recipient: 
+    url: http://icag.org/
+    description: Build mentoring relationship between at-risk youth in OKC and Christian
+      role models who encourage youth to build positive character.
+  - id: 12
+    title: Warriors Mentoring
+    recipient: 
+    url: http://okcyouthwrestling.ning.com/
+    description: Build relationships between at-risk youth and caring role models
+      in the OKC area through the sport of wrestling to influence each child's actions
+      by teaching positive character traits.
+- id: okc
+  title: Oklahoma City
+  email: 
+  address: 2001 NW 178th St Edmond, OK 73012
+  facebook: '284153305483'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:00PM
+    time: 18-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 3
+    title: Whiz Kids
+    recipient: 
+    url: http://www.whizkidsok.org/
+    description: Improve the well-being of inner city youth through academic tutoring
+      and positive mentoring relationships as well as communicating spiritual and
+      moral values.
+  - id: 11
+    title: Sunset Elementary
+    recipient: 
+    url: http://www.edmondschools.net/sunset/Home.aspx
+    description: Make an impact in your surrounding community where there are financial
+      needs, language barriers, single parent homes, and other life concerns that
+      directly affect their experience in the classroom. Volunteers will help to provide
+      a better classroom and learning experience alongside the teachers.
+  - id: 21
+    title: 111 Project
+    recipient: 
+    url: http://111project.org/
+    description: The goal of this organization is that every child will have a family
+      and every child will be loved. 1 Church 1 Family 1 Purpose.
+  - id: 25
+    title: LifeTroops
+    recipient: 
+    url: http://lifetroops.tv/
+    description: Help soldiers during the healing process, "Mind, Body & Spirit" curriculum,
+      and support systems to meet the spiritual, emotional, educational, financial,
+      and physical needs of military members 24 hours a day, both home and abroad.
+- id: noc
+  title: NW Oklahoma City
+  email: 
+  address: 5821 NW Expressway Oklahoma City, OK 73132
+  facebook: '156898983627'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:00PM
+    time: 18-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 3
+    title: Whiz Kids
+    recipient: 
+    url: http://www.whizkidsok.org/
+    description: Improve the well-being of inner city youth through academic tutoring
+      and positive mentoring relationships as well as communicating spiritual and
+      moral values.
+  - id: 4
+    title: The Mentoring Project
+    recipient: 
+    url: http://www.thementoringproject.org/
+    description: Rewrite the fatherless story through mentoring by recruiting, training,
+      resourcing and encouraging mentors to show up for at-risk and fatherless kids.
+  - id: 8
+    title: Novo Ministries
+    recipient: 
+    url: http://www.novoministries.org/
+    description: Help connect passionate individuals, churches, and organizations
+      with inner-city communities in the greater Oklahoma City area by helping facilitate
+      weekly after-school programming in these communities.
+  - id: 9
+    title: Tulakes Elementary
+    recipient: 
+    url: http://tes.putnamcityschools.org/
+    description: Support children, families, teachers, and administrators in an under-resourced
+      environment. With over 500 students meeting over 200 days a year, it provides
+      us the optimum opportunity to minister outside the church walls.
+  - id: 10
+    title: Watch D.O.G.S.
+    recipient: 
+    url: http://www.fathers.com/content/index.php?option=com_content&task=view&id=21&Itemid=60
+    description: Provide positive male role models for the students, demonstrating
+      by their presence that education is important, and to provide extra sets of
+      eyes and ears to enhance school security and reduce bullying. With a 97% fatherlessness
+      rate in Tulakes, Watch Dogs seeks to recruit volunteers from NOC to act as a
+      male role models for the children at Tulakes to accomplish these goals at Tulakes.
+- id: hnv
+  title: Hendersonville
+  email: 
+  address: 120 Indian Lake Blvd Hendersonville, TN 37075
+  facebook: '121921428281'
+  times:
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  missions:
+  - id: 22
+    title: End Slavery
+    recipient: 
+    url: http://www.endslaverytn.org/
+    description: Create a slave-free Tennessee and holistically restore survivors
+      of human trafficking. Volunteers can assist through awareness programs, distributing
+      door hangers and fundraising.
+  - id: 29
+    title: Shalom Zone
+    recipient: 
+    url: http://www.gallatinshalomzone.org/
+    description: Engage the residents and kids of their community in healing, peace,
+      reconciliation and love so they grow beyond their current circumstances. LifeChurch.tv
+      volunteers come alongside the community as mentors, providing homework help,
+      enrichment, and assistance throughout the program.
+- id: ftw
+  title: Fort Worth
+  email: 
+  address: 5298 Trail Lake Dr Fort Worth, TX 76133
+  facebook: '236157182628'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 2
+    title: Tarrant Read2Win
+    recipient: 
+    url: http://www.tarrantnet.org/read2win/
+    description: Partner with a Fort Worth elementary schools and volunteer as a reading
+      coach for a first grader needing help in the Fort Worth I.S.D.
+  - id: 31
+    title: Habitat for Humanity
+    recipient: 
+    url: http://www.habitat.org/
+    description: 'Build homes and hope in partnership with low income families to
+      build and renovate high quality, affordable housing; advocate on behalf of those
+      in need of decent housing, and serve as a partner and catalyst to create healthy
+      and sustainable communities. '
+- id: edm
+  title: Edmond
+  email: 
+  address: 4600 E. 2nd St Edmond, OK 73034
+  facebook: '206643266075'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
+    type: service-time
+  missions:
+  - id: 3
+    title: Whiz Kids
+    recipient: 
+    url: http://www.whizkidsok.org/
+    description: Improve the well-being of inner city youth through academic tutoring
+      and positive mentoring relationships as well as communicating spiritual and
+      moral values.
+  - id: 4
+    title: The Mentoring Project
+    recipient: 
+    url: http://www.thementoringproject.org/
+    description: Rewrite the fatherless story through mentoring by recruiting, training,
+      resourcing and encouraging mentors to show up for at-risk and fatherless kids.
+  - id: 5
+    title: Inner City Action Group
+    recipient: 
+    url: http://icag.org/
+    description: Build mentoring relationship between at-risk youth in OKC and Christian
+      role models who encourage youth to build positive character.
+  - id: 6
+    title: SeeWorth Foundation
+    recipient: 
+    url: http://www.seeworthfoundation.org/
+    description: Help students see their value as people and help them learn how to
+      better engage their world because of the value they find in themselves.
+  - id: 7
+    title: Young Life
+    recipient: 
+    url: http://www.younglife.org/Pages/default.aspx
+    description: Introduce teens to Jesus and help them grow in their faith by weekly
+      one on one mentoring.
+  - id: 23
+    title: T.E.E.M (The Education and Employment Ministry)
+    recipient: 
+    url: http://www.teem.org/
+    description: Provide consistent and compassionate male mentors who establish quality
+      relationships with OKC area adult inmates for the purpose of promoting stability,
+      support, friendship, and ultimately success in the work place and personal life.
+- id: alb
+  title: Albany
+  email: 
+  address: 560 Sand Creek Rd Albany, NY 12205
+  facebook: '198238577847'
+  times:
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: service-time
+  missions:
+  - id: 1
+    title: Big Brothers Big Sisters
+    recipient: 
+    url: http://www.bbbs.org/
+    description: Provide children facing adversity with strong and enduring, professionally
+      supported 1-to-1 relationships that change their lives for the better, forever.
+      Each volunteer will be in a direct, mentor relationship with a child.
+  - id: 30
+    title: City Mission of Schenectady
+    recipient: 
+    url: http://citymission.com/
+    description: Help people who are in poverty, help people get out of poverty and
+      help people stay out of poverty, and volunteers will partner with their efforts
+      and programs to make this a reality.
+  - id: 31
+    title: Habitat for Humanity
+    recipient: 
+    url: http://www.habitat.org/
+    description: 'Build homes and hope in partnership with low income families to
+      build and renovate high quality, affordable housing; advocate on behalf of those
+      in need of decent housing, and serve as a partner and catalyst to create healthy
+      and sustainable communities. '
