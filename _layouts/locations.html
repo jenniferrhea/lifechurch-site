@@ -234,7 +234,6 @@ section: locations
           {% include involved-item.html %}
           {% endif %}
           {% endfor %}
-          <p class="coming-soon text-center" style="display:none">Coming soon.</p>
         </ul>
       </div>
     </div>
@@ -258,13 +257,10 @@ section: locations
     <!-- Content -->
     <div class="row padded">
       <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-        {% for item in site.data.missions %}
-        {% if item.location == page.location-id %}
+        {% for item in location.missions %}
         {% capture type %}Locations{% endcapture %}
         {% include involved-item.html %}
-        {% endif %}
         {% endfor %}
-        <p class="coming-soon text-center" style="display:none">Coming soon.</p>
       </ul>
     </div>
   </section>

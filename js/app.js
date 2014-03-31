@@ -153,9 +153,6 @@ $(function() {
   // Campus calendar Overlapping overlaps (oh my!)
   $('.overlap:eq(1)').removeClass('overlap').addClass('overlap-2').parent().parent().removeClass('rows-2').addClass('rows-3');
 
-  // If sections are empty
-  $(".section-locations .involved-list:not(:contains(li))").parent().find('.coming-soon').show();
-
 
   // LifeMissions Page
   if ($('.involved-list').length > 0) {
