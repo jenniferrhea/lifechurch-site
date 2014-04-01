@@ -7,15 +7,20 @@
       {% for message in series.messages %}
 
       <div class="row message">
-        <div class="medium-3 columns">
-          <h4>{% cycle 'Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6' %}</h4>
+        <a href="javascript:void(0);" data-video-player="{{message.video}}">
+        <div class="small-1 medium-3 columns">
+          <h4>
+            <span class="hide-for-small">{% cycle 'Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6' %}</span>
+            <span class="show-for-small">{% cycle '1', '2', '3', '4', '5', '6' %}</span>
+          </h4>
         </div>
-        <div class="medium-7 columns medium-text-right">
-          <h6>"{{ message.title }}"</h6>
+        <div class="small-8 medium-7 columns medium-text-right">
+          <h6>{{ message.title }}</h6>
         </div>
-        <div class="medium-2 columns medium-text-right play-message">
-          <a href="javascript:void(0);" class="action text-lprimary small" data-video-player="{{message.video}}" >Play <i class="icon icon-play"></i></a>
+        <div class="small-2 medium-2 columns medium-text-right play-message">
+          <div class="action text-lprimary small"><span class="hide-for-small">Play</span> <i class="icon icon-play"></i></div>
         </div>
+      </a>
       </div>
 
       {% endfor %}

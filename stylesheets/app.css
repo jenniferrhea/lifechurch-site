@@ -6876,24 +6876,32 @@ input.gsc-search-button:hover {
 /* line 23, ../scss/pages/_watch.scss */
 .message h4, .message .h4, .message .location-tile, .message .lifegroups-tile span, .lifegroups-tile .message span {
   margin-top: -5px;
+  color: #fff !important;
 }
 
-/* line 27, ../scss/pages/_watch.scss */
+/* line 28, ../scss/pages/_watch.scss */
 .message h6, .message .h6, .message label {
-  margin-top: 2px;
+  margin-top: 0px;
+  color: #fff !important;
+}
+@media only screen and (max-width: 40em) {
+  /* line 28, ../scss/pages/_watch.scss */
+  .message h6, .message .h6, .message label {
+    color: #86def7 !important;
+  }
 }
 
-/* line 31, ../scss/pages/_watch.scss */
+/* line 36, ../scss/pages/_watch.scss */
 .message {
   padding-bottom: 12px;
 }
 
-/* line 35, ../scss/pages/_watch.scss */
+/* line 40, ../scss/pages/_watch.scss */
 .watch-item h6, .watch-item .h6, .watch-item label {
   margin-top: 5px;
 }
 
-/* line 41, ../scss/pages/_watch.scss */
+/* line 46, ../scss/pages/_watch.scss */
 .watch-podcast,
 .watch-talkitover,
 .watch-open {
@@ -6901,7 +6909,7 @@ input.gsc-search-button:hover {
   padding-bottom: 12px !important;
 }
 
-/* line 48, ../scss/pages/_watch.scss */
+/* line 53, ../scss/pages/_watch.scss */
 .watch-podcast:before,
 .watch-talkitover:before,
 .watch-open:before {
