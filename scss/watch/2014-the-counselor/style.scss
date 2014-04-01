@@ -13,17 +13,14 @@
 }
 
 .section-first {
-  padding-top: 45px;
-  margin-bottom: -160px;
+  overflow: hidden;
+  margin-top: 0;
+  padding-top: 0;
 }
 
-.watch-messages {
-  //padding-top: 0 !important;
-}
-
-.section-last.section-light,
-.footer-light .page-footer {
-  //background: #000;
+.section-last {
+  z-index: 12;
+  position: relative;
 }
 
 h2.underlined {
@@ -36,15 +33,11 @@ h2.underlined {
 }
 
 .the-counselor-1 {
-  position: relative;
-  height: 415px;
-  width: 100%;
-  top: -160px;
+  height: 250px;
   overflow: hidden;
-  padding-top: 130px;
 
   @media #{$medium-up} {
-    height: 490px;
+    height: 330px;
   }
 }
 
@@ -54,28 +47,41 @@ h2.underlined {
     background-color: #000;
     background-repeat: no-repeat;
     background-size: 1500px 496px;
-    background-position: center top;
-    margin-top: -130px;
-    padding-top: 130px;
+    background-position: center bottom;
+    top: 0;
     height: 500px;
     position: absolute;
     width: 100%;
+    display: none;
   }
-}
-
-.the-counselor-2 {
-  background: #fff;
 }
 
 // Series Logo
 .series-the-counselor h1 {
-  width: 100%;
-  height: 59px;
-  margin-top: 25px;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 
   @media #{$medium-up} {
-    margin-top: 75px;
+    margin-top: 45px;
     margin-bottom: 20px;
+  }
+}
+
+.slide-1 {
+  @media #{$medium-up} {
+    @include background-image-2x-png('/images/watch/2014-the-counselor/inner');
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position: right bottom;
+    padding-bottom: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 900px) {
+    background-size: 777px 325px;
+    padding-bottom: 50px;
   }
 }
 
@@ -95,109 +101,109 @@ h2.underlined {
     padding-bottom: 0;
   }
 
-    // The main couch
-    .couch {
-      @media #{$medium-up} {
-        position: absolute;
-        opacity: 0;
-        left: 0;
-        right: 0;
-        top: 390px;
-        margin-left: -80px;
-        height: 310px;
-        width: 100%;
-        background: url("/images/watch/2014-the-counselor/couch.png") center top no-repeat;
-        z-index: 2;
-        background-size: 631px 305px;
-      }
-    }
-
-    .person-1 {
+  // The main couch
+  .couch {
+    @media #{$medium-up} {
       position: absolute;
+      opacity: 0;
       left: 0;
       right: 0;
-      top: -130px;
+      top: 390px;
+      margin-left: -80px;
+      height: 310px;
+      width: 100%;
+      background: url("/images/watch/2014-the-counselor/couch.png") center top no-repeat;
+      z-index: 2;
+      background-size: 631px 305px;
+    }
+  }
+
+  .person-1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -130px;
+    z-index: 1;
+
+    height: 530px;
+    width: 100%;
+    background: url("/images/watch/2014-the-counselor/person-1.png") center top no-repeat;
+
+    &.state-2 {
+      background-position: center -510px;
       z-index: 1;
-
-      height: 530px;
-      width: 100%;
-      background: url("/images/watch/2014-the-counselor/person-1.png") center top no-repeat;
-
-      &.state-2 {
-        background-position: center -510px;
-        z-index: 1;
-      }
-
-      &.state-3 {
-        background-position: center -1040px;
-        margin-top: 65px;
-        margin-left: 19px;
-        z-index: 3;
-      }
     }
 
-    .person-2 {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: -130px;
+    &.state-3 {
+      background-position: center -1040px;
+      margin-top: 65px;
+      margin-left: 19px;
+      z-index: 3;
+    }
+  }
+
+  .person-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -130px;
+    z-index: 1;
+
+    height: 530px;
+    width: 100%;
+    background: url("/images/watch/2014-the-counselor/person-2.png") center top no-repeat;
+
+    &.state-2 {
+      background-position: center -510px;
       z-index: 1;
-
-      height: 530px;
-      width: 100%;
-      background: url("/images/watch/2014-the-counselor/person-2.png") center top no-repeat;
-
-      &.state-2 {
-        background-position: center -510px;
-        z-index: 1;
-      }
-
-      &.state-3 {
-        background-position: center -1040px;
-        margin-top: 65px;
-        margin-left: 19px;
-        z-index: 3;
-      }
     }
 
-
-    .person-1-thin {
-      background: url("/images/watch/2014-the-counselor/person-1-thin.png") center top no-repeat;
-      width: 100%;
-      height: 300px;
-      position: absolute;
-      top: 500px;
-      margin-left: 0 !important;
+    &.state-3 {
+      background-position: center -1040px;
+      margin-top: 65px;
+      margin-left: 19px;
+      z-index: 3;
     }
+  }
 
-    .person-2-thin {
-      background: url("/images/watch/2014-the-counselor/person-2-thin.png") center top no-repeat;
-      width: 100%;
-      height: 300px;
-      position: absolute;
-      top: 500px;
+
+  .person-1-thin {
+    background: url("/images/watch/2014-the-counselor/person-1-thin.png") center top no-repeat;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+    margin-left: 0 !important;
+  }
+
+  .person-2-thin {
+    background: url("/images/watch/2014-the-counselor/person-2-thin.png") center top no-repeat;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+  }
+
+  .quote-1,
+  .quote-2 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    @media #{$medium-up} {
+      padding: 0 0 0 140px;
+      margin: 30px auto 0;
     }
+  }
 
-    .quote-1,
-    .quote-2 {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 0 20px;
+  .quote-3 {
+    max-width: 600px;
+    margin: 70px auto 0;
+    padding: 0 20px;
 
-      @media #{$medium-up} {
-        padding: 0 0 0 140px;
-        margin: 70px auto 0;
-      }
+    @media #{$medium-up} {
+      margin: 120px auto 0;
+      padding: 0;
     }
-
-    .quote-3 {
-      max-width: 600px;
-      margin: 70px auto 0;
-      padding: 0 20px;
-
-      @media #{$medium-up} {
-        margin: 120px auto 0;
-        padding: 0;
-      }
-    }
+  }
 

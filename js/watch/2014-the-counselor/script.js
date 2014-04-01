@@ -15,7 +15,7 @@ $(function() {
       $(".inner").animate({ opacity: 0 }, 1000, function() {
         $(".couch").animate({ opacity: 1 }, 1000);
         // Make canvas larger
-        $(".the-counselor-1").animate({ height: "700px" }, 1000, function () {
+        $(".the-counselor-1").animate({ height: "550px" }, 1000, function () {
 
           // Enter person 1
           $(".animation-elements .person").addClass("person-1 state-1").animate({ opacity: 1, top: "170px" }, 500, function () {
@@ -50,7 +50,7 @@ $(function() {
                             $(".animation-elements .person").removeClass().addClass('person').animate({ top: "-130px" });
                             $(".slide-1").fadeIn(1000);
                             $(".couch").animate({ opacity: 0 }, 1000);
-                            $(".the-counselor-1").animate({ height: "490px" }, 1000, function() {
+                            $(".the-counselor-1").animate({ height: "330px" }, 1000, function() {
                               $(".inner").animate({ opacity: 1 }, 1000);
                               $('html, body').animate({ scrollTop:$('#messages').position().top }, 1000);
                             });
@@ -77,7 +77,7 @@ $(function() {
 
       // Make canvas larger
       $(".the-counselor-1").animate({
-        height: "500px"
+        height: "300px"
       }, 1000);
 
       // Hide nav
@@ -102,7 +102,7 @@ $(function() {
                         $(".page-header, .page-tertiary").animate({ opacity: 1 }, 1000);
                         $(".animation-elements .person").removeClass().addClass('person');
                         $(".slide-1").fadeIn(1000);
-                        $(".the-counselor-1").animate({ height: "415px" }, 1000, function(){
+                        $(".the-counselor-1").animate({ height: "250px" }, 1000, function(){
                           $('html, body').animate({ scrollTop:$('#messages').position().top }, 1000);
                         });
                       });
