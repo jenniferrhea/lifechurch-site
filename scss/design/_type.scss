@@ -114,6 +114,10 @@ body {
     margin-top: 25px;
     margin-bottom: 30px;
 
+    @media #{$small-only} {
+      margin-top: 0;
+    }
+
     @media #{$small-only} and (orientation: landscape) {
       // Decrease spacing on landscape mobiles
       margin-bottom: 10px;

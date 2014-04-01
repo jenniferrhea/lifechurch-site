@@ -19,8 +19,8 @@ class: header-red section-watch section-series
         <p>{{ series.description_medium | newline_to_br }}</p>
       </div>
       <div class="medium-6 large-7 columns">
-        <img data-interchange="[{{ series.image_medium }}, (default)], [{{ series.image_large }}, (medium)]" alt="{{ series.title }}" />
-        <noscript><img src="{{ series.image_small }}" alt="{{ series.title }}" /></noscript>
+        <img class="watch-archive-art" data-interchange="[{{ series.image_medium }}, (default)], [{{ series.image_large }}, (medium)]" alt="{{ series.title }}" />
+        <noscript><img class="watch-archive-art" src="{{ series.image_small }}" alt="{{ series.title }}" /></noscript>
       </div>
     </div>
   </div>

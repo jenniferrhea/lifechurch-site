@@ -38,8 +38,12 @@
 
 // Header Section
 .page-header {
-  height: 80px;
+  height: 60px;
   padding-top: 29px;
+
+  @media #{$medium-up} {
+    height: 80px;
+  }
 }
 
 // Primary Links
@@ -50,6 +54,22 @@
 
   @media #{$small-only} {
     margin-top: -5px;
+
+    li {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  .copy {
+    display: none !important;
+
+    @media only screen and (min-width: 810px) {
+      display: inline !important;
+    }
   }
 
   a {
@@ -69,14 +89,6 @@
     &:hover .more-line-2,
     &:hover .more-line-3 {
       background: darken($primary-color, 10%) !important;
-    }
-
-    .copy {
-      display: none;
-
-      @media only screen and (min-width: 810px) {
-        display: inline !important;
-      }
     }
 
     .live {
