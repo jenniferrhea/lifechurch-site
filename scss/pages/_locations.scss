@@ -444,10 +444,15 @@
     padding: 15px 0;
     width: 100%;
     top: 172px;
-    position: absolute;
+    position: relative;
+
+    a {
+      margin-right: 0;
+    }
 
     @media #{$medium-up} {
       padding: 15px;
+      position: absolute;
       color: #fff;
       width: 250px;
       top: 165px;
@@ -495,7 +500,7 @@
         @include border-radius(3px);
       }
 
-      &.key-lifechurch figure {
+      &.key-service-time figure {
         background: lighten($red, 30%);
         border: 1px solid lighten($red, 20%);
       }
