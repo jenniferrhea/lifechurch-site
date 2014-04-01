@@ -202,9 +202,12 @@ body {
 // Rules
 
   hr {
-    margin-left: 15px;
-    margin-right: 15px;
     max-width: 970px;
+
+    @media #{$medium-up} {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
 
     @media #{$large-up} {
       margin-left: auto;

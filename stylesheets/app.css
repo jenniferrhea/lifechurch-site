@@ -5367,9 +5367,14 @@ figcaption {
 
 /* line 204, ../scss/design/_type.scss */
 hr {
-  margin-left: 15px;
-  margin-right: 15px;
   max-width: 970px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 204, ../scss/design/_type.scss */
+  hr {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 204, ../scss/design/_type.scss */
@@ -5379,52 +5384,52 @@ hr {
   }
 }
 
-/* line 215, ../scss/design/_type.scss */
+/* line 218, ../scss/design/_type.scss */
 hr.thin {
   margin-left: 30%;
   margin-right: 30%;
 }
 
-/* line 227, ../scss/design/_type.scss */
+/* line 230, ../scss/design/_type.scss */
 textarea {
   min-height: 200px;
 }
 
-/* line 234, ../scss/design/_type.scss */
+/* line 237, ../scss/design/_type.scss */
 blockquote {
   padding-left: 0;
   padding-right: 0;
   border: none;
   text-align: center;
 }
-/* line 240, ../scss/design/_type.scss */
+/* line 243, ../scss/design/_type.scss */
 blockquote p, blockquote ul li, ul blockquote li {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 240, ../scss/design/_type.scss */
+  /* line 243, ../scss/design/_type.scss */
   blockquote p, blockquote ul li, ul blockquote li {
     font-size: 2rem;
   }
 }
-/* line 250, ../scss/design/_type.scss */
+/* line 253, ../scss/design/_type.scss */
 blockquote cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 250, ../scss/design/_type.scss */
+  /* line 253, ../scss/design/_type.scss */
   blockquote cite {
     font-size: 1.3rem;
   }
 }
-/* line 259, ../scss/design/_type.scss */
+/* line 262, ../scss/design/_type.scss */
 blockquote.quote-large {
   text-align: left;
 }
-/* line 262, ../scss/design/_type.scss */
+/* line 265, ../scss/design/_type.scss */
 blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
   font-size: 1.2rem;
   line-height: 1.3em;
@@ -5432,78 +5437,78 @@ blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-larg
   font-weight: 300;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 262, ../scss/design/_type.scss */
+  /* line 265, ../scss/design/_type.scss */
   blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
     font-size: 3rem;
   }
 }
-/* line 273, ../scss/design/_type.scss */
+/* line 276, ../scss/design/_type.scss */
 blockquote.quote-large cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 273, ../scss/design/_type.scss */
+  /* line 276, ../scss/design/_type.scss */
   blockquote.quote-large cite {
     font-size: 1.5rem;
   }
 }
 
-/* line 284, ../scss/design/_type.scss */
+/* line 287, ../scss/design/_type.scss */
 .tweet-this {
   color: #0ea9d6 !important;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 1.25rem;
 }
-/* line 290, ../scss/design/_type.scss */
+/* line 293, ../scss/design/_type.scss */
 .tweet-this:hover {
   color: #888 !important;
 }
 
-/* line 297, ../scss/design/_type.scss */
+/* line 300, ../scss/design/_type.scss */
 a p, a ul li, ul a li {
   color: #333333;
 }
 
-/* line 302, ../scss/design/_type.scss */
+/* line 305, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 308, ../scss/design/_type.scss */
+/* line 311, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 314, ../scss/design/_type.scss */
+/* line 317, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 314, ../scss/design/_type.scss */
+  /* line 317, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 324, ../scss/design/_type.scss */
+/* line 327, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 331, ../scss/design/_type.scss */
+/* line 334, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 336, ../scss/design/_type.scss */
+/* line 339, ../scss/design/_type.scss */
 p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5511,33 +5516,33 @@ p, ul li {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 336, ../scss/design/_type.scss */
+  /* line 339, ../scss/design/_type.scss */
   p, ul li {
     font-size: 1.25rem;
   }
 }
 
-/* line 348, ../scss/design/_type.scss */
+/* line 351, ../scss/design/_type.scss */
 .detail, ul li {
   font-size: 0.9375rem;
 }
 
-/* line 353, ../scss/design/_type.scss */
+/* line 356, ../scss/design/_type.scss */
 ul li {
   margin-bottom: 10px;
 }
 
-/* line 360, ../scss/design/_type.scss */
+/* line 363, ../scss/design/_type.scss */
 .detail li, ul li li {
   margin-bottom: 0;
 }
 
-/* line 365, ../scss/design/_type.scss */
+/* line 368, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 371, ../scss/design/_type.scss */
+/* line 374, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5546,12 +5551,12 @@ ul li {
   font-weight: 300;
 }
 
-/* line 377, ../scss/design/_type.scss */
+/* line 380, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 383, ../scss/design/_type.scss */
+/* line 386, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2,
@@ -5594,42 +5599,46 @@ html {
 }
 
 /* line 21, ../scss/design/_more.scss */
+.no-touch .page-more {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 25, ../scss/design/_more.scss */
 .page-more {
   background: #fff;
   z-index: 10;
-  -webkit-tap-highlight-color: transparent;
 }
 @media only screen and (max-width: 40em) {
-  /* line 21, ../scss/design/_more.scss */
+  /* line 25, ../scss/design/_more.scss */
   .page-more {
     border-top: 1px solid #ddd;
     margin-top: 50px;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 32, ../scss/design/_more.scss */
+  /* line 35, ../scss/design/_more.scss */
   .page-more .row {
     padding: 5px 0;
   }
-  /* line 36, ../scss/design/_more.scss */
+  /* line 39, ../scss/design/_more.scss */
   .page-more p, .page-more ul li, ul .page-more li {
     margin-top: 10px;
     margin-bottom: 0;
   }
 }
 
-/* line 43, ../scss/design/_more.scss */
+/* line 46, ../scss/design/_more.scss */
 .no-js .page-more {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 48, ../scss/design/_more.scss */
+/* line 51, ../scss/design/_more.scss */
 .js .page-more {
   padding-top: 40px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 48, ../scss/design/_more.scss */
+  /* line 51, ../scss/design/_more.scss */
   .js .page-more {
     padding-top: 0;
     display: none;
@@ -5643,14 +5652,14 @@ html {
   }
 }
 
-/* line 64, ../scss/design/_more.scss */
+/* line 67, ../scss/design/_more.scss */
 .page-more-inner {
   position: relative;
   top: 0;
   background: #fff;
 }
 
-/* line 70, ../scss/design/_more.scss */
+/* line 73, ../scss/design/_more.scss */
 .page-more a {
   display: block;
   margin: 0 -10px;
@@ -5662,33 +5671,33 @@ html {
   border-radius: 4px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 70, ../scss/design/_more.scss */
+  /* line 73, ../scss/design/_more.scss */
   .page-more a {
     padding: 10px;
   }
-  /* line 79, ../scss/design/_more.scss */
+  /* line 82, ../scss/design/_more.scss */
   .page-more a p, .page-more a ul li, ul .page-more a li {
     margin: 0;
   }
 }
 
-/* line 85, ../scss/design/_more.scss */
-.page-more a:hover {
-  background: #e7faff;
+/* line 88, ../scss/design/_more.scss */
+.no-touch .page-more a:hover {
+  background-color: #e7faff;
 }
 
-/* line 91, ../scss/design/_more.scss */
+/* line 94, ../scss/design/_more.scss */
 .page-more-inner p, .page-more-inner ul li, ul .page-more-inner li {
   font-size: .8em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 91, ../scss/design/_more.scss */
+  /* line 94, ../scss/design/_more.scss */
   .page-more-inner p, .page-more-inner ul li, ul .page-more-inner li {
     font-size: 1em;
   }
 }
 
-/* line 100, ../scss/design/_more.scss */
+/* line 103, ../scss/design/_more.scss */
 .page-more-inner h4, .page-more-inner .h4, .page-more-inner .location-tile, .page-more-inner .lifegroups-tile span, .lifegroups-tile .page-more-inner span {
   margin: 7px 0 8px;
 }
@@ -6791,8 +6800,8 @@ input.gsc-search-button:hover {
     padding-bottom: 70px !important;
   }
   /* line 146, ../scss/pages/_home.scss */
-  .more-watch-small:hover {
-    background: #000 !important;
+  .more-watch-small :hover {
+    background-image: url("/images/home/home-bg-small.jpg");
   }
   /* line 150, ../scss/pages/_home.scss */
   .more-watch-small p, .more-watch-small ul li, ul .more-watch-small li {
@@ -6802,6 +6811,12 @@ input.gsc-search-button:hover {
 @media only screen and (max-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (max-width: 40em) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (min-device-pixel-ratio: 1.5) {
   /* line 138, ../scss/pages/_home.scss */
   .more-watch-small {
+    background-image: url("/images/home/home-bg-small@2x.jpg");
+  }
+}
+@media only screen and (max-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (max-width: 40em) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (min-device-pixel-ratio: 1.5) {
+  /* line 146, ../scss/pages/_home.scss */
+  .more-watch-small :hover {
     background-image: url("/images/home/home-bg-small@2x.jpg");
   }
 }

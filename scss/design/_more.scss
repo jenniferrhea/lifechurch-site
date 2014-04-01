@@ -18,10 +18,13 @@
     margin-top: 44px;
   }
 
+  .no-touch .page-more {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   .page-more {
     background: #fff;
     z-index: 10;
-    -webkit-tap-highlight-color: transparent;
 
     @media #{$small-only} {
       border-top: 1px solid #ddd;
@@ -82,8 +85,8 @@
     }
   }
 
-  .page-more a:hover {
-    background: #e7faff;
+  .no-touch .page-more a:hover {
+    background-color: #e7faff;
   }
 
 
