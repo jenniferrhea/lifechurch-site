@@ -6043,16 +6043,16 @@ html {
 
 /* line 4, ../scss/design/_buttons.scss */
 .button {
-  font-family: "ff-meta-serif-web-pro";
-  font-weight: 300;
-  border: #09708e 1px solid;
+  font-weight: 600 !important;
+  border: none;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
+  letter-spacing: 0;
 }
-/* line 11, ../scss/design/_buttons.scss */
+/* line 13, ../scss/design/_buttons.scss */
 .button.radius {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -6060,14 +6060,18 @@ html {
   -o-border-radius: 100px;
   border-radius: 100px;
 }
-/* line 16, ../scss/design/_buttons.scss */
+/* line 18, ../scss/design/_buttons.scss */
+.button.tiny {
+  border: #09708e 1px solid;
+}
+/* line 23, ../scss/design/_buttons.scss */
 .button.small {
   padding-top: .6rem;
   padding-right: 1rem;
   padding-bottom: 0.6em;
   padding-left: 1rem;
 }
-/* line 24, ../scss/design/_buttons.scss */
+/* line 31, ../scss/design/_buttons.scss */
 .button.inverse {
   background: none;
   border: #0ea9d6 1px solid;
@@ -6081,90 +6085,96 @@ html {
   -o-transition-duration: 0.15s;
   transition-duration: 0.15s;
 }
-/* line 31, ../scss/design/_buttons.scss */
+/* line 38, ../scss/design/_buttons.scss */
 .button.inverse:before {
   border-color: #0ea9d6 transparent transparent transparent !important;
 }
-/* line 35, ../scss/design/_buttons.scss */
+/* line 42, ../scss/design/_buttons.scss */
 .button.inverse:hover {
   border-color: #0b83a6;
   color: #0b83a6;
 }
-/* line 40, ../scss/design/_buttons.scss */
+/* line 47, ../scss/design/_buttons.scss */
 .button.inverse.white {
   border-color: rgba(255, 255, 255, 0.8);
   color: #fff;
 }
-/* line 44, ../scss/design/_buttons.scss */
+/* line 51, ../scss/design/_buttons.scss */
 .button.inverse.white:hover {
   opacity: .7;
 }
-/* line 48, ../scss/design/_buttons.scss */
+/* line 55, ../scss/design/_buttons.scss */
 .button.inverse.white:before {
   border-color: #fff transparent transparent transparent !important;
 }
-/* line 54, ../scss/design/_buttons.scss */
+/* line 61, ../scss/design/_buttons.scss */
 .button.inverse.red {
   border-color: #b9252d;
   color: #b9252d;
 }
-/* line 58, ../scss/design/_buttons.scss */
+/* line 65, ../scss/design/_buttons.scss */
 .button.inverse.red:hover {
   border-color: #8f1d23;
   color: #8f1d23;
   background: none;
 }
-/* line 67, ../scss/design/_buttons.scss */
+/* line 74, ../scss/design/_buttons.scss */
 .button.red {
   background-color: #b9252d;
 }
-/* line 70, ../scss/design/_buttons.scss */
+/* line 77, ../scss/design/_buttons.scss */
 .button.red:hover {
   background: #8f1d23;
 }
 
-/* line 82, ../scss/design/_buttons.scss */
+/* line 83, ../scss/design/_buttons.scss */
+.f-dropdown li a {
+  font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: .85em;
+}
+
+/* line 91, ../scss/design/_buttons.scss */
 .action {
   margin-right: 1em;
   line-height: 1em;
   margin-bottom: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 89, ../scss/design/_buttons.scss */
+  /* line 98, ../scss/design/_buttons.scss */
   .action.stack {
     margin-bottom: .1em;
   }
 }
-/* line 95, ../scss/design/_buttons.scss */
+/* line 104, ../scss/design/_buttons.scss */
 .action.small {
   font-size: 1rem;
 }
-/* line 100, ../scss/design/_buttons.scss */
+/* line 109, ../scss/design/_buttons.scss */
 .action.large {
   margin-bottom: 1em;
   font-weight: 200;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 @media only screen and (max-width: 40em) {
-  /* line 82, ../scss/design/_buttons.scss */
+  /* line 91, ../scss/design/_buttons.scss */
   .action {
     display: block;
     text-align: left;
   }
-  /* line 111, ../scss/design/_buttons.scss */
+  /* line 120, ../scss/design/_buttons.scss */
   .action i {
     float: right;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 82, ../scss/design/_buttons.scss */
+  /* line 91, ../scss/design/_buttons.scss */
   .action {
     display: inline-block;
   }
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 122, ../scss/design/_buttons.scss */
+  /* line 131, ../scss/design/_buttons.scss */
   .infoicon {
     width: 70%;
     margin: 20px auto;

@@ -19,6 +19,8 @@ section: locations
       <a name="location"></a>
       <div class="magellan-anchor" data-magellan-destination="location"></div>
 
+
+
       <!-- Campus title -->
       <h1>{{ location.title }}</h1>
 
@@ -32,6 +34,21 @@ section: locations
           <dd data-magellan-arrival="events"><a href="#events">Events</a></dd>
           <dd data-magellan-arrival="connect"><a href="#connect">Connect</a></dd>
         </dl>
+        <a href="#"
+           data-dropdown="drop"
+           data-set-campus="{{page.location-id}}"
+           class="locations-mycampus button tiny"
+           onclick="ga('send', 'event', 'Locations', 'Click', 'Campus Mine');">
+           Save as your campus?
+        </a>
+
+        <a href="#"
+           data-dropdown="drop"
+           data-unset-campus
+           class="locations-mycampus button tiny secondary"
+           onclick="ga('send', 'event', 'Locations', 'Click', 'Campus Not Mine');">
+           Not your campus?
+        </a>
       </div>
 
     </div>

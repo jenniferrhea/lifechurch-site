@@ -2,14 +2,21 @@
 
   // Font type / size
   .button {
-    font-family: "ff-meta-serif-web-pro";
-    font-weight: 300;
-    border: darken($primary-color, 15%) 1px solid;
+    //font-family: "ff-meta-serif-web-pro";
+    font-weight: 600 !important;
+    //border: darken($primary-color, 15%) 1px solid;
+    border: none;
     @include border-radius(3px);
+    letter-spacing: 0;
 
     // Button Radius
     &.radius {
       @include border-radius(100px);
+    }
+
+    // Button Tiny
+    &.tiny {
+      border: darken($primary-color, 15%) 1px solid;
     }
 
     // Button small
@@ -71,10 +78,12 @@
         background: darken($red, 10%);
       }
     }
-
-
   }
 
+  .f-dropdown li a {
+    font-family: $body-font-family;
+    font-size: .85em;
+  }
 
   // Action
 
