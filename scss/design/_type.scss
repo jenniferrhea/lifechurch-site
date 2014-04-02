@@ -288,7 +288,13 @@ body {
     color: $primary-color !important;
     font-family: $body-font-family;
     font-style: italic;
-    font-size: rem-calc(20);
+    font-size: rem-calc(14);
+    display: block;
+
+    @media #{$medium-up} {
+      font-size: rem-calc(20);
+      display: inline;
+    }
 
     &:hover {
       color: #888 !important;

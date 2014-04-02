@@ -5459,56 +5459,64 @@ blockquote.quote-large cite {
   color: #0ea9d6 !important;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: 0.875rem;
+  display: block;
 }
-/* line 293, ../scss/design/_type.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 287, ../scss/design/_type.scss */
+  .tweet-this {
+    font-size: 1.25rem;
+    display: inline;
+  }
+}
+/* line 299, ../scss/design/_type.scss */
 .tweet-this:hover {
   color: #888 !important;
 }
 
-/* line 300, ../scss/design/_type.scss */
+/* line 306, ../scss/design/_type.scss */
 a p, a ul li, ul a li {
   color: #333333;
 }
 
-/* line 305, ../scss/design/_type.scss */
+/* line 311, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 311, ../scss/design/_type.scss */
+/* line 317, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 317, ../scss/design/_type.scss */
+/* line 323, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 317, ../scss/design/_type.scss */
+  /* line 323, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 327, ../scss/design/_type.scss */
+/* line 333, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 334, ../scss/design/_type.scss */
+/* line 340, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 339, ../scss/design/_type.scss */
+/* line 345, ../scss/design/_type.scss */
 p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5516,33 +5524,33 @@ p, ul li {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 339, ../scss/design/_type.scss */
+  /* line 345, ../scss/design/_type.scss */
   p, ul li {
     font-size: 1.25rem;
   }
 }
 
-/* line 351, ../scss/design/_type.scss */
+/* line 357, ../scss/design/_type.scss */
 .detail, ul li {
   font-size: 0.9375rem;
 }
 
-/* line 356, ../scss/design/_type.scss */
+/* line 362, ../scss/design/_type.scss */
 ul li {
   margin-bottom: 10px;
 }
 
-/* line 363, ../scss/design/_type.scss */
+/* line 369, ../scss/design/_type.scss */
 .detail li, ul li li {
   margin-bottom: 0;
 }
 
-/* line 368, ../scss/design/_type.scss */
+/* line 374, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 374, ../scss/design/_type.scss */
+/* line 380, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5551,12 +5559,12 @@ ul li {
   font-weight: 300;
 }
 
-/* line 380, ../scss/design/_type.scss */
+/* line 386, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 386, ../scss/design/_type.scss */
+/* line 392, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2,
