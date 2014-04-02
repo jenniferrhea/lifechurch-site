@@ -8434,7 +8434,7 @@ input.gsc-search-button:hover {
 
 /* line 144, ../scss/pages/_giving.scss */
 .digital-missions .digital-missions-bg {
-  height: 500px;
+  height: 600px;
   background-image: url("/images/digital-missions/dm-bg.jpg");
   background-color: #eaeae8;
   background-repeat: no-repeat;
@@ -8451,11 +8451,10 @@ input.gsc-search-button:hover {
   /* line 144, ../scss/pages/_giving.scss */
   .digital-missions .digital-missions-bg {
     background-size: 1500px 450px;
-    height: 600px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 158, ../scss/pages/_giving.scss */
+  /* line 157, ../scss/pages/_giving.scss */
   .digital-missions .biblekids {
     margin-top: -180px;
   }
