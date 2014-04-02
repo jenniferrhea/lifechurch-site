@@ -8434,11 +8434,11 @@ input.gsc-search-button:hover {
 
 /* line 144, ../scss/pages/_giving.scss */
 .digital-missions .digital-missions-bg {
-  height: 600px;
+  height: 500px;
   background-image: url("/images/digital-missions/dm-bg.jpg");
   background-color: #eaeae8;
   background-repeat: no-repeat;
-  background-size: 1500px 450px;
+  background-size: 100% auto;
   background-position: center bottom;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
@@ -8447,8 +8447,15 @@ input.gsc-search-button:hover {
     background-image: url("/images/digital-missions/dm-bg@2x.jpg");
   }
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 144, ../scss/pages/_giving.scss */
+  .digital-missions .digital-missions-bg {
+    background-size: 1500px 450px;
+    height: 600px;
+  }
+}
 @media only screen and (max-width: 40em) {
-  /* line 153, ../scss/pages/_giving.scss */
+  /* line 158, ../scss/pages/_giving.scss */
   .digital-missions .biblekids {
     margin-top: -180px;
   }

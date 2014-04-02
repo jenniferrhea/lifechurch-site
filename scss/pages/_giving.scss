@@ -142,12 +142,17 @@
 
   .digital-missions {
     .digital-missions-bg {
-      height: 600px;
+      height: 500px;
       @include background-image-2x-jpg('/images/digital-missions/dm-bg');
       background-color: #eaeae8;
       background-repeat: no-repeat;
-      background-size: 1500px 450px;
+      background-size: 100% auto;
       background-position: center bottom;
+
+      @media #{$medium-up} {
+        background-size: 1500px 450px;
+        height: 600px;
+      }
     }
 
     .biblekids {
