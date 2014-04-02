@@ -3,22 +3,22 @@
   // Establish the height of the main section
   // Small
   .section-lifegroups-top {
-    height: 560px;
+    
 
     // Medium sized
     @media only screen and (min-width: 40.063em) {
-      height: 680px;
+      height: 750px;
     }
 
     // Large sized
     @media only screen and (min-width: 768px) {
-      height: 610px;
+      height: 680px;
     }
 
     // Large and a bit taller
-    @media only screen and (min-width: 768px) and (min-height: 650px) {
-      height: 630px;
-    }
+    //@media only screen and (min-width: 768px) and (min-height: 650px) {
+    //  height: 630px;
+    //}
 
     // Large and tallest
     @media only screen and (min-width: 768px) and (min-height: 700px) {
@@ -160,13 +160,18 @@
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-1-thin');
       background-color: #f1eae4;
-      background-size: 391px 486px;
+      background-size: 100% auto;
       background-position: left top;
     }
 
     @media #{$medium-up} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-1');
-      background-size: 1500px 595px;
+      background-size: 1700px auto;
+      background-position: -320px top;
+    }
+
+    @media #{$large-up} {
+      background-size: 1500px auto;
       background-position: center top;
     }
   }
@@ -178,14 +183,19 @@
 
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-2-thin');
-      background-size: 391px 486px;
+      background-size: 100% auto;
       background-position: left top;
       background-color: #e9e9dd;
     }
 
     @media #{$medium-up} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-2');
-      background-size: 1500px 595px;
+      background-size: 1700px auto;
+      background-position: -320px top;
+    }
+
+    @media #{$large-up} {
+      background-size: 1500px auto;
       background-position: center top;
     }
   }
@@ -197,14 +207,19 @@
 
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-3-thin');
-      background-size: 391px 486px;
+      background-size: 100% auto;
       background-position: left top;
       background-color: #000;
     }
 
     @media #{$medium-up} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-3');
-      background-size: 1500px 595px;
+      background-size: 1700px auto;
+      background-position: -320px top;
+    }
+
+    @media #{$large-up} {
+      background-size: 1500px auto;
       background-position: center top;
     }
   }
@@ -216,14 +231,20 @@
 
     @media #{$small-only} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-4-thin');
-      background-size: 391px 486px;
+      background-size: 100% auto;
       background-position: left top;
       background-color: #e9e9dd;
     }
 
     @media #{$medium-up} {
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-4');
-      background-size: 1500px 595px;
+      background-size: 1700px auto;
+      background-position: -320px top;
+    }
+
+    @media #{$large-up} {
+      background-size: 1500px auto;
       background-position: center top;
     }
+
   }
