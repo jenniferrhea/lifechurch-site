@@ -58,11 +58,11 @@ javascript: true
       <div class="person" style="opacity:0;"></div>
 
       <blockquote class="quote-1" style="display:none;">
-        <p>“What if cats actually have their own internet, full of pictures of humans?”</p>
+        <p>“Why am I so afraid?”</p>
       </blockquote>
 
       <blockquote class="quote-2" style="display:none;">
-        <p>“What if the comet that killed the dinosaurs was actually a UFO, and we are the aliens?”</p>
+        <p>“Why do I doubt?”</p>
       </blockquote>
 
       <blockquote class="quote-3" style="display:none;">
