@@ -3,3 +3,13 @@ permalink: /:categories/:title/
 markdown: rdiscount
 excerpt_separator: ""
 relative_permalinks: false
+
+prose:
+  rooturl: 'announcements/_posts'
+  siteurl: 'http://www.lifechurch.tv/'
+  metadata:
+    _posts:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'announcement'
