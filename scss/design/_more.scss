@@ -24,7 +24,7 @@
 
   .page-more {
     background: #fff;
-    z-index: 20;
+    z-index: 10;
 
     @media #{$small-only} {
       border-top: 1px solid #ddd;

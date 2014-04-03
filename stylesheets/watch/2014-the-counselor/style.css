@@ -789,7 +789,7 @@ th.hide-for-touch {
 
 /* line 21, ../../../scss/watch/2014-the-counselor/style.scss */
 .section-last {
-  z-index: 12;
+  z-index: 10;
   position: relative;
 }
 
