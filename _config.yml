@@ -13,3 +13,6 @@ prose:
         field:
           element: 'hidden'
           value: 'announcement'
+      - name: 'permalink'
+        field:
+          element: 'text'
