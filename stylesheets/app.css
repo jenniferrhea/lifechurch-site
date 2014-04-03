@@ -6933,41 +6933,58 @@ input.gsc-search-button:hover {
 }
 
 /* line 23, ../scss/pages/_watch.scss */
+.no-touch .message a {
+  display: block;
+  float: left;
+  width: 100%;
+  padding-top: 15px;
+  border-radius: 4px;
+}
+/* line 30, ../scss/pages/_watch.scss */
+.no-touch .message a:first-child {
+  margin-top: -15px;
+}
+/* line 34, ../scss/pages/_watch.scss */
+.no-touch .message a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* line 39, ../scss/pages/_watch.scss */
 .message h4, .message .h4, .message .location-tile, .message .lifegroups-tile span, .lifegroups-tile .message span {
   margin-top: -5px;
   color: #fff !important;
 }
 
-/* line 28, ../scss/pages/_watch.scss */
+/* line 44, ../scss/pages/_watch.scss */
 .message h6, .message .h6, .message label {
   margin-top: 0px;
   color: #fff !important;
 }
 @media only screen and (max-width: 40em) {
-  /* line 28, ../scss/pages/_watch.scss */
+  /* line 44, ../scss/pages/_watch.scss */
   .message h6, .message .h6, .message label {
     color: #86def7 !important;
   }
 }
 
-/* line 36, ../scss/pages/_watch.scss */
+/* line 52, ../scss/pages/_watch.scss */
 .message {
   padding-bottom: 12px;
 }
 
-/* line 40, ../scss/pages/_watch.scss */
+/* line 56, ../scss/pages/_watch.scss */
 .watch-item h6, .watch-item .h6, .watch-item label {
   margin-top: 5px;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 44, ../scss/pages/_watch.scss */
+  /* line 60, ../scss/pages/_watch.scss */
   .watch-archive-art {
     margin-top: 30px;
   }
 }
 
-/* line 52, ../scss/pages/_watch.scss */
+/* line 68, ../scss/pages/_watch.scss */
 .watch-podcast,
 .watch-talkitover,
 .watch-open {
@@ -6975,7 +6992,7 @@ input.gsc-search-button:hover {
   padding-bottom: 12px !important;
 }
 
-/* line 59, ../scss/pages/_watch.scss */
+/* line 75, ../scss/pages/_watch.scss */
 .watch-podcast:before,
 .watch-talkitover:before,
 .watch-open:before {
