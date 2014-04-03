@@ -8468,6 +8468,11 @@ input.gsc-search-button:hover {
   }
 }
 
+/* line 167, ../scss/pages/_giving.scss */
+.equipping-churches h2, .equipping-churches .h2, .equipping-churches figcaption {
+  margin-top: 15px !important;
+}
+
 @media only screen and (min-width: 40.063em) {
   /* line 5, ../scss/pages/_lifegroups.scss */
   .section-lifegroups-top {
