@@ -16,3 +16,5 @@ prose:
       - name: 'permalink'
         field:
           element: 'text'
+          label: 'Permalink'
+          value: ''
