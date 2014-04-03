@@ -7,14 +7,14 @@
     </a>
   </li>
   <li>
-  <a href="{% if series.resources_url %}{{ series.resources_url }}{% else %}http://resources.lifechurch.tv{% endif %}"
+  <a href="{% unless series.resources_url == '' %}{{ series.resources_url }}{% else %}http://resources.lifechurch.tv{% endunless %}"
        class="watch-talkitover"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource Resources');">
        Notes &amp; Downloads
     </a>
   </li>
   <li>
-    <a href="{% if series.open_url %}{{ series.open_url }}{% else %}http://open.lifechurch.tv{% endif %}"
+    <a href="{% unless series.open_url == '' %}{{ series.open_url }}{% else %}http://open.lifechurch.tv{% endunless %}"
        class="watch-open"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource OPEN');">
        For Churches
