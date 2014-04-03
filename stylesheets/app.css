@@ -5620,7 +5620,7 @@ html {
 /* line 25, ../scss/design/_more.scss */
 .page-more {
   background: #fff;
-  z-index: 10;
+  z-index: 20;
 }
 @media only screen and (max-width: 40em) {
   /* line 25, ../scss/design/_more.scss */
