@@ -46,6 +46,10 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    @media #{$small-only} {
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
   }
 
   .icon-logo:before { content: '\e800'; }

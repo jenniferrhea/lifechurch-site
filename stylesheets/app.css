@@ -5047,7 +5047,7 @@ th.hide-for-touch {
 @font-face {
   font-family: 'eurostile';
   src: url("/fonts/eurostile/eurostile.eot?-dvzee9");
-  src: url("/fonts/eurostile/eurostile.eot?#iefix-dvzee9") format("embedded-opentype"), url("/fonts/eurostile/eurostile.woff?-dvzee9") format("woff"), url("/fonts/eurostile/eurostile.ttf?-dvzee9") format("truetype"), url("/fonts/eurostile/eurostile.svg?-dvzee9#lctv") format("svg");
+  src: url("/fonts/eurostile/eurostile.eot?#iefix-dvzee9") format("embedded-opentype"), url("/fonts/eurostile/eurostile.woff?-dvzee9") format("woff"), url("/fonts/eurostile/eurostile.ttf?-dvzee9") format("truetype"), url("/fonts/eurostile/eurostile.svg?-dvzee9#eurostile") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5082,114 +5082,120 @@ th.hide-for-touch {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media only screen and (max-width: 40em) {
+  /* line 25, ../scss/design/_fonts.scss */
+  [class^="icon-"], [class*=" icon-"] {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
+}
 
-/* line 51, ../scss/design/_fonts.scss */
+/* line 55, ../scss/design/_fonts.scss */
 .icon-logo:before {
   content: '\e800';
 }
 
-/* line 52, ../scss/design/_fonts.scss */
+/* line 56, ../scss/design/_fonts.scss */
 .icon-arrow:before {
   content: '\e801';
 }
 
-/* line 53, ../scss/design/_fonts.scss */
+/* line 57, ../scss/design/_fonts.scss */
 .icon-down:before {
   content: '\e802';
 }
 
-/* line 54, ../scss/design/_fonts.scss */
+/* line 58, ../scss/design/_fonts.scss */
 .icon-close:before {
   content: '\e803';
 }
 
-/* line 55, ../scss/design/_fonts.scss */
+/* line 59, ../scss/design/_fonts.scss */
 .icon-download:before {
   content: '\e804';
 }
 
-/* line 56, ../scss/design/_fonts.scss */
+/* line 60, ../scss/design/_fonts.scss */
 .icon-share:before {
   content: '\e805';
 }
 
-/* line 57, ../scss/design/_fonts.scss */
+/* line 61, ../scss/design/_fonts.scss */
 .icon-window:before {
   content: '\e806';
   margin-left: -6px;
 }
 
-/* line 58, ../scss/design/_fonts.scss */
+/* line 62, ../scss/design/_fonts.scss */
 .icon-file:before {
   content: '\e807';
 }
 
-/* line 59, ../scss/design/_fonts.scss */
+/* line 63, ../scss/design/_fonts.scss */
 .icon-play:before {
   content: '\e808';
 }
 
-/* line 61, ../scss/design/_fonts.scss */
+/* line 65, ../scss/design/_fonts.scss */
 .icon-announcement-money:before {
   content: '\e813';
 }
 
-/* line 62, ../scss/design/_fonts.scss */
+/* line 66, ../scss/design/_fonts.scss */
 .icon-announcement-calendar:before {
   content: '\e810';
 }
 
-/* line 63, ../scss/design/_fonts.scss */
+/* line 67, ../scss/design/_fonts.scss */
 .icon-announcement-campus:before {
   content: '\e811';
 }
 
-/* line 64, ../scss/design/_fonts.scss */
+/* line 68, ../scss/design/_fonts.scss */
 .icon-announcement-maintenance:before {
   content: '\e812';
 }
 
-/* line 65, ../scss/design/_fonts.scss */
+/* line 69, ../scss/design/_fonts.scss */
 .icon-announcement-weather-rain:before {
   content: '\e815';
 }
 
-/* line 66, ../scss/design/_fonts.scss */
+/* line 70, ../scss/design/_fonts.scss */
 .icon-announcement-weather-snow:before {
   content: '\e814';
 }
 
-/* line 68, ../scss/design/_fonts.scss */
+/* line 72, ../scss/design/_fonts.scss */
 .icon-social-facebook:before {
   content: '\e809';
 }
 
-/* line 69, ../scss/design/_fonts.scss */
+/* line 73, ../scss/design/_fonts.scss */
 .icon-social-twitter:before {
   content: '\e80b';
 }
 
-/* line 70, ../scss/design/_fonts.scss */
+/* line 74, ../scss/design/_fonts.scss */
 .icon-social-instagram:before {
   content: '\e80c';
 }
 
-/* line 71, ../scss/design/_fonts.scss */
+/* line 75, ../scss/design/_fonts.scss */
 .icon-social-pinterest:before {
   content: '\e80d';
 }
 
-/* line 72, ../scss/design/_fonts.scss */
+/* line 76, ../scss/design/_fonts.scss */
 .icon-social-vine:before {
   content: '\e80e';
 }
 
-/* line 73, ../scss/design/_fonts.scss */
+/* line 77, ../scss/design/_fonts.scss */
 .icon-social-youtube:before {
   content: '\e80f';
 }
 
-/* line 74, ../scss/design/_fonts.scss */
+/* line 78, ../scss/design/_fonts.scss */
 .icon-social-gplus:before {
   content: '\e80a';
 }
