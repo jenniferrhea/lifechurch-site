@@ -1,13 +1,11 @@
 <ul id="drop" data-dropdown-content class="f-dropdown text-left watch-resources">
-  {% if series.podcast %}
   <li>
-    <a href="{{ series.podcast }}"
+    <a href="http://feedpress.me/lifechurchipod"
        class="watch-podcast"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource Podcast');">
-       Get the Podcast
+       Podcast Feed
     </a>
   </li>
-  {% endif %}
   <li>
   <a href="{% if series.resources_url %}{{ series.resources_url }}{% else %}http://resources.lifechurch.tv{% endif %}"
        class="watch-talkitover"
