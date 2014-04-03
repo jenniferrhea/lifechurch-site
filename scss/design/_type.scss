@@ -28,10 +28,14 @@
   }
 
   time.meta {
-    margin: -15px 0 30px;
+    margin: 0 0 30px;
     display: block;
     font-family: $header-font-family;
     color: #888;
+
+    @media #{$medium-up} {
+      margin: -15px 0 30px;
+    }
   }
 
   .article-title a {
