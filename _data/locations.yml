@@ -25,6 +25,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 06:30AM
+    time: 06-30
+    day: wed
+    duration: 60
+    type: switch
   missions: []
 - id: alb
   title: Albany NY Campus
@@ -112,6 +117,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   missions:
   - id: 22
     title: End Slavery
@@ -163,6 +173,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   missions:
   - id: 28
     title: First Care
@@ -217,6 +232,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -301,6 +321,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -362,6 +387,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 06:30AM
+    time: 06-30
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -428,6 +458,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 06:30AM
+    time: 06-30
+    day: wed
+    duration: 60
+    type: switch
   missions:
   - id: 24
     title: Eden Clinic
@@ -479,6 +514,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   - title: 06:00PM
     time: 18-00
     day: sat
@@ -542,6 +582,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -601,6 +646,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -668,6 +718,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   missions:
   - id: 1
     title: Big Brothers Big Sisters
@@ -741,6 +796,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 06:30AM
+    time: 06-30
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -805,6 +865,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -888,6 +953,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 06:30AM
+    time: 06-30
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -966,6 +1036,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 07:00AM
+    time: 07-00
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
@@ -1053,6 +1128,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 06:30AM
+    time: 06-30
+    day: wed
+    duration: 60
+    type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
