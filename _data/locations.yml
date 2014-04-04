@@ -62,8 +62,23 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 10:00AM
     time: 10-00
+    day: sun
+    duration: 60
+    type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
+  - title: 11:30AM
+    time: 11-30
     day: sun
     duration: 60
     type: service-time
@@ -71,7 +86,12 @@
     time: 11-30
     day: sun
     duration: 60
-    type: service-time
+    type: lifekids
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 05:00PM
     time: 17-00
     day: sun
@@ -82,6 +102,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: lifekids
   missions:
   - id: 1
     title: Big Brothers Big Sisters
@@ -117,6 +142,16 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 11:30AM
     time: 11-30
     day: sun
@@ -126,12 +161,27 @@
     time: 13-00
     day: sun
     duration: 60
+    type: lifekids
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
     type: service-time
   - title: 05:00PM
     time: 17-00
     day: sun
     duration: 60
+    type: lifekids
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
     type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 06:30PM
     time: 18-30
     day: sun
@@ -178,6 +228,16 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 09:30AM
+    time: 09-30
+    day: sun
+    duration: 60
+    type: lifekids
+  - title: 11:00AM
+    time: 11-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 11:00AM
     time: 11-00
     day: sun
@@ -187,7 +247,17 @@
     time: 12-30
     day: sun
     duration: 60
+    type: lifekids
+  - title: 12:30PM
+    time: 12-30
+    day: sun
+    duration: 60
     type: service-time
+  - title: 05:30PM
+    time: 17-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 05:30PM
     time: 17-30
     day: sun
@@ -236,7 +306,17 @@
     time: 08-30
     day: sun
     duration: 60
+    type: lifekids
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
     type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 10:00AM
     time: 10-00
     day: sun
@@ -247,11 +327,21 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 01:00PM
     time: 13-00
     day: sun
     duration: 60
     type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 07:00PM
     time: 19-00
     day: wed
@@ -261,7 +351,17 @@
     time: 17-00
     day: sat
     duration: 60
+    type: lifekids
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
     type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: lifekids
   - title: 06:30PM
     time: 18-30
     day: sat
@@ -299,11 +399,21 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 11:30AM
     time: 11-30
     day: sun
     duration: 60
     type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: lifekids
   missions: []
 - id: jnk
   title: Jenks OK Campus
@@ -1381,21 +1491,16 @@
   address: 5821 NW Expressway Oklahoma City, OK 73132
   facebook: '156898983627'
   times:
-  - title: 01:00AM
-    time: 01-00
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 08:30AM
-    time: 08-30
-    day: sun
-    duration: 60
-    type: lifekids
   - title: 08:30AM
     time: 08-30
     day: sun
     duration: 60
     type: service-time
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 10:00AM
     time: 10-00
     day: sun
@@ -1421,6 +1526,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 06:00PM
     time: 18-00
     day: sun
