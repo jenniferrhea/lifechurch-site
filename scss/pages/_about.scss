@@ -2,9 +2,9 @@
 
   // Position the headline to accomodate those feature images
   h1 {
-    padding-top: 10px;
+    padding-top: 70px;
     @media #{$medium-up} {
-      padding-top: 30px;
+      padding-top: 100px;
     }
   }
 
@@ -14,7 +14,7 @@
   // Feature image
   .about-bible {
     @include background-image-2x-png('/images/about/about-bible');
-    background-size: 528px 72px;
+    background-size: 528px 219px;
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
@@ -31,8 +31,8 @@
 
     @media #{$medium-up} {
       width: 528px;
-      height: 119px;
-      top: -80px;
+      height: 219px;
+      top: -100px;
       right: 0;
     }
 
