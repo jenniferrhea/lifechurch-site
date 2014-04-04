@@ -10,6 +10,16 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: lifekids
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 10:00AM
     time: 10-00
     day: sun
@@ -19,16 +29,26 @@
     time: 11-30
     day: sun
     duration: 60
+    type: lifekids
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
     type: service-time
   - title: 01:00PM
     time: 13-00
     day: sun
     duration: 60
-    type: service-time
-  - title: 06:30AM
-    time: 06-30
-    day: wed
+    type: lifekids
+  - title: 01:00PM
+    time: 13-00
+    day: sun
     duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: wed
+    duration: 120
     type: switch
   missions: []
 - id: alb
@@ -117,10 +137,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   missions:
   - id: 22
@@ -173,10 +193,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   missions:
   - id: 28
@@ -232,10 +252,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
@@ -321,10 +341,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
@@ -387,10 +407,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 06:30AM
-    time: 06-30
+  - title: 06:30PM
+    time: 18-30
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
@@ -432,12 +452,27 @@
     time: 08-30
     day: sun
     duration: 60
+    type: lifekids
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
     type: service-time
   - title: 10:00AM
     time: 10-00
     day: sun
     duration: 60
     type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 11:30AM
     time: 11-30
     day: sun
@@ -448,20 +483,35 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 05:00PM
     time: 17-00
     day: sun
     duration: 60
     type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: lifekids
+  - title: 06:30PM
+    time: 18-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 06:30PM
     time: 18-30
     day: sun
     duration: 60
     type: service-time
-  - title: 06:30AM
-    time: 06-30
+  - title: 06:30PM
+    time: 18-30
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   missions:
   - id: 24
@@ -514,10 +564,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   - title: 06:00PM
     time: 18-00
@@ -582,10 +632,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
@@ -646,10 +696,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
@@ -718,10 +768,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   missions:
   - id: 1
@@ -796,10 +846,10 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 06:30AM
-    time: 06-30
+  - title: 06:30PM
+    time: 18-30
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
@@ -844,12 +894,22 @@
     time: 08-30
     day: sun
     duration: 60
+    type: lifekids
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
     type: service-time
   - title: 10:00AM
     time: 10-00
     day: sun
     duration: 60
     type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 11:30AM
     time: 11-30
     day: sun
@@ -865,16 +925,26 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
+  - title: 07:00PM
+    time: 19-00
     day: wed
-    duration: 60
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
     duration: 60
+    type: lifekids
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
     type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: lifekids
   - title: 06:30PM
     time: 18-30
     day: sat
@@ -933,11 +1003,26 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: lifekids
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 10:00AM
     time: 10-00
     day: sun
     duration: 60
     type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 11:30AM
     time: 11-30
     day: sun
@@ -948,21 +1033,41 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 01:00PM
+    time: 13-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 06:00PM
     time: 18-00
     day: sun
     duration: 60
     type: service-time
-  - title: 06:30AM
-    time: 06-30
-    day: wed
+  - title: 06:00PM
+    time: 18-00
+    day: sun
     duration: 60
+    type: lifekids
+  - title: 06:30PM
+    time: 18-30
+    day: wed
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
     duration: 60
+    type: lifekids
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
     type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: lifekids
   - title: 06:30PM
     time: 18-30
     day: sat
@@ -1011,11 +1116,26 @@
   address: 5821 NW Expressway Oklahoma City, OK 73132
   facebook: '156898983627'
   times:
+  - title: 01:00AM
+    time: 01-00
+    day: sun
+    duration: 60
+    type: lifekids
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 08:30AM
     time: 08-30
     day: sun
     duration: 60
     type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 10:00AM
     time: 10-00
     day: sun
@@ -1026,6 +1146,11 @@
     day: sun
     duration: 60
     type: service-time
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 01:00PM
     time: 13-00
     day: sun
@@ -1036,16 +1161,31 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 07:00AM
-    time: 07-00
-    day: wed
+  - title: 06:00PM
+    time: 18-00
+    day: sun
     duration: 60
+    type: lifekids
+  - title: 07:00PM
+    time: 19-00
+    day: wed
+    duration: 120
     type: switch
   - title: 05:00PM
     time: 17-00
     day: sat
     duration: 60
+    type: lifekids
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: 60
     type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: sat
+    duration: 60
+    type: lifekids
   - title: 06:30PM
     time: 18-30
     day: sat
@@ -1107,7 +1247,17 @@
     time: 08-30
     day: sun
     duration: 60
+    type: lifekids
+  - title: 08:30AM
+    time: 08-30
+    day: sun
+    duration: 60
     type: service-time
+  - title: 10:00AM
+    time: 10-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 10:00AM
     time: 10-00
     day: sun
@@ -1117,7 +1267,17 @@
     time: 11-30
     day: sun
     duration: 60
+    type: lifekids
+  - title: 11:30AM
+    time: 11-30
+    day: sun
+    duration: 60
     type: service-time
+  - title: 05:00PM
+    time: 17-00
+    day: sun
+    duration: 60
+    type: lifekids
   - title: 05:00PM
     time: 17-00
     day: sun
@@ -1127,12 +1287,22 @@
     time: 18-30
     day: sun
     duration: 60
-    type: service-time
-  - title: 06:30AM
-    time: 06-30
-    day: wed
+    type: lifekids
+  - title: 06:30PM
+    time: 18-30
+    day: sun
     duration: 60
+    type: service-time
+  - title: 06:30PM
+    time: 18-30
+    day: wed
+    duration: 120
     type: switch
+  - title: 05:00PM
+    time: 17-00
+    day: sat
+    duration: -60
+    type: lifekids
   - title: 05:00PM
     time: 17-00
     day: sat
