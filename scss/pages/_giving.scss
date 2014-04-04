@@ -167,3 +167,9 @@
   .equipping-churches h2 {
     margin-top: 15px !important;
   }
+
+  .equipping-churches .digital-missions-bg {
+    @media #{$medium-up} {
+      height: 750px;
+    }
+  }
