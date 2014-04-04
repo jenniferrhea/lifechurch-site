@@ -58,20 +58,20 @@
   location: Online
   recipient: interactive@lifechurch.tv
   url: http://apple.com
-  description_small: 'Our experience team creates a comfortable environment for guests at 50+ weekly experiences.'
-  description_medium: 'Our experience team creates a comfortable environment for guests at 50+ weekly experiences. Through chat conversation, you’ll connect with people from around the world, pray with them, and provide resources and follow-up opportunities.'
+  description_small: 'People are being transformed as they find hope and experience the love of Christ at Church Online.'
+  description_medium: 'People are being transformed as they find hope and experience the love of Christ at Church Online. The Experience Team provides a comfortable environment by welcoming, chatting, and praying with Church Online attenders at experiences throughout the week.'
   website: http://google.com
   image_small: http://placekitten.com/300/200/
   image_medium: http://placekitten.com/600/400/
   image_large: http://placekitten.com/1200/800/
 
 - id: serving-7
-  title: Response Team
+  title: Engagement Team
   location: Online
   recipient: interactive@lifechurch.tv
   url: http://apple.com
-  description_small: 'Using a simple online email system, this team responds to people all over the world who have expressed a desire for follow-up through prayer, encouragement, and new believer discipleship.'
-  description_medium: 'Using a simple online email system, this team responds to people all over the world who have expressed a desire for follow-up through prayer, encouragement, and new believer discipleship.'
+  description_small: 'The Engagement Team receives, prays for, and responds to prayer requests from people all over the world.'
+  description_medium: "Struggling and searching for answers aren't limited to a specific day or time. Church Online connects people to a caring community at their deepest moment of need. The Engagement Team receives, prays for, and responds to prayer requests from people all over the world."
   website: http://google.com
   image_small: http://placekitten.com/300/200/
   image_medium: http://placekitten.com/600/400/
@@ -90,19 +90,19 @@
   image_large: http://placekitten.com/1200/800/
 
 - id: serving-9
-  title: Central Administration
+  title: Administrative & Special Projects
   location: Central
   recipient: interactive@lifechurch.tv
   url: http://apple.com
-  description_small: 'As the foundation that supports the Central Team, you can use your administrative gifts by setting up and serving at special events, answering phones, and organizing day-to-day ministry functions.'
-  description_medium: 'As the foundation that supports the Central Team, you can use your administrative gifts by setting up and serving at special events, answering phones, and organizing day-to-day ministry functions.'
+  description_small: 'You can use your administrative gifts by setting up and serving at special events, answering phones, and organizing day-to-day ministry functions.'
+  description_medium: 'You can use your administrative gifts by setting up and serving at special events, answering phones, and organizing day-to-day ministry functions that, in turn, support the entire LifeChurch.tv Central Team.'
   website: http://google.com
   image_small: http://placekitten.com/300/200/
   image_medium: http://placekitten.com/600/400/
   image_large: http://placekitten.com/1200/800/
 
 - id: serving-10
-  title: IT (Information Technology)
+  title: 'Information Technology (IT)'
   location: Central
   recipient: interactive@lifechurch.tv
   url: http://apple.com
@@ -117,8 +117,8 @@
   location: Central
   recipient: interactive@lifechurch.tv
   url: http://apple.com
-  description_small: 'Our Digerati Team develops web projects including the LifeChurch.tv website and Facebook pages, as well as other sites such as Chazown.com, ChurchMetrics.com, and more.'
-  description_medium: 'Our Digerati Team develops web projects including the LifeChurch.tv website and Facebook pages, as well as other sites such as Chazown.com, ChurchMetrics.com, and more. Experienced volunteer web designers and developers are vital in creating and maintaining these sites. Projects, scope of involvement, and hours vary. Another way to serve with Digerati is responding to user questions and support issues for various user-based websites.'
+  description_small: ''
+  description_medium: 'The Digital Missions team manages content for the open.lifechurch.tv<link> website where thousands of videos, graphics, curriculum, and other tools and resources are made available for church leaders around the world. Work closely with the team to brainstorm ideas, improve processes, and upload content to the site. Or, serve as an Digital Missions Linguist and translate text from English to another language for a wide variety of resources.'
   website: http://google.com
   image_small: http://placekitten.com/300/200/
   image_medium: http://placekitten.com/600/400/
@@ -131,18 +131,6 @@
   url: http://apple.com
   description_small: 'If you’ve ever wanted to experience life on a movie set, you can be part of LifeChurch.tv Productions Cast & Crew.'
   description_medium: 'If you’ve ever wanted to experience life on a movie set, you can be part of LifeChurch.tv Productions Cast & Crew. We are looking for actors, voice over talent, production assistants, hairstylists, grips, set builders...the list goes on and on. You can also keep up with available opportunities, casting calls, and set design projects on the <a href="http://www.facebook.com/groups/lctvcastncrew">Cast & Crew Facebook page</a>.'
-  website: http://google.com
-  image_small: http://placekitten.com/300/200/
-  image_medium: http://placekitten.com/600/400/
-  image_large: http://placekitten.com/1200/800/
-
-- id: serving-14
-  title: OPEN
-  location: Central
-  recipient: interactive@lifechurch.tv
-  url: http://apple.com
-  description_small: 'The Open team manages content for the Open.lifechurch.tv website where thousands of videos, graphics, curriculum, and other resources are made available for church leaders around the world.'
-  description_medium: 'The Open team manages content for the Open.lifechurch.tv website where thousands of videos, graphics, curriculum, and other resources are made available for church leaders around the world. Work closely with the Open team as a Central Inspector to brainstorm ideas, improve processes, and upload content to the site. Or, serve as an Open Linguist and translate text from English to another language for a wide variety of resources.'
   website: http://google.com
   image_small: http://placekitten.com/300/200/
   image_medium: http://placekitten.com/600/400/
