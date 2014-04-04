@@ -134,6 +134,8 @@ $(function() {
 
   // Locations Page Content
 
+  $('.time.type-lifekids').addClass('overlap').parent().parent().addClass('rows-2');
+
   // Campus calendar 5pm overlaps
   $('.time-17-00').siblings('.time-17-30').addClass('overlap').parent().parent().addClass('rows-2');
   $('.time-17-00.duration-120').siblings('.time-17-30, .time-18-00, .time-18-30').addClass('overlap').parent().parent().addClass('rows-2');
@@ -151,7 +153,7 @@ $(function() {
   $('.time-20-00.duration-120').siblings('.time-20-30, .time-21-00, .time-21-30').addClass('overlap').parent().parent().addClass('rows-2');
 
   // Campus calendar Overlapping overlaps (oh my!)
-  $('.overlap:eq(1)').removeClass('overlap').addClass('overlap-2').parent().parent().removeClass('rows-2').addClass('rows-3');
+  //$('.overlap:eq(1)').removeClass('overlap').addClass('overlap-2').parent().parent().removeClass('rows-2').addClass('rows-3');
 
 
   // LifeMissions Page

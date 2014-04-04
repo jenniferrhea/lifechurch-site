@@ -7608,7 +7608,7 @@ input.gsc-search-button:hover {
   border: 1px solid #0b83a6;
 }
 /* line 515, ../scss/pages/_locations.scss */
-.calendar-key.key-konnect figure {
+.calendar-key.key-lifekids figure {
   background: #69d166;
   border: 1px solid #43c53f;
 }
@@ -7700,7 +7700,7 @@ input.gsc-search-button:hover {
     color: #085d76;
   }
   /* line 610, ../scss/pages/_locations.scss */
-  .days-times .time.type-konnect .time-box {
+  .days-times .time.type-lifekids .time-box {
     background: #69d166;
     border: 1px solid #43c53f;
     color: #1a5219;
