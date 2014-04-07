@@ -89,12 +89,12 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: rgba(0,0,0,0);
+        background: rgba(0,0,0,.3);
       }
 
       // Tile hover action
       &:hover:after {
-        background: rgba(0,0,0,.3);
+        background: rgba(0,0,0,.6);
       }
 
       // Remove borders from first/last on large
@@ -116,6 +116,7 @@
       display: block;
       position: relative;
       z-index: 2;
+      text-shadow: 0 2px 3px #000;
     }
   }
 

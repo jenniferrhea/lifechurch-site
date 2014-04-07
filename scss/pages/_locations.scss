@@ -328,6 +328,12 @@
   margin-right: auto;
 }
 
+// Hide Local Partner images
+.section-localpartners img {
+  display: none;
+}
+
+
 // Magellan
 
   .section-locations .sub-nav {

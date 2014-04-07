@@ -20,8 +20,8 @@ class: header-red
     {% for series in site.data.watch %}
     {% if series.id == post.series-id %}
     {% assign series = site.data.watch | find_first : "id", post.series-id %}
-    {% capture date %}{{ post.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
+    {% capture date %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture ndate %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 
 
       {% if date != ndate %}
@@ -29,7 +29,7 @@ class: header-red
       <div class="row">
         <div class="medium-12 columns">
           <br />
-          <h4 class="month">{{post.date | date: '%B %Y'}}</h4>
+          <h4 class="month">{{ post.date | date: '%Y' }}</h4>
           <br />
         </div>
       </div>

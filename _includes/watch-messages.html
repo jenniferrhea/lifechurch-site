@@ -4,7 +4,7 @@
       <h2 class="underlined">In this series</h2>
 
       <!-- Get the messages out of the series and list them out -->
-      {% for message in series.messages %}
+      {% for message in series.messages reversed %}
 
       <div class="row message">
         <a href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message”');">
