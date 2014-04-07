@@ -5260,99 +5260,104 @@ time.meta {
   color: #b9252d;
 }
 
-/* line 48, ../scss/design/_type.scss */
+/* line 45, ../scss/design/_type.scss */
+img.expand {
+  width: 100%;
+}
+
+/* line 52, ../scss/design/_type.scss */
 a.text-primary:hover {
   color: #085d76 !important;
 }
 
-/* line 53, ../scss/design/_type.scss */
+/* line 57, ../scss/design/_type.scss */
 a.text-lprimary:hover,
 .footer-light .page-footer a:hover {
   color: #26c4f1 !important;
 }
 
-/* line 57, ../scss/design/_type.scss */
+/* line 61, ../scss/design/_type.scss */
 a.text-secondary:hover {
   color: #c1c1c1 !important;
 }
 
-/* line 61, ../scss/design/_type.scss */
+/* line 65, ../scss/design/_type.scss */
 a.text-red:hover {
   color: #79181d;
 }
 
-/* line 65, ../scss/design/_type.scss */
+/* line 69, ../scss/design/_type.scss */
 a.text-gray:hover {
   color: #6c6c6c;
 }
 
-/* line 70, ../scss/design/_type.scss */
+/* line 74, ../scss/design/_type.scss */
 a.text-white:hover,
 .section-light a:hover {
   color: #d9d9d9;
 }
 
-/* line 74, ../scss/design/_type.scss */
+/* line 78, ../scss/design/_type.scss */
 a.text-black:hover {
   color: #737373;
 }
 
-/* line 82, ../scss/design/_type.scss */
+/* line 86, ../scss/design/_type.scss */
 a h1, a .h1, a h2, a .h2, a figcaption, a h3, a .h3, a h4, a .h4, a .location-tile, a .lifegroups-tile span, .lifegroups-tile a span, a h5, a .h5, a h6, a .h6, a label {
   color: #0ea9d6 !important;
 }
-/* line 87, ../scss/design/_type.scss */
+/* line 91, ../scss/design/_type.scss */
 a :hover h1, a :hover .h1, a :hover h2, a :hover .h2, a :hover figcaption, a :hover h3, a :hover .h3, a :hover h4, a :hover .h4, a :hover .location-tile, a :hover .lifegroups-tile span, .lifegroups-tile a :hover span, a :hover h5, a :hover .h5, a :hover h6, a :hover .h6, a :hover label {
   color: #09708e;
 }
 
-/* line 96, ../scss/design/_type.scss */
+/* line 100, ../scss/design/_type.scss */
 h1, .h1 {
   color: #333;
 }
 
-/* line 100, ../scss/design/_type.scss */
+/* line 104, ../scss/design/_type.scss */
 h2, .h2, figcaption, h3, .h3, h4, .h4, .location-tile, .lifegroups-tile span, h6, .h6, label {
   color: #444;
 }
 
-/* line 104, ../scss/design/_type.scss */
+/* line 108, ../scss/design/_type.scss */
 h1, .h1, h2, .h2, figcaption, h3, .h3 {
   letter-spacing: -1px;
 }
 
-/* line 110, ../scss/design/_type.scss */
+/* line 114, ../scss/design/_type.scss */
 body {
   -webkit-text-size-adjust: none;
 }
 
-/* line 116, ../scss/design/_type.scss */
+/* line 120, ../scss/design/_type.scss */
 h1, .h1 {
   font-weight: 600;
   margin-top: 25px;
   margin-bottom: 30px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 116, ../scss/design/_type.scss */
+  /* line 120, ../scss/design/_type.scss */
   h1, .h1 {
     margin-top: 0;
   }
 }
 @media only screen and (max-width: 40em) and (orientation: landscape) {
-  /* line 116, ../scss/design/_type.scss */
+  /* line 120, ../scss/design/_type.scss */
   h1, .h1 {
     margin-bottom: 10px;
   }
 }
 
-/* line 138, ../scss/design/_type.scss */
+/* line 142, ../scss/design/_type.scss */
 h2, .h2, figcaption {
   font-size: 1.6rem;
   margin-top: 25px !important;
   margin-bottom: 15px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 138, ../scss/design/_type.scss */
+  /* line 142, ../scss/design/_type.scss */
   h2, .h2, figcaption {
     font-size: 2.3rem;
     margin-top: 50px !important;
@@ -5360,102 +5365,102 @@ h2, .h2, figcaption {
   }
 }
 
-/* line 165, ../scss/design/_type.scss */
+/* line 169, ../scss/design/_type.scss */
 h4, .h4, .location-tile, .lifegroups-tile span {
   margin-top: .5em;
 }
 @media only screen and (max-width: 40em) {
-  /* line 165, ../scss/design/_type.scss */
+  /* line 169, ../scss/design/_type.scss */
   h4, .h4, .location-tile, .lifegroups-tile span {
     font-weight: bold;
     margin-bottom: .9rem;
   }
 }
 
-/* line 181, ../scss/design/_type.scss */
+/* line 185, ../scss/design/_type.scss */
 h5, .h5 {
   font-weight: 300;
   font-style: italic;
   color: #929292;
 }
 
-/* line 194, ../scss/design/_type.scss */
+/* line 198, ../scss/design/_type.scss */
 h6, .h6, label {
   margin-top: 10px;
   font-weight: 600;
 }
 
-/* line 205, ../scss/design/_type.scss */
+/* line 209, ../scss/design/_type.scss */
 figcaption {
   font-size: 1.5rem;
   margin-top: 20px !important;
 }
 
-/* line 214, ../scss/design/_type.scss */
+/* line 218, ../scss/design/_type.scss */
 hr {
   max-width: 970px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 214, ../scss/design/_type.scss */
+  /* line 218, ../scss/design/_type.scss */
   hr {
     margin-left: 15px;
     margin-right: 15px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 214, ../scss/design/_type.scss */
+  /* line 218, ../scss/design/_type.scss */
   hr {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-/* line 228, ../scss/design/_type.scss */
+/* line 232, ../scss/design/_type.scss */
 hr.thin {
   margin-left: 30%;
   margin-right: 30%;
 }
 
-/* line 240, ../scss/design/_type.scss */
+/* line 244, ../scss/design/_type.scss */
 textarea {
   min-height: 200px;
 }
 
-/* line 247, ../scss/design/_type.scss */
+/* line 251, ../scss/design/_type.scss */
 blockquote {
   padding-left: 0;
   padding-right: 0;
   border: none;
   text-align: center;
 }
-/* line 253, ../scss/design/_type.scss */
+/* line 257, ../scss/design/_type.scss */
 blockquote p, blockquote ul li, ul blockquote li {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 253, ../scss/design/_type.scss */
+  /* line 257, ../scss/design/_type.scss */
   blockquote p, blockquote ul li, ul blockquote li {
     font-size: 2rem;
   }
 }
-/* line 263, ../scss/design/_type.scss */
+/* line 267, ../scss/design/_type.scss */
 blockquote cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 263, ../scss/design/_type.scss */
+  /* line 267, ../scss/design/_type.scss */
   blockquote cite {
     font-size: 1.3rem;
   }
 }
-/* line 272, ../scss/design/_type.scss */
+/* line 276, ../scss/design/_type.scss */
 blockquote.quote-large {
   text-align: left;
 }
-/* line 275, ../scss/design/_type.scss */
+/* line 279, ../scss/design/_type.scss */
 blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
   font-size: 1.2rem;
   line-height: 1.3em;
@@ -5463,24 +5468,24 @@ blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-larg
   font-weight: 300;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 275, ../scss/design/_type.scss */
+  /* line 279, ../scss/design/_type.scss */
   blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
     font-size: 3rem;
   }
 }
-/* line 286, ../scss/design/_type.scss */
+/* line 290, ../scss/design/_type.scss */
 blockquote.quote-large cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 286, ../scss/design/_type.scss */
+  /* line 290, ../scss/design/_type.scss */
   blockquote.quote-large cite {
     font-size: 1.5rem;
   }
 }
 
-/* line 297, ../scss/design/_type.scss */
+/* line 301, ../scss/design/_type.scss */
 .tweet-this {
   color: #0ea9d6 !important;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5489,60 +5494,60 @@ blockquote.quote-large cite {
   display: block;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 297, ../scss/design/_type.scss */
+  /* line 301, ../scss/design/_type.scss */
   .tweet-this {
     font-size: 1.25rem;
     display: inline;
   }
 }
-/* line 309, ../scss/design/_type.scss */
+/* line 313, ../scss/design/_type.scss */
 .tweet-this:hover {
   color: #888 !important;
 }
 
-/* line 316, ../scss/design/_type.scss */
+/* line 320, ../scss/design/_type.scss */
 a p, a ul li, ul a li {
   color: #333333;
 }
 
-/* line 321, ../scss/design/_type.scss */
+/* line 325, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 327, ../scss/design/_type.scss */
+/* line 331, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 333, ../scss/design/_type.scss */
+/* line 337, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 333, ../scss/design/_type.scss */
+  /* line 337, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 343, ../scss/design/_type.scss */
+/* line 347, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 350, ../scss/design/_type.scss */
+/* line 354, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 355, ../scss/design/_type.scss */
+/* line 359, ../scss/design/_type.scss */
 p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5550,40 +5555,40 @@ p, ul li {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 355, ../scss/design/_type.scss */
+  /* line 359, ../scss/design/_type.scss */
   p, ul li {
     font-size: 1.25rem;
   }
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 367, ../scss/design/_type.scss */
+  /* line 371, ../scss/design/_type.scss */
   .page-section p, .page-section ul li, ul .page-section li, .page-section ul, .page-section li {
     font-size: 1rem;
   }
 }
 
-/* line 375, ../scss/design/_type.scss */
+/* line 379, ../scss/design/_type.scss */
 .detail, ul li {
   font-size: 0.9375rem;
 }
 
-/* line 380, ../scss/design/_type.scss */
+/* line 384, ../scss/design/_type.scss */
 ul li {
   margin-bottom: 10px;
 }
 
-/* line 387, ../scss/design/_type.scss */
+/* line 391, ../scss/design/_type.scss */
 .detail li, ul li li {
   margin-bottom: 0;
 }
 
-/* line 392, ../scss/design/_type.scss */
+/* line 396, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 398, ../scss/design/_type.scss */
+/* line 402, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5592,12 +5597,12 @@ ul li {
   font-weight: 300;
 }
 
-/* line 404, ../scss/design/_type.scss */
+/* line 408, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 410, ../scss/design/_type.scss */
+/* line 414, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2,
@@ -5605,7 +5610,7 @@ ul li {
   color: #b9252d;
 }
 
-/* line 414, ../scss/design/_type.scss */
+/* line 418, ../scss/design/_type.scss */
 iframe {
   max-width: 100%;
 }
