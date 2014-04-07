@@ -17,6 +17,9 @@
   image_large: http://s3.amazonaws.com/lcapi.production/series/the-counselor/1200x800.jpg?1396290667
   image_social: http://s3.amazonaws.com/lcapi.production/series/the-counselor/400x400.jpg?1396290604
   messages:
+  - title: Do You Believe I Can Do This?
+    headline: ''
+    video: ''
   - title: Why Are You So Afraid?
     headline: ''
     video: py2g4yg22p
