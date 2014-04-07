@@ -5,17 +5,13 @@
     color: $red;
     text-align: center;
     font-size: rem-calc(20);
-    //margin: 0 auto -35px;
+    margin: 0 auto -35px;
     font-family: $body-font-family;
 
     &:hover {
       border: 2px solid $red;
       color: $red;
       cursor: initial;
-    }
-
-    &.small {
-      font-size: rem-calc(14);
     }
   }
 

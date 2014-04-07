@@ -8946,6 +8946,7 @@ input.gsc-search-button:hover {
   color: #b9252d;
   text-align: center;
   font-size: 1.25rem;
+  margin: 0 auto -35px;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 11, ../scss/pages/_kids.scss */
@@ -8954,11 +8955,7 @@ input.gsc-search-button:hover {
   color: #b9252d;
   cursor: initial;
 }
-/* line 17, ../scss/pages/_kids.scss */
-.kids .grade.small {
-  font-size: 0.875rem;
-}
-/* line 22, ../scss/pages/_kids.scss */
+/* line 18, ../scss/pages/_kids.scss */
 .kids .kids-bg {
   background: #f4f4f4 url("/images/kids/kids-bg.jpg") center bottom no-repeat;
   background-size: 500px auto;
@@ -8967,14 +8964,14 @@ input.gsc-search-button:hover {
   margin-bottom: 25px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 22, ../scss/pages/_kids.scss */
+  /* line 18, ../scss/pages/_kids.scss */
   .kids .kids-bg {
     background-size: 1000px auto;
     padding-bottom: 280px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 35, ../scss/pages/_kids.scss */
+  /* line 31, ../scss/pages/_kids.scss */
   .kids .kids-bg h1, .kids .kids-bg .h1 {
     margin-top: 0;
   }
