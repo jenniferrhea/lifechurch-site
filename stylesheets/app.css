@@ -8977,21 +8977,21 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 18, ../scss/pages/_about.scss */
+/* line 17, ../scss/pages/_about.scss */
 .beliefs h1, .beliefs .h1 {
   padding-top: 70px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 18, ../scss/pages/_about.scss */
+  /* line 17, ../scss/pages/_about.scss */
   .beliefs h1, .beliefs .h1 {
     padding-top: 100px;
   }
 }
-/* line 26, ../scss/pages/_about.scss */
+/* line 25, ../scss/pages/_about.scss */
 .beliefs .row {
   position: relative;
 }
-/* line 29, ../scss/pages/_about.scss */
+/* line 28, ../scss/pages/_about.scss */
 .beliefs .about-bible {
   background-image: url("/images/about/about-bible.png");
   background-size: 528px 219px;
@@ -9003,13 +9003,13 @@ input.gsc-search-button:hover {
   z-index: 13;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 29, ../scss/pages/_about.scss */
+  /* line 28, ../scss/pages/_about.scss */
   .beliefs .about-bible {
     background-image: url("/images/about/about-bible@2x.png");
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 29, ../scss/pages/_about.scss */
+  /* line 28, ../scss/pages/_about.scss */
   .beliefs .about-bible {
     background-size: 200px auto;
     left: 0;
@@ -9018,7 +9018,7 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 29, ../scss/pages/_about.scss */
+  /* line 28, ../scss/pages/_about.scss */
   .beliefs .about-bible {
     width: 528px;
     height: 219px;
@@ -9027,27 +9027,27 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 29, ../scss/pages/_about.scss */
+  /* line 28, ../scss/pages/_about.scss */
   .beliefs .about-bible {
     right: -150px;
   }
 }
 
-/* line 63, ../scss/pages/_about.scss */
+/* line 62, ../scss/pages/_about.scss */
 .what-to-expect h1, .what-to-expect .h1 {
   padding-top: 110px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 63, ../scss/pages/_about.scss */
+  /* line 62, ../scss/pages/_about.scss */
   .what-to-expect h1, .what-to-expect .h1 {
     padding-top: 40px;
   }
 }
-/* line 71, ../scss/pages/_about.scss */
+/* line 70, ../scss/pages/_about.scss */
 .what-to-expect .row {
   position: relative;
 }
-/* line 74, ../scss/pages/_about.scss */
+/* line 73, ../scss/pages/_about.scss */
 .what-to-expect .about-coffee {
   background: url("/images/about/about-coffee.png") no-repeat;
   width: 200px;
@@ -9056,7 +9056,7 @@ input.gsc-search-button:hover {
   top: -20px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 74, ../scss/pages/_about.scss */
+  /* line 73, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     background-size: 200px auto;
     left: 0;
@@ -9065,7 +9065,7 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 74, ../scss/pages/_about.scss */
+  /* line 73, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     width: 229px;
     height: 169px;
@@ -9074,30 +9074,30 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 74, ../scss/pages/_about.scss */
+  /* line 73, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     right: -120px;
   }
 }
 
-/* line 107, ../scss/pages/_about.scss */
+/* line 106, ../scss/pages/_about.scss */
 .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
   margin-top: 10px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 105, ../scss/pages/_about.scss */
+  /* line 104, ../scss/pages/_about.scss */
   .jobs .section-jobs-top {
     background: url("/images/about/about-jobs.jpg") bottom center no-repeat;
     background-size: 1095px auto;
     height: 570px;
     border-bottom: 1px solid #ccc;
   }
-  /* line 117, ../scss/pages/_about.scss */
+  /* line 116, ../scss/pages/_about.scss */
   .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
     margin-top: 160px;
   }
 }
-/* line 124, ../scss/pages/_about.scss */
+/* line 123, ../scss/pages/_about.scss */
 .jobs .job-title {
   list-style: none;
   margin-left: -1.1rem;
@@ -9122,7 +9122,7 @@ input.gsc-search-button:hover {
     color: #ddd;
   }
 }*/
-/* line 154, ../scss/pages/_about.scss */
+/* line 153, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
 }
