@@ -6229,9 +6229,13 @@ html {
     display: inline-block;
   }
 }
+/* line 132, ../scss/design/_buttons.scss */
+.action:last-child {
+  margin-right: 0;
+}
 
 @media only screen and (max-width: 40em) {
-  /* line 135, ../scss/design/_buttons.scss */
+  /* line 139, ../scss/design/_buttons.scss */
   .infoicon {
     width: 70%;
     margin: 20px auto;
