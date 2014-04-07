@@ -9032,7 +9032,7 @@ input.gsc-search-button:hover {
   height: 200px;
   position: absolute;
   top: -20px;
-  z-index: 13;
+  z-index: 10;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 32, ../scss/pages/_about.scss */

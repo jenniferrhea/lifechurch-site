@@ -37,7 +37,7 @@
     height: 200px;
     position: absolute;
     top: -20px;
-    z-index: 13;
+    z-index: 10;
 
     @media #{$small-only} {
       background-size: 200px auto;
