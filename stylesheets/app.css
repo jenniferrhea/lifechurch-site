@@ -5348,16 +5348,15 @@ h1, .h1 {
 /* line 138, ../scss/design/_type.scss */
 h2, .h2, figcaption {
   font-size: 1.6rem;
-  margin-top: 20px !important;
-  margin-bottom: 30px;
+  margin-top: 25px !important;
+  margin-bottom: 15px;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 138, ../scss/design/_type.scss */
   h2, .h2, figcaption {
     font-size: 2.3rem;
-    margin-top: 40px !important;
+    margin-top: 50px !important;
     padding-bottom: .3em;
-    margin-bottom: 20px;
   }
 }
 
