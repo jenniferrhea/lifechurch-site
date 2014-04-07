@@ -127,10 +127,10 @@
     // Align actions on larger screens
     @media #{$medium-up} {
       display: inline-block;
-    }
-
-    &:last-child {
-      margin-right: 0
+      
+      &:last-child {
+        margin-right: 0
+      }
     }
   }
 

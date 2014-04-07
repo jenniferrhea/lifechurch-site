@@ -258,12 +258,14 @@ section: locations
 
     <!-- Content -->
     <div class="row padded">
-      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-        {% for item in location.missions %}
-        {% capture type %}Locations{% endcapture %}
-        {% include involved-item.html %}
-        {% endfor %}
-      </ul>
+      <div class="medium-12 columns">
+        <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+          {% for item in location.missions %}
+          {% capture type %}Locations{% endcapture %}
+          {% include involved-item.html %}
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </section>
 

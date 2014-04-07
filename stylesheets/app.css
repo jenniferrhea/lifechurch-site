@@ -6228,10 +6228,10 @@ html {
   .action {
     display: inline-block;
   }
-}
-/* line 132, ../scss/design/_buttons.scss */
-.action:last-child {
-  margin-right: 0;
+  /* line 131, ../scss/design/_buttons.scss */
+  .action:last-child {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 40em) {
