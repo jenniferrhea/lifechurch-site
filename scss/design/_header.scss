@@ -16,6 +16,14 @@
   }
 }
 
+.home .logo {
+  @media #{$small-only} {
+    margin: -3px auto 0;
+    left: -5px;
+  }
+}
+
+
 // Logo Variations
 
   // Light logo

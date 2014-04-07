@@ -6,10 +6,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: #fff;
   color: $body-font-color;
-
-  @media #{$small-only} {
-    text-align: center;
-  }
+  padding-left: 0;
+  padding-right: 0;
 
   &.alert {
     background: $red;
@@ -26,3 +24,15 @@
 .alert .announcement-link {
   color: #fff;
 }
+
+@media #{$small-only} {
+  .has-alerts.home .alert-box {
+    top: 60px;
+  }
+
+  .has-alerts.home .page-header {
+    top: -50px;
+    position: relative;
+  }
+}
+

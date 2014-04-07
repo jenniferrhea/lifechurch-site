@@ -138,11 +138,13 @@ body {
   h2 {
     font-size:1.6rem;
     margin-top: 20px !important;
+    margin-bottom: 30px;
 
     @media #{$medium-up} {
       font-size:2.3rem;
       margin-top: 40px !important;
       padding-bottom: .3em;
+      margin-bottom: 20px;
     }
   }
 
@@ -162,6 +164,10 @@ body {
 
   h4 {
     margin-top: .5em;
+
+    @media #{$small-only} {
+      font-weight: bold;
+    }
   }
 
   .h4 {
@@ -192,7 +198,6 @@ body {
   .h6 {
     @extend h6;
   }
-
 
 // Figcaption
 
@@ -357,6 +362,14 @@ p {
   }
 }
 
+.page-section {
+  p, ul, li {
+    @media #{$small-only} {
+      font-size: 1rem;
+    }
+  }
+}
+
 // Smaller paragraph
 .detail {
   font-size: rem-calc(15);
@@ -395,4 +408,8 @@ ul li {
 .header-red h1,
 .header-red h2 {
   color: $red;
+}
+
+iframe {
+  max-width: 100%;
 }

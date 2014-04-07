@@ -87,7 +87,7 @@
     <!-- Page Header -->
     <header class="page-header">
       <div class="row">
-        <div class="small-4 medium-3 large-3 columns">
+        {% if page.section == "home" %}<div class="small-12 medium-3 large-3 columns">{% else %}<div class="small-4 medium-3 large-3 columns">{% endif %}
           <!-- Site Title -->
           <a class="logo" href="/"><span>LifeChurch.tv</span></a>
         </div>
