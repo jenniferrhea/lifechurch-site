@@ -7,7 +7,7 @@
       {% for message in series.messages %}
 
       <div class="row message">
-        <a href="javascript:void(0);" data-video-player="{{message.video}}">
+        <a href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message”');">
         <div class="small-1 medium-3 columns">
           <h4>
             <span class="hide-for-small">{% cycle 'Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6' %}</span>
