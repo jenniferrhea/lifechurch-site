@@ -304,4 +304,9 @@ $(function() {
     });
   });
 
+  
+  if ($(window).width() < 960) {
+    $('.watch-resources.button').appendTo('.watch-messages').addClass('expand inverse white').wrap('<div class="row"><div class="small-12 columns"></div></div>');
+  }
+
 });
