@@ -5,9 +5,13 @@
 
   .who-we-are-bg {
     @include background-image-2x-jpg('/images/about/whoweare-bg');
-    background-size: 1500px 650px;
+    background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+
+    @media #{$medium-up} {
+      background-size: 1500px 650px;
+    }
   }
 }
 

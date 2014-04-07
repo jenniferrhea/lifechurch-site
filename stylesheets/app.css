@@ -5200,6 +5200,12 @@ th.hide-for-touch {
   content: '\e80a';
 }
 
+/* line 80, ../scss/design/_fonts.scss */
+.icon-close:before {
+  z-index: 90;
+  position: relative;
+}
+
 /* line 2, ../scss/design/_type.scss */
 .text-primary {
   color: #0ea9d6 !important;
@@ -6522,14 +6528,26 @@ button.dropdown::before {
   width: 100%;
   margin-top: -20px;
 }
-/* line 23, ../scss/design/_video-player.scss */
+@media only screen and (max-width: 40em) {
+  /* line 23, ../scss/design/_video-player.scss */
+  .video-player .video-player-inner {
+    margin-top: 57px;
+  }
+}
+/* line 29, ../scss/design/_video-player.scss */
 .video-player .video-player-inner .social {
   position: absolute;
-  top: 15px;
+  top: 19px;
   left: 15px;
-  width: 50%;
+  width: 70%;
 }
-/* line 32, ../scss/design/_video-player.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 29, ../scss/design/_video-player.scss */
+  .video-player .video-player-inner .social {
+    top: 15px;
+  }
+}
+/* line 42, ../scss/design/_video-player.scss */
 .video-player .button-twitter,
 .video-player .button-facebook,
 .video-player .button-gplus {
@@ -6537,11 +6555,15 @@ button.dropdown::before {
   display: block;
   float: left;
 }
-/* line 38, ../scss/design/_video-player.scss */
+/* line 48, ../scss/design/_video-player.scss */
+.video-player #___plus_0 {
+  width: 62px !important;
+}
+/* line 52, ../scss/design/_video-player.scss */
 .video-player .button-gplus iframe {
   width: 60px !important;
 }
-/* line 42, ../scss/design/_video-player.scss */
+/* line 56, ../scss/design/_video-player.scss */
 .video-player .close {
   color: #fff;
   font-size: 2em;
@@ -6552,7 +6574,7 @@ button.dropdown::before {
   cursor: pointer;
 }
 
-/* line 54, ../scss/design/_video-player.scss */
+/* line 68, ../scss/design/_video-player.scss */
 .noscroll {
   overflow: hidden;
 }
@@ -8966,7 +8988,7 @@ input.gsc-search-button:hover {
 /* line 6, ../scss/pages/_about.scss */
 .who-we-are .who-we-are-bg {
   background-image: url("/images/about/whoweare-bg.jpg");
-  background-size: 1500px 650px;
+  background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
 }
@@ -8976,22 +8998,28 @@ input.gsc-search-button:hover {
     background-image: url("/images/about/whoweare-bg@2x.jpg");
   }
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 6, ../scss/pages/_about.scss */
+  .who-we-are .who-we-are-bg {
+    background-size: 1500px 650px;
+  }
+}
 
-/* line 17, ../scss/pages/_about.scss */
+/* line 21, ../scss/pages/_about.scss */
 .beliefs h1, .beliefs .h1 {
   padding-top: 70px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 17, ../scss/pages/_about.scss */
+  /* line 21, ../scss/pages/_about.scss */
   .beliefs h1, .beliefs .h1 {
     padding-top: 100px;
   }
 }
-/* line 25, ../scss/pages/_about.scss */
+/* line 29, ../scss/pages/_about.scss */
 .beliefs .row {
   position: relative;
 }
-/* line 28, ../scss/pages/_about.scss */
+/* line 32, ../scss/pages/_about.scss */
 .beliefs .about-bible {
   background-image: url("/images/about/about-bible.png");
   background-size: 528px 219px;
@@ -9003,13 +9031,13 @@ input.gsc-search-button:hover {
   z-index: 13;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 28, ../scss/pages/_about.scss */
+  /* line 32, ../scss/pages/_about.scss */
   .beliefs .about-bible {
     background-image: url("/images/about/about-bible@2x.png");
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 28, ../scss/pages/_about.scss */
+  /* line 32, ../scss/pages/_about.scss */
   .beliefs .about-bible {
     background-size: 200px auto;
     left: 0;
@@ -9018,7 +9046,7 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 28, ../scss/pages/_about.scss */
+  /* line 32, ../scss/pages/_about.scss */
   .beliefs .about-bible {
     width: 528px;
     height: 219px;
@@ -9027,27 +9055,27 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 28, ../scss/pages/_about.scss */
+  /* line 32, ../scss/pages/_about.scss */
   .beliefs .about-bible {
     right: -150px;
   }
 }
 
-/* line 62, ../scss/pages/_about.scss */
+/* line 66, ../scss/pages/_about.scss */
 .what-to-expect h1, .what-to-expect .h1 {
   padding-top: 110px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 62, ../scss/pages/_about.scss */
+  /* line 66, ../scss/pages/_about.scss */
   .what-to-expect h1, .what-to-expect .h1 {
     padding-top: 40px;
   }
 }
-/* line 70, ../scss/pages/_about.scss */
+/* line 74, ../scss/pages/_about.scss */
 .what-to-expect .row {
   position: relative;
 }
-/* line 73, ../scss/pages/_about.scss */
+/* line 77, ../scss/pages/_about.scss */
 .what-to-expect .about-coffee {
   background: url("/images/about/about-coffee.png") no-repeat;
   width: 200px;
@@ -9056,7 +9084,7 @@ input.gsc-search-button:hover {
   top: -20px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 73, ../scss/pages/_about.scss */
+  /* line 77, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     background-size: 200px auto;
     left: 0;
@@ -9065,7 +9093,7 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 73, ../scss/pages/_about.scss */
+  /* line 77, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     width: 229px;
     height: 169px;
@@ -9074,30 +9102,30 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 73, ../scss/pages/_about.scss */
+  /* line 77, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     right: -120px;
   }
 }
 
-/* line 106, ../scss/pages/_about.scss */
+/* line 110, ../scss/pages/_about.scss */
 .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
   margin-top: 10px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 104, ../scss/pages/_about.scss */
+  /* line 108, ../scss/pages/_about.scss */
   .jobs .section-jobs-top {
     background: url("/images/about/about-jobs.jpg") bottom center no-repeat;
     background-size: 1095px auto;
     height: 570px;
     border-bottom: 1px solid #ccc;
   }
-  /* line 116, ../scss/pages/_about.scss */
+  /* line 120, ../scss/pages/_about.scss */
   .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
     margin-top: 160px;
   }
 }
-/* line 123, ../scss/pages/_about.scss */
+/* line 127, ../scss/pages/_about.scss */
 .jobs .job-title {
   list-style: none;
   margin-left: -1.1rem;
@@ -9122,7 +9150,7 @@ input.gsc-search-button:hover {
     color: #ddd;
   }
 }*/
-/* line 153, ../scss/pages/_about.scss */
+/* line 157, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
 }

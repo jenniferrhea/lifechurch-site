@@ -76,3 +76,8 @@
   .icon-social-vine:before { content: '\e80e'; }
   .icon-social-youtube:before { content: '\e80f'; }
   .icon-social-gplus:before { content: '\e80a'; }
+
+  .icon-close:before {
+    z-index: 90;
+    position: relative;
+  }
