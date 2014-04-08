@@ -16,13 +16,14 @@
   }
 
   .kids-bg {
-    @include background-image-2x-jpg('/images/kids/kids-bg-large');
-    //background: url('/images/kids/kids-bg-large.jpg');
-    background-size: 500px auto;
+    @include background-image-2x-jpg('/images/kids/kids-bg-small');
+    background-size: 472px 408px;
     background-position: center top;
     background-repeat: no-repeat;
+    background-color: #eadcbf;
 
     @media #{$medium-up} {
+      @include background-image-2x-jpg('/images/kids/kids-bg-large');
       background-size: 1500px 876px;
 
       h1 {
@@ -36,13 +37,18 @@
   }
 
   #switch {
-    @include background-image-2x-jpg('/images/kids/switch-bg');
+    @include background-image-2x-jpg('/images/kids/switch-bg-small');
     background-color: #191913;
-    background-size: 1500px 403px;
+    background-size: 506px 403px;
     background-repeat: no-repeat;
     background-position: center top;
     padding-top: 180px;
     
+    @media #{$medium-up} {
+      @include background-image-2x-jpg('/images/kids/switch-bg');
+      background-size: 1500px 403px;
+    }
+
     .grade {
       color: lighten($red, 20%);
       border-color: lighten($red, 20%); 
