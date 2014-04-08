@@ -24,15 +24,3 @@
 .alert .announcement-link {
   color: #fff;
 }
-
-@media #{$small-only} {
-  .has-alerts.home .alert-box {
-    top: 60px;
-  }
-
-  .has-alerts.home .page-header {
-    top: -50px;
-    position: relative;
-  }
-}
-
