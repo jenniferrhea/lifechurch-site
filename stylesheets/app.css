@@ -5792,15 +5792,15 @@ html {
 }
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .logo {
-  background-image: url('/images/branding/logo-black-black.svg?1396902785');
+  background-image: url('/images/branding/logo-black-black.svg?1396972012');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .logo {
-  background-image: url('/images/branding/logo-black-black.png?1396902821');
+  background-image: url('/images/branding/logo-black-black.png?1396972012');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .logo {
-  background-image: url('/images/branding/logo-black-black.png?1396902821');
+  background-image: url('/images/branding/logo-black-black.png?1396972012');
 }
 @media only screen and (max-width: 40em) {
   /* line 4, ../scss/design/_header.scss */
@@ -5819,42 +5819,42 @@ html {
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .header-light .logo {
-  background-image: url('/images/branding/logo-white-white.svg?1396902721');
+  background-image: url('/images/branding/logo-white-white.svg?1396972012');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .header-light .logo {
-  background-image: url('/images/branding/logo-white-white.png?1396902821');
+  background-image: url('/images/branding/logo-white-white.png?1396972012');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .header-light .logo {
-  background-image: url('/images/branding/logo-white-white.png?1396902821');
+  background-image: url('/images/branding/logo-white-white.png?1396972012');
 }
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .header-red .logo {
-  background-image: url('/images/branding/logo-red-black.svg?1396902767');
+  background-image: url('/images/branding/logo-red-black.svg?1396972012');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .header-red .logo {
-  background-image: url('/images/branding/logo-red-black.png?1396902821');
+  background-image: url('/images/branding/logo-red-black.png?1396972012');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .header-red .logo {
-  background-image: url('/images/branding/logo-red-black.png?1396902821');
+  background-image: url('/images/branding/logo-red-black.png?1396972012');
 }
 
 @media only screen and (max-width: 40em) {
   /* line 5, ../scss/settings/_svgpng.scss */
   .svg .home .logo {
-    background-image: url('/images/branding/logo-red-white.svg?1396902743');
+    background-image: url('/images/branding/logo-red-white.svg?1396972012');
   }
   /* line 6, ../scss/settings/_svgpng.scss */
   .no-svg .home .logo {
-    background-image: url('/images/branding/logo-red-white.png?1396902821');
+    background-image: url('/images/branding/logo-red-white.png?1396972012');
   }
   /* line 7, ../scss/settings/_svgpng.scss */
   .no-js .home .logo {
-    background-image: url('/images/branding/logo-red-white.png?1396902821');
+    background-image: url('/images/branding/logo-red-white.png?1396972012');
   }
 }
 
@@ -6837,15 +6837,15 @@ input.gsc-search-button:hover {
   }
   /* line 5, ../scss/settings/_svgpng.scss */
   .svg .home .section-first.section-home h1, .svg .home .section-first.section-home .h1 {
-    background-image: url('/images/watch/2014-the-counselor/the-counselor-title.svg?1393966325');
+    background-image: url('/images/watch/2014-the-counselor/the-counselor-title.svg?1394555407');
   }
   /* line 6, ../scss/settings/_svgpng.scss */
   .no-svg .home .section-first.section-home h1, .no-svg .home .section-first.section-home .h1 {
-    background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394548819');
+    background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394555407');
   }
   /* line 7, ../scss/settings/_svgpng.scss */
   .no-js .home .section-first.section-home h1, .no-js .home .section-first.section-home .h1 {
-    background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394548819');
+    background-image: url('/images/watch/2014-the-counselor/the-counselor-title.png?1394555407');
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
@@ -7104,41 +7104,41 @@ input.gsc-search-button:hover {
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .watch-podcast:before {
-  background-image: url('/images/watch/watch-podcast.svg?1392045192');
+  background-image: url('/images/watch/watch-podcast.svg?1394555407');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .watch-podcast:before {
-  background-image: url('/images/watch/watch-podcast.png?1392045146');
+  background-image: url('/images/watch/watch-podcast.png?1394555407');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .watch-podcast:before {
-  background-image: url('/images/watch/watch-podcast.png?1392045146');
+  background-image: url('/images/watch/watch-podcast.png?1394555407');
 }
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .watch-talkitover:before {
-  background-image: url('/images/watch/watch-talkitover.svg?1396382197');
+  background-image: url('/images/watch/watch-talkitover.svg?1396644886');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .watch-talkitover:before {
-  background-image: url('/images/watch/watch-talkitover.png?1396382201');
+  background-image: url('/images/watch/watch-talkitover.png?1396644886');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .watch-talkitover:before {
-  background-image: url('/images/watch/watch-talkitover.png?1396382201');
+  background-image: url('/images/watch/watch-talkitover.png?1396644886');
 }
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .watch-open:before {
-  background-image: url('/images/watch/watch-open.svg?1392045170');
+  background-image: url('/images/watch/watch-open.svg?1394555407');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .watch-open:before {
-  background-image: url('/images/watch/watch-open.png?1392045171');
+  background-image: url('/images/watch/watch-open.png?1394555407');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .watch-open:before {
-  background-image: url('/images/watch/watch-open.png?1392045171');
+  background-image: url('/images/watch/watch-open.png?1394555407');
 }
 
 /* line 11, ../scss/pages/_locations.scss */
@@ -8679,6 +8679,15 @@ input.gsc-search-button:hover {
   }
 }
 
+/* line 236, ../scss/pages/_giving.scss */
+[data-stat-count] .stat {
+  display: none;
+}
+/* line 239, ../scss/pages/_giving.scss */
+[data-stat-count] .stat:first-child {
+  display: block;
+}
+
 @media only screen and (min-width: 40.063em) {
   /* line 5, ../scss/pages/_lifegroups.scss */
   .section-lifegroups-top {
@@ -9062,15 +9071,15 @@ input.gsc-search-button:hover {
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .who-we-are .logo {
-  background-image: url('/images/branding/logo-red-white.svg?1396902743');
+  background-image: url('/images/branding/logo-red-white.svg?1396972012');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .who-we-are .logo {
-  background-image: url('/images/branding/logo-red-white.png?1396902821');
+  background-image: url('/images/branding/logo-red-white.png?1396972012');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .who-we-are .logo {
-  background-image: url('/images/branding/logo-red-white.png?1396902821');
+  background-image: url('/images/branding/logo-red-white.png?1396972012');
 }
 @media only screen and (max-width: 40em) {
   /* line 7, ../scss/pages/_about.scss */

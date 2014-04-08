@@ -1,0 +1,10 @@
+<div data-stat-count>
+  {% for stat in site.data.stats %}
+  {% if stat.pages contains include.page %}
+    <div class="stat" data-number="{{stat.number}}">
+      <p class="number">{{stat.number}}</p>
+      <p>{{stat.title}}</p>
+    </div>
+  {% endif %}
+  {% endfor %}
+</div>

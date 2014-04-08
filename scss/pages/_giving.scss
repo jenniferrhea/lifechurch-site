@@ -230,3 +230,15 @@
     }
   }
 
+// Stat counter
+
+[data-stat-count] {
+  .stat {
+    display: none;
+
+    &:first-child {
+      display: block;
+    }
+  }
+}
+
