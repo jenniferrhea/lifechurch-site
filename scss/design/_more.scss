@@ -74,7 +74,6 @@
     display: block;
     margin: 0 -10px;
     padding: 0 10px;
-    @include border-radius(4px);
 
     @media #{$small-only} {
       padding: 10px;
@@ -102,4 +101,19 @@
 // More header positioning
 .page-more-inner h4 {
   margin: 7px 0 8px;
+}
+
+.more-watch-small {
+  margin: 0 -15px !important;
+  padding: 15px !important;
+}
+
+@media #{$small-only} {
+  .home .page-more {
+    margin-top: -15px !important;
+  }
+
+  .page-more h4 {
+    margin-bottom: 2px !important;
+  }
 }

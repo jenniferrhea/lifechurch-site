@@ -99,6 +99,31 @@
 
   }
 
+  
+  .section-giving-numbers {
+    background: #1e1e1e;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    @media #{$medium-up} {
+      padding-top: 6em;
+      padding-bottom: 6em;
+    }
+
+    .number {
+      @extend h2;
+      font-size: 3em;
+      color: #fff;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      margin-top: 0 !important;
+      
+      @media #{$medium-up} {
+        font-size: 5em;
+      }
+    }
+  }
+
 
 // Challenge
 
