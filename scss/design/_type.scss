@@ -265,7 +265,8 @@ body {
       color: #333;
 
       @media #{$medium-up} {
-        font-size: 2rem;
+        font-size: 2.3rem;
+        line-height: 1.4em;
       }
     }
 
@@ -377,6 +378,10 @@ p {
     @media #{$small-only} {
       font-size: 1rem;
     }
+  }
+
+  ul, li {
+    font-size: 1em;
   }
 }
 

@@ -3,14 +3,26 @@
     @include svg-image('/images/branding/logo-red-white');
   }
 
+  @media #{$small-only} {
+    h1 {
+      font-size: 1.5em;
+      margin-top: 15px;
+    }
+
+    .who-we-are-bg blockquote {
+      margin-top: 70px;
+    }
+  }
+
   .who-we-are-bg {
     @include background-image-2x-jpg('/images/about/whoweare-bg');
     background-size: cover;
-    background-position: center top;
+    background-position: -340px top;
     background-repeat: no-repeat;
 
     @media #{$medium-up} {
       background-size: 1500px 650px;
+      background-position: center top;
     }
   }
 }
