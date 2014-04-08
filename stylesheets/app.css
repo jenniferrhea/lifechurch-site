@@ -5398,78 +5398,83 @@ h6, .h6, label {
   font-weight: 600;
 }
 
-/* line 214, ../scss/design/_type.scss */
+/* line 215, ../scss/design/_type.scss */
+.subheader {
+  font-size: .9em;
+}
+
+/* line 222, ../scss/design/_type.scss */
 figcaption {
   font-size: 1.5rem;
   margin-top: 20px !important;
 }
 
-/* line 223, ../scss/design/_type.scss */
+/* line 231, ../scss/design/_type.scss */
 hr {
   max-width: 970px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 223, ../scss/design/_type.scss */
+  /* line 231, ../scss/design/_type.scss */
   hr {
     margin-left: 15px;
     margin-right: 15px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 223, ../scss/design/_type.scss */
+  /* line 231, ../scss/design/_type.scss */
   hr {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-/* line 237, ../scss/design/_type.scss */
+/* line 245, ../scss/design/_type.scss */
 hr.thin {
   margin-left: 30%;
   margin-right: 30%;
 }
 
-/* line 249, ../scss/design/_type.scss */
+/* line 257, ../scss/design/_type.scss */
 textarea {
   min-height: 200px;
 }
 
-/* line 256, ../scss/design/_type.scss */
+/* line 264, ../scss/design/_type.scss */
 blockquote {
   padding-left: 0;
   padding-right: 0;
   border: none;
   text-align: center;
 }
-/* line 262, ../scss/design/_type.scss */
+/* line 270, ../scss/design/_type.scss */
 blockquote p, blockquote ul li, ul blockquote li {
   font-size: 1.2rem;
   line-height: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 262, ../scss/design/_type.scss */
+  /* line 270, ../scss/design/_type.scss */
   blockquote p, blockquote ul li, ul blockquote li {
     font-size: 2.3rem;
     line-height: 1.4em;
   }
 }
-/* line 273, ../scss/design/_type.scss */
+/* line 281, ../scss/design/_type.scss */
 blockquote cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 273, ../scss/design/_type.scss */
+  /* line 281, ../scss/design/_type.scss */
   blockquote cite {
     font-size: 1.3rem;
   }
 }
-/* line 282, ../scss/design/_type.scss */
+/* line 290, ../scss/design/_type.scss */
 blockquote.quote-large {
   text-align: left;
 }
-/* line 285, ../scss/design/_type.scss */
+/* line 293, ../scss/design/_type.scss */
 blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
   font-size: 1.2rem;
   line-height: 1.3em;
@@ -5477,24 +5482,24 @@ blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-larg
   font-weight: 300;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 285, ../scss/design/_type.scss */
+  /* line 293, ../scss/design/_type.scss */
   blockquote.quote-large p, blockquote.quote-large ul li, ul blockquote.quote-large li {
     font-size: 3rem;
   }
 }
-/* line 296, ../scss/design/_type.scss */
+/* line 304, ../scss/design/_type.scss */
 blockquote.quote-large cite {
   font-size: 1rem;
   color: #b9252d;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 296, ../scss/design/_type.scss */
+  /* line 304, ../scss/design/_type.scss */
   blockquote.quote-large cite {
     font-size: 1.5rem;
   }
 }
 
-/* line 307, ../scss/design/_type.scss */
+/* line 315, ../scss/design/_type.scss */
 .tweet-this {
   color: #0ea9d6 !important;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5503,60 +5508,60 @@ blockquote.quote-large cite {
   display: block;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 307, ../scss/design/_type.scss */
+  /* line 315, ../scss/design/_type.scss */
   .tweet-this {
     font-size: 1.25rem;
     display: inline;
   }
 }
-/* line 319, ../scss/design/_type.scss */
+/* line 327, ../scss/design/_type.scss */
 .tweet-this:hover {
   color: #888 !important;
 }
 
-/* line 326, ../scss/design/_type.scss */
+/* line 334, ../scss/design/_type.scss */
 a p, a ul li, ul a li {
   color: #333333;
 }
 
-/* line 331, ../scss/design/_type.scss */
+/* line 339, ../scss/design/_type.scss */
 ul.no-disc {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 337, ../scss/design/_type.scss */
+/* line 345, ../scss/design/_type.scss */
 img.expand {
   width: 100%;
   height: auto;
 }
 
-/* line 343, ../scss/design/_type.scss */
+/* line 351, ../scss/design/_type.scss */
 .lead, .action.large {
   font-weight: 300;
   font-size: 1.2em !important;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 343, ../scss/design/_type.scss */
+  /* line 351, ../scss/design/_type.scss */
   .lead, .action.large {
     font-size: 1.7em !important;
   }
 }
 
-/* line 353, ../scss/design/_type.scss */
+/* line 361, ../scss/design/_type.scss */
 .underlined {
   padding-bottom: 10px;
   margin-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 360, ../scss/design/_type.scss */
+/* line 368, ../scss/design/_type.scss */
 .section-light .underlined {
   border-bottom: 1px solid rgba(225, 225, 225, 0.4) !important;
 }
 
-/* line 365, ../scss/design/_type.scss */
+/* line 373, ../scss/design/_type.scss */
 p, ul li {
   font-family: "ff-meta-serif-web-pro";
   color: #444;
@@ -5564,44 +5569,44 @@ p, ul li {
   line-height: 1.7;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 365, ../scss/design/_type.scss */
+  /* line 373, ../scss/design/_type.scss */
   p, ul li {
     font-size: 1.25rem;
   }
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 377, ../scss/design/_type.scss */
+  /* line 385, ../scss/design/_type.scss */
   .page-section p, .page-section ul li, ul .page-section li, .page-section ul, .page-section li {
     font-size: 1rem;
   }
 }
-/* line 383, ../scss/design/_type.scss */
+/* line 391, ../scss/design/_type.scss */
 .page-section ul, .page-section li {
   font-size: 1em;
 }
 
-/* line 389, ../scss/design/_type.scss */
+/* line 397, ../scss/design/_type.scss */
 .detail, ul li {
   font-size: 0.9375rem;
 }
 
-/* line 394, ../scss/design/_type.scss */
+/* line 402, ../scss/design/_type.scss */
 ul li {
   margin-bottom: 10px;
 }
 
-/* line 401, ../scss/design/_type.scss */
+/* line 409, ../scss/design/_type.scss */
 .detail li, ul li li {
   margin-bottom: 0;
 }
 
-/* line 406, ../scss/design/_type.scss */
+/* line 414, ../scss/design/_type.scss */
 .tertiary-nav a {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 412, ../scss/design/_type.scss */
+/* line 420, ../scss/design/_type.scss */
 .action,
 .message h6,
 .message .h6,
@@ -5610,12 +5615,12 @@ ul li {
   font-weight: 300;
 }
 
-/* line 418, ../scss/design/_type.scss */
+/* line 426, ../scss/design/_type.scss */
 .page-footer p, .page-footer ul li, ul .page-footer li {
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 424, ../scss/design/_type.scss */
+/* line 432, ../scss/design/_type.scss */
 .header-red h1, .header-red .h1,
 .header-red h2,
 .header-red .h2,
@@ -5625,7 +5630,7 @@ ul li {
   color: #b9252d;
 }
 
-/* line 428, ../scss/design/_type.scss */
+/* line 436, ../scss/design/_type.scss */
 iframe {
   max-width: 100%;
 }
@@ -8405,7 +8410,7 @@ input.gsc-search-button:hover {
   background-image: url("/images/giving/giving-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 100%;
+  background-size: cover;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 20, ../scss/pages/_giving.scss */
@@ -8501,22 +8506,28 @@ input.gsc-search-button:hover {
   text-align: center;
   font-size: 1.4375rem;
   padding-top: 10px;
-  margin: 0 auto -35px;
+  margin: 0 auto -15px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 72, ../scss/pages/_giving.scss */
+  .giving-1 {
+    margin: 0 auto -35px;
+  }
 }
 
-/* line 84, ../scss/pages/_giving.scss */
+/* line 88, ../scss/pages/_giving.scss */
 .figure-spacesplaces {
   padding-top: 30px;
   margin: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 84, ../scss/pages/_giving.scss */
+  /* line 88, ../scss/pages/_giving.scss */
   .figure-spacesplaces {
     padding-top: 30px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 84, ../scss/pages/_giving.scss */
+  /* line 88, ../scss/pages/_giving.scss */
   .figure-spacesplaces {
     border: 2px solid #ccc;
     border-radius: 2000px;
@@ -8526,20 +8537,20 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 103, ../scss/pages/_giving.scss */
+/* line 107, ../scss/pages/_giving.scss */
 .section-giving-numbers {
   background: #1e1e1e;
   padding-top: 3em;
   padding-bottom: 3em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 103, ../scss/pages/_giving.scss */
+  /* line 107, ../scss/pages/_giving.scss */
   .section-giving-numbers {
     padding-top: 6em;
     padding-bottom: 6em;
   }
 }
-/* line 113, ../scss/pages/_giving.scss */
+/* line 117, ../scss/pages/_giving.scss */
 .section-giving-numbers .number {
   font-size: 3em;
   color: #fff;
@@ -8548,78 +8559,78 @@ input.gsc-search-button:hover {
   margin-top: 0 !important;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 113, ../scss/pages/_giving.scss */
+  /* line 117, ../scss/pages/_giving.scss */
   .section-giving-numbers .number {
     font-size: 5em;
   }
 }
 
-/* line 130, ../scss/pages/_giving.scss */
+/* line 134, ../scss/pages/_giving.scss */
 .section-challenge-video {
   background: #333;
 }
 
-/* line 138, ../scss/pages/_giving.scss */
+/* line 142, ../scss/pages/_giving.scss */
 .restore blockquote cite {
   color: #e0646b;
 }
-/* line 142, ../scss/pages/_giving.scss */
+/* line 146, ../scss/pages/_giving.scss */
 .restore .primary-links .live {
   color: #641418 !important;
 }
 
-/* line 147, ../scss/pages/_giving.scss */
+/* line 151, ../scss/pages/_giving.scss */
 .section-restore-1 {
   background: black url("/images/giving/restore-bg-1.jpg") center bottom no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 147, ../scss/pages/_giving.scss */
+  /* line 151, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 250px;
     padding-bottom: 50px;
   }
 }
 @media only screen and (min-height: 620px) {
-  /* line 147, ../scss/pages/_giving.scss */
+  /* line 151, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 350px;
     padding-bottom: 80px;
   }
 }
 
-/* line 163, ../scss/pages/_giving.scss */
+/* line 167, ../scss/pages/_giving.scss */
 .section-restore-2 {
   background: #222;
 }
 
-/* line 167, ../scss/pages/_giving.scss */
+/* line 171, ../scss/pages/_giving.scss */
 .hphoto-restore {
   background-image: url("/images/giving/restore-bg-2.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 167, ../scss/pages/_giving.scss */
+  /* line 171, ../scss/pages/_giving.scss */
   .hphoto-restore {
     background-image: url("/images/giving/restore-bg-2@2x.jpg");
   }
 }
 
-/* line 173, ../scss/pages/_giving.scss */
+/* line 177, ../scss/pages/_giving.scss */
 .section-restore-3 {
   background: #222;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 173, ../scss/pages/_giving.scss */
+  /* line 177, ../scss/pages/_giving.scss */
   .section-restore-3 {
     padding-top: 5em;
     padding-bottom: 4em;
   }
 }
 
-/* line 186, ../scss/pages/_giving.scss */
+/* line 190, ../scss/pages/_giving.scss */
 .digital-missions .digital-missions-bg {
   height: 600px;
   background-image: url("/images/digital-missions/dm-bg.jpg");
@@ -8629,37 +8640,37 @@ input.gsc-search-button:hover {
   background-position: center bottom;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 186, ../scss/pages/_giving.scss */
+  /* line 190, ../scss/pages/_giving.scss */
   .digital-missions .digital-missions-bg {
     background-image: url("/images/digital-missions/dm-bg@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 186, ../scss/pages/_giving.scss */
+  /* line 190, ../scss/pages/_giving.scss */
   .digital-missions .digital-missions-bg {
     background-size: 1500px 450px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 199, ../scss/pages/_giving.scss */
+  /* line 203, ../scss/pages/_giving.scss */
   .digital-missions .biblekids {
     margin-top: -180px;
   }
 }
 
-/* line 209, ../scss/pages/_giving.scss */
+/* line 213, ../scss/pages/_giving.scss */
 .equipping-churches h2, .equipping-churches .h2, .equipping-churches figcaption, .equipping-churches .section-giving-numbers .number, .section-giving-numbers .equipping-churches .number {
   margin-top: 15px !important;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 213, ../scss/pages/_giving.scss */
+  /* line 217, ../scss/pages/_giving.scss */
   .equipping-churches .digital-missions-bg {
     height: 750px;
   }
 }
 
-/* line 222, ../scss/pages/_giving.scss */
+/* line 226, ../scss/pages/_giving.scss */
 .hphoto-lifemissions-2 {
   background-image: url("/images/lifemissions/lm-bg-2.jpg");
   background-repeat: no-repeat;
@@ -8667,13 +8678,13 @@ input.gsc-search-button:hover {
   background-size: auto 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 222, ../scss/pages/_giving.scss */
+  /* line 226, ../scss/pages/_giving.scss */
   .hphoto-lifemissions-2 {
     background-image: url("/images/lifemissions/lm-bg-2@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 222, ../scss/pages/_giving.scss */
+  /* line 226, ../scss/pages/_giving.scss */
   .hphoto-lifemissions-2 {
     background-size: 1500px 550px;
   }
@@ -9049,24 +9060,73 @@ input.gsc-search-button:hover {
 }
 /* line 18, ../scss/pages/_kids.scss */
 .kids .kids-bg {
-  background: #f4f4f4 url("/images/kids/kids-bg.jpg") center bottom no-repeat;
-  background-size: 500px auto;
-  padding-bottom: 140px;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 25px;
+  background-image: url("/images/kids/kids-bg-small.jpg");
+  background-size: 472px 408px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #eadcbf;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 18, ../scss/pages/_kids.scss */
+  .kids .kids-bg {
+    background-image: url("/images/kids/kids-bg-small@2x.jpg");
+  }
 }
 @media only screen and (min-width: 40.063em) {
   /* line 18, ../scss/pages/_kids.scss */
   .kids .kids-bg {
-    background-size: 1000px auto;
-    padding-bottom: 280px;
+    background-image: url("/images/kids/kids-bg-large.jpg");
+    background-size: 1500px 876px;
+  }
+  /* line 29, ../scss/pages/_kids.scss */
+  .kids .kids-bg h1, .kids .kids-bg .h1 {
+    margin-top: 410px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
+  /* line 18, ../scss/pages/_kids.scss */
+  .kids .kids-bg {
+    background-image: url("/images/kids/kids-bg-large@2x.jpg");
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 31, ../scss/pages/_kids.scss */
+  /* line 35, ../scss/pages/_kids.scss */
   .kids .kids-bg h1, .kids .kids-bg .h1 {
     margin-top: 0;
   }
+}
+/* line 39, ../scss/pages/_kids.scss */
+.kids #switch {
+  background-image: url("/images/kids/switch-bg-small.jpg");
+  background-color: #191913;
+  background-size: 506px 403px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 180px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 39, ../scss/pages/_kids.scss */
+  .kids #switch {
+    background-image: url("/images/kids/switch-bg-small@2x.jpg");
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 39, ../scss/pages/_kids.scss */
+  .kids #switch {
+    background-image: url("/images/kids/switch-bg.jpg");
+    background-size: 1500px 403px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
+  /* line 39, ../scss/pages/_kids.scss */
+  .kids #switch {
+    background-image: url("/images/kids/switch-bg@2x.jpg");
+  }
+}
+/* line 52, ../scss/pages/_kids.scss */
+.kids #switch .grade {
+  color: #e0646b;
+  border-color: #e0646b;
 }
 
 /* line 5, ../scss/settings/_svgpng.scss */

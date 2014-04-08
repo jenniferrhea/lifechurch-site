@@ -21,7 +21,7 @@
     @include background-image-2x-jpg('/images/giving/giving-bg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto 100%;
+    background-size: cover;
 
     @media #{$medium-up} {
       background-size: 1500px 450px;
@@ -78,7 +78,11 @@
     text-align: center;
     font-size: rem-calc(23);
     padding-top: 10px;
-    margin: 0 auto -35px;
+    margin: 0 auto -15px;
+
+    @media #{$medium-up} {
+      margin: 0 auto -35px;
+    }
   }
 
   .figure-spacesplaces {

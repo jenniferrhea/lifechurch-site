@@ -16,19 +16,43 @@
   }
 
   .kids-bg {
-    background: #f4f4f4 url("/images/kids/kids-bg.jpg") center bottom no-repeat;
-    background-size: 500px auto;
-    padding-bottom: 140px;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 25px;
+    @include background-image-2x-jpg('/images/kids/kids-bg-small');
+    background-size: 472px 408px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #eadcbf;
 
     @media #{$medium-up} {
-      background-size: 1000px auto;
-      padding-bottom: 280px;
+      @include background-image-2x-jpg('/images/kids/kids-bg-large');
+      background-size: 1500px 876px;
+
+      h1 {
+        margin-top: 410px;
+      }
     }
 
     @media #{$small-only} {
       h1 { margin-top: 0; }
     }
   }
+
+  #switch {
+    @include background-image-2x-jpg('/images/kids/switch-bg-small');
+    background-color: #191913;
+    background-size: 506px 403px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 180px;
+    
+    @media #{$medium-up} {
+      @include background-image-2x-jpg('/images/kids/switch-bg');
+      background-size: 1500px 403px;
+    }
+
+    .grade {
+      color: lighten($red, 20%);
+      border-color: lighten($red, 20%); 
+    }
+  }
+
 }
