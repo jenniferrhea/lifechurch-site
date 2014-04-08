@@ -8690,13 +8690,22 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 236, ../scss/pages/_giving.scss */
+/* line 240, ../scss/pages/_giving.scss */
 [data-stat-count] .stat {
-  display: none;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
-/* line 239, ../scss/pages/_giving.scss */
+/* line 250, ../scss/pages/_giving.scss */
 [data-stat-count] .stat:first-child {
-  display: block;
+  opacity: 1;
+  height: auto;
+  width: auto;
 }
 
 @media only screen and (min-width: 40.063em) {
