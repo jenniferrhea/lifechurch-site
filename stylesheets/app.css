@@ -9051,24 +9051,52 @@ input.gsc-search-button:hover {
 }
 /* line 18, ../scss/pages/_kids.scss */
 .kids .kids-bg {
-  background: #f4f4f4 url("/images/kids/kids-bg.jpg") center bottom no-repeat;
+  background-image: url("/images/kids/kids-bg-large.jpg");
   background-size: 500px auto;
-  padding-bottom: 140px;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 25px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 18, ../scss/pages/_kids.scss */
+  .kids .kids-bg {
+    background-image: url("/images/kids/kids-bg-large@2x.jpg");
+  }
 }
 @media only screen and (min-width: 40.063em) {
   /* line 18, ../scss/pages/_kids.scss */
   .kids .kids-bg {
-    background-size: 1000px auto;
-    padding-bottom: 280px;
+    background-size: 1500px 876px;
+  }
+  /* line 28, ../scss/pages/_kids.scss */
+  .kids .kids-bg h1, .kids .kids-bg .h1 {
+    margin-top: 410px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 31, ../scss/pages/_kids.scss */
+  /* line 34, ../scss/pages/_kids.scss */
   .kids .kids-bg h1, .kids .kids-bg .h1 {
     margin-top: 0;
   }
+}
+/* line 38, ../scss/pages/_kids.scss */
+.kids #switch {
+  background-image: url("/images/kids/switch-bg.jpg");
+  background-color: #191913;
+  background-size: 1500px 403px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 180px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 38, ../scss/pages/_kids.scss */
+  .kids #switch {
+    background-image: url("/images/kids/switch-bg@2x.jpg");
+  }
+}
+/* line 46, ../scss/pages/_kids.scss */
+.kids #switch .grade {
+  color: #e0646b;
+  border-color: #e0646b;
 }
 
 /* line 5, ../scss/settings/_svgpng.scss */
