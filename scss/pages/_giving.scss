@@ -1,5 +1,22 @@
 // Giving page section styles
 
+  .giving-bg {
+    @include background-image-2x-jpg('/images/giving/giving-bg');
+    background-size: cover;
+    background-position: center bottom;
+    
+    @media #{$medium-up} {
+      h1 {
+        margin-top: 2.5em;
+      }
+    }
+
+    .button {
+      background: #fff;
+      color: #b72f3a;
+    }
+  }
+
   .hphoto-giving-tithe {
     @include background-image-2x-jpg('/images/giving/giving-bg');
     background-repeat: no-repeat;
