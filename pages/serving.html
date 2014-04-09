@@ -2,12 +2,10 @@
 layout: default
 title: Serving Opportunities
 permalink: /serving/
-class: serving header-light
+class: serving header-red
 ---
 
-<figure class="hphoto hphoto-top hphoto-serving" data-stellar-background-ratio="0.9"></figure>
-
-<section class="page-section">
+<section class="page-section section-first serving-bg">
   <div class="row">
     <div class="medium-10 medium-centered text-center columns">
       <h1>God wants to use you to make a difference.</h1>
@@ -18,9 +16,7 @@ class: serving header-light
       <p>Whether you're good with numbers, words, technology, or people, God wants to use your gifts and skills to make a difference. There are several opportunties to serve at LifeChurch.tv no matter where you are in the world&mdash;including a local campus, Church Online, or at the Central Support Offices in Oklahoma.</p>
     </div>
   </div>
-  </section>
-
-  <hr />
+</section>
 
 <section class="page-section" id="campus">
   <div class="row">
@@ -40,7 +36,31 @@ class: serving header-light
 
 </section>
 
-<section class="page-section" id="church-online">
+<section class="page-section section-alt" id="digital-missions">
+  <div class="row">
+    <div class="large-8 large-centered text-center columns">
+      <h2>Support LifeChurch.tv at our Central Offices.</h2>
+      <p>Based in Edmond, Oklahoma, Central Teams offer support and resources for all LifeChurch.tv campuses and ministries. Through LifeKids, LifeGroups, Information Technology, Finance, and Digerati you can be a part of equipping the local campuses and the global Church.</p>
+    </div>
+  </div>
+
+  <div class="row padded">
+    <div class="large-12 columns">
+
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+        {% for item in site.data.serving %}
+        {% if item.location == "Central" %}
+        {% capture type %}Serving{% endcapture %}
+        {% include involved-item.html %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<section class="page-section section-last" id="church-online">
   <div class="row">
     <div class="large-8 large-centered text-center columns section-light">
       <h2>Reach the world through Church Online.</h2>
@@ -55,30 +75,6 @@ class: serving header-light
       <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
         {% for item in site.data.serving %}
         {% if item.location == "Online" %}
-        {% capture type %}Serving{% endcapture %}
-        {% include involved-item.html %}
-        {% endif %}
-        {% endfor %}
-      </ul>
-
-    </div>
-  </div>
-</section>
-
-<section class="page-section" id="digital-missions">
-  <div class="row">
-    <div class="large-8 large-centered text-center columns">
-      <h2>Support LifeChurch.tv at our Central Offices.</h2>
-      <p>Based in Edmond, Oklahoma, Central Teams offer support and resources for all LifeChurch.tv campuses and ministries. Through LifeKids, LifeGroups, Information Technology, Finance, and Digerati you can be a part of equipping the local campuses and the global Church.</p>
-    </div>
-  </div>
-
-  <div class="row padded">
-    <div class="large-12 columns">
-
-      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-        {% for item in site.data.serving %}
-        {% if item.location == "Central" %}
         {% capture type %}Serving{% endcapture %}
         {% include involved-item.html %}
         {% endif %}

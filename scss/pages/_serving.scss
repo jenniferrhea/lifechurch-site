@@ -9,6 +9,20 @@
   }
 }
 
+.serving-bg {
+  @include background-image-2x-jpg('/images/serving/serving-bg');
+  background-repeat: no-repeat !important;
+  background-position: bottom center !important;
+  background-size: cover;
+  background: #f5f3e7;
+
+  @media #{$medium-up} {
+    background-size: 1500px 725px;
+    padding-bottom: 420px;
+  }
+
+}
+
 #church-online {
   @include background-image-2x-jpg('/images/serving/serving-online-bg');
   background-repeat: no-repeat;
