@@ -2,6 +2,7 @@
   {% for stat in site.data.stats %}
   {% if stat.pages contains include.page %}
     <div class="stat" data-number="{{stat.number}}">
+      <img src="/images/giving/{{stat.icon}}" alt="" />
       <p class="number">{{stat.number}}</p>
       <p>{{stat.title}}</p>
     </div>
