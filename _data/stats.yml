@@ -1,24 +1,32 @@
 - title: Lives Changed in 2013
   number: "41,135"
   pages: "giving"
+  icon: "heart.png"
 - title: Average Attendance 2013
   number: "51,604"
   pages: "giving"
+  icon: "church.png"
 - title: Lives Changed at Church Online
   number: "9,842"
   pages: "giving"
+  icon: "chop.png"
 - title: People Baptized in 2013
   number: "3,357"
   pages: "giving"
+  icon: "water.png"
 - title: YouVersion Installs
   number: "123,500,000"
   pages: "digital-missions"
+  icon: "bible.png"
 - title: Open Downloads
   number: "1,116,610"
   pages: "digital-missions"
+  icon: "open.png"
 - title: Total 2013 Church Online Visitors
   number: "5,767,627"
   pages: "digital-missions"
+  icon: "chop.png"
 - title: Prayers through Church Online Live Prayer
   number: "90,500"
   pages: "digital-missions"
+  icon: "chop.png"
