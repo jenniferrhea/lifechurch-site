@@ -256,7 +256,7 @@ $(function() {
   //replaces links that should go straight to the campus pages
   $('[data-my-campus]').each(function(index) {
     if (Modernizr.localstorage && localStorage["myCampus"]) {
-      $(this).attr('href',"/locations/" + localStorage["myCampus"] + $(this).data("my-campus"));
+      $(this).attr('href',"/locations/" + localStorage["myCampus"] + "/" + $(this).data("my-campus"));
     }
   });
 
