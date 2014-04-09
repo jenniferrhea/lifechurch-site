@@ -124,10 +124,11 @@
     }
 
     @media #{$medium-up} {
-      background: url('/images/about/about-jobs.jpg') bottom center no-repeat;
-      background-size: 1095px auto;
+      @include background-image-2x-jpg('/images/jobs/jobs-bg');
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: 1500px auto;
       height: 570px;
-      border-bottom: 1px solid #ccc;
 
       h1 {
         margin-top: 160px;
