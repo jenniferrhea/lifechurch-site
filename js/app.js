@@ -310,3 +310,18 @@ $(function() {
   }
 
 });
+
+$(window).bind("load", function() {
+ 
+  if ($(window).width() > 960) {
+    var maxHeight = 0;
+    
+    $(".section-locations .involved-list .panel > .detail").each(function() {
+      if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+      console.log($(this).height());
+    });
+
+    $(".section-locations .involved-list .panel > .detail").height(maxHeight);
+  }
+
+});
