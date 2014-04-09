@@ -1,0 +1,10 @@
+.hphoto-serving {
+  @include background-image-2x-jpg('/images/serving/serving-bg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media #{$medium-up} {
+    background-size: 1500px 450px;
+  }
+}
