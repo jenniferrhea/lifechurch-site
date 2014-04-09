@@ -9312,17 +9312,24 @@ input.gsc-search-button:hover {
 @media only screen and (min-width: 40.063em) {
   /* line 120, ../scss/pages/_about.scss */
   .jobs .section-jobs-top {
-    background: url("/images/about/about-jobs.jpg") bottom center no-repeat;
-    background-size: 1095px auto;
+    background-image: url("/images/jobs/jobs-bg.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1500px auto;
     height: 570px;
-    border-bottom: 1px solid #ccc;
   }
-  /* line 132, ../scss/pages/_about.scss */
+  /* line 133, ../scss/pages/_about.scss */
   .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
     margin-top: 160px;
   }
 }
-/* line 139, ../scss/pages/_about.scss */
+@media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
+  /* line 120, ../scss/pages/_about.scss */
+  .jobs .section-jobs-top {
+    background-image: url("/images/jobs/jobs-bg@2x.jpg");
+  }
+}
+/* line 140, ../scss/pages/_about.scss */
 .jobs .job-title {
   list-style: none;
   margin-left: -1.1rem;
@@ -9347,7 +9354,7 @@ input.gsc-search-button:hover {
     color: #ddd;
   }
 }*/
-/* line 169, ../scss/pages/_about.scss */
+/* line 170, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
 }
