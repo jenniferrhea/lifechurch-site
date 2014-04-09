@@ -9164,7 +9164,7 @@ input.gsc-search-button:hover {
   background-repeat: no-repeat !important;
   background-position: bottom center !important;
   background-size: cover;
-  background: #f5f3e7;
+  background: #f0f2eb;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 12, ../scss/pages/_serving.scss */
