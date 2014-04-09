@@ -16,7 +16,8 @@ class: header-red jobs
            onclick="ga('send', 'event', 'Jobs', 'Click', 'All Openings');">
            View all openings <i class="icon icon-arrow"></i>
         </a>
-        <a href="#"
+        <a href="javascript:void(0);"
+           data-video-player="0augyfzmnz"
            class="action text-black"
            onclick="_gaq.push(['_trackEvent', 'Jobs', 'Watch', 'Video Overview']);">
            Watch video <i class="icon icon-arrow"></i>
@@ -45,8 +46,9 @@ class: header-red jobs
          class="action small"
          onclick="ga('send', 'event', 'Jobs', 'Click', 'Campus');">
          View campus openings <i class="icon icon-arrow"></i>
-      </a>
-      <a href="#"
+      </a><br />
+      <a href="javascript:void(0);"
+         data-video-player="uligpgbam9"
          class="action small"
          onclick="ga('send', 'event', 'Jobs', 'Watch', 'Video Campus');">
          Watch video <i class="icon icon-play"></i>
@@ -63,8 +65,9 @@ class: header-red jobs
          class="action small"
          onclick="ga('send', 'event', 'Jobs', 'Click', 'Central');">
          View Central openings <i class="icon icon-arrow"></i>
-      </a>
-      <a href="#"
+      </a><br />
+      <a href="javascript:void(0);"
+         data-video-player="0augyfzmnz"
          class="action small"
          onclick="ga('send', 'event', 'Jobs', 'Watch', 'Video Central');">
          Watch video <i class="icon icon-play"></i>
@@ -81,8 +84,9 @@ class: header-red jobs
          class="action small"
          onclick="ga('send', 'event', 'Jobs', 'Click', 'Leadership XP');">
          View LeadershipXP openings <i class="icon icon-arrow"></i>
-      </a>
-      <a href="#"
+      </a><br />
+      <a href="javascript:void(0);"
+         data-video-player="g6cf5sojjm"
          class="action small"
          onclick="ga('send', 'event', 'Jobs', 'Watch', 'Video LeadershipXP');">
          Watch video <i class="icon icon-play"></i>
@@ -102,3 +106,8 @@ class: header-red jobs
     </p>
   </div>
 </section>
+
+{% include video-player.html id='0augyfzmnz' %}
+{% include video-player.html id='uligpgbam9' %}
+{% include video-player.html id='g6cf5sojjm' %}
+
