@@ -9160,37 +9160,59 @@ input.gsc-search-button:hover {
 
 /* line 12, ../scss/pages/_serving.scss */
 .serving-bg {
-  background-image: url("/images/serving/serving-bg.jpg");
+  background-image: url("/images/serving/serving-bg-small.jpg");
   background-repeat: no-repeat !important;
   background-position: bottom center !important;
-  background-size: cover;
-  background: #f0f2eb;
+  background-size: 580px 273px;
+  background-color: #f0f2eb;
+  padding-bottom: 200px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 12, ../scss/pages/_serving.scss */
   .serving-bg {
-    background-image: url("/images/serving/serving-bg@2x.jpg");
+    background-image: url("/images/serving/serving-bg-small@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
   /* line 12, ../scss/pages/_serving.scss */
   .serving-bg {
+    background-image: url("/images/serving/serving-bg.jpg");
     background-size: 1500px 725px;
     padding-bottom: 420px;
   }
 }
+@media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
+  /* line 12, ../scss/pages/_serving.scss */
+  .serving-bg {
+    background-image: url("/images/serving/serving-bg@2x.jpg");
+  }
+}
 
-/* line 26, ../scss/pages/_serving.scss */
+/* line 28, ../scss/pages/_serving.scss */
 #church-online {
-  background-image: url("/images/serving/serving-online-bg.jpg");
+  background-image: url("/images/serving/serving-online-small.jpg");
   background-repeat: no-repeat;
   background-color: #0b0b07;
   background-position: center top;
-  background-size: 1500px 499px;
-  padding-top: 330px;
+  background-size: 580px 273px;
+  padding-top: 230px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 26, ../scss/pages/_serving.scss */
+  /* line 28, ../scss/pages/_serving.scss */
+  #church-online {
+    background-image: url("/images/serving/serving-online-small@2x.jpg");
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 28, ../scss/pages/_serving.scss */
+  #church-online {
+    background-image: url("/images/serving/serving-online-bg.jpg");
+    background-size: 1500px 499px;
+    padding-top: 330px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
+  /* line 28, ../scss/pages/_serving.scss */
   #church-online {
     background-image: url("/images/serving/serving-online-bg@2x.jpg");
   }

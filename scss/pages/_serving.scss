@@ -10,13 +10,15 @@
 }
 
 .serving-bg {
-  @include background-image-2x-jpg('/images/serving/serving-bg');
+  @include background-image-2x-jpg('/images/serving/serving-bg-small');
   background-repeat: no-repeat !important;
   background-position: bottom center !important;
-  background-size: cover;
-  background: #f0f2eb;
+  background-size: 580px 273px;
+  background-color: #f0f2eb;
+  padding-bottom: 200px;
 
   @media #{$medium-up} {
+    @include background-image-2x-jpg('/images/serving/serving-bg');
     background-size: 1500px 725px;
     padding-bottom: 420px;
   }
@@ -24,10 +26,17 @@
 }
 
 #church-online {
-  @include background-image-2x-jpg('/images/serving/serving-online-bg');
+  @include background-image-2x-jpg('/images/serving/serving-online-small');
   background-repeat: no-repeat;
   background-color: #0b0b07;
   background-position: center top;
-  background-size: 1500px 499px;
-  padding-top: 330px;
+  background-size: 580px 273px;
+  padding-top: 230px;
+
+
+  @media #{$medium-up} {
+    @include background-image-2x-jpg('/images/serving/serving-online-bg');
+    background-size: 1500px 499px;
+    padding-top: 330px;
+  }
 }
