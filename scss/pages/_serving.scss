@@ -8,3 +8,12 @@
     background-size: 1500px 450px;
   }
 }
+
+#church-online {
+  @include background-image-2x-jpg('/images/serving/serving-online-bg');
+  background-repeat: no-repeat;
+  background-color: #0b0b07;
+  background-position: center top;
+  background-size: 1500px 499px;
+  padding-top: 330px;
+}

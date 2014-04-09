@@ -9158,6 +9158,22 @@ input.gsc-search-button:hover {
   }
 }
 
+/* line 12, ../scss/pages/_serving.scss */
+#church-online {
+  background-image: url("/images/serving/serving-online-bg.jpg");
+  background-repeat: no-repeat;
+  background-color: #0b0b07;
+  background-position: center top;
+  background-size: 1500px 499px;
+  padding-top: 330px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 12, ../scss/pages/_serving.scss */
+  #church-online {
+    background-image: url("/images/serving/serving-online-bg@2x.jpg");
+  }
+}
+
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .who-we-are .logo {
   background-image: url('/images/branding/logo-red-white.svg?1396902743');
