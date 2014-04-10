@@ -5,9 +5,9 @@
   description_small: 'Help create a comfortable environment so people are more open to receiving God’s truth.'
   description_medium: 'As a member of the Host Team, you’ll create a comfortable environment so people are more open to receive God’s truth. Serve during weekend experiences, weekdays at the office, or for special events as a greeter, usher, parking attendant, in hospitality, or behind the scenes.'
   website: http://google.com
-  image_small: http://placekitten.com/300/200/
-  image_medium: http://placekitten.com/600/400/
-  image_large: http://placekitten.com/1200/800/
+  image_small: ''
+  image_medium: ''
+  image_large: ''
 
 - id: serving-2
   title: LifeGroups
@@ -16,9 +16,9 @@
   description_small: 'In a group environment, people can develop their relationship with God and others.'
   description_medium: 'In a group environment, people can develop their relationship with God and others. LifeGroup volunteers gain leadership skills and support personal growth by serving as group leaders, hosts, or administrative support.'
   website: http://google.com
-  image_small: http://placekitten.com/300/200/
-  image_medium: http://placekitten.com/600/400/
-  image_large: http://placekitten.com/1200/800/
+  image_small: ''
+  image_medium: ''
+  image_large: ''
 
 - id: serving-3
   title: LifeKids.tv
@@ -27,9 +27,9 @@
   description_small: 'To help families raise fully devoted followers of Christ, LifeKids provides small group interaction, worship, and age-specific biblical teaching for newborns through 6th graders.'
   description_medium: 'To help families raise fully devoted followers of Christ, LifeKids provides small group interaction, worship, and age-specific biblical teaching for newborns through 6th graders. Opportunities include room leaders, experience captains, emcees, and more.'
   website: http://google.com
-  image_small: http://placekitten.com/300/200/
-  image_medium: http://placekitten.com/600/400/
-  image_large: http://placekitten.com/1200/800/
+  image_small: ''
+  image_medium: ''
+  image_large: ''
 
 - id: serving-4
   title: Switch
@@ -38,9 +38,9 @@
   description_small: 'Switch meets on Wednesday nights and challenges students to become fully devoted followers of Christ.'
   description_medium: 'Switch meets on Wednesday nights and challenges students to become fully devoted followers of Christ. Adults can serve middle and high school students as small group leaders, mentors, security, or administrative support.'
   website: http://google.com
-  image_small: http://placekitten.com/300/200/
-  image_medium: http://placekitten.com/600/400/
-  image_large: http://placekitten.com/1200/800/
+  image_small: ''
+  image_medium: ''
+  image_large: ''
 
 - id: serving-5
   title: Campus Administration
@@ -49,9 +49,9 @@
   description_small: 'Prayer, meal preparation, finance, data entry, recycling, graphic design, event preparation, and much more.'
   description_medium: 'If you’re more comfortable working behind the scenes or have a unique schedule, we have several opportunities for you including: prayer, meal preparation, finance, data entry, recycling, graphic design, event preparation, and much more.'
   website: http://google.com
-  image_small: http://placekitten.com/300/200/
-  image_medium: http://placekitten.com/600/400/
-  image_large: http://placekitten.com/1200/800/
+  image_small: ''
+  image_medium: ''
+  image_large: ''
 
 - id: serving-6
   title: Experience Team
