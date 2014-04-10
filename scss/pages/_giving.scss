@@ -228,6 +228,18 @@
 
 // LifeMissions page
 
+
+  .hphoto-lifemissions  {
+    @include background-image-2x-jpg('/images/lifemissions/lm-lifemissions');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+
+    @media #{$medium-up} {
+      background-size: 1500px 450px;
+    }
+  }
+
   .hphoto-lifemissions-2 {
     @include background-image-2x-jpg('/images/lifemissions/lm-bg-2');
     background-repeat: no-repeat;

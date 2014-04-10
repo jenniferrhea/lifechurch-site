@@ -8675,7 +8675,27 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 231, ../scss/pages/_giving.scss */
+/* line 232, ../scss/pages/_giving.scss */
+.hphoto-lifemissions {
+  background-image: url("/images/lifemissions/lm-lifemissions.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 232, ../scss/pages/_giving.scss */
+  .hphoto-lifemissions {
+    background-image: url("/images/lifemissions/lm-lifemissions@2x.jpg");
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 232, ../scss/pages/_giving.scss */
+  .hphoto-lifemissions {
+    background-size: 1500px 450px;
+  }
+}
+
+/* line 243, ../scss/pages/_giving.scss */
 .hphoto-lifemissions-2 {
   background-image: url("/images/lifemissions/lm-bg-2.jpg");
   background-repeat: no-repeat;
@@ -8683,19 +8703,19 @@ input.gsc-search-button:hover {
   background-size: auto 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 231, ../scss/pages/_giving.scss */
+  /* line 243, ../scss/pages/_giving.scss */
   .hphoto-lifemissions-2 {
     background-image: url("/images/lifemissions/lm-bg-2@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 231, ../scss/pages/_giving.scss */
+  /* line 243, ../scss/pages/_giving.scss */
   .hphoto-lifemissions-2 {
     background-size: 1500px 550px;
   }
 }
 
-/* line 245, ../scss/pages/_giving.scss */
+/* line 257, ../scss/pages/_giving.scss */
 [data-stat-count] .stat {
   opacity: 0;
   height: 0;
@@ -8706,7 +8726,7 @@ input.gsc-search-button:hover {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 255, ../scss/pages/_giving.scss */
+/* line 267, ../scss/pages/_giving.scss */
 [data-stat-count] .stat:first-child {
   opacity: 1;
   height: auto;
