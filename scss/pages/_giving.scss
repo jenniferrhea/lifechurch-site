@@ -113,6 +113,11 @@
       padding-top: 6em;
       padding-bottom: 6em;
     }
+    
+    img {
+      width: 90px;
+      height: 90px;
+    }
 
     .number {
       @extend h2;
