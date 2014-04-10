@@ -7,7 +7,7 @@ $(function() {
       showJobs(container, category);
     }
     else {
-      $.get('http://newton.newtonsoftware.com/career/CareerAtomFeed.action?clientId=8a42a12b3e686c7c013e6be2c20e7384', function (data) {
+      $.get('http://www.lifechurch.tv/newton-jobs', function (data) {
         window.jobs = data;
         $('[data-jobs-loader]').hide();
         showJobs(container, category);
