@@ -31,44 +31,29 @@
 
   // Position the headline to accomodate those feature images
   h1 {
-    padding-top: 70px;
+    //padding-top: 70px;
     @media #{$medium-up} {
-      padding-top: 100px;
+      //padding-top: 100px;
     }
   }
 
-  // Hold those absolutely positioned images in place
-  .row { position: relative; }
-
-  // Feature image
-  .about-bible {
-    @include background-image-2x-png('/images/about/about-bible');
-    background-size: 528px 219px;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: -20px;
-    z-index: 10;
-
-    @media #{$small-only} {
-      background-size: 200px auto;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-    }
+  .beliefs-bg {
+    //@include background-image-2x-jpg('/images/about/about-beliefs-small');
+    //background-repeat: no-repeat !important;
+    //background-position: center top !important;
+    //background-size: 580px 273px;
+    //background-color: #fff;
+    //padding-bottom: 200px;
 
     @media #{$medium-up} {
-      width: 528px;
-      height: 219px;
-      top: -100px;
-      right: 0;
+      //@include background-image-2x-jpg('/images/about/about-beliefs');
+      //background-size: 1500px 370px;
+      //padding-bottom: 420px;
     }
 
-    @media #{$large-up} {
-      right: -150px;
-    }
   }
+
+
 }
 
 

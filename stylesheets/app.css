@@ -9267,77 +9267,21 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 33, ../scss/pages/_about.scss */
-.beliefs h1, .beliefs .h1 {
-  padding-top: 70px;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 33, ../scss/pages/_about.scss */
-  .beliefs h1, .beliefs .h1 {
-    padding-top: 100px;
-  }
-}
-/* line 41, ../scss/pages/_about.scss */
-.beliefs .row {
-  position: relative;
-}
-/* line 44, ../scss/pages/_about.scss */
-.beliefs .about-bible {
-  background-image: url("/images/about/about-bible.png");
-  background-size: 528px 219px;
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: -20px;
-  z-index: 10;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 44, ../scss/pages/_about.scss */
-  .beliefs .about-bible {
-    background-image: url("/images/about/about-bible@2x.png");
-  }
-}
-@media only screen and (max-width: 40em) {
-  /* line 44, ../scss/pages/_about.scss */
-  .beliefs .about-bible {
-    background-size: 200px auto;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 44, ../scss/pages/_about.scss */
-  .beliefs .about-bible {
-    width: 528px;
-    height: 219px;
-    top: -100px;
-    right: 0;
-  }
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 44, ../scss/pages/_about.scss */
-  .beliefs .about-bible {
-    right: -150px;
-  }
-}
-
-/* line 78, ../scss/pages/_about.scss */
+/* line 63, ../scss/pages/_about.scss */
 .what-to-expect h1, .what-to-expect .h1 {
   padding-top: 110px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 78, ../scss/pages/_about.scss */
+  /* line 63, ../scss/pages/_about.scss */
   .what-to-expect h1, .what-to-expect .h1 {
     padding-top: 40px;
   }
 }
-/* line 86, ../scss/pages/_about.scss */
+/* line 71, ../scss/pages/_about.scss */
 .what-to-expect .row {
   position: relative;
 }
-/* line 89, ../scss/pages/_about.scss */
+/* line 74, ../scss/pages/_about.scss */
 .what-to-expect .about-coffee {
   background: url("/images/about/about-coffee.png") no-repeat;
   width: 200px;
@@ -9346,7 +9290,7 @@ input.gsc-search-button:hover {
   top: -20px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 89, ../scss/pages/_about.scss */
+  /* line 74, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     background-size: 200px auto;
     left: 0;
@@ -9355,7 +9299,7 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 89, ../scss/pages/_about.scss */
+  /* line 74, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     width: 229px;
     height: 169px;
@@ -9364,18 +9308,18 @@ input.gsc-search-button:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 89, ../scss/pages/_about.scss */
+  /* line 74, ../scss/pages/_about.scss */
   .what-to-expect .about-coffee {
     right: -120px;
   }
 }
 
-/* line 122, ../scss/pages/_about.scss */
+/* line 107, ../scss/pages/_about.scss */
 .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
   margin-top: 10px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 120, ../scss/pages/_about.scss */
+  /* line 105, ../scss/pages/_about.scss */
   .jobs .section-jobs-top {
     background-image: url("/images/jobs/jobs-bg.jpg");
     background-position: center top;
@@ -9383,18 +9327,18 @@ input.gsc-search-button:hover {
     background-size: 1500px auto;
     height: 570px;
   }
-  /* line 133, ../scss/pages/_about.scss */
+  /* line 118, ../scss/pages/_about.scss */
   .jobs .section-jobs-top h1, .jobs .section-jobs-top .h1 {
     margin-top: 160px;
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
-  /* line 120, ../scss/pages/_about.scss */
+  /* line 105, ../scss/pages/_about.scss */
   .jobs .section-jobs-top {
     background-image: url("/images/jobs/jobs-bg@2x.jpg");
   }
 }
-/* line 140, ../scss/pages/_about.scss */
+/* line 125, ../scss/pages/_about.scss */
 .jobs .job-title {
   list-style: none;
   margin-left: -1.1rem;
@@ -9419,7 +9363,7 @@ input.gsc-search-button:hover {
     color: #ddd;
   }
 }*/
-/* line 170, ../scss/pages/_about.scss */
+/* line 155, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
 }
