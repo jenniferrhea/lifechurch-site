@@ -2,8 +2,8 @@
   title: Host Team
   location: Campus
   url: http://apple.com
-  description_small: 'As a member of the Host Team, you’ll help create a comfortable environment so people can be open to receiving God’s truth.'
-  description_medium: 'As a member of the Host Team, you’ll create a comfortable environment so people can receive God’s truth. Serve during weekend experiences, weekdays at the office, or for special events as a greeter, usher, parking attendant, in hospitality, or behind the scenes.'
+  description_small: 'Help create a comfortable environment so people are more open to receiving God’s truth.'
+  description_medium: 'As a member of the Host Team, you’ll create a comfortable environment so people are more open to receive God’s truth. Serve during weekend experiences, weekdays at the office, or for special events as a greeter, usher, parking attendant, in hospitality, or behind the scenes.'
   website: http://google.com
   image_small: http://placekitten.com/300/200/
   image_medium: http://placekitten.com/600/400/
@@ -24,8 +24,8 @@
   title: LifeKids.tv
   location: Campus
   url: http://apple.com
-  description_small: 'To help families raise fully devoted followers of Christ, LifeKids provides small group interaction, worship, and age-appropriate biblical teaching for newborns through 6th graders.'
-  description_medium: 'To help families raise fully devoted followers of Christ, LifeKids provides small group interaction, worship, and age-appropriate biblical teaching for newborns through 6th graders. Opportunities include room leaders, experience captains, emcees, and more.'
+  description_small: 'To help families raise fully devoted followers of Christ, LifeKids provides small group interaction, worship, and age-specific biblical teaching for newborns through 6th graders.'
+  description_medium: 'To help families raise fully devoted followers of Christ, LifeKids provides small group interaction, worship, and age-specific biblical teaching for newborns through 6th graders. Opportunities include room leaders, experience captains, emcees, and more.'
   website: http://google.com
   image_small: http://placekitten.com/300/200/
   image_medium: http://placekitten.com/600/400/
@@ -59,7 +59,7 @@
   recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: 'People are being transformed as they find hope and experience the love of Christ at Church Online.'
-  description_medium: 'People are being transformed as they find hope and experience the love of Christ at Church Online. The Experience Team provides a comfortable environment by welcoming, chatting, and praying with Church Online attenders at experiences throughout the week.'
+  description_medium: 'People are being transformed as they find hope and experience the love of Christ at Church Online. The Experience Team provides a comfortable environment by welcoming, chatting, and praying with Church Online attendees at experiences throughout the week.'
   website: http://google.com
   image_small: ''
   image_medium: ''
@@ -106,8 +106,8 @@
   location: Central
   recipient: interactive@lifechurch.tv
   url: http://apple.com
-  description_small: 'Detail-oriented volunteers provide a valuable service by keeping the database that keeps our church running smoothly in top-notch condition through front-end data entry and accuracy checks, which can be done from anywhere.'
-  description_medium: 'Detail-oriented volunteers provide a valuable service by keeping the database that keeps our church running smoothly in top-notch condition through front-end data entry and accuracy checks, which can be done from anywhere. Additional opportunities are available for technically skilled and trained individuals.'
+  description_small: 'Detail-oriented volunteers provide a valuable service by maintaining the database that keeps our church running smoothly through front-end data entry and accuracy checks, which can be done from anywhere.'
+  description_medium: 'Detail-oriented volunteers provide a valuable service by maintaining the database that keeps our church running smoothly through front-end data entry and accuracy checks, which can be done from anywhere. Additional opportunities are available for technically skilled and trained individuals.'
   image_small: ''
   image_medium: ''
   image_large: ''
@@ -118,7 +118,7 @@
   recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: ''
-  description_medium: 'The Digital Missions team manages content for the open.lifechurch.tv<link> website where thousands of videos, graphics, curriculum, and other tools and resources are made available for church leaders around the world. Work closely with the team to brainstorm ideas, improve processes, and upload content to the site. Or, serve as an Digital Missions Linguist and translate text from English to another language for a wide variety of resources.'
+  description_medium: 'The Digital Missions team manages content for the open.lifechurch.tv<link> website where thousands of videos, graphics, curriculum, and other tools and resources are made available for church leaders around the world. Work closely with the team to brainstorm ideas, improve processes, and upload content to the site. Or, serve as a Digital Missions Linguist and translate text from English to another language for a wide variety of resources.'
   website: http://google.com
   image_small: ''
   image_medium: ''
@@ -130,7 +130,7 @@
   recipient: interactive@lifechurch.tv
   url: http://apple.com
   description_small: 'If you’ve ever wanted to experience life on a movie set, you can be part of LifeChurch.tv Productions Cast & Crew.'
-  description_medium: 'If you’ve ever wanted to experience life on a movie set, you can be part of LifeChurch.tv Productions Cast & Crew. We are looking for actors, voice over talent, production assistants, hairstylists, grips, set builders...the list goes on and on. You can also keep up with available opportunities, casting calls, and set design projects on the <a href="http://www.facebook.com/groups/lctvcastncrew">Cast & Crew Facebook page</a>.'
+  description_medium: 'If you’ve ever wanted to experience life on a movie set, you can be part of LifeChurch.tv Productions Cast & Crew. We are looking for actors, voice over talent, production assistants, hairstylists, grips, set builders - the list goes on and on. You can also keep up with available opportunities, casting calls, and set design projects on the <a href="http://www.facebook.com/groups/lctvcastncrew">Cast & Crew Facebook page</a>.'
   website: http://google.com
   image_small: ''
   image_medium: ''
@@ -141,8 +141,8 @@
   location: Central
   recipient: interactive@lifechurch.tv
   url: http://apple.com
-  description_small: 'With millions of users worldwide, the YouVersion team relies on passionate users and volunteers to do extraordinary things so people can grow closer to God through His Word. '
-  description_medium: 'With millions of users worldwide, the YouVersion team relies on passionate users and volunteers to do extraordinary things so people can grow closer to God through His Word. Whether translating interfaces, answering user support questions, leading others in prayer online, proofreading and editing reading plans, beta testing Bible App updates, or using another gift or skill, there are many ways to reach people with the story of God’s love. Visit the <a href="http://volunteer.youversion.com/become-a-volunteer">YouVersion volunteer site</a> for details.'
+  description_small: 'With millions of users worldwide, the YouVersion team relies on passionate volunteers to do extraordinary things so people can grow closer to God through His Word. '
+  description_medium: 'With millions of users worldwide, the YouVersion team relies on passionate volunteers to do extraordinary things so people can grow closer to God through His Word. Whether translating interfaces, answering user support questions, leading others in prayer online, proofreading and editing reading plans, beta testing Bible App updates, or using another gift or skill, there are many ways to reach people with the story of God’s love. Visit the <a href="http://volunteer.youversion.com/become-a-volunteer">YouVersion volunteer site</a> for details.'
   website: http://google.com
   image_small: ''
   image_medium: ''
