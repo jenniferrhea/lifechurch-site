@@ -46,6 +46,8 @@ jQuery(function() {
       }
     },
     error: function(xhr, ajaxOptions, thrownError) {
+      console.log(xhr);
+      console.log(ajaxOptions);
       return console.log(thrownError);
     }
   });
