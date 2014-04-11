@@ -9236,8 +9236,8 @@ input.gsc-search-button:hover {
   border: 2px solid #b9252d;
   color: #b9252d;
   text-align: center;
-  font-size: 1.25rem;
-  margin: 0 auto -35px;
+  font-size: 1rem;
+  margin: 0 auto;
   font-family: "myriad-pro", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 11, ../scss/pages/_kids.scss */
@@ -9246,7 +9246,14 @@ input.gsc-search-button:hover {
   color: #b9252d;
   cursor: initial;
 }
-/* line 18, ../scss/pages/_kids.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 3, ../scss/pages/_kids.scss */
+  .kids .grade {
+    font-size: 1.25rem;
+    margin: 0 auto -35px;
+  }
+}
+/* line 23, ../scss/pages/_kids.scss */
 .kids .kids-bg {
   background-image: url("/images/kids/kids-bg-small.jpg");
   background-size: 472px 408px;
@@ -9255,35 +9262,35 @@ input.gsc-search-button:hover {
   background-color: #eadcbf;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 18, ../scss/pages/_kids.scss */
+  /* line 23, ../scss/pages/_kids.scss */
   .kids .kids-bg {
     background-image: url("/images/kids/kids-bg-small@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 18, ../scss/pages/_kids.scss */
+  /* line 23, ../scss/pages/_kids.scss */
   .kids .kids-bg {
     background-image: url("/images/kids/kids-bg-large.jpg");
     background-size: 1500px 876px;
   }
-  /* line 29, ../scss/pages/_kids.scss */
+  /* line 34, ../scss/pages/_kids.scss */
   .kids .kids-bg h1, .kids .kids-bg .h1 {
     margin-top: 410px;
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
-  /* line 18, ../scss/pages/_kids.scss */
+  /* line 23, ../scss/pages/_kids.scss */
   .kids .kids-bg {
     background-image: url("/images/kids/kids-bg-large@2x.jpg");
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 35, ../scss/pages/_kids.scss */
+  /* line 40, ../scss/pages/_kids.scss */
   .kids .kids-bg h1, .kids .kids-bg .h1 {
     margin-top: 0;
   }
 }
-/* line 39, ../scss/pages/_kids.scss */
+/* line 44, ../scss/pages/_kids.scss */
 .kids #switch {
   background-image: url("/images/kids/switch-bg-small.jpg");
   background-color: #191913;
@@ -9293,25 +9300,25 @@ input.gsc-search-button:hover {
   padding-top: 180px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 39, ../scss/pages/_kids.scss */
+  /* line 44, ../scss/pages/_kids.scss */
   .kids #switch {
     background-image: url("/images/kids/switch-bg-small@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 39, ../scss/pages/_kids.scss */
+  /* line 44, ../scss/pages/_kids.scss */
   .kids #switch {
     background-image: url("/images/kids/switch-bg.jpg");
     background-size: 1500px 403px;
   }
 }
 @media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
-  /* line 39, ../scss/pages/_kids.scss */
+  /* line 44, ../scss/pages/_kids.scss */
   .kids #switch {
     background-image: url("/images/kids/switch-bg@2x.jpg");
   }
 }
-/* line 52, ../scss/pages/_kids.scss */
+/* line 57, ../scss/pages/_kids.scss */
 .kids #switch .grade {
   color: #e0646b;
   border-color: #e0646b;

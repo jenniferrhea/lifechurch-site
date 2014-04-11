@@ -4,14 +4,19 @@
     border: 2px solid $red;
     color: $red;
     text-align: center;
-    font-size: rem-calc(20);
-    margin: 0 auto -35px;
+    font-size: rem-calc(16);
+    margin: 0 auto;
     font-family: $body-font-family;
 
     &:hover {
       border: 2px solid $red;
       color: $red;
       cursor: initial;
+    }
+
+    @media #{$medium-up} {
+      font-size: rem-calc(20);
+      margin: 0 auto -35px;
     }
   }
 
