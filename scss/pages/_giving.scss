@@ -1,19 +1,18 @@
 // Giving page section styles
 
   .giving-bg {
-    @include background-image-2x-jpg('/images/giving/giving-bg');
+    @include background-image-2x-jpg('/images/giving/giving-bg-small');
     background-size: cover;
     background-position: center bottom;
     
     @media #{$medium-up} {
-      h1 {
-        margin-top: 2.5em;
-      }
-    }
+      @include background-image-2x-jpg('/images/giving/giving-bg');
+      background-size: 1500px 673px;
+      background-repeat: no-repeat;
 
-    .button {
-      background: #fff;
-      color: #b72f3a;
+      .detail {
+        padding-bottom: 120px;
+      }
     }
   }
 
