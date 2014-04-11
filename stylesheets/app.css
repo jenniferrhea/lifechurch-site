@@ -9431,18 +9431,6 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .who-we-are .logo {
-  background-image: url('/images/branding/logo-red-white.svg?1396902743');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .who-we-are .logo {
-  background-image: url('/images/branding/logo-red-white.png?1396902821');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .who-we-are .logo {
-  background-image: url('/images/branding/logo-red-white.png?1396902821');
-}
 @media only screen and (max-width: 40em) {
   /* line 7, ../scss/pages/_about.scss */
   .who-we-are h1, .who-we-are .h1 {
@@ -9470,7 +9458,7 @@ input.gsc-search-button:hover {
 @media only screen and (min-width: 40.063em) {
   /* line 17, ../scss/pages/_about.scss */
   .who-we-are .who-we-are-bg {
-    background-size: 1500px 650px;
+    background-size: 1500px 636px;
     background-position: center top;
   }
 }
