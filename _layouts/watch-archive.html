@@ -9,17 +9,31 @@ class: header-red section-watch section-series
 
 {% include tertiary.html %}
 
-{% for message in series.messages %}
-{% if forloop.last %}
-<a class="hphoto hphoto-top section-light hphoto-watch-archive" style="background-image: url('{{ series.image_large }}')" href="javascript:void(0);" data-video-player="{{message.video}}">
-  <div class="inner">
-    <span class="play-large"></span>
-    <h1>{{ series.title }}</h1>
-    Watch week 1
-  </div>
-</a>
-{% endif %}
-{% endfor %}
+{% if forloop.first %}
+  {% for message in series.messages %}
+  {% if forloop.first %}
+  <a class="hphoto hphoto-top section-light hphoto-watch-archive" style="background-image: url('{{ series.image_large }}')" href="javascript:void(0);" data-video-player="{{message.video}}">
+    <div class="inner">
+      <span class="play-large"></span>
+      <h1>{{ series.title }}</h1>
+      Watch latest video
+    </div>
+  </a>
+  {% endif %}
+  {% endfor %}
+{% else %}
+  {% for message in series.messages reversed %}
+  {% if forloop.first %}
+  <a class="hphoto hphoto-top section-light hphoto-watch-archive" style="background-image: url('{{ series.image_large }}')" href="javascript:void(0);" data-video-player="{{message.video}}">
+    <div class="inner">
+      <span class="play-large"></span>
+      <h1>{{ series.title }}</h1>
+      Watch week 1
+    </div>
+  </a>
+  {% endif %}
+  {% endfor %}
+{% endif%}
 
 <!-- Page Main -->
 <div class="page-main">
