@@ -9005,11 +9005,11 @@ input.gsc-search-button:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
   }
   /* line 96, ../scss/pages/_lifegroups.scss */
   .lifegroups-tile:hover:after {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
   }
   /* line 102, ../scss/pages/_lifegroups.scss */
   .lifegroups-tile.lifegroups-tile-first, .lifegroups-tile.lifegroups-tile-last {
@@ -9227,7 +9227,7 @@ input.gsc-search-button:hover {
     background-image: url("/images/lifegroups/lifegroups-4-thin.jpg");
     background-size: 100% auto;
     background-position: left top;
-    background-color: #e9e9dd;
+    background-color: #faf9dd;
   }
 }
 @media only screen and (max-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (max-width: 40em) and (min--moz-device-pixel-ratio: 1.5), only screen and (max-width: 40em) and (min-device-pixel-ratio: 1.5) {

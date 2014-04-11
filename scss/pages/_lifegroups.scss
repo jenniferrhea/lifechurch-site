@@ -89,12 +89,12 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: rgba(0,0,0,.3);
+        background: rgba(0,0,0,.5);
       }
 
       // Tile hover action
       &:hover:after {
-        background: rgba(0,0,0,.6);
+        background: rgba(0,0,0,.7);
       }
 
       // Remove borders from first/last on large
@@ -234,7 +234,7 @@
       @include background-image-2x-jpg('/images/lifegroups/lifegroups-4-thin');
       background-size: 100% auto;
       background-position: left top;
-      background-color: #e9e9dd;
+      background-color: #faf9dd;
     }
 
     @media #{$medium-up} {
