@@ -11,10 +11,9 @@ jQuery(function() {
   seconds = void 0;
   intervalId = void 0;
   return $.ajax({
-    url: "http://lctv-jsonp-proxy.herokuapp.com/chop",
-    dataType: "jsonp",
+    url: "http://live.lifechurch.tv/api/v1/events/current",
+    dataType: "json",
     success: function(data) {
-      console.log(data.response);
       var date, dateString, seconds_till;
       if (data.response.item.isLive) {
         return goLive();
