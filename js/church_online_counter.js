@@ -1,4 +1,5 @@
 jQuery(function() {
+
   var days, goLive, hours, intervalId, minutes, seconds;
   goLive = function() {
     $('.nav-watch .live').removeClass('hide');
@@ -46,6 +47,7 @@ jQuery(function() {
       }
     },
     error: function(xhr, ajaxOptions, thrownError) {
+      console.log("hello world")
       console.log(xhr);
       console.log(ajaxOptions);
       return console.log(thrownError);
