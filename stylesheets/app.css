@@ -5679,50 +5679,45 @@ html {
   background: #fff;
   z-index: 10;
 }
-@media only screen and (max-width: 40em) {
-  /* line 25, ../scss/design/_more.scss */
-  .page-more {
-    border-top: 1px solid #ddd;
-    margin-top: 50px;
-  }
-}
 @media only screen and (min-width: 40.063em) {
-  /* line 35, ../scss/design/_more.scss */
+  /* line 30, ../scss/design/_more.scss */
   .page-more .row {
     padding: 5px 0;
   }
-  /* line 39, ../scss/design/_more.scss */
+  /* line 34, ../scss/design/_more.scss */
   .page-more p, .page-more ul li, ul .page-more li {
     margin-top: 10px;
     margin-bottom: 0;
   }
 }
 
-/* line 46, ../scss/design/_more.scss */
+/* line 41, ../scss/design/_more.scss */
 .no-js .page-more {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 51, ../scss/design/_more.scss */
+/* line 46, ../scss/design/_more.scss */
 .js .page-more {
   padding-top: 40px;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 51, ../scss/design/_more.scss */
-  .js .page-more {
-    padding-top: 0;
-    display: none;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-  }
+  padding-top: 0;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 
+@media only screen and (max-width: 40em) {
+  /* line 61, ../scss/design/_more.scss */
+  .js .home .page-more {
+    position: relative;
+    display: block;
+  }
+}
 /* line 67, ../scss/design/_more.scss */
 .page-more-inner {
   position: relative;

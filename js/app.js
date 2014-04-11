@@ -6,7 +6,6 @@ $(function() {
 
   // "More" panel open/close
 
-  if ($(window).width() > 640) {
 
     if ($('html.js').length > 0) {
 
@@ -44,7 +43,6 @@ $(function() {
         $('body').removeClass('header-light-paused').addClass('header-light');
       };
     });
-  }
 
 
   // Add classes on <body> for Series

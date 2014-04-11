@@ -26,11 +26,6 @@
     background: #fff;
     z-index: 10;
 
-    @media #{$small-only} {
-      border-top: 1px solid #ddd;
-      margin-top: 50px;
-    }
-
     @media #{$medium-up} {
       .row {
         padding: 5px 0;
@@ -51,7 +46,6 @@
   .js .page-more {
     padding-top: 40px;
 
-    @media #{$medium-up} {
       padding-top: 0;
       display: none;
       position: absolute;
@@ -61,7 +55,13 @@
       bottom: 0;
       width: 100%;
       height: 100%;
-    }
+  }
+  
+  @media #{$small-only} {
+  .js .home .page-more {
+    position: relative;
+    display: block;
+  }
   }
 
   .page-more-inner {
