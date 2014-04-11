@@ -7,10 +7,17 @@ $(function() {
       showJobs(container, category);
     }
     else {
-      $.get('http://www.lifechurch.tv/newton-jobs', function (data) {
-        window.jobs = data;
-        $('[data-jobs-loader]').hide();
-        showJobs(container, category);
+      $.ajax({
+        url: "http://lctv-jsonp-proxy.herokuapp.com/newton",
+        dataType: "jsonp",
+        success: function(data) {
+          window.jobs = data;
+          $('[data-jobs-loader]').hide();
+          showJobs(container, category);
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+          
+        }
       });
     }
   });

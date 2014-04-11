@@ -1,4 +1,5 @@
 jQuery(function() {
+
   var days, goLive, hours, intervalId, minutes, seconds;
   goLive = function() {
     $('.nav-watch .live').removeClass('hide');
@@ -10,9 +11,10 @@ jQuery(function() {
   seconds = void 0;
   intervalId = void 0;
   return $.ajax({
-    url: "http://live.lifechurch.tv/api/v1/events/current",
-    dataType: "json",
+    url: "http://lctv-jsonp-proxy.herokuapp.com/chop",
+    dataType: "jsonp",
     success: function(data) {
+      console.log(data.response);
       var date, dateString, seconds_till;
       if (data.response.item.isLive) {
         return goLive();
@@ -46,6 +48,7 @@ jQuery(function() {
       }
     },
     error: function(xhr, ajaxOptions, thrownError) {
+      console.log("hello world")
       console.log(xhr);
       console.log(ajaxOptions);
       return console.log(thrownError);
