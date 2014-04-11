@@ -9,23 +9,89 @@ class: header-red section-watch section-series
 
 {% include tertiary.html %}
 
+{% for message in series.messages %}
+{% if forloop.last %}
+<a class="hphoto hphoto-top section-light hphoto-watch-archive" style="background-image: url('{{ series.image_large }}')" href="javascript:void(0);" data-video-player="{{message.video}}">
+  <div class="inner">
+    <span class="play-large"></span>
+    <h1>{{ series.title }}</h1>
+    Watch week 1
+  </div>
+</a>
+{% endif %}
+{% endfor %}
+
 <!-- Page Main -->
 <div class="page-main">
 
-  <div class="page-section section-first">
+  <div class="page-section">
     <div class="row">
-      <div class="medium-6 large-4 columns">
-        <h1 class="text-red">{{ series.title }}</h1>
+      <div class="medium-6 medium-push-6 large-5 large-push-7 columns">
+
+        <h2>In this series</h2>
+
+        <div class="watch-messages">
+        
+
+          {% if forloop.first %}
+          <div class="row message live">
+            <a href="http://live.lifechurch.tv/" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Live”');">
+              <div class="small-1 medium-2 columns">
+                <h4>
+                  <span class="message-live-icon">Live </span>
+                </h4>
+              </div>
+              <div class="small-8 medium-7 columns">
+                <h6>Church Online <span data-churchonline-counter></span></h6>
+              </div>
+              <div class="small-2 medium-3 columns medium-text-right play-message">
+                <div class="action small"><span class="hide-for-small">Go</span> <i class="icon icon-arrow"></i></div>
+              </div>
+            </a>
+          </div>
+          {% endif %}
+
+          <!-- Get the messages out of the series and list them out -->
+          {% for message in series.messages reversed %}
+
+          <div class="row message">
+            <a href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message”');">
+            <div class="small-1 medium-2 columns">
+              <h4>
+                <span>{% cycle '1', '2', '3', '4', '5', '6' %}</span>
+              </h4>
+            </div>
+            <div class="small-8 medium-7 columns">
+              <h6>{{ message.title }}</h6>
+            </div>
+            <div class="small-2 medium-3 columns medium-text-right play-message">
+              <div class="action small"><span class="hide-for-small">Play</span> <i class="icon icon-play"></i></div>
+            </div>
+          </a>
+          </div>
+
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="medium-6 medium-pull-6 columns">
+        <h2>Series description</h2> 
         <p>{{ series.description_medium | newline_to_br }}</p>
+
+         <a href="http://twitter.com/home/?status=“Some text goes here that captures the essence of some pretty sweet quotage.” http://lifechurch.tv{{ page.url }}" target="_blank" class="action small"><i class="icon-social-twitter"></i> Invite on Twitter</a>
+
+         <a href="http://www.facebook.com/sharer.php?app_id=567912296616576&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.lifechurch.tv{{ page.url }}%2F" target="_blank" class="action small"><i class="icon-social-facebook"></i> Invite on Facebook</a>
+
+         <a href="https://plus.google.com/share?url=www.lifechurch.tv{{ page.url }}%2F" target="_blank" class="action small"><i class="icon-social-gplus"></i> Invite on Google+</a>
       </div>
-      <div class="medium-6 large-7 columns">
-        <img class="watch-archive-art" data-interchange="[{{ series.image_medium }}, (default)], [{{ series.image_large }}, (medium)]" alt="{{ series.title }}" />
-        <noscript><img class="watch-archive-art" src="{{ series.image_small }}" alt="{{ series.title }}" /></noscript>
-      </div>
+
+
     </div>
   </div>
 
-  {% include watch-messages.html %}
+  {% for message in series.messages %}
+  {% include video-player.html id=message.video %}
+  {% endfor %}
 </div>
 
 <div class="series-locator">series-{{ series.id }}</div>

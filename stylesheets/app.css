@@ -6157,7 +6157,7 @@ html {
 }
 /* line 21, ../scss/design/_buttons.scss */
 .button.tiny.secondary {
-  border: #c1c1c1 1px solid;
+  border: none;
 }
 /* line 27, ../scss/design/_buttons.scss */
 .button.small {
@@ -7048,45 +7048,75 @@ input.gsc-search-button:hover {
 }
 /* line 34, ../scss/pages/_watch.scss */
 .no-touch .message a:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: #f4f7f8;
 }
 
 /* line 39, ../scss/pages/_watch.scss */
+.no-touch .message.live a {
+  background: #0ea9d6;
+  color: #fff !important;
+  margin-bottom: 8px;
+}
+/* line 44, ../scss/pages/_watch.scss */
+.no-touch .message.live a:hover {
+  background: #0c96be;
+}
+/* line 48, ../scss/pages/_watch.scss */
+.no-touch .message.live a h4, .no-touch .message.live a .h4, .no-touch .message.live a .location-tile, .no-touch .message.live a .lifegroups-tile span, .lifegroups-tile .no-touch .message.live a span, .no-touch .message.live a h5, .no-touch .message.live a .h5, .no-touch .message.live a h6, .no-touch .message.live a .h6, .no-touch .message.live a label {
+  color: #fff !important;
+}
+
+/* line 53, ../scss/pages/_watch.scss */
+.message-live-icon {
+  background-size: 26px 22px;
+  width: 26px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-indent: -999em;
+  display: block;
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .message-live-icon {
+  background-image: url('/images/watch/watch-live-icon.svg?1397227832');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .message-live-icon {
+  background-image: url('/images/watch/watch-live-icon.png?1397227834');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .message-live-icon {
+  background-image: url('/images/watch/watch-live-icon.png?1397227834');
+}
+
+/* line 64, ../scss/pages/_watch.scss */
 .message h4, .message .h4, .message .location-tile, .message .lifegroups-tile span, .lifegroups-tile .message span {
   margin-top: -5px;
-  color: #fff !important;
 }
 
-/* line 44, ../scss/pages/_watch.scss */
+/* line 69, ../scss/pages/_watch.scss */
 .message h6, .message .h6, .message label {
   margin-top: 0px;
-  color: #fff !important;
-}
-@media only screen and (max-width: 40em) {
-  /* line 44, ../scss/pages/_watch.scss */
-  .message h6, .message .h6, .message label {
-    color: #86def7 !important;
-  }
 }
 
-/* line 52, ../scss/pages/_watch.scss */
+/* line 77, ../scss/pages/_watch.scss */
 .message {
   padding-bottom: 12px;
 }
 
-/* line 56, ../scss/pages/_watch.scss */
+/* line 81, ../scss/pages/_watch.scss */
 .watch-item h6, .watch-item .h6, .watch-item label {
   margin-top: 5px;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 60, ../scss/pages/_watch.scss */
+  /* line 85, ../scss/pages/_watch.scss */
   .watch-archive-art {
     margin-top: 30px;
   }
 }
 
-/* line 68, ../scss/pages/_watch.scss */
+/* line 93, ../scss/pages/_watch.scss */
 .watch-podcast,
 .watch-talkitover,
 .watch-open {
@@ -7094,7 +7124,7 @@ input.gsc-search-button:hover {
   padding-bottom: 12px !important;
 }
 
-/* line 75, ../scss/pages/_watch.scss */
+/* line 100, ../scss/pages/_watch.scss */
 .watch-podcast:before,
 .watch-talkitover:before,
 .watch-open:before {
@@ -7144,6 +7174,111 @@ input.gsc-search-button:hover {
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .watch-open:before {
   background-image: url('/images/watch/watch-open.png?1392045171');
+}
+
+/* line 122, ../scss/pages/_watch.scss */
+.watch-message-first-archive {
+  position: relative;
+  display: block;
+  float: left;
+}
+/* line 127, ../scss/pages/_watch.scss */
+.watch-message-first-archive span {
+  text-indent: -999em;
+  display: block;
+  width: 120px;
+  height: 120px;
+  background: black;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+/* line 144, ../scss/pages/_watch.scss */
+.watch-message-first-archive:hover span {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* line 149, ../scss/pages/_watch.scss */
+.hphoto-watch-archive {
+  background-color: #f0f1eb;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1500px;
+  margin: -33px auto 0px;
+  position: relative;
+  display: block;
+  color: #fff;
+  height: 340px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 149, ../scss/pages/_watch.scss */
+  .hphoto-watch-archive {
+    margin: -33px auto -50px;
+    background-size: 100% auto;
+  }
+}
+/* line 166, ../scss/pages/_watch.scss */
+.hphoto-watch-archive:hover {
+  color: #fff;
+}
+/* line 170, ../scss/pages/_watch.scss */
+.hphoto-watch-archive .inner {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+}
+/* line 179, ../scss/pages/_watch.scss */
+.hphoto-watch-archive .play-large {
+  width: 44px;
+  height: 53px;
+  padding: 60px;
+  background-size: 44px 53px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  margin: 60px auto 0;
+}
+/* line 5, ../scss/settings/_svgpng.scss */
+.svg .hphoto-watch-archive .play-large {
+  background-image: url('/images/watch/watch-play-large.svg?1397218749');
+}
+/* line 6, ../scss/settings/_svgpng.scss */
+.no-svg .hphoto-watch-archive .play-large {
+  background-image: url('/images/watch/watch-play-large.png?1397218752');
+}
+/* line 7, ../scss/settings/_svgpng.scss */
+.no-js .hphoto-watch-archive .play-large {
+  background-image: url('/images/watch/watch-play-large.png?1397218752');
+}
+/* line 193, ../scss/pages/_watch.scss */
+.hphoto-watch-archive:hover .play-large {
+  background-color: black;
+}
+/* line 197, ../scss/pages/_watch.scss */
+.hphoto-watch-archive h1, .hphoto-watch-archive .h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #fff !important;
 }
 
 /* line 11, ../scss/pages/_locations.scss */

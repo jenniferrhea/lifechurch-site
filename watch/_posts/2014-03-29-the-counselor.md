@@ -1,12 +1,12 @@
 ---
 published: true
-layout: watch
+layout: watch-archive
 categories: watch
 series-id: the-counselor
 
 assets: 2014-the-counselor
-stylesheet: true
-javascript: true
+stylesheet: false
+javascript: false
 ---
 
 {% for series in site.data.watch %}
