@@ -4,7 +4,8 @@
     @include background-image-2x-jpg('/images/giving/giving-bg-small');
     background-size: cover;
     background-position: center bottom;
-    
+    position: relative;
+
     @media #{$medium-up} {
       @include background-image-2x-jpg('/images/giving/giving-bg');
       background-size: 1500px 673px;
@@ -20,6 +21,19 @@
      @media #{$medium-up} {
         padding-bottom: 120px;
      }
+  }
+
+  .icon-scrolldown {
+    @include svg-image('/images/giving/icon-scrolldown');
+    width: 67px;
+    height: 32px;
+    background-size: 67px 32px;
+    display: block;
+    margin: 0px auto 0;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
   }
 
   .hphoto-giving-tithe {
