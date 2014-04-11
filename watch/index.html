@@ -61,7 +61,7 @@ class: header-red section-watch page-watch
       <li class="watch-item">
         <a href="{{ post.url }}">
           <div class="panel">
-            <img data-interchange="[{{ series.image_small }}, (default)], [{{ series.image_medium }}, (medium)]" alt="{{ series.title }}" src="{{series.image_small}}" />
+            <img src="{{ series.image_small }}" data-interchange="[{{ series.image_small }}, (default)], [{{ series.image_medium }}, (medium)]" alt="{{ series.title }}" src="{{series.image_small}}" />
             <noscript><img src="{{ series.image_small }}" alt="{{ series.title }}"></noscript>
 
             <h6>{{ series.title }}</h6>

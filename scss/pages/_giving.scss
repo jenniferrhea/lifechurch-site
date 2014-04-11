@@ -16,6 +16,12 @@
     }
   }
 
+  .giving-ways .giving-bg p {
+     @media #{$medium-up} {
+        padding-bottom: 120px;
+     }
+  }
+
   .hphoto-giving-tithe {
     @include background-image-2x-jpg('/images/giving/giving-bg');
     background-repeat: no-repeat;
