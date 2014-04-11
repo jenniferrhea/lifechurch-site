@@ -9444,22 +9444,28 @@ input.gsc-search-button:hover {
 }
 /* line 17, ../scss/pages/_about.scss */
 .who-we-are .who-we-are-bg {
-  background-image: url("/images/about/whoweare-bg.jpg");
+  background-image: url("/images/about/whoweare-bg-small.jpg");
   background-size: cover;
-  background-position: -340px top;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 17, ../scss/pages/_about.scss */
   .who-we-are .who-we-are-bg {
-    background-image: url("/images/about/whoweare-bg@2x.jpg");
+    background-image: url("/images/about/whoweare-bg-small@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
   /* line 17, ../scss/pages/_about.scss */
   .who-we-are .who-we-are-bg {
+    background-image: url("/images/about/whoweare-bg.jpg");
     background-size: 1500px 636px;
-    background-position: center top;
+  }
+}
+@media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
+  /* line 17, ../scss/pages/_about.scss */
+  .who-we-are .who-we-are-bg {
+    background-image: url("/images/about/whoweare-bg@2x.jpg");
   }
 }
 
@@ -9566,6 +9572,34 @@ input.gsc-search-button:hover {
 /* line 156, ../scss/pages/_about.scss */
 .page-404 .page-tertiary {
   display: none;
+}
+
+/* line 163, ../scss/pages/_about.scss */
+.challenge-bg {
+  background-image: url("/images/about/challenge-bg-small.jpg");
+  background-size: cover !important;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 163, ../scss/pages/_about.scss */
+  .challenge-bg {
+    background-image: url("/images/about/challenge-bg-small@2x.jpg");
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 163, ../scss/pages/_about.scss */
+  .challenge-bg {
+    background-image: url("/images/about/challenge-bg.jpg");
+    background-size: 1500px 701px;
+    height: 700px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 40.063em) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 40.063em) and (min-device-pixel-ratio: 1.5) {
+  /* line 163, ../scss/pages/_about.scss */
+  .challenge-bg {
+    background-image: url("/images/about/challenge-bg@2x.jpg");
+  }
 }
 
 /* line 3, ../scss/pages/_chazown.scss */

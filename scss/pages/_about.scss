@@ -15,14 +15,14 @@
   }
 
   .who-we-are-bg {
-    @include background-image-2x-jpg('/images/about/whoweare-bg');
+    @include background-image-2x-jpg('/images/about/whoweare-bg-small');
     background-size: cover;
-    background-position: -340px top;
+    background-position: center top;
     background-repeat: no-repeat;
 
     @media #{$medium-up} {
+      @include background-image-2x-jpg('/images/about/whoweare-bg');
       background-size: 1500px 636px;
-      background-position: center top;
     }
   }
 }
@@ -157,3 +157,19 @@
     display: none;
   }
 }
+
+
+
+.challenge-bg {
+  @include background-image-2x-jpg('/images/about/challenge-bg-small');
+  background-size: cover !important;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  @media #{$medium-up} {
+    @include background-image-2x-jpg('/images/about/challenge-bg');
+    background-size: 1500px 701px;
+    height: 700px;
+  }
+}
+
