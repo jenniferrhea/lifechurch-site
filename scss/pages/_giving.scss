@@ -23,17 +23,20 @@
      }
   }
 
-  .icon-scrolldown {
-    @include svg-image('/images/giving/icon-scrolldown');
-    width: 67px;
-    height: 32px;
-    background-size: 67px 32px;
-    display: block;
-    margin: 0px auto 0;
-    position: absolute;
-    bottom: 80px;
-    left: 0;
-    right: 0;
+
+  @media #{$medium-up} {
+    .icon-scrolldown {
+      @include svg-image('/images/giving/icon-scrolldown');
+      width: 67px;
+      height: 32px;
+      background-size: 67px 32px;
+      display: block;
+      margin: 0px auto 0;
+      position: absolute;
+      bottom: 80px;
+      left: 0;
+      right: 0;
+    }
   }
 
   .hphoto-giving-tithe {

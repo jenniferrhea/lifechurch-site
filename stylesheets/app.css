@@ -8560,32 +8560,33 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 26, ../scss/pages/_giving.scss */
-.icon-scrolldown {
-  width: 67px;
-  height: 32px;
-  background-size: 67px 32px;
-  display: block;
-  margin: 0px auto 0;
-  position: absolute;
-  bottom: 80px;
-  left: 0;
-  right: 0;
+@media only screen and (min-width: 40.063em) {
+  /* line 28, ../scss/pages/_giving.scss */
+  .icon-scrolldown {
+    width: 67px;
+    height: 32px;
+    background-size: 67px 32px;
+    display: block;
+    margin: 0px auto 0;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+  }
+  /* line 5, ../scss/settings/_svgpng.scss */
+  .svg .icon-scrolldown {
+    background-image: url('/images/giving/icon-scrolldown.svg?1397241500');
+  }
+  /* line 6, ../scss/settings/_svgpng.scss */
+  .no-svg .icon-scrolldown {
+    background-image: url('/images/giving/icon-scrolldown.png?1397241443');
+  }
+  /* line 7, ../scss/settings/_svgpng.scss */
+  .no-js .icon-scrolldown {
+    background-image: url('/images/giving/icon-scrolldown.png?1397241443');
+  }
 }
-/* line 5, ../scss/settings/_svgpng.scss */
-.svg .icon-scrolldown {
-  background-image: url('/images/giving/icon-scrolldown.svg?1397241500');
-}
-/* line 6, ../scss/settings/_svgpng.scss */
-.no-svg .icon-scrolldown {
-  background-image: url('/images/giving/icon-scrolldown.png?1397241443');
-}
-/* line 7, ../scss/settings/_svgpng.scss */
-.no-js .icon-scrolldown {
-  background-image: url('/images/giving/icon-scrolldown.png?1397241443');
-}
-
-/* line 39, ../scss/pages/_giving.scss */
+/* line 42, ../scss/pages/_giving.scss */
 .hphoto-giving-tithe {
   background-image: url("/images/giving/giving-bg.jpg");
   background-repeat: no-repeat;
@@ -8593,19 +8594,19 @@ input.gsc-search-button:hover {
   background-size: cover;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 39, ../scss/pages/_giving.scss */
+  /* line 42, ../scss/pages/_giving.scss */
   .hphoto-giving-tithe {
     background-image: url("/images/giving/giving-bg@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 39, ../scss/pages/_giving.scss */
+  /* line 42, ../scss/pages/_giving.scss */
   .hphoto-giving-tithe {
     background-size: 1500px 634px;
   }
 }
 
-/* line 50, ../scss/pages/_giving.scss */
+/* line 53, ../scss/pages/_giving.scss */
 .hphoto-giving-spacesplaces {
   background-image: url("/images/giving/spaces-places.jpg");
   background-repeat: no-repeat;
@@ -8613,19 +8614,19 @@ input.gsc-search-button:hover {
   background-size: auto 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 50, ../scss/pages/_giving.scss */
+  /* line 53, ../scss/pages/_giving.scss */
   .hphoto-giving-spacesplaces {
     background-image: url("/images/giving/spaces-places@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 50, ../scss/pages/_giving.scss */
+  /* line 53, ../scss/pages/_giving.scss */
   .hphoto-giving-spacesplaces {
     background-size: 1500px 450px;
   }
 }
 
-/* line 61, ../scss/pages/_giving.scss */
+/* line 64, ../scss/pages/_giving.scss */
 .hphoto-giving-reliefrestoration {
   background-image: url("/images/giving/relief-restoration.jpg");
   background-repeat: no-repeat;
@@ -8633,19 +8634,19 @@ input.gsc-search-button:hover {
   background-size: auto 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 61, ../scss/pages/_giving.scss */
+  /* line 64, ../scss/pages/_giving.scss */
   .hphoto-giving-reliefrestoration {
     background-image: url("/images/giving/relief-restoration@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 61, ../scss/pages/_giving.scss */
+  /* line 64, ../scss/pages/_giving.scss */
   .hphoto-giving-reliefrestoration {
     background-size: 1500px 450px;
   }
 }
 
-/* line 72, ../scss/pages/_giving.scss */
+/* line 75, ../scss/pages/_giving.scss */
 .hphoto-giving-digitalmissions {
   background-image: url("/images/giving/digital-missions.jpg");
   background-repeat: no-repeat;
@@ -8653,26 +8654,26 @@ input.gsc-search-button:hover {
   background-size: auto 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 72, ../scss/pages/_giving.scss */
+  /* line 75, ../scss/pages/_giving.scss */
   .hphoto-giving-digitalmissions {
     background-image: url("/images/giving/digital-missions@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 72, ../scss/pages/_giving.scss */
+  /* line 75, ../scss/pages/_giving.scss */
   .hphoto-giving-digitalmissions {
     background-size: 1500px 450px;
   }
 }
 
-/* line 85, ../scss/pages/_giving.scss */
+/* line 88, ../scss/pages/_giving.scss */
 .giving-main .button.inverse,
 .giving-ways .button.inverse {
   border-color: rgba(255, 255, 255, 0.5);
   color: #fff;
 }
 
-/* line 91, ../scss/pages/_giving.scss */
+/* line 94, ../scss/pages/_giving.scss */
 .giving-1 {
   width: 50px;
   height: 50px;
@@ -8689,25 +8690,25 @@ input.gsc-search-button:hover {
   margin: 0 auto -15px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 91, ../scss/pages/_giving.scss */
+  /* line 94, ../scss/pages/_giving.scss */
   .giving-1 {
     margin: 0 auto -35px;
   }
 }
 
-/* line 107, ../scss/pages/_giving.scss */
+/* line 110, ../scss/pages/_giving.scss */
 .figure-spacesplaces {
   padding-top: 30px;
   margin: 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 107, ../scss/pages/_giving.scss */
+  /* line 110, ../scss/pages/_giving.scss */
   .figure-spacesplaces {
     padding-top: 30px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 107, ../scss/pages/_giving.scss */
+  /* line 110, ../scss/pages/_giving.scss */
   .figure-spacesplaces {
     border: 2px solid #ccc;
     border-radius: 2000px;
@@ -8717,25 +8718,25 @@ input.gsc-search-button:hover {
   }
 }
 
-/* line 126, ../scss/pages/_giving.scss */
+/* line 129, ../scss/pages/_giving.scss */
 .section-giving-numbers {
   background: #1e1e1e;
   padding-top: 3em;
   padding-bottom: 3em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 126, ../scss/pages/_giving.scss */
+  /* line 129, ../scss/pages/_giving.scss */
   .section-giving-numbers {
     padding-top: 6em;
     padding-bottom: 6em;
   }
 }
-/* line 136, ../scss/pages/_giving.scss */
+/* line 139, ../scss/pages/_giving.scss */
 .section-giving-numbers img {
   width: 90px;
   height: 90px;
 }
-/* line 141, ../scss/pages/_giving.scss */
+/* line 144, ../scss/pages/_giving.scss */
 .section-giving-numbers .number {
   font-size: 3em;
   color: #b9252d;
@@ -8744,78 +8745,78 @@ input.gsc-search-button:hover {
   margin-top: 0 !important;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 141, ../scss/pages/_giving.scss */
+  /* line 144, ../scss/pages/_giving.scss */
   .section-giving-numbers .number {
     font-size: 5em;
   }
 }
 
-/* line 158, ../scss/pages/_giving.scss */
+/* line 161, ../scss/pages/_giving.scss */
 .section-challenge-video {
   background: #333;
 }
 
-/* line 166, ../scss/pages/_giving.scss */
+/* line 169, ../scss/pages/_giving.scss */
 .restore blockquote cite {
   color: #e0646b;
 }
-/* line 170, ../scss/pages/_giving.scss */
+/* line 173, ../scss/pages/_giving.scss */
 .restore .primary-links .live {
   color: #641418 !important;
 }
 
-/* line 175, ../scss/pages/_giving.scss */
+/* line 178, ../scss/pages/_giving.scss */
 .section-restore-1 {
   background: black url("/images/giving/restore-bg-1.jpg") center bottom no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 175, ../scss/pages/_giving.scss */
+  /* line 178, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 250px;
     padding-bottom: 50px;
   }
 }
 @media only screen and (min-height: 620px) {
-  /* line 175, ../scss/pages/_giving.scss */
+  /* line 178, ../scss/pages/_giving.scss */
   .section-restore-1 {
     padding-top: 350px;
     padding-bottom: 80px;
   }
 }
 
-/* line 191, ../scss/pages/_giving.scss */
+/* line 194, ../scss/pages/_giving.scss */
 .section-restore-2 {
   background: #222;
 }
 
-/* line 195, ../scss/pages/_giving.scss */
+/* line 198, ../scss/pages/_giving.scss */
 .hphoto-restore {
   background-image: url("/images/giving/restore-bg-2.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 195, ../scss/pages/_giving.scss */
+  /* line 198, ../scss/pages/_giving.scss */
   .hphoto-restore {
     background-image: url("/images/giving/restore-bg-2@2x.jpg");
   }
 }
 
-/* line 201, ../scss/pages/_giving.scss */
+/* line 204, ../scss/pages/_giving.scss */
 .section-restore-3 {
   background: #222;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 201, ../scss/pages/_giving.scss */
+  /* line 204, ../scss/pages/_giving.scss */
   .section-restore-3 {
     padding-top: 5em;
     padding-bottom: 4em;
   }
 }
 
-/* line 214, ../scss/pages/_giving.scss */
+/* line 217, ../scss/pages/_giving.scss */
 .digital-missions .digital-missions-bg {
   height: 600px;
   background-image: url("/images/digital-missions/dm-bg.jpg");
@@ -8825,37 +8826,37 @@ input.gsc-search-button:hover {
   background-position: center bottom;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 214, ../scss/pages/_giving.scss */
+  /* line 217, ../scss/pages/_giving.scss */
   .digital-missions .digital-missions-bg {
     background-image: url("/images/digital-missions/dm-bg@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 214, ../scss/pages/_giving.scss */
+  /* line 217, ../scss/pages/_giving.scss */
   .digital-missions .digital-missions-bg {
     background-size: 1500px 450px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 227, ../scss/pages/_giving.scss */
+  /* line 230, ../scss/pages/_giving.scss */
   .digital-missions .biblekids {
     margin-top: -180px;
   }
 }
 
-/* line 237, ../scss/pages/_giving.scss */
+/* line 240, ../scss/pages/_giving.scss */
 .equipping-churches h2, .equipping-churches .h2, .equipping-churches figcaption, .equipping-churches .section-giving-numbers .number, .section-giving-numbers .equipping-churches .number {
   margin-top: 15px !important;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 241, ../scss/pages/_giving.scss */
+  /* line 244, ../scss/pages/_giving.scss */
   .equipping-churches .digital-missions-bg {
     height: 750px;
   }
 }
 
-/* line 251, ../scss/pages/_giving.scss */
+/* line 254, ../scss/pages/_giving.scss */
 .hphoto-lifemissions {
   background-image: url("/images/lifemissions/lm-lifemissions.jpg");
   background-repeat: no-repeat;
@@ -8863,19 +8864,19 @@ input.gsc-search-button:hover {
   background-size: auto 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 251, ../scss/pages/_giving.scss */
+  /* line 254, ../scss/pages/_giving.scss */
   .hphoto-lifemissions {
     background-image: url("/images/lifemissions/lm-lifemissions@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 251, ../scss/pages/_giving.scss */
+  /* line 254, ../scss/pages/_giving.scss */
   .hphoto-lifemissions {
     background-size: 1500px 450px;
   }
 }
 
-/* line 262, ../scss/pages/_giving.scss */
+/* line 265, ../scss/pages/_giving.scss */
 .hphoto-lifemissions-2 {
   background-image: url("/images/lifemissions/lm-bg-2.jpg");
   background-repeat: no-repeat;
@@ -8883,19 +8884,19 @@ input.gsc-search-button:hover {
   background-size: auto 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 262, ../scss/pages/_giving.scss */
+  /* line 265, ../scss/pages/_giving.scss */
   .hphoto-lifemissions-2 {
     background-image: url("/images/lifemissions/lm-bg-2@2x.jpg");
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 262, ../scss/pages/_giving.scss */
+  /* line 265, ../scss/pages/_giving.scss */
   .hphoto-lifemissions-2 {
     background-size: 1500px 550px;
   }
 }
 
-/* line 276, ../scss/pages/_giving.scss */
+/* line 279, ../scss/pages/_giving.scss */
 [data-stat-count] .stat {
   opacity: 0;
   height: 0;
@@ -8906,7 +8907,7 @@ input.gsc-search-button:hover {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/* line 286, ../scss/pages/_giving.scss */
+/* line 289, ../scss/pages/_giving.scss */
 [data-stat-count] .stat:first-child {
   opacity: 1;
   height: auto;
