@@ -294,3 +294,16 @@
   }
 }
 
+
+
+// Equipping Churches page
+
+.equipping-churches {
+
+  @media #{$small-only} {
+    .section-first {
+      height: 670px;
+    }
+  }
+
+}

@@ -8914,6 +8914,13 @@ input.gsc-search-button:hover {
   width: auto;
 }
 
+@media only screen and (max-width: 40em) {
+  /* line 304, ../scss/pages/_giving.scss */
+  .equipping-churches .section-first {
+    height: 670px;
+  }
+}
+
 @media only screen and (min-width: 40.063em) {
   /* line 5, ../scss/pages/_lifegroups.scss */
   .section-lifegroups-top {
