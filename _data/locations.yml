@@ -2,6 +2,7 @@
 - id: mor
   title: Moore OK Campus
   email: ''
+  phone: (405) 237-4844
   address: 2916 S. Telephone Rd. Moore, OK 73160
   facebook: '409843575804511'
   times:
@@ -54,6 +55,7 @@
 - id: alb
   title: Albany NY Campus
   email: ''
+  phone: 518-456-0969
   address: 560 Sand Creek Rd Albany, NY 12205
   facebook: '198238577847'
   times:
@@ -134,6 +136,7 @@
 - id: hnv
   title: Hendersonville TN Campus
   email: ''
+  phone: 615-338-7241
   address: 120 Indian Lake Blvd Hendersonville, TN 37075
   facebook: '121921428281'
   times:
@@ -220,6 +223,7 @@
 - id: wel
   title: Wellington FL Campus
   email: ''
+  phone: 561-793-6889
   address: 3061 State Road 7 Wellington, FL 33449
   facebook: '105749019464173'
   times:
@@ -299,6 +303,7 @@
 - id: ftw
   title: Fort Worth TX Campus
   email: ''
+  phone: 817-923-5433
   address: 5298 Trail Lake Dr Fort Worth, TX 76133
   facebook: '236157182628'
   times:
@@ -391,6 +396,7 @@
 - id: klr
   title: Keller TX Campus
   email: ''
+  phone: (682) 593-1140
   address: 801 Bear Creek Parkway Keller, TX 76248
   facebook: '343331435797233'
   times:
@@ -418,6 +424,7 @@
 - id: jnk
   title: Jenks OK Campus
   email: ''
+  phone: (539) 777-1000
   address: 890 W 81st St Tulsa, OK 74132
   facebook: '283866385077708'
   times:
@@ -524,6 +531,7 @@
 - id: bao
   title: Broken Arrow OK Campus
   email: ''
+  phone: (918) 615-4246
   address: 2420 E Kenosha Street Broken Arrow, OK 74014
   facebook: '229503863780213'
   times:
@@ -635,6 +643,7 @@
 - id: mwc
   title: Midwest City OK Campus
   email: ''
+  phone: 405-622-3233
   address: 6809 E Reno Ave Midwest City, OK 73110
   facebook: '141521929249905'
   times:
@@ -721,6 +730,7 @@
 - id: ykn
   title: Yukon OK Campus
   email: ''
+  phone: 405-605-5433
   address: 1101 E Main Street Yukon, OK 73099
   facebook: '310515131268'
   times:
@@ -824,6 +834,7 @@
 - id: ows
   title: Owasso OK Campus
   email: ''
+  phone: 918-272-4393
   address: 14008 E. 96th St.  Owasso, OK 74055
   facebook: '136945189263'
   times:
@@ -938,6 +949,7 @@
 - id: tul
   title: Tulsa OK Campus
   email: ''
+  phone: 918-459-5433
   address: 7015 E. 41st St Tulsa, OK 74145
   facebook: '111300269668'
   times:
@@ -1030,6 +1042,7 @@
 - id: stw
   title: Stillwater OK Campus
   email: ''
+  phone: 405-624-5433
   address: 1917 North Country Club Rd Stillwater, OK 74075
   facebook: '111614742192203'
   times:
@@ -1133,6 +1146,7 @@
 - id: sto
   title: South Tulsa OK Campus
   email: ''
+  phone: 918-938-0900
   address: 7071 East 121st St Bixby, OK 74008
   facebook: '168831606831'
   times:
@@ -1247,6 +1261,7 @@
 - id: soc
   title: South Oklahoma City OK Campus
   email: ''
+  phone: 405-216-5433
   address: 7800 S. Walker Ave Oklahoma City, OK 73139
   facebook: '152357570862'
   times:
@@ -1370,6 +1385,7 @@
 - id: okc
   title: Oklahoma City OK Campus
   email: ''
+  phone: 405-478-5433
   address: 2001 NW 178th St Edmond, OK 73012
   facebook: '284153305483'
   times:
@@ -1488,6 +1504,7 @@
 - id: noc
   title: NW Oklahoma City OK Campus
   email: ''
+  phone: 405-748-5433
   address: 5821 NW Expressway Oklahoma City, OK 73132
   facebook: '156898983627'
   times:
@@ -1615,6 +1632,7 @@
 - id: edm
   title: Edmond OK Campus
   email: ''
+  phone: 405-688-5433
   address: 4600 E. 2nd St Edmond, OK 73034
   facebook: '206643266075'
   times:
