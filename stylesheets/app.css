@@ -5711,71 +5711,81 @@ html {
   height: 100%;
 }
 
+/* line 60, ../scss/design/_more.scss */
+.touch.js .page-more-inner {
+  top: 90px !important;
+}
+
 @media only screen and (max-width: 40em) {
-  /* line 61, ../scss/design/_more.scss */
+  /* line 65, ../scss/design/_more.scss */
   .js .home .page-more {
     position: relative;
     display: block;
   }
+
+  /* line 70, ../scss/design/_more.scss */
+  .js .home .page-more-inner {
+    top: 0 !important;
+  }
 }
-/* line 67, ../scss/design/_more.scss */
+/* line 75, ../scss/design/_more.scss */
 .page-more-inner {
   position: relative;
   top: 0;
   background: #fff;
 }
 
-/* line 73, ../scss/design/_more.scss */
+/* line 81, ../scss/design/_more.scss */
 .page-more a {
   display: block;
   margin: 0 -10px;
   padding: 0 10px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 73, ../scss/design/_more.scss */
+  /* line 81, ../scss/design/_more.scss */
   .page-more a {
     padding: 10px;
   }
-  /* line 81, ../scss/design/_more.scss */
+  /* line 89, ../scss/design/_more.scss */
   .page-more a p, .page-more a ul li, ul .page-more a li {
     margin: 0;
   }
 }
 
-/* line 87, ../scss/design/_more.scss */
+/* line 95, ../scss/design/_more.scss */
 .no-touch .page-more a:hover {
   background-color: #e7faff;
 }
 
-/* line 93, ../scss/design/_more.scss */
+/* line 101, ../scss/design/_more.scss */
 .page-more-inner p, .page-more-inner ul li, ul .page-more-inner li {
   font-size: .9em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 93, ../scss/design/_more.scss */
+  /* line 101, ../scss/design/_more.scss */
   .page-more-inner p, .page-more-inner ul li, ul .page-more-inner li {
     font-size: 1em;
   }
 }
 
-/* line 102, ../scss/design/_more.scss */
+/* line 110, ../scss/design/_more.scss */
 .page-more-inner h4, .page-more-inner .h4, .page-more-inner .location-tile, .page-more-inner .lifegroups-tile span, .lifegroups-tile .page-more-inner span {
   margin: 7px 0 8px;
 }
 
-/* line 106, ../scss/design/_more.scss */
+/* line 114, ../scss/design/_more.scss */
 .more-watch-small {
   margin: 0 -15px !important;
   padding: 15px !important;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 112, ../scss/design/_more.scss */
+  /* line 120, ../scss/design/_more.scss */
   .home .page-more {
     margin-top: -5px !important;
   }
 
-  /* line 116, ../scss/design/_more.scss */
+  /* line 124, ../scss/design/_more.scss */
   .page-more h4, .page-more .h4, .page-more .location-tile, .page-more .lifegroups-tile span, .lifegroups-tile .page-more span {
     margin-bottom: 2px !important;
   }

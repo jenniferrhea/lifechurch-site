@@ -56,12 +56,20 @@
       width: 100%;
       height: 100%;
   }
-  
-  @media #{$small-only} {
-  .js .home .page-more {
-    position: relative;
-    display: block;
+
+  .touch.js .page-more-inner {
+    top: 90px !important;
   }
+
+  @media #{$small-only} {
+    .js .home .page-more {
+      position: relative;
+      display: block;
+    }
+
+    .js .home .page-more-inner {
+      top: 0 !important;
+    }
   }
 
   .page-more-inner {

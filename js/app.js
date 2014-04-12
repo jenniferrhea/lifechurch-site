@@ -13,9 +13,12 @@ $(function() {
 
       // Open the more panel
       $( ".primary-links" ).delegate( ".nav-more", "click", function() {
-        $(".page-more").fadeIn();
+        $(".no-touch .page-more").fadeIn();
+        $(".touch .page-more").show();
+
         $("html").addClass("html-more");
-        $(".page-more-inner").animate({
+        
+        $(".no-touch .page-more-inner").animate({
           top: '90px'
         }, 400, function() {
           // Animation complete.
@@ -33,9 +36,12 @@ $(function() {
 
     // Close the more panel
     $( ".primary-links" ).delegate( ".nav-close-more", "click", function() {
-      $(".page-more").fadeOut();
+      $(".no-touch .page-more").fadeOut();
+      $(".touch .page-more").hide();
+
       $("html").removeClass("html-more");
-      $(".page-more-inner").animate({ top: '0' }, 400, function() {});
+      
+      $(".no-touch .page-more-inner").animate({ top: '0' }, 400, function() {});
 
       $(this).removeClass("nav-close-more").addClass("nav-more");
 
